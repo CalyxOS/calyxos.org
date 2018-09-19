@@ -13,6 +13,7 @@ This document is intended to set forward a plan for forking AOSP 9.0, and making
 | aosp/other repo name | gitlab name | purpose |
 |----------------|-------------|---------|
 | platform/manifest | platform_manifest | The manifest |
+| platform/build | platform_build | Build system |
 | device/$foo | device_$foo | Device specific changes |
 | kernel/$device | kernel_$device | Inline kernel build + other changes |
 | android-prepare-vendor[^2] | vendor_android-prepare-vendor | Blob scripts |
