@@ -14,6 +14,7 @@ This document is intended to set forward a plan for forking AOSP 9.0, and making
 |----------------|-------------|---------|
 | platform/manifest | platform_manifest | The manifest |
 | device/$foo | device_$foo | Device specific changes |
+| kernel/$device | kernel_$device | Inline kernel build + other changes |
 
 References:
 
