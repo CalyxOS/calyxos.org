@@ -20,5 +20,7 @@ This document is intended to set forward a plan for forking AOSP 9.0, and making
 
 References:
 
+- https://source.android.com/setup/start/build-numbers.html#source-code-tags-and-builds
+
 [^1]: Will be via F-Droid in the future, see https://gitlab.com/fdroid/fdroidclient/issues/1546
 [^2]: https://github.com/anestisb/android-prepare-vendor
