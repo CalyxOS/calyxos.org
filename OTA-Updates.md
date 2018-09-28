@@ -14,7 +14,7 @@ Pros:
 Cons:
 * Licensing :(
 
-# Alternatives:
+# Alternatives
 
 ### LineageOS Updater
 Client: https://github.com/LineageOS/android_packages_apps_Updater
