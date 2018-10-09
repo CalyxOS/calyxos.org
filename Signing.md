@@ -2,5 +2,17 @@ Signing the generated files on a different, offline machine and creating ota upd
 
 Writing down the process manually right now, to be scripted once it's working!
 
+Repos needed:
+* development
+* build
+
+Tools needed:
+* signapk.jar
+* dumpkey.jar
+* mkbootfs
+* minigzip
+* mkbootimg
+* 
+
 References:
 * https://source.android.com/devices/tech/ota/sign_builds
