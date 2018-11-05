@@ -6,6 +6,7 @@ This documents aims to match Android One devices to CalyxOS requirements, which 
 * Bootloader relocking with custom OS would be a big plus
 
 Devices: (basically the 2018 list from https://en.wikipedia.org/wiki/Android_One)
+Left out the Mediatek devices, any flagship level expensive devices, and also the Japan only Sharp devices.
 
 | OEM | Model | Country | SoC | Price (Indian, converted to USD) | Details |
 |-----|-------|---------|-----|----------------------------------|---------|
