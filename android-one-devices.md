@@ -33,7 +33,7 @@ Xiaomi:
 Motorola:
 * Need to get some data from the device via fastboot, put it on their website to see if device can be unlocked, and then unlock it using a key they provide.
 
-Nokia:
+Nokia: (might not work anymore)
 * They have an app to check if your device is supported (not seeing a list of supported devices on their website)
 * Device support seems to vary not just by model but also IMEI / carrier / etc
 * An "unlock key" is emailed which needs to be flashed to the device (fastboot flash unlock unlock.key) and then you run fastboot oem unlock
