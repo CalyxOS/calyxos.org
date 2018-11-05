@@ -12,17 +12,17 @@ TODO:
 Devices: (basically the 2018 list from https://en.wikipedia.org/wiki/Android_One)
 Left out the Mediatek devices, any flagship level expensive devices, and also the Japan only Sharp devices.
 
-| OEM | Model | Country | SoC | Price (Indian, converted to USD) | Details | Pie |
-|-----|-------|---------|-----|----------------------------------|---------| --- |
-| Xiaomi | Mi A2 | Worldwide* | Snapdragon 660 | $205 | - | Not yet |
-| Xiaomi | Mi A2 Lite | Worldwide* | Snapdragon 625 | Unavailable | - | Not yet |
-| Motorola | Motorola One Power | Worldwide* | Snapdragon 636 | $220 | - | Not yet |
-| BQ | Aquaris X2 Pro | Europe | Snapdragon 660 | - | Expensive | Not yet |
-| BQ | Aquaris X2 | Europe | Snapdragon 636 | - | Expensive | Not yet |
-| Nokia | 6.1 | Worldwide* | Snapdragon 630 | $180 | Bootloader unlock concerns | Yes |
-| Nokia | 6.1 plus | Worldwide* | Snapdragon 636 | $205 | Bootloader unlock concerns | Yes |
-| Nokia | 7 plus | Worldwide* | Snapdragon 660 | $315 | Bootloader unlock concerns | Not yet |
-| Nokia | 7.1 | Worldwide* | Snapdragon 636 | Unavailable | Bootloader unlock concerns | Not yet |
+| OEM | Model | Country | SoC | Price (in India, converted to USD) | Misc | Pie | Kernel Source |
+|-----|-------|---------|-----|------------------------------------|----- | --- | ------------- |
+| Xiaomi | Mi A2 | Worldwide* | Snapdragon 660 | $205 | - | Not yet | https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/jasmine-o-oss |
+| Xiaomi | Mi A2 Lite | Worldwide* | Snapdragon 625 | Unavailable | - | Not yet | https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/daisy-o-oss |
+| Motorola | Motorola One Power | Worldwide* | Snapdragon 636 | $220 | - | Not yet | https://github.com/MotorolaMobilityLLC/kernel-msm/tree/oreo-8.1.0-release-cf |
+| BQ | Aquaris X2 Pro | Europe | Snapdragon 660 | 389,90€ | Expensive | Not yet | https://github.com/bq/aquaris-X2-Pro |
+| BQ | Aquaris X2 | Europe | Snapdragon 636 | 309,90€ | Expensive | Not yet | https://github.com/bq/aquaris-X2 |
+| Nokia | 6.1 | Worldwide* | Snapdragon 630 | $180 | Bootloader unlock concerns | Yes | https://www.nokia.com/en_int/phones/opensource |
+| Nokia | 6.1 plus | Worldwide* | Snapdragon 636 | $205 | Bootloader unlock concerns | Yes | Not available |
+| Nokia | 7 plus | Worldwide* | Snapdragon 660 | $315 | Bootloader unlock concerns | Not yet | Not available |
+| Nokia | 7.1 | Worldwide* | Snapdragon 636 | Unavailable | Bootloader unlock concerns | Not yet | Not available |
 
 
 Bootloader unlock process:
