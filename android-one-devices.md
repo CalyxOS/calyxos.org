@@ -23,3 +23,16 @@ Left out the Mediatek devices, any flagship level expensive devices, and also th
 | Nokia | 6.1 plus | Worldwide* | Snapdragon 636 | $205 | Bootloader unlock concerns |
 | Nokia | 7 plus | Worldwide* | Snapdragon 660 | $315 | Bootloader unlock concerns |
 | Nokia | 7.1 | Worldwide* | Snapdragon 636 | Unavailable | Bootloader unlock concerns |
+
+
+Bootloader unlock process:
+Xiaomi:
+* Simple, same as Pixels, fastboot flashing unlock
+
+Motorola:
+* Need to get some data from the device via fastboot, put it on their website to see if device can be unlocked, and then unlock it using a key they provide.
+
+Nokia:
+* They have an app to check if your device is supported (not seeing a list of supported devices on their website)
+* Device support seems to vary not just by model but also IMEI / carrier / etc
+* An "unlock key" is emailed which needs to be flashed to the device (fastboot flash unlock unlock.key) and then you run fastboot oem unlock
