@@ -26,6 +26,7 @@ Left out the Mediatek devices, any flagship level expensive devices, and also th
 
 
 Bootloader unlock process:
+
 Xiaomi:
 * Simple, same as Pixels, fastboot flashing unlock
 
