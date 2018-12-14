@@ -15,7 +15,7 @@ Left out the Mediatek devices, any flagship level expensive devices, and also th
 | OEM | Model | Country | SoC | Price (in India, converted to USD) | Misc | Pie | Kernel Source |
 |-----|-------|---------|-----|------------------------------------|----- | --- | ------------- |
 | Xiaomi | Mi A2 | Worldwide* | Snapdragon 660 | $205 | - | YES | https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/jasmine-p-oss |
-| Xiaomi | Mi A2 Lite | Worldwide* | Snapdragon 625 | Unavailable, ~$155 to import from China | - | YES | https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/daisy-p-oss |
+| Xiaomi | Mi A2 Lite | Worldwide* | Snapdragon 625 | ~$155 (AliExpress) | - | YES | https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/daisy-p-oss |
 | Motorola | Motorola One Power | Worldwide* | Snapdragon 636 | $220 | - | Not yet | https://github.com/MotorolaMobilityLLC/kernel-msm/tree/oreo-8.1.0-release-cf |
 | BQ | Aquaris X2 Pro | Europe | Snapdragon 660 | 389,90€ | Expensive | Not yet | https://github.com/bq/aquaris-X2-Pro |
 | BQ | Aquaris X2 | Europe | Snapdragon 636 | 309,90€ | Expensive | Not yet | https://github.com/bq/aquaris-X2 |
@@ -23,6 +23,9 @@ Left out the Mediatek devices, any flagship level expensive devices, and also th
 | Nokia | 6.1 plus | Worldwide* | Snapdragon 636 | $205 | Bootloader unlock concerns | Yes | Not available |
 | Nokia | 7 plus | Worldwide* | Snapdragon 660 | $315 | Bootloader unlock concerns | Not yet | Not available |
 | Nokia | 7.1 | Worldwide* | Snapdragon 636 | Unavailable | Bootloader unlock concerns | Not yet | Not available |
+
+Note:
+* Unless explicitly stated, the prices are for the lowest variant available, even if it has less RAM than higher variants
 
 
 Bootloader unlock process:
