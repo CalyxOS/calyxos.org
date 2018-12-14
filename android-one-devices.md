@@ -15,7 +15,7 @@ Left out the Mediatek devices, any flagship level expensive devices, and also th
 | OEM | Model | Country | SoC | Price (in India, converted to USD) | Misc | Pie | Kernel Source |
 |-----|-------|---------|-----|------------------------------------|----- | --- | ------------- |
 | Xiaomi | Mi A2 | Worldwide* | Snapdragon 660 | $205 | - | YES | https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/jasmine-p-oss |
-| Xiaomi | Mi A2 Lite | Worldwide* | Snapdragon 625 | Unavailable | - | YES | https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/daisy-p-oss |
+| Xiaomi | Mi A2 Lite | Worldwide* | Snapdragon 625 | Unavailable, ~$155 to import from China | - | YES | https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/daisy-p-oss |
 | Motorola | Motorola One Power | Worldwide* | Snapdragon 636 | $220 | - | Not yet | https://github.com/MotorolaMobilityLLC/kernel-msm/tree/oreo-8.1.0-release-cf |
 | BQ | Aquaris X2 Pro | Europe | Snapdragon 660 | 389,90€ | Expensive | Not yet | https://github.com/bq/aquaris-X2-Pro |
 | BQ | Aquaris X2 | Europe | Snapdragon 636 | 309,90€ | Expensive | Not yet | https://github.com/bq/aquaris-X2 |
