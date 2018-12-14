@@ -1,13 +1,13 @@
 This document is intended to set forward a plan for forking AOSP 9.0, and making any required changes.
 
 ## TODO items
-- [ ] Inline kernel building
-- [ ] android-prepare-vendor
-- [ ] OTA Updates
-- [ ] Default wallpaper, bootanimation
-- [ ] (Temporary) Apps bundled with OS[^1]
-- [ ] Build and sign scripts
-- [ ] Branding
+- [x] Inline kernel building
+- [x] android-prepare-vendor
+- [x] OTA Updates
+- [x] Default wallpaper, bootanimation
+- [x] (Temporary) Apps bundled with OS[^1]
+- [x] Build and sign scripts
+- [ ] Branding?
 
 ## List of forked repos with purpose
 | aosp/other repo name | gitlab name | purpose |
