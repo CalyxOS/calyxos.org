@@ -14,8 +14,8 @@ Left out the Mediatek devices, any flagship level expensive devices, and also th
 
 | OEM | Model | Country | SoC | Price (in India, converted to USD) | Misc | Pie | Kernel Source |
 |-----|-------|---------|-----|------------------------------------|----- | --- | ------------- |
-| Xiaomi | Mi A2 | Worldwide* | Snapdragon 660 | $205 | - | Not yet | https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/jasmine-o-oss |
-| Xiaomi | Mi A2 Lite | Worldwide* | Snapdragon 625 | Unavailable | - | Not yet | https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/daisy-o-oss |
+| Xiaomi | Mi A2 | Worldwide* | Snapdragon 660 | $205 | - | YES | https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/jasmine-p-oss |
+| Xiaomi | Mi A2 Lite | Worldwide* | Snapdragon 625 | Unavailable | - | YES | https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/daisy-p-oss |
 | Motorola | Motorola One Power | Worldwide* | Snapdragon 636 | $220 | - | Not yet | https://github.com/MotorolaMobilityLLC/kernel-msm/tree/oreo-8.1.0-release-cf |
 | BQ | Aquaris X2 Pro | Europe | Snapdragon 660 | 389,90€ | Expensive | Not yet | https://github.com/bq/aquaris-X2-Pro |
 | BQ | Aquaris X2 | Europe | Snapdragon 636 | 309,90€ | Expensive | Not yet | https://github.com/bq/aquaris-X2 |
@@ -28,7 +28,7 @@ Left out the Mediatek devices, any flagship level expensive devices, and also th
 Bootloader unlock process:
 
 Xiaomi:
-* Simple, same as Pixels, fastboot flashing unlock
+* Simple, same as Pixels, fastboot flashing unlock, and then fastboot flashing lock after flashing a properly signed custom OS
 
 Motorola:
 * Need to get some data from the device via fastboot, put it on their website to see if device can be unlocked, and then unlock it using a key they provide.
