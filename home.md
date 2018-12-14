@@ -11,7 +11,7 @@ TODOS - in no particular order
 - [ ] Documentation (Changes from AOSP, Build & Installation steps, more as needed)
 - [ ] F-Droid repo containing the prebundled apps
 
-(Old) Pages:
+Pages:
 * [AOSP 9.0 plan](AOSP-9.0-plan)
 * [OTA Updates](OTA-Updates)
 * [Signing](Signing)
