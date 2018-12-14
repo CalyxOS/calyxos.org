@@ -13,6 +13,8 @@ TODOS - in no particular order
 - [ ] 2FA for fingerprint
 - [ ] Yubikey for device auth
 - [ ] apk overlay (e.g. for etesync)
+- [ ] Automated builds
+- [ ] CI (maybe gitlab ci?)
 
 Pages:
 * [AOSP 9.0 plan](AOSP-9.0-plan)
