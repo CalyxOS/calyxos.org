@@ -8,7 +8,7 @@ TODOS - in no particular order
 - [ ] Mi A2 bringup (so that it can actually be used)
 - [ ] Browser and Webview (Chromium or maybe Brave)
 - [ ] Reconsider & update default app placement if needed
-- [ ] 
+- [ ] Documentation (Changes from AOSP, Build & Installation steps, more as needed)
 
 (Old) Pages:
 * [AOSP 9.0 plan](AOSP-9.0-plan)
