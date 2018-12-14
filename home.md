@@ -12,6 +12,7 @@ TODOS - in no particular order
 - [ ] F-Droid repo containing the prebundled apps
 - [ ] 2FA for fingerprint
 - [ ] Yubikey for device auth
+- [ ] apk overlay (e.g. for etesync)
 
 Pages:
 * [AOSP 9.0 plan](AOSP-9.0-plan)
