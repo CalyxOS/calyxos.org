@@ -15,11 +15,11 @@ TODOS - in no particular order
 - [ ] apk overlay (e.g. for etesync)
 
 Pages:
-* [SetupWizard & F-Droid integration](SetupWizard-&-F-Droid-integration)
 * [AOSP 9.0 plan](AOSP-9.0-plan)
 * [OTA Updates](OTA-Updates)
 * [Signing](Signing)
 * [Android One devices](android-one-devices)
 * [Mi A2](mi-a2)
+* [SetupWizard & F-Droid integration](SetupWizard-&-F-Droid-integration)
 
 Most of these are either figured out, implemented or no longer necessary.
