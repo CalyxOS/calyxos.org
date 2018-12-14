@@ -7,7 +7,7 @@ This documents aims to match Android One devices to CalyxOS requirements, which 
 
 TODO:
 * Figure out whether mediatek + treble is a good choice
-* Figure out which devices support bootloader re-locking at all, and/or with a custom OS (like Google devices)
+* Figure out which devices in addition to Mi A2 (Lite?) support bootloader re-locking at all, and/or with a custom OS (like Google devices)
 
 Devices: (basically the 2018 list from https://en.wikipedia.org/wiki/Android_One)
 Left out the Mediatek devices, any flagship level expensive devices, and also the Japan only Sharp devices.
