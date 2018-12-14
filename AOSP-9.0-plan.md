@@ -9,7 +9,7 @@ This document is intended to set forward a plan for forking AOSP 9.0, and making
 - [x] Build and sign scripts
 - [ ] Branding?
 
-## List of forked repos with purpose
+## List of forked repos with purpose (no longer up to date)
 | aosp/other repo name | gitlab name | purpose |
 |----------------|-------------|---------|
 | platform/manifest | platform_manifest | The manifest |
