@@ -10,6 +10,8 @@ TODOS - in no particular order
 - [ ] Reconsider & update default app placement if needed
 - [ ] Documentation (Changes from AOSP, Build & Installation steps, more as needed)
 - [ ] F-Droid repo containing the prebundled apps
+- [ ] 2FA for fingerprint
+- [ ] Yubikey for device auth
 
 Pages:
 * [AOSP 9.0 plan](AOSP-9.0-plan)
