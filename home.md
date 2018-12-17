@@ -16,6 +16,7 @@ TODOS - in no particular order
 - [ ] Automated builds
 - [ ] CI (maybe gitlab ci?)
 - [ ] Incremental builds
+- [ ] Virtual Machine usage (builds, signing, more) - see [VMs](VMs)
 
 Pages:
 * [AOSP 9.0 plan](AOSP-9.0-plan)
