@@ -15,6 +15,7 @@ TODOS - in no particular order
 - [ ] apk overlay (e.g. for etesync)
 - [ ] Automated builds
 - [ ] CI (maybe gitlab ci?)
+- [ ] Incremental builds
 
 Pages:
 * [AOSP 9.0 plan](AOSP-9.0-plan)
