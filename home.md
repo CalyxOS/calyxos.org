@@ -13,8 +13,8 @@ TODOS - in no particular order
 - [ ] 2FA for fingerprint
 - [ ] Yubikey for device auth
 - [ ] apk overlay (e.g. for etesync)
-- [ ] Automated builds
-- [ ] CI (maybe gitlab ci?) - see [CI](CI)
+- [ ] Automated builds - see [Automation](Automation)
+- [ ] CI (maybe gitlab ci?)
 - [ ] Incremental builds
 - [ ] Virtual Machine usage (builds, signing, more) - see [VMs](VMs)
 
@@ -27,6 +27,4 @@ Pages:
 * [SetupWizard & F-Droid integration](SetupWizard-&-F-Droid-integration)
 * [VMs](VMs)
 * [Browser](Browser)
-* [CI](CI)
-
-Most of these are either figured out, implemented or no longer necessary.
+* [Automation](Automation)
