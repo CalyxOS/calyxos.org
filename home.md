@@ -6,7 +6,7 @@ TODOS - in no particular order
 - [ ] Improve release scripts (vendor/calyx/scripts/release.sh), add key generation / file collection script.
 - [ ] Mi A2 booting signed build (for testing)
 - [ ] Mi A2 bringup (so that it can actually be used)
-- [ ] Browser and Webview (Chromium or maybe Brave)
+- [ ] Browser and Webview (Chromium or maybe Brave) - see [Browser](Browser)
 - [ ] Reconsider & update default app placement if needed
 - [ ] Documentation (Changes from AOSP, Build & Installation steps, more as needed)
 - [ ] F-Droid repo containing the prebundled apps
@@ -25,5 +25,7 @@ Pages:
 * [Android One devices](android-one-devices)
 * [Mi A2](mi-a2)
 * [SetupWizard & F-Droid integration](SetupWizard-&-F-Droid-integration)
+* [VMs](VMs)
+* [Browser](Browser)
 
 Most of these are either figured out, implemented or no longer necessary.
