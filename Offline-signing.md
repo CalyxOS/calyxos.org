@@ -22,7 +22,11 @@ Signing the builds offline, preferably using a yubikey / nitrokey or a hsm as ap
 #### Steps
 The various steps during the signing process.
 Note: Only the steps dealing with the actual signing process are listed here.
-#####
+##### SignFile (used to sign zip/jar/apk)
+Notes:
+* extra_signapk_args could be used to pass arguments invoking hsm
+##### avb/verity?
 
 ##### Useful links
+* https://source.android.com/devices/tech/ota/sign_builds
 * https://guardianproject.info/2014/03/28/security-in-a-thumb-drive-the-promise-and-pain-of-hardware-security-modules-take-one/
