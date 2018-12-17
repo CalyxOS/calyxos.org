@@ -14,7 +14,7 @@ TODOS - in no particular order
 - [ ] Yubikey for device auth
 - [ ] apk overlay (e.g. for etesync)
 - [ ] Automated builds
-- [ ] CI (maybe gitlab ci?)
+- [ ] CI (maybe gitlab ci?) - see [CI](CI)
 - [ ] Incremental builds
 - [ ] Virtual Machine usage (builds, signing, more) - see [VMs](VMs)
 
@@ -27,5 +27,6 @@ Pages:
 * [SetupWizard & F-Droid integration](SetupWizard-&-F-Droid-integration)
 * [VMs](VMs)
 * [Browser](Browser)
+* [CI](CI)
 
 Most of these are either figured out, implemented or no longer necessary.
