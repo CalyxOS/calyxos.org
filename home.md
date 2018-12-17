@@ -18,6 +18,7 @@ TODOS - in no particular order
 - [x] Incremental builds
 - [ ] Virtual Machine usage (builds, signing, more) - see [VMs](VMs)
 - [ ] Foreground-only permissions (like we had previously on the Copperhead fork, and also iOS - allow obtaining location only when active)
+- [ ] Signing builds offline
 
 Pages:
 * [AOSP 9.0 plan](AOSP-9.0-plan)
@@ -29,3 +30,4 @@ Pages:
 * [VMs](VMs)
 * [Browser](Browser)
 * [Automation](Automation)
+* [Offline signing](Offline-signing)
