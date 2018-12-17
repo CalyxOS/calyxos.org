@@ -1,10 +1,12 @@
 Signing the builds offline, preferably using a yubikey / nitrokey or a hsm as appropriate.
 
+TL;DR: Doable, some stuff already has external hooks, some might not but could easily be added.
+
 ##### TODOs
-* Figure out what hardware can be used (e.g. can the yubikey 4c be used?)
-* Figure out the code changes needed to the AOSP releasetools (see if anyone else has done it while we're at it)
-* Document the changes below
-* Differences between signing the apks and the builds (system/vendor/boot verity/avb)
+- [ ] Figure out what hardware can be used (e.g. can the yubikey 4c be used?)
+- [ ] Figure out the code changes needed to the AOSP releasetools (see if anyone else has done it while we're at it) - halfway there
+- [x] Document the changes below
+- [x] Differences between signing the apks and the builds (system/vendor/boot verity/avb)
 
 ### Hardware
 #### Yubikey 4C Nano (cdesai)
@@ -22,10 +24,16 @@ Signing the builds offline, preferably using a yubikey / nitrokey or a hsm as ap
 #### Steps
 The various steps during the signing process.
 Note: Only the steps dealing with the actual signing process are listed here.
-##### SignFile (used to sign zip/jar/apk)
-Notes:
+##### common.py:SignFile (used to sign zip/jar/apk)
 * extra_signapk_args could be used to pass arguments invoking hsm
-##### avb/verity?
+##### verity - java, python
+* boot_signed: uses verity.pk8,x509.pem with boot.img
+* system/extras/verity/build_verity_metadata.py used with the other images (system/vendor)
+* Uses standard java APIs, so this should probably be a drop-in
+##### avbtool make_vbmeta_image - C++
+* uses avb.pem to create the vbmeta image
+* Also used: add_hash_footer with all the other partitions (system/vendor/boot/dtbo)
+* --signing_helper can be used (see external/avb/README.md) - would need development of a small script to communicate
 
 ##### Useful links
 * https://source.android.com/devices/tech/ota/sign_builds
