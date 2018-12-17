@@ -15,8 +15,9 @@ TODOS - in no particular order
 - [ ] apk overlay (e.g. for etesync)
 - [ ] Automated builds - see [Automation](Automation)
 - [ ] CI (maybe gitlab ci?)
-- [ ] Incremental builds
+- [x] Incremental builds
 - [ ] Virtual Machine usage (builds, signing, more) - see [VMs](VMs)
+- [ ] Foreground-only permissions (like we had previously on the Copperhead fork, and also iOS - allow obtaining location only when active)
 
 Pages:
 * [AOSP 9.0 plan](AOSP-9.0-plan)
