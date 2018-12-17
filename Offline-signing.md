@@ -38,3 +38,6 @@ Note: Only the steps dealing with the actual signing process are listed here.
 ##### Useful links
 * https://source.android.com/devices/tech/ota/sign_builds
 * https://guardianproject.info/2014/03/28/security-in-a-thumb-drive-the-promise-and-pain-of-hardware-security-modules-take-one/
+* https://gitlab.com/fdroid/fdroidserver/commit/3829d37d341433c9e30c9069928e3fe6b4d824c1
+* https://developers.yubico.com/PIV/Guides/Android_code_signing.html
+* https://guardianproject.info/2017/12/18/building-a-signing-server/
