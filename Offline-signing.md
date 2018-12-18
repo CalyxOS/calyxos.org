@@ -46,3 +46,4 @@ Note: Only the steps dealing with the actual signing process are listed here.
 * https://guardianproject.info/2017/12/18/building-a-signing-server/
 * https://developers.yubico.com/PIV/Introduction/Certificate_slots.html
 * https://developers.yubico.com/PIV/Introduction/YubiKey_and_PIV.html
+* https://utcc.utoronto.ca/~cks/space/blog/sysadmin/Yubikey4ForSSHKeys
