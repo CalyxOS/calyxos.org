@@ -37,6 +37,8 @@ The various steps during the signing process.
 Note: Only the steps dealing with the actual signing process are listed here.
 ##### common.py:SignFile (used to sign zip/jar/apk)
 * extra_signapk_args could be used to pass arguments invoking hsm
+* This invokes signapk, which does support -providerClass but not -providerArg. There's also at least some hardcoding about having a key present, so that _might_ need to be fixed too.
+* The good news is that signapk does most of the apk signing through the library apksig-core, which is what's in apksigner, which does fully support using a yubikey. (See geoffreymetais blogpost below)
 ##### verity - java, python
 * boot_signed: uses verity.pk8,x509.pem with boot.img
 * system/extras/verity/build_verity_metadata.py used with the other images (system/vendor)
