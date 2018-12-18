@@ -12,8 +12,16 @@ TL;DR: Doable, some stuff already has external hooks, some might not but could e
 #### Yubikey 4C Nano (cdesai)
 * Supports smartcard (PIV)
 * Has 24 slots to store various keys
-TODO:
-* Figure out how to access slots apart from the PIV slot (9a) - have stored keys in slots 91-95, and 9a
+
+What I've done so far:
+* Generate private pem files from the pk8 files (`openssl pkcs8 -in ${i}.pk8 -inform DER -out ${i}.pem`)
+* Import the private keys and certs to yubikey, 4 slots available (9a, 9c, 9d, 9e)
+ - 9a = Certificate for PIV Authentication = releasekey
+ - 9c = Certificate for Digital Signature = platform
+ - 9d = Certificate for Key Management = media
+ - 9e = Certificate for Card Authentication = shared
+* Slots 82-95 can also be used to store keys but I can't find a way to access them.
+* Use the yubikey signing instructions with the right alias to sign with the desired key.
 
 ### Signing process, keys used
 #### Keys:
