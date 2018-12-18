@@ -11,10 +11,9 @@ TL;DR: Doable, some stuff already has external hooks, some might not but could e
 ### Hardware
 #### Yubikey 4C Nano (cdesai)
 * Supports smartcard (PIV)
-* Has multiple slots to store keys
+* Has 24 slots to store various keys
 TODO:
-* Figure out how to access slots apart from the PIV slot (9a)
-* Have stored keys in slots 91-95
+* Figure out how to access slots apart from the PIV slot (9a) - have stored keys in slots 91-95, and 9a
 
 ### Signing process, keys used
 #### Keys:
