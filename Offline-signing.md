@@ -45,3 +45,4 @@ Note: Only the steps dealing with the actual signing process are listed here.
 * https://developers.yubico.com/PIV/Guides/Android_code_signing.html
 * https://guardianproject.info/2017/12/18/building-a-signing-server/
 * https://developers.yubico.com/PIV/Introduction/Certificate_slots.html
+* https://developers.yubico.com/PIV/Introduction/YubiKey_and_PIV.html
