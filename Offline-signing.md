@@ -59,3 +59,4 @@ Note: Only the steps dealing with the actual signing process are listed here.
 * https://developers.yubico.com/PIV/Introduction/YubiKey_and_PIV.html
 * https://utcc.utoronto.ca/~cks/space/blog/sysadmin/Yubikey4ForSSHKeys
 * https://geoffreymetais.github.io/code/key-signing/
+* https://raymii.org/s/articles/Decrypt_NitroKey_HSM_or_SmartCard-HSM_private_keys.html
