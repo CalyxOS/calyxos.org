@@ -66,3 +66,4 @@ Note: Only the steps dealing with the actual signing process are listed here.
 * https://utcc.utoronto.ca/~cks/space/blog/sysadmin/Yubikey4ForSSHKeys
 * https://geoffreymetais.github.io/code/key-signing/
 * https://raymii.org/s/articles/Decrypt_NitroKey_HSM_or_SmartCard-HSM_private_keys.html
+* https://github.com/OpenSC/OpenSC/issues/847
