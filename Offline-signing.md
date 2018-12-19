@@ -49,8 +49,11 @@ Note: Only the steps dealing with the actual signing process are listed here.
 
   Modifications needed:
   * Everything in system/extras/verity is hardcoded to deal with private key files.
+  * Would need to refactor that to deal with our PKCS#11 keys.
+  * Good news is, reading the java security docs does seem to imply that most of the same methods can be
 
-    Would need to refactor that to deal with our PKCS#11 keys.
+    used, and they can deal with private keys which are just java software keys and not actually present in files (but present on the token).
+  * Need to test the above in theory
 
 ##### avbtool make_vbmeta_image - C++
 * uses avb.pem to create the vbmeta image
@@ -71,3 +74,4 @@ Note: Only the steps dealing with the actual signing process are listed here.
 * https://geoffreymetais.github.io/code/key-signing/
 * https://raymii.org/s/articles/Decrypt_NitroKey_HSM_or_SmartCard-HSM_private_keys.html
 * https://github.com/OpenSC/OpenSC/issues/847
+* https://docs.oracle.com/javase/7/docs/technotes/guides/security/p11guide.html
