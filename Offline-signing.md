@@ -26,11 +26,11 @@ What I've done so far:
 ### Signing process, keys used
 #### Keys:
 ##### {media,shared,platform,releasekey}.pk8,x509.pem
-* Used for signing apps, same process as app signing
+* Used for signing apps, same process as app signing - common to all devices
 ##### verity.pk8,x509.pem verity_key.pub
-* Verified boot
+* Verified boot - Pixel 1, Mi A2
 ##### avb.pem, avb_pkmd.bin
-* Android Verified Boot 2.0
+* Android Verified Boot 2.0 - Pixel 2
 
 #### Steps
 The various steps during the signing process.
