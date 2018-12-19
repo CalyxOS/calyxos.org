@@ -37,17 +37,23 @@ The various steps during the signing process.
 Note: Only the steps dealing with the actual signing process are listed here.
 ##### common.py:SignFile (used to sign zip/jar/apk)
 * extra_signapk_args could be used to pass arguments invoking hsm
-* This invokes signapk, which does support -providerClass but not -providerArg. It also assumes having public and private keys on the file system, so that code would need to be refactored.
-* We can specify a custom signapk.jar, I wonder if we should just fork the AOSP version instead of trying to modify it in place.
-* The good news is that signapk does most of the apk signing through the library apksig-core, which is what's in apksigner, which does fully support using a yubikey. (See geoffreymetais blogpost below)
+
+  Modifications needed:
+  * This invokes signapk, which does support -providerClass but not -providerArg. It also assumes having public and private keys on the file system, so that code would need to be refactored.
+  * We can specify a custom signapk.jar, I wonder if we should just fork the AOSP version instead of trying to modify it in place.
+  * The good news is that signapk does most of the apk signing through the library apksig-core, which is what's in apksigner, which does fully support using a yubikey. (See geoffreymetais blogpost below)
 ##### verity - java, python
 * boot_signed: uses verity.pk8,x509.pem with boot.img
 * system/extras/verity/build_verity_metadata.py used with the other images (system/vendor)
 * Uses standard java APIs, so this should probably be a drop-in
+
+  Modifications needed:
 ##### avbtool make_vbmeta_image - C++
 * uses avb.pem to create the vbmeta image
 * Also used: add_hash_footer with all the other partitions (system/vendor/boot/dtbo)
 * --signing_helper can be used (see external/avb/README.md) - would need development of a small script to communicate
+
+  Modifications needed:
 
 ##### Useful links
 * https://source.android.com/devices/tech/ota/sign_builds
