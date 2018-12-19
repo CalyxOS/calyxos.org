@@ -43,11 +43,15 @@ Note: Only the steps dealing with the actual signing process are listed here.
   * We can specify a custom signapk.jar, I wonder if we should just fork the AOSP version instead of trying to modify it in place.
   * The good news is that signapk does most of the apk signing through the library apksig-core, which is what's in apksigner, which does fully support using a yubikey. (See geoffreymetais blogpost below)
 ##### verity - java, python
-* boot_signed: uses verity.pk8,x509.pem with boot.img
+* boot_signer: uses verity.pk8,x509.pem with boot.img
 * system/extras/verity/build_verity_metadata.py used with the other images (system/vendor)
 * Uses standard java APIs, so this should probably be a drop-in
 
   Modifications needed:
+  * Everything in system/extras/verity is hardcoded to deal with private key files.
+
+    Would need to refactor that to deal with our PKCS#11 keys.
+
 ##### avbtool make_vbmeta_image - C++
 * uses avb.pem to create the vbmeta image
 * Also used: add_hash_footer with all the other partitions (system/vendor/boot/dtbo)
