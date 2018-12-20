@@ -19,7 +19,7 @@ TODOS - in no particular order
 - [ ] Virtual Machine usage (builds, signing, more) - see [VMs](VMs)
 - [ ] Foreground-only permissions (like we had previously on the Copperhead fork, and also iOS - allow obtaining location only when active)
 - [x] Signing builds offline
-- [ ] Signing builds using a yubikey
+- [ ] Signing builds using a yubikey - see [Offline signing](Offline-signing)
 
 Pages:
 * [AOSP 9.0 plan](AOSP-9.0-plan)
