@@ -1,7 +1,7 @@
-### Chromium
+### Chromium https://chromium.googlesource.com/chromium/src/+/master/docs/android_build_instructions.md
 System Webview: Yes
 
-### Brave
+### Brave https://github.com/brave/browser-android-tabs
 System Webview: Unknown - should be possible in theory, but haven't tested yet.
 
 ### Firefox
