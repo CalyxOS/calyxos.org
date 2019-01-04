@@ -62,6 +62,7 @@ Note: Only the steps dealing with the actual signing process are listed here.
 
   Modifications needed:
   * A few lines in build/tools/releasetools to call the external signing helper.
+  * Not actually a modification but actually writing the signing helper.
 
 ##### Useful links
 * https://source.android.com/devices/tech/ota/sign_builds
