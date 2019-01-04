@@ -61,6 +61,7 @@ Note: Only the steps dealing with the actual signing process are listed here.
 * --signing_helper can be used (see external/avb/README.md) - would need development of a small script to communicate
 
   Modifications needed:
+  * A few lines in build/tools/releasetools to call the external signing helper.
 
 ##### Useful links
 * https://source.android.com/devices/tech/ota/sign_builds
