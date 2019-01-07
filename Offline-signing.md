@@ -1,6 +1,7 @@
 Signing the builds offline, preferably using a yubikey / nitrokey or a hsm as appropriate.
 
 Offline signing steps:
+* If keys aren't already generated, use `./vendor/calyx/scripts/mkkeys.sh` to create them. Don't forget to copy verity_user.der.x509 to the kernel source before building!
 * Build normally
 * `make target-files-package otatools`
 * Copy otatools.zip (common) and the target-files-package for each device to signing machine
@@ -12,8 +13,6 @@ Optional:
 
 Note:
 * keys are currently common amongst devices, can be made per device if needed. Will depend on future direction with HSM and their capacity.
-
-TODO: Add key generation script
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
