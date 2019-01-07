@@ -3,7 +3,7 @@ TODOS - in no particular order
 - [ ] F-Droid Privileged Extension (make it trust system key)
 - [ ] F-Droid Setupwizard (https://gitlab.com/fdroid/fdroidclient/issues/1546 and [SetupWizard & F-Droid integration](SetupWizard-&-F-Droid-integration))
 - [ ] Manage scripts (to be mostly done in January during the next security update, roughly based on AndroidHardening/script/manage.sh)
-- [ ] Improve release scripts (vendor/calyx/scripts/release.sh), add key generation / file collection script.
+- [x] Improve release scripts (vendor/calyx/scripts/release.sh), add key generation / file collection script.
 - [ ] Mi A2 booting signed build (for testing)
 - [ ] Mi A2 bringup (so that it can actually be used)
 - [ ] Browser and Webview (Chromium or maybe Brave) - see [Browser](Browser)
@@ -18,7 +18,7 @@ TODOS - in no particular order
 - [x] Incremental builds
 - [ ] Virtual Machine usage (builds, signing, more) - see [VMs](VMs)
 - [ ] Foreground-only permissions (like we had previously on the Copperhead fork, and also iOS - allow obtaining location only when active)
-- [x] Signing builds offline
+- [x] Signing builds offline - see [Offline signing](Offline-signing) for instructions
 - [ ] Signing builds using a yubikey - see [Offline signing](Offline-signing)
 
 Pages:
