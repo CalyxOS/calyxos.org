@@ -1,10 +1,29 @@
 Signing the builds offline, preferably using a yubikey / nitrokey or a hsm as appropriate.
 
+Offline signing steps:
+* Build normally
+* `make target-files-package otatools`
+* Copy otatools.zip (common) and the target-files-package for each device to signing machine
+* `export BUILD_NUMBER=` (example build number: 2018.12.14.17)
+* Unzip otatools.zip, run `./vendor/calyx/scripts/release.sh ${device} calyx_${device}-target_files-${BUILD_NUMBER}.zip`
+* Generate server metadata with `./vendor/calyx/scripts/generate_metadata.py out/release-${device}-${BUILD_NUMBER}/${device}-ota_update_${BUILD_NUMBER}.zip`
+Optional:
+* Generate incremental zips by running `./vendor/calyx/scripts/generate_delta.sh ${device} ${OLD_BUILD_NUMBER} ${BUILD_NUMBER}`
+
+Note:
+* keys are currently common to all devices, there's 6 keys.
+
+TODO: Add key generation script
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The below text is for signing using smartcards.
+
 TL;DR: Doable, some stuff already has external hooks, some might not but could easily be added.
 
 ##### TODOs
-- [ ] Figure out what hardware can be used (e.g. can the yubikey 4c be used?)
-- [ ] Figure out the code changes needed to the AOSP releasetools (see if anyone else has done it while we're at it) - halfway there
+- [x] Figure out what hardware can be used (e.g. can the yubikey 4c be used? - nope, need a hsm)
+- [x] Figure out the code changes needed to the AOSP releasetools (see if anyone else has done it while we're at it) - halfway there
 - [x] Document the changes below
 - [x] Differences between signing the apks and the builds (system/vendor/boot verity/avb)
 
