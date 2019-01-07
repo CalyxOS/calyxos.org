@@ -11,7 +11,7 @@ Optional:
 * Generate incremental zips by running `./vendor/calyx/scripts/generate_delta.sh ${device} ${OLD_BUILD_NUMBER} ${BUILD_NUMBER}`
 
 Note:
-* keys are currently common to all devices, there's 6 keys.
+* keys are currently common amongst devices, can be made per device if needed. Will depend on future direction with HSM and their capacity.
 
 TODO: Add key generation script
 
