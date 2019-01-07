@@ -3,6 +3,8 @@ Current plan is based on https://gitlab.com/fdroid/fdroidclient/issues/1546
 
 TODO: Write this down in detail
 
+--------------------------------------------------------------------------------------------------------------------------------------------
+
 In addition to the above, I propose having an offline repo containing all of the apps we're bundling.
 
 That way, if for some reason internet access isn't available, we can still install a version of the apps current at the time of the build.
