@@ -18,3 +18,6 @@ TODOs:
 - [ ] Figure out best way to setup the local repo, and then set it up.
 - [ ] See if we're shipping any apps in the main F-Droid or Guardian Project repos, and if we have any modifications we absolutely need.
 - [ ] Deal with conflicts with those (probably just different signing key should work.)
+
+Links:
+* https://gitlab.com/fdroid/fdroidclient/merge_requests/769
