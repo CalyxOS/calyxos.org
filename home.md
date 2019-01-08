@@ -1,4 +1,16 @@
-TODOS - in no particular order
+Pages:
+* [AOSP 9.0 plan](AOSP-9.0-plan)
+* [OTA Updates](OTA-Updates)
+* [Signing](Signing)
+* [Android One devices](android-one-devices)
+* [Mi A2](mi-a2)
+* [SetupWizard & F-Droid integration](SetupWizard-&-F-Droid-integration)
+* [VMs](VMs)
+* [Browser](Browser)
+* [Automation](Automation)
+* [Offline signing](Offline-signing)
+
+TODOS - in no particular order - Obsolete, migrated to https://gitlab.com/calyxos/calyxos/issues
 - [x] SetupWizard (fork + remove custom APIs)
 - [ ] F-Droid Privileged Extension (make it trust system key)
 - [ ] F-Droid Setupwizard (https://gitlab.com/fdroid/fdroidclient/issues/1546 and [SetupWizard & F-Droid integration](SetupWizard-&-F-Droid-integration))
@@ -20,15 +32,3 @@ TODOS - in no particular order
 - [ ] Foreground-only permissions (like we had previously on the Copperhead fork, and also iOS - allow obtaining location only when active)
 - [x] Signing builds offline - see [Offline signing](Offline-signing) for instructions
 - [ ] Signing builds using a yubikey - see [Offline signing](Offline-signing)
-
-Pages:
-* [AOSP 9.0 plan](AOSP-9.0-plan)
-* [OTA Updates](OTA-Updates)
-* [Signing](Signing)
-* [Android One devices](android-one-devices)
-* [Mi A2](mi-a2)
-* [SetupWizard & F-Droid integration](SetupWizard-&-F-Droid-integration)
-* [VMs](VMs)
-* [Browser](Browser)
-* [Automation](Automation)
-* [Offline signing](Offline-signing)
