@@ -2,7 +2,7 @@ TODOS - in no particular order
 - [x] SetupWizard (fork + remove custom APIs)
 - [ ] F-Droid Privileged Extension (make it trust system key)
 - [ ] F-Droid Setupwizard (https://gitlab.com/fdroid/fdroidclient/issues/1546 and [SetupWizard & F-Droid integration](SetupWizard-&-F-Droid-integration))
-- [ ] Manage scripts (to be mostly done in January during the next security update, roughly based on AndroidHardening/script/manage.sh)
+- [x] Manage scripts (to be mostly done in January during the next security update, roughly based on AndroidHardening/script/manage.sh)
 - [x] Improve release scripts (vendor/calyx/scripts/release.sh), add key generation / file collection script.
 - [ ] Mi A2 booting signed build (for testing)
 - [ ] Mi A2 bringup (so that it can actually be used)
