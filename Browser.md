@@ -7,16 +7,26 @@ Links:
 * https://chromiumdash.appspot.com/releases?platform=Android
 * https://www.chromium.org/developers/how-tos/get-the-code/working-with-release-branches
 
-args.gn: TODO: Update
+args.gn:
 ```
-target_os = "android"
 target_cpu = "arm64"
-is_debug = false 
-
 android_channel = "stable"
-is_official_build = true
 is_clang = true
-symbol_level = 1
+
+target_os="android"
+is_debug=false
+is_official_build=true
+is_chrome_branded=false
+use_official_google_api_keys=false
+ffmpeg_branding="Chrome"
+proprietary_codecs=true
+enable_remoting=true
+is_component_build=false
+symbol_level=0
+enable_nacl=false
+remove_webcore_debug_symbols=true
+android_default_version_name="71.0.3578.99"
+android_default_version_code="357809950"
 ```
 
 ### Brave
