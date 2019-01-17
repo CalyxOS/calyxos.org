@@ -18,4 +18,4 @@ Stock OTAs: https://forum.xda-developers.com/mi-a2/how-to/ota-v9-6-5-0-odimife-t
 vbmeta not present in stock OTAs, as it's not used at all
 
 Note:
-* To build a fully working signed build for these, one needs to enable verity (but not avb), and also build a disabled vbmeta image (like you would for a gsi - `BOARD_BUILD_DISABLED_VBMETAIMAGE := true`)
+* To build a fully working signed build for these, one needs to enable verity (but not avb), and also build a disabled vbmeta image (like you would for a gsi - `BOARD_BUILD_DISABLED_VBMETAIMAGE := true`) - This seems optional
