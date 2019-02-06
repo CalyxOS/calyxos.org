@@ -27,6 +27,7 @@ enable_nacl=false
 remove_webcore_debug_symbols=true
 android_default_version_name="71.0.3578.99"
 android_default_version_code="357809950"
+enable_resource_whitelist_generation=false
 ```
 
 ### Brave
