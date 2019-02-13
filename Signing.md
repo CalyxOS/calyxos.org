@@ -1,3 +1,5 @@
+TODO: Potentially make the instructions even more clearer, and less of a mess then they are right now
+
 Signing on a separate machine:
 * If keys aren't already generated, use `./vendor/calyx/scripts/mkkeys.sh` to create them. Don't forget to copy verity_user.der.x509 to the kernel source before building, for marlin/sailfish/jasmine.
 * Install zip, openssl
