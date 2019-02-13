@@ -1,3 +1,7 @@
+# No longer current
+
+* Will be going with Gitlab CI
+
 What to use for automating builds, signing (potentially offline, see below), and the entire release process.
 
 ## Software
