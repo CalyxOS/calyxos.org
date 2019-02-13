@@ -1,3 +1,7 @@
+# No longer current
+
+* Didn't have that much info here either way
+
 General info on the Mi A2
 
 Launch version: Oreo 8.1
