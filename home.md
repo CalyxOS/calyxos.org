@@ -1,4 +1,5 @@
 Pages:
+* [Getting Started](Getting-Started)
 * [AOSP 9.0 plan](AOSP-9.0-plan)
 * [OTA Updates](OTA-Updates)
 * [Signing](Signing)
