@@ -1,34 +1,18 @@
-Signing the generated files on a different, offline machine and creating ota updates (standalone as well as incremental) and factory images.
+Signing on a separate machine:
+* If keys aren't already generated, use `./vendor/calyx/scripts/mkkeys.sh` to create them. Don't forget to copy verity_user.der.x509 to the kernel source before building, for marlin/sailfish/jasmine.
+* Install zip, openssl
+* Build normally
+* `make target-files-package otatools`
+* Copy otatools.zip (common, $OUT/otatools.zip) and the target-files-package ($OUT/obj/PACKAGING/target_files_intermediates/calyx_$device-target_files-$BUILD_NUMBER.zip) for each device to signing machine
+* `export BUILD_NUMBER=` (example build number: 2018.12.14.17)
+* Unzip otatools.zip, run `./vendor/calyx/scripts/release.sh ${device} calyx_${device}-target_files-${BUILD_NUMBER}.zip`
+* Generate server metadata with `./vendor/calyx/scripts/generate_metadata.py out/release-${device}-${BUILD_NUMBER}/${device}-ota_update_${BUILD_NUMBER}.zip`
+Optional:
+* Generate incremental zips by running `./vendor/calyx/scripts/generate_delta.sh ${device} ${OLD_BUILD_NUMBER} ${BUILD_NUMBER}`
 
-Script:
-https://gitlab.com/calyxos/vendor_calyx/blob/pie-qpr1-s2-release/scripts/release.sh
-
-Requirements:
-* target-files.zip (`make target-files-package`)
-* otatools.zip (`make otatools-package`)
-* Signing keys (obviously)
-
-## OLD ##
-
-Writing down the process manually right now, to be scripted once it's working! (Edit: It's done :D)
-
-Repos needed:
-* build
-* development
-* external/avb
-* system/extras
-
-Tools needed:
-* signapk.jar
-* dumpkey.jar
-* mkbootfs
-* minigzip
-* mkbootimg
-* Many more, alongwith their dependencies
-
-Notes:
-* Use the "-v" flag for verbosity, helps.
-* Copied the above tools (and their dependencies) from out/host/linux-x86 (bin/framework/lib) as needed from a machine with an existing build to a machine without the android source code.
+Note:
+* keys are currently common amongst devices, can be made per device if needed. Will depend on future direction with HSM and their capacity.
+* The signing process can also be run on the same host building, using the same scripts.
 
 References:
 * https://source.android.com/devices/tech/ota/sign_builds
