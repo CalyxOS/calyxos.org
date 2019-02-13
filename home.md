@@ -16,7 +16,7 @@ Pages:
 
 ### Deprecated
 
-Previous Pages: (Deprecated / no longer current / previous)
+Previous Pages: (Deprecated / no longer current)
 * [AOSP 9.0 plan](AOSP-9.0-plan)
 * [OTA Updates](OTA-Updates)
 * [Mi A2](mi-a2)
