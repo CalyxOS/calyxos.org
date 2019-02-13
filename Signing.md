@@ -4,7 +4,7 @@ Signing on a separate machine:
 * If keys aren't already generated, use `./vendor/calyx/scripts/mkkeys.sh` to create them. Don't forget to copy verity_user.der.x509 to the kernel source before building, for marlin/sailfish/jasmine.
 * Install zip, openssl
 * Build normally
-* `make target-files-package otatools`
+* `make target-files-package otatools-package`
 * Copy otatools.zip (common, $OUT/otatools.zip) and the target-files-package ($OUT/obj/PACKAGING/target_files_intermediates/calyx_$device-target_files-$BUILD_NUMBER.zip) for each device to signing machine
 * `export BUILD_NUMBER=` (example build number: 2018.12.14.17)
 * Unzip otatools.zip, run `./vendor/calyx/scripts/release.sh ${device} calyx_${device}-target_files-${BUILD_NUMBER}.zip`
