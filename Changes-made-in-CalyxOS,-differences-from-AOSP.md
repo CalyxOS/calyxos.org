@@ -17,14 +17,14 @@ Forked AOSP repos:
 | device/google/muskie | Pixel 2 (common) |
 | device/google/taimen | Pixel 2 XL |
 | device/google/wahoo | Pixel 2 & 2 XL (common) |
-| frameworks/av | For Mi A2 |
+| frameworks/av | For Mi A2, TBD |
 | frameworks/base | microG support |
-| hardware/qcom/audio | For Mi A2 |
+| hardware/qcom/audio | For Mi A2, allow building |
 | hardware/qcom/bootctrl | For Mi A2, TBD |
-| hardware/qcom/display | For Mi A2 |
+| hardware/qcom/display | For Mi A2, allow building |
 | hardware/qcom/gps | For Mi A2, TBD |
-| hardware/qcom/media | For Mi A2 |
-| hardware/qcom/msm8998 | For Mi A2 |
+| hardware/qcom/media | For Mi A2, allow building |
+| hardware/qcom/msm8998 | For Mi A2, allow building |
 | kernel/google/marlin | Pixel 1 |
 | kernel/google/wahoo | Pixel 2 |
 
