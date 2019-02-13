@@ -21,8 +21,7 @@ Short version:
 * Run `flash-all.sh` on *nix or `flash-all.bat` on Windows
 * Relock bootloader
 
-Long version:
-Coming soon :tm:
+Long version: See [Installing](Installing)
 
 ## Building
 
@@ -32,8 +31,11 @@ Short version:
 * `source envsetup.sh; lunch calyx_taimen-user; make -j16`
 * Install the build, or optionally sign
 
-Long version:
-Coming soon :tm:
+Long version: See [Building](Building)
+
+## Developing
+
+See [Developing](Developing)
 
 ## Signing builds
 
