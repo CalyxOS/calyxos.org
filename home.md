@@ -10,7 +10,7 @@ Pages:
 * [Browser](Browser)
 * [Offline signing](Offline-signing)
 * [microG](microG)
-* [Diff AOSP CalyxOS](diff-aosp-calyxos)
+* [Changes made in CalyxOS, the differences from AOSP](diff-aosp-calyxos)
 
 -------------------------------------------------------------------------------------------------------------
 
