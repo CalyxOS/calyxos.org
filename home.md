@@ -6,11 +6,12 @@ Pages:
 * [Building](Building)
 * [Signing](Signing)
 * [Android One devices](android-one-devices)
-* [SetupWizard & F-Droid integration](SetupWizard-&-F-Droid-integration)
 * [Browser](Browser)
 * [Offline signing](Offline-signing)
 * [microG](microG)
 * [Changes made in CalyxOS, the differences from AOSP](diff-aosp-calyxos)
+* [SetupWizard](SetupWizard)
+* [F-Droid)(F-Droid)
 
 -------------------------------------------------------------------------------------------------------------
 
@@ -22,6 +23,7 @@ Previous Pages: (Deprecated / no longer current)
 * [Mi A2](mi-a2)
 * [VMs](VMs)
 * [Automation](Automation)
+* [SetupWizard & F-Droid integration](SetupWizard-&-F-Droid-integration)
 
 TODOS - in no particular order - Obsolete, migrated to https://gitlab.com/calyxos/calyxos/issues
 - [x] SetupWizard (fork + remove custom APIs)
