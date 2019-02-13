@@ -11,6 +11,9 @@ Pages:
 * [Automation](Automation)
 * [Offline signing](Offline-signing)
 * [microG](microG)
+* [Installing](Installing)
+* [Building](Building)
+* [Diff AOSP CalyxOS](diff-aosp-calyxos)
 
 TODOS - in no particular order - Obsolete, migrated to https://gitlab.com/calyxos/calyxos/issues
 - [x] SetupWizard (fork + remove custom APIs)
