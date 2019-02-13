@@ -1,19 +1,25 @@
+### Current
+
 Pages:
 * [Getting Started](Getting-Started)
-* [AOSP 9.0 plan](AOSP-9.0-plan)
-* [OTA Updates](OTA-Updates)
-* [Signing](Signing)
-* [Android One devices](android-one-devices)
-* [Mi A2](mi-a2)
-* [SetupWizard & F-Droid integration](SetupWizard-&-F-Droid-integration)
-* [VMs](VMs)
-* [Browser](Browser)
-* [Automation](Automation)
-* [Offline signing](Offline-signing)
-* [microG](microG)
 * [Installing](Installing)
 * [Building](Building)
+* [Signing](Signing)
+* [Android One devices](android-one-devices)
+* [SetupWizard & F-Droid integration](SetupWizard-&-F-Droid-integration)
+* [Browser](Browser)
+* [Offline signing](Offline-signing)
+* [microG](microG)
 * [Diff AOSP CalyxOS](diff-aosp-calyxos)
+
+### Deprecated
+
+Previous Pages: (Deprecated / no longer current / previous)
+* [AOSP 9.0 plan](AOSP-9.0-plan)
+* [OTA Updates](OTA-Updates)
+* [Mi A2](mi-a2)
+* [VMs](VMs)
+* [Automation](Automation)
 
 TODOS - in no particular order - Obsolete, migrated to https://gitlab.com/calyxos/calyxos/issues
 - [x] SetupWizard (fork + remove custom APIs)
