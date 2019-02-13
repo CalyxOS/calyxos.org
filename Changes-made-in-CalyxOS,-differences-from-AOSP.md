@@ -1,0 +1,1 @@
+A quick, non comprehensive list of the changes from AOSP
