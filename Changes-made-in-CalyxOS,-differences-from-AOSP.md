@@ -1,5 +1,9 @@
 A quick, non comprehensive list of the changes from AOSP
 
+Overview:
+* Inline kernel building
+*
+
 Forked repos:
 
 | Repo | Purpose |
