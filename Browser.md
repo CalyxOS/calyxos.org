@@ -1,3 +1,5 @@
+## Currently used
+
 ### Chromium
 System Webview: Yes
 
@@ -29,6 +31,10 @@ android_default_version_name="71.0.3578.99"
 android_default_version_code="357809950"
 enable_resource_whitelist_generation=false
 ```
+
+-----------------------------------------------------------------------------
+
+## Previously considered
 
 ### Brave
 System Webview: Unknown - should be possible in theory, but haven't tested yet.
