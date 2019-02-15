@@ -11,7 +11,7 @@ Pages:
 * [microG](microG)
 * [Changes made in CalyxOS, the differences from AOSP](diff-aosp-calyxos)
 * [SetupWizard](SetupWizard)
-* [F-Droid)(F-Droid)
+* [F-Droid](F-Droid)
 
 -------------------------------------------------------------------------------------------------------------
 
