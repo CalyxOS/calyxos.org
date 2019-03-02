@@ -1,6 +1,8 @@
 The first thing a user sees on booting a device for the first time.
 Also known as first run wizard, initial wizard, etc.
 
+Source: https://gitlab.com/calyxos/platform_packages_apps_setupwizard
+
 Forked from LineageOS
 
 Things to consider
