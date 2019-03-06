@@ -15,7 +15,7 @@ Signal is a good way to test this. It works without Play Services, but if Play S
 
 This is not exactly easily solvable in microG, since there is no easy way to knowing what app needs what service when it checks for the existence of play services.
 
-I can think of three solutions
+I can think of four solutions
 1) Enable Device Registration, Cloud Messaging and such by default - not good for privacy, not all users would like to have it enabled either.
 2) Bundle a dummy app by default that responds negatively when apps check if Play Services are available (it's more than just a basic is package installed check so this would work).
    The SetupWizard would ask the user if they want microG / Play Services compatibility on first boot, and if the user answers positively, the actual microG apk would then be installed.
@@ -25,3 +25,6 @@ I can think of three solutions
    If that is not set, we make the play services check return false.
    Will require modifications to microG but it seems a lot simpler than the alternative.
    Can display this in the microG settings, and potentially allow it to be enabled / disabled if that works. It could also be enabled disabled per app, but that would take some extra work.
+4) Simply disable microG from SetupWizard if user doesn't want it. Really simple, works well too.
+
+That's it, the fourth idea seems ok.
