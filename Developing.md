@@ -10,9 +10,15 @@ OTA Updates can be tested locally, too.
     * [packages/apps/Updater](uploads/b7e33035a090aa3b4ed76d3b0f4a1194/0001-DO-NOT-MERGE-Allow-cleartext-traffic-for-local-OTA-t.patch)
 1. Create a build and install it.
 1. Clean things for a new build that will be accepted by the OTA updater
-    * run `make cleaninstall` (updates build timestamp)
-    * Remove `out/build_number.text` (allows for increase in build number)
+    * run `make installclean` (updates build timestamp)
+    * Remove `out/build_number.txt` (allows for increase in build number)
     * re-run `source envsetup.sh`
 1. `make otapackage`
-1. `vendor/calyx/scripts/generate_metadata.py $OUT/*-ota-*.zip`
+1. Generate metadata file:
+    * `vendor/calyx/scripts/generate_metadata.py $OUT/*-ota-*.zip`
+1. Rename the metadata file, so it fakes a stable update channel
+    * `mv taimen-testing taimen-stable`
+1. Rename the OTA zip to the expected format:
+    * `mv calyx_$DEVICE-target_files-$BUILD_NUMBER.zip $OUT/$DEVICE-ota_update-$BUILD.zip`
 1. Put the OTA zip and generated metadata file on the local server, the device should now wait for it to pull down the OTA.
+    * `mv taimen-stable $OUT/$DEVICE-ota_update-$BUILD.zip server/`
