@@ -27,11 +27,14 @@ Long version: See [Installing](Installing)
 
 Short version:
 * Setup your environment for building AOSP
-* `repo init -u https://gitlab.com/calyxos/platform_manifest -b pie-qpr2-release; repo sync`
+* `repo init -u https://gitlab.com/calyxos/platform_manifest -b pie-qpr2-release`
+* `repo sync`
 * `vendor/android-prepare-vendor/execute-all.sh -d $device -b $buildid -o /some/dir`
   * For Pixel 2 XL March update: `device=taimen buildid=pq2a.190305.002`
 * `mv /some/dir/$device/$buildid/vendor/google_devices vendor/`
-* `source envsetup.sh; lunch calyx_taimen-user; make -j16`
+* `source envsetup.sh`
+* `lunch calyx_taimen-user` (use `-userdebug` instead of `-user` when developing
+* `make -j16` (replace `16` by the number of your CPU's threads)
 * Install the build, or optionally sign
 
 Long version: See [Building](Building)
