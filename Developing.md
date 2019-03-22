@@ -10,8 +10,8 @@ OTA Updates can be tested locally, too.
     * [packages/apps/Updater](uploads/b7e33035a090aa3b4ed76d3b0f4a1194/0001-DO-NOT-MERGE-Allow-cleartext-traffic-for-local-OTA-t.patch)
 1. Create a build and install it.
 1. Clean things for a new build that will be accepted by the OTA updater
-    * Remove `out/build_number.text` (allows for increase in build number)
     * run `make cleaninstall` (updates build timestamp)
+    * Remove `out/build_number.text` (allows for increase in build number)
     * re-run `source envsetup.sh`
 1. `make otapackage`
 1. `vendor/calyx/scripts/generate_metadata.py $OUT/*-ota-*.zip`
