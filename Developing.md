@@ -19,6 +19,6 @@ OTA Updates can be tested locally, too.
 1. Rename the metadata file, so it fakes a stable update channel
     * `mv taimen-testing taimen-stable`
 1. Rename the OTA zip to the expected format:
-    * `mv calyx_$DEVICE-target_files-$BUILD_NUMBER.zip $OUT/$DEVICE-ota_update-$BUILD.zip`
+    * `mv $OUT/${TARGET_PRODUCT}-ota-$BUILD_NUMBER.zip $OUT/${TARGET_PRODUCT#calyx_}-ota_update-$BUILD_NUMBER.zip`
 1. Put the OTA zip and generated metadata file on the local server, the device should now wait for it to pull down the OTA.
     * `mv taimen-stable $OUT/$DEVICE-ota_update-$BUILD.zip server/`
