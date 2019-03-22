@@ -21,4 +21,4 @@ OTA Updates can be tested locally, too.
 1. Rename the OTA zip to the expected format:
     * `mv $OUT/${TARGET_PRODUCT}-ota-$BUILD_NUMBER.zip $OUT/${TARGET_PRODUCT#calyx_}-ota_update-$BUILD_NUMBER.zip`
 1. Put the OTA zip and generated metadata file on the local server, the device should now wait for it to pull down the OTA.
-    * `mv taimen-stable $OUT/$DEVICE-ota_update-$BUILD.zip server/`
+    * `mv taimen-stable $OUT/${TARGET_PRODUCT#calyx_}-ota_update-$BUILD_NUMBER.zip server/`
