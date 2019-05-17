@@ -27,7 +27,7 @@ Long version: See [Installing](Installing)
 
 Short version:
 * Setup your environment for building AOSP
-* `repo init -u https://gitlab.com/calyxos/platform_manifest -b pie`
+* `repo init -u https://gitlab.com/calyxos/platform_manifest.git/ -b pie`
 * `repo sync`
 * `vendor/android-prepare-vendor/execute-all.sh -d $device -b $buildid -o /some/dir`
   * For Pixel 2 XL March update: `device=taimen buildid=pq2a.190305.002`
