@@ -7,10 +7,10 @@ Table of Contents
 We build for devices which support full verified boot with the bootloader locked for a custom OS.
 
 Currently supported devices
-* Pixel 2
-* Mi A2 (work in progress)
-
-The Pixel 1 and 3 can also be supported,
+* Google Pixel 2 and Pixel 2 XL
+* Google Pixel 3 and Pixel 3 XL
+* Google Pixel 3a and Pixel 3a XL
+* Xiaomi Mi A2 (work in progress)
 
 ## Installing
 
