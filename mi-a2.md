@@ -1,4 +1,23 @@
-# No longer current
+# Install CalyxOS
+
+**Attention, this procedure will wipe all user data. Make a backup before and proceed on your own risk.**
+
+1. Boot into fastboot mode:
+    * Turn device off
+    * Hold Volume Down and Power button until fastboot logo appears
+    * Connect to USB and type `fastboot devices` to verify that it worked
+1. Unlock bootloader: `fastboot flashing unlock` and to also unlock critical partitions `fastboot flashing unlock_critical`
+1. Download this old [Stock Oreo ROM](https://bigota.d.miui.com/V9.6.17.0.ODIMIFE/jasmine_global_images_V9.6.17.0.ODIMIFE_20181108.0000.00_8.1_1c60295d1c.tgz). 
+1. Extract archive (`tar -xvzf jasmine_*.tgz`), change into extracted folder and run `./flash-all.sh` to flash it on the device.
+1. Boot stock Oreo once, complete the SetupWizard quickly and get to the Home Screen just to make sure things are working.
+1. Download the current CalyxOS build, e.g.
+    * `https://www.calyxos.org/jasmine_sprout-factory-2019.07.26.08.zip`
+1. Boot to fastboot mode again, extract the zip file (`unzip jasmine_sprout-*.zip`), change into extracted folder and run `./flash-all.sh` there.
+    * If you get an error with `No space left on device`, set the `TMPDIR` variable to a location with sufficient free disk space.
+1. The device should boot into CalyxOS. Don't set it up yet, reboot to fastboot mode again and then run `fastboot flashing lock` to lock the bootloader. Then confirm that the "unlocked" warning are gone.
+1. Now boot normally and set up your device.
+
+# Technical Info (No longer current)
 
 * Didn't have that much info here either way
 
