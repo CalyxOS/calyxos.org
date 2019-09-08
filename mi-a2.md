@@ -16,6 +16,8 @@
     * If you get an error with `No space left on device`, set the `TMPDIR` variable to a location with sufficient free disk space.
 1. The device should boot into CalyxOS. Don't set it up yet, reboot to fastboot mode again and then run `fastboot flashing lock` to lock the bootloader. Then confirm that the "unlocked" warning are gone.
 1. Now boot normally and set up your device.
+1. Be sure to set a PIN in the setup wizard since it is required for data encryption.
+1. Once the setup wizard is complete, setup the data encryption in _Settings -> Security & location -> Encryption & credentials -> Encrypt phone_, 
 
 # Technical Info (No longer current)
 
