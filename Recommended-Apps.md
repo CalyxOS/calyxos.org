@@ -4,18 +4,18 @@ This page is for tracking apps that we want to recommend for CalyxOS.
 
 Stores
 
-* Aurora Store
+* **Aurora Store**
 * Aurora Droid?
 
 Networking
 
-* RiseupVPN
-* [CalyxVPN](https://f-droid.org/en/packages/org.calyxinstitute.vpn/)
-* Tor Browser
+* **RiseupVPN**
+* [**CalyxVPN**](https://f-droid.org/en/packages/org.calyxinstitute.vpn/)
+* **Tor Browser**
 
 Communication
 
-* Signal
+* **Signal**
 * Jitsi Meet
 * DeltaChat
 * Simple Contacts
@@ -31,7 +31,7 @@ Maps and Location
 Backup and Storage
 
 * Nextcloud
-* SeedVault
+* **SeedVault**
 
 Photos and Video
 
