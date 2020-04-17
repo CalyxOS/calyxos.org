@@ -11,25 +11,36 @@ Criteria:
 
 Stores
 
-* **Aurora Store**
+* F-droid
+* Aurora Store
 * Aurora Droid?
 
 Networking
 
-* **RiseupVPN**
-* [**CalyxVPN**](https://f-droid.org/en/packages/org.calyxinstitute.vpn/)
-* **Tor Browser**
+* RiseupVPN
+* [CalyxVPN](https://f-droid.org/en/packages/org.calyxinstitute.vpn/)
+* Tor
+* Tor Browser
 
 Communication
 
-* **Signal**
+* Signal
 * Jitsi Meet
 * DeltaChat
 * Simple Contacts
+* Briar
+* Conversations
 
 Productivity
 
 * Etar Calendar
+
+Utility
+
+* Privacy Friendly Weather
+* Voice Recorder
+* MuPDF
+* KeyChain
 
 Maps and Location
 
