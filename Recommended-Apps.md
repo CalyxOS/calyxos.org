@@ -59,6 +59,7 @@ Photos and Video
 
 ## Links
 
+* https://gitlab.com/calyxos/calyxos-fdroid-repo/-/tree/master/fdroid/metadata
 * https://simplemobiletools.github.io/
 * https://github.com/SecUSo Security Usability Society
 * https://old.reddit.com/r/privacy/comments/g2p1e0/best_of_fdroid_2020/
