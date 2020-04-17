@@ -1,5 +1,12 @@
 This page is for tracking apps that we want to recommend for CalyxOS.
 
+Criteria:
+
+* Free
+* Actively developed
+* Don't suck
+* Useful
+
 ## Apps
 
 Stores
@@ -31,12 +38,12 @@ Maps and Location
 Backup and Storage
 
 * Nextcloud
-* **SeedVault**
+* SeedVault
 
 Photos and Video
 
 * Scramble
-* Simple Gallery
+* [LineageOS Gallery2](https://github.com/LineageOS/android_packages_apps_Gallery2)
 * VLC
 
 ## Links
