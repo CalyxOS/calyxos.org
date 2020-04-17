@@ -42,6 +42,7 @@ Utility
 * MuPDF
 * KeyChain
 * [OpenBoard](https://f-droid.org/en/packages/org.dslul.openboard.inputmethod.latin/)
+* [Material Files](https://f-droid.org/en/packages/me.zhanghai.android.files/)
 
 Maps and Location
 
