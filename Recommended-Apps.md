@@ -11,25 +11,25 @@ Criteria:
 
 Stores
 
-* F-Droid
-* Aurora Store
+* **F-Droid**
+* **Aurora Store**
 * Aurora Droid?
 
 Networking
 
-* RiseupVPN
-* [CalyxVPN](https://f-droid.org/en/packages/org.calyxinstitute.vpn/)
+* **RiseupVPN**
+* [**CalyxVPN**](https://f-droid.org/en/packages/org.calyxinstitute.vpn/)
 * Tor
-* Tor Browser
+* **Tor Browser**
 
 Communication
 
-* Signal
+* **Signal**
 * Jitsi Meet
 * DeltaChat
 * Simple Contacts
-* Briar
-* Conversations
+* **Briar**
+* **Conversations**
 
 Productivity
 
@@ -37,9 +37,9 @@ Productivity
 
 Utility
 
-* Privacy Friendly Weather
+* **Privacy Friendly Weather**
 * Voice Recorder
-* MuPDF
+* **MuPDF Viewer**
 * KeyChain
 * [OpenBoard](https://f-droid.org/en/packages/org.dslul.openboard.inputmethod.latin/)
 * [Material Files](https://f-droid.org/en/packages/me.zhanghai.android.files/)
@@ -51,11 +51,11 @@ Maps and Location
 Backup and Storage
 
 * Nextcloud
-* SeedVault
+* **SeedVault**
 
 Photos and Video
 
-* Scramble
+* **Scrambled EXIF**
 * [LineageOS Gallery2](https://github.com/LineageOS/android_packages_apps_Gallery2)
 * VLC
 
