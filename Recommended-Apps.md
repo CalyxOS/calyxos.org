@@ -9,6 +9,8 @@ Criteria:
 
 ## Apps
 
+* Apps already included in the OS are marked **bold**
+
 Stores
 
 * **F-Droid**
