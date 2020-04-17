@@ -11,7 +11,7 @@ Criteria:
 
 Stores
 
-* F-droid
+* F-Droid
 * Aurora Store
 * Aurora Droid?
 
