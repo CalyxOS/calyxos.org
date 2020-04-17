@@ -41,6 +41,7 @@ Utility
 * Voice Recorder
 * MuPDF
 * KeyChain
+* [OpenBoard](https://f-droid.org/en/packages/org.dslul.openboard.inputmethod.latin/)
 
 Maps and Location
 
