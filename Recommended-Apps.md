@@ -21,7 +21,7 @@ Networking
 
 * **RiseupVPN**
 * [**CalyxVPN**](https://f-droid.org/en/packages/org.calyxinstitute.vpn/)
-* Tor
+* **Orbot** (Tor)
 * **Tor Browser**
 
 Communication
