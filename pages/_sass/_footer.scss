@@ -1,0 +1,38 @@
+//
+// STICKY FOOTER
+//
+
+html {
+  @extend .h-100;
+}
+body {
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .h-100;
+}
+main {
+  @extend .flex-shrink-0;
+}
+footer {
+  @extend .mt-auto;
+}
+
+// style the footer
+
+footer {
+  padding-top: 1em;
+  .shade {
+    background-color: #ddd;
+  }
+  .row {
+    padding: 1em;
+    font-size: 90%;
+  }
+  .col {
+    text-align: center;
+  }
+  a {
+    @extend .text-muted;
+    text-decoration: none;
+  }
+}

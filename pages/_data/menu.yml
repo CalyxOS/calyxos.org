@@ -1,0 +1,10 @@
+---
+- home (index)
+- about:
+  - features
+  - contributors
+- get:
+  - download
+  - install
+- development
+- news

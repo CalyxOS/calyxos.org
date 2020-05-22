@@ -1,0 +1,50 @@
+source: pages
+destination: static
+
+title: CalyxOS
+email: os@calyxinstitute.org
+description: >-
+  CalyxOS
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: calyxinstitute
+github_username:  calyxos
+git_url: https://github.com/calyxos
+permalink: /news/:year/:month/:day/:title/
+
+##
+## Build settings
+##
+
+markdown: kramdown
+
+kramdown:
+  syntax_highlighter: rouge
+  parse_block_html: true    # needed for TOC support
+  # input: AutoLink   # see _plugins/kramdown_easy_link.rb
+
+plugins:
+  - jekyll-feed
+  - jekyll-toc
+#  - jekyll-twitter-plugin
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+
+exclude:
+  - assets/images/original
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

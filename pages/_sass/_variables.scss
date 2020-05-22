@@ -1,0 +1,17 @@
+//
+// Potential bootstrap variables:
+//
+//    https://github.com/twbs/bootstrap/blob/master/less/variables.less
+//
+// Note that this is a scss file, not a less file:
+//
+// In LESS: @variable: "value";
+// In SCSS: $variable: "value";
+//
+
+$brand-primary: #337dcc;
+$link-color: $brand-primary;
+$component-active-bg: $brand-primary;
+
+$font-family-sans-serif:  "Roboto", sans-serif;
+$font-family-serif:       "Roboto", serif;
