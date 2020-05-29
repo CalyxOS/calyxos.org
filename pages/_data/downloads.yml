@@ -1,27 +1,70 @@
 ---
-version: 2020.03.04.05
-devices:
-  - name: Pixel 2
-    codename: walleye
-    link: https://release.calyxinstitute.org/walleye-factory-2020.03.04.05.zip
-    sha256: 66d8512159ce40ea3b985bddbaa88ea82b1d5ee92bd0852431a69a9ba903dee7
-  - name: Pixel 2 XL
-    codename: tiamen
-    link: https://release.calyxinstitute.org/taimen-factory-2020.03.04.05.zip
-    sha256: 88904026b107f9ffd2ce8176ac820350780131ba869f12ba6d76876a6626c2a3
-  - name: Pixel 3
-    codename: blueline
-    link: https://release.calyxinstitute.org/blueline-factory-2020.03.04.05.zip
-    sha256: 7c48749e84b53e99f26bc4b2fc6e834dc0c7a2605fb5948b17c1ddcd5b9d8f5a
-  - name: Pixel 3 XL
-    codename: crosshatch
-    link: https://release.calyxinstitute.org/crosshatch-factory-2020.03.04.05.zip
-    sha256: c2925d5ec9a3c34ce260734f1b23676aedbb66d551945fcf7690ce9cdc12403b
-  - name: Pixel 3a
-    codename: sargo
-    link: https://release.calyxinstitute.org/sargo-factory-2020.03.04.05.zip
-    sha256: 4934097db42c8234bddf702f9df8f33f3c16b44e86d3037bc57a41ddada16b04
-  - name: Pixel 3a XL
-    codename: bonito
-    link: https://release.calyxinstitute.org/bonito-factory-2020.03.04.05.zip
-    sha256: b0889c9023c14acadd9dfc9c4674fac74687742f2b151c2c32dfe63145943c06
+stable:
+- name: Pixel 2
+  codename: walleye
+  link: https://release.calyxinstitute.org/walleye-factory-2020.05.06.14.zip
+  date: '2020-05-06'
+- name: Pixel 2 XL
+  codename: taimen
+  link: https://release.calyxinstitute.org/taimen-factory-2020.05.06.14.zip
+  date: '2020-05-06'
+- name: Pixel 3
+  codename: blueline
+  link: https://release.calyxinstitute.org/blueline-factory-2020.05.06.14.zip
+  date: '2020-05-06'
+- name: Pixel 3 XL
+  codename: crosshatch
+  link: https://release.calyxinstitute.org/crosshatch-factory-2020.05.06.14.zip
+  date: '2020-05-06'
+- name: Pixel 3a
+  codename: sargo
+  link: https://release.calyxinstitute.org/sargo-factory-2020.05.06.14.zip
+  date: '2020-05-06'
+- name: Pixel 3a XL
+  codename: bonito
+  link: https://release.calyxinstitute.org/bonito-factory-2020.05.06.14.zip
+  date: '2020-05-06'
+- name: Xiaomi Mi A2
+  codename: jasmine_sprout
+  link: https://release.calyxinstitute.org/jasmine_sprout-factory-2020.05.06.14.zip
+  date: '2020-05-06'
+testing:
+- name: Pixel 2
+  codename: walleye
+  link: https://release.calyxinstitute.org/walleye-factory-2020.05.06.14.zip
+  date: '2020-05-06'
+- name: Pixel 2 XL
+  codename: taimen
+  link: https://release.calyxinstitute.org/taimen-factory-2020.05.06.14.zip
+  date: '2020-05-06'
+- name: Pixel 3
+  codename: blueline
+  link: https://release.calyxinstitute.org/blueline-factory-2020.05.06.14.zip
+  date: '2020-05-06'
+- name: Pixel 3 XL
+  codename: crosshatch
+  link: https://release.calyxinstitute.org/crosshatch-factory-2020.05.06.14.zip
+  date: '2020-05-06'
+- name: Pixel 3a
+  codename: sargo
+  link: https://release.calyxinstitute.org/sargo-factory-2020.05.06.14.zip
+  date: '2020-05-06'
+- name: Pixel 3a XL
+  codename: bonito
+  link: https://release.calyxinstitute.org/bonito-factory-2020.05.06.14.zip
+  date: '2020-05-06'
+- name: Pixel 4
+  codename: flame
+  link: https://release.calyxinstitute.org/flame-factory-2020.05.26.20.zip
+  date: '2020-05-26'
+- name: Pixel 4 XL
+  codename: coral
+  link: https://release.calyxinstitute.org/coral-factory-2020.05.26.20.zip
+  date: '2020-05-26'
+- name: Xiaomi Mi A2
+  codename: jasmine_sprout
+  link: https://release.calyxinstitute.org/jasmine_sprout-factory-2020.05.26.20.zip
+  date: '2020-05-26'
+releases:
+- stable
+- testing
