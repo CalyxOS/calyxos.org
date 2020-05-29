@@ -3,4 +3,4 @@
 .jekyll-cache
 .jekyll-metadata
 /vendor
-/releases
+/tmp
