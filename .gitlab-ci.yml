@@ -5,7 +5,7 @@ pages:
   - gem install bundler
   - bundle config set deployment true
   - bundle
-  - ./update_releases
+  - ./update-releases
   - bundle exec jekyll build -d public
   artifacts:
     paths:

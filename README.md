@@ -17,7 +17,7 @@ Prerequisites:
 
 Update the firmware release download links:
 
-    ./update_releases
+    ./update-releases
 
 Build the static pages:
 
