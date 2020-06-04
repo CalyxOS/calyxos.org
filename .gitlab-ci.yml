@@ -1,0 +1,12 @@
+image: ruby:2.7
+
+pages:
+  script:
+    - gem install bundler
+    - bundle config set deployment true
+    - bundle
+    - ./update_releases
+    - bundle exec jekyll build -d public
+    artifacts:
+     paths:
+     - public
