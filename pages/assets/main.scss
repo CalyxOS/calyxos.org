@@ -2,6 +2,8 @@
 # The partials live in `pages/_sass/`.
 ---
 
+$baseurl: "{{ site.baseurl }}";
+
 @import 'fonts';
 @import 'variables';
 @import 'bootstrap/bootstrap';

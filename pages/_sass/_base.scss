@@ -87,7 +87,7 @@ strong span {
   margin-left: auto;
   max-width: 500px;
   .masthead-logo {
-    background-image: url(/assets/images/logo.svg);
+    background-image: url($baseurl + "/assets/images/logo.svg");
     background-size: cover;
     height: 90px;
     width: 150px;
