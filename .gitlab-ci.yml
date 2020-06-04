@@ -6,7 +6,7 @@ pages:
   - bundle config set deployment true
   - bundle
   - ./update-releases
-  - bundle exec jekyll build -d public
+  - bundle exec jekyll build -d public --baseUrl "/calyxos.org"
   artifacts:
     paths:
     - public
