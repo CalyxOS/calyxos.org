@@ -1,12 +1,31 @@
 image: ruby:2.7
 
-pages:
-  script:
+cache:
+  paths:
+  - vendor/
+
+before_script:
   - gem install bundler
   - bundle config set deployment true
-  - bundle
+  - bundle install --path vendor
   - ./update-releases
+
+pages:
+  stage: deploy
+  script:
   - bundle exec jekyll build -d public --baseUrl "/calyxos.org"
   artifacts:
     paths:
     - public
+  only:
+  - master
+
+test:
+  stage: test
+  script:
+  - bundle exec jekyll build -d test --baseUrl "/calyxos.org"
+  artifacts:
+    paths:
+    - test
+  except:
+  - master
