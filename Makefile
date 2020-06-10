@@ -6,5 +6,8 @@ help: ## Show this help.
 build: ## Build site and put static html files
 	bundle exec jekyll build
 
-serve: ## Start the development server bound to http://localhost:4000.
+serve: ## Start the development server bound to http://localhost:4000
 	bundle exec jekyll serve --baseurl ''
+
+develop: ## Continuously rebuild incrementally as you make changes. http://localhost:4000
+	bundle exec jekyll serve --baseurl '' --watch --incremental
