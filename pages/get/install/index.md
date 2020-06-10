@@ -19,15 +19,22 @@ You need an updated copy of the `fastboot` tool and it needs to be included in y
 
 You can download the official releases of platform-tools from Google. You can either obtain these as part of the standalone SDK or Android Studio. For one time usage, it's easiest to obtain the latest standalone platform-tools release, extract it and add it to your `PATH` in the current shell. For example:
 
+### Download links
+
+[Linux](https://dl.google.com/android/repository/platform-tools_r30.0.2-linux.zip)
+[MacOS](https://dl.google.com/android/repository/platform-tools_r30.0.2-darwin.zip)
+[Windows](https://dl.google.com/android/repository/platform-tools_r30.0.2-windows.zip)
+
+
 ``` shell
-unzip platform-tools_r29.0.2-linux.zip
+unzip platform-tools_r30.0.2-linux.zip
 export PATH="$PWD/platform-tools:$PATH"
 ```
 
 Sample output from `fastboot --version` afterwards:
 
 ```
-fastboot version 29.0.2-5738569
+fastboot version 30.0.2-6538114
 Installed as /home/username/downloads/platform-tools/fastboot
 ```
 
