@@ -43,7 +43,9 @@ Enable the developer settings menu by going to Settings ➔ System ➔ About pho
 First, reboot into the bootloader interface. You can do this by turning off the device and then turning it on by holding both the Volume Down and Power buttons.
 The bootloader now needs to be unlocked to allow flashing new images:
 
-## fastboot flashing unlock
+```shell
+fastboot flashing unlock
+```
 
 The command needs to be confirmed on the device, using the volume and power buttons.
 
@@ -72,7 +74,7 @@ Wait for the flashing process to complete and for the device to boot up using th
 Re-locking the bootloader is important as it enables full verified boot. It also prevents using fastboot to flash, format or erase partitions. Verified boot will detect modifications to any of the OS partitions and it will prevent reading any modified / corrupted data.
 In the bootloader interface, set it to locked:
 
-```
+```shell
 fastboot flashing lock
 ```
 
@@ -91,6 +93,6 @@ Installation of the stock OS via the stock factory images is the same process de
 
 This step needs to be performed by rebooting to the bootloader like before, and then running:
 
-```
+```shell
 fastboot erase avb_custom_key
 ```
