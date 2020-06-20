@@ -48,6 +48,17 @@ Enable the developer settings menu by going to Settings ➔ System ➔ About pho
 ## Unlocking the bootloader
 
 First, reboot into the bootloader interface. You can do this by turning off the device and then turning it on by holding both the Volume Down and Power buttons.
+Alternately, enable USB Debugging on the device and issue the following command:
+
+``` shell
+adb reboot bootloader
+```
+
+Verify the device is in fastboot mode and detected by your Computer:
+``` shell
+fastboot devices
+```
+
 The bootloader now needs to be unlocked to allow flashing new images:
 
 ```shell
