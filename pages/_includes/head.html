@@ -15,4 +15,13 @@
 
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+
+{% for lang in site.languages %}
+{%- if lang == site.default_lang or lang == 'en' -%}
+  {%- continue -%}
+{%- endif -%}
+  {%- if site.baseurl == '' -%}
+  <link rel="alternate" hreflang="{{ lang | replace: '_', '-' }}" href="/{{ lang }}{{ page.permalink }}" />
+  {%- endif -%}
+{%- endfor -%}
 </head>

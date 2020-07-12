@@ -25,6 +25,7 @@ kramdown:
 
 plugins:
   - jekyll-feed
+  - jekyll-polyglot
   - jekyll-toc
 #  - jekyll-twitter-plugin
 
@@ -49,3 +50,20 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+default_lang: "_"
+languages: [ de, en ]
+# get the lang: front matter from the path, e.g. _pages/zh_Hans/about.md
+lang_from_path: true
+exclude_from_localization:
+  - \.htaccess
+  - \.well-known/
+  - assets/
+  - css/
+  - feed\.xml
+  - js/
+  - Makefile
+  - po/
+  - README\.md
+  - robots\.txt
+  - vendor/

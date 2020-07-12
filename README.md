@@ -27,6 +27,21 @@ To view the pages via a local server:
 
     make serve
 
+
+### Debian/buster test build setup
+
+Installing from Debian is easier for people unfamiliar with Ruby
+development.  This setup is for editing the site with live preview.
+First, make sure [_buster-backports_ is
+enabled](https://backports.debian.org/Instructions/).  Then install
+the dependencies:
+
+    sudo apt-get install -t buster-backports \
+      jekyll ruby-jekyll-feed ruby-jekyll-polyglot ruby-jekyll-toc ruby-rouge po4a
+    rm -f Gemfile Gemfile.lock
+    jekyll serve
+
+
 ## Adding pages
 
 To modify the navigation menu, edit the file `pages/_data/menu.yml`.
