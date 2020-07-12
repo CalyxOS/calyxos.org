@@ -51,19 +51,23 @@ exclude:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-default_lang: "_"
-languages: [ de, en ]
-# get the lang: front matter from the path, e.g. _pages/zh_Hans/about.md
+# SASS SETTINGS
+
+sass:
+  sourcemap: never # important! this is needed due to a bug between jekyll 4.0 and polyglot
+
+# POLYGLOT SETTINGS
+
+default_lang: "en"
+languages:
+  - en
+  - de
+  - es
+  - pt
 lang_from_path: true
 exclude_from_localization:
   - \.htaccess
   - \.well-known/
   - assets/
-  - css/
   - feed\.xml
-  - js/
-  - Makefile
-  - po/
-  - README\.md
   - robots\.txt
-  - vendor/
