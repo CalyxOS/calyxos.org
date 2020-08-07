@@ -1,0 +1,15 @@
+<div class="locales">
+  <label class="toggle" for="locale-menu-toggle">&#x25be; {{ site.active_lang | locale_name }}</label>
+  <input class="toggle" id="locale-menu-toggle" type="checkbox"/>
+  <div id="lang-toggle">
+{%- for lang in site.languages -%}
+{%-   if lang != site.active_lang -%}
+{%-     if lang == site.default_lang -%}
+<a href=" {{ site.baseurl }}{{ page.permalink }}"/>{{ lang | locale_name }}</a>
+{%-     else -%}
+<a href="{{ site.baseurl }}/{{ lang }}{{ page.permalink }}"/>{{ lang | locale_name }}</a>
+{%-     endif -%}
+{%-   endif -%}
+{%- endfor -%}
+  </div>
+</div>

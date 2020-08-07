@@ -47,6 +47,26 @@ strong span {
   color: $green-dark;
 }
 
+.locales {
+  padding-left: 1rem;
+}
+
+//
+// CSS TOGGLES
+//
+
+label.toggle {
+  cursor: pointer;
+}
+
+input.toggle {
+  display: none;
+}
+
+input.toggle:not(:checked) ~ #lang-toggle {
+  display: none;
+}
+
 //
 // Posts
 //
@@ -161,6 +181,16 @@ strong span {
   li.nav-level-2 {margin-left: 5rem;}
   li.nav-level-3 {margin-left: 7rem;}
   li.nav-level-4 {margin-left: 9rem;}
+}
+
+.locales a {
+  display: block;
+  padding: 4px;
+  border-radius: 4px;
+  &.active {
+    color: white;
+    background-color: $masthead-bg;
+  }
 }
 
 //

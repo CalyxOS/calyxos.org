@@ -2,26 +2,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-
   <link rel="shortcut icon" type="image/png" href="{{ "/assets/images/favicon.png" | relative_url }}">
-
-  {% if page.css %}<link rel="stylesheet" type="text/css" href="{{ page.css }}"><!-- custom css added -->{% else %}<!-- no custom css detected -->{% endif %}
-
-  {% if page.description %}
+  {% if page.css %}<link rel="stylesheet" type="text/css" href="{{ page.css }}">{% endif %}
+  {%- if page.description -%}
   <meta name="description" content="{{ page.description }}" />
-  {% else %}
+  {%- else -%}
   <meta name="description" content="{{ page.title }}" />
-  {% endif %}
+  {%- endif -%}
 
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-
-{% for lang in site.languages %}
-{%- if lang == site.default_lang or lang == 'en' -%}
-  {%- continue -%}
-{%- endif -%}
-  {%- if site.baseurl == '' -%}
-  <link rel="alternate" hreflang="{{ lang | replace: '_', '-' }}" href="/{{ lang }}{{ page.permalink }}" />
-  {%- endif -%}
-{%- endfor -%}
+  {% hreflang %}
 </head>
