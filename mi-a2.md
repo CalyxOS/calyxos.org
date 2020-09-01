@@ -11,8 +11,7 @@
 1. Extract archive (`tar -xvzf jasmine_*.tgz`), change into extracted folder and run `./flash-all.sh` to flash it on the device.
 1. Boot stock Oreo once, complete the SetupWizard quickly and get to the Home Screen just to make sure things are working.
 1. Download the current CalyxOS build, e.g.
-    * ~~`https://www.calyxos.org/jasmine_sprout-factory-2019.07.26.08.zip`~~
-    * [`https://release.calyxinstitute.org/jasmine_sprout-factory-2019.12.17.16.zip`](https://release.calyxinstitute.org/jasmine_sprout-factory-2019.12.17.16.zip) (sha256 5ba0ca4a3fa7714fa7a92bab65801ce2715b4b6dbb50661761ed142109833b42)
+    * [`https://release.calyxinstitute.org/jasmine_sprout-factory-2020.08.04.12.zip`](https://release.calyxinstitute.org/jasmine_sprout-factory-2020.08.04.12.zip) (sha256 1aa4d3e7371f5ef31705e44116a646526ccec191cd3f0af612053501a79d4345)
 1. Boot to fastboot mode again, extract the zip file (`unzip jasmine_sprout-*.zip`), change into extracted folder and run `./flash-all.sh` there.
     * If you get an error with `No space left on device`, set the `TMPDIR` variable to a location with sufficient free disk space.
 1. The device should boot into CalyxOS. Don't set it up yet, reboot to fastboot mode again and then run `fastboot flashing lock` to lock the bootloader. Then confirm that the "unlocked" warning are gone.
