@@ -1,7 +1,8 @@
 /* INTRO */
 
 .intro {
-  padding: 3rem 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   display: table;
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 100%);
   width: 100%;
@@ -12,7 +13,6 @@
   margin-bottom: 1rem;
   width: 80%;
   font-weight: 600;
-  letter-spacing: -.25rem;
 }
 
 .intro p {
@@ -40,17 +40,21 @@
 }
 
 .calyx-intro {
+  padding: 3rem 3rem;
   position: relative;
   height: 90vh;
   overflow: hidden;
+  h1 {
+    letter-spacing: -.25rem;
+  }
 }
 
-.calyx-intro .text h1 {
+.intro h1 {
   width: 100%;
   color: rgba(255,255,255,0.9);
 }
 
-.calyx-intro .text p {
+.intro p {
   width: 100%;
   color: rgba(255,255,255,0.9);
 }

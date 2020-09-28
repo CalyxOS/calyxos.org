@@ -14,7 +14,7 @@ $baseurl: "{{ site.baseurl }}";
 @import 'footer';
 
 // Rouge Syntax Highlight:
-//@import 'rouge/native';
+@import 'rouge/native';
 //@import 'rouge/monokai';
 //@import 'rouge/fruity';
 //@import 'rouge/emacs';

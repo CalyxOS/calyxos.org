@@ -8,7 +8,7 @@ To download the <strong>Calyx<span>OS</span></strong> firmware, follow the link 
 Optional: To verify the *SHA256* digest, run the command `sha256sum FILENAME_OF_DOWNLOAD` and compare the result with the value in the table below.
 
 {% for release in site.data.downloads.releases %}
-<h3>{{ release | capitalize }}</h3>
+<h2 class="mt-3">{{ release | capitalize }}</h2>
 <table class="table table-striped">
   <tr><th>Device</th><th>Release Date</th><th>SHA256</th></tr>
 {% for device in site.data.downloads[release] %}
