@@ -1,5 +1,6 @@
 ---
-title: Contribute
+title: Contribute to CalyxOS
+nav_title: Contribute
 ---
 
 ## Donate

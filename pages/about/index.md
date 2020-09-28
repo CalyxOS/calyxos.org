@@ -1,5 +1,6 @@
 ---
-title: About
+title: About CalyxOs
+nav_title: About
 ---
 
 Everyone needs a phone. Not everyone wants governments and corporations tracking their every move and spying on their communications.  CalyxOS lets you have your cake and eat it too, with  "Privacy by Design"

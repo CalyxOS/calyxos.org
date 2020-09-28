@@ -1,5 +1,6 @@
 ---
-title: Features
+title: CalyxOS Features
+nav_title: Features
 ---
 
 **Verified Boot:** to prevent tampering with the phone's operating system, using cryptographic signatures
