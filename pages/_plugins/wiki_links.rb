@@ -104,7 +104,7 @@ module Jekyll
       if page.basename == "index"
         File.basename(File.dirname(page.path)).sub(/\A\.\z/,'')
       else
-        page.basename.sub(/#{Regexp.escape(File.extname(page.basename))}\z/, '')
+        page.basename.sub(/#{Regexp.escape(File.extname(page.path))}\z/, '')
       end
     end
 
@@ -115,7 +115,7 @@ module Jekyll
       if page.basename == "index"
         File.dirname(page.path).sub(/\A\.\z/,'')
       else
-        page.path.sub(/#{Regexp.escape(File.extname(page.basename))}\z/, '')
+        page.path.sub(/#{Regexp.escape(File.extname(page.path))}\z/, '')
       end
     end
 
