@@ -1,4 +1,6 @@
 ---
-layout: home
-title: News
+layout: news
+title: CalyxOS News
+nav_title: News
 ---
+
