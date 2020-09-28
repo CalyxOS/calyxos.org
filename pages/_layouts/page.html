@@ -8,7 +8,6 @@
     <main>
       <div class="container-fluid">
         <div class="row">
-          {% include side_navigation.html %}
           <div class="col-sm-9 ml-sm-auto col-md-9 pt-3">
             {% if page.title %}<h1 class="title">{{ page.title }}</h1>{% endif %}
             {{ content | auto_link | wiki_link | toc }}

@@ -1,6 +1,11 @@
 ---
-title: Development
+title: Contribute
 ---
+
+## Donate
+
+
+## Development
 
 CalyxOS is Free and Open Source Software.
 

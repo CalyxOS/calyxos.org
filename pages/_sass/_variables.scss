@@ -1,4 +1,6 @@
 //
+// BOOTSTRAP VARIABLES
+//
 // Potential bootstrap variables:
 //
 //    https://github.com/twbs/bootstrap/blob/master/less/variables.less
@@ -10,8 +12,13 @@
 //
 
 $brand-primary: #337dcc;
-$link-color: $brand-primary;
+//$link-color: $brand-primary;
+$link-color: rgba(0,0,0,0.8);
 $component-active-bg: $brand-primary;
 
-$font-family-sans-serif:  "Roboto", sans-serif;
-$font-family-serif:       "Roboto", serif;
+$font-family-sans-serif: Helvetica, Arial, sans-serif;
+$font-family-serif:      Helvetica, Arial, serif;
+
+// CALYXOS VARIABLES
+
+$masthead-bg: #333;

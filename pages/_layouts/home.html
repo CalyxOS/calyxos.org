@@ -2,18 +2,11 @@
 <html lang="{% html_lang %}" dir="{% html_dir %}">
 {% include head.html %}
   <body>
-    <header>
-      {% include masthead.html %}
-    </header>
+    {% include masthead.html %}
+    {% include intro.html %}
     <main>
-      <div class="container-fluid">
-        <div class="row">
-          {% include side_navigation.html %}
-          <div class="col-sm-9 ml-sm-auto col-md-9 pt-3">
-            {{ content | auto_link | wiki_link | toc }}
-            {% include posts.html %}
-          </div>
-        </div>
+      <div class="container">
+        {% include features.html %}
       </div>
     </main>
     <footer>

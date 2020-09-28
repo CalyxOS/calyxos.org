@@ -1,0 +1,71 @@
+.locales a {
+  display: block;
+  padding: 4px;
+  border-radius: 4px;
+  &.active {
+    color: white;
+    background-color: $masthead-bg;
+  }
+}
+
+code.highlighter-rouge {
+  background: #efefef;
+  padding: 2px;
+  padding-bottom: 0px;
+}
+
+//
+// NAVIGATION
+//
+
+.navbar .nav-link {
+  margin: 0.25em;
+}
+
+.navbar-toggle {
+  height: 1.5em;
+  width: 1.5em;
+  background-image: url($baseurl + "/assets/images/bars-white.svg");
+  background-size: cover;
+  z-index: 200;
+  display: none;
+}
+
+@include media-breakpoint-down(xs) {
+  .navbar-toggle { display: block }
+  .masthead .navbar-nav {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    right: 6px;
+    top: 6px;
+    color: black;
+    border: 1px solid white;
+    padding: 20px;
+    background: #333;
+    border-radius: 6px;
+    .nav-link {
+      padding: 0.75em 0.5em 0.5em 1em;
+    }
+  }
+  input.toggle:checked ~ .navbar-nav {
+    display: block;
+  }
+}
+
+//
+// CSS TOGGLES
+//
+
+label.toggle {
+  cursor: pointer;
+}
+
+input.toggle {
+  display: none;
+}
+
+input.toggle:not(:checked) ~ #lang-toggle {
+  display: none;
+}
+

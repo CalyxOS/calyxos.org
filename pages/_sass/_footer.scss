@@ -24,15 +24,19 @@ footer {
   .shade {
     background-color: #ddd;
   }
+  .join {
+    padding: 3rem 0;
+  }
   .row {
-    padding: 1em;
+    padding: 1rem;
     font-size: 90%;
   }
   .col {
-    text-align: center;
+    //text-align: center;
   }
-  a {
-    @extend .text-muted;
-    text-decoration: none;
+  a.btn {
+    background-color: white;
+    color: black;
+    padding-bottom: 0.2rem;
   }
 }

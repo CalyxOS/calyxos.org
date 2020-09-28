@@ -1,0 +1,88 @@
+/* INTRO */
+
+.intro {
+  padding: 3rem 3rem;
+  display: table;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 100%);
+  width: 100%;
+}
+
+.intro h1 {
+  line-height: 105%;
+  margin-bottom: 1rem;
+  width: 80%;
+  font-weight: 600;
+  letter-spacing: -.25rem;
+}
+
+.intro p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  width: 80%;
+}
+
+.calyx-intro img {
+  margin-left: 3rem;
+  position: absolute;
+  width: 20rem;
+  top: 3rem;
+  right: -10rem;
+  transform: rotate(-10deg);
+  border-radius: 2rem;
+  box-shadow: -1rem 1rem 3rem rgba(0,0,0,.5);
+}
+
+.calyx-intro img:hover {
+  right: -5rem;
+  margin-left: 0;
+  transform: rotate(0deg);
+  transition: all 0.25s;
+}
+
+.calyx-intro {
+  position: relative;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.calyx-intro .text h1 {
+  width: 100%;
+  color: rgba(255,255,255,0.9);
+}
+
+.calyx-intro .text p {
+  width: 100%;
+  color: rgba(255,255,255,0.9);
+}
+
+.intro .text {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  top: -1rem;
+  width: 80%;
+}
+
+// xsmall screens
+@include media-breakpoint-down(xs) {
+  .calyx-intro img {display: none}
+}
+
+// small screens
+@include media-breakpoint-up(sm) {
+  .intro .text h1 {  font-size: 3rem }
+}
+
+// medium screens
+@include media-breakpoint-up(md) {
+  .intro .text h1 {  font-size: 5rem }
+}
+@include media-breakpoint-down(md) {
+  .calyx-intro img { top: -5rem; scale: 60%}
+  .calyx-intro {height: 60vh;}
+}
+
+// large screens
+@include media-breakpoint-up(lg) {
+  .intro .text h1 {  font-size: 8rem }
+}

@@ -1,5 +1,5 @@
 ---
-title: Key Features
+title: Features
 ---
 
 **Verified Boot:** to prevent tampering with the phone's operating system, using cryptographic signatures
