@@ -1,28 +1,19 @@
 #
 # Adds the liquid tag "navigation_menu"
 #
-# Author: elijah@riseup.net
-# Copyright (c) 2017 ThoughtWorks
+# Example _data/menu.yml file:
 #
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to deal
-# in the Software without restriction, including without limitation the rights
-# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-# copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
+# ---
+# - home (index)
+# - about:
+#   - features
+#   - contributors
+# - get:
+#   - download
+#   - install
+# - development
+# - news
 #
-# The above copyright notice and this permission notice shall be included in all
-# copies or substantial portions of the Software.
-#
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-# SOFTWARE.
-#
-
 module Jekyll
 
   class MenuTag < Liquid::Tag
@@ -46,40 +37,41 @@ module Jekyll
     end
 
     def render_menu_item(menu_item, options={})
-      if options[:prefix].nil? || options[:prefix] == ""
-        prefix = ""
-      else
-        prefix = options[:prefix] + "/"
-      end
-      level   = options[:level]
-      subtree = ""
+      prefix       = path_prefix(options[:prefix])
+      level        = options[:level]
+
       if menu_item.is_a? String
-        if menu_item =~ /\((.*?)\)/
-          page = find_page($1)
-        else
-          page = find_page(prefix + menu_item)
-        end
-        return render_error(menu_item, level) unless page
+        item       = menu_item
+        sub_items  = nil
       elsif menu_item.is_a? Hash
-        index   = menu_item.keys.first
-        path    = prefix + index
-        page    = find_page(path)
-        return render_error(index, level) unless page
-        if options[:expand] || @page['path'] =~ /\A#{Regexp.escape(path)}\//
-          subtree = render_menu_items(
-            menu_item.values.first,
-            prefix: prefix + index,
-            level: level + 1
-          )
-        end
+        # menu_item e.g. {"about"=>["features", "contributors"]}
+        item       = menu_item.keys.first
+        sub_items  = menu_item.values.first
       end
-      title    = page["nav_title"] || page["title"] || page.name
-      selected = page.url == @page["url"]
+
+      path = prefix + item
+      page = find_page(path)
+      return render_error(item, level) unless page
+
+      title       = page["nav_title"] || page["title"] || page.name
+      selected    = page.url == @page["url"]
       description = page["description"] if options[:description]
+
       render_item(
         level: level, selected: selected,
         url: page.url, title: title, description: description
-      ) + subtree
+      ) + get_sub_menu_str(sub_items, path, options)
+    end
+
+    def get_sub_menu_str(items, path, options)
+      return "" if items.nil?
+      next_level = options[:level] + 1
+      return "" if options[:max_level] && next_level >= options[:max_level]
+      if options[:expand] || @page['path'] =~ /\A#{Regexp.escape(path)}\//
+        render_menu_items(items, prefix: path, level: next_level)
+      else
+        ""
+      end
     end
 
     def render_item(level:, selected:, url:, title:, description:)
@@ -97,6 +89,11 @@ module Jekyll
     end
 
     def find_page(name)
+      if name =~ /\((.*?)\)/
+        # if the menu item has parens, we extract that
+        # and use it for the page name
+        name = $1
+      end
       if @site.data["pages_by_path"]
         @site.data["pages_by_path"][name + ".md"] ||
         @site.data["pages_by_path"][name + "/index.md"]
@@ -105,6 +102,26 @@ module Jekyll
           page.path == name + ".md" || page.path == name + "/index.md"
         }
       end
+    end
+
+    def path_prefix(prefix)
+      if prefix.nil? || prefix == ""
+        ""
+      else
+        prefix + "/"
+      end
+    end
+  end
+
+  class TopNavigationMenuTag < MenuTag
+    def initialize(tag_name, text, tokens)
+      @li_class, @a_class, @active_class = text.split(' ')
+      super
+    end
+
+    def render(context)
+      super
+      render_menu_items(@menu_data, max_level: 1)
     end
   end
 
@@ -145,6 +162,7 @@ module Jekyll
 
 end
 
+Liquid::Template.register_tag('top_navigation_menu', Jekyll::TopNavigationMenuTag)
 Liquid::Template.register_tag('navigation_menu', Jekyll::NavigationMenuTag)
 Liquid::Template.register_tag('content_menu', Jekyll::ContentMenuTag)
 
