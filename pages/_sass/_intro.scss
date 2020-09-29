@@ -43,7 +43,6 @@
   padding: 3rem 3rem;
   position: relative;
   height: 90vh;
-  overflow: hidden;
   h1 {
     letter-spacing: -.25rem;
   }
@@ -82,7 +81,10 @@
   .intro .text h1 {  font-size: 5rem }
 }
 @include media-breakpoint-down(md) {
-  .calyx-intro img { top: -5rem; scale: 60%}
+  .calyx-intro img {
+    top: -5rem;
+    transform: rotate(-10deg) scale(0.6);
+  }
   .calyx-intro {height: 60vh;}
 }
 
