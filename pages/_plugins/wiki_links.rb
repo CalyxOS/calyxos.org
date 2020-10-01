@@ -50,7 +50,7 @@ module Jekyll
     LINK_RE = /\\?\[\[(([\p{Word} \.\,\?\!\"\'\|_\-\(\)\:\/\&\%]|[=-]&gt;)+?)\]\]/
 
     def wiki_link(text)
-      setup
+      @site ||= @context.registers[:site]
       text.gsub(LINK_RE) do |match|
         if match =~ /\A\\/
           # the string starts with a backslash, so skip all processing,
@@ -73,7 +73,7 @@ module Jekyll
             %(<a href="#{page_name}">#{title}</a>)
           else
             page_name = page_name.downcase
-            page = find_page(page_name)
+            page = @site.find_page(page_name)
             if page.nil?
               puts "ERROR: No such page '#{page_name}'"
               %(<a href="#{page_name}">#{page_name}</a>)
@@ -85,48 +85,6 @@ module Jekyll
           end
         end
       end
-    end
-
-    private
-
-    def find_page(name)
-      if name =~ /\//
-        @site.data["pages_by_basename_path"][name]
-      else
-        @site.data["pages_by_basename"][name]
-      end
-    end
-
-    # e.g.
-    # /tools/ruby/index.md => ruby
-    # /tools/ruby.md       => ruby
-    def basename(page)
-      if page.basename == "index"
-        File.basename(File.dirname(page.path)).sub(/\A\.\z/,'')
-      else
-        page.basename.sub(/#{Regexp.escape(File.extname(page.path))}\z/, '')
-      end
-    end
-
-    # e.g.
-    # /tools/ruby/index.md => tools/ruby
-    # /tools/ruby.md       => tools/ruby
-    def basename_path(page)
-      if page.basename == "index"
-        File.dirname(page.path).sub(/\A\.\z/,'')
-      else
-        page.path.sub(/#{Regexp.escape(File.extname(page.path))}\z/, '')
-      end
-    end
-
-    def setup
-      @site ||= @context.registers[:site]
-      @site.data["pages_by_basename_path"] ||= Hash[
-        @site.pages.map {|page| [basename_path(page), page]}
-      ]
-      @site.data["pages_by_basename"] ||= Hash[
-        @site.pages.map {|page| [basename(page), page]}
-      ]
     end
 
   end

@@ -22,9 +22,6 @@ module Jekyll
       @page = context.registers[:page]
       @site = context.registers[:site]
       @menu_data = @site.data["menu"]
-      @site.data["pages_by_path"] ||= Hash[
-        @site.pages.map {|page| [page.path, page]}
-      ]
     end
 
     protected
@@ -50,15 +47,14 @@ module Jekyll
       end
 
       path = prefix + item
-      page = find_page(path)
+      page = @site.find_page(path)
       return render_error(item, level) unless page
 
       title       = page["nav_title"] || page["title"] || page.name
-      selected    = page.url == @page["url"]
       description = page["description"] if options[:description]
 
       render_item(
-        level: level, selected: selected,
+        level: level, selected: is_selected?(path, page, options),
         url: page.url, title: title, description: description
       ) + get_sub_menu_str(sub_items, path, options)
     end
@@ -88,19 +84,16 @@ module Jekyll
 </li>)
     end
 
-    def find_page(name)
-      if name =~ /\((.*?)\)/
-        # if the menu item has parens, we extract that
-        # and use it for the page name
-        name = $1
-      end
-      if @site.data["pages_by_path"]
-        @site.data["pages_by_path"][name + ".md"] ||
-        @site.data["pages_by_path"][name + "/index.md"]
+    def is_selected?(path, page, options)
+      if page.url == @page["url"]
+        true
+      elsif options[:level] == options[:active_at_level] &&
+            @page['url'] =~ /\A\/?#{Regexp.escape(path)}\//
+        # if page is a parent of @page, and the level is a level
+        # that we force a selection on.
+        true
       else
-        @site.pages.find {|page|
-          page.path == name + ".md" || page.path == name + "/index.md"
-        }
+        false
       end
     end
 
@@ -121,7 +114,7 @@ module Jekyll
 
     def render(context)
       super
-      render_menu_items(@menu_data, max_level: 1)
+      render_menu_items(@menu_data, max_level: 0, active_at_level: 0)
     end
   end
 
@@ -160,9 +153,37 @@ module Jekyll
     end
   end
 
+  class BreadcrumbsTag < MenuTag
+    def initialize(tag_name, text, tokens)
+      #@li_class, @a_class, @active_class = text.split(' ')
+      super
+    end
+
+    def render(context)
+      super
+      return unless @page["url"]
+      path = @page["url"]
+      html = []
+      html << '<nav>'
+      html << '  <ol class="breadcrumb">'
+      path_so_far = ""
+      path.split('/').each do |segment|
+        path_so_far = File.join(path_so_far, segment)
+        page = @site.find_page(path_so_far)
+        if page
+          title = page["nav_title"] || page["title"]
+          url   = [@site.baseurl, page["url"]].join('/').gsub(/\/+/,'/')
+          html << '    <li class="breadcrumb-item"><a href="%s">%s</a></li>' % [url, title]
+        end
+      end
+      html << '  </ol>'
+      html << '</nav>'
+      html.join("\n")
+    end
+  end
 end
 
 Liquid::Template.register_tag('top_navigation_menu', Jekyll::TopNavigationMenuTag)
 Liquid::Template.register_tag('navigation_menu', Jekyll::NavigationMenuTag)
 Liquid::Template.register_tag('content_menu', Jekyll::ContentMenuTag)
-
+Liquid::Template.register_tag('breadcrumbs', Jekyll::BreadcrumbsTag)

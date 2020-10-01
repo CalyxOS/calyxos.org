@@ -33,8 +33,8 @@ module Jekyll
     end
 
     def render(context)
-      setup(context)
-      page = find_page(@page_name)
+      @site ||= context.registers[:site]
+      page = @site.find_page(@page_name)
       if page
         page["content"]
       else
@@ -42,25 +42,6 @@ module Jekyll
       end
     end
 
-    protected
-
-    def find_page(name)
-      if name =~ /\//
-        @site.data["pages_by_basename_path"][name]
-      else
-        @site.data["pages_by_basename"][name]
-      end
-    end
-
-    def setup(context)
-      @site ||= context.registers[:site]
-      @site.data["pages_by_basename_path"] ||= Hash[
-        @site.pages.map {|page| [basename_path(page), page]}
-      ]
-      @site.data["pages_by_basename"] ||= Hash[
-        @site.pages.map {|page| [basename(page), page]}
-      ]
-    end
   end
 end
 
