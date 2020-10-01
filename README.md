@@ -63,6 +63,22 @@ Add this to a crontab:
     0 * * * * cd /var/www/calyxos && ./update-releases > /dev/null 2>&1 && make build > /dev/null 2>&1
 
 
+## External Sources
+
+Data from these places are pulled in to help generate this site:
+
+* https://gitlab.com/calyxos/release.git
+* https://gitlab.com/calyxos/releases.git
+* https://gitlab.com/calyxos/platform_prebuilts_calyx/-/raw/android10/fdroid/repo/index.xml
+
+The images on this site are sourced from:
+
+* https://github.com/signalapp/Signal-Android/blob/master/artwork/logo-512.png
+* https://github.com/guardianproject/orbot/blob/a608a964964506e52878ef55e5b500fd54af90fb/ic_launcher.svg
+* https://code.briarproject.org/briar/briar/-/blob/master/briar-android/artwork/logo_vertical_black.svg
+* https://en.wikipedia.org/wiki/Outline_of_Google#/media/File:Google_2015_logo.svg
+* https://github.com/k9mail/k-9/blob/master/images/K-9_Mail.svg
+* https://fontawesome.com (CC BY 4.0 https://fontawesome.com/license)
 
 ## TODO
 
