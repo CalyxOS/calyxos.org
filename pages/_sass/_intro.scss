@@ -31,7 +31,6 @@
 }
 
 .calyx-intro img {
-  margin-left: 3rem;
   position: absolute;
   width: 20rem;
   top: 3rem;
@@ -51,7 +50,7 @@
 .calyx-intro {
   padding: 3rem 3rem;
   position: relative;
-  height: 90vh;
+  height: 100vh;
   h1 {
     letter-spacing: -.25rem;
   }
@@ -97,7 +96,7 @@
       transform: rotate(0deg) scale(0.6);
     }
   }
-  .calyx-intro {height: 60vh;}
+  .calyx-intro {height: 70vh;}
 }
 
 // large screens
