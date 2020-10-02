@@ -8,7 +8,8 @@ before_script:
   - gem install bundler
   - bundle config set deployment true
   - bundle install --path vendor
-  - ./update-releases
+  - rake update-releases
+  - rake update-apps
 
 pages:
   stage: deploy
