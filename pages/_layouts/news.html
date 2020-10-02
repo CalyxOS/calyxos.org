@@ -4,17 +4,18 @@
   <body>
     <header>
       {% include masthead.html %}
-    </header>
-    <main>
       <section class="intro">
         <div class="container">
           <div class="row">
             <div class="col">
               <h1>{{ page.title }}</h1>
+              {% breadcrumbs %}
             </div>
           </div>
         </div>
       </section>
+    </header>
+    <main>
       <div class="container">
         <div class="row">
           <div class="col pt-3">
