@@ -7,7 +7,7 @@ RELEASES        = ["stable", "beta"]
 RELEASE_SOURCE  = 'https://gitlab.com/calyxos/release.git'
 HASHES_SOURCE   = 'https://gitlab.com/calyxos/releases.git'
 RELEASE_DL_BASE = 'https://release.calyxinstitute.org/'
-HOME            = File.expand_path('..', __FILE__)
+HOME            = File.expand_path('../..', __FILE__)
 RELEASE_CACHE   = "#{HOME}/tmp/release"
 HASHES_CACHE    = "#{HOME}/tmp/hashes"
 DEST_FILE       = "#{HOME}/pages/_data/downloads.yml"
@@ -24,24 +24,6 @@ CODENAME_MAP = {
   "sunfish"        => "Pixel 4a",
   "jasmine_sprout" => "Xiaomi Mi A2"
 }
-
-def main
-  unless File.exist?(RELEASE_CACHE)
-    clone_release_repo
-  end
-  unless File.exist?(HASHES_CACHE)
-    clone_hashes_repo
-  end
-  update_release_repo
-  update_hashes_repo
-  releases = parse_releases
-  releases["releases"] = RELEASES
-  File.open(DEST_FILE, 'w') do |f|
-    f.write releases.to_yaml
-  end
-  puts "DONE"
-  exit
-end
 
 def clone_release_repo
   FileUtils.mkdir_p(RELEASE_CACHE)
@@ -115,4 +97,21 @@ def parse_release(release)
   return info
 end
 
-main()
+desc 'fetch data on current firmware releases and build pages/_data/downloads.yml file'
+task 'update-releases' do
+  unless File.exist?(RELEASE_CACHE)
+    clone_release_repo
+  end
+  unless File.exist?(HASHES_CACHE)
+    clone_hashes_repo
+  end
+  update_release_repo
+  update_hashes_repo
+  releases = parse_releases
+  releases["releases"] = RELEASES
+  File.open(DEST_FILE, 'w') do |f|
+    f.write releases.to_yaml
+  end
+  puts "DONE"
+  exit
+end

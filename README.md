@@ -17,15 +17,15 @@ Prerequisites:
 
 Update the firmware release download links:
 
-    ./update-releases
+    rake update-releases
 
 Build the static pages:
 
-    make build
+    rake build
 
 To view the pages via a local server:
 
-    make serve
+    rake serve
 
 
 ### Debian/buster test build setup
@@ -60,7 +60,7 @@ By adding links in this way, the links will still be valid even if you move the 
 
 Add this to a crontab:
 
-    0 * * * * cd /var/www/calyxos && ./update-releases > /dev/null 2>&1 && make build > /dev/null 2>&1
+    0 * * * * cd /var/www/calyxos && rake update-releases > /dev/null 2>&1 && rake build > /dev/null 2>&1
 
 
 ## External Sources
