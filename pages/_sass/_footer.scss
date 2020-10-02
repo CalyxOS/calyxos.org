@@ -25,10 +25,11 @@ footer {
     background-color: #ddd;
   }
   .join {
-    padding: 3rem 0;
+    padding-top: $vertical-padding;
+    padding-bottom: $vertical-padding;
   }
   .row {
-    padding: 1rem;
+    //padding: 1rem;
     font-size: 90%;
   }
   .col {

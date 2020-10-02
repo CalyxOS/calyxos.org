@@ -1,8 +1,8 @@
 /* INTRO */
 
 .intro {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: $vertical-padding;
+  padding-bottom: $vertical-padding;
   display: table;
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 100%);
   width: 100%;
@@ -93,6 +93,9 @@
   .calyx-intro img {
     top: -5rem;
     transform: rotate(-10deg) scale(0.6);
+    &:hover {
+      transform: rotate(0deg) scale(0.6);
+    }
   }
   .calyx-intro {height: 60vh;}
 }
