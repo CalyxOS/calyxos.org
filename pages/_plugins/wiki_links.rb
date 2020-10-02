@@ -46,8 +46,25 @@
 #
 
 module Jekyll
+
   module WikiLinks
     LINK_RE = /\\?\[\[(([\p{Word} \.\,\?\!\"\'\|_\-\(\)\:\/\&\%]|[=-]&gt;)+?)\]\]/
+
+    def page_url(text)
+      @site ||= @context.registers[:site]
+      if text
+        page = @site.find_page(text.strip.downcase)
+        if page
+          [@site.baseurl, page.url].join('/').gsub(/\/\/+/,'/')
+        else
+          "missing"
+          text.inspect
+        end
+      else
+        "missing"
+        text.inspect
+      end
+    end
 
     def wiki_link(text)
       @site ||= @context.registers[:site]
@@ -86,8 +103,8 @@ module Jekyll
         end
       end
     end
-
   end
+
 end
 
 Liquid::Template.register_filter(Jekyll::WikiLinks)
