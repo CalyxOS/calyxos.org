@@ -109,10 +109,10 @@ header.masthead {
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 100%);
   a.nav-link {
     color: white;
-    padding-bottom: 0.25rem;
+    padding-bottom: 0.75rem;
     &.active {
-      background-color: black;
-      border-radius: 0.25rem;
+      border-bottom: 2px solid rgba(255,255,255,1);
+      font-weight: bold;
     }
   }
   a.navbar-brand {
