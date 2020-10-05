@@ -20,7 +20,7 @@
     margin-bottom: 1rem;
     width: 80%;
     font-weight: 600;
-    font-size: 6.5rem;
+    font-size: 3rem;
   }
 
   .breadcrumb {
@@ -91,12 +91,12 @@
 
 // small screens
 @include media-breakpoint-up(sm) {
-  .intro .text h1 {  font-size: 3rem }
+  .intro h1 {  font-size: 4rem }
 }
 
 // medium screens
 @include media-breakpoint-up(md) {
-  .intro .text h1 {  font-size: 5rem }
+  .intro h1 {  font-size: 5rem }
 }
 @include media-breakpoint-down(md) {
   .calyx-intro img {
@@ -111,5 +111,5 @@
 
 // large screens
 @include media-breakpoint-up(lg) {
-  .intro .text h1 {  font-size: 8rem }
+  .intro h1 {  font-size: 6.5rem }
 }
