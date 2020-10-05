@@ -51,6 +51,16 @@ body {
   overflow-x: hidden;
 }
 
+.our-container {
+  @extend .container-xl;
+}
+@include media-breakpoint-up(md) {
+  .our-container {
+    padding-left: $grid-gutter-width * 2;
+    padding-right: $grid-gutter-width * 2;
+  }
+}
+
 //
 // COLORATION
 //
