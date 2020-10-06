@@ -6,6 +6,11 @@
     * Turn device off
     * Hold Volume Down and Power button until fastboot logo appears
     * Connect to USB and type `fastboot devices` to verify that it worked
+1. Grab the Android platform tools from:
+dl.google.com/android/repository/platform-tools_r29.0.6-windows.zip ( for Windows )
+dl.google.com/android/repository/platform-tools_r29.0.6-linux.zip ( for Linux )
+dl.google.com/android/repository/platform-tools_r29.0.6-darwin.zip ( for Mac OSX )
+
 1. Unlock bootloader: `fastboot flashing unlock` and to also unlock critical partitions `fastboot flashing unlock_critical`
 1. Download this old [Stock Oreo ROM](https://bigota.d.miui.com/V9.6.17.0.ODIMIFE/jasmine_global_images_V9.6.17.0.ODIMIFE_20181108.0000.00_8.1_1c60295d1c.tgz). 
 1. Extract archive (`tar -xvzf jasmine_*.tgz`), change into extracted folder and run `./flash-all.sh` to flash it on the device.
