@@ -28,13 +28,23 @@ Gerrit makes a lot easier to deal with hundreds of repositories in one place, an
 ### Common: ###
 * Open Changes can be viewed on the main gerrit homepage - https://review.calyxos.org/
 
+#### Change-Id ####
+* Gerrit tracks changes using Change-Ids, which will automatically be added to your commit messages with a hook.
+* Change-Ids are unique per-project per-branch, so you can share the Change-Id across projects (for one patch affecting multiple repos), or across branches (porting a previous feature) to keep things easier to track
+* Change-Ids are also how it knows whether to update an existing change, or create a new change
+
+#### Review ####
+* You can ask for review using the "Add Review" button on the left.
+* You can leave comments on individual files and even the commit message, and hit Reply to Submit
+* Reply also has options to set a score.
+* Code-Review is used to review the code. +1/-1 are like thumbs up / down. +2 is needed to merge a change, and -2 prevents a change from being merged.
+* Verified is used to indicate if the code builds. We'll have CI for this later, but for now you can mark stuff you compiled as +1, and -1 if it's WiP / doesn't compile yet.
+* Setting Verified+1 and Code-Review+1 on your own changes that you want reviewed / merged is good practice.
+* Once a change has at least one Verified +1 and Code-Review +2, it can be submitted using the "Submit" button which then appears.
+* A change can also be abandoned.
+
+#### Topics ####
+* Topics are another way to group changes together, and super useful with something like `repopick -t $topic` to be able to pick a set of changes easily.
+
 ### Useful Links: ###
 * https://gerrit-review.googlesource.com/Documentation/intro-gerrit-walkthrough-github.html
-
-TODO:
-* Change-Ids
-* Code-Review +1/-1 +2/-2
-* Verified +1/-1
-* Submit
-* Abandon
-* Topics
