@@ -12,7 +12,7 @@ dl.google.com/android/repository/platform-tools_r29.0.6-linux.zip ( for Linux )
 dl.google.com/android/repository/platform-tools_r29.0.6-darwin.zip ( for Mac OSX )
 
 1. Unlock bootloader: `fastboot flashing unlock` and to also unlock critical partitions `fastboot flashing unlock_critical`
-1. Download this old [Stock Oreo ROM](https://bigota.d.miui.com/V9.6.17.0.ODIMIFE/jasmine_global_images_V9.6.17.0.ODIMIFE_20181108.0000.00_8.1_1c60295d1c.tgz). 
+1. Download this old [Stock Oreo ROM](https://bigota.d.miui.com/V9.6.17.0.ODIMIFE/jasmine_global_images_V9.6.17.0.ODIMIFE_20181108.0000.00_8.1_1c60295d1c.tgz). (sha256 ba83419887dac341b5518ebd11f35be6028112ed4789c11da42a5560ebc0174a)
 1. Extract archive (`tar -xvzf jasmine_*.tgz`), change into extracted folder and run `./flash-all.sh` to flash it on the device.
 1. Boot stock Oreo once, complete the SetupWizard quickly and get to the Home Screen just to make sure things are working.
 1. Download the current CalyxOS build, e.g.
