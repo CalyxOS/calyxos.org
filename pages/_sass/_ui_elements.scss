@@ -91,3 +91,8 @@ input.toggle:not(:checked) ~ #lang-toggle {
   display: none;
 }
 
+@media only screen and (max-width: 768px) {
+  .intro .text h1 {
+    font-size: 6rem;
+  }
+}
