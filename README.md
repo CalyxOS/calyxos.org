@@ -9,9 +9,22 @@
 
 Prerequisites:
 
-    gem install bundler
-    git clone git@0xacab.org:calyx/os/calyxos.org.git
+    sudo apt install git ruby bundler build-essential libxml2 libxslt1.1 zlib1g-dev
+
+Clone git repo:
+
+    git clone https://gitlab.com/CalyxOS/calyxos.org.git
+
+Install gems for development
+
     cd calyxos.org
+    gem install bundler
+    bundle install --path=vendor
+
+Install gems for deployment
+
+    cd calyxos.org
+    gem install bundler
     bundle config set deployment true
     bundle
 
@@ -25,15 +38,21 @@ Build the static pages:
 
 To view the pages via a local server:
 
-    rake serve
+    rake develop
 
 
-### Debian/buster test build setup
+### Alternatie debian package install
 
-Installing from Debian is easier for people unfamiliar with Ruby
-development.  This setup is for editing the site with live preview.
+Typically, ruby is distributed with a Gemfile, which uses the
+`bundle` and `gem` commands to install the particular versions of
+ruby libraries (gems) that are needed.
+
+However, on Debian, many gems are also packages as Debian packages.
+Installing using Debian packages may be easier if you are not familar
+with ruby.
+
 First, make sure [_buster-backports_ is
-enabled](https://backports.debian.org/Instructions/).  Then install
+enabled](https://backports.debian.org/Instructions/). Then install
 the dependencies:
 
     sudo apt-get install -t buster-backports \
