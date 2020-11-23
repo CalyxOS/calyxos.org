@@ -22,3 +22,6 @@ Our source code is available for review at [gitlab.com/calyxos](https://gitlab.c
 You can get started by following our HOWTO for [creating a CalxOS development environment](https://gitlab.com/calyxos/calyxos/wikis/Getting-Started).
 
 Then, check out [list of open issues](https://gitlab.com/calyxos/calyxos/issues/).
+
+## Code of Conduct
+See: [Code of Conduct](code-of-conduct)
