@@ -16,11 +16,11 @@
   }
 
   h1 {
-    line-height: 105%;
+    line-height: 7.5rem;
     margin-bottom: 1rem;
     width: 80%;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 7rem;
   }
 
   .breadcrumb {
@@ -43,24 +43,26 @@
 .calyx-intro img {
   position: absolute;
   width: 20rem;
-  top: 3rem;
-  right: -10rem;
+  top: 1rem;
+  right: -15rem;
   transform: rotate(-10deg);
   border-radius: 2rem;
   box-shadow: -1rem 1rem 3rem rgba(0,0,0,.5);
 }
 
 .calyx-intro img:hover {
-  right: -5rem;
+  right: 1rem;
   margin-left: 0;
   transform: rotate(0deg);
   transition: all 0.25s;
+  transform: rotate(0deg);
+  transition-duration: .5s;
 }
 
 .calyx-intro {
   padding: 3rem 3rem;
   position: relative;
-  height: 100vh;
+  height: 85vh;
   h1 {
     letter-spacing: -.25rem;
   }
@@ -84,32 +86,52 @@
   width: 80%;
 }
 
-// xsmall screens
-@include media-breakpoint-down(xs) {
-  .calyx-intro img {display: none}
-}
+@media only screen and (max-width: 768px) {
 
-// small screens
-@include media-breakpoint-up(sm) {
-  .intro h1 {  font-size: 4rem }
-}
-
-// medium screens
-@include media-breakpoint-up(md) {
-  .intro h1 {  font-size: 5rem }
-}
-@include media-breakpoint-down(md) {
-  .calyx-intro img {
-    top: -5rem;
-    transform: rotate(-10deg) scale(0.6);
-    &:hover {
-      transform: rotate(0deg) scale(0.6);
-    }
+  .calyx-intro h1 {
+    font-size: 6rem;
+    line-height: 6.5rem;
   }
-  .calyx-intro {height: 70vh;}
+
+  .calyx-intro img {
+    width: 17rem;
+    top: 2rem;
+    right: -10rem;
+  }
+
+  // .calyx-intro img:hover {
+  //   right: -6rem;
+  // }
 }
 
-// large screens
-@include media-breakpoint-up(lg) {
-  .intro h1 {  font-size: 6.5rem }
+@media only screen and (max-width: 480px) {
+
+  h1 {
+
+  }
+
+  .calyx-intro img {
+    display: none;
+  }
 }
+
+// // xsmall screens
+// @include media-breakpoint-down(xs) {
+//   .calyx-intro img {display: none}
+// }
+//
+// // small screens
+// @include media-breakpoint-up(sm) {
+//   .intro h1 {  font-size: 4rem }
+// }
+//
+// // medium screens
+// @include media-breakpoint-up(md) {
+//   .intro h1 {  font-size: 5rem }
+// }
+// @include media-breakpoint-down(md) {
+//
+// // large screens
+// @include media-breakpoint-up(lg) {
+//   .intro h1 {  font-size: 6.5rem }
+// }
