@@ -21,13 +21,18 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 3rem;
   line-height: 3.25rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   font-weight: 700;
 }
 
 h2 {
   font-size: 2rem;
   line-height: 2.25rem;
+  margin: 1rem 0 2rem 0;
+  font-weight: 700;
+}
+
+h3 {
   margin-bottom: 1rem;
   font-weight: 700;
 }
@@ -43,6 +48,21 @@ p:last-of-type {
   margin-bottom: 0;
 }
 
+.btn-outline-secondary {
+  border-color: rgba(0,0,0,0.2);
+  font-size: .875rem;
+  color: rgba(0,0,0,0.8);
+}
+
+.btn-outline-secondary:hover {
+  background-color: rgba(0,0,0,0.05);
+  color: rgba(0,0,0,0.8);
+}
+
+.btn-outline-secondary:first-of-type {
+  margin-right: .5rem;
+}
+
 //
 // STRUCTURE
 //
@@ -52,14 +72,14 @@ body {
 }
 
 .our-container {
-  @extend .container-xl;
+  padding: 0 3rem;
 }
-@include media-breakpoint-up(md) {
-  .our-container {
-    padding-left: $grid-gutter-width * 2;
-    padding-right: $grid-gutter-width * 2;
-  }
-}
+// @include media-breakpoint-up(md) {
+//   .our-container {
+//     padding-left: $grid-gutter-width * 2;
+//     padding-right: $grid-gutter-width * 2;
+//   }
+// }
 
 //
 // COLORATION
@@ -70,7 +90,7 @@ body {
 //
 
 section.feature {
-  padding: 4rem 0;
+  padding: 6rem 0;
   border-bottom: 1px solid rgba(0,0,0,0.1);
   a.more {
     display: block;
@@ -83,6 +103,10 @@ section.feature {
   .embed-responsive {
     border-radius: 4px;
   }
+}
+
+section.feature:last-of-type {
+  border-bottom: none;
 }
 
 .md-collapse-top-spacer {
@@ -135,7 +159,7 @@ header.masthead {
   }
 }
 
-main {
-  padding-top: $vertical-padding;
-  padding-bottom: $vertical-padding;
-}
+// main {
+//   padding-top: $vertical-padding;
+//   padding-bottom: $vertical-padding;
+// }

@@ -53,6 +53,18 @@ table.download {
   display: none;
 }
 
+.feature {
+  align-items: center;
+}
+
+.mission p {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  width: 75%;
+  margin: 0 auto;
+}
+
 @include media-breakpoint-down(xs) {
   .navbar-toggle { display: block }
   .masthead .navbar-nav {
@@ -92,7 +104,5 @@ input.toggle:not(:checked) ~ #lang-toggle {
 }
 
 @media only screen and (max-width: 768px) {
-  .intro .text h1 {
-    font-size: 6rem;
-  }
+
 }
