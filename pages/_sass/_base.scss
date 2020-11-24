@@ -139,7 +139,7 @@ section.feature:last-of-type {
 header.masthead {
   //font-family: 'Work Sans', sans-serif;
   font-size: 14px;
-  padding: 0.5rem 1rem;
+  padding: 1.5rem 3rem;
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 100%);
   a.nav-link {
     color: white;
@@ -156,6 +156,48 @@ header.masthead {
     font-size: 1.25rem;
     font-weight: 700;
     font-family: 'Work Sans', sans-serif;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+
+  }
+
+  .navbar-toggle { display: block }
+  .masthead .navbar-nav {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    right: 6px;
+    top: 6px;
+    color: black;
+    border: 1px solid white;
+    padding: 20px;
+    background: #333;
+    border-radius: 6px;
+    .nav-link {
+      padding: 0.75em 0.5em 0.5em 1em;
+    }
+  }
+  input.toggle:checked ~ .navbar-nav {
+    display: block;
+  }
+
+  header.masthead {
+    //font-family: 'Work Sans', sans-serif;
+    padding: 1.5rem;
+  }
+}
+
+
+@media only screen and (max-width: 755px) {
+  .learnMore:first-of-type {
+    margin-bottom: 1rem;
   }
 }
 
