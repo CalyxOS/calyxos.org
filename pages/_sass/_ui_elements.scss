@@ -65,7 +65,11 @@ table.download {
   margin: 0 auto;
 }
 
-@include media-breakpoint-down(xs) {
+@media only screen and (max-width: 768px) {
+  header {
+
+  }
+
   .navbar-toggle { display: block }
   .masthead .navbar-nav {
     display: none;
