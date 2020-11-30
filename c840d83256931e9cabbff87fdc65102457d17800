@@ -16,6 +16,24 @@
       "revId": "c840d83256931e9cabbff87fdc65102457d17800",
       "serverId": "35266860-6252-469c-a67d-185064479fc0",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "75cd650b_40a5349c",
+        "filename": "pages/contribute/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2020-11-30T04:21:36Z",
+      "side": 1,
+      "message": "that is the normal way of linking markdown in jekyll. I have also added [[wiki]] links, so you could do [[code-of-conduct]]. the advantage of the wiki links is that the page can move where ever and it will link to the right location.",
+      "parentUuid": "1872edd5_ae5770b2",
+      "revId": "c840d83256931e9cabbff87fdc65102457d17800",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
     }
   ]
 }
