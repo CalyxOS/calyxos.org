@@ -5,7 +5,7 @@ require 'yaml'
 
 module Releases
 
-  RELEASES        = ["stable", "beta"]
+  RELEASES        = ["stable"]
   RELEASE_SOURCE  = 'https://gitlab.com/calyxos/release.git/'
   HASHES_SOURCE   = 'https://gitlab.com/calyxos/releases.git/'
   RELEASE_DL_BASE = 'https://release.calyxinstitute.org/'
