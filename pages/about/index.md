@@ -11,7 +11,7 @@ When you use a phone with CalyxOS:
 
 * you are empowered by the combined expertise of the Internet privacy community
 * 'de-googled' Android - does not put your data in google's cloud or constantly report your location to google
-* phone calls are opportunistically encrypted so nobody can listen in
+* you can make encrypted phone calls directly, using the built-in integration for Signal and WhatsApp calls
 * you are warned when you make or receive an unencrypted phone call
 * text messages are encrypted and a timer can be set so they disappear
 * advertising and trackers blocked via DuckDuckGo Browser and DuckDuckGo as default search provider
