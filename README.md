@@ -62,6 +62,11 @@ Add this to a crontab:
 
     0 * * * * cd /var/www/calyxos && rake update-releases > /dev/null 2>&1 && rake build > /dev/null 2>&1
 
+## Development
+
+Development is done on [Gerrit](https://review.calyxos.org/q/project:CalyxOS%252Fcalyxos.org)
+
+A staging version of the website can be viewed on [GitLab](https://calyxos.gitlab.io/calyxos.org/)
 
 ## External Sources
 
