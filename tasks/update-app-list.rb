@@ -1,5 +1,5 @@
 module Apps
-  APPS_URL  = "https://gitlab.com/calyxos/platform_prebuilts_calyx/-/raw/android10/fdroid/repo/index.xml"
+  APPS_URL  = "https://gitlab.com/CalyxOS/platform_prebuilts_calyx_fdroid/-/raw/android11/repo/index.xml"
   HOME      = File.expand_path('../..', __FILE__)
   TMP_FILE  = "#{HOME}/tmp/apps.xml"
   DEST_FILE = "#{HOME}/pages/_data/apps.yml"
