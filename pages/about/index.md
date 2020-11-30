@@ -24,6 +24,6 @@ When you use a phone with CalyxOS:
 
 CalyxOS is for you.
 
-CalyxOS minimizes the tracking, surveillance, and spying done by phone manufacturers, mobile phone service providers, internet service providers, advertising companies, data miners, and malicious hackers. The operating system is designed to ensure maximum usability and flexibility, so that you have an array of choices available to ensure your security and privacy.
+CalyxOS minimizes the tracking, surveillance, and spying done by phone manufacturers, mobile phone service providers, internet service providers, advertising companies, data miners, and malicious hackers. The operating system is designed to ensure maximum usability and flexibility, so that you have an array of choices available to ensure your privacy and security.
 
 CalyxOS is designed with the needs of human rights frontline defenders, journalists, lawyers, and political and social activist groups in mind.
