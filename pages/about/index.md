@@ -1,5 +1,5 @@
 ---
-title: About CalyxOs
+title: About CalyxOS
 nav_title: About
 ---
 
@@ -10,11 +10,13 @@ In social science, agency is defined as: the capacity of individuals to act inde
 When you use a phone with CalyxOS:
 
 * you are empowered by the combined expertise of the Internet privacy community
-* phone calls are encrypted so nobody can listen in
+* 'de-googled' Android. does not put your data in google's cloud or constantly report your location to google
+* phone calls are opportunistically encrypted so nobody can listen in
+* you are warned when you make or receive an unencrypted phone call
 * text messages are encrypted and a timer can be set so they disappear
-* web browsing is anonymized
-* advertising trackers are blocked
-* built-in free "Virtual Private Network" services protect you from being spied on
+* advertising and trackers blocked via DuckDuckGo Browser and DuckDuckGo as default search provider
+* web browsing is anonymized via Tor Browser
+* built-in free "Virtual Private Network" services from trusted organizations protect you from being spied on
 * your phone is receiving regular, timely, automatic security updates
 * your data is backed up with strong encryption to your personal cloud server or to USB storage
 
