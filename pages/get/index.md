@@ -14,7 +14,7 @@ Optional: To verify the *SHA256* digest, run the command `sha256sum FILENAME_OF_
   <tr>
     <td><a href="{{device.link}}">{{device.name}} ({{device.codename}})</a></td>
     <td><a href="{{device.link}}">{{device.date}}</a></td>
-    <td class="hash"><a href="{{device.link}}">{{device.sha256}}</a></td>
+    <td class="hash">{{device.sha256}}</td>
   </tr>
 {% endfor %}
 </table>
