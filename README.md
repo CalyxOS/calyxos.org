@@ -67,9 +67,9 @@ Add this to a crontab:
 
 Data from these places are pulled in to help generate this site:
 
-* https://gitlab.com/calyxos/release.git
-* https://gitlab.com/calyxos/releases.git
-* https://gitlab.com/calyxos/platform_prebuilts_calyx/-/raw/android10/fdroid/repo/index.xml
+* https://gitlab.com/CalyxOS/release.git
+* https://gitlab.com/CalyxOS/releases.git
+* https://gitlab.com/CalyxOS/platform_prebuilts_calyx_fdroid/-/raw/android11/repo/index.xml
 
 The images on this site are sourced from:
 
