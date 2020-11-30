@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2066d2fc_310afcfe",
+        "filename": "pages/_sass/_base.scss",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2020-11-30T04:35:14Z",
+      "side": 1,
+      "message": "by doing this, you are removing the max-width. Is that what you want? fwiw, i find sites with a max width easier to read.",
+      "revId": "06a9c660380a8bf1d29c11a3f4cfa99cf14f668b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    }
+  ]
+}
