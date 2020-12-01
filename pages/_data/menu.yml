@@ -3,6 +3,8 @@
 - features
 - get:
   - download
-  - install
+  - gui-install
+  - cli-install
+  - manual-install
 - contribute
 - news
