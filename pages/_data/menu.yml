@@ -2,6 +2,9 @@
 - about
 - features
 - get:
-  - install
+  - download
+  - gui-install
+  - cli-install
+  - manual-install
 - contribute
 - news
