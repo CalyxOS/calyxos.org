@@ -2,7 +2,7 @@
 title: Goodbye, Google
 ---
 
-With CalyxOS, Google is not running in the background, continually uploading all your data and location to the the Google servers.
+With CalyxOS, Google is not running in the background, continually uploading your data and location to the the Google servers.
 
 ## How Android Usually Works
 
@@ -33,14 +33,18 @@ You can check the microG wiki to see the current status of which [[ parts of GMS
 
 With CalyxOS, you have three options:
 
-#### 1. No microG
+#### 1. microG disabled
 
-You can choose to not install microG at all. You will receive no "push notification" using the Google infrastructure. Many apps refuse to run.
+You can choose to disable microG when setting up the device for the first time.
 
-#### 2. microG installed, no Google Account
+You will receive no "push notification" using the Google infrastructure. Many apps refuse to run, however some apps such as Google Camera still work.
 
-With microG installed, many more applications will work. You will receive push notifications from Google servers.
+#### 2. microG enabled, no Google Account (default)
 
-#### 3. microG installed, with a Google Account
+This is the default recommended option.
 
-If you choose to configure a Google Account, even more apps will run correctly. Navigation will work in Google Maps. Users on the Google Fi network can get network connectivity.
+With microG enabled, many more applications will work. You will receive push notifications from Google servers.
+
+#### 3. microG enabled, with a Google Account
+
+If you choose to configure a Google Account, even more apps will run correctly. Users on the Google Fi network can get network connectivity.
