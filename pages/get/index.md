@@ -2,7 +2,7 @@
 title: Get CalyxOS
 ---
 
-To download the <strong>Calyx<span>OS</span></strong> firmware, follow the link for your device name. Unless you are absolutely certain you know what you are doing, choose the **stable** release version. Next, see the [[installation instructions => install]].
+To download the <strong>Calyx<span>OS</span></strong> firmware, follow the link for your device name. Next, see the [[installation instructions => install]].
 
 Optional: To verify the *SHA256* digest, run the command `sha256sum FILENAME_OF_DOWNLOAD` and compare the result with the value in the table below.
 
