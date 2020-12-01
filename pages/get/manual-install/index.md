@@ -1,5 +1,5 @@
 ---
-title: Install
+title: Manual Installation
 ---
 
 <div class="alert alert-info" markdown="0">
