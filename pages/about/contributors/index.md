@@ -12,8 +12,12 @@ title: Contributors
 
 **Hans-Christoph Steiner**, Guardian project advisor
 
-**Michael Bestas**
+**Maya Ninova**, User research
 
-**Nicholas Merrill**
+**Michael Bestas**, CalyxOS Developer
+
+**Nicholas Merrill**, Executive Director and Founder
+
+**Oliver Scott**, CalyxOS Developer
 
 **Torsten Grote**, Senior Android Developer, specializes in Free Software and related aspects of digital freedom such as privacy and security. He started the "Free Your Android" campaign to educate people about how they can use mobile devices in freedom and have their privacy respected. Today, he works on filling the last gaps to make truly free and private mobile phones a reality.
