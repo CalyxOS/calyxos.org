@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4c2144de_45057f4a",
+        "filename": "pages/_includes/features.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-12-03T19:59:44Z",
+      "side": 1,
+      "message": "I feel like we should put F-Droid first, so users prefer that to get apps. Another thing is that while most apps would work, many won\u0027t (due to Play Services or being paid apps or a variety of reasons).",
+      "revId": "a2394ea39ec0fa8afa1756cdec1d862a3e76baf8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fcfebd58_b47e44c8",
+        "filename": "pages/_includes/features.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-12-03T19:59:44Z",
+      "side": 1,
+      "message": "The microg page here only talks about microG (and not the Play Store / Aurora)",
+      "revId": "a2394ea39ec0fa8afa1756cdec1d862a3e76baf8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f832850f_06717bef",
+        "filename": "pages/assets/images/app-stores.png",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-12-03T19:59:44Z",
+      "side": 1,
+      "message": "Same here, I think it\u0027d be better to have F-Droid in front, and maybe on the latest view instead (since the current view shows apps that we bundle, shows Briar thrice!, and even Aurora) - latest should have more variety.",
+      "revId": "a2394ea39ec0fa8afa1756cdec1d862a3e76baf8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    }
+  ]
+}
