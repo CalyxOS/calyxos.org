@@ -19,6 +19,8 @@ All development of CalyxOS takes place out in the open on public source code rep
 
 Our source code is available for review at [gitlab.com/CalyxOS](https://gitlab.com/CalyxOS).
 
+Development is done on our [Gerrit Code Review Instance](https://review.calyxos.org/).
+
 You can get started by following our HOWTO for [creating a CalxOS development environment](https://gitlab.com/CalyxOS/calyxos/wikis/Getting-Started).
 
 Then, check out [list of open issues](https://gitlab.com/CalyxOS/calyxos/issues/).
