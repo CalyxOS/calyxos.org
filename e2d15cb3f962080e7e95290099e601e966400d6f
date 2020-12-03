@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "0e19d12e_058fc066",
+        "filename": "pages/get/cli-install/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-12-03T01:58:27Z",
+      "side": 1,
+      "message": "We may also want to rehost these directly.\n\nThe nice thing about go builds is that they\u0027re reproducible, so one should be able to checkout the tag `1.0.2`, run `make` and get the same builds.",
+      "revId": "e2d15cb3f962080e7e95290099e601e966400d6f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "a56f94fe_e7610c17",
         "filename": "pages/get/install",
         "patchSetId": 5
