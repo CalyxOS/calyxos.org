@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a56f94fe_e7610c17",
+        "filename": "pages/get/install",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-12-03T01:56:39Z",
+      "side": 1,
+      "message": "Made this a symlink so we can easily switch around without having to change links everywhere or rename pages.",
+      "revId": "e2d15cb3f962080e7e95290099e601e966400d6f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    }
+  ]
+}
