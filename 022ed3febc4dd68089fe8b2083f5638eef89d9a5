@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6c6b98de_675ed5ea",
+        "filename": "pages/assets/images/messaging.png",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-12-04T11:39:39Z",
+      "side": 1,
+      "message": "Love it! 😄",
+      "revId": "022ed3febc4dd68089fe8b2083f5638eef89d9a5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    }
+  ]
+}
