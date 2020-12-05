@@ -16,6 +16,23 @@
       "revId": "5e33923286f4bed5472093ac2ce68b3955ba10fa",
       "serverId": "35266860-6252-469c-a67d-185064479fc0",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b132082f_06983291",
+        "filename": "pages/assets/images/device.png",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-12-05T16:49:15Z",
+      "side": 1,
+      "message": "This may look like a subtle change here but it looks so much nicer on the website now! 😊",
+      "revId": "5e33923286f4bed5472093ac2ce68b3955ba10fa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
     }
   ]
 }
