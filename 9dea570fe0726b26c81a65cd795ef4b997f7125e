@@ -16,6 +16,24 @@
       "revId": "9dea570fe0726b26c81a65cd795ef4b997f7125e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "79fefcf6_284180c4",
+        "filename": "pages/_includes/features.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-12-05T16:47:49Z",
+      "side": 0,
+      "message": "Done in https://review.calyxos.org/c/CalyxOS/calyxos.org/+/1376",
+      "parentUuid": "f975bdf6_c12c0c21",
+      "revId": "9dea570fe0726b26c81a65cd795ef4b997f7125e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": false
     }
   ]
 }

@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "fa540eab_69f61d67",
+        "filename": "pages/_includes/features.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-12-05T16:47:49Z",
+      "side": 1,
+      "message": "Done in https://review.calyxos.org/c/CalyxOS/calyxos.org/+/1376",
+      "parentUuid": "4c2144de_45057f4a",
+      "revId": "a2394ea39ec0fa8afa1756cdec1d862a3e76baf8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fcfebd58_b47e44c8",
         "filename": "pages/_includes/features.html",
         "patchSetId": 1
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "e89a09f4_f1779b1a",
+        "filename": "pages/_includes/features.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-12-05T16:47:49Z",
+      "side": 1,
+      "message": "Done in https://review.calyxos.org/c/CalyxOS/calyxos.org/+/1376",
+      "parentUuid": "fcfebd58_b47e44c8",
+      "revId": "a2394ea39ec0fa8afa1756cdec1d862a3e76baf8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f832850f_06717bef",
         "filename": "pages/assets/images/app-stores.png",
         "patchSetId": 1
@@ -50,6 +86,24 @@
       "revId": "a2394ea39ec0fa8afa1756cdec1d862a3e76baf8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "220cd53e_0638dac6",
+        "filename": "pages/assets/images/app-stores.png",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-12-05T16:47:49Z",
+      "side": 1,
+      "message": "Done in https://review.calyxos.org/c/CalyxOS/calyxos.org/+/1376",
+      "parentUuid": "f832850f_06717bef",
+      "revId": "a2394ea39ec0fa8afa1756cdec1d862a3e76baf8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": false
     }
   ]
 }
