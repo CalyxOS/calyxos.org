@@ -39,13 +39,14 @@
   font-size: 1.25rem;
   line-height: 1.75rem;
   width: 80%;
+  color: rgba(255,255,255,0.9);
 }
 
 .calyx-intro img {
   position: absolute;
   width: 20rem;
   top: 1rem;
-  right: -15rem;
+  right: -13rem;
   transform: rotate(-10deg);
   border-radius: 2rem;
   box-shadow: -1rem 1rem 3rem rgba(0,0,0,.5);
@@ -74,10 +75,10 @@
   color: rgba(255,255,255,0.9);
 }
 
-.intro p {
-  width: 100%;
-  color: rgba(255,255,255,0.9);
-}
+// .intro p {
+//   width: 100%;
+//   color: rgba(255,255,255,0.9);
+// }
 
 .intro .text {
   display: table-cell;
@@ -98,6 +99,10 @@
     width: 17rem;
     top: 2rem;
     right: -10rem;
+  }
+
+  .intro p {
+    width: 100%;
   }
 
   // .calyx-intro img:hover {
