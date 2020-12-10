@@ -182,11 +182,11 @@ header.masthead {
     display: none;
     position: absolute;
     z-index: 100;
-    right: 6px;
-    top: 6px;
+    right: 0;
+    top: 36px;
     color: black;
-    border: 1px solid white;
-    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: .5rem;
     background: #333;
     border-radius: 6px;
     .nav-link {
