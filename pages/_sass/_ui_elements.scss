@@ -122,6 +122,8 @@ input.toggle:not(:checked) ~ #lang-toggle {
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
-
+@media only screen and (max-width: 640px) {
+  .mission p {
+    width: 100%;
+  }
 }
