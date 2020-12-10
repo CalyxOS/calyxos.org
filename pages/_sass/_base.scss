@@ -7,6 +7,11 @@
 // CORE TYPOGRAPHY
 //
 
+::selection {
+  background-color: black;
+  color: white;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Work Sans', sans-serif;
   color: rgba(0,0,0,0.8);
@@ -28,7 +33,7 @@ h1 {
 h2 {
   font-size: 2rem;
   line-height: 2.25rem;
-  margin: 1rem 0 2rem 0;
+  margin: 1rem 0;
   font-weight: 700;
 }
 

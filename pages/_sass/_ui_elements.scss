@@ -53,6 +53,16 @@ table.download {
   display: none;
 }
 
+.navbar a::selection {
+  background-color: white;
+  color: black;
+}
+
+.navbar a span::selection {
+  background-color: white;
+  color: black;
+}
+
 .feature {
   align-items: center;
 }
