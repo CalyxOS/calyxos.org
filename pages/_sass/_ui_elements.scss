@@ -65,9 +65,14 @@ table.download {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 768px) {
-  header {
+.join p {
+  width: 80%;
+  margin-bottom: 2rem;
+}
 
+@media only screen and (max-width: 768px) {
+  .join p {
+    width: 100%;
   }
 
   .navbar-toggle { display: block }
