@@ -11,6 +11,8 @@ The Calyx Institute's mission is to educate the public about privacy in digital 
 
 <a class="btn btn-outline-secondary" href="https://members.calyxinstitute.org/donate">Donate Now</a>
 
+<br />
+
 ## Development
 
 CalyxOS is Free and Open Source Software.
@@ -24,6 +26,8 @@ Development is done on our [Gerrit Code Review Instance](https://review.calyxos.
 You can get started by following our HOWTO for [creating a CalyxOS development environment](https://gitlab.com/CalyxOS/calyxos/wikis/Getting-Started).
 
 Then, check out [list of open issues](https://gitlab.com/CalyxOS/calyxos/issues/).
+
+<br />
 
 ## Code of Conduct
 See: [Code of Conduct](code-of-conduct)
