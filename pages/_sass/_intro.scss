@@ -35,6 +35,11 @@
       font-weight: bolder;
     }
   }
+
+  ::selection {
+    background-color: white;
+    color: black;
+  }
 }
 
 .calyx-intro h1 {
