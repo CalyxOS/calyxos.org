@@ -20,7 +20,9 @@ When you use a phone with CalyxOS:
 * your phone is receiving regular, timely, automatic security updates
 * your data is backed up with strong encryption to your personal cloud server or to USB storage
 
-# Who is it for
+<br />
+
+## Who is it for
 
 CalyxOS is for you.
 
