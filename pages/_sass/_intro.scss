@@ -23,7 +23,6 @@
     font-weight: 600;
     font-size: 5rem;
     color: rgba(255,255,255,0.9);
-    margin-bottom: 3rem;
   }
 
   .breadcrumb {
@@ -149,6 +148,11 @@
 
   .home-container {
     padding: 0 1.5rem;
+  }
+
+  .intro h1 {
+    font-size: 4rem;
+    line-height: 4.25rem;
   }
 
 }
