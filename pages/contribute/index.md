@@ -21,7 +21,7 @@ Our source code is available for review at [gitlab.com/CalyxOS](https://gitlab.c
 
 Development is done on our [Gerrit Code Review Instance](https://review.calyxos.org/).
 
-You can get started by following our HOWTO for [creating a CalxOS development environment](https://gitlab.com/CalyxOS/calyxos/wikis/Getting-Started).
+You can get started by following our HOWTO for [creating a CalyxOS development environment](https://gitlab.com/CalyxOS/calyxos/wikis/Getting-Started).
 
 Then, check out [list of open issues](https://gitlab.com/CalyxOS/calyxos/issues/).
 
