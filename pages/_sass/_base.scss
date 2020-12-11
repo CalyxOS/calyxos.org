@@ -8,8 +8,8 @@
 //
 
 ::selection {
-  background-color: black;
-  color: white;
+  background-color: rgba(0,0,0,0.9);
+  color: rgba(255,255,255,0.9);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -17,11 +17,6 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(0,0,0,0.8);
   letter-spacing: -.03125rem;
 }
-
-//::selection {
-//  background-color: rgba(0,0,0,0.8);
-//  color: rgba(255,255,255,1);
-//}
 
 h1 {
   font-size: 3rem;
@@ -82,9 +77,6 @@ body {
   margin: 0 auto;
 }
 
-.home-container {
-  padding: 0 3rem;
-}
 // @include media-breakpoint-up(md) {
 //   .our-container {
 //     padding-left: $grid-gutter-width * 2;
@@ -158,7 +150,7 @@ section.feature:last-of-type {
 
 header.masthead {
   //font-family: 'Work Sans', sans-serif;
-  font-size: 14px;
+  font-size: .875rem;
   padding: 1.5rem 3rem;
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 100%);
   a.nav-link {
@@ -171,7 +163,7 @@ header.masthead {
   }
   a.navbar-brand {
     flex-grow: 1 !important;
-    color: white;
+    color: rgba(255,255,255,0.95);
     text-decoration: none;
     font-size: 1.25rem;
     font-weight: 700;
