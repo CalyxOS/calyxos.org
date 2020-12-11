@@ -22,7 +22,7 @@
     width: 80%;
     font-weight: 600;
     font-size: 5rem;
-    color: rgba(255,255,255,0.9);
+    color: rgba(255,255,255,0.95);
   }
 
   .breadcrumb {
@@ -36,8 +36,8 @@
   }
 
   ::selection {
-    background-color: white;
-    color: black;
+    background-color: rgba(255,255,255,0.95);
+    color: rgba(0,0,0,0.95);
   }
 }
 

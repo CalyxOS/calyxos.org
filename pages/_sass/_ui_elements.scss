@@ -54,13 +54,13 @@ table.download {
 }
 
 .navbar a::selection {
-  background-color: white;
-  color: black;
+  background-color: rgba(255,255,255,0.95);
+  color: rgba(0,0,0,0.95);
 }
 
 .navbar a span::selection {
-  background-color: white;
-  color: black;
+  background-color: rgba(255,255,255,0.95);
+  color: rgba(0,0,0,0.95);
 }
 
 .feature {
