@@ -220,6 +220,14 @@ header.masthead {
   }
 }
 
+@media only screen and (max-width: 480px) {
+
+  .our-container {
+    padding: 1.5rem;
+  }
+
+}
+
 // main {
 //   padding-top: $vertical-padding;
 //   padding-bottom: $vertical-padding;

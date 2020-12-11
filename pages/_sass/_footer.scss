@@ -22,12 +22,17 @@ footer {
 footer {
   padding-top: 1em;
   .shade {
-    background-color: #ddd;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 100%);
+    color: white;
   }
-  .join {
-    padding-top: $vertical-padding;
-    padding-bottom: $vertical-padding;
+  a {
+    color: white;
+    text-decoration: underline;
   }
+  a:hover {
+      color: white;
+  }
+
   .row {
     //padding: 1rem;
     font-size: 90%;
@@ -35,9 +40,16 @@ footer {
   .col {
     //text-align: center;
   }
-  a.btn {
-    background-color: white;
-    color: black;
-    padding-bottom: 0.2rem;
+
+  .our-container {
+    padding: 1.5rem 3rem;
   }
+}
+
+@media only screen and (max-width: 480px) {
+
+  footer .our-container {
+    padding: 1.5rem;
+  }
+
 }
