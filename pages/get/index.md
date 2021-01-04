@@ -21,6 +21,9 @@ Optional: To verify the *SHA256* digest, run the command `sha256sum FILENAME_OF_
     <td class="hash">{{device.sha256}}</td>
   </tr>
 {% endfor %}
+  <th>Coming Soon</th>
+  <tr><td>Pixel 5 (redfin)</td><td></td><td></td></tr>
+  <tr><td>Pixel 4a 5G (bramble)</td><td></td><td></td></tr>
 </table>
 {% endfor %}
 
