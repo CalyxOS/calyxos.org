@@ -10,6 +10,7 @@ before_script:
   - bundle install --path vendor
   - rake update-releases
   - rake update-apps
+  - echo hi
 
 pages:
   stage: deploy
