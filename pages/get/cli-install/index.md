@@ -20,7 +20,7 @@ SHA256:
 ## Steps
 
 1. Make sure you have the correct CalyxOS image for your device
-2. Download the flasher for the Opearing System you're using from the links above
+2. Download the flasher for the Operating System you're using from the links above
 3. Place the flasher as well as the CalyxOS image into the same folder.
 4. Double-click the flasher to run it, and follow the steps show on your screen.
 
