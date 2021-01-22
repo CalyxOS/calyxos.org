@@ -47,8 +47,8 @@ stable:
   date: '2021-01-06'
 - name: Xiaomi Mi A2
   codename: jasmine_sprout
-  link: https://release.calyxinstitute.org/jasmine_sprout-factory-2020.12.17.20.zip
-  sha256: '06529b9244e64cb225e00cda55eb34a7a3f8b7905b674639dc5a8e9a3e949706'
-  date: '2020-12-17'
+  link: https://release.calyxinstitute.org/jasmine_sprout-factory-2021.01.08.12.zip
+  sha256: e10d4f50657113ef75227395e7cda3ccfb581887f451336be27f3b797764d5ee
+  date: '2021-01-08'
 releases:
 - stable
