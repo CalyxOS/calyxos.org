@@ -10,11 +10,7 @@ Optional: To verify the *SHA256* digest, run the command `sha256sum FILENAME_OF_
 <h2 class="mt-3">{{ release | capitalize }}</h2>
 <table class="table table-striped download">
   <tr><th>Device</th><th>Link</th><th>SHA256</th></tr>
-  <th>Android 11</th>
 {% for device in site.data.downloads[release] %}
-{% if device.codename == 'jasmine_sprout' %}
-  <th>Android 10</th>
-{% endif %}
   <tr>
     <td>{{device.name}} ({{device.codename}})</td>
     <td><a href="{{device.link}}">{{device.link}}</a></td>
