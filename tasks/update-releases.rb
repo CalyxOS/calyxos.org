@@ -24,6 +24,8 @@ module Releases
     "flame"          => "Pixel 4",
     "coral"          => "Pixel 4 XL",
     "sunfish"        => "Pixel 4a",
+    "redfin"         => "Pixel 5",
+    "bramble"        => "Pixel 4a (5G)",
     "jasmine_sprout" => "Xiaomi Mi A2"
   }
 
