@@ -45,6 +45,16 @@ stable:
   link: https://release.calyxinstitute.org/sunfish-factory-2021.01.06.14.zip
   sha256: f948d07a8165b75e25822f171d360c49f8b083ead9bf1a79ff75d64ddde101da
   date: '2021-01-06'
+- name: Pixel 5
+  codename: redfin
+  link: https://release.calyxinstitute.org/redfin-factory-2021.01.25.15.zip
+  sha256: cdbb9f775e9d5de913b8d35ac125e2c564dbf1df2837ca29e2b985387f9ab659
+  date: '2021-01-25'
+- name: Pixel 4a (5G)
+  codename: bramble
+  link: https://release.calyxinstitute.org/bramble-factory-2021.01.25.15.zip
+  sha256: 811e34e8200b980310a5851bf45c75097ae94642f4a20f9fbc16e0be79c440ae
+  date: '2021-01-25'
 - name: Xiaomi Mi A2
   codename: jasmine_sprout
   link: https://release.calyxinstitute.org/jasmine_sprout-factory-2021.01.08.12.zip
