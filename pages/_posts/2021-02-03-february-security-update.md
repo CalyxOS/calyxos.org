@@ -17,7 +17,7 @@ Changelog:
 * Keyboard: Remove non-functional proprietary gesture-typing preference.
 * Aurora Store: Fix installation issues for new installs,
   to fix your current app kindly re-install the app from F-Droid
-* Updates for all other includes apps.
+* Updates for all other included apps.
 
 Pixel 2, 2 XL, 3, 3 XL, 3a, 3a XL, 4, 4 XL:
 * Implement Active Edge support - squeeze phone to perform action
