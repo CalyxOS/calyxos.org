@@ -5,8 +5,6 @@ date: 2021-02-03
 
 The February Security update is now available for all supported devices.
 
-It is currently in the beta channel, and will be bumped to the stable channel tomorrow after additional testing and feedback. Factory images will be available at that time as well.
-
 Changelog:
 * CalyxOS 2.2.0 - Android 11
 * February Security update (2021-02-05)
