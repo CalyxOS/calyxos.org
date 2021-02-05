@@ -9,8 +9,8 @@ To be expanded in the future and as we need to write down things.
 OTA Updates can be tested locally, too.
 
 1. Point the Updater app to your local server, patches:
-    * [vendor/calyx](uploads/47ea06ef756e29e4d8038552ba82c3d7/0001-DO-NOT-MERGE-Use-local-OTA-server-for-testing.patch)
-    * [packages/apps/Updater](uploads/b7e33035a090aa3b4ed76d3b0f4a1194/0001-DO-NOT-MERGE-Allow-cleartext-traffic-for-local-OTA-t.patch)
+    * [vendor/calyx](../uploads/47ea06ef756e29e4d8038552ba82c3d7/0001-DO-NOT-MERGE-Use-local-OTA-server-for-testing.patch)
+    * [packages/apps/Updater](../uploads/b7e33035a090aa3b4ed76d3b0f4a1194/0001-DO-NOT-MERGE-Allow-cleartext-traffic-for-local-OTA-t.patch)
 1. Create a build and install it.
 1. Clean things for a new build that will be accepted by the OTA updater
     * run `make installclean` (updates build timestamp)
