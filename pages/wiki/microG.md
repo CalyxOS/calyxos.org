@@ -1,3 +1,6 @@
+---
+title: microG
+---
 microG can be bundled to make apps which require Google Play Services work, such as Google Camera, YouTube, Google Maps, etc. Not all apps will work though, apps such as Android Auto, Snapchat still don't work.
 
 We're mainly concerned with bundling GmsCore, and FakeStore (a dummy package sharing the package name with the Google Play Store), which is required in addition to microG to make some apps such as YouTube work.

@@ -1,3 +1,6 @@
+---
+title: Developing
+---
 ## CalyxOS Development Process
 
 To be expanded in the future and as we need to write down things.

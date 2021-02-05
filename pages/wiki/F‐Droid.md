@@ -1,3 +1,6 @@
+---
+title: F‐Droid
+---
 ### F-Droid
 
 * Prebuilt

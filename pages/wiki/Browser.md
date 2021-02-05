@@ -1,3 +1,6 @@
+---
+title: Browser
+---
 ## Currently used
 
 ### Chromium

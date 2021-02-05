@@ -1,3 +1,6 @@
+---
+title: Gerrit
+---
 We have a Gerrit Code Review Instance now at https://review.calyxos.org/
 
 Gerrit makes a lot easier to deal with hundreds of repositories in one place, and also for dealing with changes involving multiple repos.

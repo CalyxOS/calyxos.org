@@ -1,3 +1,6 @@
+---
+title: mi-a2
+---
 # Install CalyxOS
 
 **Attention, this procedure will wipe all user data. Make a backup before and proceed on your own risk.**

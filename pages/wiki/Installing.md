@@ -1,3 +1,6 @@
+---
+title: Installing
+---
 The full process of going from a new device running stock to getting CalyxOS on it.
 
 # Troubleshooting

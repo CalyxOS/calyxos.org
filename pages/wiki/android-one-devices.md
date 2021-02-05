@@ -1,3 +1,6 @@
+---
+title: android-one-devices
+---
 This documents aims to match Android One devices to CalyxOS requirements, which are:
 
 * The cheaper the device, the better it is

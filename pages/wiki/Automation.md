@@ -1,3 +1,6 @@
+---
+title: Automation
+---
 # No longer current
 
 * Will be going with Gitlab CI

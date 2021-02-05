@@ -1,3 +1,6 @@
+---
+title: Offline-signing
+---
 Signing the builds offline, preferably using a yubikey / nitrokey or a hsm as appropriate.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------

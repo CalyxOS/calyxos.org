@@ -1,3 +1,6 @@
+---
+title: Signing
+---
 TODO: Potentially make the instructions even more clearer, and less of a mess then they are right now
 
 Signing on a separate machine:

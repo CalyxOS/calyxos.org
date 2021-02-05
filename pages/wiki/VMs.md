@@ -1,3 +1,6 @@
+---
+title: VMs
+---
 # No longer current
 
 A document listing the various machines used for CalyxOS development and release process

@@ -1,3 +1,6 @@
+---
+title: SetupWizard
+---
 The first thing a user sees on booting a device for the first time.
 Also known as first run wizard, initial wizard, etc.
 

@@ -1,3 +1,6 @@
+---
+title: OTA-Updates
+---
 Decided to go with https://github.com/AndroidHardening/platform_packages_apps_Updater which is basically the previous implementation (CopperheadOS Updater) re-licensed to MIT.
 
 # No longer current
