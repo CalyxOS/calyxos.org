@@ -24,7 +24,7 @@ Short version:
 * Run `flash-all.sh` on *nix or `flash-all.bat` on Windows
 * Relock bootloader
 
-Long version: See [Installing](Installing)
+Long version: See [Installing](../Installing)
 
 ## Building
 
@@ -40,11 +40,11 @@ Short version:
 * `make -j16` (replace `16` by the number of your CPU's threads)
 * Install the build, or optionally sign
 
-Long version: See [Building](Building)
+Long version: See [Building](../Building)
 
 ## Developing
 
-See [Developing](Developing)
+See [Developing](../Developing)
 * [How to import the sources to Android Studio](https://wiki.lineageos.org/import-android-studio-howto.html)
 
 ## Signing builds
@@ -54,7 +54,7 @@ Short version:
 * `make -j16 target-files-package`
 * `vendor/calyx/scripts/release.sh taimen`
 
-Long version: See [Signing](Signing)
+Long version: See [Signing](../Signing)
 
 
 ## CalyxOS Additions / Changes to AOSP
