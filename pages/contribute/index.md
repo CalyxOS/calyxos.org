@@ -29,5 +29,13 @@ Then, check out [list of open issues](https://gitlab.com/CalyxOS/calyxos/issues/
 
 <br />
 
+## Translation
+
+Missing your language?
+
+Help us by translating CalyxOS on [Weblate](https://hosted.weblate.org/projects/calyxos)
+
+<br />
+
 ## Code of Conduct
 See: [Code of Conduct](code-of-conduct)
