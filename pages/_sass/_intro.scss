@@ -19,7 +19,7 @@
   h1 {
     line-height: 5.25rem;
     margin-bottom: 1rem;
-    width: 80%;
+    width: 70%;
     font-weight: 600;
     font-size: 5rem;
     color: rgba(255,255,255,0.95);
@@ -41,28 +41,19 @@
   }
 }
 
-.calyx-intro h1 {
-  line-height: 7.5rem;
-  margin-bottom: 1rem;
-  width: 80%;
-  font-weight: 600;
-  font-size: 7rem;
-}
-
 .intro p {
   font-size: 1.25rem;
   line-height: 1.75rem;
-  width: 80%;
   color: rgba(255,255,255,0.9);
 }
 
 .calyx-intro img {
   position: absolute;
-  width: 20rem;
+  width: 15rem;
   top: 1rem;
-  right: -13rem;
+  right: -10rem;
   transform: rotate(-10deg);
-  border-radius: 2.6rem;
+  border-radius: 1.8rem;
   box-shadow: -1rem 1rem 3rem rgba(0,0,0,.5);
 }
 
@@ -77,55 +68,62 @@
 }
 
 .calyx-intro {
-  padding: 3rem 3rem;
+  padding: 1rem 3rem 3rem 3rem;
   position: relative;
-  height: 85vh;
+  height: 71vh;
   h1 {
     letter-spacing: -.25rem;
   }
 }
-
-// .intro p {
-//   width: 100%;
-//   color: rgba(255,255,255,0.9);
-// }
 
 .intro .text {
   display: table-cell;
   vertical-align: middle;
   position: relative;
   top: -1rem;
-  width: 80%;
 }
 
 @media only screen and (max-width: 768px) {
 
   .calyx-intro h1 {
-    font-size: 6rem;
-    line-height: 6.5rem;
+    font-size: 4.5rem;
+    line-height: 4.75rem;
+    width: 80%;
   }
 
   .calyx-intro img {
-    width: 17rem;
     top: 2rem;
-    right: -10rem;
+    right: -13rem;
   }
 
   .intro p {
-    width: 100%;
+    width: 80%;
   }
 
-  // .calyx-intro img:hover {
-  //   right: -6rem;
-  // }
+  .calyx-intro img:hover {
+    right: -6rem;
+  }
 }
 
+@media only screen and (max-height: 767px) {
+  .calyx-intro {
+    height: 80vh;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .calyx-intro h1 {
+    font-size: 4rem;
+    line-height: 4.25rem;
+  }
+
+  .calyx-intro img {
+    right: -14rem;
+  }
+}
+
+
 @media only screen and (max-width: 480px) {
-
-  // header {
-  //   padding: 1.5rem;
-  // }
-
   nav {
     padding: none;
   }
@@ -134,18 +132,16 @@
     display: none;
   }
 
-  .calyx-intro {
+  .intro {
     padding: 1.5rem;
   }
 
   .intro h1 {
-    font-size: 4rem;
-    line-height: 4.25rem;
+    width: 100%;
   }
 
-  .calyx-intro h1 {
-    font-size: 4.5rem;
-    line-height: 1;
+  .intro p {
+    width: 100%;
   }
 
 }
