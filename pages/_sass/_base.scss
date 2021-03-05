@@ -26,9 +26,9 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
-  line-height: 2.25rem;
-  margin: 1rem 0;
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+  margin: 0 0 3rem 0;
   font-weight: 700;
 }
 
@@ -94,10 +94,10 @@ body {
 //
 
 section.feature {
-  display: flex;
+  // display: flex;
   align-items: center;
-  padding: 6rem 0;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: 3rem 0;
+  // border-bottom: 1px solid rgba(0,0,0,0.1);
   a.more {
     display: block;
     margin-top: 0.75em;
@@ -242,6 +242,12 @@ header.masthead {
 
   .our-container {
     padding: 1.5rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    margin-bottom: 1rem;
   }
 
 }

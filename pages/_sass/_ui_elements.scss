@@ -73,6 +73,15 @@ table.download {
   padding: 3rem 0 6rem 0;
 }
 
+.row:first-of-type {
+  padding-top: 0;
+}
+
+.mission {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  margin-bottom: 6rem;
+}
+
 .mission p {
   text-align: center;
   font-size: 1.75rem;
@@ -89,6 +98,10 @@ table.download {
 .join img {
   width: 6rem;
   margin-bottom: .5rem;
+}
+
+#learn img {
+  margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 768px) {
