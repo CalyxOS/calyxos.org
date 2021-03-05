@@ -49,13 +49,7 @@ See [Developing](../Developing)
 
 ## Signing builds
 
-Short version:
-* Use `vendor/calyx/scripts/mkkeys.sh` to create the keys
-* `make -j16 target-files-package`
-* `vendor/calyx/scripts/release.sh taimen`
-
-Long version: See [Signing](../Signing)
-
+See [Signing](../Signing)
 
 ## CalyxOS Additions / Changes to AOSP
 
