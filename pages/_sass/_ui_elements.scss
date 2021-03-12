@@ -73,8 +73,20 @@ table.download {
   padding: 3rem 0 6rem 0;
 }
 
+.feature:first-of-type > .feature {
+  padding-top: 0;
+}
+
 .row:first-of-type {
   padding-top: 0;
+}
+
+h2.post-title {
+  margin-bottom: 1rem;
+}
+
+.row {
+  flex-wrap: initial !important;
 }
 
 .mission {
@@ -102,6 +114,14 @@ table.download {
 
 #learn img {
   margin-bottom: 1rem;
+}
+
+.flip div:first-of-type {
+  order: 2;
+}
+
+.flip {
+  display: flex;
 }
 
 @media only screen and (max-width: 768px) {
@@ -155,4 +175,22 @@ input.toggle:not(:checked) ~ #lang-toggle {
   .mission p {
     width: 100%;
   }
+
+  .row {
+    flex-wrap: wrap !important;
+  }
+
+  .flip div:first-of-type {
+    order: initial !important;
+  }
+
+  .feature.row div>img {
+    margin-top: 2rem;
+    width: 75%;
+  }
+
+  .feature {
+    text-align: center;
+  }
+
 }
