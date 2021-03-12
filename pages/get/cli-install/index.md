@@ -21,6 +21,8 @@ SHA256:
 
 1. Make sure you have the correct CalyxOS image for your device
 2. Download the flasher for the Operating System you're using from the links above
+  2a. For windows, you also need to download and install Google's USB driver from https://developer.android.com/studio/run/win-usb
+  Simply download the driver and then right click and click Install.
 3. Place the flasher as well as the CalyxOS image into the same folder.
 4. Double-click the flasher to run it, and follow the steps show on your screen.
 
