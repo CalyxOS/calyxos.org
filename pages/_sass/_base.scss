@@ -28,7 +28,7 @@ h1 {
 h2 {
   font-size: 2.5rem;
   line-height: 2.75rem;
-  margin: 4rem 0 2rem 0;
+  margin: 0 0 2rem 0;
   font-weight: 700;
 }
 
@@ -125,7 +125,7 @@ body {
 
 .feature:last-of-type {
   border-bottom: none;
-  padding: 6rem 0 3rem 0;
+  // padding: 6rem 0 3rem 0;
 }
 
 .md-collapse-top-spacer {
@@ -239,6 +239,10 @@ header.masthead {
 @media only screen and (max-width: 640px) {
   .learn-more:first-of-type {
     margin-bottom: 3rem;
+  }
+
+  .feature {
+    padding: 2rem 0;
   }
 }
 

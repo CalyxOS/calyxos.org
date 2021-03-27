@@ -8,6 +8,7 @@ title: Community
 * [@CalyxOS](https://twitter.com/CalyxOS)
 * [@calyxinsitute](https://twitter.com/calyxinstitute)
 
+<br />
 
 ## Get Support
 
