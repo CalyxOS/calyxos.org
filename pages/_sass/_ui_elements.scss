@@ -189,8 +189,10 @@ input.toggle:not(:checked) ~ #lang-toggle {
     width: 75%;
   }
 
-  .feature {
-    text-align: center;
-  }
+}
 
+@media only screen and (max-width: 480px) {
+  .intro .our-container {
+    padding: 1rem 0 0 0;
+  }
 }
