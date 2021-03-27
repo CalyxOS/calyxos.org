@@ -50,7 +50,7 @@
 .calyx-intro img {
   position: absolute;
   width: 15rem;
-  top: 1rem;
+  top: 5%;
   right: -10rem;
   transform: rotate(-10deg);
   border-radius: 1.8rem;
@@ -85,7 +85,7 @@
 
 @media only screen and (max-width: 768px) {
 
-  .calyx-intro h1 {
+  .intro h1 {
     font-size: 4.5rem;
     line-height: 4.75rem;
     width: 80%;
@@ -109,16 +109,21 @@
   .calyx-intro {
     height: 80vh;
   }
+
+  .calyx-intro img {
+    top: 1rem;
+  }
+
 }
 
 @media only screen and (max-width: 640px) {
-  .calyx-intro h1 {
+  .intro h1 {
     font-size: 4rem;
     line-height: 4.25rem;
   }
 
   .calyx-intro img {
-    right: -14rem;
+    right: -1rem;
   }
 }
 
@@ -138,6 +143,8 @@
 
   .intro h1 {
     width: 100%;
+    font-size: 3.5rem;
+    line-height: 3.75rem;
   }
 
   .intro p {
@@ -146,23 +153,12 @@
 
 }
 
-// // xsmall screens
-// @include media-breakpoint-down(xs) {
-//   .calyx-intro img {display: none}
-// }
-//
-// // small screens
-// @include media-breakpoint-up(sm) {
-//   .intro h1 {  font-size: 4rem }
-// }
-//
-// // medium screens
-// @include media-breakpoint-up(md) {
-//   .intro h1 {  font-size: 5rem }
-// }
-// @include media-breakpoint-down(md) {
-//
-// // large screens
-// @include media-breakpoint-up(lg) {
-//   .intro h1 {  font-size: 6.5rem }
-// }
+@media only screen and (max-width: 375px) {
+
+  .intro h1 {
+    font-size: 3.25rem;
+    line-height: 3.5rem;
+  }
+
+
+}

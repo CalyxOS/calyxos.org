@@ -28,13 +28,21 @@ h1 {
 h2 {
   font-size: 2.5rem;
   line-height: 2.75rem;
-  margin: 0 0 3rem 0;
+  margin: 4rem 0 2rem 0;
   font-weight: 700;
 }
 
+h2:first-of-type {
+  margin-top: 0;
+}
+
 h3 {
-  margin-bottom: 1rem;
+  margin: 2rem 0 1rem 0;
   font-weight: 700;
+}
+
+.feature h3 {
+  margin-top: 0;
 }
 
 p {
@@ -241,8 +249,8 @@ header.masthead {
   }
 
   h2 {
-    font-size: 2.25rem;
-    line-height: 2.75rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
     // margin-bottom: 1rem;
   }
 
