@@ -3,6 +3,8 @@ title: About CalyxOS
 nav_title: About
 ---
 
+## Private By Design
+
 Everyone needs a phone. Not everyone wants governments and corporations tracking their every move and spying on their communications.  CalyxOS lets you have your cake and eat it too, with  "Privacy by Design"
 
 In social science, agency is defined as: the capacity of individuals to act independently and to make their own free choices.  There is a whole community of free software developers working to build tools that enable us to take back our privacy, and we have curated a collection of the "best of the best" in order to give you back your agency.
@@ -22,9 +24,9 @@ When you use a phone with CalyxOS:
 
 <br />
 
-## Who is it for
+## Who is it for?
 
-CalyxOS is for you.
+CalyxOS is for you 😊.
 
 CalyxOS minimizes the tracking, surveillance, and spying done by phone manufacturers, mobile phone service providers, internet service providers, advertising companies, data miners, and malicious hackers. The operating system is designed to ensure maximum usability and flexibility, so that you have an array of choices available to ensure your privacy and security.
 
