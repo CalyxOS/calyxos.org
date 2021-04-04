@@ -1,5 +1,5 @@
 ---
-title: android-one-devices
+title: Android One Devices
 ---
 This documents aims to match Android One devices to CalyxOS requirements, which are:
 

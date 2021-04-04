@@ -1,5 +1,5 @@
 ---
-title: SetupWizard--F-Droid-integration
+title: SetupWizard - F-Droid Integration
 ---
 The old plan was based on https://gitlab.com/fdroid/fdroidclient/issues/1546
 

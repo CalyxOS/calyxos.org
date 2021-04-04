@@ -1,5 +1,5 @@
 ---
-title: Changes-made-in-CalyxOS,-differences-from-AOSP
+title: Differences between AOSP and CalyxOS
 ---
 A quick, non comprehensive list of the changes from AOSP
 

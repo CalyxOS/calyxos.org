@@ -1,5 +1,5 @@
 ---
-title: Recommended-Apps
+title: Recommended Apps
 ---
 This page is for tracking apps that we want to recommend for CalyxOS.
 

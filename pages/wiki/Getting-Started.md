@@ -1,5 +1,5 @@
 ---
-title: Getting-Started
+title: Getting Started
 ---
 CalyxOS is a AOSP fork focused on privacy and security.
 

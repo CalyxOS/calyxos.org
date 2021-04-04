@@ -1,5 +1,5 @@
 ---
-title: mi-a2
+title: Mi A2
 ---
 # Install CalyxOS
 
