@@ -7,8 +7,6 @@ April is amongst us, and with it comes a security update, but wait, there's more
 
 This updates contains lots of new features and bugfixes that we've been hard at work over the last few months. There's even more coming in the upcoming builds, stay tuned!
 
-It is currently in the beta channel, and will be bumped to the stable channel tomorrow after additional testing and feedback. Factory images will be available at that time as well.
-
 Changelog:
 * April Security update (2021-04-05)
 * VoLTE and Wi-Fi Calling support for a lot more carriers
