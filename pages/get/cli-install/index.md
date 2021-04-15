@@ -8,9 +8,9 @@ title: Commandline Installer
 
 ## Downloading the Flasher
 
-* Linux: [device-flasher.linux](https://github.com/AOSPAlliance/device-flasher/releases/download/1.0.3/device-flasher.linux)
-* macOS: [device-flasher.darwin](https://github.com/AOSPAlliance/device-flasher/releases/download/1.0.3/device-flasher.darwin)
-* Windows: [device-flasher.exe](https://github.com/AOSPAlliance/device-flasher/releases/download/1.0.3/device-flasher.exe)
+* Linux: [device-flasher.linux](https://release.calyxinstitute.org/device-flasher/1.0.3/device-flasher.linux)
+* macOS: [device-flasher.darwin](https://release.calyxinstitute.org/device-flasher/1.0.3/device-flasher.darwin)
+* Windows: [device-flasher.exe](https://release.calyxinstitute.org/device-flasher/1.0.3/device-flasher.exe)
 
 SHA256:
 * Linux: f4e68992198868148ca2d4bd0fd40d0176da4058a188a3fdf80732d04a6c3543
