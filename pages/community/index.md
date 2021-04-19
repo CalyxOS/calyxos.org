@@ -12,13 +12,12 @@ title: Community
 
 ## Get Support
 
-### Matrix and IRC
+### Matrix, IRC and Telegram
 * Matrix: [#CalyxOS:matrix.org](https://matrix.to/#/#CalyxOS:matrix.org), OR
-* IRC: [#calyxos](https://webchat.freenode.net/#calyxos) on Freenode
+* IRC: [#calyxos](https://webchat.freenode.net/#calyxos) on Freenode, OR
+* Telegram: [CalyxOSpublic](https://t.me/CalyxOSpublic)
 
-The IRC and Matrix rooms are bridged, so messages on one will go to the other and vice versa. You can also join our telegram group
-
-* [CalyxOSpublic](https://t.me/CalyxOSpublic)
+The three rooms above are bridged, so messages on one will go to the other and vice versa.
 
 ### Reddit
 * [r/CalyxOS](https://www.reddit.com/r/CalyxOS/)
@@ -26,7 +25,8 @@ The IRC and Matrix rooms are bridged, so messages on one will go to the other an
 ### Additional Chat Channels
 * **calyxos-offtopic:** For all off-topic conversations
   * Matrix: [#calyxos-offtopic:matrix.org](https://matrix.to/#/#calyxos-offtopic:matrix.org), OR
-  * IRC: [#calyxos-offtopic](https://webchat.freenode.net/#calyxos-offtopic) on Freenode
+  * IRC: [#calyxos-offtopic](https://webchat.freenode.net/#calyxos-offtopic) on Freenode, OR
+  * Telegram: [CalyxOSOfftopic](https://t.me/CalyxOSOffTopic)
 * **calyxos-feeds:** Live feed of code commits / gitlab activity / reddit posts
   * Matrix: [#calyxos-feeds:matrix.org](https://matrix.to/#/#calyxos-feeds:matrix.org), OR
   * IRC: [#calyxos-feeds](https://webchat.freenode.net/#calyxos-feeds) on Freenode
