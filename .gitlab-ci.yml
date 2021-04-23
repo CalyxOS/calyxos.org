@@ -24,7 +24,7 @@ pages:
 test:
   stage: test
   script:
-  - bundle exec jekyll build -d test --baseUrl "/calyxos.org"
+  - bundle exec jekyll build -d test --baseUrl "-/calyxos.org/-/jobs/$CI_JOB_ID/artifacts/test/"
   artifacts:
     paths:
     - test
