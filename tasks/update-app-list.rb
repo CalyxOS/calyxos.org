@@ -1,9 +1,10 @@
 module Apps
   APPS_URL  = "https://gitlab.com/CalyxOS/platform_prebuilts_calyx_fdroid/-/raw/android11-qpr1/repo/index.xml"
+  ICON_URL  = "https://gitlab.com/CalyxOS/platform_prebuilts_calyx_fdroid/-/raw/android11-qpr1/repo/icons-640/"
   HOME      = File.expand_path('../..', __FILE__)
   TMP_FILE  = "#{HOME}/tmp/apps.xml"
   DEST_FILE = "#{HOME}/pages/_data/apps.yml"
-  ICON_DIR  = "#{HOME}/pages/assets/images/apps"
+  ICON_DIR  = "#{HOME}/pages/assets/images/apps/"
 
   class << self
     def requirements_met?
@@ -18,6 +19,9 @@ module Apps
 
       return unless File.exist?(TMP_FILE)
 
+      # Clear old icons
+      system("rm", ICON_DIR + "*.png")
+
       file = File.new(TMP_FILE)
       xml = REXML::Document.new file
       apps = {}
@@ -25,7 +29,11 @@ module Apps
         app = {}
         id = app_el["id"]
         ["icon", "web", "desc", "name", "summary"].each do |el_name|
-          app[el_name] = app_el.elements[el_name].text.to_s.strip
+          value = app_el.elements[el_name].text.to_s.strip
+          app[el_name] = value
+          if el_name == "icon"
+            system("wget", "--timestamping", ICON_URL + value, "-O", ICON_DIR + value)
+          end
         end
         apps[id] = app
       end
