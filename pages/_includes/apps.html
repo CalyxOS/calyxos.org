@@ -1,10 +1,90 @@
-{% for post in site.posts %}
-  <div class="contentItem centeredContent blockContent">
-    <div class="description">
-      <p class="parent">Call &amp; Text</p>
-      <div class="icon placeholder"></div>
-      <h3>App Name</h3>
-      <p>App description</p>
+<div class="contentItem centeredContent blockContent">
+  <div class="description">
+
+{% assign communications_list = "org.thoughtcrime.securesms org.briarproject.briar.android com.fsck.k9 eu.siacs.conversations" | split: " " %}
+
+{% assign internet_list = "org.torproject.torbrowser com.duckduckgo.mobile.android org.calyxinstitute.vpn se.leap.riseupvpn org.openobservatory.ooniprobe org.torproject.android" | split: " " %}
+
+{% assign productivity_list = "com.aurora.store at.bitfire.davdroid org.dmfs.tasks com.artifex.mupdf.viewer.app org.secuso.privacyfriendlyweather" | split: " " %}
+
+{% assign security_list = "com.yubico.yubioath org.sufficientlysecure.keychain" | split: " " %}
+
+{% assign privacy_list = "com.jarsilio.android.scrambledeggsif info.guardianproject.locationprivacy" | split: " " %}
+
+    <div>
+      <p class="emoji">💬</p>
+      <h2 id="communications">Communications</h2>
+{% for app_id in communications_list %}
+{% assign app = site.data.apps[app_id] %}
+      <div>
+        <img src="{{ '/assets/images/apps/' | append: app.icon | relative_url }}"/>
+        <h3>{{ app.name }}</h3>
+        <p>{{ app.summary }}</p>
+        <a class="more" href="{{app.web}}">Read More</a>
+      </div>
+{% endfor %}
+    </div>
+    <br>
+
+    <div>
+      <p class="emoji">🌍</p>
+      <h2 id="internet">Internet</h2>
+{% for app_id in internet_list %}
+{% assign app = site.data.apps[app_id] %}
+      <div>
+        <img src="{{ '/assets/images/apps/' | append: app.icon | relative_url }}"/>
+        <h3>{{ app.name }}</h3>
+        <p>{{ app.summary }}</p>
+        <a class="more" href="{{app.web}}">Read More</a>
+      </div>
+{% endfor %}
+    </div>
+    <br>
+
+    <div>
+      <p class="emoji">💬</p>
+      <h2 id="productivity">Productivity</h2>
+{% for app_id in productivity_list %}
+{% assign app = site.data.apps[app_id] %}
+      <div>
+        <img src="{{ '/assets/images/apps/' | append: app.icon | relative_url }}"/>
+        <h3>{{ app.name }}</h3>
+        <p>{{ app.summary }}</p>
+        <a class="more" href="{{app.web}}">Read More</a>
+      </div>
+{% endfor %}
+    </div>
+    <br>
+
+    <div>
+      <p class="emoji">💬</p>
+      <h2 id="security">Security</h2>
+{% for app_id in security_list %}
+{% assign app = site.data.apps[app_id] %}
+      <div>
+        <img src="{{ '/assets/images/apps/' | append: app.icon | relative_url }}"/>
+        <h3>{{ app.name }}</h3>
+        <p>{{ app.summary }}</p>
+        <a class="more" href="{{app.web}}">Read More</a>
+      </div>
+{% endfor %}
+    </div>
+    <br>
+
+    <div>
+      <p class="emoji">💬</p>
+      <h2 id="privacy">Privacy</h2>
+{% for app_id in privacy_list %}
+{% assign app = site.data.apps[app_id] %}
+      <div>
+        <img src="{{ '/assets/images/apps/' | append: app.icon | relative_url }}"/>
+        <h3>{{ app.name }}</h3>
+        <p>{{ app.summary }}</p>
+        <a class="more" href="{{app.web}}">Read More</a>
+      </div>
+{% endfor %}
+    </div>
+    <br>
+
     </div>
   </div>
-{% endfor %}
