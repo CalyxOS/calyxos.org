@@ -1,6 +1,6 @@
 ---
 com.aurora.store:
-  icon: com.aurora.store.29.png
+  icon: com.aurora.store.33.png
   web: http://auroraoss.com
   desc: "<p>Aurora Store is an alternate to Google's Play Store, with an elegant design,
     using Aurora you can download apps, update existing apps, search for apps, get
@@ -8,7 +8,7 @@ com.aurora.store:
   name: Aurora Store
   summary: A Google Playstore Client
 org.briarproject.briar.android:
-  icon: org.briarproject.briar.android.10207.png
+  icon: org.briarproject.briar.android.10218.png
   web: https://briarproject.org/
   desc: "<p>Briar is a messaging app designed for activists, journalists, and anyone
     else who needs a safe, easy and robust way to communicate. Unlike traditional
@@ -31,7 +31,7 @@ org.calyxinstitute.vpn:
   name: Calyx VPN
   summary: Free VPN Service offered by The Calyx Institute
 eu.siacs.conversations:
-  icon: eu.siacs.conversations.397.png
+  icon: eu.siacs.conversations.42010.png
   web: https://conversations.im/
   desc: '<p>Easy to use, reliable, battery friendly. With built-in support for images,
     group chats and e2e encryption.</p><p>Design principles:</p><ul><li> Be as beautiful
@@ -75,7 +75,7 @@ eu.siacs.conversations:
   summary: An encrypted, user friendly XMPP instant messaging client optimized for
     mobile
 at.bitfire.davdroid:
-  icon: at.bitfire.davdroid.303010001.png
+  icon: at.bitfire.davdroid.303090004.png
   web: https://www.davx5.com/
   desc: |-
     DAVx⁵ is a CalDAV/CardDAV management and synchronization app for Android which natively integrates with Android calendar/contact apps.
@@ -86,7 +86,7 @@ at.bitfire.davdroid:
   name: DAVx⁵
   summary: CalDAV/CardDAV Synchronization and Client
 com.duckduckgo.mobile.android:
-  icon: com.duckduckgo.mobile.android.56301.png
+  icon: com.duckduckgo.mobile.android.57900.png
   web: https://duckduckgo.com
   desc: "<p>At DuckDuckGo, we believe the Internet shouldn't feel so creepy, and getting
     the privacy you deserve online should be as simple as closing the blinds.</p><p>Our
@@ -119,7 +119,7 @@ com.duckduckgo.mobile.android:
   name: DuckDuckGo Privacy Browser
   summary: Privacy, simplified
 com.fsck.k9:
-  icon: com.fsck.k9.27018.xml
+  icon: com.fsck.k9.27033.xml
   web: https://k9mail.github.io/
   desc: "<p>E-mail client supporting multiple accounts, POP3, IMAP and Push IMAP.
     Can do OpenPGP encryption if OpenKeychain is installed. Settings and account configurations
@@ -134,14 +134,14 @@ info.guardianproject.locationprivacy:
   name: LocationPrivacy
   summary: privacy filters for shared location links
 com.artifex.mupdf.viewer.app:
-  icon: com.artifex.mupdf.viewer.app.80.png
+  icon: com.artifex.mupdf.viewer.app.90.png
   web: https://mupdf.com
   desc: "<p>MuPDF supports PDF 1.7 with transparency, encryption, hyperlinks, annotations,
     searching, form editing and more. It also reads OpenXPS and CBZ (comic book) documents.</p>"
   name: MuPDF viewer
   summary: Lightweight document viewer
 org.openobservatory.ooniprobe:
-  icon: org.openobservatory.ooniprobe.63.png
+  icon: org.openobservatory.ooniprobe.74.png
   web: https://ooni.torproject.org/
   desc: '<p>Are websites and social media apps blocked? Is your network unusually
     slow? Run OONI Probe to find out!</p><p>With this app, you will examine the blocking
@@ -181,13 +181,13 @@ org.openobservatory.ooniprobe:
   name: OONI Probe
   summary: Open Observatory of Network Interference (OONI)
 org.sufficientlysecure.keychain:
-  icon: org.sufficientlysecure.keychain.55000.png
+  icon: org.sufficientlysecure.keychain.57200.png
   web: https://www.openkeychain.org/
   desc: "<p>No description available</p>"
   name: OpenKeychain
   summary: Encrypt your Files and Communications. Compatible with the OpenPGP Standard.
 org.dmfs.tasks:
-  icon: org.dmfs.tasks.78500.png
+  icon: org.dmfs.tasks.82200.png
   web: https://github.com/dmfs/opentasks/wiki
   desc: "<p>A task manager app, allowing you to categorise your todo list by urgency,
     state, timeframe etc.</p><p>Tasks can be synchronised with a CalDAV server using,
@@ -195,7 +195,7 @@ org.dmfs.tasks:
   name: OpenTasks
   summary: Keep track of your list of goals
 org.torproject.android:
-  icon: org.torproject.android.1630200100.png
+  icon: org.torproject.android.1633300100.png
   web: https://www.torproject.org/docs/android.html
   desc: '<p>Tor is both software and an open network that helps you defend against
     network surveillance that threatens personal freedom and privacy, confidential
@@ -221,7 +221,7 @@ se.leap.riseupvpn:
   name: Riseup VPN
   summary: Secure VPN powered by Bitmask
 com.jarsilio.android.scrambledeggsif:
-  icon: com.jarsilio.android.scrambledeggsif.57.png
+  icon: com.jarsilio.android.scrambledeggsif.62.png
   web: ''
   desc: |-
     Scrambled Exif (pronounced <i>egg</i>sif) helps you remove the metadata in your pictures before you share them.
@@ -264,7 +264,7 @@ com.jarsilio.android.scrambledeggsif:
   name: Scrambled Exif
   summary: Remove the metadata from your pictures before sharing them
 org.thoughtcrime.securesms:
-  icon: org.thoughtcrime.securesms.7080.png
+  icon: org.thoughtcrime.securesms.80400.png
   web: https://www.signal.org
   desc: "<p>Privacy is possible. Signal makes it easy.</p><p>Using Signal, you can
     communicate instantly while avoiding SMS fees, create groups so that you can chat
@@ -288,7 +288,7 @@ org.thoughtcrime.securesms:
   name: Signal
   summary: Signal Private Messenger
 org.torproject.torbrowser:
-  icon: org.torproject.torbrowser.2015691627.png
+  icon: org.torproject.torbrowser.2015808043.png
   web: https://www.torproject.org/
   desc: "<p>Tor Browser for Android is the only official mobile browser supported
     by the Tor Project, developers of the world’s strongest tool for privacy and freedom
@@ -298,7 +298,7 @@ org.torproject.torbrowser:
   name: Tor Browser
   summary: Experience real private browsing without tracking, surveillance, or censorship.
 org.secuso.privacyfriendlyweather:
-  icon: org.secuso.privacyfriendlyweather.7.png
+  icon: org.secuso.privacyfriendlyweather.11.png
   web: https://secuso.org/pfa
   desc: <p>Lets you watch the weather for cities and locations. This includes the
     current weather as well as a 5 day / 3 hour forecast. Furthermore, Privacy Friendly
