@@ -1,8 +1,11 @@
 ---
-title: Frequently Asked Questions
+title: Frequently asked Questions
 nav_title: FAQ
 ---
 
+For questions about device support, both for existing and new devices, as well as support timeframe, see [Device support](device-support)
+
+Frequently asked Questions:
 <ul>
     <li><a href="#goals">What are the goals of CalyxOS?</a></li>
     <li><a href="#encrypt-communication-content">How do you accomplish encrypting the content of communications?</a></li>
