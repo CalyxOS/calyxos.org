@@ -20,6 +20,10 @@ Check out [list of open issues](https://gitlab.com/CalyxOS/calyxos/issues/).
 
 See [[build]]
 
+### Signing builds
+
+See [[sign]]
+
 ### Submitting patches
 
 See [[gerrit]]
