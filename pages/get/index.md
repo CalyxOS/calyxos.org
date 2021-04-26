@@ -21,3 +21,12 @@ Optional: To verify the *SHA256* digest, run the command `sha256sum FILENAME_OF_
 {% endfor %}
 </table>
 {% endfor %}
+
+<div class="alert alert-info" markdown="0">
+<h4>Security update notes</h4>
+<ul>
+<li>The <b>Pixels 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, 5, 4a (5G)</b> contain the full security patch, as they are still being updated by Google.</li>
+<li>The <b>Pixels 2 and 2 XL</b> are not being updated by Google anymore, so they only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.</li>
+<li>The <b>Xiaomi Mi A2</b> is still getting security updates, but those are Android 10 and usually released towards the end of the month, whereas CalyxOS is Android 11 and releases the updates right as they're available. This means that the A2 lags behind slightly, by a month or two, in getting security updates for proprietary components.</li>
+</ul>
+</div>
