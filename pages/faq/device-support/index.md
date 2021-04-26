@@ -19,7 +19,7 @@ CalyxOS utilizes [Verified Boot]() and bootloader re-lock to keep the Android se
 
 ### Update timeframe
 * We generally intend to get monthly security updates out as soon as possible after their release. The process takes some time since we don't get early access but generally the 
-* Major version updates (such as the upcoming Android 12 release) take longer because we have to port all of our changes to the new 
+* Major version updates (such as the upcoming Android 12 "R" release) take longer because we have to port all of our changes to the new version, which can be a lot of work.
 
 ### Requirements for supporting a new device
 1. Android 11.0:
