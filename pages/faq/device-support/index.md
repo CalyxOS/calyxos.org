@@ -21,6 +21,20 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 * We generally intend to get monthly security updates out as soon as possible after their release. The process takes some time since we don't get early access but generally the goal is to get them out to the stable channel in the same week as AOSP release.
 * Major version updates (such as the upcoming Android 12 "R" release) take longer because we have to port all of our changes to the new version, which can be a lot of work.
 
+<table class="table table-striped download">
+<tr><th> Device(s) </th><th> Manufacturer support date </th><th> CalyxOS support date </th></tr>
+<tr><td> Pixel 4a (5G) </td><td> October 2023 </td><td> August 2024 </td></tr>
+<tr><td> Pixel 5 </td><td> November 2023 </td><td> August 2024 </td></tr>
+<tr><td> Pixel 4a </td><td> August 2023 </td><td> August 2023 </td></tr>
+<tr><td> Pixels 4, 4 XL </td><td> October 2022 </td><td> August 2023 </td></tr>
+<tr><td> Pixels 3a, 3a XL </td><td> May 2022 </td><td> August 2022 </td></tr>
+<tr><td> Pixels 3, 3 XL </td><td> October 2021 </td><td> August 2022 </td></tr>
+<tr><td> Pixels 2, 2 XL </td><td> October 2020 </td><td> August 2021 </td></tr>
+<tr><td> Xiaomi Mi A2 </td><td> August 2021? </td><td> August 2021 </td></tr>
+</table>
+
+Reference: <https://support.google.com/nexus/answer/4457705#zippy=%2Cpixel-phones>
+
 ### Requirements for supporting a new device
 1. Android 11.0:
    <br>
