@@ -15,17 +15,17 @@ module Releases
   DEST_FILE       = "#{HOME}/pages/_data/downloads.yml"
 
   CODENAME_MAP = {
-    "walleye"        => "Pixel 2",
-    "taimen"         => "Pixel 2 XL",
-    "blueline"       => "Pixel 3",
-    "crosshatch"     => "Pixel 3 XL",
-    "sargo"          => "Pixel 3a",
-    "bonito"         => "Pixel 3a XL",
-    "flame"          => "Pixel 4",
-    "coral"          => "Pixel 4 XL",
-    "sunfish"        => "Pixel 4a",
-    "redfin"         => "Pixel 5",
     "bramble"        => "Pixel 4a (5G)",
+    "redfin"         => "Pixel 5",
+    "sunfish"        => "Pixel 4a",
+    "coral"          => "Pixel 4 XL",
+    "flame"          => "Pixel 4",
+    "bonito"         => "Pixel 3a XL",
+    "sargo"          => "Pixel 3a",
+    "crosshatch"     => "Pixel 3 XL",
+    "blueline"       => "Pixel 3",
+    "taimen"         => "Pixel 2 XL",
+    "walleye"        => "Pixel 2",
     "jasmine_sprout" => "Xiaomi Mi A2"
   }
 
