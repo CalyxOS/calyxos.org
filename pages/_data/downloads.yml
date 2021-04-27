@@ -1,59 +1,59 @@
 ---
 stable:
-- name: Pixel 2
-  codename: walleye
-  link: https://release.calyxinstitute.org/walleye-factory-2021.04.07.18.zip
-  sha256: e7d80789e2911f3d61fd1bde7fc6a574db454a9d7b8aaddefb4ea8104252274b
-  date: '2021-04-07'
-- name: Pixel 2 XL
-  codename: taimen
-  link: https://release.calyxinstitute.org/taimen-factory-2021.04.07.18.zip
-  sha256: 1fdb0722e188ebcda595b2e32abcf8d02b35b75c5855e63e718798fc157759d2
-  date: '2021-04-07'
-- name: Pixel 3
-  codename: blueline
-  link: https://release.calyxinstitute.org/blueline-factory-2021.04.07.18.zip
-  sha256: d9e706bedcf0e689ddde002e09981e606efedfc0b070b1d4f9edc6383cbe931c
-  date: '2021-04-07'
-- name: Pixel 3 XL
-  codename: crosshatch
-  link: https://release.calyxinstitute.org/crosshatch-factory-2021.04.07.18.zip
-  sha256: 723af1528a3d4d176c887c82102aaa2f468c697c833777c078535f120b4f5455
-  date: '2021-04-07'
-- name: Pixel 3a
-  codename: sargo
-  link: https://release.calyxinstitute.org/sargo-factory-2021.04.07.18.zip
-  sha256: bdc16ba40cc0adfbbd2ad5e77528f74a1eb2bf987e37b95740cdad4882c56d69
-  date: '2021-04-07'
-- name: Pixel 3a XL
-  codename: bonito
-  link: https://release.calyxinstitute.org/bonito-factory-2021.04.07.18.zip
-  sha256: 8777c37097b7da4ed42f2385b4586372ad4518b81182e9c760aa5333abe9a94d
-  date: '2021-04-07'
-- name: Pixel 4
-  codename: flame
-  link: https://release.calyxinstitute.org/flame-factory-2021.04.07.18.zip
-  sha256: d6263096cd689d320bbb4b2c81b4410ef71a943c98e498afc172ad0884a26801
-  date: '2021-04-07'
-- name: Pixel 4 XL
-  codename: coral
-  link: https://release.calyxinstitute.org/coral-factory-2021.04.07.18.zip
-  sha256: f9192fcd5f71f7f536f1c75afaec7b3e664e3918873c40058940e2a12477f2a4
-  date: '2021-04-07'
-- name: Pixel 4a
-  codename: sunfish
-  link: https://release.calyxinstitute.org/sunfish-factory-2021.04.07.18.zip
-  sha256: 77844c6c5bd1f89b3107bcf6670fb39687fdc0adac596a01381076f5dfe40897
+- name: Pixel 4a (5G)
+  codename: bramble
+  link: https://release.calyxinstitute.org/bramble-factory-2021.04.07.18.zip
+  sha256: ad24868ffa9e6e4af3e6f02250c847ac850a86cda832237caf464cc8cf104af8
   date: '2021-04-07'
 - name: Pixel 5
   codename: redfin
   link: https://release.calyxinstitute.org/redfin-factory-2021.04.07.18.zip
   sha256: e122c67a1a8e39e72ad4b0c22ccf04347efde517ae11b727ff9479f0c5a91cf8
   date: '2021-04-07'
-- name: Pixel 4a (5G)
-  codename: bramble
-  link: https://release.calyxinstitute.org/bramble-factory-2021.04.07.18.zip
-  sha256: ad24868ffa9e6e4af3e6f02250c847ac850a86cda832237caf464cc8cf104af8
+- name: Pixel 4a
+  codename: sunfish
+  link: https://release.calyxinstitute.org/sunfish-factory-2021.04.07.18.zip
+  sha256: 77844c6c5bd1f89b3107bcf6670fb39687fdc0adac596a01381076f5dfe40897
+  date: '2021-04-07'
+- name: Pixel 4 XL
+  codename: coral
+  link: https://release.calyxinstitute.org/coral-factory-2021.04.07.18.zip
+  sha256: f9192fcd5f71f7f536f1c75afaec7b3e664e3918873c40058940e2a12477f2a4
+  date: '2021-04-07'
+- name: Pixel 4
+  codename: flame
+  link: https://release.calyxinstitute.org/flame-factory-2021.04.07.18.zip
+  sha256: d6263096cd689d320bbb4b2c81b4410ef71a943c98e498afc172ad0884a26801
+  date: '2021-04-07'
+- name: Pixel 3a XL
+  codename: bonito
+  link: https://release.calyxinstitute.org/bonito-factory-2021.04.07.18.zip
+  sha256: 8777c37097b7da4ed42f2385b4586372ad4518b81182e9c760aa5333abe9a94d
+  date: '2021-04-07'
+- name: Pixel 3a
+  codename: sargo
+  link: https://release.calyxinstitute.org/sargo-factory-2021.04.07.18.zip
+  sha256: bdc16ba40cc0adfbbd2ad5e77528f74a1eb2bf987e37b95740cdad4882c56d69
+  date: '2021-04-07'
+- name: Pixel 3 XL
+  codename: crosshatch
+  link: https://release.calyxinstitute.org/crosshatch-factory-2021.04.07.18.zip
+  sha256: 723af1528a3d4d176c887c82102aaa2f468c697c833777c078535f120b4f5455
+  date: '2021-04-07'
+- name: Pixel 3
+  codename: blueline
+  link: https://release.calyxinstitute.org/blueline-factory-2021.04.07.18.zip
+  sha256: d9e706bedcf0e689ddde002e09981e606efedfc0b070b1d4f9edc6383cbe931c
+  date: '2021-04-07'
+- name: Pixel 2 XL
+  codename: taimen
+  link: https://release.calyxinstitute.org/taimen-factory-2021.04.07.18.zip
+  sha256: 1fdb0722e188ebcda595b2e32abcf8d02b35b75c5855e63e718798fc157759d2
+  date: '2021-04-07'
+- name: Pixel 2
+  codename: walleye
+  link: https://release.calyxinstitute.org/walleye-factory-2021.04.07.18.zip
+  sha256: e7d80789e2911f3d61fd1bde7fc6a574db454a9d7b8aaddefb4ea8104252274b
   date: '2021-04-07'
 - name: Xiaomi Mi A2
   codename: jasmine_sprout
