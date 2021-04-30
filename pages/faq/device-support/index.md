@@ -18,7 +18,7 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 * Pixel 2, 2 XL (last update was December 2020)
 
 ### Update timeframe
-* We generally intend to get monthly security updates out as soon as possible after their release. The process takes some time since we don't get early access but generally the goal is to get them out tothe stable channel in the same week as AOSP release.
+* We generally intend to get monthly security updates out as soon as possible after their release. The process takes some time since we don't get early access but generally the goal is to get them out to the stable channel in the same week as AOSP release.
 * Major version updates (such as the upcoming Android 12 "R" release) take longer because we have to port all of our changes to the new version, which can be a lot of work.
 
 ### Requirements for supporting a new device
