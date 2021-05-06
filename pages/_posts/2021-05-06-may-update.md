@@ -5,8 +5,6 @@ date: 2021-05-06
 
 With May comes another security update packed to the brim with new features.
 
-It is currently in the beta channel, and will be bumped to the stable channel tomorrow after additional testing and feedback. Factory images will be available at that time as well.
-
 Changelog:
 * May Security update (2021-05-05)
 * Built-in Work profile support - create a new work profile directly from Settings without having to install any third party apps.
