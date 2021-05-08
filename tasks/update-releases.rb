@@ -6,8 +6,8 @@ require 'yaml'
 module Releases
 
   RELEASES        = ["stable"]
-  RELEASE_SOURCE  = 'https://gitlab.com/calyxos/release.git/'
-  HASHES_SOURCE   = 'https://gitlab.com/calyxos/releases.git/'
+  RELEASE_SOURCE  = 'https://review.calyxos.org/CalyxOS/release'
+  HASHES_SOURCE   = 'https://review.calyxos.org/CalyxOS/releases'
   RELEASE_DL_BASE = 'https://release.calyxinstitute.org/'
   HOME            = File.expand_path('../..', __FILE__)
   RELEASE_CACHE   = "#{HOME}/tmp/release"
