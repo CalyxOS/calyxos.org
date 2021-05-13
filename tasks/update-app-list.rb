@@ -20,7 +20,8 @@ module Apps
       return unless File.exist?(TMP_FILE)
 
       # Clear old icons
-      system("rm", ICON_DIR + "*.png")
+      FileUtils.rm_rf(ICON_DIR)
+      FileUtils.mkdir(ICON_DIR)
 
       file = File.new(TMP_FILE)
       xml = REXML::Document.new file
@@ -29,7 +30,8 @@ module Apps
         app = {}
         id = app_el["id"]
         ["icon", "web", "desc", "name", "summary"].each do |el_name|
-          value = app_el.elements[el_name].text.to_s.strip
+          element = app_el.elements[el_name]
+          value = element.nil? ? "" : element.text.to_s.strip
           app[el_name] = value
           if el_name == "icon"
             system("wget", "--timestamping", ICON_URL + value, "-O", ICON_DIR + value)
