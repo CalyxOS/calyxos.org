@@ -6,9 +6,30 @@ These are the OTA updates that are usually delivered directly to your device.
 
 If you're installing CalyxOS for the first time, you should [[get the factory image instead => get]]
 
+If you're running the "Previous build" mentioned in the table below, you can choose the incremental OTA, it is a much smaller file containing only the difference between that previous build and the latest.
+
+Otherwise, you should choose the full OTA update, that can be used to update from any build.
+
 Optional: To verify the *SHA256* digest, run the command `sha256sum FILENAME_OF_DOWNLOAD` and compare the result with the value in the table below.
 
 <br />
+
+## Incremental OTA updates
+
+{% for release in site.data.downloads.releases %}
+<h3 class="mt-3">{{ release | capitalize }}</h3>
+<table class="table table-striped download">
+  <tr><th>Device</th><th>Previous build</th><th>Link</th><th>SHA256</th></tr>
+{% for device in site.data.downloads[release] %}
+  <tr>
+    <td>{{device.name}} ({{device.codename}})</td>
+    <td>{{device.incremental_old_build}}</td>
+    <td><a href="{{device.incremental_link}}">Download</a></td>
+    <td class="hash">{{device.incremental_sha256}}</td>
+  </tr>
+{% endfor %}
+</table>
+{% endfor %}
 
 ## Full OTA updates
 
