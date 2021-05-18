@@ -22,6 +22,8 @@ Optional: To verify the *SHA256* digest, run the command `sha256sum FILENAME_OF_
 </table>
 {% endfor %}
 
+Next, see the [[installation instructions => install]].
+
 <div class="alert alert-info" markdown="0">
 <h4>Security update notes</h4>
 <ul>
