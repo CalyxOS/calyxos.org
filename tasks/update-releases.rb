@@ -87,13 +87,17 @@ module Releases
           release_file = File.read(release_filename)
           build_number, timestamp, build_id = release_file.split(' ')
           date = build_number.split('.')[0..2].join('-')
-          firmware_filename = codename + "-factory-#{build_number}.zip"
-          sha256 = get_hash_for(firmware_filename)
+          factory_filename = codename + "-factory-#{build_number}.zip"
+          factory_sha256 = get_hash_for(factory_filename)
+          ota_filename = codename + "-ota_update-#{build_number}.zip"
+          ota_sha256 = get_hash_for(ota_filename)
           info << {
             "name" => device,
             "codename" => codename,
-            "link" => RELEASE_DL_BASE + firmware_filename,
-            "sha256" => sha256,
+            "factory_link" => RELEASE_DL_BASE + factory_filename,
+            "factory_sha256" => factory_sha256,
+            "ota_link" => RELEASE_DL_BASE + ota_filename,
+            "ota_sha256" => ota_sha256,
             "date" => date
           }
           puts "FINISHED #{codename}"
