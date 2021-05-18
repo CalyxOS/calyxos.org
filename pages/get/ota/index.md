@@ -26,6 +26,22 @@ Optional: To verify the *SHA256* digest, run the command `sha256sum FILENAME_OF_
 </table>
 {% endfor %}
 
+## Incremental OTA updates
+
+{% for release in site.data.downloads.releases %}
+<h3 class="mt-3">{{ release | capitalize }}</h3>
+<table class="table table-striped download">
+  <tr><th>Device</th><th>Link</th><th>SHA256</th></tr>
+{% for device in site.data.downloads[release] %}
+  <tr>
+    <td>{{device.name}} ({{device.codename}})</td>
+    <td><a href="{{device.incremental_link}}">Download</a></td>
+    <td class="hash">{{device.incremental_sha256}}</td>
+  </tr>
+{% endfor %}
+</table>
+{% endfor %}
+
 <div class="alert alert-info" markdown="0">
 <h4>Security update notes</h4>
 <ul>
