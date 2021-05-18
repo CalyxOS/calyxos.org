@@ -80,17 +80,27 @@ module Releases
       Dir.chdir(RELEASE_CACHE) do
         CODENAME_MAP.each do |codename, device|
           release_filename = codename + "-" + release
+          old_release_filename = codename + "-old" + release
           unless File.exist?(release_filename)
             puts "SKIPPED #{codename}"
             next
           end
+          unless File.exist?(old_release_filename)
+            puts "SKIPPED #{codename}"
+            next
+          end
           release_file = File.read(release_filename)
+          old_release_file = File.read(old_release_filename)
           build_number, timestamp, build_id = release_file.split(' ')
+          old_build_number, old_timestamp, old_build_id = old_release_file.split(' ')
           date = build_number.split('.')[0..2].join('-')
+          old_date = old_build_number.split('.')[0..2].join('-')
           factory_filename = codename + "-factory-#{build_number}.zip"
           factory_sha256 = get_hash_for(factory_filename)
           ota_filename = codename + "-ota_update-#{build_number}.zip"
           ota_sha256 = get_hash_for(ota_filename)
+          incremental_filename = codename + "-incremental-#{old_build_number}-#{build_number}.zip"
+          incremental_sha256 = get_hash_for(incremental_filename)
           info << {
             "name" => device,
             "codename" => codename,
@@ -98,6 +108,8 @@ module Releases
             "factory_sha256" => factory_sha256,
             "ota_link" => RELEASE_DL_BASE + ota_filename,
             "ota_sha256" => ota_sha256,
+            "incremental_link" => RELEASE_DL_BASE + incremental_filename,
+            "incremental_sha256" => incremental_sha256,
             "date" => date
           }
           puts "FINISHED #{codename}"
