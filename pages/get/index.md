@@ -15,8 +15,8 @@ Optional: To verify the *SHA256* digest, run the command `sha256sum FILENAME_OF_
 {% for device in site.data.downloads[release] %}
   <tr>
     <td>{{device.name}} ({{device.codename}})</td>
-    <td><a href="{{device.link}}">Download</a></td>
-    <td class="hash">{{device.sha256}}</td>
+    <td><a href="{{device.factory_link}}">Download</a></td>
+    <td class="hash">{{device.factory_sha256}}</td>
   </tr>
 {% endfor %}
 </table>
