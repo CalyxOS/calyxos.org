@@ -18,6 +18,10 @@ A changelog can also be viewed here, or by tapping the update notification when 
 
 It also has additional configuration options.
 
+### Manual installation
+
+If you'd like to manually update your CalyxOS install, see [[OTA => ota]]
+
 ## App updates
 
 Some of the apps included with CalyxOS are updated via F-Droid.
