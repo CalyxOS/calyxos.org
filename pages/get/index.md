@@ -4,6 +4,8 @@ title: Get CalyxOS
 
 To download the <strong>Calyx<span>OS</span></strong> firmware, follow the link for your device name. Next, see the [[installation instructions => install]].
 
+[[CalyxOS updates => system-updates]] are delivered over-the-air automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA => ota]]
+
 Optional: To verify the *SHA256* digest, run the command `sha256sum FILENAME_OF_DOWNLOAD` and compare the result with the value in the table below.
 
 <br />
