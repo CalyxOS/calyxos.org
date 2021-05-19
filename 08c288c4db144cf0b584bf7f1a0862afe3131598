@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2418560f_202891e9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-19T11:50:10Z",
+      "side": 1,
+      "message": "Figured this won\u0027t hurt.",
+      "revId": "08c288c4db144cf0b584bf7f1a0862afe3131598",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
