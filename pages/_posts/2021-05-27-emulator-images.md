@@ -1,6 +1,6 @@
 ---
 title: CalyxOS Emulator Images
-date: 2021-05-28
+date: 2021-05-27
 ---
 
 CalyxOS Emulator images are now available, which can be used with the Emulator present in Android Studio.
