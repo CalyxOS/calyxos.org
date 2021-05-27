@@ -4,7 +4,7 @@ title: Community
 
 ## Chat
 
-All below channels are on Matrix. You can click the link to directly connect to the channel, or using one of the [clients](https://matrix.org/clients/)
+All below channels are on Matrix. They are public and unencrypted. You can click the link to directly connect to the channel, or using one of the [clients](https://matrix.org/clients/)
 
 ### Main channel
 * CalyxOS: **[#CalyxOS:matrix.org](https://app.element.io/#/room/#CalyxOS:matrix.org)**

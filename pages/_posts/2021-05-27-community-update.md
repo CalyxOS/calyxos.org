@@ -17,7 +17,7 @@ Additionally, the Matrix channels are also bridged to IRC on [Libera.chat](https
 
 <br />
 
-## All channels
+## All channels, public and unencrypted
 
 * **calyxos:** The main channel
   * Matrix: [#CalyxOS:matrix.org](https://app.element.io/#/room/#CalyxOS:matrix.org), OR
