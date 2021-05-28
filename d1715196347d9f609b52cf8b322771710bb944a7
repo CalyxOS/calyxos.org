@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "27544b47_56ab28c4",
+        "filename": "pages/faq/device-support/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-28T19:39:09Z",
+      "side": 1,
+      "message": "😄\n\n(I didn\u0027t change nano config on laptop)",
+      "revId": "d1715196347d9f609b52cf8b322771710bb944a7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
