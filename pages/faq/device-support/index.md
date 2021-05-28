@@ -24,7 +24,7 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 ### Requirements for supporting a new device
 1. Android 11.0:
    <br>
-   CalyxOS targets the latest Android version, currently 11.0 (Q). It takes a lot of work to port a newer Android version to a device, and so devices running the latest Android version are preferred.
+   CalyxOS targets the latest Android version, currently 11.0 (R). It takes a lot of work to port a newer Android version to a device, and so devices running the latest Android version are preferred.
 2. Ability to unlock the bootloader:
    <br>
    You can't install any custom OS if you can't unlock the bootloader in the first place. Some devices don't support it all, whereas on others some variants may not support unlocking the bootloader. Note that this is very different from carrier locking, which simply means that you can only use a particular SIM card with your device.
