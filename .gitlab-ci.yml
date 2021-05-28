@@ -10,6 +10,7 @@ before_script:
   - bundle install --path vendor
   - rake update-releases
   - rake update-apps
+  - rake back-to-stock
 
 pages:
   stage: deploy

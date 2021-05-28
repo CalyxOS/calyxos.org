@@ -1,0 +1,56 @@
+---
+- name: Pixel 4a (5G)
+  codename: bramble
+  flash_link: https://flash.android.com/build/7255357?target=bramble-user&signed
+  factory_link: https://dl.google.com/dl/android/aosp/bramble-rq2a.210505.003-factory-0ff3e0bf.zip
+  factory_sha256: 0ff3e0bf7442a88091fdb3971d4b5eb6f7c2552058c8a238068285eb4652aa66
+- name: Pixel 5
+  codename: redfin
+  flash_link: https://flash.android.com/build/7255357?target=redfin-user&signed
+  factory_link: https://dl.google.com/dl/android/aosp/redfin-rq2a.210505.003-factory-52f13c48.zip
+  factory_sha256: 52f13c48912e5e99108334071bd3a4d6bd72d60ff835ea0364b2a534750bdc59
+- name: Pixel 4a
+  codename: sunfish
+  flash_link: https://flash.android.com/build/7246365?target=sunfish-user&signed
+  factory_link: https://dl.google.com/dl/android/aosp/sunfish-rq2a.210505.002-factory-30079813.zip
+  factory_sha256: 30079813c79486966647068496afdf239c5dd0f4db7b26ecfc6a43660db5094a
+- name: Pixel 4 XL
+  codename: coral
+  flash_link: https://flash.android.com/build/7246365?target=coral-user&signed
+  factory_link: https://dl.google.com/dl/android/aosp/coral-rq2a.210505.002-factory-0ec4212f.zip
+  factory_sha256: 0ec4212ff3810cb90a05985b8d79cb31128625f16f821ba2545fd1de7cf962ae
+- name: Pixel 4
+  codename: flame
+  flash_link: https://flash.android.com/build/7246365?target=flame-user&signed
+  factory_link: https://dl.google.com/dl/android/aosp/flame-rq2a.210505.002-factory-ceca25cb.zip
+  factory_sha256: ceca25cb81fab0af2822e1a039c350f6ce03ba794427811a05317e1b70659bc5
+- name: Pixel 3a XL
+  codename: bonito
+  flash_link: https://flash.android.com/build/7246365?target=bonito-user&signed
+  factory_link: https://dl.google.com/dl/android/aosp/bonito-rq2a.210505.002-factory-eca5fd06.zip
+  factory_sha256: eca5fd06f5a4ab60165a0f101d6e6f80213923aa6a2f239e418ec810fd03bec5
+- name: Pixel 3a
+  codename: sargo
+  flash_link: https://flash.android.com/build/7246365?target=sargo-user&signed
+  factory_link: https://dl.google.com/dl/android/aosp/sargo-rq2a.210505.002-factory-aca757e9.zip
+  factory_sha256: aca757e9ca25471aca3ac6ef85ebf4eb5cb0db1b81a38a592c6dddcba6714646
+- name: Pixel 3 XL
+  codename: crosshatch
+  flash_link: https://flash.android.com/build/7246365?target=crosshatch-user&signed
+  factory_link: https://dl.google.com/dl/android/aosp/crosshatch-rq2a.210505.002-factory-796587ee.zip
+  factory_sha256: 796587eec0e5c01d3f6bfdd8bc006b54d1d932169902e67934568b64b650995f
+- name: Pixel 3
+  codename: blueline
+  flash_link: https://flash.android.com/build/7246365?target=blueline-user&signed
+  factory_link: https://dl.google.com/dl/android/aosp/blueline-rq2a.210505.002-factory-687d8468.zip
+  factory_sha256: 687d8468ec80530140148d75c8971930398267b8d1e20ef89edebc1f4db7e988
+- name: Pixel 2 XL
+  codename: taimen
+  flash_link: https://flash.android.com/build/6934943?target=taimen-user&signed
+  factory_link: https://dl.google.com/dl/android/aosp/taimen-rp1a.201005.004.a1-factory-2f5c4987.zip
+  factory_sha256: 2f5c4987a8e1c29bb2843d7f7d36721d52f2eb25a0fe4c74b3590e34a06eb44f
+- name: Pixel 2
+  codename: walleye
+  flash_link: https://flash.android.com/build/6934943?target=walleye-user&signed
+  factory_link: https://dl.google.com/dl/android/aosp/walleye-rp1a.201005.004.a1-factory-0c23f6cf.zip
+  factory_sha256: 0c23f6cf9e2194a3e72b1288f65c5a7f2f6c020080af49c8a494ee99ab3eb543
