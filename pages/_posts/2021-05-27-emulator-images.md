@@ -33,6 +33,20 @@ This emulator image is meant for use with [Android Studio](https://developer.and
 
 These images will get updated every month as we tag and release new builds.
 
+### sdkmanager installation
+
+If you want to install these images using sdkmanager, the strings are:
+* `"system-images;android-30;calyx;x86"`
+* `"system-images;android-30;calyx;x86_64"`
+
+### Docker images
+
+F-Droid has CI images which have the Android SDK pre-configured with our repos.
+They're included in the docker image: `registry.gitlab.com/fdroid/ci-images-client`
+This means that this can be used to directly install the CalyxOS images and use it for testing / CI.
+
+For more details see: <https://gitlab.com/fdroid/ci-images-client>
+
 References:
 * https://review.calyxos.org/q/topic:emulator
 * https://source.android.com/setup/create/avd#sharing_avd_system_images_for_others_to_use_with_android_studio
