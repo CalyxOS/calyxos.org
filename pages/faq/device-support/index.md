@@ -41,4 +41,4 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 
 These are the 5 main factors we consider when adding support for a new device to CalyxOS.
 
-If you know of a device that meets the above criteria, let us know! You can reach us through any of the channels listed at: [Community](../../community)
+If you know of a device that meets the above criteria, let us know! You can reach us through any of the channels listed at: [[Community => community]]
