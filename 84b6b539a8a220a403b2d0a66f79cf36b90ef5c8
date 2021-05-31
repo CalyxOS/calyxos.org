@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee95115b_aed0b5e5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-31T17:12:48Z",
+      "side": 1,
+      "message": "Seems to work ok.",
+      "revId": "84b6b539a8a220a403b2d0a66f79cf36b90ef5c8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3d16f02e_81a09aad",
+        "filename": "pages/_layouts/page.html",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-31T17:12:48Z",
+      "side": 1,
+      "message": "Not the cleanest, but it\u0027s for FAQ",
+      "revId": "84b6b539a8a220a403b2d0a66f79cf36b90ef5c8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
