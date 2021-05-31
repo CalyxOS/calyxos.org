@@ -1,5 +1,6 @@
 ---
 nav_title: Device support
+toc: true
 ---
 
 CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboot) (including bootloader re-locking) to keep the Android security model intact.
