@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "44227e12_9de71414",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-31T17:13:59Z",
+      "side": 1,
+      "message": "This drops the \"Q: \" and \"A: \" in front of the questions and answers but I think that\u0027s fine here given we have enough separation between question and answer (bold and size difference)\n\nMakes things easier by not needing to put links to the questions manually, and letting the toc plugin handle it instead.",
+      "revId": "f0f0ade706c682ae050e89a8a3be9beb8bab72d6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
