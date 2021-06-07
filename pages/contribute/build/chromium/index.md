@@ -31,12 +31,11 @@ Steps:
    * You can also modify `target_cpu` if needed.
    * You also need to modify the `trichrome_certdigest` which the digest from a java keystore you have.
 5. Build
-   * `autoninja -C out/Default trichrome_chrome_bundle trichrome_library_apk trichrome_webview_apk`
+   * `autoninja -C out/Default trichrome_chrome_64_32_apk trichrome_library_64_32_apk trichrome_webview_64_32_apk`
 6. Output
-   * `out/Default/apks/TrichromeLibrary.apk`
-   * `out/Default/apks/TrichromeWebView.apk`
-   * `out/Default/apks/TrichromeChrome.aab`
-   * This last file is an app bundle and can be converted to a universal apk using `bundletool`, example in `vendor/calyx/scripts/sign-trichrome.sh`
-   * These will have to be signed as well, you can use `vendor/calyx/scripts/sign-trichrome.sh`
+   * `out/Default/apks/TrichromeLibrary6432.apk`
+   * `out/Default/apks/TrichromeWebView6432.apk`
+   * `out/Default/apks/TrichromeChrome6432.apk`
+   * These will have to be signed, you can use `vendor/calyx/scripts/sign-trichrome.sh`
 7. Done
    * You can now copy them to `prebuilts/calyx/chromium/arm64/` for usage in the OS build.
