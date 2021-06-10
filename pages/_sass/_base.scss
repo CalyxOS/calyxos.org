@@ -264,3 +264,11 @@ header.masthead {
 //   padding-top: $vertical-padding;
 //   padding-bottom: $vertical-padding;
 // }
+
+// Heading elements in <details>' <summary> element looks weird.
+// The arrow is above the heading, with the heading on a totally
+// new line. The below CSS puts them on the same line.
+
+details > summary > * {
+  display: inline-block;
+}
