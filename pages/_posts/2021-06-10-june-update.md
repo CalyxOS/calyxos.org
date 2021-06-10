@@ -5,8 +5,6 @@ date: 2021-06-10
 
 The June update is here, with even more features and bug fixes.
 
-It is currently in the beta channel, and will be bumped to the stable channel tomorrow after additional testing and feedback. Factory images will be available at that time as well.
-
 Changelog:
 * CalyxOS 2.6.1 - Android 11
 * June Security update and Feature drop (2021-06-05)
