@@ -17,6 +17,7 @@ Pages:
 * [Changes made in CalyxOS, differences from AOSP](Changes-made-in-CalyxOS,-differences-from-AOSP)
 * [Developing](Developing)
 * [F‐Droid](F‐Droid)
+* [F-Droid Repositories](F-Droid-Repositories)
 * [Gerrit](Gerrit)
 * [Getting Started](Getting-Started)
 * [Installing](Installing)
