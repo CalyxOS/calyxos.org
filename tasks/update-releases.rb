@@ -93,8 +93,8 @@ module Releases
           old_release_file = File.read(old_release_filename)
           build_number, timestamp, build_id = release_file.split(' ')
           old_build_number, old_timestamp, old_build_id = old_release_file.split(' ')
-          date = build_number.split('.')[0..2].join('-')
-          old_date = old_build_number.split('.')[0..2].join('-')
+          date = Time.at(timestamp.to_i).strftime("%F")
+          old_date = Time.at(old_timestamp.to_i).strftime("%F")
           factory_filename = codename + "-factory-#{build_number}.zip"
           factory_sha256 = get_hash_for(factory_filename)
           ota_filename = codename + "-ota_update-#{build_number}.zip"
