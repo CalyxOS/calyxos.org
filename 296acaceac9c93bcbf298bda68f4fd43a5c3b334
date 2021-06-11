@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be4f28c3_08fffecb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-11T16:43:00Z",
+      "side": 1,
+      "message": "I changed build number from 2021.05.05.12 to simply 2.6.1 (the versioning we\u0027re using) to make it less confusing.\n\ntimestamp is simply unix epoch.",
+      "revId": "296acaceac9c93bcbf298bda68f4fd43a5c3b334",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
