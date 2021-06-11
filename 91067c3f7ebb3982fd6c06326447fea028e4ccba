@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2914b71f_006e2f7b",
+        "filename": ".repo/repo",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-11T16:59:48Z",
+      "side": 1,
+      "message": "I know what happened here, but this should be removed.",
+      "revId": "91067c3f7ebb3982fd6c06326447fea028e4ccba",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a21d347_ad6ab18b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-11T16:59:48Z",
+      "side": 1,
+      "message": "Need to decide on a place, thanks for your contribution!",
+      "revId": "91067c3f7ebb3982fd6c06326447fea028e4ccba",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7e03bbc8_e8628842",
+        "filename": "pages/_sass/_base.scss",
+        "patchSetId": 1
+      },
+      "lineNbr": 275,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-11T16:59:48Z",
+      "side": 1,
+      "message": "Need to see if this would affect anything else.",
+      "revId": "91067c3f7ebb3982fd6c06326447fea028e4ccba",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "40620b51_e2bcca9f",
+        "filename": "pages/wiki/F-Droid-Repositories.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-11T16:59:48Z",
+      "side": 1,
+      "message": "This could be a for loop instead, I\u0027ll make the change when I move it.",
+      "revId": "91067c3f7ebb3982fd6c06326447fea028e4ccba",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
