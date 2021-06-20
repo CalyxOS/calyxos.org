@@ -4,7 +4,15 @@ description: 😎 Are you ready to install CalyxOS?
 nav_title: Get CalyxOS
 ---
 
-To download the <strong>Calyx<span>OS</span></strong> firmware, follow the link for your device name. Next, see the [[installation instructions => install]].
+### NEW
+
+<div class="alert alert-info" markdown="0">
+    <p>ℹ️ In the USA there are two variants of the Google Pixel phones: The Google unlocked version, and the Verizon one. The Verizon one is unfortunately locked in such a way (boot loader locked) that you cannot install another operating system on it. The only way to tell is to attempt to unlock the bootloader of the phone. If you can enable "OEM unlocking" then it's an unlocked version. If "OEM unlocking" is greyed out and not toggle-able then you have the Verizon version.</p>
+</div>
+
+### Step 1: Download CalyxOS
+
+To download the <strong>Calyx<span>OS</span></strong> firmware, follow the link for your device name.
 
 [[CalyxOS updates => system-updates]] are delivered over-the-air automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA => ota]]
 
@@ -25,6 +33,16 @@ Optional: To verify the *SHA256* digest, run the command `sha256sum FILENAME_OF_
 {% endfor %}
 </table>
 {% endfor %}
+
+### Step 2: Download the Flasher
+
+{% include cli-flasher.html %}
+
+### Step 3: Install CalyxOS
+
+{% include cli-install.html %}
+
+### OLD
 
 Next, see the [[installation instructions => install]].
 
