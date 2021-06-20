@@ -1,6 +1,6 @@
 ---
 title: February Security update
-date: 2021-02-03
+description: 2021-02-03
 ---
 
 The February Security update is now available for all supported devices.

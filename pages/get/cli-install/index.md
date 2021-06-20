@@ -1,9 +1,13 @@
 ---
-title: Commandline Installer
+layout: deep-page
+title: Install CalyxOS
+description: 🥳 You're amazing! Follow the instructions below to install CalyxOS!
 ---
 
 <div class="alert alert-info" markdown="0">
-<b>NOTE:</b> In the USA there are two variants of the Google Pixel phones: The Google unlocked version, and the Verizon one. The Verizon one is unfortunately locked in such a way (boot loader locked) that you cannot install another operating system on it. The only way to tell is to attempt to unlock the bootloader of the phone. If you can enable "OEM unlocking" then it's an unlocked version. If "OEM unlocking" is greyed out and not toggle-able then you have the Verizon version.
+<h3>💡 Start here</h3>
+<p>⚠️ We've encountered issues installing CalyxOS with the M1 Macbook Pro.</p>
+<p>ℹ️ In the USA there are two variants of the Google Pixel phones: The Google unlocked version, and the Verizon one. The Verizon one is unfortunately locked in such a way (boot loader locked) that you cannot install another operating system on it. The only way to tell is to attempt to unlock the bootloader of the phone. If you can enable "OEM unlocking" then it's an unlocked version. If "OEM unlocking" is greyed out and not toggle-able then you have the Verizon version.</p>
 </div>
 
 ## Downloading the Flasher

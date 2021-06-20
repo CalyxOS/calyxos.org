@@ -1,4 +1,5 @@
 ---
+layout: deep-page
 title: Goodbye, Google
 ---
 

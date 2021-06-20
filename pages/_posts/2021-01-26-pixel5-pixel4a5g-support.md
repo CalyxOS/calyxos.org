@@ -1,6 +1,6 @@
 ---
 title: Pixel 5 and Pixel 4a (5G) support
-date: 2021-01-26
+description: 2021-01-26
 ---
 
 The wait is over, we have builds available for the new Pixels!

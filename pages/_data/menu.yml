@@ -1,11 +1,11 @@
 ---
 - about
 - features
-- get:
-  - download
-  - gui-install
-  - cli-install
-  - manual-install
+# - get:
+#   - download
+#   - gui-install
+#   - cli-install
+#   - manual-install
 - faq
 - community
 - contribute

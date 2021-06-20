@@ -1,5 +1,7 @@
 ---
+layout: deep-page
 title: microG
+description: 💪 Get all of the Android, none of the Google. 
 ---
 
 CalyxOS ships with [microG](../../features/microg). This page lists some implementation details specific to CalyxOS.

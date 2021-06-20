@@ -1,6 +1,7 @@
 ---
+layout: deeper-page
 title: June Security update and Feature drop
-date: 2021-06-10
+description: 2021-06-10
 ---
 
 The June update is here, with even more features and bug fixes.
