@@ -2,18 +2,17 @@
 <html lang="{% html_lang %}" dir="{% html_dir %}">
 {% include head.html %}
   <body>
-    {% include masthead.html %}
-    {% include intro.html %}
-    <main>
-      <div class="our-container home">
-        {% include mission.html %}
-        {% include features.html %}
-        {% include in_the_news.html %}
-        {% include join.html %}
-      </div>
+    {% include header.html %}
+    <main id="content">
+      {% include intro.html %}
+      {% include mission.html %}
+      <section class="content primaryContent wrapper">
+        {% include spotlight-features.html %}
+      </section>
+      {% include team.html %}
+      {% include in_the_news.html %}
+      {% include join.html %}
     </main>
-    <footer>
-      {% include footer.html %}
-    </footer>
+    {% include footer.html %}
   </body>
 </html>
