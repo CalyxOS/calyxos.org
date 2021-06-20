@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4897bca6_f37d1599",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-20T06:20:39Z",
+      "side": 1,
+      "message": "I changed \u0027install.html\u0027 back to \u0027get.html\u0027 for now since having two install.html files seemed to cause some confusion with the layout here, I got a blank page.",
+      "revId": "bc871261c1453e2fa0023f4c6e6360f7a46f397b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
