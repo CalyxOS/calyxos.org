@@ -5,3 +5,4 @@
 /vendor
 /tmp
 /.bundle
+.DS_Store
