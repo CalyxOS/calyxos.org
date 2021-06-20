@@ -1,5 +1,6 @@
 ---
 title: Commandline Installer
+description: 🥳 You're amazing! Follow the instructions below to install CalyxOS!
 ---
 
 <div class="alert alert-info" markdown="0">
