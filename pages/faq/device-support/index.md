@@ -1,5 +1,7 @@
 ---
-nav_title: Device support
+title: Device Support
+description: 🙋 We support a wide range of devices. Check it out below.
+nav_title: Device Support
 ---
 
 CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboot) (including bootloader re-locking) to keep the Android security model intact.

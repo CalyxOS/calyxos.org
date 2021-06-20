@@ -1,5 +1,6 @@
 ---
 title: Code of Conduct
+description: ‍🏳️‍🌈 Inclusivity, accessibility, respect, support.
 nav_title: Code of Conduct
 ---
 

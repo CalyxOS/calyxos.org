@@ -1,5 +1,6 @@
 ---
 title: Contribute to CalyxOS
+description: 💁 Want to get involved? We'd love your help!
 nav_title: Contribute
 ---
 
