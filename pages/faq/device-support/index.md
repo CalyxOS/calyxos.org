@@ -1,4 +1,6 @@
 ---
+title: Device Support
+description: 🙋 We support a wide range of devices. Check it out below.
 nav_title: Device support
 toc: true
 ---
