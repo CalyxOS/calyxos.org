@@ -1,6 +1,7 @@
 ---
+layout: deeper-page
 title: Some phones may have stopped updating and need intervention
-date: 2020-05-08
+description: 2020-05-08
 categories: update
 ---
 

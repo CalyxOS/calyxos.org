@@ -1,6 +1,6 @@
 ---
 title: microG Google Account Login fix, take two
-date: 2021-04-16
+description: 2021-04-16
 ---
 
 CalyxOS includes [microG](https://microg.org/) by default, and you get [three choices](https://calyxos.org/features/microg/). You can either keep it enabled (the default), disable it, or login with a Google account.

@@ -1,4 +1,5 @@
 ---
+layout: deeper-page
 title: CalyxOS Production builds
 nav_title: Production
 ---

@@ -1,0 +1,107 @@
+  <div class="alert alert-info" markdown="0">
+    <p>⚠️ We've encountered issues installing CalyxOS with the M1 Macbook Pro.</p>
+    <p>ℹ️ In the USA there are two variants of the Google Pixel phones: The Google unlocked version, and the Verizon one. The Verizon one is unfortunately locked in such a way (boot loader locked) that you cannot install another operating system on it. The only way to tell is to attempt to unlock the bootloader of the phone. If you can enable "OEM unlocking" then it's an unlocked version. If "OEM unlocking" is greyed out and not toggle-able then you have the Verizon version.</p>
+  </div>
+
+<section class="content">
+  <div class="contentItem standardItem noImage">
+    <div class="description">
+      <h3>Step 1: Download CalyxOS</h3>
+      <p>To download the CalyxOS firmware, follow the link for your device name.</p>
+      <p>To verify the SHA256 digest, run the command <span class="code">sha256sum FILENAME_OF_DOWNLOAD</span> and compare the result with the value in the table below. For MacOS, run <span class="code">openssl dgst -sha256 FILENAME_OF_DOWNLOAD</span>.</p>
+      {% for release in site.data.downloads.releases %}
+      <h4>{{ release | capitalize }}</h4>
+      <table>
+        <tr><th>Device</th><th>Link</th><th>SHA256</th></tr>
+      {% for device in site.data.downloads[release] %}
+        <tr>
+          <td>{{device.name}} ({{device.codename}})</td>
+          <td><a href="{{device.factory_link}}">Download</a></td>
+          <td class="hash">{{device.factory_sha256}}</td>
+        </tr>
+      {% endfor %}
+      </table>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="#" class="content centeredContent contentRow tertiaryContent wrapper">
+  <h3>Step 2: Download the flasher</h3>
+	<div class="contentRowContent">
+		<div class="contentItem blockContent">
+			<div class="description">
+				<div class="icon apple"></div>
+				<h3>Mac</h3>
+				<a class="btn" href="https://release.calyxinstitute.org/device-flasher/1.0.3/device-flasher.darwin">Download</a>
+        <p class="meta">SHA256: 5e5542f51c1592e392114636f2e64fe9dae1cacaaf55c722822780ec5cbf9331</p>
+
+			</div>
+		</div>
+		<div class="contentItem blockContent">
+      <div class="description">
+				<div class="icon linux"></div>
+				<h3>Linux</h3>
+				<a class="btn" href="https://release.calyxinstitute.org/device-flasher/1.0.3/device-flasher.linux">Download</a>
+        <p class="meta">SHA256: f4e68992198868148ca2d4bd0fd40d0176da4058a188a3fdf80732d04a6c3543</p>
+			</div>
+		</div>
+    <div class="contentItem blockContent">
+      <div class="description">
+				<div class="icon windows"></div>
+				<h3>Windows</h3>
+				<a class="btn" href="https://release.calyxinstitute.org/device-flasher/1.0.3/device-flasher.exe">Download</a>
+        <p class="meta">SHA256: 0cdaf47f1c97e43c70e0fe7cfff63fcaa140799ccc494bebf6451e96cbcdda6c</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="content">
+  <div class="contentItem standardItem noImage">
+    <div class="description">
+      <h3>Step 3: Install CalyxOS</h3>
+      <ol>
+          <li>Make sure you have the correct CalyxOS image for your device.</li>
+          <li>Download the flasher for the Operating System you're using from the links above.</li>
+          <ul>
+            <li>For Windows, you also need to download and install "Googles USB driver ZIP file" from https://developer.android.com/studio/run/win-usb</li>
+            <li>For installation instructions, see https://developer.android.com/studio/run/oem-usb#InstallingDriver</li>
+          </ul>
+          <li>Place the flasher as well as the CalyxOS image into the same folder. Do not extract or rename the zip, simply copy it as-is.</li>
+          <li>Double-click the flasher to run it, and follow the steps show on your screen.</li>
+      </ol>
+      <h4>Having problems?</h4>
+      <p>If that doesn't work, then you can:</p>
+      <ol>
+        <li>Open a Terminal or Command Prompt and navigate to that directory.</li>
+        <li>Run the flasher</li>
+        <ul>
+          <li>MacOS: <span class="code">chmod +x ./device-flasher.darwin; ./device-flasher.darwin</span></li>
+          <li>Linux: <span class="code">chmod +x ./device-flasher.linux; ./device-flasher.linux</span></li>
+          <li>Windows: <span class="code">.\device-flasher.exe</span></li>
+        </ul>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="content">
+  <div class="alert alert-info" markdown="0">
+    <h3>💡 Notes</h3>
+    <p>On some Linux distros, you may have to use sudo, i.e. <span class="code">sudo ./device-flasher.linux</span></p>
+    <p>On macOS, you may have to disable gatekeeper. See <a href="https://support.apple.com/en-us/HT202491" rel="noopener noreferrer nofollow" target="_blank">"How to open an app that hasn’t been notarized or is from an unidentified developer"</a></p>
+    <p>On Windows, your anti-virus may falsely flag this as infected. This is because the program is written in the Go programming language, see <a href="https://golang.org/doc/faq#virus" rel="noopener noreferrer nofollow" target="_blank">Golang docs</a> for more information.</p>
+  </div>
+</section>
+
+<div class="contentItem standardItem noImage">
+  <div class="description">
+    <h3>Security update notes</h3>
+    <ul>
+      <li>The <b>Pixels 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</b> contain the full security patch, as they are still being updated by Google.</li>
+      <li>The <b>Pixels 2 and 2 XL</b> are not being updated by Google anymore, so they only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.</li>
+      <li>The <b>Xiaomi Mi A2</b> is still getting security updates, but those are Android 10 and usually released towards the end of the month, whereas CalyxOS is Android 11 and releases the updates right as they're available. This means that the A2 lags behind slightly, by a month or two, in getting security updates for proprietary components.</li>
+    </ul>
+  </div>
+</div>

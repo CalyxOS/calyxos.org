@@ -1,6 +1,6 @@
 ---
 title: Mi A2 10.0 Firmware
-date: 2021-03-29
+description: 2021-03-29
 ---
 
 A new experimental build has been released for the Xiaomi Mi A2 which contains firmware from the stock 10.0 release.

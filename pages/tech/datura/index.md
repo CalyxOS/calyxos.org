@@ -1,5 +1,7 @@
 ---
+layout: deep-page
 title: Datura Firewall
+description: ⚙️ Fine-tuned control of your phone's connectivity.
 nav_title: Datura
 ---
 

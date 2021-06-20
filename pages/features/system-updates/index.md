@@ -1,4 +1,5 @@
 ---
+layout: deep-page
 title: System Updates
 ---
 
@@ -29,4 +30,3 @@ Some of the apps included with CalyxOS are updated via F-Droid.
 You can check for updates by opening F-Droid and pulling down to refresh.
 
 This will show any available updates in the Updates tab.
-

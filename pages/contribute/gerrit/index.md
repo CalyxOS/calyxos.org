@@ -1,4 +1,5 @@
 ---
+layout: deep-page
 title: Gerrit Code Review
 nav_title: Gerrit
 ---

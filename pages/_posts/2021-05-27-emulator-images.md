@@ -1,11 +1,12 @@
 ---
+layout: deeper-page
 title: CalyxOS Emulator Images
-date: 2021-05-27
+description: 2021-05-27
 ---
 
 CalyxOS Emulator images are now available, which can be used with the Emulator present in Android Studio.
 
-They're mostly meant for testing apps (especially system included apps such as Datura and Seedvault). They're *not* meant for general usage. 
+They're mostly meant for testing apps (especially system included apps such as Datura and Seedvault). They're *not* meant for general usage.
 
 URL: <https://release.calyxinstitute.org/sys-img.xml>
 
