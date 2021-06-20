@@ -18,9 +18,21 @@
     </header>
     <main>
       <div class="our-container">
+        {% if page.toc %}
         <div class="row">
           <div class="col pt-3">
-            {{ content | auto_link | wiki_link | toc }}
+            {% if page.toc_title %}
+            <h4>{{ page.toc_title }}</h4>
+            {% else %}
+            <h4>Table of contents</h4>
+            {% endif %}
+            {{ content | toc_only }}
+          </div>
+        </div>
+        {% endif %}
+        <div class="row">
+          <div class="col pt-3">
+            {{ content | auto_link | wiki_link }}
           </div>
         </div>
       </div>
