@@ -1,0 +1,48 @@
+<section class="content">
+  <div class="contentItem standardItem noImage">
+    <div class="description">
+      <h3>Step 3: Install CalyxOS</h3>
+      <ol>
+          <li>Make sure you have the correct CalyxOS image for your device.</li>
+          <li>Download the flasher for the Operating System you're using from the links above.</li>
+          <ul>
+            <li>For Windows, you also need to download and install "Googles USB driver ZIP file" from https://developer.android.com/studio/run/win-usb</li>
+            <li>For installation instructions, see https://developer.android.com/studio/run/oem-usb#InstallingDriver</li>
+          </ul>
+          <li>Place the flasher as well as the CalyxOS image into the same folder. Do not extract or rename the zip, simply copy it as-is.</li>
+          <li>Double-click the flasher to run it, and follow the steps show on your screen.</li>
+      </ol>
+      <h4>Having problems?</h4>
+      <p>If that doesn't work, then you can:</p>
+      <ol>
+        <li>Open a Terminal or Command Prompt and navigate to that directory.</li>
+        <li>Run the flasher</li>
+        <ul>
+          <li>MacOS: <span class="code">chmod +x ./device-flasher.darwin; ./device-flasher.darwin</span></li>
+          <li>Linux: <span class="code">chmod +x ./device-flasher.linux; ./device-flasher.linux</span></li>
+          <li>Windows: <span class="code">.\device-flasher.exe</span></li>
+        </ul>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="content">
+  <div class="alert alert-info" markdown="0">
+    <h3>💡 Notes</h3>
+    <p>On some Linux distros, you may have to use sudo, i.e. <span class="code">sudo ./device-flasher.linux</span></p>
+    <p>On macOS, you may have to disable gatekeeper. See <a href="https://support.apple.com/en-us/HT202491" rel="noopener noreferrer nofollow" target="_blank">"How to open an app that hasn’t been notarized or is from an unidentified developer"</a></p>
+    <p>On Windows, your anti-virus may falsely flag this as infected. This is because the program is written in the Go programming language, see <a href="https://golang.org/doc/faq#virus" rel="noopener noreferrer nofollow" target="_blank">Golang docs</a> for more information.</p>
+  </div>
+</section>
+
+<div class="contentItem standardItem noImage">
+  <div class="description">
+    <h3>Security update notes</h3>
+    <ul>
+      <li>The <b>Pixels 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</b> contain the full security patch, as they are still being updated by Google.</li>
+      <li>The <b>Pixels 2 and 2 XL</b> are not being updated by Google anymore, so they only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.</li>
+      <li>The <b>Xiaomi Mi A2</b> is still getting security updates, but those are Android 10 and usually released towards the end of the month, whereas CalyxOS is Android 11 and releases the updates right as they're available. This means that the A2 lags behind slightly, by a month or two, in getting security updates for proprietary components.</li>
+    </ul>
+  </div>
+</div>
