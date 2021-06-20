@@ -1,6 +1,6 @@
 ---
 title: May Security update
-date: 2021-05-06
+description: 2021-05-06
 ---
 
 With May comes another security update packed to the brim with new features.

@@ -1,6 +1,6 @@
 ---
 title: Security updates
-date: 2021-05-14
+description: 2021-05-14
 ---
 
 Monthly security updates are an important tool to keep users safe and protect their devices. CalyxOS provides timely monthly updates for all supported devices. Let's walk through how the process works.

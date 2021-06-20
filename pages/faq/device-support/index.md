@@ -1,8 +1,15 @@
 ---
-nav_title: Device support
+layout: deep-page
+title: Device Support
+description: 🙋 We support a wide range of devices. Check it out below.
+nav_title: Device Support
+
 ---
 
+<div class="alert">
+#### 🔒 Security by Design
 CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboot) (including bootloader re-locking) to keep the Android security model intact.
+</div>
 
 ### Supported devices, still receiving updates from the manufacturer
 * Pixel 5, 4a (5G)
@@ -33,7 +40,7 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 <tr><td> Xiaomi Mi A2 </td><td> August 2021? </td><td> August 2021 </td></tr>
 </table>
 
-Reference: <https://support.google.com/nexus/answer/4457705#zippy=%2Cpixel-phones>
+<p class="meta">Reference: <https://support.google.com/nexus/answer/4457705#zippy=%2Cpixel-phones></p>
 
 ### Requirements for supporting a new device
 1. Android 11.0:

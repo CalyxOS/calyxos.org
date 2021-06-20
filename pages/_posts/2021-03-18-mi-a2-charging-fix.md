@@ -1,6 +1,6 @@
 ---
 title: Mi A2 Charging fix
-date: 2021-03-18
+description: 2021-03-18
 ---
 
 A build with a charging fix for the Xiaomi Mi A2 has been released.

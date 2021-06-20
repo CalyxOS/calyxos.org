@@ -1,6 +1,7 @@
 ---
+layout: deeper-page
 title: Community update
-date: 2021-05-27
+description: 2021-05-27
 ---
 
 We have changed how the setup of the various [[communication channels => community]] over the last week.
