@@ -1,6 +1,7 @@
 ---
 title: Building CalyxOS
 nav_title: Build
+toc: true
 ---
 
 CalyxOS is Android-based, and the usual procedure to build AOSP applies. If you're already familiar and setup to build Android, you can see the short version to get a quick idea. Otherwise, the long version goes into full detail to set it up from scratch.
