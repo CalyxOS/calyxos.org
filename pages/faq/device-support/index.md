@@ -1,4 +1,6 @@
 ---
+title: Device Support
+description: 🙋 Check out device support timelines and requirements below!
 nav_title: Device support
 toc: true
 ---

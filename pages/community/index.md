@@ -1,5 +1,6 @@
 ---
 title: Community
+description: 🧑🏿‍🤝‍🧑🏻 Get support, give support, join the conversation!
 ---
 
 ## Chat
