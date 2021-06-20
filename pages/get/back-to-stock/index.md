@@ -1,5 +1,6 @@
 ---
 title: Back to Stock Android
+description: 🙏 Thank you for trying CalyxOS!
 ---
 
 If you would like to re-install stock Android, you can follow the below steps.
