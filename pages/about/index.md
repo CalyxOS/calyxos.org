@@ -1,5 +1,6 @@
 ---
 title: About CalyxOS
+description: 🔥 We're driven by a passion to give people agency over their digital lives
 nav_title: About
 ---
 

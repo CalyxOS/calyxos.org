@@ -1,5 +1,6 @@
 ---
 title: microG
+description: 💪 Maintain compatibility with apps.
 ---
 
 CalyxOS ships with [microG](../../features/microg). This page lists some implementation details specific to CalyxOS.

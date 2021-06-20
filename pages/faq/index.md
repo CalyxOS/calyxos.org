@@ -1,5 +1,6 @@
 ---
-title: Frequently asked questions
+title: Frequently asked Questions
+description: 🙋 Get answers to some of the most common questions from our community!
 nav_title: FAQ
 toc: true
 toc_title: Frequently asked questions
