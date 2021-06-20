@@ -20,7 +20,7 @@ pages:
     paths:
     - public
   only:
-  - master
+  - dev
 
 test:
   stage: test
@@ -30,4 +30,4 @@ test:
     paths:
     - test
   except:
-  - master
+  - dev
