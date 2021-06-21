@@ -1,3 +1,6 @@
+---
+---
+
 @media (prefers-color-scheme: light) {
 
   nav a.active {
@@ -9,7 +12,7 @@
   }
 
   .intro.withImage {
-    background: no-repeat right center url('../../../../assets/images/device/feature/intro.png');
+    background: no-repeat right center url({{ '/assets/images/device/feature/intro.png' | relative_url }});
   }
 
   .highlight {
@@ -29,7 +32,7 @@
   }
 
   .intro.withImage {
-    background: no-repeat right center url('../../../../assets/images/device/feature/intro.png');
+    background: no-repeat right center url({{ '/assets/images/device/feature/intro.png' | relative_url }});
   }
 
   .highlight {
@@ -48,19 +51,19 @@
 }
 
 .icon.calyx {
-  background-image: url('../../../assets/images/lm-logo-calyx.png');
+  background-image: url({{ '/assets/images/lm-logo-calyx.png' | relative_url }});
 }
 
 .icon.apple {
-  background-image: url('../../../assets/images/apple-logo.png');
+  background-image: url({{ '/assets/images/apple-logo.png' | relative_url }});
 }
 
 .icon.linux {
-  background-image: url('../../../assets/images/linux-logo.png');
+  background-image: url({{ '/assets/images/linux-logo.png' | relative_url }});
 }
 
 .icon.windows {
-  background-image: url('../../../assets/images/windows-logo.png');
+  background-image: url({{ '/assets/images/windows-logo.png' | relative_url }});
 }
 .primaryBtn {
   background-color: var(--calyx-base);

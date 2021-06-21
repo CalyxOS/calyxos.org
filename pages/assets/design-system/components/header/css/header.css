@@ -1,3 +1,6 @@
+---
+---
+
 @media (prefers-color-scheme: light) {
   header {
     background-color: rgba(255, 255, 255, .8);
@@ -25,7 +28,7 @@
   }
 
   .navbar-toggle {
-    background-image: url("/assets/images/lm-icon-menu.png");
+    background-image: url({{ '/assets/images/lm-icon-menu.png' | relative_url }});
   }
 }
 
@@ -35,7 +38,7 @@
   }
 
   .navbar-toggle {
-    background-image: url("/assets/images/dm-icon-menu.png");
+    background-image: url({{ '/assets/images/dm-icon-menu.png' | relative_url }});
   }
 
   nav.staged {

@@ -1,3 +1,6 @@
+---
+---
+
 @media (prefers-color-scheme: light) {
   .secondaryIntro {
     background-color: var(--color-shade);
@@ -112,7 +115,7 @@
 }
 
 .intro.withImage {
-  background: no-repeat url('../../../assets/placeholder/mobile.svg');
+  background: no-repeat url({{ '/assets/placeholder/mobile.svg' | relative_url }});
   background-size: 28% !important;
   background-position-x: calc(100% - var(--spacing-xlarge)) !important;
   background-position-y: 60% !important;
@@ -186,7 +189,7 @@
 }
 
 .articleIntro::after {
-  background-image: url('../../../assets/examples/background.svg');
+  background-image: url({{ '/assets/examples/background.svg' | relative_url }});
   background-size: cover;
   content: "";
   top: 0;

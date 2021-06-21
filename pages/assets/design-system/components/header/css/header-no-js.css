@@ -1,3 +1,6 @@
+---
+---
+
 @media (prefers-color-scheme: light) {
 
   nav a.active {
@@ -5,7 +8,7 @@
   }
 
   .navbar-toggle {
-    background-image: url("/assets/images/lm-icon-menu.png");
+    background-image: url({{ '/assets/images/lm-icon-menu.png' | relative_url }});
   }
 
   @media only screen and (max-width: 768px) {
@@ -19,7 +22,7 @@
 @media (prefers-color-scheme: dark) {
 
   .navbar-toggle {
-    background-image: url("/assets/images/dm-icon-menu.png");
+    background-image: url({{ '/assets/images/dm-icon-menu.png' | relative_url }});
   }
 
   @media only screen and (max-width: 768px) {

@@ -1,3 +1,6 @@
+---
+---
+
 @media (prefers-color-scheme: light) {
   .window {
     border-top: var(--border-lm);
@@ -31,7 +34,7 @@
   }
 
   .emptyBg {
-    background-image: url('../assets/empty-bg-lm.svg');
+    background-image: url({{ '/assets/empty-bg-lm.svg' | relative_url }});
   }
 
   p + table {
@@ -72,7 +75,7 @@
   }
 
   .emptyBg {
-    background-image: url('../assets/empty-bg-dm.svg');
+    background-image: url({{ '/assets/empty-bg-dm.svg' | relative_url }});
   }
 
   table {
