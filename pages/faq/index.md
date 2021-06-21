@@ -6,6 +6,7 @@ toc: true
 toc_title: Frequently asked questions
 ---
 
+### Device support
 For questions about device support, both for existing and new devices, as well as support timeframe, see [Device support](device-support)
 
 ### What are the goals of CalyxOS?
