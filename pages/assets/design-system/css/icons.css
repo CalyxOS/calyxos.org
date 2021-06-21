@@ -3,29 +3,29 @@
 
 @media (prefers-color-scheme: light) {
   .close {
-    background-image: url({{ '/assets/nav/lm-icon-close.svg' | relative_url }});
+    background-image: url({{ '/assets/design-system/assets/nav/lm-icon-close.svg' | relative_url }});
   }
 
   .menu {
-    background-image: url({{ '/assets/nav/lm-icon-menu.svg' | relative_url }});
+    background-image: url({{ '/assets/design-system/assets/nav/lm-icon-menu.svg' | relative_url }});
   }
 
   .squiggle {
-    background-image: url({{ '/assets/images/squiggle/squiggle-lm.svg' | relative_url }});
+    background-image: url({{ '/assets/design-system/assets/images/squiggle/squiggle-lm.svg' | relative_url }});
   }
 }
 
 @media (prefers-color-scheme: dark) {
   .close {
-    background-image: url({{ '/assets/nav/dm-icon-close.svg' | relative_url }});
+    background-image: url({{ '/assets/design-system/assets/nav/dm-icon-close.svg' | relative_url }});
   }
 
   .menu {
-    background-image: url({{ '/assets/nav/dm-icon-menu.svg' | relative_url }});
+    background-image: url({{ '/assets/design-system/assets/nav/dm-icon-menu.svg' | relative_url }});
   }
 
   .squiggle {
-    background-image: url({{ '/assets/images/squiggle/squiggle-dm.svg' | relative_url }});
+    background-image: url({{ '/assets/design-system/assets/images/squiggle/squiggle-dm.svg' | relative_url }});
   }
 }
 
@@ -42,11 +42,11 @@
 }
 
 .icon.placeholder {
-  background-image: url({{ '/assets/placeholder/circle.svg' | relative_url }});
+  background-image: url({{ '/assets/design-system/assets/placeholder/circle.svg' | relative_url }});
 }
 
 .icon.figma {
-  background-image: url({{ '/assets/logos/figma-mark.svg' | relative_url }});
+  background-image: url({{ '/assets/design-system/assets/logos/figma-mark.svg' | relative_url }});
 }
 
 .squiggle {

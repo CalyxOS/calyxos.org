@@ -115,7 +115,7 @@
 }
 
 .intro.withImage {
-  background: no-repeat url({{ '/assets/placeholder/mobile.svg' | relative_url }});
+  background: no-repeat url({{ '/assets/design-system/assets/placeholder/mobile.svg' | relative_url }});
   background-size: 28% !important;
   background-position-x: calc(100% - var(--spacing-xlarge)) !important;
   background-position-y: 60% !important;
@@ -189,7 +189,7 @@
 }
 
 .articleIntro::after {
-  background-image: url({{ '/assets/examples/background.svg' | relative_url }});
+  background-image: url({{ '/assets/design-system/assets/examples/background.svg' | relative_url }});
   background-size: cover;
   content: "";
   top: 0;
