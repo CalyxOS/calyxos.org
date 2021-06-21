@@ -49,7 +49,7 @@
   border-bottom: 3px solid var(--theme-glow) !important;
 }
 
-.glow .highlight {
+.glow .accent {
   background-color: var(--theme-glow);
   color: var(--color-light);
 }
