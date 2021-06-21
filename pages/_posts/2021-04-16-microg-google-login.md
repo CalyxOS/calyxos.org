@@ -27,7 +27,7 @@ F-Droid test repos:
   <tr>
     <td>{{device.name}} ({{device.codename}})</td>
     <td><a href="https://calyxos.gitlab.io/calyx-fdroid-repo-{{device.codename}}/fdroid/repo?fingerprint=C44D58B4547DE5096138CB0B34A1CC99DAB3B4274412ED753FCCBFC11DC1B7B6">https://calyxos.gitlab.io/calyx-fdroid-repo-{{device.codename}}/fdroid/repo</a></td>
-    <td><a href="/assets/images/gitlab-calyx-fdroid-repo-{{device.codename}}-qrcode.png">Click to view</a></td>
+    <td><a href="{{ '/assets/images/gitlab-calyx-fdroid-repo-' | append: device.codename | append: '-qrcode.png' | relative_url }}">Click to view</a></td>
   </tr>
 {% endfor %}
 </table>
