@@ -5,7 +5,7 @@
   }
 
   .navbar-toggle {
-    background-image: url("/assets/images/lm-icon-menu.png");
+    background-image: url("../../../../images/lm-icon-menu.png");
   }
 
   @media only screen and (max-width: 768px) {
@@ -19,7 +19,7 @@
 @media (prefers-color-scheme: dark) {
 
   .navbar-toggle {
-    background-image: url("/assets/images/dm-icon-menu.png");
+    background-image: url("../../../../images/dm-icon-menu.png");
   }
 
   @media only screen and (max-width: 768px) {
