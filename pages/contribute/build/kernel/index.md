@@ -18,7 +18,9 @@ Simply run:
 
 In your source code directory (i.e. `~/calyxos/android11-qpr`)
 
-`cd kernel`
+```
+cd kernel
+./build_kernel.sh sunfish # Replace sunfish (Pixel 4a) with your device codename
+```
 
-`./build_kernel.sh sunfish` # Replace sunfish (Pixel 4a) with your device codename
-
+This will build the kernel, and it also copies it to the corect directory directly (`device/google/sunfish-kernel` for Pixel 4a), and it will get picked up by the OS build directly.
