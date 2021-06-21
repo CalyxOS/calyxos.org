@@ -9,7 +9,7 @@
   }
 
   .intro.withImage {
-    background: no-repeat right center url('../../../../assets/images/device/feature/intro.png');
+    background: no-repeat right center url('../../../assets/images/device/feature/intro.png');
   }
 
   .highlight {
@@ -29,7 +29,7 @@
   }
 
   .intro.withImage {
-    background: no-repeat right center url('../../../../assets/images/device/feature/intro.png');
+    background: no-repeat right center url('../../../assets/images/device/feature/intro.png');
   }
 
   .highlight {
@@ -48,19 +48,19 @@
 }
 
 .icon.calyx {
-  background-image: url('../../../assets/images/lm-logo-calyx.png');
+  background-image: url('../../assets/images/lm-logo-calyx.png');
 }
 
 .icon.apple {
-  background-image: url('../../../assets/images/apple-logo.png');
+  background-image: url('../../assets/images/apple-logo.png');
 }
 
 .icon.linux {
-  background-image: url('../../../assets/images/linux-logo.png');
+  background-image: url('../../assets/images/linux-logo.png');
 }
 
 .icon.windows {
-  background-image: url('../../../assets/images/windows-logo.png');
+  background-image: url('../../assets/images/windows-logo.png');
 }
 .primaryBtn {
   background-color: var(--calyx-base);
