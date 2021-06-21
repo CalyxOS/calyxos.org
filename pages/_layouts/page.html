@@ -11,14 +11,14 @@
               </div>
           </section>
       {% if page.toc %}
-      <section class="content primaryContent wrapper">
+      <div class="content primaryContent wrapper">
           {% if page.toc_title %}
           <h4>{{ page.toc_title }}</h4>
           {% else %}
           <h4>Table of contents</h4>
           {% endif %}
           {{ content | toc_only }}
-      </section>
+      </div>
       {% endif %}
       <section class="content primaryContent wrapper">
               {{ content | auto_link | wiki_link }}
