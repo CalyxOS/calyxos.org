@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a62f8d4c_ec4af950",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-21T16:35:07Z",
+      "side": 1,
+      "message": "Works, https://calyxos.gitlab.io/calyxos.org/news/",
+      "revId": "2f26f82f9ae2eacd3c8c2e6e786d1f0fb8dcf3b3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
