@@ -3,7 +3,7 @@
     color: var(--font-color-dark);
   }
 
-  .highlight {
+  .highlighter {
     background-color: var(--color-dark);
     color: var(--font-color-light);
   }
@@ -20,7 +20,7 @@
     color: var(--font-color-light);
   }
 
-  .highlight {
+  .highlighter {
     background-color: #f2f2f2;
     color: var(--color-dark);
   }
@@ -152,7 +152,7 @@ p.caption {
   margin: var(--spacing-base) var(--spacing-base) 0 0;
 }
 
-.highlight {
+.highlighter {
   border-radius: var(--radius-base);
   padding: var(--spacing-xxsmall) var(--spacing-xxsmall) var(--spacing-xsmall) var(--spacing-xxsmall);
 }
