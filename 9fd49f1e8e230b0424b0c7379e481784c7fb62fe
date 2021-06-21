@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "86196099_dc201849",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-21T20:00:52Z",
+      "side": 1,
+      "message": "Basically anything references in CSS.",
+      "revId": "9fd49f1e8e230b0424b0c7379e481784c7fb62fe",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
