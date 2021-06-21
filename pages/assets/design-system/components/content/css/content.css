@@ -79,7 +79,8 @@
 .callout {
   padding: var(--spacing-xxlarge) calc(var(--spacing-xxlarge) * 2);
   border-radius: var(--radius-soft);
-  width: max-content;
+  max-width: max-content;
+  width: 90%;
 }
 
 .featureImage {
