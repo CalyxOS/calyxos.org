@@ -18,7 +18,7 @@ Simply run:
 
 In your source code directory (i.e. `~/calyxos/android11-qpr`)
 
-```
+{% highlight shell %}
 cd kernel
 ./build_kernel.sh sunfish # Replace sunfish (Pixel 4a) with your device codename
 ```
