@@ -11,18 +11,18 @@ However, some of you may have noticed some crashes when trying to access certain
 
 Run this from a computer where you have 'adb' installed:
 
-```
+{% highlight shell %}
 adb shell pm list users
-```
+{% endhighlight %}
 
 That will output something like:
 
-```
+{% highlight shell %}
 Users:
         UserInfo{0:Owner:c13} running
         UserInfo{10:New Profile:1030} running
         UserInfo{11:Guest:404}
-```
+{% endhighlight %}
 
 Note the `10` here, that is the user id of the Work profile.
 
@@ -30,13 +30,13 @@ Now, you can run the following commands to enable certain apps in the profile to
 
 Replace `10` with the user id you saw above:
 
-```
+{% highlight shell %}
 adb shell pm install-existing --user 10 com.android.contacts
 adb shell pm install-existing --user 10 com.android.settings
 adb shell pm install-existing --user 10 com.android.providers.downloads
 adb shell pm install-existing --user 10 com.android.providers.downloads.ui
 adb shell pm install-existing --user 10 com.android.documentsui
-```
+{% endhighlight %}
 
 This is a one time fix and won't be required in future builds.
 
