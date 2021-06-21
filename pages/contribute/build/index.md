@@ -54,40 +54,39 @@ You may need to run the below command to prevent some warnings when building
 #### [repo](https://source.android.com/setup/develop#installing-repo)
 repo is the tool used to download all the different CalyxOS (and AOSP) source code repositories
 
-```
-mkdir ~/bin
-PATH=~/bin:$PATH
-curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-chmod a+x ~/bin/repo
-```
+`mkdir ~/bin`
+
+`PATH=~/bin:$PATH`
+
+`curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo`
+
+`chmod a+x ~/bin/repo`
 
 #### CalyxOS
 Now you can download the CalyxOS source code.
 
-```
-mkdir ~/calyxos/android11-qpr1
-cd ~/calyxos/android11-qpr1
-repo init -u https://gitlab.com/CalyxOS/platform_manifest -b android11-qpr1
-repo sync -j8 # You may use a higher number here if you have a fast computer and fast internet
-```
+`mkdir ~/calyxos/android11-qpr1`
+
+`cd ~/calyxos/android11-qpr1`
+
+`repo init -u https://gitlab.com/CalyxOS/platform_manifest -b android11-qpr1`
+
+`repo sync -j8` # You may use a higher number here if you have a fast computer and fast internet
 
 This will be a big download and may take a long time. Once it's done, you can build CalyxOS
 
 ##### Proprietary files
 Phones need a lot of proprietary files to boot and for all hardware to work, we have automated scripts to download and set them up.
 
-```
-./vendor/calyx/scripts/setup-apv.sh sunfish # Replace sunfish (Pixel 4a) with your device codename here
-```
+`./vendor/calyx/scripts/setup-apv.sh sunfish` # Replace sunfish (Pixel 4a) with your device codename here
 
 ### Building
 You made it this far! Now you can finally build CalyxOS
 
-```
-source build/envsetup.sh
-lunch calyx_sunfish-user # Replace sunfish (Pixel 4a) with your device codename here, and user with userdebug if you want a debug build
-m # Yes, just the letter 'm'
-```
+`source build/envsetup.sh`
+
+`lunch calyx_sunfish-user` # Replace sunfish (Pixel 4a) with your device codename here, and user with userdebug if you want a debug build
+`m` # Yes, just the letter 'm'
 
 This will be the longest step, it may take hours depending on your computer. Sit back and watch it build!
 
