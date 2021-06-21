@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="{% html_lang %}" dir="{% html_dir %}">
+{% include head.html %}
+
+<body>
+  {% include header.html %}
+  <main>
+    <section class="intro secondaryIntro">
+      <div class="wrapper">
+        <h1><span class="highlight">{{ page.title }}</span></h1>
+        {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+      </div>
+    </section>
+    <section class="statement wrapper">
+      <p class="emoji">❤️</p>
+      <p>We are a team of activists, engineers, designers, poets, artists, and dreamers. We believe that <span class="highlight">privacy is a human right</span>. Through open-source software, strong encrpytion, and our free operating system, we're empowering people all over the world to reclaim their digital privacy.</p>
+    </section>
+
+    <section class="content">
+      <section class="contentRow centeredContent secondaryContent wrapper">
+        <h2>Get to know us</h2>
+        <div class="contentRowContent">
+          <div class="contentItem blockContent">
+            <div class="description">
+              <div class="featureImage">
+                    <img class="avatar" src="{{ '/assets/images/team/nick.jpg' | relative_url }}" alt="#">
+              </div>
+              <h3>Nicholas Merrill</h3>
+              <p class="meta">Executive Director, The Calyx Institute</p>
+              <p>Plaintiff in Doe v. Ashcroft. Recipient of the ACLU’s Roger Baldwin Medal of Liberty and the Bill of Rights Defense Committee’s Patriot Award.</p>
+              <a href="https://twitter.com/nickcalyx" rel="noopener noreferrer nofollow" target="_blank">@nickcalyx</a>
+            </div>
+          </div>
+          <div class="contentItem blockContent">
+            <div class="description">
+              <div class="featureImage">
+                    <img class="avatar" src="{{ '/assets/images/team/elijah.jpg' | relative_url }}" alt="#">
+              </div>
+              <h3>Elijah Waxwing</h3>
+              <p class="meta">Software Engineer</p>
+              <p>Surveillance, Sociology, Digital Justice, Hacking, Infosec, Cyborg Revolt.</p>
+              <a href="https://twitter.com/wxwng" rel="noopener noreferrer nofollow" target="_blank">@wxwng</a>
+            </div>
+          </div>
+        </div>
+        <div class="contentRowContent">
+          <div class="contentItem blockContent">
+            <div class="description">
+              <div class="featureImage">
+                    <img class="avatar" src="{{ '/assets/images/team/chirayu.jpg' | relative_url }}" alt="#">
+              </div>
+              <h3>Chirayu Desai</h3>
+              <p class="meta">Software Engineer</p>
+              <p>Working on Android and open source software since 2012.</p>
+              <a href="https://twitter.com/_cdesai" rel="noopener noreferrer nofollow" target="_blank">@_cdesai</a>
+            </div>
+          </div>
+          <div class="contentItem blockContent">
+            <div class="description">
+              <div class="featureImage">
+                    <img class="avatar" src="{{ '/assets/design-system/assets/placeholder/circle.svg' | relative_url }}" alt="#">
+              </div>
+              <h3>Oliver Scott</h3>
+              <p class="meta">Software Engineer</p>
+            </div>
+          </div>
+        </div>
+        <div class="contentRowContent">
+          <div class="contentItem blockContent">
+            <div class="description">
+              <div class="featureImage">
+                    <img class="avatar" src="{{ '/assets/design-system/assets/placeholder/circle.svg' | relative_url }}" alt="#">
+              </div>
+              <h3>Michael Bestas</h3>
+              <p class="meta">Software Engineer</p>
+            </div>
+          </div>
+          <div class="contentItem blockContent">
+            <div class="description">
+              <div class="featureImage">
+                    <img class="avatar" src="{{ '/assets/images/team/torsten.jpg' | relative_url }}" alt="#">
+              </div>
+              <h3>Torsten Grote</h3>
+              <p class="meta">Software Engineer</p>
+              <p>#FreeSoftware activist interested in topics of technology-enabled social and political change.</p>
+              <a href="https://twitter.com/t_grote" rel="noopener noreferrer nofollow" target="_blank">@t_grote</a>
+            </div>
+          </div>
+        </div>
+        <div class="contentRowContent">
+          <div class="contentItem blockContent">
+            <div class="description">
+              <div class="featureImage">
+                    <img class="avatar" src="{{ '/assets/images/team/ese.jpg' | relative_url }}" alt="#">
+              </div>
+              <h3>Ese Udom</h3>
+              <p class="meta">Software Engineer</p>
+              <p>Software Engineer and Entrepreneur. Searching for truth.</p>
+              <a href="https://twitter.com/EseDevlin" rel="noopener noreferrer nofollow" target="_blank">@EseDevlin</a>
+            </div>
+          </div>
+          <div class="contentItem blockContent">
+            <div class="description">
+              <div class="featureImage">
+                    <img class="avatar" src="{{ '/assets/images/team/maya.jpg' | relative_url }}" alt="#">
+              </div>
+              <h3>Maya Ninova</h3>
+              <p class="meta">User Rsearcher</p>
+              <p>I study technology and people // PhD //researcher // professor //</p>
+              <a href="https://twitter.com/MayaNinova" rel="noopener noreferrer nofollow" target="_blank">@MayaNinova</a>
+            </div>
+          </div>
+        </div>
+        <div class="contentRowContent">
+          <div class="contentItem blockContent">
+            <div class="description">
+              <div class="featureImage">
+                    <img class="avatar" src="{{ '/assets/design-system/assets/placeholder/circle.svg' | relative_url }}" alt="#">
+              </div>
+              <h3>Hans-Christoph Steiner</h3>
+              <p class="meta">Privacy Researcher &amp; UX-focused Hacker</p>
+              <p>Working to fulfill the dream of the phone that fully respects the user and their privacy.</p>
+            </div>
+          </div>
+          <div class="contentItem blockContent">
+            <div class="description">
+              <div class="featureImage">
+                    <img class="avatar" src="{{ '/assets/images/team/glenn.jpg' | relative_url }}" alt="#">
+              </div>
+              <h3>Glenn Sorrentino</h3>
+              <p class="meta">Product Designer, User Researcher, Front-end Engineer</p>
+              <p>Helping to build a more equitable, inclusive, and usable world.</p>
+              <a href="https://twitter.com/glennsorrentino" rel="noopener noreferrer nofollow" target="_blank">@glennsorrentino</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+  <footer>
+    {% include footer.html %}
+  </footer>
+</body>
+
+</html>
