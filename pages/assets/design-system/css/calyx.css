@@ -12,7 +12,7 @@
     background: no-repeat right center url('../../images/device/feature/intro.png');
   }
 
-  .highlight {
+  .accent {
     background-color: var(--calyx-light);
     color: var(--color-dark);
   }
@@ -32,7 +32,7 @@
     background: no-repeat right center url('../../images/device/feature/intro.png');
   }
 
-  .highlight {
+  .accent {
     background-color: var(--calyx-light);
     color: var(--color-dark);
   }
