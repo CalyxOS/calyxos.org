@@ -60,6 +60,10 @@
   margin: 0 auto;
 }
 
+.centeredContent p {
+  margin: 0 auto;
+}
+
 .parent {
   font-size: var(--font-size-small);
   text-transform: uppercase;
