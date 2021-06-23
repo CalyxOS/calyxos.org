@@ -13,9 +13,9 @@
       {% if page.toc %}
       <div class="content primaryContent wrapper">
         {% if page.toc_title %}
-        <h4>{{ page.toc_title }}</h4>
+        <h2>{{ page.toc_title }}</h2>
         {% else %}
-        <h4>Table of contents</h4>
+        <h2>Table of contents</h2>
         {% endif %}
         {{ content | toc_only }}
       </div>
