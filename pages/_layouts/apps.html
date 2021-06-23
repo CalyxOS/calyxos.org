@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{% html_lang %}" dir="{% html_dir %}">
+{% include head.html %}
+  <body>
+    {% include header.html %}
+    <main>
+      <section class="intro secondaryIntro">
+        <div class="wrapper">
+          <h1><span class="highlight">{{ page.title }}</span></h1>
+          {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+        </div>
+      </section>
+      <div class="content primaryContent centeredContent wrapper">
+        {% include apps.html %}
+      </div>
+    </main>
+    <footer>
+      {% include footer.html %}
+    </footer>
+  </body>
+</html>
