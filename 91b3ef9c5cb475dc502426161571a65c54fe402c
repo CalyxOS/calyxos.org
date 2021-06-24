@@ -16,6 +16,23 @@
       "message": "I managed to remove .repo through the web GUI after all...",
       "revId": "91b3ef9c5cb475dc502426161571a65c54fe402c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d783d148_21286baa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-24T14:29:01Z",
+      "side": 1,
+      "message": "Hold for now.",
+      "revId": "91b3ef9c5cb475dc502426161571a65c54fe402c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
