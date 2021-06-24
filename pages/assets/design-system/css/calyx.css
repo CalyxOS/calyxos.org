@@ -1,0 +1,82 @@
+@media (prefers-color-scheme: light) {
+
+  nav a.active {
+    border-bottom: 3px solid var(--calyx-base);
+  }
+
+  .btn {
+    color: var(--calyx-base);
+  }
+
+  .intro.withImage {
+    background: no-repeat right center url('../../images/device/feature/intro.png');
+  }
+
+  .highlighter {
+    background-color: var(--calyx-light);
+    color: var(--color-dark);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .btn {
+    color: var(--calyx-light);
+  }
+
+  .primaryBtn {
+    color: white !important;
+  }
+
+  .intro.withImage {
+    background: no-repeat right center url('../../images/device/feature/intro.png');
+  }
+
+  .highlighter {
+    background-color: var(--calyx-light);
+    color: var(--color-dark);
+  }
+
+  nav a.active {
+    border-bottom: 3px solid var(--calyx-base);
+  }
+}
+
+::selection {
+  background-color: var(--calyx-light);
+  color: var(--font-color-dark);
+}
+
+.icon.calyx {
+  background-image: url('../../images/lm-logo-calyx.png');
+}
+
+.icon.apple {
+  background-image: url('../../images/apple-logo.png');
+}
+
+.icon.linux {
+  background-image: url('../../images/linux-logo.png');
+}
+
+.icon.windows {
+  background-image: url('../../images/windows-logo.png');
+}
+.primaryBtn {
+  background-color: var(--calyx-base);
+  border: 1px solid var(--calyx-base);
+  color: white;
+}
+
+.primaryBtn:hover {
+  background-color: var(--calyx-dark);
+  border: 1px solid var(--calyx-dark);
+}
+
+.btn {
+  transition: none !important;
+}
+
+.contentRowContent .featureImage + .description {
+  margin-top: var(--spacing-xxlarge) !important;
+}

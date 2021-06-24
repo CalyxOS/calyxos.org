@@ -2,27 +2,17 @@
 <html lang="{% html_lang %}" dir="{% html_dir %}">
 {% include head.html %}
   <body>
-    <header>
-      {% include masthead.html %}
-      <div class="intro">
-        <div class="our-container">
-          <div class="row">
-            <div class="col">
-              <h1>{{ page.title }}</h1>
-              {% breadcrumbs %}
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+    {% include header.html %}
     <main>
-      <div class="our-container">
-        <div class="row">
-          <div class="col pt-3">
-            {% include posts.html %}
-          </div>
+      <section class="intro secondaryIntro">
+        <div class="wrapper">
+          <h1><span class="highlighter">{{ page.title }}</span></h1>
+          {% if page.description %}<p>{{ page.description }}</p>{% endif %}
         </div>
-      </div>
+      </section>
+      <section class="content primaryContent wrapper">
+        {% include posts.html %}
+      </section>
     </main>
     <footer>
       {% include footer.html %}

@@ -16,7 +16,7 @@ There are many problems with Google Play Services (GMS):
 
 ## microG to The Rescue
 
-microG is a open source replacement for Google Play Services (and related software), but it only includes the useful parts. Unlike GMS, microG does not have any advertising or location tracking, for example.
+[microG](https://microg.org) is a open source replacement for Google Play Services (and related software), but it only includes the useful parts. Unlike GMS, microG does not have any advertising or location tracking, for example.
 
 Although microG is not yet a mature replacement for GMS, the early results with microG are impressive. Most apps are able to run fine with microG without any need for GMS.
 

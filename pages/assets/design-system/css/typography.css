@@ -1,0 +1,210 @@
+@media (prefers-color-scheme: light) {
+  h1, h2, h3, h4, h5, h6, p, ul, li {
+    color: var(--font-color-dark);
+  }
+
+  .highlighter {
+    background-color: var(--color-dark);
+    color: var(--font-color-light);
+  }
+
+  .code {
+    color: #e83e8c;
+    background-color: var(--badge-lm);
+    border: var(--border-lm);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  h1, h2, h3, h4, h5, h6, p, ul, li {
+    color: var(--font-color-light);
+  }
+
+  .highlighter {
+    background-color: #f2f2f2;
+    color: var(--color-dark);
+  }
+
+  .code {
+    color: #e83e8c;
+    background-color: var(--color-dark);
+    border: var(--border-dm);
+  }
+}
+
+:root {
+  font-family: var(--font-sans);
+}
+
+html {
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+.emoji + h1 {
+  margin-top: 0;
+}
+
+.emoji + h2 {
+  margin-top: 0;
+}
+
+.emoji + h3 {
+  margin-top: 0;
+}
+
+.emoji + h4 {
+  margin-top: 0;
+}
+
+.emoji + h5 {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: var(--font-size-1);
+  line-height: var(--line-height-1);
+  margin-bottom: var(--spacing-medium);
+  letter-spacing: -.0125rem;
+}
+
+h2 {
+  font-size: var(--font-size-2);
+  line-height: var(--line-height-2);
+  margin-bottom: var(--spacing-xlarge);
+  margin-top: var(--spacing-xxlarge);
+  letter-spacing: -.025rem;
+}
+
+.description h2 {
+  margin-top: 0 !important;
+  margin-bottom: var(--spacing-base);
+}
+
+h3 {
+  font-size: var(--font-size-3)!important;
+  line-height: var(--line-height-3)!important;
+  margin-bottom: var(--spacing-base);
+  margin-top: var(--spacing-xxlarge) !important;
+  max-width: 50ch;
+}
+
+.description h3 {
+  margin-top: 0 !important;
+}
+
+.description h2 > h3 {
+  margin-top: var(--spacing-xxlarge);
+}
+
+.centeredContent h3 {
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+
+.centeredContent .description h3 {
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+
+h3 a {
+  font-size: var(--font-size-3)!important;
+  line-height: var(--line-height-3)!important;
+  margin-bottom: var(--spacing-base);
+  margin-top: var(--spacing-xsmall) !important;
+}
+
+h4 {
+  font-size: var(--font-size-4)!important;
+  line-height: var(--line-height-4)!important;
+  margin-bottom: var(--spacing-base);
+  margin-top: var(--spacing-xxlarge) !important;
+}
+
+.description h4 {
+  margin-top: 0;
+}
+
+h4 a {
+  font-size: var(--font-size-4) !important;
+  line-height: var(--line-height-4) !important;
+  margin-bottom: var(--spacing-base);
+}
+
+p {
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  max-width: 640px !important;
+}
+
+p + p {
+  margin-top: var(--spacing-base);
+}
+
+p + ul {
+  margin-top: var(--spacing-base);
+}
+
+p.caption {
+  font-size: var(--font-size-small) !important;
+  margin: var(--spacing-base) var(--spacing-base) 0 0;
+}
+
+.highlighter {
+  border-radius: var(--radius-base);
+  padding: var(--spacing-xxsmall) var(--spacing-xxsmall) var(--spacing-xsmall) var(--spacing-xxsmall);
+}
+
+.code {
+  padding: var(--spacing-xxsmall) var(--spacing-xsmall);
+  border-radius: var(--radius-base);
+  font-family: monospace;
+  width: max-content !important;
+  font-size: var(--font-size-small);
+}
+
+@media only screen and (max-width: 960px) {
+  h1 {
+      font-size: calc(var(--font-size-1) * .9);
+      line-height: calc(var(--line-height-1) * .9);
+      margin-bottom: calc(var(--spacing-large) * .9);
+
+  }
+
+  h2 {
+      font-size: calc(var(--font-size-2) * .9);
+      line-height: calc(var(--line-height-2) * .9);
+      margin-bottom: calc(var(--spacing-large) * 1.25);
+  }
+
+  }
+
+@media only screen and (max-width: 768px) {
+  h1 {
+      font-size: calc(var(--font-size-1) * .75);
+      line-height: calc(var(--line-height-1) * .75);
+      margin-bottom: calc(var(--spacing-large) * .75);
+      width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .intro {
+    height: initial;
+    position: relative;
+  }
+
+  h1 {
+      font-size: calc(var(--font-size-1) * .6);
+      line-height: calc(var(--line-height-1) * .6);
+      margin-bottom: calc(var(--spacing-large) * .6);
+  }
+
+}
+
+@media only screen and (max-width: 420px) {
+
+}

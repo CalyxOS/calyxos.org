@@ -1,10 +1,12 @@
 ---
-title: Frequently asked questions
+title: Frequently asked Questions
+description: 🙋 Get answers to some of the most common questions!
 nav_title: FAQ
 toc: true
-toc_title: Frequently asked questions
+toc_title: Questions
 ---
 
+### Device support
 For questions about device support, both for existing and new devices, as well as support timeframe, see [Device support](device-support)
 
 ### What are the goals of CalyxOS?
