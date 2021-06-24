@@ -60,6 +60,10 @@
   }
 }
 
+html {
+  scroll-padding-top: 100px; /* height of sticky header */
+}
+
 header {
   z-index: 3;
   position: fixed;
