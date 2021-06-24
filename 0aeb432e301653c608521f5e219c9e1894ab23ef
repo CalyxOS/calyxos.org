@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7827e3c9_cdaf68d3",
+        "filename": "pages/_includes/apps.html",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-24T12:40:10Z",
+      "side": 0,
+      "message": "I had to remove this div to make it align",
+      "revId": "0aeb432e301653c608521f5e219c9e1894ab23ef",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7b833cdf_d1ea1000",
+        "filename": "pages/_includes/apps.html",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-24T12:40:10Z",
+      "side": 0,
+      "message": "Description is really long, you can try it by changing app.summary to app.desc below",
+      "revId": "0aeb432e301653c608521f5e219c9e1894ab23ef",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
