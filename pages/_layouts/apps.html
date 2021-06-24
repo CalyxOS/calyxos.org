@@ -4,13 +4,22 @@
   <body>
     {% include header.html %}
     <main>
-      <section class="intro secondaryIntro">
+      <section class="intro secondaryIntro withNav">
         <div class="wrapper">
           <h1><span class="highlight">{{ page.title }}</span></h1>
           {% if page.description %}<p>{{ page.description }}</p>{% endif %}
         </div>
       </section>
-      <div class="content primaryContent centeredContent wrapper">
+      <section class="tabs wrapper">
+      	<nav>
+      		<a href="#comm">Communications</a>
+      		<a href="#internet">Internet</a>
+      		<a href="#productivity">Productivity</a>
+      		<a href="#security">Security</a>
+          <a href="#privacy">Privacy</a>
+      	</nav>
+      </section>
+      <section class="content primaryContent centeredContent wrapper">
         {% include apps.html %}
       </div>
     </main>
