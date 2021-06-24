@@ -48,6 +48,16 @@ code {
   font-size: var(--font-size-small);
 }
 
+code[class^="language-"] {
+  display: block;
+  line-height: var(--line-height-code);
+}
+
+code.language-plaintext {
+  display: inline;
+  line-height: 1rem;
+}
+
 html {}
 
 * {
