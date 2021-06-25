@@ -1,6 +1,7 @@
 ---
 title: Building CalyxOS's microG fork
 nav_title: Build microG
+redirect_from: /contribute/build/microg/
 ---
 
 CalyxOS includes [microG](https://github.com/microG) by default. However, since it is an Android app built using the gradle build system, which the AOSP build system does not support, we build it separately and include a prebuilt APK for the OS build.

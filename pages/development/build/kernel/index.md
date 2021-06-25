@@ -1,6 +1,7 @@
 ---
 title: Building the Linux kernel for CalyxOS
 nav_title: Build kernel
+redirect_from: /contribute/build/kernel/
 ---
 
 CalyxOS uses Google's Android Linux kernel with some additional modifications for certain features on top. It can be built within the CalyxOS sources, either during the OS build process, or separately using Google's build scripts.

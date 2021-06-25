@@ -1,6 +1,7 @@
 ---
 title: Building CalyxOS's Chromium fork
 nav_title: Build Chromium
+redirect_from: /contribute/build/chromium/
 ---
 
 Chromium is the primary browser, and also responsible for providing WebView, a component used by many, many apps (more than you think!)

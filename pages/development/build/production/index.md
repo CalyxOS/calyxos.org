@@ -1,6 +1,7 @@
 ---
 title: CalyxOS Production builds
 nav_title: Production
+redirect_from: /contribute/build/production/
 ---
 
 The official CalyxOS releases are built on our official build server running Debian Stable (buster/10 at time of writing)
