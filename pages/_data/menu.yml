@@ -1,7 +1,8 @@
 ---
 - about
 - features
-- faq
+- faq:
+  - device-support
 - community:
   - code-of-conduct
 - development:
