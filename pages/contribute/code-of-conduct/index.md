@@ -62,6 +62,8 @@ Reports should be directed the project maintainer, to Calyx Executive Director N
 We will investigate every complaint, but you may not receive a direct response. We will use our discretion in determining when and how to follow up on reported incidents, which may range from not taking action to permanent expulsion from the project and project-sponsored spaces. We will notify the accused of the report and provide them an opportunity to discuss it before any action is taken. The identity of the reporter will be omitted from the details of the report supplied to the accused. In potentially harmful situations, such as ongoing harassment or threats to anyone’s safety, we may take action without notice.
 
 ### Attribution
-This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
+This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at <https://www.contributor-covenant.org/version/1/4/code-of-conduct.html>
+
 And also
-The Tor Project’s Code of Conduct for, shared under a Creative Commons CC-BY-SA 4.0 International license, available at https://community.torproject.org/training/code-of-conduct/
+
+The Tor Project’s Code of Conduct for, shared under a Creative Commons CC-BY-SA 4.0 International license, available at <https://community.torproject.org/training/code-of-conduct/>
