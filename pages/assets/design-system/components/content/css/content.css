@@ -7,6 +7,10 @@
     color: var(--font-label-lm);
   }
 
+  .meta a {
+    color: var(--font-label-lm);
+  }
+
   .callout {
     background-color: var(--color-shade);
   }
@@ -22,6 +26,10 @@
   }
 
   .meta {
+    color: var(--font-label-dm);
+  }
+
+  .meta a {
     color: var(--font-label-dm);
   }
 
