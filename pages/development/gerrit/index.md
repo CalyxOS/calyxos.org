@@ -1,6 +1,7 @@
 ---
 title: Gerrit Code Review
 nav_title: Gerrit
+redirect_from: /contribute/gerrit/
 ---
 
 We have a Gerrit Code Review Instance now at <https://review.calyxos.org/>

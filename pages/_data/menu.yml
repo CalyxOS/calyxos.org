@@ -4,6 +4,14 @@
 - faq
 - community:
   - code-of-conduct
-- contribute
+- development:
+  - contribute
+  - build:
+    - chromium
+    - emulator
+    - kernel
+    - microg
+    - production
+  - gerrit
 - tech
 - news

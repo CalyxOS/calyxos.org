@@ -1,6 +1,7 @@
 ---
 title: Building CalyxOS Emulator Images
 nav_title: Emulator
+redirect_from: /contribute/build/emulator/
 ---
 
 CalyxOS Emulator images are built in largely the same way as the OS, just with a different target name.
