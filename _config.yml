@@ -28,6 +28,7 @@ plugins:
   - jekyll-polyglot
   - jekyll-toc
 #  - jekyll-twitter-plugin
+  - jekyll-redirect-from
 
 defaults:
   -
