@@ -1,5 +1,12 @@
 @media (prefers-color-scheme: light) {
 
+  @media only screen and (max-width: 870px) {
+    .navbar-nav {
+      box-shadow: var(--shadow-lm);
+      background-color: white;
+    }
+  }
+
   nav a.active {
     border-bottom: 3px solid var(--calyx-base);
   }
@@ -12,6 +19,11 @@
     background: no-repeat right center url('../../images/device/feature/intro.png');
   }
 
+  .highlight {
+    background-color: var(--calyx-light);
+    color: var(--color-dark);
+  }
+
   .highlighter {
     background-color: var(--calyx-light);
     color: var(--color-dark);
@@ -19,6 +31,13 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
+  @media only screen and (max-width: 870px) {
+    .navbar-nav {
+      box-shadow: var(--shadow-dm);
+      background-color: var(--color-dark);
+    }
+  }
 
   .btn {
     color: var(--calyx-light);
@@ -30,6 +49,11 @@
 
   .intro.withImage {
     background: no-repeat right center url('../../images/device/feature/intro.png');
+  }
+
+  .highlight {
+    background-color: var(--calyx-light);
+    color: var(--color-dark);
   }
 
   .highlighter {
@@ -79,4 +103,89 @@
 
 .contentRowContent .featureImage + .description {
   margin-top: var(--spacing-xxlarge) !important;
+}
+
+@media only screen and (max-width: 870px) {
+
+  nav a.active {
+    border-bottom: none !important;
+  }
+
+  header nav {
+    position: initial;
+  }
+
+  header h1 {
+    float: none;
+    margin-top: 0;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  nav.primaryNav ul {
+    display: inherit;
+  }
+
+  nav a {
+    padding: 0;
+  }
+
+  header nav.staged ul {
+    display: inherit;
+  }
+
+  .navButton, .close, .menu {
+    display: inherit !important;
+  }
+
+  .withUtil {
+    right: calc(var(--spacing-xxlarge) * 1.43);
+  }
+
+  .utilityIcon {
+    padding-left: var(--spacing-medium);
+    margin-left: var(--spacing-base);
+  }
+
+  header.singleNav nav ul {
+    display: inherit !important;
+  }
+
+  nav .btn {
+    margin-left: 0 !important;
+  }
+
+  nav .btn {
+    margin-left: 0 !important;
+  }
+
+  .navbar-toggle { display: block }
+
+  .navbar-nav {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    right: var(--spacing-large);
+    top: calc(var(--spacing-xxlarge)* 1.125);
+    padding: var(--spacing-medium);
+    border-radius: var(--radius-base);
+    .nav-link {
+      padding: 0.75em 0.5em 0.5em 1em;
+    }
+  }
+
+  nav ul li {
+    padding: 0;
+    margin: 0 0 var(--spacing-medium) 0 !important;
+  }
+
+  nav ul li:last-of-type {
+    margin-bottom: 0 !important;
+  }
+
+  input.toggle:checked ~ .navbar-nav {
+    display: grid;
+  }
 }
