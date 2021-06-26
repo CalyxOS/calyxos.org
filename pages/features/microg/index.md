@@ -1,5 +1,5 @@
 ---
-title: microG - Great App compatibility
+title: microG
 nav_title: microG
 description: With CalyxOS, Google Services are not running in the background, continually uploading your data and location to the the Google servers.
 toc: true
