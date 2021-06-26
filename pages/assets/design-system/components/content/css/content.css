@@ -89,10 +89,15 @@
 }
 
 .callout {
-  padding: var(--spacing-xxlarge) calc(var(--spacing-xxlarge) * 2);
+  padding: calc(var(--spacing-xxlarge) * 2) var(--spacing-medium);
   border-radius: var(--radius-soft);
-  max-width: max-content;
-  width: 90%;
+  /* max-width: max-content; */
+  width: 100%;
+}
+
+.emojiCallout {
+  padding: calc(var(--spacing-xxlarge) * 2) 0 calc(var(--spacing-xxlarge) * 2.25) 0;
+
 }
 
 .featureImage {
