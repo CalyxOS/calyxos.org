@@ -3,11 +3,6 @@
     color: var(--font-color-dark);
   }
 
-  .highlighter {
-    background-color: var(--color-dark);
-    color: var(--font-color-light);
-  }
-
   .code {
     color: #e83e8c;
     background-color: var(--badge-lm);
@@ -18,11 +13,6 @@
 @media (prefers-color-scheme: dark) {
   h1, h2, h3, h4, h5, h6, p, ul, li {
     color: var(--font-color-light);
-  }
-
-  .highlighter {
-    background-color: #f2f2f2;
-    color: var(--color-dark);
   }
 
   .code {
@@ -153,6 +143,11 @@ p.caption {
 }
 
 .highlighter {
+  border-radius: var(--radius-base);
+  padding: var(--spacing-xxsmall) var(--spacing-xxsmall) var(--spacing-xsmall) var(--spacing-xxsmall);
+}
+
+.highlight {
   border-radius: var(--radius-base);
   padding: var(--spacing-xxsmall) var(--spacing-xxsmall) var(--spacing-xsmall) var(--spacing-xxsmall);
 }
