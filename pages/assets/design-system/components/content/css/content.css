@@ -141,7 +141,7 @@
 }
 
 .description p {
-  width: 100%;
+  width: 80%;
   margin-bottom: var(--spacing-base);
 }
 
@@ -186,7 +186,9 @@
 }
 
 @media only screen and (max-width: 960px) {
-
+  .description p {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
