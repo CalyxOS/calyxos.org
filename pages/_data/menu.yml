@@ -1,11 +1,11 @@
 ---
 - about:
+  - faq:
+    - device-support
   - team
   - tech
 - features:
   - microg
-- faq:
-  - device-support
 - community:
   - code-of-conduct
 - development:
