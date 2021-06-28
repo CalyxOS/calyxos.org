@@ -3,6 +3,9 @@ title: Community
 description: 🧑🏿‍🤝‍🧑🏻 Get support, give support, join the conversation!
 ---
 
+## Code of Conduct
+See: [Code of Conduct](code-of-conduct)
+
 ## Chat
 
 All below channels are on Matrix. They are public and unencrypted. You can click the link to directly connect to the channel, or using one of the [clients](https://matrix.org/clients/)

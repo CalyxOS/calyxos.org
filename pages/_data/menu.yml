@@ -1,8 +1,20 @@
 ---
-- about
-- features
-- faq
-- community
-- contribute
-- tech
+- about:
+  - faq:
+    - device-support
+  - team
+  - tech
+- features:
+  - microg
+- community:
+  - code-of-conduct
+- development:
+  - contribute
+  - build:
+    - chromium
+    - emulator
+    - kernel
+    - microg
+    - production
+  - gerrit
 - news
