@@ -2,6 +2,7 @@
 title: Datura Firewall
 description: ⚙️ Fine-tuned control of your phone's connectivity.
 nav_title: Datura
+redirect_from: /tech/datura/
 ---
 
 The firewall could generally be considered to be composed of 3 layers for each of its features. A UI layer, the frameworks layer (see <https://developer.android.com/guide/platform#api-framework>), and the netd layer (see <https://developer.android.com/guide/platform#native-libs>).

@@ -1,5 +1,6 @@
 ---
-- about
+- about:
+  - tech
 - features
 - faq:
   - device-support
@@ -15,5 +16,4 @@
     - microg
     - production
   - gerrit
-- tech
 - news

@@ -1,6 +1,7 @@
 ---
 title: Technical Details
 nav_title: Tech
+redirect_from: /tech/
 ---
 
 The tech behind CalyxOS.
