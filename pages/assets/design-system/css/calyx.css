@@ -19,11 +19,6 @@
     background: no-repeat right center url('../../images/device/feature/intro.png');
   }
 
-  .highlight {
-    background-color: var(--calyx-light);
-    color: var(--color-dark);
-  }
-
   .highlighter {
     background-color: var(--calyx-light);
     color: var(--color-dark);
@@ -49,11 +44,6 @@
 
   .intro.withImage {
     background: no-repeat right center url('../../images/device/feature/intro.png');
-  }
-
-  .highlight {
-    background-color: var(--calyx-light);
-    color: var(--color-dark);
   }
 
   .highlighter {
