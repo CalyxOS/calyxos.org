@@ -20,6 +20,7 @@ Note: Image/Video sending to any channel is currently prevented to combat spam
 * Live feed of code commits / gitlab activity / reddit posts: **[#calyxos-feeds:matrix.org](https://app.element.io/#/room/#calyxos-feeds:matrix.org)**
 * For development related discussion: **[#calyxos-dev:matrix.org](https://app.element.io/#/room/#calyxos-dev:matrix.org)**
 * For infrastructure related discussion: **[#calyxos-infra:matrix.org](https://app.element.io/#/room/#calyxos-infra:matrix.org)**
+* Calyx Institute channel: **[#calyx:matrix.org](https://app.element.io/#/room/#calyx:matrix.org)**
 
 <br />
 
