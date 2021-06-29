@@ -7,24 +7,7 @@ redirect_from: /contribute/build/
 
 CalyxOS is Android-based, and the usual procedure to build AOSP applies. If you're already familiar and setup to build Android, you can see the short version to get a quick idea. Otherwise, the long version goes into full detail to set it up from scratch.
 
-## Short version
-* This assumes you have an AOSP build environment already setup and have built it before
-
-Steps:
-1. Initialize and sync the source code.
-   * `repo init -u https://gitlab.com/CalyxOS/platform_manifest -b android11-qpr1`
-   * `repo sync`
-2. Obtain proprietary files for your device
-   * `./vendor/calyx/scripts/setup-apv.sh sunfish` (`sunfish` for Pixel 4a)
-3. Build
-   * `source build/envsetup.sh`
-   * `lunch calyx_sunfish-user` (`sunfish` for Pixel 4a, `user` is used for release builds, you can use `userdebug` for development builds.)
-   * `m`
-4. Install
-   * `fastboot flashall` (Run this in the same shell where you ran the build)
-
-## Long version
-* This will help you setup a build environment for CalyxOS from scratch
+This will help you setup a build environment for CalyxOS from scratch
 
 ### [Computer setup](https://source.android.com/setup/build/initializing)
 
