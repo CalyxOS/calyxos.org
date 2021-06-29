@@ -10,8 +10,6 @@ Welcome to the CalyxOS community. Please see our [[code-of-conduct]] and dive ri
 
 All below channels are on Matrix. They are public and unencrypted. You can click the link to directly connect to the channel, or using one of the [clients](https://matrix.org/clients/)
 
-Note: Image/Video sending to any channel is currently prevented to combat spam
-
 ### Main channel
 
 * CalyxOS: **[#CalyxOS:matrix.org](https://app.element.io/#/room/#CalyxOS:matrix.org)**
