@@ -36,12 +36,12 @@ All below channels are on Matrix. They are public and unencrypted. You can click
 
 Matrix is the primary medium of communication. Telegram and IRC are bridged to Matrix, and thus a message sent to any of these would get to all three!
 
-* **Telegram**: Bridged using [t2bot.io](https://t2bot.io/telegram/)
+* **Telegram**: Bridged using [mautrix-telegram](https://matrix.org/docs/projects/bridge/mautrix-telegram)
   * On Matrix, Telegram messages will appear just like any other message.
-  * On Telegram, Matrix messages will appear to be sent by "Matrix Telegram Bridge" -> `@matrix_t2bot`
-* **IRC**: Bridged using [Matterbridge](https://github.com/42wim/matterbridge)
-  * On Matrix, IRC messages will appear to be sent by "SepalBot" -> `@sepalbot:matrix.org`
-  * On IRC, Matrix messages will appear to be sent by "SepalBot"
+  * On Telegram, Matrix messages will appear to be sent by "Calyx Matrix Bridge" -> `@SepalBridgeBot`
+* **IRC**: Bridged using [Heisenbridge](https://matrix.org/docs/projects/bridge/heisenbridge)
+  * On Matrix, IRC messages will appear just like any other message.
+  * On IRC, Matrix messages will appear to be sent by "SepalBridge"
 
 ### All chat channels
 
