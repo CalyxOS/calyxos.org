@@ -147,11 +147,6 @@ p.caption {
   padding: var(--spacing-xxsmall) var(--spacing-xxsmall) var(--spacing-xsmall) var(--spacing-xxsmall);
 }
 
-.highlight {
-  border-radius: var(--radius-base);
-  padding: var(--spacing-xxsmall) var(--spacing-xxsmall) var(--spacing-xsmall) var(--spacing-xxsmall);
-}
-
 .code {
   padding: var(--spacing-xxsmall) var(--spacing-xsmall);
   border-radius: var(--radius-base);
