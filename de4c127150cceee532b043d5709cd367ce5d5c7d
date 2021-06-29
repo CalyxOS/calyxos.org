@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4063c362_60b44bcb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-29T16:41:16Z",
+      "side": 1,
+      "message": "Will need to disable mjolnir protection, and also disable it telegram side.",
+      "revId": "de4c127150cceee532b043d5709cd367ce5d5c7d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
