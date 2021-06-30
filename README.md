@@ -13,7 +13,7 @@ Prerequisites:
 
 Clone git repo:
 
-    git clone https://gitlab.com/CalyxOS/calyxos.org.git
+    git clone https://gitlab.com/CalyxOS/calyxos.org.git -b dev
 
 Install gems for development
 
@@ -28,10 +28,6 @@ Install gems for deployment
     bundle config set deployment true
     bundle
 
-Update the firmware release download links:
-
-    rake update-releases
-
 Build the static pages:
 
     rake build
@@ -39,6 +35,18 @@ Build the static pages:
 To view the pages via a local server:
 
     rake develop
+
+Update the firmware release download links:
+
+    rake update-releases
+
+Update the app list:
+
+    rake update-app-list
+
+Update stock OS links:
+
+    rake back-to-stock
 
 
 ### Alternatie debian package install
@@ -75,17 +83,19 @@ To make linking easier, you can use wiki-style links. For example:
 
 By adding links in this way, the links will still be valid even if you move the 'install' page to a different path in the page hierarchy.
 
-## Auto update firmware download links
+## Deployment
 
-Add this to a crontab:
+The 'master' branch of this git repository is automatically deployed to <https://calyxos.org>
 
-    0 * * * * cd /var/www/calyxos && rake update-releases > /dev/null 2>&1 && rake build > /dev/null 2>&1
+The 'dev' branch of this git repository is automatically deployed to <https://calyxos.gitlab.io/calyxos.org/>
 
 ## Development
 
-Development is done on [Gerrit](https://review.calyxos.org/q/project:CalyxOS%252Fcalyxos.org)
+Development is done on [Gerrit](https://review.calyxos.org/q/project:CalyxOS%252Fcalyxos.org) - for more details see the [contribution guide](https://calyxos.org/development/gerrit/)
 
-A staging version of the website can be viewed on [GitLab](https://calyxos.gitlab.io/calyxos.org/)
+The 'dev' branch is used for development, and 'master' is considered the stable branch.
+
+Changes must first go the 'dev' branch, after which they can be cherry-picked or merged into 'master' as desired.
 
 ## External Sources
 
