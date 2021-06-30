@@ -51,27 +51,27 @@ Matrix is the primary medium of communication. Telegram and IRC are bridged to M
 * **calyxos:** The main channel
   * Matrix: [#CalyxOS:matrix.org](https://app.element.io/#/room/#CalyxOS:matrix.org), OR
   * Telegram: [CalyxOSpublic](https://t.me/CalyxOSpublic), OR
-  * IRC: `#calyxos` on [Libera.chat](https://libera.chat)
+  * IRC: [#calyxos](https://web.libera.chat/?channel=#calyxos) on [Libera.chat](https://libera.chat)
 
 * **calyxos-offtopic:** For all off-topic conversations
   * Matrix: [#calyxos-offtopic:matrix.org](https://app.element.io/#/room/#calyxos-offtopic:matrix.org), OR
   * Telegram: [CalyxOSOfftopic](https://t.me/CalyxOSOffTopic), OR
-  * IRC: `#calyxos-offtopic` on [Libera.chat](https://libera.chat)
+  * IRC: [#calyxos-offtopic](https://web.libera.chat/?channel=#calyxos-offtopic) on [Libera.chat](https://libera.chat)
 
 * **calyxos-feeds:** Live feed of code commits / gitlab activity / reddit posts
   * Matrix: [#calyxos-feeds:matrix.org](https://app.element.io/#/room/#calyxos-feeds:matrix.org), OR
   * Telegram: [CalyxOSFeeds](https://t.me/CalyxOSFeeds), OR
-  * IRC: `#calyxos-feeds` on [Libera.chat](https://libera.chat)
+  * IRC: [#calyxos-feeds](https://web.libera.chat/?channel=#calyxos-feeds) on [Libera.chat](https://libera.chat)
 
 * **calyxos-dev:** For development related discussion
   * Matrix: [#calyxos-dev:matrix.org](https://app.element.io/#/room/#calyxos-dev:matrix.org), OR
   * Telegram: [CalyxOSDev](https://t.me/CalyxOSDev), OR
-  * IRC: `#calyxos-dev` on [Libera.chat](https://libera.chat)
+  * IRC: [#calyxos-dev](https://web.libera.chat/?channel=#calyxos-dev) on [Libera.chat](https://libera.chat)
 
 * **calyxos-infra:** For infrastructure related discussion
   * Matrix: [#calyxos-infra:matrix.org](https://app.element.io/#/room/#calyxos-infra:matrix.org), OR
   * Telegram: [CalyxOSInfra](https://t.me/CalyxOSInfra), OR
-  * IRC: `#calyxos-infra` on [Libera.chat](https://libera.chat)
+  * IRC: [#calyxos-infra](https://web.libera.chat/?channel=#calyxos-infra) on [Libera.chat](https://libera.chat)
 
 ### Matrix Space
 
