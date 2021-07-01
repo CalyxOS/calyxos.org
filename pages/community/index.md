@@ -77,4 +77,4 @@ Matrix is the primary medium of communication. Telegram and IRC are bridged to M
 
 Matrix has a new [spaces feature](https://element.io/blog/spaces-the-next-frontier/), which lets you view all these rooms together.
 
-We've created a [CalyxOS space](https://app.element.io/#/room/!LuDyVhhVhiOBRTnSbL:matrix.org).
+We've created a [CalyxOS space](https://app.element.io/#/room/#calyxos-space:matrix.org).
