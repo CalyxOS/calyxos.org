@@ -16,14 +16,14 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 * Pixel 3, 3 XL
 * Xiaomi Mi A2
    <br>
-   Note: CalyxOS is on Android 11, while the Xiaomi updates are Android 10.
+   Note: CalyxOS is on Android 11 (R), while the Xiaomi updates are Android 10 (Q).
 
 ### Supported devices, no longer receiving updates from the manufacturer
 * Pixel 2, 2 XL (last update was December 2020)
 
 ### Update timeframe
 * We generally intend to get monthly security updates out as soon as possible after their release. The process takes some time since we don't get early access but generally the goal is to get them out to the stable channel in the same week as AOSP release.
-* Major version updates (such as the upcoming Android 12 "R" release) take longer because we have to port all of our changes to the new version, which can be a lot of work.
+* Major version updates (such as the upcoming Android 12 (S) release) take longer because we have to port all of our changes to the new version, which can be a lot of work.
 
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> Manufacturer support date </th><th> CalyxOS support date </th></tr>
