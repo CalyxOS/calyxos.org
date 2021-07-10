@@ -8,7 +8,7 @@ The July update is here, with some new features and bug fixes all around the pla
 It is currently in the beta channel, and will be bumped to the stable channel later after additional testing and feedback. Factory images will be available at that time as well.
 
 <div class="alert alert-info" markdown="0">
-    We will have to delay the Pixel 3 and 3 XL (blueline and crosshatch) release this month since we haven't been able to test due to a battery issue on our test devices. If you're like to help test the build, you can contact us on the main channel, see [[community]]
+    We will have to delay the Pixel 3 and 3 XL (blueline and crosshatch) release this month since we haven't been able to test due to a battery issue on our test devices. If you'd like to help test the build, you can contact us on the main channel, see [[community]]
 </div>
 
 Changelog:
