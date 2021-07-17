@@ -1,7 +1,72 @@
 ---
 title: CalyxOS Features list
 nav_title: Features List
+toc: true
+toc_title: List of Features
 ---
+
+### Apps
+#### Optional apps
+We include a selection of recommeneded applications. They are completely optional, you get a choice to install them when first setting up the device, and can uninstall them at any point.
+<ul>
+{% for app in site.data.apps["apps"] %}
+<li><a href="{{app.web}}">{{app.name}}</a>: {{app.summary}}</li>
+{% endfor %}
+</ul>
+#### System apps
+### Dialer
+* Signal / Whatsapp
+* Sensitive numbers
+### Devices
+* Locked bootloader
+* Pixels: Dual SIM / eSIM on some
+* Mi A2: ?
+### F-Droid
+* Privext
+* Our repos
+### microG
+* Signature spoofing patch?
+* Location
+* Optional nature
+### Settings
+* Network & Internet
+  * Wi-Fi
+    * Wi-Fi preferences
+      * Turn off Wi-Fi automatically (Wi-Fi timeout)
+  * Hotspot & Tethering
+    * Allow clients to use VPNs
+  * Private DNS
+    * Cloudflare DNS
+* Connected devices
+  * Bluetooth timeout
+* Display
+  * Dark theme
+    * Pure black (OLED) mode
+* Privacy
+  * Privacy dashboard
+* Security
+  * Show Panic option
+  * Panic Settings
+  * Restrict USB
+  * Screen lock Settings
+    * Scramble layout
+    * Quick Settings (Allow toggling quick settings on secure lockscreen)
+* System
+  * Status Bar
+    * Network traffic monitor
+  * System icons
+  * Gestures
+    * Active Edge
+  * Backup (SeedVault)
+  * Multiple users
+    * Work profile
+  * microG Settings
+  * System updates
+### Updates
+* Regular timely updates
+* Every single build is tested
+
+## Previous
 
 List of features:
 * All builds / updates are tested
