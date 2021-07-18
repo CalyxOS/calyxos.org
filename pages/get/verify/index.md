@@ -1,0 +1,83 @@
+---
+title: Verifying CalyxOS builds
+toc: true
+---
+
+### Factory images
+* Factory images starting from July 2021 are signed using
+[minisign](https://jedisct1.github.io/minisign/)
+* Linux:
+  * Arch Linux: `sudo pacman -S minisign`
+  * Fedora: `sudo dnf install minisign`
+  * Ubuntu: `sudo add-apt-repository ppa:dysfunctionalprogramming/minisign && sudo apt update && sudo apt install minisign`
+  * Others: See <https://github.com/jedisct1/minisign#compilation--installation>
+* macOS:
+  * Official binary: <https://github.com/jedisct1/minisign/releases/download/0.9/minisign-osx.zip>
+  * Homebrew: `brew install minisign`
+* Windows:
+  * Official binary: <https://github.com/jedisct1/minisign/releases/download/0.9/minisign-win32.zip>
+
+#### Verifying builds
+* Download the factory image and signature files from [[get]]
+* Download the public key, [minisign.pub](https://release.calyxinstitute.org/minisign.pub)
+* Place all 3 files in the same folder, and then run:
+
+{% highlight shell %}
+minisign -Vm sunfish-factory-2.7.1.zip -p minisign.pub
+# sunfish is Pixel 4a, replace with your device
+{% endhighlight %}
+
+It should output:
+{% highlight shell %}
+Signature and comment signature verified
+Trusted comment: CalyxOS 2.7.1 - July 2021
+{% endhighlight %}
+
+### Checksums
+* SHA256 checksums are available for all factory images and OTA updates.
+* Simply append `.sha256sum` to their filename to get them.
+* You can run the below command and make sure the hash matches what's shown on [[get]]
+
+Linux:
+{% highlight shell %}
+sha256sum sunfish-factory-2.7.1.zip
+# sunfish is Pixel 4a, replace with your device
+{% endhighlight %}
+
+It should output:
+{% highlight shell %}
+dddb62c9b68bf68e210db2e05181b55baf50a509f4533ea69409bdbf5c5009b9  sunfish-factory-2.7.1.zip
+{% endhighlight %}
+
+macOS:
+{% highlight shell %}
+shasum -a 256 sunfish-factory-2.7.1.zip
+# sunfish is Pixel 4a, replace with your device
+{% endhighlight %}
+
+It should output:
+{% highlight shell %}
+dddb62c9b68bf68e210db2e05181b55baf50a509f4533ea69409bdbf5c5009b9  sunfish-factory-2.7.1.zip
+{% endhighlight %}
+
+Windows:
+{% highlight shell %}
+certUtil -hashfile sunfish-factory-2.7.1.zip 256
+# sunfish is Pixel 4a, replace with your device
+{% endhighlight %}
+
+It should output:
+{% highlight shell %}
+SHA256 hash of sunfish-factory-2.7.1.zip:
+dddb62c9b68bf68e210db2e05181b55baf50a509f4533ea69409bdbf5c5009b9
+CertUtil: -hashfile command completed successfully.
+{% endhighlight %}
+
+### Mirrors
+* The public key, signatures, and sha256 checksums are also stored in a git repository which is mirrored to multiple places.
+
+  1. <https://gitlab.com/CalyxOS/releases>
+  2. <https://github.com/CalyxOS/releases>
+  3. <https://0xacab.org/calyx/os/releases>
+
+Hint: You can press `t` on these pages to quick jump to a filename (i.e. `sunfish-factory-2.7.0`)
