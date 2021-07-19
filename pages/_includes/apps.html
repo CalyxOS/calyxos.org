@@ -8,20 +8,25 @@
 
 {% assign privacy_list = "com.jarsilio.android.scrambledeggsif info.guardianproject.locationprivacy" | split: " " %}
 
+<a href="{{app.web}}">{{app.name}}</a>: {{app.summary}}
+
 <section class="content">
   <p class="emoji">💬</p>
   <h2 id="comm">Communications</h2>
 
+{% for app in site.data.apps["apps"] %}
 {% for app_id in communications_list %}
-{% assign app = site.data.apps[app_id] %}
+{% if app_id == app["pkgname"] %}
   <div class="contentItem centeredContent blockContent">
     <div class="description">
-      <img class="icon" src="{{ '/assets/images/apps/' | append: app.icon | relative_url }}" />
+      <img class="icon" src="{{ '/assets/images/apps/' | append: app.pkgname | append: '.png' | relative_url }}" />
       <h3>{{ app.name }}</h3>
       <p>{{ app.summary }}</p>
       <a class="more" href="{{app.web}}">Read More</a>
     </div>
   </div>
+{% endif %}
+{% endfor %}
 {% endfor %}
 </section>
 
@@ -29,16 +34,19 @@
   <p class="emoji">🌍</p>
   <h2 id="internet">Internet</h2>
 
+{% for app in site.data.apps["apps"] %}
 {% for app_id in internet_list %}
-{% assign app = site.data.apps[app_id] %}
+{% if app_id == app["pkgname"] %}
   <div class="contentItem centeredContent blockContent">
     <div class="description">
-      <img class="icon" src="{{ '/assets/images/apps/' | append: app.icon | relative_url }}" />
+      <img class="icon" src="{{ '/assets/images/apps/' | append: app.pkgname | append: '.png' | relative_url }}" />
       <h3>{{ app.name }}</h3>
       <p>{{ app.summary }}</p>
       <a class="more" href="{{app.web}}">Read More</a>
     </div>
   </div>
+{% endif %}
+{% endfor %}
 {% endfor %}
 </section>
 
@@ -46,16 +54,19 @@
   <p class="emoji">🛠</p>
   <h2 id="productivity">Productivity</h2>
 
+{% for app in site.data.apps["apps"] %}
 {% for app_id in productivity_list %}
-{% assign app = site.data.apps[app_id] %}
+{% if app_id == app["pkgname"] %}
   <div class="contentItem centeredContent blockContent">
     <div class="description">
-      <img class="icon" src="{{ '/assets/images/apps/' | append: app.icon | relative_url }}" />
+      <img class="icon" src="{{ '/assets/images/apps/' | append: app.pkgname | append: '.png' | relative_url }}" />
       <h3>{{ app.name }}</h3>
       <p>{{ app.summary }}</p>
       <a class="more" href="{{app.web}}">Read More</a>
     </div>
   </div>
+{% endif %}
+{% endfor %}
 {% endfor %}
 </section>
 
@@ -63,16 +74,19 @@
   <p class="emoji">🔐</p>
   <h2 id="security">Security</h2>
 
+{% for app in site.data.apps["apps"] %}
 {% for app_id in security_list %}
-{% assign app = site.data.apps[app_id] %}
+{% if app_id == app["pkgname"] %}
   <div class="contentItem centeredContent blockContent">
     <div class="description">
-      <img class="icon" src="{{ '/assets/images/apps/' | append: app.icon | relative_url }}" />
+      <img class="icon" src="{{ '/assets/images/apps/' | append: app.pkgname | append: '.png' | relative_url }}" />
       <h3>{{ app.name }}</h3>
       <p>{{ app.summary }}</p>
       <a class="more" href="{{app.web}}">Read More</a>
     </div>
   </div>
+{% endif %}
+{% endfor %}
 {% endfor %}
 </section>
 
@@ -80,15 +94,18 @@
   <p class="emoji">🙈</p>
   <h2 id="privacy">Privacy</h2>
 
+{% for app in site.data.apps["apps"] %}
 {% for app_id in privacy_list %}
-{% assign app = site.data.apps[app_id] %}
+{% if app_id == app["pkgname"] %}
   <div class="contentItem centeredContent blockContent">
     <div class="description">
-      <img class="icon" src="{{ '/assets/images/apps/' | append: app.icon | relative_url }}" />
+      <img class="icon" src="{{ '/assets/images/apps/' | append: app.pkgname | append: '.png' | relative_url }}" />
       <h3>{{ app.name }}</h3>
       <p>{{ app.summary }}</p>
       <a class="more" href="{{app.web}}">Read More</a>
     </div>
   </div>
+{% endif %}
+{% endfor %}
 {% endfor %}
 </section>
