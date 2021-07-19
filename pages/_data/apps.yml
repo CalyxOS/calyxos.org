@@ -1,45 +1,40 @@
 ---
-com.aurora.store:
-  icon: com.aurora.store.35.png
+apps:
+- pkgname: com.aurora.store
   web: http://auroraoss.com
-  desc: "<p>This <i>Aurora Store</i> is a complete rewrite, replacing https://f-droid.org/packages/com.dragons.aurora.</p><p>Aurora
-    Store is an alternate to Google's Play Store, with an elegant design, using Aurora
-    you can download apps, update existing apps, search for apps, get details about
-    in-app trackers, spoof your location and much more.</p>"
+  desc: |-
+    This ''Aurora Store'' is a complete rewrite, replacing https://f-droid.org/packages/com.dragons.aurora.
+
+    Aurora Store is an alternate to Google's Play Store, with an elegant design,
+    using Aurora you can download apps, update existing apps, search for apps,
+    get details about in-app trackers, spoof your location and much more.
   name: Aurora Store
   summary: A Google Playstore Client
-org.briarproject.briar.android:
-  icon: org.briarproject.briar.android.10220.png
+- pkgname: org.briarproject.briar.android
   web: https://briarproject.org/
-  desc: "<p>Briar is a messaging app designed for activists, journalists, and anyone
-    else who needs a safe, easy and robust way to communicate. Unlike traditional
-    messaging tools such as email, Twitter or Telegram, Briar doesn't rely on a central
-    server - messages are synchronized directly between the users' devices. If the
-    Internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information
-    flowing in a crisis. If the Internet's up, Briar can sync via the Tor network,
-    protecting users and their relationships from surveillance.</p>"
+  desc: |-
+    Briar is a messaging app designed for activists, journalists, and anyone else
+    who needs a safe, easy and robust way to communicate. Unlike traditional
+    messaging tools such as email, Twitter or Telegram, Briar doesn't rely on a
+    central server - messages are synchronized directly between the users' devices.
+    If the Internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the
+    information flowing in a crisis. If the Internet's up, Briar can sync via the
+    Tor network, protecting users and their relationships from surveillance.
   name: Briar
   summary: Secure Messaging, Anywhere
-org.calyxinstitute.vpn:
-  icon: org.calyxinstitute.vpn.149.png
+- pkgname: org.calyxinstitute.vpn
   web: https://calyx.net
-  desc: "<p>CalyxVPN is an application to provide easy and secure encrypted communication.
-    The app is a custom branded build of https://f-droid.org/packages/se.leap.bitmaskclient.
-    This version is preconfigured with one trusted provider—The Calyx Institute—and
-    allows anonymous VPN usage without any manual setup.</p><p>By encrypting and securely
-    routing all your network traffic through Calyx's servers, CalyxVPN is able to
-    prevent many forms of censorship and surveillance.</p>"
+  desc: |-
+    CalyxVPN is an application to provide easy and secure encrypted communication.
+    The app is a custom branded build of https://f-droid.org/packages/se.leap.bitmaskclient. This version is
+    preconfigured with one trusted provider—The Calyx Institute—and allows
+    anonymous VPN usage without any manual setup.
+
+    By encrypting and securely routing all your network traffic through Calyx's
+    servers, CalyxVPN is able to prevent many forms of censorship and surveillance.
   name: Calyx VPN
   summary: Free VPN Service offered by The Calyx Institute
-eu.siacs.conversations:
-  icon: eu.siacs.conversations.42015.png
-  web: https://conversations.im/
-  desc: "<p>No description available</p>"
-  name: Conversations
-  summary: An encrypted, user friendly XMPP instant messaging client optimized for
-    mobile
-at.bitfire.davdroid:
-  icon: at.bitfire.davdroid.303100003.png
+- pkgname: at.bitfire.davdroid
   web: https://www.davx5.com/
   desc: |-
     DAVx⁵ is a CalDAV/CardDAV management and synchronization app for Android which natively integrates with Android calendar/contact apps.
@@ -49,158 +44,206 @@ at.bitfire.davdroid:
     For more information and a list of tested servers/services, have a look at the Web site.
   name: DAVx⁵
   summary: CalDAV/CardDAV Synchronization and Client
-com.duckduckgo.mobile.android:
-  icon: com.duckduckgo.mobile.android.58503.png
+- pkgname: com.duckduckgo.mobile.android
   web: https://duckduckgo.com/app
-  desc: "<p>At DuckDuckGo, we believe the Internet shouldn’t feel so creepy, and getting
-    the privacy you deserve online should be as simple as closing the blinds.</p><p>Our
-    app provides the privacy essentials you need to seamlessly take control of your
-    personal information as you search and browse the web, no matter where the Internet
-    takes you:</p><ul><li> Escape Advertising Tracker Networks — Our Privacy Protection
-    will block all the hidden third-party trackers we can find, exposing the major
-    advertising networks tracking you over time, so that you can track who’s trying
-    to track you.</li><li> Increase Encryption Protection — We force sites to use
-    an encrypted connection where available, protecting your data from prying eyes,
-    like ISPs.</li><li> Search Privately — You share your most personal information
-    with your search engine, like your financial, medical, and political questions.
-    What you search for is your own business, which is why DuckDuckGo search doesn’t
-    track you. Ever.</li><li> Decode Privacy Policies — We’ve partnered with Terms
-    of Service Didn’t Read to include their scores and labels of website terms of
-    service and privacy policies, where available.</li></ul><p>As you search and browse,
-    the DuckDuckGo Privacy Browser shows you a Privacy Grade rating when you visit
-    a website (A-F). This rating lets you see how protected you are at a glance, dig
-    into the details to see who we caught trying to track you, and learn how we enhanced
-    the underlying site’s privacy measures. The Privacy Grade is scored automatically
-    based on the prevalence of hidden tracker networks, encryption availability, and
-    website privacy practices.</p><p>Our app provides standard browsing functionality
-    including tabs, bookmarks, and autocomplete. In addition to strong Privacy Protection
-    as described above, we also packed in some extra privacy features into the browser
-    itself:</p><ul><li> Fire Button — Clear all your tabs and data with one tap.</li><li>
-    Application Lock — Secure the app with Touch ID or Face ID.</li></ul><p>Too many
-    people believe you simply can’t expect privacy on the Internet. We’re fighting
-    to change that, and have made it our mission to set a new standard of trust online.
-    Install DuckDuckGo and take back your privacy!</p><p>Antifeatures:</p><ul><li>
-    NonFreeNet - Uses DuckDuckGo as the exclusive search engine, for which the</li></ul><p>source
-    code is not available.</p>"
+  desc: |-
+    At DuckDuckGo, we believe the Internet shouldn’t feel so creepy, and getting the
+    privacy you deserve online should be as simple as closing the blinds.
+
+    Our app provides the privacy essentials you need to seamlessly take control of
+    your personal information as you search and browse the web, no matter where the
+    Internet takes you:
+
+    * Escape Advertising Tracker Networks — Our Privacy Protection will block all the hidden third-party trackers we can find, exposing the major advertising networks tracking you over time, so that you can track who’s trying to track you.
+    * Increase Encryption Protection — We force sites to use an encrypted connection where available, protecting your data from prying eyes, like ISPs.
+    * Search Privately — You share your most personal information with your search engine, like your financial, medical, and political questions. What you search for is your own business, which is why DuckDuckGo search doesn’t track you. Ever.
+    * Decode Privacy Policies — We’ve partnered with Terms of Service Didn’t Read to include their scores and labels of website terms of service and privacy policies, where available.
+
+    As you search and browse, the DuckDuckGo Privacy Browser shows you a Privacy
+    Grade rating when you visit a website (A-F). This rating lets you see how
+    protected you are at a glance, dig into the details to see who we caught trying
+    to track you, and learn how we enhanced the underlying site’s privacy measures.
+    The Privacy Grade is scored automatically based on the prevalence of hidden
+    tracker networks, encryption availability, and website privacy practices.
+
+    Our app provides standard browsing functionality including tabs, bookmarks, and
+    autocomplete. In addition to strong Privacy Protection as described above, we
+    also packed in some extra privacy features into the browser itself:
+
+    * Fire Button — Clear all your tabs and data with one tap.
+    * Application Lock — Secure the app with Touch ID or Face ID.
+
+    Too many people believe you simply can’t expect privacy on the Internet. We’re
+    fighting to change that, and have made it our mission to set a new standard of
+    trust online. Install DuckDuckGo and take back your privacy!
+
+    Antifeatures:
+    * NonFreeNet - Uses DuckDuckGo as the exclusive search engine, for which the
+    source code is not available.
   name: DuckDuckGo Privacy Browser
   summary: Privacy, simplified
-com.fsck.k9:
-  icon: com.fsck.k9.27034.xml
+- pkgname: com.fsck.k9
   web: https://k9mail.app/
-  desc: "<p>E-mail client supporting multiple accounts, POP3, IMAP and Push IMAP.
-    Can do OpenPGP encryption if https://f-droid.org/packages/org.sufficientlysecure.keychain
-    is installed. Settings and account configurations can be exported so that they
-    can be imported easily if you are switching packages/signatures: a file manager
-    will need to be already installed to achieve this.</p>"
+  desc: |-
+    E-mail client supporting multiple accounts, POP3, IMAP and Push IMAP. Can do
+    OpenPGP encryption if https://f-droid.org/packages/org.sufficientlysecure.keychain is installed. Settings
+    and account configurations can be exported so that they can be imported easily
+    if you are switching packages/signatures: a file manager will need to be already
+    installed to achieve this.
   name: K-9 Mail
   summary: Full-featured email client
-info.guardianproject.locationprivacy:
-  icon: info.guardianproject.locationprivacy.31.png
+- pkgname: info.guardianproject.locationprivacy
   web: https://guardianproject.info/2015/01/23/sharing-your-location-privately
-  desc: "<p>No description available</p>"
+  desc: No description available
   name: LocationPrivacy
   summary: privacy filters for shared location links
-com.artifex.mupdf.viewer.app:
-  icon: com.artifex.mupdf.viewer.app.90.png
+- pkgname: com.artifex.mupdf.viewer.app
   web: https://mupdf.com
-  desc: "<p>MuPDF supports PDF 1.7 with transparency, encryption, hyperlinks, annotations,
-    searching, form editing and more. It also reads OpenXPS and CBZ (comic book) documents.</p>"
+  desc: |-
+    MuPDF supports PDF 1.7 with transparency, encryption, hyperlinks, annotations,
+    searching, form editing and more. It also reads OpenXPS and CBZ (comic book)
+    documents.
   name: MuPDF viewer
   summary: Lightweight document viewer
-com.nextcloud.client:
-  icon: com.nextcloud.client.30160090.png
+- pkgname: com.nextcloud.client
   web: https://nextcloud.com
-  desc: "<p>A safe home for all your data. Access &amp; share your files, calendars,
-    contacts, mail &amp; more from any device, on your terms. This is the official
-    Android app.</p><p><b>Features:</b></p><ul><li> Easy, modern interface</li><li>
-    Upload your files to your Nextcloud server</li><li> Share your files with others</li><li>
-    Keep your favorite files and folders synced</li><li> Instant Upload for photos
-    and videos taken by your device</li><li> Multi-account support</li></ul>"
+  desc: |-
+    A safe home for all your data. Access & share your files, calendars, contacts,
+    mail & more from any device, on your terms. This is the official Android app.
+
+    '''Features:'''
+
+    * Easy, modern interface
+    * Upload your files to your Nextcloud server
+    * Share your files with others
+    * Keep your favorite files and folders synced
+    * Instant Upload for photos and videos taken by your device
+    * Multi-account support
   name: Nextcloud
   summary: Synchronization client
-org.openobservatory.ooniprobe:
-  icon: org.openobservatory.ooniprobe.75.png
+- pkgname: org.openobservatory.ooniprobe
   web: https://ooni.torproject.org/
-  desc: '<p>Are websites and social media apps blocked? Is your network unusually
-    slow? Run OONI Probe to find out!</p><p>With this app, you will examine the blocking
-    of websites and instant messaging apps, measure your network’s speed and performance,
-    and check whether systems that could be responsible for censorship and surveillance
-    are in your network.</p><p>OONI Probe is developed by the Open Observatory of
-    Network Interference (OONI), a free software project (under The Tor Project) that
-    aims to uncover internet censorship around the world.</p><p>Since 2012, OONI’s
-    global community has collected millions of network measurements from more than
-    200 countries, shedding light on multiple cases of network interference.</p><p><b>Collect
-    evidence of internet censorship</b> You can check whether and how websites and
-    instant messaging apps are blocked. The network measurement data you will collect
-    may serve as evidence of internet censorship.</p><p><b>Detect systems responsible
-    for censorship and surveillance</b> OONI Probe tests are also designed to uncover
-    the presence of systems (middleboxes) that could be responsible for censorship
-    and surveillance.</p><p><b>Measure the speed and performance of your network</b>
-    You can measure the speed and performance of your network by running OONI’s implementation
-    of the Network Diagnostic Test (NDT). You can also measure video streaming performance
-    with the Dynamic Adaptive Streaming over HTTP (DASH) test.</p><p><b>Open data</b>
-    OONI publishes network measurement data because open data allows third parties
-    to verify OONI findings, conduct independent studies, and answer other research
-    questions. Openly publishing OONI data also helps increase transparency of internet
-    censorship around the world. You can explore and download OONI data here: https://ooni.io/data/</p><p><b>Free
-    software</b> All OONI Probe tests (including our NDT and DASH implementations),
-    are based on free and open source software. You can find OONI software projects
-    &lt;a href="https://github.com/ooni"&gt;on Github&lt;/a&gt;. Curious to learn
-    how OONI Probe tests work? Learn more &lt;a href="https://ooni.io/nettest"&gt;here&lt;/a&gt;.</p><p>To
-    receive updates from the OONI-verse, &lt;a href="https://twitter.com/OpenObservatory"&gt;follow
-    us on Twitter&lt;/a&gt;</p><p>Disclaimer: Running OONI Probe might be against
-    the terms of service of your ISP or legally questionable in your country. By running
-    OONI Probe, you will connect to web services which might be banned. The OONI project
-    will publish data submitted by probes, possibly including your IP address or other
-    identifying information. In addition, your use of OONI Probe will be clear to
-    anyone who has access to your computer, and to anyone who can monitor your Internet
-    connection (such as your employer, ISP or government). Learn more about potential
-    risks &lt;a href="https://ooni.torproject.org/about/risks"&gt;here&lt;/a&gt;</p>'
+  desc: |-
+    Are websites and social media apps blocked? Is your network unusually slow?
+    Run OONI Probe to find out!
+
+    With this app, you will examine the blocking of websites and instant
+    messaging apps, measure your network’s speed and performance, and check
+    whether systems that could be responsible for censorship and surveillance
+    are in your network.
+
+    OONI Probe is developed by the Open Observatory of Network Interference
+    (OONI), a free software project (under The Tor Project) that aims to uncover
+    internet censorship around the world.
+
+    Since 2012, OONI’s global community has collected millions of network
+    measurements from more than 200 countries, shedding light on multiple cases
+    of network interference.
+
+    '''Collect evidence of internet censorship'''
+    You can check whether and how websites and instant messaging apps are
+    blocked. The network measurement data you will collect may serve as evidence
+    of internet censorship.
+
+    '''Detect systems responsible for censorship and surveillance'''
+    OONI Probe tests are also designed to uncover the presence of systems
+    (middleboxes) that could be responsible for censorship and surveillance.
+
+    '''Measure the speed and performance of your network'''
+    You can measure the speed and performance of your network by running OONI’s
+    implementation of the Network Diagnostic Test (NDT). You can also measure
+    video streaming performance with the Dynamic Adaptive Streaming over HTTP
+    (DASH) test.
+
+    '''Open data'''
+    OONI publishes network measurement data because open data allows third
+    parties to verify OONI findings, conduct independent studies, and answer
+    other research questions. Openly publishing OONI data also helps increase
+    transparency of internet censorship around the world. You can explore and
+    download OONI data here: https://ooni.io/data/
+
+    '''Free software'''
+    All OONI Probe tests (including our NDT and DASH implementations), are based
+    on free and open source software. You can find OONI software projects
+    <a href="https://github.com/ooni">on Github</a>. Curious to learn how OONI Probe tests
+    work? Learn more <a href="https://ooni.io/nettest">here</a>.
+
+    To receive updates from the OONI-verse,
+    <a href="https://twitter.com/OpenObservatory">follow us on Twitter</a>
+
+    Disclaimer: Running OONI Probe might be against the terms of service of your ISP
+    or legally questionable in your country. By running OONI Probe, you will connect
+    to web services which might be banned. The OONI project will publish data
+    submitted by probes, possibly including your IP address or other identifying
+    information. In addition, your use of OONI Probe will be clear to anyone who has
+    access to your computer, and to anyone who can monitor your Internet connection
+    (such as your employer, ISP or government). Learn more about potential risks
+    <a href="https://ooni.torproject.org/about/risks">here</a>
   name: OONI Probe
   summary: Open Observatory of Network Interference (OONI)
-org.sufficientlysecure.keychain:
-  icon: org.sufficientlysecure.keychain.57500.png
+- pkgname: org.sufficientlysecure.keychain
   web: https://www.openkeychain.org/
-  desc: "<p>No description available</p>"
+  desc: No description available
   name: OpenKeychain
   summary: Encrypt your Files and Communications. Compatible with the OpenPGP Standard.
-org.dmfs.tasks:
-  icon: org.dmfs.tasks.82200.png
+- pkgname: org.dmfs.tasks
   web: https://opentasks.app/
-  desc: "<p>A task manager app, allowing you to categorise your todo list by urgency,
-    state, timeframe etc.</p><p>Tasks can be synchronised with a CalDAV server using,
-    e.g., https://f-droid.org/packages/at.bitfire.davdroid and https://f-droid.org/packages/com.etesync.syncadapter</p>"
+  desc: |-
+    A task manager app, allowing you to categorise your todo list by urgency, state,
+    timeframe etc.
+
+    Tasks can be synchronised with a CalDAV server using, e.g.,
+    https://f-droid.org/packages/at.bitfire.davdroid and https://f-droid.org/packages/com.etesync.syncadapter
   name: OpenTasks
   summary: Keep track of your list of goals
-org.torproject.android:
-  icon: ''
+- pkgname: org.torproject.android
   web: https://www.torproject.org/docs/android.html
-  desc: '<p>Tor is both software and an open network that helps you defend against
-    network surveillance that threatens personal freedom and privacy, confidential
-    business activities and relationships.</p><p>Orbot allows access to Tor by accessing
-    a local SOCKS or HTTP proxy. On a rooted device, the proxying can be completely
-    transparent i.e. the app that accesses the network need not be aware of the proxy''s
-    existence; you can choose which apps go via the proxy in the settings.</p><p>If
-    you don''t have root access, there are some apps that are designed to work closely
-    with tor or allow proxied connections: https://f-droid.org/packages/info.guardianproject.otr.app.im,
-    https://f-droid.org/packages/acr.browser.lightning and https://f-droid.org/packages/org.mariotaku.twidere.
-    There is also a proxy configurator addon for Firefox called &lt;a href="https://github.com/guardianproject/ProxyMob/downloads"&gt;ProxyMob&lt;/a&gt;
-    (not yet available from the Mozilla addon site).</p>'
+  desc: |-
+    Tor is both software and an open network that helps you defend against network
+    surveillance that threatens personal freedom and privacy, confidential business
+    activities and relationships.
+
+    Orbot allows access to Tor by accessing a local SOCKS or HTTP proxy.
+    On a rooted device, the proxying can be completely transparent
+    i.e. the app that accesses the network need not be aware of the
+    proxy's existence; you can choose which apps go via the proxy in the
+    settings.
+
+    If you don't have root access, there are some apps that are designed to work
+    closely with tor or allow proxied connections:
+    https://f-droid.org/packages/info.guardianproject.otr.app.im, https://f-droid.org/packages/acr.browser.lightning and
+    https://f-droid.org/packages/org.mariotaku.twidere. There is also a proxy configurator addon for Firefox
+    called <a href="https://github.com/guardianproject/ProxyMob/downloads">ProxyMob</a> (not yet
+    available from the Mozilla addon site).
   name: Orbot
   summary: Enhance your privacy, break through firewalls and communicate more safely.
-se.leap.riseupvpn:
-  icon: se.leap.riseupvpn.149.png
+- pkgname: app.organicmaps
+  web: https://organicmaps.app/
+  desc: |-
+    Organic Maps offers fast offline maps app for travelers, tourists, hikers and cyclists based on top of crowd-sourced OpenStreetMap data and curated with love by MAPS.ME founders.
+
+    * Detailed offline maps with places that don't exist on other maps
+    * Cycling routes, hiking trails and walking paths
+    * Contour lines, elevation profiles, peaks and slopes
+    * Turn-by-turn walking, cycling and car navigation with voice guidance
+    * Fast offline search on the map and bookmarks
+    * Dark mode to protect your eyes
+    * No ads, no trackers, no data collection, no crapware, no pesticides
+  name: Organic Maps
+  summary: Offline maps with turn-by-turn navigation
+- pkgname: se.leap.riseupvpn
   web: https://riseup.net/
-  desc: "<p>RiseupVPN is an application to provide easy and secure encrypted communication.
-    The app is a custom branded build of https://f-droid.org/packages/se.leap.bitmaskclient.
-    This version is preconfigured with one trusted provider—the Riseup collective—and
-    allows anonymous VPN usage without any manual setup.</p><p>By encrypting and securely
-    routing all your network traffic through Riseup’s servers, RiseupVPN is able to
-    prevent many forms of censorship and surveillance.</p>"
+  desc: |-
+    RiseupVPN is an application to provide easy and secure encrypted communication.
+    The app is a custom branded build of https://f-droid.org/packages/se.leap.bitmaskclient. This version is
+    preconfigured with one trusted provider—the Riseup collective—and allows
+    anonymous VPN usage without any manual setup.
+
+    By encrypting and securely routing all your network traffic through Riseup’s
+    servers, RiseupVPN is able to prevent many forms of censorship and surveillance.
   name: Riseup VPN
   summary: Secure VPN powered by Bitmask
-com.jarsilio.android.scrambledeggsif:
-  icon: com.jarsilio.android.scrambledeggsif.63.png
+- pkgname: com.jarsilio.android.scrambledeggsif
   web: ''
   desc: |-
     Scrambled Exif (pronounced <i>egg</i>sif) helps you remove the metadata in your pictures before you share them.
@@ -242,65 +285,67 @@ com.jarsilio.android.scrambledeggsif:
     ★ Have fun sharing your pics!
   name: Scrambled Exif
   summary: Remove the metadata from your pictures before sharing them
-org.thoughtcrime.securesms:
-  icon: org.thoughtcrime.securesms.83210.png
+- pkgname: org.thoughtcrime.securesms
   web: https://www.signal.org
-  desc: "<p>Privacy is possible. Signal makes it easy.</p><p>Using Signal, you can
-    communicate instantly while avoiding SMS fees, create groups so that you can chat
-    in real time with all your friends at once, and share media or other files all
-    with complete privacy. Signal's servers never have access to any of your communication
-    and never store any of your data.</p><p>★ Say Anything. Signal uses an advanced
-    end-to-end encryption protocol to keep your conversations private. Every message,
-    every call, every time.</p><p>★ Open Source. Signal is Free and Open Source, enabling
-    anyone to verify its security by auditing the code. Signal is the only private
-    messenger that uses open source peer-reviewed cryptographic protocols to keep
-    your messages and calls safe.</p><p>★ Be Yourself - Signal uses your existing
-    phone number and address book. There are no separate logins, usernames, passwords,
-    or PINs to manage or lose.</p><p>★ Group Chat. Signal allows you to create encrypted
-    groups so you can have private conversations with all your friends at once. Not
-    only are the messages encrypted, but the Signal server never has access to any
-    group metadata such as the membership list, group title, or group icon.</p><p>★
-    Fast. The Signal protocol is designed to operate in the most constrained environment
-    possible. Using Signal, messages are instantly delivered to friends.</p><p>★ Speak
-    Freely - Make crystal-clear phone calls to people who live across town, or across
-    the ocean, with no long-distance charges.</p>"
+  desc: |-
+    Privacy is possible. Signal makes it easy.
+
+    Using Signal, you can communicate instantly while avoiding SMS fees, create groups so that you can chat in real time with all your friends at once, and share media or other files all with complete privacy. Signal's servers never have access to any of your communication and never store any of your data.
+
+    ★ Say Anything. Signal uses an advanced end-to-end encryption protocol to keep your conversations private. Every message, every call, every time.
+
+    ★ Open Source. Signal is Free and Open Source, enabling anyone to verify its security by auditing the code. Signal is the only private messenger that uses open source peer-reviewed cryptographic protocols to keep your messages and calls safe.
+
+    ★ Be Yourself - Signal uses your existing phone number and address book. There are no separate logins, usernames, passwords, or PINs to manage or lose.
+
+    ★ Group Chat. Signal allows you to create encrypted groups so you can have private conversations with all your friends at once. Not only are the messages encrypted, but the Signal server never has access to any group metadata such as the membership list, group title, or group icon.
+
+    ★ Fast. The Signal protocol is designed to operate in the most constrained environment possible. Using Signal, messages are instantly delivered to friends.
+
+    ★ Speak Freely - Make crystal-clear phone calls to people who live across town, or across the ocean, with no long-distance charges.
   name: Signal
   summary: Signal Private Messenger
-org.torproject.torbrowser:
-  icon: org.torproject.torbrowser.2015808075.png
+- pkgname: org.torproject.torbrowser
   web: https://www.torproject.org/
-  desc: "<p>Tor Browser for Android is the only official mobile browser supported
-    by the Tor Project, developers of the world’s strongest tool for privacy and freedom
-    online.</p><p>BLOCK TRACKERS Tor Browser isolates each website you visit so third-party
-    trackers and ads can’t follow you. Any cookies automatically clear when you’re
-    done browsing.</p>"
+  desc: |-
+    Tor Browser for Android is the only official mobile browser supported by
+    the Tor Project, developers of the world’s strongest tool for privacy and freedom online.
+
+    BLOCK TRACKERS
+    Tor Browser isolates each website you visit so third-party trackers and ads can’t follow you.
+    Any cookies automatically clear when you’re done browsing.
   name: Tor Browser
   summary: Experience real private browsing without tracking, surveillance, or censorship.
-org.secuso.privacyfriendlyweather:
-  icon: org.secuso.privacyfriendlyweather.11.png
+- pkgname: org.secuso.privacyfriendlyweather
   web: https://secuso.org/pfa
-  desc: <p>Lets you watch the weather for cities and locations. This includes the
-    current weather as well as a 5 day / 3 hour forecast. Furthermore, Privacy Friendly
+  desc: |-
+    Lets you watch the weather for cities and locations. This includes the current
+    weather as well as a 5 day / 3 hour forecast. Furthermore, Privacy Friendly
     Weather provides a radius search. This makes it possible to find the locations
-    around a given location which have the best weather conditions at the moment.</p><p>Weather
-    data is provided by &lt;a href="http://openweathermap.org/"&gt;Open Weather Map&lt;/a&gt;.</p><p>The
-    app belongs to the group of Privacy Friendly Apps developed at the &lt;a href="https://secuso.org/"&gt;SECUSO
-    research group&lt;/a&gt; of Technische Universitaet Darmstadt. It does not require
-    any permission and relinquishes advertisement and tracking mechanisms.</p><p><i>NonFreeNet:</i>
-    OpenWeatherMap service itself is not open source.</p>
+    around a given location which have the best weather conditions at the moment.
+
+    Weather data is provided by <a href="http://openweathermap.org/">Open Weather Map</a>.
+
+    The app belongs to the group of Privacy Friendly Apps developed at the
+    <a href="https://secuso.org/">SECUSO research group</a> of Technische Universitaet
+    Darmstadt. It does not require any permission and relinquishes advertisement and
+    tracking mechanisms.
+
+    ''NonFreeNet:'' OpenWeatherMap service itself is not open source.
   name: Weather
   summary: Get weather information and forecast
-com.yubico.yubioath:
-  icon: com.yubico.yubioath.20199.png
+- pkgname: com.yubico.yubioath
   web: ''
-  desc: "<p>Generate One-Time Passwords (OTPs) using a YubiKey NEO hardware, connected
-    using NFC. It generates codes that are compatible with Google two-step verification,
-    and can be used with any other site that supports OATH HOTP/TOTP.</p><p>There
-    are two apps for YubiKey NEO and OATH: YubiTOTP and YubiOATH. They work differently,
-    and both are supported, but to get the most features and best user experience
-    we recommend use of YubiOATH. The YubiTOTP app works with all YubiKey NEOs, however
-    it is more limited than the YubiOATH app. The YubiOATH app requires that the (free
-    software) ykneo-oath applet has been loaded on to the YubiKey NEO. The YubiTOTP
-    app is still maintained for backwards compatibility.</p>"
+  desc: |-
+    Generate One-Time Passwords (OTPs) using a YubiKey NEO hardware, connected using
+    NFC. It generates codes that are compatible with Google two-step verification,
+    and can be used with any other site that supports OATH HOTP/TOTP.
+
+    There are two apps for YubiKey NEO and OATH: YubiTOTP and YubiOATH. They work
+    differently, and both are supported, but to get the most features and best user
+    experience we recommend use of YubiOATH. The YubiTOTP app works with all YubiKey
+    NEOs, however it is more limited than the YubiOATH app. The YubiOATH app
+    requires that the (free software) ykneo-oath applet has been loaded on to the
+    YubiKey NEO. The YubiTOTP app is still maintained for backwards compatibility.
   name: Yubico Authenticator
   summary: Generate OATH codes with YubiKey NEO over NFC
