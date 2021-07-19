@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "548456e4_0c69c813",
+        "filename": "tasks/update-app-list.rb",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-07-19T16:50:29Z",
+      "side": 1,
+      "message": "This needs to be changed back when merged.",
+      "revId": "e4ad4e3e411c0683d8cb399e76445ee2dd155817",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
