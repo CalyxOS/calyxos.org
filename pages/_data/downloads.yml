@@ -22,14 +22,14 @@ stable:
   date: '2021-07-08'
 - name: Pixel 4a
   codename: sunfish
-  factory_link: https://release.calyxinstitute.org/sunfish-factory-2.7.0.zip
-  factory_sha256: 1461b4adf633a367315bd747095b41f89640e6346e3b2731016d3abff2c6b0a0
-  ota_link: https://release.calyxinstitute.org/sunfish-ota_update-2.7.0.zip
-  ota_sha256: 430e543429d0b027d4a0e8d9de5c5bb752c327c6959c810150d35de4b7bcff28
-  incremental_link: https://release.calyxinstitute.org/sunfish-incremental-2.6.1-2.7.0.zip
-  incremental_sha256: f957e858e752d0f7060561ab31f0219544a1f14f7f7c84f60aada3c5c4462871
-  incremental_old_build: 2.6.1
-  date: '2021-07-08'
+  factory_link: https://release.calyxinstitute.org/sunfish-factory-2.7.1.zip
+  factory_sha256: dddb62c9b68bf68e210db2e05181b55baf50a509f4533ea69409bdbf5c5009b9
+  ota_link: https://release.calyxinstitute.org/sunfish-ota_update-2.7.1.zip
+  ota_sha256: da6702f84643ee5804d409fd94278103043a202d468ae625347445a11f48788f
+  incremental_link: https://release.calyxinstitute.org/sunfish-incremental-2.7.0-2.7.1.zip
+  incremental_sha256: 66a7d8c1ef04e3a9159ddab0845880e241f7d7aecc79ef0f96d5b31ff8fef195
+  incremental_old_build: 2.7.0
+  date: '2021-07-21'
 - name: Pixel 4 XL
   codename: coral
   factory_link: https://release.calyxinstitute.org/coral-factory-2.7.0.zip
