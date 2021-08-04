@@ -16,6 +16,24 @@
       "message": "This needs to be changed back when merged.",
       "revId": "e4ad4e3e411c0683d8cb399e76445ee2dd155817",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8778b472_be1e646a",
+        "filename": "tasks/update-app-list.rb",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-04T12:37:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "548456e4_0c69c813",
+      "revId": "e4ad4e3e411c0683d8cb399e76445ee2dd155817",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
