@@ -1,0 +1,13 @@
+<section class="content wrapper">
+  <p class="emoji">📰</p>
+  <h2>Recent News</h2>
+  <div class="contentItem noImage">
+    <div class="description">
+      {% for post in site.posts limit:3 %}
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          {{ post.excerpt }}
+      {% endfor %}
+      <a class="btn" href="{{ '/news' | relative_url }}">See more</a>
+    </div>
+  </div>
+</section>
