@@ -109,6 +109,7 @@ section {
 
 a {
   cursor: pointer;
+  line-height: var(--line-height-body);
 }
 
 ul, ol {
