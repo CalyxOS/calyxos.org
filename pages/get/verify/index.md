@@ -36,7 +36,7 @@ Trusted comment: CalyxOS 2.7.1 - July 2021
 <br>
 
 ##### Additional verification
-* The minisign public key has been GPG signed by [Nicholas Merill](https://twitter.com/nickcalyx)
+* The minisign public key has been GPG signed by [Nicholas Merrill](https://twitter.com/nickcalyx)
 * OpenPGP Fingerprint: `BC2C B9C4 993C 086F FDAD  8D20 5905 C9C7 4693 488B`
 * Download the public key, [minisign.pub](https://release.calyxinstitute.org/minisign.pub)
 * Download the signature, [minisign.pub.sig](https://release.calyxinstitute.org/minisign.pub.sig)
