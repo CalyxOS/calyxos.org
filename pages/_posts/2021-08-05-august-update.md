@@ -31,7 +31,7 @@ Pixel 2:
 * Update Linux kernel to 4.4.276
 
 Note:
-The A2 proprietary firmware componets are from September 2020 since trying to upgrade to anything newer ends up factory reseting the device.
+The A2 proprietary firmware components are from September 2020 since trying to upgrade to anything newer ends up factory reseting the device.
 
 <div class="alert alert-info" markdown="0">
 <h4>Security update notes</h4>
