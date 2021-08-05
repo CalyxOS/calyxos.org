@@ -86,6 +86,7 @@ To keep the OS build simple and fast we build some components separately outside
 
 * [Linux kernel](kernel)
 * [Chromium](chromium)
+* [F-Droid](fdroid)
 * [microG](microg)
 
 Additionally, we include some apps from F-Droid in the build process. These are the upstream binaries shipped as-is without any modifications.
