@@ -100,10 +100,10 @@ These apps are required for basic functionality and thus always present on the d
   * System icons
   * Gestures
     * Active Edge
-  * Backup (SeedVault)
+  * [Backup (SeedVault)](#backup-seedvault)
   * Multiple users
     * Work profile
-  * microG Settings
+  * [microG Settings](#microG)
   * System updates
   * Developer options
     * Restrict cleartext traffic completely, globally.

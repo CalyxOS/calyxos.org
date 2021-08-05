@@ -11,7 +11,6 @@ CalyxOS includes [microG](https://github.com/microG) by default. However, since 
 {% highlight shell %}
 cd ~/calyxos/android11-qpr1
 cd external/microg/GmsCore
-git remote add upstream https://github.com/microg/GmsCOre
 git fetch --tags
 export JAVA_OPTS="-Xmx2048m"
 echo 'mapbox.key=apikey' > local.properties
