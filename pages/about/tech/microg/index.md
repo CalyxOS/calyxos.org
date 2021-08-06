@@ -15,3 +15,5 @@ On CalyxOS, [signature spoofing](https://review.calyxos.org/c/CalyxOS/platform_f
 * Only allowed the microG packages, GmsCore and Store to spoof signature. Both of these are included as system apps on CalyxOS so simply checking against the package name is enough.
 
 This approach means that as far as microG is concerned, the behavior remains pretty much the same, while also not letting any other app use this functionality.
+
+The usual concerns with this functionality are always related to the [patches provided by microG](https://github.com/microg/GmsCore/tree/master/patches). However, there is a very good reason for that, see <https://github.com/microg/GmsCore/issues/1467#issuecomment-840711695>. We use our own version of the patch as mentioned above.
