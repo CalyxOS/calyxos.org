@@ -7,8 +7,6 @@ The August update is here. It's mostly identical to the Special Pixel 4a release
 
 We're working on some features and another update will be released later this month.
 
-It is currently in the beta channel, and will be bumped to the stable channel later after additional testing and feedback. Factory images will be available at that time as well.
-
 Changelog:
 * CalyxOS 2.8.0 - Android 11
 * August Security update (2021-08-05)
@@ -31,7 +29,7 @@ Pixel 2:
 * Update Linux kernel to 4.4.276
 
 Note:
-The A2 proprietary firmware componets are from September 2020 since trying to upgrade to anything newer ends up factory reseting the device.
+The A2 proprietary firmware components are from September 2020 since trying to upgrade to anything newer ends up factory reseting the device.
 
 <div class="alert alert-info" markdown="0">
 <h4>Security update notes</h4>
