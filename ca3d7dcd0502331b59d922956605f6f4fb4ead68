@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eac90cfb_c1d07e80",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-07T18:23:09Z",
+      "side": 1,
+      "message": "git pull --no-edit --log gitlab dev",
+      "revId": "ca3d7dcd0502331b59d922956605f6f4fb4ead68",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
