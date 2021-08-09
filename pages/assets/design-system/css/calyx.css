@@ -95,6 +95,14 @@
   margin-top: var(--spacing-xxlarge) !important;
 }
 
+.featureImage.small img {
+  max-height: 300px;
+}
+
+strong {
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 870px) {
 
   nav a.active {
