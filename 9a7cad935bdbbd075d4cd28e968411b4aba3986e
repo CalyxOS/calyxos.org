@@ -35,6 +35,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "765718e1_699f25fb",
+        "filename": "pages/get/cli-install/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-09T13:00:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e6d2e82f_bb5bc519",
+      "revId": "9a7cad935bdbbd075d4cd28e968411b4aba3986e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8962c6ce_888573e9",
@@ -48,6 +66,24 @@
       "writtenOn": "2021-08-09T12:53:40Z",
       "side": 1,
       "message": "Missing table header.",
+      "revId": "9a7cad935bdbbd075d4cd28e968411b4aba3986e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d69f431_d979b0b2",
+        "filename": "pages/get/cli-install/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-09T13:00:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8962c6ce_888573e9",
       "revId": "9a7cad935bdbbd075d4cd28e968411b4aba3986e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
