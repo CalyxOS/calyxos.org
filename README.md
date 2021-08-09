@@ -107,12 +107,21 @@ Data from these places are pulled in to help generate this site:
 
 The images on this site are sourced from:
 
-* https://github.com/signalapp/Signal-Android/blob/master/artwork/logo-512.png
-* https://github.com/guardianproject/orbot/blob/a608a964964506e52878ef55e5b500fd54af90fb/ic_launcher.svg
-* https://code.briarproject.org/briar/briar/-/blob/master/briar-android/artwork/logo_vertical_black.svg
-* https://en.wikipedia.org/wiki/Outline_of_Google#/media/File:Google_2015_logo.svg
-* https://github.com/k9mail/k-9/blob/master/images/K-9_Mail.svg
-* https://fontawesome.com (CC BY 4.0 https://fontawesome.com/license)
+* Various illustrations: https://undraw.co/illustrations
+* Signal icon: https://github.com/signalapp/Signal-Android/blob/master/artwork/logo-512.png
+* Orbot icon: https://github.com/guardianproject/orbot/blob/a608a964964506e52878ef55e5b500fd54af90fb/ic_launcher.svg
+* Briar icon: https://code.briarproject.org/briar/briar/-/blob/master/briar-android/artwork/logo_vertical_black.svg
+* Google icon: https://en.wikipedia.org/wiki/Outline_of_Google#/media/File:Google_2015_logo.svg
+* K-9 icon: https://github.com/k9mail/k-9/blob/master/images/K-9_Mail.svg
+* Misc icons: https://fontawesome.com (CC BY 4.0 https://fontawesome.com/license)
+
+## Branding
+
+Color definitions:
+
+* `--calyx-light`: `rgba(154, 202, 60, 1)` aka `#9ACA3C`
+* `--calyx-base`: `rgba(98, 128, 38, 1)` aka `#628026`
+* `--calyx-dark`: `rgba(78, 102, 31, 1)` aka `#4E661F`
 
 ## TODO
 
