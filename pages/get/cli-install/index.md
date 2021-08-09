@@ -17,7 +17,7 @@ description: 🥳 You're amazing! Follow the instructions below to install Calyx
 
 ## Installation Steps
 
-1. **Download Image:** Make sure you have the correct CalyxOS image for your device.
+1. **Download Image:** Make sure you have the correct [[CalyxOS image => download]] for your device.
 2. **Download device-flasher**: Using the links above, download `device-flasher` for your operating system.
   * For Windows, you also need to download and install [Googles USB driver ZIP file](https://developer.android.com/studio/run/win-usb) ([instructions](https://developer.android.com/studio/run/oem-usb#InstallingDriver)).
 3. **Put together**: Place `device-flasher` as well as the CalyxOS image into the same folder. Do not extract or rename the zip, simply copy it as-is.

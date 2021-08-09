@@ -89,10 +89,23 @@
 
 .btn {
   transition: none !important;
+  font-size: var(--font-size-body) !important;
 }
 
 .contentRowContent .featureImage + .description {
   margin-top: var(--spacing-xxlarge) !important;
+}
+
+.featureImage.small img {
+  max-height: 300px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+td.hash {
+  word-break: break-all;
 }
 
 @media only screen and (max-width: 870px) {
