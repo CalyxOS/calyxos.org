@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5745a024_b93f7e58",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-10T11:15:39Z",
+      "side": 1,
+      "message": "I think we could merge this to dev soon-ish.",
+      "revId": "1599f709a5bfe8452cb49b8aeffc712523af13fb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7df52487_a3b9cd0b",
+        "filename": "pages/get/_get_options.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-10T11:15:39Z",
+      "side": 1,
+      "message": "I also imagine we can add more options here in the future (web, gui)",
+      "revId": "1599f709a5bfe8452cb49b8aeffc712523af13fb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ed8fa01f_7486fbfb",
+        "filename": "pages/get/_get_options.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-10T11:15:39Z",
+      "side": 1,
+      "message": "We should drop the Mi A2 from here since it\u0027s not going to be receiving updates anymore.\n\nThis could then say Pixel 3 or newer, or maybe just \"Google Pixel\", whichever seems better.",
+      "revId": "1599f709a5bfe8452cb49b8aeffc712523af13fb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "23a8bac5_52af00cd",
+        "filename": "pages/get/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-10T11:15:39Z",
+      "side": 1,
+      "message": "This looks out of place here now, could move it to downloads. (In fact it should be in an include rather than the copy-paste I do every time this is needed right now)",
+      "revId": "1599f709a5bfe8452cb49b8aeffc712523af13fb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
