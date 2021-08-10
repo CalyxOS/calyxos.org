@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "938c7934_a96a2ca7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-10T18:56:17Z",
+      "side": 1,
+      "message": "Actually what we could is split this out, merge everything the text change to \u0027get calyxos\u0027 and the actual link to the membership, and merge that when ready.",
+      "parentUuid": "5745a024_b93f7e58",
+      "revId": "1599f709a5bfe8452cb49b8aeffc712523af13fb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7df52487_a3b9cd0b",
