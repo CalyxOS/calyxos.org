@@ -16,6 +16,10 @@
 #
 module Jekyll
 
+  class DummyPage < Hash
+    attr_accessor :url
+  end
+
   class MenuTag < Liquid::Tag
 
     def render(context)
@@ -48,7 +52,15 @@ module Jekyll
 
       path = prefix + item
       page = @site.find_page(path)
-      return render_error(item, level) unless page
+      if page.nil?
+        if !options[:silent]
+          return render_error(item, level)
+        else
+          page = DummyPage.new
+          page["title"] = path
+          page.url = @page["url"] + '#' + path
+        end
+      end
 
       title       = page["nav_title"] || page["title"] || page.name
       description = page["description"] if options[:description]
@@ -104,11 +116,50 @@ module Jekyll
         prefix + "/"
       end
     end
+
+    #
+    # convert "a:1 b:2" into {a: "1", b: "2"}
+    #
+    def parse_named_args(str)
+      Hash[str.split(/\s/).map {|i| i.split(':')}]
+    end
+
+    #
+    # we represent menu data as just the raw structure we get
+    # from yaml. For example:
+    #
+    # ["home", {"get" => ["download", "install"]}]
+    #
+    # this method lets you extract a selected part of the tree
+    #
+    def extract_menu_item(menu, search_item)
+      if menu.is_a? Hash
+        if menu.keys.first == search_item
+          return menu.values.first
+        else
+          return nil
+        end
+      elsif menu.is_a?(String)
+        if menu == search_item
+          return menu
+        else
+          return nil
+        end
+      elsif menu.is_a?(Array)
+        menu.each do |item|
+          result = extract_menu_item(item, search_item)
+          return result if result
+        end
+      end
+    end
   end
 
   class TopNavigationMenuTag < MenuTag
     def initialize(tag_name, text, tokens)
-      @li_class, @a_class, @active_class = text.split(' ')
+      @args = parse_named_args(text)
+      @li_class = @args["li"]
+      @a_class  = @args["a"]
+      @active_class   = @args["active"]
       super
     end
 
@@ -120,13 +171,21 @@ module Jekyll
 
   class NavigationMenuTag < MenuTag
     def initialize(tag_name, text, tokens)
-      @li_class, @a_class, @active_class = text.split(' ')
+      @args = parse_named_args(text)
+      @li_class = @args["li"]
+      @a_class  = @args["a"]
+      @active_class   = @args["active"]
       super
     end
 
     def render(context)
       super
-      render_menu_items(@menu_data)
+      if @page["menu"]
+        menu_data = @page["menu"]
+      else
+        menu_data = @menu_data
+      end
+      render_menu_items(menu_data, silent: true)
     end
   end
 

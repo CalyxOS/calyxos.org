@@ -1,0 +1,148 @@
+//
+// calyxos.org specific overrides applied to the design-system css
+//
+
+//
+// GRID
+//
+
+// a more narrow max width for the content area
+.wrapper {
+  max-width: var(--grid-max-width);
+}
+
+// less space below intro
+.secondaryIntro {
+  margin-bottom: var(--spacing-xxlarge) !important;
+}
+
+// margin instead of padding for gutters
+.contentRowContent .contentItem {
+  padding: 0;
+  margin: 0 var(--spacing-medium);
+}
+
+// erase the gutter width on the left and right ends.
+// this makes multi column content align with single column content
+.contentRowContent {
+  margin-left: calc(-1 * var(--spacing-medium));
+  margin-right: calc(-1 * var(--spacing-medium));
+}
+
+//
+// HEADER
+//
+
+// make the intro padding less extreme & better align the h1
+.secondaryIntro {
+  padding-top: calc(1.5 * var(--spacing-xxlarge)) !important;
+  padding-bottom: calc(1.5 * var(--spacing-xxlarge)) !important;
+  h1 {
+    margin: 0;
+    & + p {
+      margin-top: 1em;
+    }
+  }
+}
+
+// different browsers display span padding differently :(
+.secondaryIntro .highlighter {
+  padding: 6px; // looks good in chrome
+}
+@supports (-moz-appearance:none) {
+  .secondaryIntro {
+    .highlighter {
+      padding: 14px 6px 2px 6px; // looks good in firefox
+    }
+    h1 {
+      // make firefox spacing match chrome's:
+      margin-bottom: -6px;
+      margin-top: 6px;
+    }
+  }
+}
+
+
+//
+// TYPOGRAPHY
+//
+
+// the margins on h3 and h4 are extreme and not good for technical pages.
+// no other pages use such nested headings anyway.
+h3 {
+  margin-top: var(--spacing-xlarge) !important;
+  max-width: inherit;
+}
+h4 {
+  margin-top: var(--spacing-medium) !important;
+  max-width: inherit;
+}
+h5 {
+  margin-bottom: 1rem;
+}
+
+// remove max-width of p
+// add back the normal default bottom margin.
+p {
+  max-width: inherit !important;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+// adding top margin to p+p works for body text, but does not work
+// when mixing paragraphs with code blocks and tables and lists
+p + p {
+  margin-top: 0 !important;
+}
+
+// keep tables the same size as the body text
+table {
+  font-size: var(--font-size-body);
+}
+
+//
+// CODE
+//
+
+// reset code styles, use rouge highlighter instead
+code {
+  color: inherit;
+  background-color: inherit;
+  padding: inherit;
+  border-radius: inherit;
+  font-family: inherit;
+  width: inherit;
+  font-size: inherit;
+  border: inherit;
+}
+pre.highlight, div.highlight {
+  border-radius: inherit;
+  padding: inherit;
+}
+
+@media (prefers-color-scheme: light) {
+  .highlight {
+    color: inherit;
+    background-color: inherit;
+    border-radius: inherit;
+    padding: inherit;
+  }
+  code {
+    color: inherit;
+    background-color: inherit;
+    border: inherit;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .highlight {
+    color: inherit;
+    background-color: inherit;
+    border-radius: inherit;
+    padding: inherit;
+  }
+  code {
+    color: inherit;
+    background-color: inherit;
+    border: inherit;
+  }
+}
