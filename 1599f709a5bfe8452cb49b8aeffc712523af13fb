@@ -36,6 +36,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba4e39a7_aee13d36",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-08-12T22:28:18Z",
+      "side": 1,
+      "message": "I don\u0027t understand... what parts to keep and what for later?",
+      "parentUuid": "938c7934_a96a2ca7",
+      "revId": "1599f709a5bfe8452cb49b8aeffc712523af13fb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7df52487_a3b9cd0b",
@@ -66,6 +84,24 @@
       "writtenOn": "2021-08-10T11:15:39Z",
       "side": 1,
       "message": "We should drop the Mi A2 from here since it\u0027s not going to be receiving updates anymore.\n\nThis could then say Pixel 3 or newer, or maybe just \"Google Pixel\", whichever seems better.",
+      "revId": "1599f709a5bfe8452cb49b8aeffc712523af13fb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5716afe_a40c96ab",
+        "filename": "pages/get/_get_options.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-08-12T22:28:18Z",
+      "side": 1,
+      "message": "ok, fixed",
+      "parentUuid": "ed8fa01f_7486fbfb",
       "revId": "1599f709a5bfe8452cb49b8aeffc712523af13fb",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
