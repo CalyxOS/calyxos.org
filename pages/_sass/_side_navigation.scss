@@ -1,0 +1,33 @@
+
+.wrapper {
+  &.sidebar-spacing {
+    max-width: calc(var(--grid-max-width) + var(--grid-sidebar-width));
+  }
+  &.sidebar {
+    max-width: calc(var(--grid-max-width) + var(--grid-sidebar-width));
+    display: flex;
+  }
+}
+
+.navside {
+  min-width: var(--grid-sidebar-width);
+  margin-right: var(--spacing-medium);
+  ul {
+    margin-left: 0;
+  }
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    display: block;
+    color: black;
+    padding: 4px 8px;
+    text-decoration: none;
+    &.active {
+      font-weight: bold;
+      background-color: var(--calyx-light);
+    }
+  }
+}

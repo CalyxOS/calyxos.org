@@ -1,0 +1,51 @@
+//
+// calyxos.org specific overrides applied to the design-system css
+//
+
+// a more narrow max width for the content area
+.wrapper {
+  max-width: var(--grid-max-width);
+}
+
+// remove max-width of p
+p {
+  max-width: inherit !important;
+}
+
+// keep tables the same size as the body text
+table {
+  font-size: var(--font-size-body);
+}
+
+// make the intro padding less extreme & better align the h1
+.secondaryIntro {
+  padding-top: calc(1.5 * var(--spacing-xxlarge)) !important;
+  padding-bottom: calc(1.5 * var(--spacing-xxlarge)) !important;
+  h1 {
+    margin: 0;
+    & + p {
+      margin-top: 1em;
+    }
+  }
+}
+
+// give some all around padding to the intro highlight
+.secondaryIntro .highlighter {padding: 6px;}
+
+// less space below intro
+.secondaryIntro {
+  margin-bottom: var(--spacing-xxlarge) !important;
+}
+
+// margin instead of padding for gutters
+.contentRowContent .contentItem {
+  padding: 0;
+  margin: 0 var(--spacing-medium);
+}
+
+// erase the gutter width on the left and right ends.
+// this makes multi column content align with single column content
+.contentRowContent {
+  margin-left: calc(-1 * var(--spacing-medium));
+  margin-right: calc(-1 * var(--spacing-medium));
+}

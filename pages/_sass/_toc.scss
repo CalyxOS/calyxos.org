@@ -1,0 +1,31 @@
+div.toc {
+  margin-bottom: var(--spacing-xlarge);
+  h2 {
+    line-height: var(--line-height-body);
+    font-size: var(--font-size-body);
+    margin: 0;
+    margin-bottom: var(--spacing-xxsmall);
+  }
+  ul {
+    margin-bottom: 0;
+    li {
+      margin-top: 0;
+      margin-bottom: 0;
+      a {
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+// this is a hack to get the anchors to jump to
+// the right place with a fixed position header
+:target:before {
+  content:"";
+  display:block;
+  height: 90px;      /* approximate header height */
+  margin: -90px 0 0; /* negative header height */
+}
