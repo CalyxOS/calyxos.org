@@ -1,0 +1,77 @@
+/********************************************************
+
+There are three ways that code can be represented in the
+markup. We want to support them all.
+
+1. Markdown inline code
+================================================
+
+`code`
+
+<code class="language-plaintext highlighter-rouge">code</code>
+
+2. Markdown block code
+================================================
+
+```shell
+rm -rf /
+```
+
+<div class="language-shell highlighter-rouge">
+  <div class="highlight">
+    <pre class="highlight">
+      <code>
+        <span class="nb">rm</span> <span class="nt">-rf</span> /
+      </code>
+    </pre>
+  </div>
+</div>
+
+3. Jekyll highlight
+================================================
+
+{% highlight shell %}
+rm -rf /
+{% endhighlight %}
+
+<figure class="highlight">
+  <pre>
+    <code class="language-shell" data-lang="shell">
+      <span class="nb">rm</span> <span class="nt">-rf</span> /
+    </code>
+  </pre>
+</figure>
+
+*********************************************************/
+
+// preview options at http://jwarby.github.io/jekyll-pygments-themes/
+@import "pygments/native";
+
+// somewhere the color for <code> has been messed up and the pygments
+// color is not being applied correctly, so we just manually set it here.
+code {color: #eee !important;}
+
+// pygments css does not include background color
+// for inline code blocks, so we set our own.
+code.highlighter-rouge {
+  background-color: #666;
+  padding: 4px;
+  // white-space: nowrap; << I prefer never wrapping <code> but there are some that are very long
+  //                         and would otherwise mess up the layout.
+  overflow-wrap: anywhere;
+}
+
+figure.highlight, div.highlight {
+  padding: 0;
+  margin-bottom: 1rem;
+  pre {
+    display: block;
+    padding: 1rem;
+    // overflow: auto; << does not work when in flex. why?
+    white-space: pre-wrap; // << this works with flex, although not ideal
+    code {
+      padding: 0;
+      line-height: 1.3em;
+    }
+  }
+}

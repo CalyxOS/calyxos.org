@@ -1,0 +1,10 @@
+{% if page.toc -%}
+<div class="toc">
+  {% if page.toc_title -%}
+  <h2>{{ page.toc_title }}</h2>
+  {% else -%}
+  <h2>Contents</h2>
+  {% endif -%}
+  {{ content | toc_only }}
+</div>
+{% endif -%}
