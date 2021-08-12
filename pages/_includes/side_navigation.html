@@ -1,8 +1,10 @@
-<nav class="col-sm-3 col-md-3 d-none d-sm-block sidebar">
-  <ul class="nav nav-pills flex-column">
-    {% navigation_menu nav-item nav-link active %}
+<div class="navside">
+  <ul class="">
+{% navigation_menu li:nav-item a:nav-link active:active start:1 %}
   </ul>
-  <div class="locale-links">
+<!--
+    <div class="locale-links">
 {% include locale_links.html %}
-  </div>
-</nav>
+    </div>
+-->
+</div>
