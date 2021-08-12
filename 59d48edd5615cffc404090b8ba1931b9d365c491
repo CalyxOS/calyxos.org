@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7557b1b4_e771c7d7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-08-12T22:56:33Z",
+      "side": 1,
+      "message": "this change includes a lot of interconnected css improvements:\n\n* design-system import: there is now a task to brutally just clone the upstream css and copy the needed css files into place. eventually, we can make a gem for the css which would be the right way(tm).\n\n* switch to sass: by making the main css entry file a sass file, the whole several dozen css files get compiled into a single file. easy! fast loading!\n\n* body text is now full width, and the full width is slightly reduced. this makes it so that tables and multi-columns line up nicely with body text.\n\n* various css tweaks and overrides from the upstream css: tables have normal size font, less huge padding for intro box.\n\n* better, imho, css for toc, plus a better anchor position fix.\n\n* added side navigation support (may need some future adjustment when we see a real tree in action)\n\n* added /test page for previewing design elements",
+      "revId": "59d48edd5615cffc404090b8ba1931b9d365c491",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
