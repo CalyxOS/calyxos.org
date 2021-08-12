@@ -54,6 +54,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "919c4660_ec233535",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-12T22:44:31Z",
+      "side": 1,
+      "message": "Keep everything, but\nhomepage: Change to \"Get CalyxOS\" from \"Install CalyxOS\", although this is fine too\nget: The section on the left linking to memberships, keeping only the section on the right linking to downloads.\n\n\nThen this we can deploy right away.\n\nAnd deploy the remaining when we want, tiny commit then.",
+      "parentUuid": "ba4e39a7_aee13d36",
+      "revId": "1599f709a5bfe8452cb49b8aeffc712523af13fb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7df52487_a3b9cd0b",
