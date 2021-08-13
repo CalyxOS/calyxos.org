@@ -23,7 +23,7 @@ description: 🥳 You're amazing! Follow the instructions below to install Calyx
 3. **Verify checksum**:
    * Windows: `CertUtil -hashfile device-flasher.exe SHA256`
    * Linux: `sha256sum device-flasher.linux`
-   * macOS: `sha256sum device-flasher.darwin`
+   * macOS: `shasum -a 256 device-flasher.darwin`
 
     Ensure that the checksum returned matches the corresponding checksum in the above table.
 
