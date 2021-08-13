@@ -4,7 +4,7 @@ description: 😎 Are you ready to install CalyxOS?
 nav_title: Get CalyxOS
 ---
 
-To download the <strong>Calyx<span>OS</span></strong> firmware, follow the link for your device name. Next, see the [[installation instructions => install]].
+To download the <strong>Calyx<span>OS</span></strong> firmware, follow the link from the table below for your device name. Next, see the [[installation instructions => install]].
 
 [[CalyxOS updates => system-updates]] are delivered over-the-air automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA => ota]]
 

@@ -17,21 +17,30 @@ description: 🥳 You're amazing! Follow the instructions below to install Calyx
 
 ## Installation Steps
 
-1. **Download Image:** Make sure you have the correct CalyxOS image for your device.
+1. **Download Image**: Make sure you have the correct CalyxOS image for your device from [[Get CalyxOS => get]].
 2. **Download device-flasher**: Using the links above, download `device-flasher` for your operating system.
   * For Windows, you also need to download and install [Googles USB driver ZIP file](https://developer.android.com/studio/run/win-usb) ([instructions](https://developer.android.com/studio/run/oem-usb#InstallingDriver)).
-3. **Put together**: Place `device-flasher` as well as the CalyxOS image into the same folder. Do not extract or rename the zip, simply copy it as-is.
-4. **Run it**: Double-click `device-flasher` to run it and follow the steps show on your screen.
+3. **Verify checksum**:
+   * Windows: `CertUtil -hashfile device-flasher.exe SHA256`
+   * Linux: `sha256sum device-flasher.linux`
+   * macOS: `sha256sum device-flasher.darwin`
 
-If double-clicking `device-flasher` doesn't work, you can open a terminal or command prompt in that directory, and then run one of the following:
+    Ensure that the checksum returned matches the corresponding checksum in the above table.
 
-| OS | Command |
-| ---- | ---- |
-| Linux | `chmod +x ./device-flasher.linux; ./device-flasher.linux` |
-| macOS | `chmod +x ./device-flasher.darwin; ./device-flasher.darwin` |
-| Windows | `.\device-flasher.exe` |
+4. **Put together**: Place `device-flasher` as well as the CalyxOS .zip image into the same folder. Do not extract or rename the zip, simply copy it as-is.
+
+5. **Run it**:
+   * **Windows**:
+     * Double-click `device-flasher` to run it and follow the steps shown on your screen.
+   * **Linux**:
+     * Open a terminal and navigate to the directory where you placed device-flasher and the CalyxOS zip image.
+     * Make the installer executable: `chmod +x ./device-flasher.linux`
+     * Then start the installer: `sudo ./device-flasher.linux`
+   * **macOS**:
+     * Open a terminal and navigate to the directory where you placed device-flasher and the CalyxOS zip image.
+     * Make the installer executable: `chmod +x ./device-flasher.darwin`
+     * Then start the installer: `sudo ./device-flasher.darwin`
 
 ## Notes
-* On some Linux distros, you may have to use sudo, i.e. `sudo ./device-flasher.linux`
 * On macOS, you may have to disable gatekeeper. See ["How to open an app that hasn’t been notarized or is from an unidentified developer"](https://support.apple.com/en-us/HT202491).
 * On Windows, your anti-virus may falsely flag this as infected. This is because the program is written in the Go programming language, see [Golang docs](https://golang.org/doc/faq#virus) for more information.
