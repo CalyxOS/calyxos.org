@@ -19,6 +19,7 @@ Note: Image/Video sending to any channel is currently prevented to combat spam
 ### Additional Channels
 * For all off-topic conversations: **[#calyxos-offtopic:matrix.org](https://app.element.io/#/room/#calyxos-offtopic:matrix.org)**
 * Live feed of code commits / gitlab activity / reddit posts: **[#calyxos-feeds:matrix.org](https://app.element.io/#/room/#calyxos-feeds:matrix.org)**
+* For documentation / translation related discussion: **[#calyxos-docs:matrix.org](https://app.element.io/#/room/#calyxos-docs:matrix.org)**
 * For development related discussion: **[#calyxos-dev:matrix.org](https://app.element.io/#/room/#calyxos-dev:matrix.org)**
 * For infrastructure related discussion: **[#calyxos-infra:matrix.org](https://app.element.io/#/room/#calyxos-infra:matrix.org)**
 
@@ -67,6 +68,11 @@ Matrix is the primary medium of communication. Telegram and IRC are bridged to M
   * Matrix: [#calyxos-feeds:matrix.org](https://app.element.io/#/room/#calyxos-feeds:matrix.org), OR
   * Telegram: [CalyxOSFeeds](https://t.me/CalyxOSFeeds), OR
   * IRC: [#calyxos-feeds](https://web.libera.chat/?channel=#calyxos-feeds) on [Libera.chat](https://libera.chat)
+
+* **calyxos-docs:** For documentation / translation related discussion
+  * Matrix: [#calyxos-docs:matrix.org](https://app.element.io/#/room/#calyxos-docs:matrix.org), OR
+  * Telegram: [CalyxOSDocs](https://t.me/CalyxOSDocs), OR
+  * IRC: [#calyxos-docs](https://web.libera.chat/?channel=#calyxos-docs) on [Libera.chat](https://libera.chat)
 
 * **calyxos-dev:** For development related discussion
   * Matrix: [#calyxos-dev:matrix.org](https://app.element.io/#/room/#calyxos-dev:matrix.org), OR
