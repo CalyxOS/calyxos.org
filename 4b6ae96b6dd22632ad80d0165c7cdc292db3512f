@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0fa5bab9_471441b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-17T11:58:52Z",
+      "side": 1,
+      "message": "Thoughts?\n\nLooks a lot cleaner than a list, especially now that it\u0027s grown to 7 channels",
+      "revId": "4b6ae96b6dd22632ad80d0165c7cdc292db3512f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
