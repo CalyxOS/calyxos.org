@@ -4,23 +4,14 @@
   <body>
     {% include header.html %}
     <main>
-      <section class="intro secondaryIntro">
+      <section class="secondaryIntro">
         <div class="wrapper">
           <h1><span class="highlighter">{{ page.title }}</span></h1>
           {% if page.description %}<p>{{ page.description }}</p>{% endif %}
         </div>
       </section>
-      {% if page.toc %}
-      <div class="content primaryContent wrapper">
-        {% if page.toc_title %}
-        <h2>{{ page.toc_title }}</h2>
-        {% else %}
-        <h2>Table of contents</h2>
-        {% endif %}
-        {{ content | toc_only }}
-      </div>
-      {% endif %}
       <section class="content primaryContent wrapper">
+        {% include toc.html %}
         {{ content | auto_link | wiki_link }}
       </section>
     </main>

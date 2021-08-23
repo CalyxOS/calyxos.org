@@ -4,12 +4,12 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <link rel="shortcut icon" type="image/png" href="{{ "/assets/images/favicon.png" | relative_url }}">
   {% if page.css %}<link rel="stylesheet" type="text/css" href="{{ page.css }}">{% endif %}
-  {%- if page.description -%}
+  {% if page.description -%}
   <meta name="description" content="{{ page.description }}" />
-  {%- else -%}
+  {% else -%}
   <meta name="description" content="{{ page.title }}" />
-  {%- endif -%}
-  <link rel="stylesheet" href="{{ '/assets/design-system/css/style.css' | relative_url }}">
+  {% endif -%}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   {% hreflang %}
 </head>
