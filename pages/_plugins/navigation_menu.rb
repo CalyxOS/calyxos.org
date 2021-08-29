@@ -88,9 +88,13 @@ module Jekyll
 
     def render_item(level:, selected:, url:, title:, description:)
       href = [@site.baseurl, url].join('/').gsub(/\/+/,'/')
-%(<li class="nav-level-#{level} #{@li_class}">
-  <a class="nav-level-#{level} #{@a_class} #{@active_class if selected}" href="#{href}">#{title}</a>#{": " + description if description}
-</li>)
+      str = %(<li class="nav-level-#{level} #{@li_class}">)
+      str << %(<a class="nav-level-#{level} #{@a_class} #{@active_class if selected}" href="#{href}">#{title}</a>)
+      if description
+        str << %(<span class="description">#{description}</span>)
+      end
+      str << %(</li>)
+      return str
     end
 
     def render_error(page_name, level)
