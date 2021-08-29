@@ -1,6 +1,6 @@
 ---
 title: Datura Firewall
-description: ⚙️ Fine-tuned control of your phone's connectivity.
+description: Technical notes on CalyxOS built-in firewall app
 nav_title: Datura
 redirect_from: /tech/datura/
 ---

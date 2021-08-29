@@ -38,7 +38,7 @@ defaults:
       layout: "page"
   -
     scope:
-      path: "development"
+      path: "docs"
     values:
       layout: "sidenav"
 
