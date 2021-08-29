@@ -1,0 +1,40 @@
+// filter for svg icons
+.filter-grey {
+  filter: invert(50%);
+}
+
+// size of footer icons
+.footer-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+// footer links
+footer {
+  a, .spacer {color: #999;}
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// footer bg
+footer .shade {
+  padding: 3rem 0;
+  background-color: var(--color-shade);
+}
+
+// footer grid
+footer .wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.75rem;
+  .row {
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+    &.footer-icons {column-gap: 2rem}
+  }
+}
