@@ -1,0 +1,11 @@
+<div class="gallery" markdown="0">
+{% for app in site.data.apps["apps"] %}
+  <div class="cell">
+    <a href="{{app.slug}}">
+      <img src="{{ '/assets/images/apps/' | append: app.id | append: '.png' | relative_url }}" />
+    </a>
+    <strong><a href="{{app.slug}}">{{app.name}}</a></strong>
+    <p>{{app.summary}}</p>
+  </div>
+{% endfor %}
+</div>

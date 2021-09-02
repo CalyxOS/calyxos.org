@@ -1,6 +1,14 @@
-<section class="intro withImage calyxIntro homeIntro wrapper">
-  <div>
-    <h1><span class="highlighter">Your Phone Should Be Private</h1>
-    <p>Everyone needs a phone. Not everyone wants to be spied on.<br>Reclaim your privacy with CalyxOS.</p>
+{% if page.icon -%}
+<div class="with-icon">
+  <div class="icon">
+    <img class="header-icon" src="{{ page.icon | relative_url }}" />
   </div>
-</section>
+  <div class="text">
+    <h1><span class="highlighter">{{ page.title }}</span></h1>
+    {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+  </div>
+</div>
+{% else -%}
+<h1><span class="highlighter">{{ page.title }}</span></h1>
+{% if page.description %}<p>{{ page.description }}</p>{% endif %}
+{% endif -%}

@@ -1,0 +1,46 @@
+//
+// Various design elements
+//
+
+//
+// simple gallery, just used for apps currently
+//
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  .cell {
+     margin: var(--spacing-base);
+     text-align: center;
+     width: 25%;
+     img {
+       display: block;
+       height: 100px;
+       width: 100px;
+       margin: 0 auto;
+     }
+     a {
+       display: block;
+     }
+  }
+}
+
+//
+// a wrapper for a list of horizontal buttons
+//
+.button-bar {
+  display: flex;
+  column-gap: var(--spacing-base);
+  margin-bottom: var(--spacing-base);
+}
+
+//
+// a simple display with a small image
+//
+.feature.small-img {
+  display: flex;
+  column-gap: var(--spacing-base);
+  img {
+    max-width: 100px;
+  }
+}

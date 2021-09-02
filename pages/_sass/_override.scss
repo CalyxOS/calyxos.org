@@ -65,8 +65,14 @@
   }
   .highlighter {
     line-height: 1em;
-    padding: 2px; // seems to fix a chrome render bug
     outline: 12px solid var(--calyx-light);
+
+    // chrome rendering of outline is bad at small screen sizes.
+    // this sort of fixes it
+    padding: 1px;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-color: var(--calyx-light);
   }
 }
 
@@ -136,6 +142,12 @@ p + p {
 table {
   font-size: var(--font-size-body);
 }
+
+// remove max-width on li
+li {
+  max-width: inherit !important;
+}
+
 
 //
 // CODE

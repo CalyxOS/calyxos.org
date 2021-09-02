@@ -33,7 +33,6 @@ module Jekyll
       text.gsub(AUTO_LINK_RE) do
         scheme, href = $1, $&
         punctuation = []
-
         if linked?($`, $')
           # do not change string; URL is already linked
           href
@@ -75,4 +74,4 @@ module Jekyll
   end
 end
 
-# Liquid::Template.register_filter(Jekyll::AutoLinks)
+Liquid::Template.register_filter(Jekyll::AutoLinks)
