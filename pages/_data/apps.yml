@@ -1,16 +1,23 @@
 ---
 apps:
-- pkgname: com.aurora.store
+- id: com.aurora.store
   web: http://auroraoss.com
   desc: |-
-    This ''Aurora Store'' is a complete rewrite, replacing https://f-droid.org/packages/com.dragons.aurora.
+    This **Aurora Store** is a complete rewrite, replacing https://f-droid.org/packages/com.dragons.aurora.
 
     Aurora Store is an alternate to Google's Play Store, with an elegant design,
     using Aurora you can download apps, update existing apps, search for apps,
     get details about in-app trackers, spoof your location and much more.
   name: Aurora Store
   summary: A Google Playstore Client
-- pkgname: org.briarproject.briar.android
+  icon: com.aurora.store.38.png
+  license: GPL-3.0-or-later
+  category: System
+  source: https://gitlab.com/AuroraOSS/AuroraStore
+  donate: https://www.paypal.me/whyorean
+  tracker: https://gitlab.com/AuroraOSS/AuroraStore/issues
+  slug: aurora-store
+- id: org.briarproject.briar.android
   web: https://briarproject.org/
   desc: |-
     Briar is a messaging app designed for activists, journalists, and anyone else
@@ -22,7 +29,14 @@ apps:
     Tor network, protecting users and their relationships from surveillance.
   name: Briar
   summary: Secure Messaging, Anywhere
-- pkgname: org.calyxinstitute.vpn
+  icon: org.briarproject.briar.android.10305.png
+  license: GPL-3.0-or-later
+  category: Connectivity
+  source: https://code.briarproject.org/briar/briar
+  donate: ''
+  tracker: https://code.briarproject.org/briar/briar/issues
+  slug: briar
+- id: org.calyxinstitute.vpn
   web: https://calyx.net
   desc: |-
     CalyxVPN is an application to provide easy and secure encrypted communication.
@@ -34,7 +48,14 @@ apps:
     servers, CalyxVPN is able to prevent many forms of censorship and surveillance.
   name: Calyx VPN
   summary: Free VPN Service offered by The Calyx Institute
-- pkgname: at.bitfire.davdroid
+  icon: org.calyxinstitute.vpn.155.png
+  license: GPL-3.0-only
+  category: Internet
+  source: https://gitlab.com/calyxos/bitmask_android
+  donate: https://calyxinstitute.org/
+  tracker: https://gitlab.com/calyxos/bitmask_android/issues
+  slug: calyx-vpn
+- id: at.bitfire.davdroid
   web: https://www.davx5.com/
   desc: |-
     DAVx⁵ is a CalDAV/CardDAV management and synchronization app for Android which natively integrates with Android calendar/contact apps.
@@ -44,7 +65,14 @@ apps:
     For more information and a list of tested servers/services, have a look at the Web site.
   name: DAVx⁵
   summary: CalDAV/CardDAV Synchronization and Client
-- pkgname: com.duckduckgo.mobile.android
+  icon: ''
+  license: GPL-3.0-only
+  category: Internet
+  source: https://www.davx5.com/source
+  donate: https://www.davx5.com/donate
+  tracker: https://www.davx5.com/forums
+  slug: davx-
+- id: com.duckduckgo.mobile.android
   web: https://duckduckgo.com/app
   desc: |-
     At DuckDuckGo, we believe the Internet shouldn’t feel so creepy, and getting the
@@ -82,7 +110,14 @@ apps:
     source code is not available.
   name: DuckDuckGo Privacy Browser
   summary: Privacy, simplified
-- pkgname: com.fsck.k9
+  icon: com.duckduckgo.mobile.android.59100.png
+  license: Apache-2.0
+  category: Internet
+  source: https://github.com/duckduckgo/Android
+  donate: ''
+  tracker: https://github.com/duckduckgo/Android/issues
+  slug: duckduckgo-privacy-browser
+- id: com.fsck.k9
   web: https://k9mail.app/
   desc: |-
     E-mail client supporting multiple accounts, POP3, IMAP and Push IMAP. Can do
@@ -92,12 +127,26 @@ apps:
     installed to achieve this.
   name: K-9 Mail
   summary: Full-featured email client
-- pkgname: info.guardianproject.locationprivacy
+  icon: com.fsck.k9.28000.xml
+  license: Apache-2.0
+  category: Internet
+  source: https://github.com/k9mail/k-9
+  donate: ''
+  tracker: https://github.com/k9mail/k-9/issues
+  slug: k-9-mail
+- id: info.guardianproject.locationprivacy
   web: https://guardianproject.info/2015/01/23/sharing-your-location-privately
   desc: No description available
   name: LocationPrivacy
   summary: privacy filters for shared location links
-- pkgname: com.artifex.mupdf.viewer.app
+  icon: info.guardianproject.locationprivacy.31.png
+  license: GPL-3.0-or-later
+  category: Navigation
+  source: https://github.com/guardianproject/LocationPrivacy
+  donate: ''
+  tracker: https://dev.guardianproject.info/projects/panic/issues
+  slug: locationprivacy
+- id: com.artifex.mupdf.viewer.app
   web: https://mupdf.com
   desc: |-
     MuPDF supports PDF 1.7 with transparency, encryption, hyperlinks, annotations,
@@ -105,13 +154,21 @@ apps:
     documents.
   name: MuPDF viewer
   summary: Lightweight document viewer
-- pkgname: com.nextcloud.client
+  icon: com.artifex.mupdf.viewer.app.90.png
+  license: AGPL-3.0-or-later
+  category: Reading
+  source: https://git.ghostscript.com/?p=mupdf-android-viewer.git;a=summary
+  donate: ''
+  tracker: https://bugs.ghostscript.com
+  slug: mupdf-viewer
+- id: com.nextcloud.client
   web: https://nextcloud.com
   desc: |-
     A safe home for all your data. Access & share your files, calendars, contacts,
     mail & more from any device, on your terms. This is the official Android app.
 
-    '''Features:'''
+    **Features:**
+
 
     * Easy, modern interface
     * Upload your files to your Nextcloud server
@@ -121,7 +178,14 @@ apps:
     * Multi-account support
   name: Nextcloud
   summary: Synchronization client
-- pkgname: org.openobservatory.ooniprobe
+  icon: ''
+  license: GPL-2.0-only
+  category: Internet
+  source: https://github.com/nextcloud/android
+  donate: https://nextcloud.com/include/
+  tracker: https://github.com/nextcloud/android/issues
+  slug: nextcloud
+- id: org.openobservatory.ooniprobe
   web: https://ooni.torproject.org/
   desc: |-
     Are websites and social media apps blocked? Is your network unusually slow?
@@ -140,29 +204,34 @@ apps:
     measurements from more than 200 countries, shedding light on multiple cases
     of network interference.
 
-    '''Collect evidence of internet censorship'''
+    **Collect evidence of internet censorship**
+
     You can check whether and how websites and instant messaging apps are
     blocked. The network measurement data you will collect may serve as evidence
     of internet censorship.
 
-    '''Detect systems responsible for censorship and surveillance'''
+    **Detect systems responsible for censorship and surveillance**
+
     OONI Probe tests are also designed to uncover the presence of systems
     (middleboxes) that could be responsible for censorship and surveillance.
 
-    '''Measure the speed and performance of your network'''
+    **Measure the speed and performance of your network**
+
     You can measure the speed and performance of your network by running OONI’s
     implementation of the Network Diagnostic Test (NDT). You can also measure
     video streaming performance with the Dynamic Adaptive Streaming over HTTP
     (DASH) test.
 
-    '''Open data'''
+    **Open data**
+
     OONI publishes network measurement data because open data allows third
     parties to verify OONI findings, conduct independent studies, and answer
     other research questions. Openly publishing OONI data also helps increase
     transparency of internet censorship around the world. You can explore and
     download OONI data here: https://ooni.io/data/
 
-    '''Free software'''
+    **Free software**
+
     All OONI Probe tests (including our NDT and DASH implementations), are based
     on free and open source software. You can find OONI software projects
     <a href="https://github.com/ooni">on Github</a>. Curious to learn how OONI Probe tests
@@ -181,12 +250,26 @@ apps:
     <a href="https://ooni.torproject.org/about/risks">here</a>
   name: OONI Probe
   summary: Open Observatory of Network Interference (OONI)
-- pkgname: org.sufficientlysecure.keychain
+  icon: ''
+  license: BSD-2-Clause
+  category: Internet
+  source: https://github.com/ooni/probe-android
+  donate: ''
+  tracker: https://github.com/ooni/probe-android/issues
+  slug: ooni-probe
+- id: org.sufficientlysecure.keychain
   web: https://www.openkeychain.org/
   desc: No description available
   name: OpenKeychain
   summary: Encrypt your Files and Communications. Compatible with the OpenPGP Standard.
-- pkgname: org.dmfs.tasks
+  icon: org.sufficientlysecure.keychain.57500.png
+  license: GPL-3.0-or-later
+  category: Security
+  source: https://github.com/open-keychain/open-keychain
+  donate: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=android%40schuermann.eu&lc=US&item_name=OpenKeychain+Donation&no_note=0&no_shipping=1&currency_code=EUR
+  tracker: https://github.com/open-keychain/open-keychain/issues
+  slug: openkeychain
+- id: org.dmfs.tasks
   web: https://opentasks.app/
   desc: |-
     A task manager app, allowing you to categorise your todo list by urgency, state,
@@ -196,7 +279,14 @@ apps:
     https://f-droid.org/packages/at.bitfire.davdroid and https://f-droid.org/packages/com.etesync.syncadapter
   name: OpenTasks
   summary: Keep track of your list of goals
-- pkgname: org.torproject.android
+  icon: org.dmfs.tasks.82200.png
+  license: Apache-2.0
+  category: Writing
+  source: https://github.com/dmfs/opentasks
+  donate: ''
+  tracker: https://github.com/dmfs/opentasks/issues
+  slug: opentasks
+- id: org.torproject.android
   web: https://www.torproject.org/docs/android.html
   desc: |-
     Tor is both software and an open network that helps you defend against network
@@ -217,7 +307,14 @@ apps:
     available from the Mozilla addon site).
   name: Orbot
   summary: Enhance your privacy, break through firewalls and communicate more safely.
-- pkgname: app.organicmaps
+  icon: ''
+  license: BSD-3-Clause
+  category: Security
+  source: https://gitweb.torproject.org/orbot.git
+  donate: https://www.torproject.org/donate/donate.html.en
+  tracker: https://dev.guardianproject.info/projects/orbot/issues
+  slug: orbot
+- id: app.organicmaps
   web: https://organicmaps.app/
   desc: |-
     Organic Maps offers fast offline maps app for travelers, tourists, hikers and cyclists based on top of crowd-sourced OpenStreetMap data and curated with love by MAPS.ME founders.
@@ -231,7 +328,14 @@ apps:
     * No ads, no trackers, no data collection, no crapware, no pesticides
   name: Organic Maps
   summary: Offline maps with turn-by-turn navigation
-- pkgname: se.leap.riseupvpn
+  icon: app.organicmaps.21070806.png
+  license: Apache-2.0
+  category: Navigation
+  source: https://github.com/organicmaps/organicmaps/tree/HEAD
+  donate: ''
+  tracker: https://github.com/organicmaps/organicmaps/issues
+  slug: organic-maps
+- id: se.leap.riseupvpn
   web: https://riseup.net/
   desc: |-
     RiseupVPN is an application to provide easy and secure encrypted communication.
@@ -243,7 +347,14 @@ apps:
     servers, RiseupVPN is able to prevent many forms of censorship and surveillance.
   name: Riseup VPN
   summary: Secure VPN powered by Bitmask
-- pkgname: com.jarsilio.android.scrambledeggsif
+  icon: se.leap.riseupvpn.155.png
+  license: GPL-3.0-only
+  category: Internet
+  source: https://0xacab.org/leap/bitmask_android
+  donate: https://riseup.net/vpn/donate
+  tracker: https://0xacab.org/leap/bitmask_android/issues
+  slug: riseup-vpn
+- id: com.jarsilio.android.scrambledeggsif
   web: ''
   desc: |-
     Scrambled Exif (pronounced <i>egg</i>sif) helps you remove the metadata in your pictures before you share them.
@@ -285,7 +396,14 @@ apps:
     ★ Have fun sharing your pics!
   name: Scrambled Exif
   summary: Remove the metadata from your pictures before sharing them
-- pkgname: org.thoughtcrime.securesms
+  icon: com.jarsilio.android.scrambledeggsif.67.png
+  license: GPL-3.0-only
+  category: System
+  source: https://gitlab.com/juanitobananas/scrambled-exif/tree/HEAD
+  donate: ''
+  tracker: https://gitlab.com/juanitobananas/scrambled-exif/issues
+  slug: scrambled-exif
+- id: org.thoughtcrime.securesms
   web: https://www.signal.org
   desc: |-
     Privacy is possible. Signal makes it easy.
@@ -305,7 +423,14 @@ apps:
     ★ Speak Freely - Make crystal-clear phone calls to people who live across town, or across the ocean, with no long-distance charges.
   name: Signal
   summary: Signal Private Messenger
-- pkgname: org.torproject.torbrowser
+  icon: org.thoughtcrime.securesms.88605.png
+  license: GPL-3.0-only
+  category: Internet
+  source: https://github.com/signalapp/Signal-Android
+  donate: ''
+  tracker: https://support.signal.org/
+  slug: signal
+- id: org.torproject.torbrowser
   web: https://www.torproject.org/
   desc: |-
     Tor Browser for Android is the only official mobile browser supported by
@@ -316,7 +441,14 @@ apps:
     Any cookies automatically clear when you’re done browsing.
   name: Tor Browser
   summary: Experience real private browsing without tracking, surveillance, or censorship.
-- pkgname: org.secuso.privacyfriendlyweather
+  icon: org.torproject.torbrowser.2015808091.png
+  license: MPL
+  category: Security
+  source: ''
+  donate: https://www.torproject.org/donate/donate.html.en
+  tracker: https://trac.torproject.org/projects/tor/query?status=!closed&keywords=~tbb-mobile
+  slug: tor-browser
+- id: org.secuso.privacyfriendlyweather
   web: https://secuso.org/pfa
   desc: |-
     Lets you watch the weather for cities and locations. This includes the current
@@ -331,10 +463,17 @@ apps:
     Darmstadt. It does not require any permission and relinquishes advertisement and
     tracking mechanisms.
 
-    ''NonFreeNet:'' OpenWeatherMap service itself is not open source.
+    **NonFreeNet:** OpenWeatherMap service itself is not open source.
   name: Weather
   summary: Get weather information and forecast
-- pkgname: com.yubico.yubioath
+  icon: org.secuso.privacyfriendlyweather.14.png
+  license: GPL-3.0-only
+  category: Multimedia
+  source: https://github.com/SecUSo/privacy-friendly-weather
+  donate: ''
+  tracker: https://github.com/SecUSo/privacy-friendly-weather/issues
+  slug: weather
+- id: com.yubico.yubioath
   web: ''
   desc: |-
     Generate One-Time Passwords (OTPs) using a YubiKey NEO hardware, connected using
@@ -349,3 +488,10 @@ apps:
     YubiKey NEO. The YubiTOTP app is still maintained for backwards compatibility.
   name: Yubico Authenticator
   summary: Generate OATH codes with YubiKey NEO over NFC
+  icon: com.yubico.yubioath.20199.png
+  license: BSD-2-Clause
+  category: Connectivity
+  source: https://github.com/Yubico/yubioath-android
+  donate: ''
+  tracker: https://github.com/Yubico/yubioath-android/issues
+  slug: yubico-authenticator
