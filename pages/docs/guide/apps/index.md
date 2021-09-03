@@ -49,7 +49,7 @@ For more information, see [[microg]].
 
 CalyxOS comes with a list of suggested free software applications to facilitate private online access but the user always has the choice whether to install or not. They'll always be available when needed, even when offline since they're included with the OS.
 
-{% include_relative app_gallery.html %}
+{% include_relative _app_gallery.html %}
 
 ## CalyxOS Apps
 
