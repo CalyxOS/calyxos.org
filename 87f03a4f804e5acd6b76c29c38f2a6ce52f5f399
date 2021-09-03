@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "01ead78e_fa30f28e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-03T11:12:34Z",
+      "side": 1,
+      "message": "Could we also split this up into smaller commits?\n\nWhat I would usually do is\n1. update-app-list.rb updates, own commit,\n2. run rake update-apps, own commit, so that it\u0027s entirely auto-generated content\n3. other changes / commits as necessary.",
+      "revId": "87f03a4f804e5acd6b76c29c38f2a6ce52f5f399",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "09f0a8c5_2824cf6d",
+        "filename": "tasks/update-app-list.rb",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-03T11:12:34Z",
+      "side": 1,
+      "message": "While you\u0027re at it, can we use the index-v1.json instead?\n\nEither parse that, or maybe somehow use that directly?\n\nindex.xml will be going away at some point, so it might be better to handle it now while we\u0027re looking at things rather than scramble later.",
+      "revId": "87f03a4f804e5acd6b76c29c38f2a6ce52f5f399",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
