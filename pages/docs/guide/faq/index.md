@@ -8,7 +8,7 @@ redirect_from: /faq/
 ---
 
 ### Device support
-For questions about device support, both for existing and new devices, as well as support timeframe, see [Device support](device-support)
+For questions about device support, both for existing and new devices, as well as support timeframe, see [[device-support]].
 
 ### What are the goals of CalyxOS?
 We aspire to accomplish 3 major goals  1) encrypt the content of communications as much as possible  2) take countermeasures against metadata collection  3) take countermeasures against geolocation tracking
