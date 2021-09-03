@@ -8,19 +8,19 @@ CalyxOS is built on a dedicated server and then signed separately. It can be sig
 
 ## Build
 
-* You need to have a [build environment](/development/build/) setup first, and a build of CalyxOS.
+* You need to have a [[build environment => build]] setup first, and a build of CalyxOS.
 * Choose 'user' when running `lunch`.
 * For signing, you want to build a 'target-files-package' using `m target-files-package`
 * You'll also want to build the tools needed for signing and key creation, `m otatools-package otatools-key-package`
 
 Copy:
-* "$OUT/otatools.zip"
-* "$OUT/obj/PACKAGING/target_files_intermediates/*.zip"
+* `$OUT/otatools.zip`
+* `$OUT/obj/PACKAGING/target_files_intermediates/*.zip`
 
 to a separate folder for signing.
 
 Also copy:
-* "$OUT/otatools-keys.zip"
+* `$OUT/otatools-keys.zip`
 
 if you need to create the keys used to sign the OS.
 
