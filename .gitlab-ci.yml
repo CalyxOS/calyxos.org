@@ -3,6 +3,7 @@ image: ruby:latest
 cache:
   paths:
   - vendor/
+  - tmp/.htmlproofer
 
 before_script:
   - gem install bundler
@@ -25,7 +26,9 @@ pages:
 test:
   stage: test
   script:
-  - bundle exec jekyll build -d test --baseUrl "/calyxos.org"
+  - bundle exec jekyll build -d test
+  - rake check DIR=./test
+  - rake check-external DIR=./test
   artifacts:
     paths:
     - test
