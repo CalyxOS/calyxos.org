@@ -7,8 +7,10 @@ The promised feature update is here. It will be last big update for Android 11, 
 
 This update is currently in the beta channel, and will be bumped to the stable channel later after additional testing and feedback. Factory images will be available at that time as well.
 
+There was an issue with 2.8.1 (which was only released to the beta channel) that left cause lags or restarts on some devices. It has been fixed in 2.8.2, which is currently in the beta channel.
+
 Changelog:
-* CalyxOS 2.8.1 - Android 11
+* CalyxOS 2.8.2 - Android 11
 * August Security patch (2021-08-05)
 * Datura firewall: Network access toggle (the main toggle next to the app name) now prevents apps being able to bypass network isolation through DNS requests
 * Global VPN feature: Ability to use one VPN device-wide - in the main user, work profile as well as other users
