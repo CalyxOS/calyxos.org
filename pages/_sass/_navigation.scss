@@ -20,6 +20,22 @@ section.content > ul.content-menu:first-child > li:first-child > a:first-child {
   margin-top: 0;
 }
 
+//
+// CUSTOM INTRO
+//
+
+.secondaryIntro .wrapper .with-icon {
+  display: flex;
+  img.header-icon {
+    max-height: 128px;
+    //margin-right: 2rem;
+    //margin-top: -22px;
+  }
+  .text {
+    padding-top: 20px;
+    padding-left: var(--spacing-base);
+  }
+}
 
 //
 // TOC
