@@ -5,10 +5,6 @@ date: 2021-09-02
 
 The promised feature update is here. It will be last big update for Android 11, we will not be developing any more features and instead focusing on making an Android 11 build available for the [Pixel 5a](https://twitter.com/CalyxOS/status/1433469816720044041), and also preparing for Android 12.
 
-This update is currently in the beta channel, and will be bumped to the stable channel later after additional testing and feedback. Factory images will be available at that time as well.
-
-There was an issue with 2.8.1 (which was only released to the beta channel) that caused application lag or restarts on some devices. It has been fixed in 2.8.2, which is currently in the beta channel.
-
 Changelog:
 * CalyxOS 2.8.2 - Android 11
 * August Security patch (2021-08-05)
