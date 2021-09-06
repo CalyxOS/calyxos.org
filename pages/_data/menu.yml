@@ -16,7 +16,7 @@
     - gerrit
     - tech:
       - microg-details
-      - datura
+      - datura-details
     - build:
       - chromium
       - emulator
