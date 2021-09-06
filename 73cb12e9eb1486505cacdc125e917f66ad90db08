@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d5c9f73_e8107007",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-06T22:22:48Z",
+      "side": 1,
+      "message": "This is why I wanted to have the commits split, so the other stuff can go in while this is discussed / figured out.",
+      "revId": "73cb12e9eb1486505cacdc125e917f66ad90db08",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "644d41bb_f056b4d6",
+        "filename": "pages/docs/guide/apps/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-06T22:22:48Z",
+      "side": 1,
+      "message": "Not just updates, first-time installs too, and also uninstalls.",
+      "revId": "73cb12e9eb1486505cacdc125e917f66ad90db08",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f07a05b3_651c665b",
+        "filename": "pages/docs/guide/apps/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-06T22:22:48Z",
+      "side": 1,
+      "message": "Paid apps won\u0027t always work though.",
+      "revId": "73cb12e9eb1486505cacdc125e917f66ad90db08",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5462874a_ea0ecd0a",
+        "filename": "pages/docs/guide/apps/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-06T22:22:48Z",
+      "side": 1,
+      "message": "Not the biggest fan of this wording tbh.\n\nIt\u0027s also now separate from that microG page which had the three modes too but listed differently.\n\nAlso the default is microG on, you have to turn it off in SetupWizard (and I think we do want to keep it that way)",
+      "revId": "73cb12e9eb1486505cacdc125e917f66ad90db08",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7ca9d03c_d2e52e23",
+        "filename": "pages/docs/guide/apps/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-06T22:22:48Z",
+      "side": 1,
+      "message": "I guess technically it\u0027s not without, ore like disabled.\n\nThat distinction is important (and we talk about it on features/microg too) since it can make some apps work - for example, Google Camera won\u0027t work with no microG, but happily runs with disabled microG.",
+      "revId": "73cb12e9eb1486505cacdc125e917f66ad90db08",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
