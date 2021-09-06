@@ -14,6 +14,16 @@
 # - development
 # - news
 #
+# Path vs URL
+# -----------------------
+#
+# The path does not include a leading /, and does include the file suffix.
+#
+# For example:
+#
+#   page.path => "docs/guide/apps/weather.md"
+#   page.url  => "/docs/guide/apps/weather/"
+#
 module Jekyll
 
   class DummyPage < Hash
@@ -67,7 +77,7 @@ module Jekyll
 
       if @start_level.nil? || level >= @start_level
         render_item(
-          level: level, selected: is_selected?(path, page, options),
+          level: level, selected: is_selected?(page, options, sub_items),
           url: page.url, title: title, description: description
         ) + get_sub_menu_str(sub_items, path, options)
       else
@@ -104,17 +114,25 @@ module Jekyll
 </li>)
     end
 
-    def is_selected?(path, page, options)
+    def is_selected?(page, options, sub_items)
       if page.url == @page["url"]
         true
-      elsif options[:level] == options[:active_at_level] &&
-            @page['url'] =~ /\A\/?#{Regexp.escape(path)}\//
-        # if page is a parent of @page, and the level is a level
-        # that we force a selection on.
-        true
-      else
-        false
+      elsif page_parent?(parent: page, child: @page)
+        if options[:level] == options[:active_at_level]
+          # force active when active_at_level is set
+          true
+        elsif sub_items.nil?
+          # if there is no more menu, make this element active
+          true
+        else
+          false
+        end
       end
+    end
+
+    # returns true if child is a descendant of parent
+    def page_parent?(parent:, child:)
+      !!( child['url'] =~ /\A#{Regexp.escape(parent['url'])}/ )
     end
 
     def path_prefix(prefix)

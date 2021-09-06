@@ -1,0 +1,5 @@
+{% if page.autolink -%}
+  {{ content | auto_link | wiki_link }}
+{% else -%}
+  {{ content | wiki_link }}
+{% endif -%}
