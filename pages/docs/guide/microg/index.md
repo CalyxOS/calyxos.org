@@ -38,14 +38,14 @@ With CalyxOS, you have three options:
 
 You can choose to disable microG when setting up the device for the first time.
 
-You will receive no "push notification" using the Google infrastructure. Many apps refuse to run, however some apps such as Google Camera still work.
+This is the 100% de-Googled mode with no attempt to make apps work that expect Google services. You will receive no "push notification" using the Google infrastructure. Many apps refuse to run, however some apps such as Google Camera still work. Some apps will consume more battery without push notifications from Google. The presence of microG, even when disabled, will allow some apps to work that would not otherwise.
 
 #### 2. microG enabled, no Google Account (default)
 
-This is the default recommended option.
+This is the default and recommended option.
 
-With microG enabled, many more applications will work. You will receive push notifications from Google servers.
+In this mode, microG is used to implement the needed libraries to make many apps function, but in a way that does not leak your identifiable information to Google. In some cases (e.g. location), privacy-respecting services are used in place of Google services, and in other cases (e.g. push notifications), Google services are used semi-anonymously (not tied to a user identity).
 
 #### 3. microG enabled, with a Google Account
 
-If you choose to configure a Google Account, even more apps will run correctly. Users on the Google Fi network can get network connectivity.
+With [[microG]] enabled, you have the option to configure it with a Google account. This will allow some additional apps and services to work, such as Google Fi, but you are no longer semi-anonymous with respect to Google services.
