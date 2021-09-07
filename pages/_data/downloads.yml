@@ -1,5 +1,15 @@
 ---
 stable:
+- name: Pixel 5a
+  codename: barbet
+  factory_link: https://release.calyxinstitute.org/barbet-factory-2.8.3.zip
+  factory_sha256: afa838cafe793115c1aac93255a65ea7646b34d59a47d42e51bf0d5955955879
+  ota_link: https://release.calyxinstitute.org/barbet-ota_update-2.8.3.zip
+  ota_sha256: a0e8b106b29d7a8e5ea9a872f13ea98d684337e6ddad09ba988827ddeaf9a210
+  incremental_link: https://release.calyxinstitute.org/barbet-incremental-2.8.3-2.8.3.zip
+  incremental_sha256:
+  incremental_old_build: 2.8.3
+  date: '2021-09-07'
 - name: Pixel 4a (5G)
   codename: bramble
   factory_link: https://release.calyxinstitute.org/bramble-factory-2.8.2.zip
