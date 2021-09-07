@@ -9,7 +9,7 @@ redirect_from: /faq/device-support/
 CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboot) (including bootloader re-locking) to keep the Android security model intact.
 
 ### Supported devices, still receiving updates from the manufacturer
-* Pixel 5, 4a (5G)
+* Pixel 5a, 5, 4a (5G)
 * Pixel 4a
 * Pixel 4, 4 XL
 * Pixel 3a, 3a XL
@@ -27,6 +27,7 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> Manufacturer support date </th><th> CalyxOS support date </th></tr>
+<tr><td> Pixel 5a </td><td> August 2024 </td><td> August 2024 </td></tr>
 <tr><td> Pixel 4a (5G) </td><td> October 2023 </td><td> August 2024 </td></tr>
 <tr><td> Pixel 5 </td><td> November 2023 </td><td> August 2024 </td></tr>
 <tr><td> Pixel 4a </td><td> August 2023 </td><td> August 2023 </td></tr>
