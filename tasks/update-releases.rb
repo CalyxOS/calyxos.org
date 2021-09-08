@@ -15,6 +15,7 @@ module Releases
   DEST_FILE       = "#{HOME}/pages/_data/downloads.yml"
 
   CODENAME_MAP = {
+    "barbet"         => "Pixel 5a",
     "bramble"        => "Pixel 4a (5G)",
     "redfin"         => "Pixel 5",
     "sunfish"        => "Pixel 4a",
