@@ -5,8 +5,6 @@ date: 2021-09-09
 
 The September Security update is here. It's basically the last update (2.8.2/.3) with the September 2021 security patches applied on top.
 
-It is currently in the beta channel, and will be bumped to the stable channel later after additional testing and feedback. Factory images will be available at that time as well.
-
 Changelog:
 * CalyxOS 2.9.0 - Android 11
 * September Security update (2021-09-05)
