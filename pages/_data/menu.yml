@@ -1,21 +1,28 @@
 ---
-- about:
-  - faq:
-    - device-support
-  - team
-  - tech
-- features:
-  - microg
+- features
 - community:
   - code-of-conduct
-- development:
-  - contribute
-  - build:
-    - chromium
-    - emulator
-    - kernel
+- docs:
+  - about:
+  - guide:
+    - apps
+    - device-support
+    - faq
     - microg
-    - production
-  - gerrit
-  - sign
+    - settings
+    - updates
+  - tech:
+    - microg-details
+    - datura-details
+  - development:
+    - contribute
+    - gerrit
+    - build:
+      - chromium
+      - emulator
+      - fdroid
+      - kernel
+      - microg
+      - production
+      - sign
 - news

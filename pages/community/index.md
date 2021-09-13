@@ -1,10 +1,10 @@
 ---
 title: Community
 description: 🧑🏿‍🤝‍🧑🏻 Get support, give support, join the conversation!
+toc: true
 ---
 
-## Code of Conduct
-See: [Code of Conduct](code-of-conduct)
+Welcome to the CalyxOS community. Please see our [[code-of-conduct]] and dive right in.
 
 ## Chat
 
@@ -13,28 +13,28 @@ All below channels are on Matrix. They are public and unencrypted. You can click
 Note: Image/Video sending to any channel is currently prevented to combat spam
 
 ### Main channel
+
 * CalyxOS: **[#CalyxOS:matrix.org](https://app.element.io/#/room/#CalyxOS:matrix.org)**
 * Calyx Institute channel: **[#calyx:matrix.org](https://app.element.io/#/room/#calyx:matrix.org)**
 
 ### Additional Channels
+
 * For all off-topic conversations: **[#calyxos-offtopic:matrix.org](https://app.element.io/#/room/#calyxos-offtopic:matrix.org)**
 * Live feed of code commits / gitlab activity / reddit posts: **[#calyxos-feeds:matrix.org](https://app.element.io/#/room/#calyxos-feeds:matrix.org)**
 * For documentation / translation related discussion: **[#calyxos-docs:matrix.org](https://app.element.io/#/room/#calyxos-docs:matrix.org)**
 * For development related discussion: **[#calyxos-dev:matrix.org](https://app.element.io/#/room/#calyxos-dev:matrix.org)**
 * For infrastructure related discussion: **[#calyxos-infra:matrix.org](https://app.element.io/#/room/#calyxos-infra:matrix.org)**
 
-<br />
-
 ## Stay Up To Date
 
 ### Twitter
+
 * [@CalyxOS](https://twitter.com/CalyxOS)
 * [@calyxinsitute](https://twitter.com/calyxinstitute)
 
 ### Reddit
-* [r/CalyxOS](https://www.reddit.com/r/CalyxOS/)
 
-<br />
+* [r/CalyxOS](https://www.reddit.com/r/CalyxOS/)
 
 ## Bridges for the chat channels
 
