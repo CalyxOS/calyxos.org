@@ -16,8 +16,6 @@ Next, see the [[OTA installation instructions => ota-install]].
 
 Optional: To verify the *SHA256* digest, run the command `sha256sum FILENAME_OF_DOWNLOAD` and compare the result with the value in the table below.
 
-<br />
-
 ## Incremental OTA updates
 
 {% for release in site.data.downloads.releases %}
