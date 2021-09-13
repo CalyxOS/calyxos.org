@@ -1,10 +1,10 @@
 ---
 title: microG
-description: 💪 Maintain compatibility with apps.
+description: How CalyxOS uses microG
 redirect_from: /tech/microg/
 ---
 
-CalyxOS ships with [microG](../../features/microg). This page lists some implementation details specific to CalyxOS.
+CalyxOS ships with [[microG]]. This page lists some implementation details specific to CalyxOS.
 
 ### Signature Spoofing
 microG Services Core (GmsCore) pretends to be Google Play Services by using the same package name. Apps also expect this to be signed by Google's keys, which we achieve by spoofing the signature that apps see to be that of Google Play Services.
