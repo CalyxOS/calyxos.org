@@ -1,7 +1,6 @@
 ---
 title: Device Support
 description: 🙋 Check out device support timelines and requirements below!
-nav_title: Device support
 toc: true
 redirect_from: /faq/device-support/
 ---
@@ -39,6 +38,20 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 </table>
 
 Reference: <https://support.google.com/nexus/answer/4457705#zippy=%2Cpixel-phones>
+
+### SIM Support
+
+| Device | Status |
+| ------ | ------ |
+| Pixel 4a (5G) | any eSIM + physical SIM, dual SIM |
+| Pixel 5a  | any eSIM + physical SIM, dual SIM |
+| Pixel 5 | any eSIM + physical SIM, dual SIM |
+| Pixel 4a | any eSIM + physical SIM, dual SIM |
+| Pixel 4, 4 XL | any eSIM + physical SIM, dual SIM |
+| Pixel 3a, 3a XL | any eSIM + physical SIM, dual SIM |
+| Pixel 3, 3 XL | any eSIM, single SIM |
+| Pixel 2, 2 XL | Fi-only eSIM, single SIM |
+| Xiaomi Mi A2 | 2 physical SIMs, dual SIM |
 
 ### Requirements for supporting a new device
 1. Android 11.0:
