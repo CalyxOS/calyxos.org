@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee36176b_2733ec39",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-13T13:56:20Z",
+      "side": 1,
+      "message": "Just came to my mind since I linked https://calyxos.org/about/tech/microg/ to somebody and remembered you mentioning the move.",
+      "revId": "f5ed77ca30243013b58ddabd78449fe50ac25e01",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "994d21d0_d1d91944",
+        "filename": "pages/docs/development/tech/microg-details/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-13T13:56:20Z",
+      "side": 1,
+      "message": "Does this redirect still work?\n\nAnd with that does the wiki link stype [[microG]] work too?",
+      "revId": "f5ed77ca30243013b58ddabd78449fe50ac25e01",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
