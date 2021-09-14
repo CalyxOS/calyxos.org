@@ -35,6 +35,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2e1e6e4_54acc8db",
+        "filename": "pages/docs/guide/apps/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-14T21:48:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "644d41bb_f056b4d6",
+      "revId": "73cb12e9eb1486505cacdc125e917f66ad90db08",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f07a05b3_651c665b",
@@ -48,6 +66,24 @@
       "writtenOn": "2021-09-06T22:22:48Z",
       "side": 1,
       "message": "Paid apps won\u0027t always work though.",
+      "revId": "73cb12e9eb1486505cacdc125e917f66ad90db08",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "77bb551e_f6410c68",
+        "filename": "pages/docs/guide/apps/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-14T21:48:17Z",
+      "side": 1,
+      "message": "resolved.",
+      "parentUuid": "f07a05b3_651c665b",
       "revId": "73cb12e9eb1486505cacdc125e917f66ad90db08",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -69,6 +105,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "09f19165_3b321597",
+        "filename": "pages/docs/guide/apps/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-14T21:48:17Z",
+      "side": 1,
+      "message": "resolved.",
+      "parentUuid": "5462874a_ea0ecd0a",
+      "revId": "73cb12e9eb1486505cacdc125e917f66ad90db08",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7ca9d03c_d2e52e23",
@@ -82,6 +136,24 @@
       "writtenOn": "2021-09-06T22:22:48Z",
       "side": 1,
       "message": "I guess technically it\u0027s not without, ore like disabled.\n\nThat distinction is important (and we talk about it on features/microg too) since it can make some apps work - for example, Google Camera won\u0027t work with no microG, but happily runs with disabled microG.",
+      "revId": "73cb12e9eb1486505cacdc125e917f66ad90db08",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d2beaaa_c74ddbbb",
+        "filename": "pages/docs/guide/apps/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-14T21:48:17Z",
+      "side": 1,
+      "message": "resolved",
+      "parentUuid": "7ca9d03c_d2e52e23",
       "revId": "73cb12e9eb1486505cacdc125e917f66ad90db08",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
