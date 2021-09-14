@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "34f70071_afe6e288",
+        "filename": "pages/docs/guide/microg/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-14T17:00:05Z",
+      "side": 1,
+      "message": "Should hardware identity be somehow mentioned?\n\nPlay Services on stock: Gets Hardware IDs, such as IMEI / Serial\nmicroG: Does not have access to said IDs, sends spoofed data.\n\nIP Address and device model would be the common thing between these two.",
+      "revId": "c7d1371f1a8956e28188909b06b4fa4aeb56465f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
