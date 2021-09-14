@@ -33,6 +33,24 @@
       "message": "Does this redirect still work?\n\nAnd with that does the wiki link stype [[microG]] work too?",
       "revId": "f5ed77ca30243013b58ddabd78449fe50ac25e01",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f6e1e2ac_16528be4",
+        "filename": "pages/docs/development/tech/microg-details/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-14T21:45:39Z",
+      "side": 1,
+      "message": "yes. /tech/microg will redirect to /docs/development/tech/microg-details/\n\n[[microg]] will link to /docs/guide/microg/",
+      "parentUuid": "994d21d0_d1d91944",
+      "revId": "f5ed77ca30243013b58ddabd78449fe50ac25e01",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
