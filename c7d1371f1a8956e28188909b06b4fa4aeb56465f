@@ -16,6 +16,24 @@
       "message": "Should hardware identity be somehow mentioned?\n\nPlay Services on stock: Gets Hardware IDs, such as IMEI / Serial\nmicroG: Does not have access to said IDs, sends spoofed data.\n\nIP Address and device model would be the common thing between these two.",
       "revId": "c7d1371f1a8956e28188909b06b4fa4aeb56465f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3fc067d0_d117a1eb",
+        "filename": "pages/docs/guide/microg/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-14T21:47:13Z",
+      "side": 1,
+      "message": "yes! the id spoofing it one of the best parts of microg and i would like to add a whole section on that, but i don\u0027t yet know enough about the details to feel confident writing that language.\n\nWhat happens when microg is installed and not enabled? Are any ids treated differently then.\n\nHow about for the \"enabled\" section: \"Additionally, microG will send fake identification to apps, such as the IMEI, device ID, and advertising ID, in order to prevent apps and services from tracking you. This does not include, however, the device model and IP address, which are still available to the app.\"",
+      "parentUuid": "34f70071_afe6e288",
+      "revId": "c7d1371f1a8956e28188909b06b4fa4aeb56465f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
