@@ -34,6 +34,24 @@
       "parentUuid": "34f70071_afe6e288",
       "revId": "c7d1371f1a8956e28188909b06b4fa4aeb56465f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1666d43e_c37782e0",
+        "filename": "pages/docs/guide/microg/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-15T13:10:11Z",
+      "side": 1,
+      "message": "The usage of the IDs is only for \u0027device registration\u0027, which has it\u0027s own toggle.\n\nIt\u0027s needed for \u0027cloud messaging\u0027 aka push notifications, and hence it\u0027s on by default.\nIt\u0027s also needed for account login.\n\nhttps://github.com/microg/GmsCore/blob/v0.2.22.212658/play-services-core/src/main/java/org/microg/gms/checkin/CheckinClient.java#L87 this is exactly what\u0027s sent.\n\nStuff like \u0027cellOpeartor\u0027 and \u0027simOpeartor\u0027 and \u0027serial\u0027 are not the real thing.\n\nRefs:\n* https://developer.android.com/about/versions/10/privacy/changes#non-resettable-device-ids (microG is privileged but does not have the relevant permissions, nor the code to actually call these methods)\n* https://github.com/microg/GmsCore/blob/v0.2.22.212658/play-services-base-core/src/main/java/org/microg/gms/common/DeviceIdentifier.java\n* https://github.com/microg/GmsCore/blob/v0.2.22.212658/play-services-base-core/src/main/java/org/microg/gms/common/PhoneInfo.java",
+      "parentUuid": "3fc067d0_d117a1eb",
+      "revId": "c7d1371f1a8956e28188909b06b4fa4aeb56465f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
