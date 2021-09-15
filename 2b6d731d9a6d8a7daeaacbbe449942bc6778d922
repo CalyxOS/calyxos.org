@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8e3f6a52_dc92daba",
+        "filename": "pages/_data/menu.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-15T17:38:14Z",
+      "side": 1,
+      "message": "This could be under about directly, or maybe just still community?",
+      "revId": "2b6d731d9a6d8a7daeaacbbe449942bc6778d922",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "12325ecb_f4d30072",
+        "filename": "pages/_data/menu.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-15T17:38:14Z",
+      "side": 1,
+      "message": "This isn\u0027t strictly development but I see why you have it here.\n\nOld development was basically just build guides.",
+      "revId": "2b6d731d9a6d8a7daeaacbbe449942bc6778d922",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1fd79722_1d9f1ca8",
+        "filename": "pages/docs/guide/apps/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-15T17:38:14Z",
+      "side": 1,
+      "message": "Since this is adding new content, we can split this out into it\u0027s own commit since so far this is what seems to be holding us up.",
+      "revId": "2b6d731d9a6d8a7daeaacbbe449942bc6778d922",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "000bd67f_4134ab50",
+        "filename": "pages/docs/guide/security/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-15T17:38:14Z",
+      "side": 1,
+      "message": "These aren\u0027t exactly security features though, are they?\n\nSame with microG below\n\nCould we just keep the same list for now, and modify it later.\n\nIt was also good to have one big full list under features to have everything under in one place, as a quick glance.\n\nThe main features page has images and is carefully organised.\n\nfeatures/list was just a list of features, this super quick to add / remove anything without giving more thought.",
+      "revId": "2b6d731d9a6d8a7daeaacbbe449942bc6778d922",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b4038b98_c397b362",
+        "filename": "pages/get/_security_notes.html",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-15T17:38:14Z",
+      "side": 1,
+      "message": "The \u0027system-updates\u0027 name would let us easily have an \u0027app-updates\u0027 in the future, but we can just change it back later.",
+      "revId": "2b6d731d9a6d8a7daeaacbbe449942bc6778d922",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
