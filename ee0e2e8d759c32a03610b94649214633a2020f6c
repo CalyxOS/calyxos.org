@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9c6c2e02_4bb4cbc4",
+        "filename": "pages/_includes/footer.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-15T18:41:41Z",
+      "side": 1,
+      "message": "This goes to zammad right? Do we want it on the website, especially as the first link?",
+      "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ca68160_a4ed3763",
+        "filename": "pages/_includes/footer.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-15T18:41:41Z",
+      "side": 1,
+      "message": "Institute?",
+      "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d0076954_50a24dfc",
+        "filename": "pages/_includes/footer.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-15T18:41:41Z",
+      "side": 1,
+      "message": "Institute?",
+      "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "50f50fa6_97dc4dc6",
+        "filename": "pages/_includes/footer.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-15T18:41:41Z",
+      "side": 1,
+      "message": "This isn\u0027t setup yet and merging PRs here would cause issues.",
+      "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
