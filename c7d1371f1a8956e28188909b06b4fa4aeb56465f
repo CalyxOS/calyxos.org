@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b47d9f17_a00f78f4",
+        "filename": "pages/docs/guide/apps/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-15T17:43:28Z",
+      "side": 1,
+      "message": "This change (apart from include app_gallery.html) could also be in it\u0027s own commit to merge the rest, and make it easier to review.",
+      "revId": "c7d1371f1a8956e28188909b06b4fa4aeb56465f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "34f70071_afe6e288",
         "filename": "pages/docs/guide/microg/index.md",
         "patchSetId": 3
