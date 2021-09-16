@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0b8819e5_4688c090",
+        "filename": "pages/_data/menu.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-16T19:02:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8e3f6a52_dc92daba",
+      "revId": "2b6d731d9a6d8a7daeaacbbe449942bc6778d922",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "12325ecb_f4d30072",
@@ -31,6 +49,24 @@
       "writtenOn": "2021-09-15T17:38:14Z",
       "side": 1,
       "message": "This isn\u0027t strictly development but I see why you have it here.\n\nOld development was basically just build guides.",
+      "revId": "2b6d731d9a6d8a7daeaacbbe449942bc6778d922",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9e54621_54c1bd39",
+        "filename": "pages/_data/menu.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-16T19:02:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "12325ecb_f4d30072",
       "revId": "2b6d731d9a6d8a7daeaacbbe449942bc6778d922",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -52,6 +88,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6c77a03_0bb78076",
+        "filename": "pages/docs/guide/apps/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-16T19:02:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1fd79722_1d9f1ca8",
+      "revId": "2b6d731d9a6d8a7daeaacbbe449942bc6778d922",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "000bd67f_4134ab50",
@@ -65,6 +119,24 @@
       "writtenOn": "2021-09-15T17:38:14Z",
       "side": 1,
       "message": "These aren\u0027t exactly security features though, are they?\n\nSame with microG below\n\nCould we just keep the same list for now, and modify it later.\n\nIt was also good to have one big full list under features to have everything under in one place, as a quick glance.\n\nThe main features page has images and is carefully organised.\n\nfeatures/list was just a list of features, this super quick to add / remove anything without giving more thought.",
+      "revId": "2b6d731d9a6d8a7daeaacbbe449942bc6778d922",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b7c68284_cefb9916",
+        "filename": "pages/docs/guide/security/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-16T19:02:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "000bd67f_4134ab50",
       "revId": "2b6d731d9a6d8a7daeaacbbe449942bc6778d922",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
