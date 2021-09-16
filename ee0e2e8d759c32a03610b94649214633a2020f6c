@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b4ce4419_6dcf318c",
+        "filename": "pages/_includes/footer.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-16T19:32:34Z",
+      "side": 1,
+      "message": "yes, it goes to zammad. it is a problem if you are the only one answering calyxos tickets. i don\u0027t know why we would have it unless we link to it. but a longer discussion is required as to how we are going to handle calyxos tickets.",
+      "parentUuid": "9c6c2e02_4bb4cbc4",
+      "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0ca68160_a4ed3763",
         "filename": "pages/_includes/footer.html",
         "patchSetId": 1
@@ -31,6 +49,24 @@
       "writtenOn": "2021-09-15T18:41:41Z",
       "side": 1,
       "message": "Institute?",
+      "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b2ab607a_d1dbb1a6",
+        "filename": "pages/_includes/footer.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-16T19:32:34Z",
+      "side": 1,
+      "message": "I asked on signal. people said to link to the institute one since there is not a calyxos facebook group. i guess the title can be changed to reflect that.",
+      "parentUuid": "0ca68160_a4ed3763",
       "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -54,6 +90,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ab3538d7_4304c62e",
+        "filename": "pages/_includes/footer.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-16T19:32:34Z",
+      "side": 1,
+      "message": "same as for facebook. nick and catie thought it was better to link to institute than to have no link at all.",
+      "parentUuid": "d0076954_50a24dfc",
+      "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "50f50fa6_97dc4dc6",
         "filename": "pages/_includes/footer.html",
         "patchSetId": 1
@@ -65,6 +119,24 @@
       "writtenOn": "2021-09-15T18:41:41Z",
       "side": 1,
       "message": "This isn\u0027t setup yet and merging PRs here would cause issues.",
+      "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6768ba24_fc510f6e",
+        "filename": "pages/_includes/footer.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-16T19:32:34Z",
+      "side": 1,
+      "message": "what do you want it to link to?",
+      "parentUuid": "50f50fa6_97dc4dc6",
       "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
