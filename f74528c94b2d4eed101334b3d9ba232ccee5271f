@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7b2feb4_d8652563",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-16T20:04:28Z",
+      "side": 1,
+      "message": "I don\u0027t know of the best way to display this, but we should have this somewhere on the website.\n\nIt\u0027s what you see when you boot the device, on the yellow screen.\n\nhttps://source.android.com/security/verifiedboot/boot-flow \"Example YELLOW screen\"",
+      "revId": "f74528c94b2d4eed101334b3d9ba232ccee5271f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
