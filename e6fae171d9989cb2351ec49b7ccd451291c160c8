@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c727bd9b_6dcb4e6c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-16T19:14:44Z",
+      "side": 1,
+      "message": "what was your objection to my version of the guide/apps?",
+      "revId": "e6fae171d9989cb2351ec49b7ccd451291c160c8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
