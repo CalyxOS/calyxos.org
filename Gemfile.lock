@@ -73,6 +73,7 @@ GEM
     public_suffix (4.0.6)
     racc (1.5.2)
     rainbow (3.0.0)
+    rake (13.0.6)
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -100,6 +101,7 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-toc
   kramdown
+  rake
   rouge
   webrick (~> 1.7)
 

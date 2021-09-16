@@ -8,15 +8,17 @@ cache:
 before_script:
   - gem install bundler
   - bundle config set deployment true
-  - bundle install --path vendor
-  - rake update-releases
-  - rake update-apps
-  - rake back-to-stock
+  - bundle config set --local path vendor
+  - bundle install
+  - bundle binstubs rake jekyll
+  - bin/rake update-releases
+  - bin/rake update-apps
+  - bin/rake back-to-stock
 
 pages:
   stage: deploy
   script:
-  - bundle exec jekyll build -d public --baseUrl "/calyxos.org"
+  - bin/jekyll build -d public --baseUrl "/calyxos.org"
   artifacts:
     paths:
     - public
@@ -26,11 +28,9 @@ pages:
 test:
   stage: test
   script:
-  - bundle exec jekyll build -d test
-  - rake check DIR=./test
-  - rake check-external DIR=./test
+  - bin/jekyll build -d test
+  - bin/rake check DIR=./test
+  - bin/rake check-external DIR=./test
   artifacts:
     paths:
     - test
-  except:
-  - dev
