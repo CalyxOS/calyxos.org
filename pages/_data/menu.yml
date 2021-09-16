@@ -10,6 +10,8 @@
     - device-support
     - faq
     - microg
+    - security
+    - settings
     - updates
   - tech:
     - microg-details
