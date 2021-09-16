@@ -34,6 +34,24 @@
       "parentUuid": "d2c50c3a_575d4249",
       "revId": "7837fa03bb2ea02dfc56b518a8d111b5425acbf9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d89fc7f3_4ec516f6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-16T19:27:01Z",
+      "side": 1,
+      "message": "Sounds good.\n\nIdea behind /list was to have an internal dumping ground for everything.\n\nIt\u0027s not linked anywhere right now intentionally.\n\nThat was to avoid having to figure out how or where to add something.\n\nStep 1. Add to features/list\nStep 2. Add anywhere.\n\nSaid list can still be a markdown file somewhere else, or still kept here somehow and just not linked / useful for reference.",
+      "parentUuid": "5592ce5a_3bdd2d52",
+      "revId": "7837fa03bb2ea02dfc56b518a8d111b5425acbf9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
