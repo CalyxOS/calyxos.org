@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2c50c3a_575d4249",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-16T19:08:58Z",
+      "side": 1,
+      "message": "I would like to keep the full features/list page with everything in one place.\n\nI do see the value of having a dedicated settings page though, perhaps features/list could include it?\n\nAdditionally, not all of what\u0027s put in security/ belongs there.\n\nSo I split this out from the rest.",
+      "revId": "7837fa03bb2ea02dfc56b518a8d111b5425acbf9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
