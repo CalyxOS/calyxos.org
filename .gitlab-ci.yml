@@ -27,8 +27,8 @@ test:
   stage: test
   script:
   - bundle exec jekyll build -d test
-  - rake check DIR=./test
-  - rake check-external DIR=./test
+  - bundle exec rake check DIR=./test
+  - bundle exec rake check-external DIR=./test
   artifacts:
     paths:
     - test
