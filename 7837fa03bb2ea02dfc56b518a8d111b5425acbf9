@@ -16,6 +16,24 @@
       "message": "I would like to keep the full features/list page with everything in one place.\n\nI do see the value of having a dedicated settings page though, perhaps features/list could include it?\n\nAdditionally, not all of what\u0027s put in security/ belongs there.\n\nSo I split this out from the rest.",
       "revId": "7837fa03bb2ea02dfc56b518a8d111b5425acbf9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5592ce5a_3bdd2d52",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-16T19:19:59Z",
+      "side": 1,
+      "message": "My concern is that we now have three copies of the same information:\n\n/features/\n/features/list/\n/doc/guide/* (in various places)\n\nThese seems too difficult to maintain and too much for users. I don\u0027t care what we do now for the short term, but for the long term, how about this:\n\nkeep /features as a top level navigation item, but modify it somewhat to include both the \"headline\" features and the additional features at the bottom that are only currently in /features/list.\n\nalso, modify /features to include more links to /docs/guide, when we have the relevant pages ready.",
+      "parentUuid": "d2c50c3a_575d4249",
+      "revId": "7837fa03bb2ea02dfc56b518a8d111b5425acbf9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
