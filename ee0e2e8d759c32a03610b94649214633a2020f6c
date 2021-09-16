@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "05f9f14b_c4f078a4",
+        "filename": "pages/_includes/footer.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-16T19:58:12Z",
+      "side": 1,
+      "message": "We can link it to elsewhere, like membership. The first link here then becomes matrix which is good.",
+      "parentUuid": "b4ce4419_6dcf318c",
+      "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0ca68160_a4ed3763",
         "filename": "pages/_includes/footer.html",
         "patchSetId": 1
@@ -67,6 +85,24 @@
       "side": 1,
       "message": "I asked on signal. people said to link to the institute one since there is not a calyxos facebook group. i guess the title can be changed to reflect that.",
       "parentUuid": "0ca68160_a4ed3763",
+      "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bd15dced_a60ca24f",
+        "filename": "pages/_includes/footer.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-16T19:58:12Z",
+      "side": 1,
+      "message": "Oh yes, I meant we should update the title, sorry to not have been clearer.",
+      "parentUuid": "b2ab607a_d1dbb1a6",
       "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -108,6 +144,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "af5eedcc_096fe62c",
+        "filename": "pages/_includes/footer.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-16T19:58:12Z",
+      "side": 1,
+      "message": "Agreed",
+      "parentUuid": "ab3538d7_4304c62e",
+      "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "50f50fa6_97dc4dc6",
         "filename": "pages/_includes/footer.html",
         "patchSetId": 1
@@ -137,6 +191,24 @@
       "side": 1,
       "message": "what do you want it to link to?",
       "parentUuid": "50f50fa6_97dc4dc6",
+      "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "06a9a806_7c934241",
+        "filename": "pages/_includes/footer.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-16T19:58:12Z",
+      "side": 1,
+      "message": "Maybe leave it out for now / separate commit and I think I\u0027ll setup copybara on a server to test it out, seems easy enough to get started.",
+      "parentUuid": "6768ba24_fc510f6e",
       "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
