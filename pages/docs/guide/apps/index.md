@@ -86,7 +86,10 @@ These applications were developed specifically for use with CalyxOS, although so
 
 ### CalyxOS Dialer
 
-* Phone Dialer has built in support for Signal and WhatsApp calling. You're able to make a Signal or WhatsApp call to a contact if they're present on their service directly from the Phone Dialer.
+* Phone Dialer has built in optional support for Signal and WhatsApp calling.
+  * You're always shown the Signal option, and you can make a Signal call if the contact has Signal.
+  * The WhatsApp option is only shown when you have WhatsApp installed, and you can make a WhatsApp call if the contact has WhatsApp.
+  * If you don't want these optons, they can be turned off from Menu (top right) -> Settings -> Display options -> Show call provider selection dialog.
 * Phone Dialer has support for ‘Sensitive Numbers’ feature, where calls to numbers for help lines such as domestic violence, child abuse, suicide hotlines are not recorded in the call log
   * These numbers are also available from a menu entry, Helplines
 
