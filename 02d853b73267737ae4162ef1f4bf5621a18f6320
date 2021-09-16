@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd78b98a_980cc218",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-16T15:33:14Z",
+      "side": 1,
+      "message": "I left some comments on 5133: reorganize pages, mostly moving stuff to /docs | https://review.calyxos.org/c/CalyxOS/calyxos.org/+/5133 (mainly about features/list), but otherwise this is good to go.",
+      "revId": "02d853b73267737ae4162ef1f4bf5621a18f6320",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
