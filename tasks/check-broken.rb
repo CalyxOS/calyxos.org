@@ -1,7 +1,7 @@
-require 'html-proofer'
 
 desc "Check for broken links"
 task :check do
+  require 'html-proofer'
   directory = ENV["DIR"] || "./static"
   options = {
     assume_extension: true,
@@ -13,6 +13,7 @@ end
 
 desc "Check for broken external links (slow)"
 task "check-external" do
+  require 'html-proofer'
   directory = ENV["DIR"] || "./static"
   options = {
     assume_extension: true,
