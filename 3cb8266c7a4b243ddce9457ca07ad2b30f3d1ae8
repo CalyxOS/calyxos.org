@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e9ca451c_93676c0e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-17T16:52:14Z",
+      "side": 1,
+      "message": "should work now. failed only because review.calyxos.org was down. \n\ni made it so that the link check happens for all branches. before dev was excluded.\n\nhttps://gitlab.com/elijh/calyxos.org/-/jobs/1598705199",
+      "revId": "3cb8266c7a4b243ddce9457ca07ad2b30f3d1ae8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
