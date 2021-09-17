@@ -1,5 +1,45 @@
-<footer class="wrapper">
-  <p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer nofollow">CC BY-SA 4.0 license</a>.</p>
-  <p>&copy; 2021 <a href="https://calyxinstitute.org" target="_blank" rel="noreferrer nooopener">Calyx Institute</a>.</p>
-  <p>This website was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}</p>
-</footer>
+<div class="shade">
+  <div class="wrapper">
+    <div class="row">
+      <a href="https://calyxinstitute.org/about">About Calyx</a>
+      <span class="spacer" aria-hidden="true">&bull;</span>
+      <a href="https://members.calyxinstitute.org/enroll/membership/phone">Join Calyx</a>
+      <span class="spacer" aria-hidden="true">&bull;</span>
+      <a href="https://calyxinstitute.org/about/contact-us">Contact Us</a>
+      <span class="spacer" aria-hidden="true">&bull;</span>
+      <a href="https://calyxinstitute.org/legal/privacy-policy">Privacy Policy</a>
+      <span class="spacer" aria-hidden="true">&bull;</span>
+      <a href="https://calyxinstitute.org/legal/terms-of-service">Terms of Service</a>
+      <span class="spacer" aria-hidden="true">&bull;</span>
+      <a href="https://members.calyxinstitute.org/donate">Donate</a>
+    </div>
+    <div class="row footer-icons">
+      <a href="https://app.element.io/#/room/#calyxos:matrix.org" title="CalyxOS chat room">
+        <img class="filter-grey" src="{{'assets/images/icons/matrix.svg' | relative_url}}" />
+      </a>
+      <a href="https://gitlab.com/CalyxOS" title="CalyxOS source code">
+        <img class="filter-grey" src="{{'assets/images/icons/git.svg' | relative_url}}" />
+      </a>
+      <a href="https://twitter.com/CalyxOS" title="CalyxOS on Twitter">
+        <img class="filter-grey" src="{{'assets/images/icons/twitter.svg' | relative_url}}" />
+      </a>
+      <a href="https://reddit.com/r/CalyxOS" title="CalyxOS on Reddit">
+        <img class="filter-grey" src="{{'assets/images/icons/reddit.svg' | relative_url}}" />
+      </a>
+      <a href="https://facebook.com/calyxinstitute" title="Calyx Institute on Facebook">
+        <img class="filter-grey" src="{{'assets/images/icons/facebook.svg' | relative_url}}" />
+      </a>
+      <a href="https://instagram.com/calyxinsta" title="Calyx Institute on Instagram">
+        <img class="filter-grey" src="{{'assets/images/icons/instagram.svg' | relative_url}}" />
+      </a>
+    </div>
+    <div class="row">
+      <a href="https://calyxinstitute.org" target="_blank" rel="noreferrer nooopener">&copy; 2021 Calyx Institute</a>
+      <span class="spacer" aria-hidden="true">&bull;</span>
+      <a target="_blank" href="https://github.com/CalyxOS/calyxos.org/tree/dev/pages/{{page.path}}" title="Page Changed">{{page.last_modified_at | date: "%Y-%m-%d %H:%M" }}</a>
+    </div>
+    <div class="row">
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer nofollow" title="License: Attribution-ShareAlike 4.0 International"><img class="filter-grey" style="height: 24px" src="{{'assets/images/icons/cc-by-sa.svg' | relative_url}}" /></a>
+    </div>
+  </div>
+</div>
