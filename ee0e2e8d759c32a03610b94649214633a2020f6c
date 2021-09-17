@@ -54,6 +54,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "acabfce3_23c32a0a",
+        "filename": "pages/_includes/footer.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-17T17:40:25Z",
+      "side": 1,
+      "message": "resolved",
+      "parentUuid": "05f9f14b_c4f078a4",
+      "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0ca68160_a4ed3763",
@@ -103,6 +121,24 @@
       "side": 1,
       "message": "Oh yes, I meant we should update the title, sorry to not have been clearer.",
       "parentUuid": "b2ab607a_d1dbb1a6",
+      "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "926a93e4_80dc4d60",
+        "filename": "pages/_includes/footer.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-17T17:40:25Z",
+      "side": 1,
+      "message": "resolved",
+      "parentUuid": "bd15dced_a60ca24f",
       "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -160,6 +196,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3ea9d561_5f06a3fc",
+        "filename": "pages/_includes/footer.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-17T17:40:25Z",
+      "side": 1,
+      "message": "resolved",
+      "parentUuid": "af5eedcc_096fe62c",
+      "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "50f50fa6_97dc4dc6",
@@ -209,6 +263,24 @@
       "side": 1,
       "message": "Maybe leave it out for now / separate commit and I think I\u0027ll setup copybara on a server to test it out, seems easy enough to get started.",
       "parentUuid": "6768ba24_fc510f6e",
+      "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e41bd0b_ac3b663f",
+        "filename": "pages/_includes/footer.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-17T17:40:25Z",
+      "side": 1,
+      "message": "resolved",
+      "parentUuid": "06a9a806_7c934241",
       "revId": "ee0e2e8d759c32a03610b94649214633a2020f6c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
