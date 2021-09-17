@@ -16,6 +16,24 @@
       "message": "I don\u0027t know of the best way to display this, but we should have this somewhere on the website.\n\nIt\u0027s what you see when you boot the device, on the yellow screen.\n\nhttps://source.android.com/security/verifiedboot/boot-flow \"Example YELLOW screen\"",
       "revId": "f74528c94b2d4eed101334b3d9ba232ccee5271f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "94b456dd_bc077921",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-17T17:42:57Z",
+      "side": 1,
+      "message": "Do these fingerprints ever change? What is the security value of listing these? Is there a step in the initial flashing tutorial where it is good to have the user confirm these?\n\nSince this is just data for now, seems safe to just merge.",
+      "parentUuid": "a7b2feb4_d8652563",
+      "revId": "f74528c94b2d4eed101334b3d9ba232ccee5271f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
