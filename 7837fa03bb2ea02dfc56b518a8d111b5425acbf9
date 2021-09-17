@@ -52,6 +52,24 @@
       "parentUuid": "5592ce5a_3bdd2d52",
       "revId": "7837fa03bb2ea02dfc56b518a8d111b5425acbf9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f94c6338_da8c8ddb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-17T18:14:41Z",
+      "side": 1,
+      "message": "OK, so how about i move \u0027list\u0027 to doc/tech, instead of delete it?",
+      "parentUuid": "d89fc7f3_4ec516f6",
+      "revId": "7837fa03bb2ea02dfc56b518a8d111b5425acbf9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
