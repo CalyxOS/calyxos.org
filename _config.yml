@@ -29,6 +29,7 @@ plugins:
   - jekyll-toc
 #  - jekyll-twitter-plugin
   - jekyll-redirect-from
+  - jekyll-last-modified-at
 
 defaults:
   -
