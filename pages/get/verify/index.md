@@ -22,16 +22,16 @@ toc: true
 * Download the public key, [minisign.pub](https://release.calyxinstitute.org/minisign.pub)
 * Place all 3 files in the same folder, and then run:
 
-{% highlight shell %}
+```shell
 minisign -Vm sunfish-factory-2.7.1.zip -p minisign.pub
 # sunfish is Pixel 4a, replace with your device
-{% endhighlight %}
+```
 
 It should output:
-{% highlight shell %}
+```shell
 Signature and comment signature verified
 Trusted comment: CalyxOS 2.7.1 - July 2021
-{% endhighlight %}
+```
 
 <br>
 
@@ -42,12 +42,12 @@ Trusted comment: CalyxOS 2.7.1 - July 2021
 * Download the signature, [minisign.pub.sig](https://release.calyxinstitute.org/minisign.pub.sig)
 * Place both files in the same folder, and then run:
 
-{% highlight shell %}
+```shell
 gpg --verify minisign.pub.sig minisign.pub
-{% endhighlight %}
+```
 
 It should output:
-{% highlight shell %}
+```shell
 gpg: Signature made Sat 10 Jul 2021 05:15:55 AM IST
 gpg:                using RSA key BC2CB9C4993C086FFDAD8D205905C9C74693488B
 gpg: checking the trustdb
@@ -59,7 +59,7 @@ gpg:                 aka "Nicholas Merrill <nick@calyxinstitute.org>" [unknown]
 gpg: WARNING: This key is not certified with a trusted signature!
 gpg:          There is no indication that the signature belongs to the owner.
 Primary key fingerprint: BC2C B9C4 993C 086F FDAD  8D20 5905 C9C7 4693 488B
-{% endhighlight %}
+```
 
 ### Checksums
 * SHA256 checksums are available for all factory images and OTA updates.
@@ -67,43 +67,43 @@ Primary key fingerprint: BC2C B9C4 993C 086F FDAD  8D20 5905 C9C7 4693 488B
 * You can also simply append `.sha256sum` to the download URL for any file to get them, e.g. <https://release.calyxinstitute.org/sunfish-factory-2.7.1.zip.sha256sum>
 
 ##### Linux
-{% highlight shell %}
+```shell
 sha256sum sunfish-factory-2.7.1.zip
 # sunfish is Pixel 4a, replace with your device
-{% endhighlight %}
+```
 
 It should output:
-{% highlight shell %}
+```shell
 dddb62c9b68bf68e210db2e05181b55baf50a509f4533ea69409bdbf5c5009b9  sunfish-factory-2.7.1.zip
-{% endhighlight %}
+```
 
 <br>
 
 ##### macOS
-{% highlight shell %}
+```shell
 shasum -a 256 sunfish-factory-2.7.1.zip
 # sunfish is Pixel 4a, replace with your device
-{% endhighlight %}
+```
 
 It should output:
-{% highlight shell %}
+```shell
 dddb62c9b68bf68e210db2e05181b55baf50a509f4533ea69409bdbf5c5009b9  sunfish-factory-2.7.1.zip
-{% endhighlight %}
+```
 
 <br>
 
 ##### Windows
-{% highlight shell %}
+```shell
 certUtil -hashfile sunfish-factory-2.7.1.zip 256
 # sunfish is Pixel 4a, replace with your device
-{% endhighlight %}
+```
 
 It should output:
-{% highlight shell %}
+```shell
 SHA256 hash of sunfish-factory-2.7.1.zip:
 dddb62c9b68bf68e210db2e05181b55baf50a509f4533ea69409bdbf5c5009b9
 CertUtil: -hashfile command completed successfully.
-{% endhighlight %}
+```
 
 <br>
 

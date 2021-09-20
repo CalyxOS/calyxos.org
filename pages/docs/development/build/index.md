@@ -46,40 +46,40 @@ sudo sysctl -w kernel.unprivileged_userns_clone 1
 #### [repo](https://source.android.com/setup/develop#installing-repo)
 repo is the tool used to download all the different CalyxOS (and AOSP) source code repositories
 
-{% highlight shell %}
+```shell
 mkdir ~/bin
 PATH=~/bin:$PATH
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
-{% endhighlight %}
+```
 
 #### CalyxOS
 Now you can download the CalyxOS source code.
 
-{% highlight shell %}
+```shell
 mkdir ~/calyxos/android11-qpr1
 cd ~/calyxos/android11-qpr1
 repo init -u https://gitlab.com/CalyxOS/platform_manifest -b android11-qpr1
 repo sync -j8 # You may use a higher number here if you have a fast computer and fast internet
-{% endhighlight %}
+```
 
 This will be a big download and may take a long time. Once it's done, you can build CalyxOS
 
 ##### Proprietary files
 Phones need a lot of proprietary files to boot and for all hardware to work, we have automated scripts to download and set them up.
 
-{% highlight shell %}
+```shell
 ./vendor/calyx/scripts/setup-apv.sh sunfish # Replace sunfish (Pixel 4a) with your device codename here
-{% endhighlight %}
+```
 
 ### Building
 You made it this far! Now you can finally build CalyxOS
 
-{% highlight shell %}
+```shell
 source build/envsetup.sh
 lunch calyx_sunfish-user # Replace sunfish (Pixel 4a) with your device codename here, and user with userdebug if you want a debug build
 m # Yes, just the letter 'm'
-{% endhighlight %}
+```
 
 This will be the longest step, it may take hours depending on your computer. Sit back and watch it build!
 
