@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc44464a_6cc89d63",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-20T12:53:55Z",
+      "side": 1,
+      "message": "LGTM otherwise.",
+      "revId": "2b7eeb738412ae41d5ea144c286a8f564050d7d4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f90075eb_f3fbf800",
+        "filename": "pages/_includes/footer.html",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-20T12:53:55Z",
+      "side": 1,
+      "message": "Hate to keep holding this up, but this is now inaccurate for some pages like /get/download - which read data from _data.\n\nIt\u0027s showing 2021-08-19 locally, but we\u0027ve had builds in September.",
+      "revId": "2b7eeb738412ae41d5ea144c286a8f564050d7d4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
