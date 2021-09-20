@@ -34,6 +34,24 @@
       "parentUuid": "a7b2feb4_d8652563",
       "revId": "f74528c94b2d4eed101334b3d9ba232ccee5271f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "df75d4cd_ec2b8511",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-20T12:56:26Z",
+      "side": 1,
+      "message": "AVB \u003d Android verified boot.\n\n1. They do not change. A bootloader update could show a longer string, but that has to come from Google. Aka unlikely.\n2. They are the verified boot keys basically, confirming that you\u0027re running our official signed CalyxOS builds.\n3. No confirmation since theoretically for the Pixels there could be a key which collides with the few bits of info displayed.\n   For the A2 which shows it in full this isn\u0027t an issue.\n\nYes, can merge either way, good to have it in, and can add a simple page later which is good to link to when needed. (I added this when somebody asked to confirm)",
+      "parentUuid": "94b456dd_bc077921",
+      "revId": "f74528c94b2d4eed101334b3d9ba232ccee5271f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
