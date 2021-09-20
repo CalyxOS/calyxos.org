@@ -33,6 +33,24 @@
       "message": "Hate to keep holding this up, but this is now inaccurate for some pages like /get/download - which read data from _data.\n\nIt\u0027s showing 2021-08-19 locally, but we\u0027ve had builds in September.",
       "revId": "2b7eeb738412ae41d5ea144c286a8f564050d7d4",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f578b5d_4bbd6fd3",
+        "filename": "pages/_includes/footer.html",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-20T16:48:38Z",
+      "side": 1,
+      "message": "Moved to it\u0027s own commit so we can merge this separately.\n\n5452: footer: Show last modified time | https://review.calyxos.org/c/CalyxOS/calyxos.org/+/5452",
+      "parentUuid": "f90075eb_f3fbf800",
+      "revId": "2b7eeb738412ae41d5ea144c286a8f564050d7d4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
