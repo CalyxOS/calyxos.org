@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6713940c_1b1005d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-20T16:22:25Z",
+      "side": 1,
+      "message": "I don\u0027t see any reason not to switch.",
+      "revId": "05431943a3befb730bbe10aae3c4878cd7e2d0e8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
