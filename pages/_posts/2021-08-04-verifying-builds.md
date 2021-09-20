@@ -20,16 +20,16 @@ You need to download both the factory zip, and the signature file (.minisig)
 You'll also need the public key, [minisign.pub](https://release.calyxinstitute.org/minisign.pub)
 
 Then, the signature can be verified by running:
-{% highlight shell %}
+```shell
 minisign -Vm sunfish-factory-2.7.1.zip -p minisign.pub
 # sunfish is Pixel 4a, replace with your device
-{% endhighlight %}
+```
 
 It should output:
-{% highlight shell %}
+```shell
 Signature and comment signature verified
 Trusted comment: CalyxOS 2.7.1 - July 2021
-{% endhighlight %}
+```
 
 <br>
 

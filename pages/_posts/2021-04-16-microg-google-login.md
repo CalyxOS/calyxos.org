@@ -3,7 +3,7 @@ title: microG Google Account Login fix, take two
 date: 2021-04-16
 ---
 
-CalyxOS includes [microG](https://microg.org/) by default, and you get [three choices](https://calyxos.org/features/microg/). You can either keep it enabled (the default), disable it, or login with a Google account.
+CalyxOS includes [microG](https://microg.org/) by default, and you get [[three choices => microg]]. You can either keep it enabled (the default), disable it, or login with a Google account.
 
 The latter has been reported to have some issues. We tried to include a potential fix with the [April build]({% post_url 2021-04-08-big-april-update %}), but that didn't work for everyone.
 
@@ -23,11 +23,12 @@ If you want to help, you can let us know what worked for you and what didn't, th
 F-Droid test repos:
 <table class="table table-striped download">
   <tr><th>Device</th><th>URL</th><th>QR Code</th></tr>
-{% for device in site.data.downloads["stable"] %}
+{% assign devices = "bramble redfin sunfish coral flame bonito sargo crosshatch blueline taimen walleye jasmine_sprout" | split: " " %}
+{% for device in devices %}
   <tr>
-    <td>{{device.name}} ({{device.codename}})</td>
-    <td><a href="https://calyxos.gitlab.io/calyx-fdroid-repo-{{device.codename}}/fdroid/repo?fingerprint=C44D58B4547DE5096138CB0B34A1CC99DAB3B4274412ED753FCCBFC11DC1B7B6">https://calyxos.gitlab.io/calyx-fdroid-repo-{{device.codename}}/fdroid/repo</a></td>
-    <td><a href="{{ '/assets/images/gitlab-calyx-fdroid-repo-' | append: device.codename | append: '-qrcode.png' | relative_url }}">Click to view</a></td>
+    <td>{{device}}</td>
+    <td><a href="https://calyxos.gitlab.io/calyx-fdroid-repo-{{device}}/fdroid/repo?fingerprint=C44D58B4547DE5096138CB0B34A1CC99DAB3B4274412ED753FCCBFC11DC1B7B6">https://calyxos.gitlab.io/calyx-fdroid-repo-{{device}}/fdroid/repo</a></td>
+    <td><a href="{{ '/assets/images/gitlab-calyx-fdroid-repo-' | append: device | append: '-qrcode.png' | relative_url }}">Click to view</a></td>
   </tr>
 {% endfor %}
 </table>

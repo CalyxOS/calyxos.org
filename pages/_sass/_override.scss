@@ -17,9 +17,11 @@
 }
 
 // margin instead of padding for gutters
+// fixed size widths are bad
 .contentRowContent .contentItem {
   padding: 0;
   margin: 0 var(--spacing-medium);
+  width: 50%;
 }
 
 // erase the gutter width on the left and right ends.
@@ -65,8 +67,14 @@
   }
   .highlighter {
     line-height: 1em;
-    padding: 2px; // seems to fix a chrome render bug
     outline: 12px solid var(--calyx-light);
+
+    // chrome rendering of outline is bad at small screen sizes.
+    // this sort of fixes it
+    padding: 1px;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-color: var(--calyx-light);
   }
 }
 
@@ -93,6 +101,14 @@
 }
 .intro.withImage > div {
   width: 65%;
+}
+
+//
+// FOOTER
+//
+
+footer {
+  padding-bottom: 0 !important;
 }
 
 //
@@ -135,6 +151,16 @@ p + p {
 // keep tables the same size as the body text
 table {
   font-size: var(--font-size-body);
+}
+
+// remove max-width on li
+li {
+  max-width: inherit !important;
+}
+
+// all links should not have a line height set, but just use the line height of the block.
+a {
+  line-height: unset;
 }
 
 //

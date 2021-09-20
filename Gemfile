@@ -14,3 +14,6 @@ group :jekyll_plugins do
 end
 
 gem "webrick", "~> 1.7"
+gem "html-proofer", "= 3.19.1" # last version to support ruby < 2.6.0
+
+gem "rake"
