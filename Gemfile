@@ -11,6 +11,7 @@ group :jekyll_plugins do
   gem "jekyll-toc"
   #gem 'jekyll-twitter-plugin'
   gem "jekyll-redirect-from"
+  gem "jekyll-last-modified-at"
 end
 
 gem "webrick", "~> 1.7"

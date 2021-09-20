@@ -1,5 +1,6 @@
 ---
 title: Download CalyxOS
+date_from: _data/downloads.yml
 ---
 
 Options for verifying these firmware images:
