@@ -70,6 +70,24 @@
       "parentUuid": "d89fc7f3_4ec516f6",
       "revId": "7837fa03bb2ea02dfc56b518a8d111b5425acbf9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bb1b5088_9b155575",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-20T12:57:15Z",
+      "side": 1,
+      "message": "It\u0027s not exactly technical though, and it isn\u0027t meant to be either.\n\nCould we leave it here for now? It\u0027s not linked anywhere.",
+      "parentUuid": "f94c6338_da8c8ddb",
+      "revId": "7837fa03bb2ea02dfc56b518a8d111b5425acbf9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
