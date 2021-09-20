@@ -8,20 +8,20 @@ CalyxOS includes [F-Droid](https://f-droid.org) by default. However, since it is
 
 #### Preparation
 
-{% highlight shell %}
+```shell
 cd ~/calyxos/android11-qpr1
 cd external/fdroid/fdroidclient
 git fetch --tags
 export JAVA_OPTS="-Xmx2048m"
-{% endhighlight %}
+```
 
 For development, you can simply put in a dummy value like the one above.
 
 #### Build
 
-{% highlight shell %}
+```shell
 ./gradlew --no-daemon build
-{% endhighlight %}
+```
 
 #### Copy
 

@@ -48,25 +48,25 @@ In a folder, you should have 'otatools.zip', the 'calyx_device-target-files.zip'
 #### Sign the build
 This will sign the build, and create ota update zips and factory images.
 
-{% highlight shell %}
+```shell
 export BUILD_NUMBER=eng.$USERNAME.date # Get this from the filename
 unzip otatools.zip
 ./vendor/calyx/scripts/release.sh sunfish calyx_sufnish-target_files-${BUILD_NUMBER}.zip # Replace sunfish with your device
-{% endhighlight %}
+```
 
 #### Generate incremental OTAs
 If you have an older build, you should symlink that to 'archive', and then you can generate an incremental OTA using:
 
-{% highlight shell %}
+```shell
 export PREV_BUILD_NUMBER=eng.$USERNAME.prevdate # Get this from the filename
 ./vendor/calyx/scripts/generate_delta.sh sunfish ${PREV_BUILD_NUMBER} ${BUILD_NUMBER} # Replace sunfish with your device
-{% endhighlight %}
+```
 
 #### Generate metadata for the update server
 
-{% highlight shell %}
+```shell
 ./vendor/calyx/scripts/generate_metadata.py out/release-sunfish-${BUILD_NUMBER}/sunfish-ota_update-${BUILD_NUMBER}.zip # Replace sunfish with your device
-{% endhighlight %}
+```
 
 <br />
 
