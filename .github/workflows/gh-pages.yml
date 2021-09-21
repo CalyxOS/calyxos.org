@@ -2,7 +2,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - dev
+      - gh-actions
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
