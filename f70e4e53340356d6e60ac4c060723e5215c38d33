@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "93a19842_6c53a69e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-21T16:45:33Z",
+      "side": 1,
+      "message": "  Liquid Exception: undefined method `date\u0027 for {\"layout\"\u003d\u003e\"home\", \"nav_title\"\u003d\u003e\"Home\", \"date\"\u003d\u003e#\u003cDate: 2021-09-21 ((2459479j,0s,0n),+0s,2299161j)\u003e, \"last_modified_at\"\u003d\u003e#\u003cJekyll::LastModifiedAt::Determinator:0x00005555a7422eb0 @site_source\u003d\"/mnt/golu/andr\noid/calyx/other.repos/calyxos.org/pages\", @page_path\u003d\"index.md\", @format\u003d\"%d-%b-%y\"\u003e, \"permalink\"\u003d\u003e\"/\", \"content\"\u003d\u003e\"\u003cstrong\u003eCalyx\u003cspan\u003eOS\u003c/span\u003e\u003c/strong\u003e is an Android operating system focused on privacy and security. With CalyxOS, your device is preconfi\ngured with the best security tools available, and without all the tracking and surveillance built into a normal Android device.\\n\\n\u003cstrong\u003eCalyx\u003cspan\u003eOS\u003c/span\u003e\u003c/strong\u003e is a collaborative open source project sponsored by the \u003ca href\u003d\\\"https://www.calyxins\ntitute.org\\\"\u003eCalyx Institute\u003c/a\u003e, a 501(c)(3) non-profit dedicated to making privacy and security available for all.\\n\", \"dir\"\u003d\u003e\"/\", \"excerpt\"\u003d\u003enil, \"name\"\u003d\u003e\"index.md\", \"path\"\u003d\u003e\"index.md\", \"url\"\u003d\u003e\"/\"}:Hash Did you mean? update in /mnt/golu/android/calyx/o\nther.repos/calyxos.org/pages/_layouts/home.html  ",
+      "revId": "f70e4e53340356d6e60ac4c060723e5215c38d33",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
