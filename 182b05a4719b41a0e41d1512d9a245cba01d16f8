@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ea90957_e6836462",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-21T20:10:00Z",
+      "side": 1,
+      "message": "Not sure if it\u0027s worth it.\n\nI don\u0027t like the deployment bit either, it commits \u0027public\u0027 to the branch \u0027gh-pages\u0027",
+      "revId": "182b05a4719b41a0e41d1512d9a245cba01d16f8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
