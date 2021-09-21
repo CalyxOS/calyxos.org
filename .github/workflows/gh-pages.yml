@@ -1,0 +1,31 @@
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - dev
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0.2
+          bundler-cache: true
+      - name: "before_script"
+        run: |
+          bundle binstubs rake jekyll
+          bin/rake update-releases
+          bin/rake update-apps
+          bin/rake back-to-stock
+      - name: "test"
+        run: |
+          bin/jekyll build -d test
+          bin/rake check DIR=./test
+          bin/rake check-external DIR=./test || true
+      - name: "pages"
+        run: bin/jekyll build -d public --baseUrl "/calyxos.org"
+      - uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          branch: gh-pages
+          folder: public
