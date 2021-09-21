@@ -1,0 +1,158 @@
+//
+// CONTENT MENU
+//
+
+ul.content-menu {
+  li {
+    list-style: none;
+    a:first-child {
+      display: block;
+      font-size: 150%;
+      margin: var(--spacing-medium) 0 0.25em 0;
+      font-weight: bold;
+    }
+    margin: 0;
+    margin-bottom: var(--spacing-base);
+  }
+}
+// do not include the top margin if the entry is at the top of the content
+section.content > ul.content-menu:first-child > li:first-child > a:first-child {
+  margin-top: 0;
+}
+
+//
+// CUSTOM INTRO
+//
+
+.secondaryIntro .wrapper .with-icon {
+  display: flex;
+  img.header-icon {
+    max-height: 128px;
+    //margin-right: 2rem;
+    //margin-top: -22px;
+  }
+  .text {
+    padding-top: 20px;
+    padding-left: var(--spacing-base);
+  }
+}
+
+//
+// TOC
+//
+
+div.toc {
+  margin-bottom: var(--spacing-xlarge);
+  h2 {
+    line-height: var(--line-height-body);
+    font-size: var(--font-size-body);
+    margin: 0;
+    margin-bottom: var(--spacing-xxsmall);
+  }
+  ul {
+    margin-bottom: 0;
+    li {
+      margin-top: 0;
+      margin-bottom: 0;
+      a {
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  // numbering
+  li.toc-entry ul, ul.section-nav {
+    counter-reset: item;
+  }
+  li.toc-entry:before {
+    content: counters(item,".") " ";
+    counter-increment: item;
+  }
+  li.toc-entry {
+    display: block;
+  }
+  li.toc-entry a {
+    padding-left: 0.5rem;
+  }
+}
+
+// this is a hack to get the anchors to jump to
+// the right place with a fixed position header
+:target:before {
+  content:"";
+  display:block;
+  height: 90px;      /* approximate header height */
+  margin: -90px 0 0; /* negative header height */
+}
+
+//
+// SIDE NAVIGATION
+//
+
+// markup:
+//
+// .wrapper.sidebar
+//   .navside
+//   .content.primaryContent
+
+.wrapper {
+  &.sidebar-spacing {
+    max-width: calc(var(--grid-max-width) + var(--grid-sidebar-width));
+  }
+  &.sidebar {
+    max-width: calc(var(--grid-max-width) + var(--grid-sidebar-width));
+    display: flex;
+    .content {
+      flex-grow: 1;
+    }
+    .navside {
+      min-width: calc(var(--grid-sidebar-width) - var(--spacing-medium));
+      margin-right: var(--spacing-medium);
+    }
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .wrapper.sidebar {
+    flex-wrap: wrap;
+  }
+}
+
+.navside {
+  ul {
+    margin-left: 0;
+    padding: 0;
+  }
+  li.nav-item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    &.nav-level-0 a {}
+    &.nav-level-1 a {padding-left: 1.5rem;}
+    &.nav-level-2 a {padding-left: 3rem;}
+    &.nav-level-3 a {padding-left: 4.5rem;}
+    &.nav-level-4 a {padding-left: 6rem;}
+    a {
+      display: block;
+      padding: 4px 8px;
+      text-decoration: none;
+      color: var(--font-color-light);
+      overflow-wrap: anywhere;
+      &:hover {
+        text-decoration: underline;
+      }
+      &.active {
+        color: black;
+        font-weight: bold;
+        background-color: var(--calyx-light);
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .navside li.nav-item a {color: var(--font-color-dark)}
+}

@@ -1,4 +1,5 @@
 /static
+/test
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
@@ -6,3 +7,4 @@
 /tmp
 /.bundle
 .DS_Store
+/bin

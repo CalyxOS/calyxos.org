@@ -4,7 +4,7 @@
   <body>
     {% include header.html %}
     <main id="content">
-      {% include intro.html %}
+      {% include front_intro.html %}
       {% include mission.html %}
       <section class="content primaryContent wrapper">
         {% include spotlight-features.html %}
@@ -14,6 +14,8 @@
       {% include news.html %}
       {% include join.html %}
     </main>
-    {% include footer.html %}
+    <footer>
+      {% include footer.html %}
+    </footer>
   </body>
 </html>
