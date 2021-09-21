@@ -2,27 +2,42 @@
 title: Updates
 description: How CalyxOS stays up to date
 redirect_from: /features/system-updates
+toc: true
 ---
 
-Once you have installed CalyxOS once, that is all you need to do. Your device will then receive frequent Over-The-Air (OTA) updates directly from our servers.
+Once CalyxOS is installed on the device, it will receive frequent Over-The-Air (OTA) updates directly from our servers automatically.
 
-## System updates
+## OS updates
 
 The device automatically checks for, downloads and install updates.
 
-A reboot is required to finish updating.
+A reboot is required to finish updating, you will get a notification for that.
 
-Updates are typically done monthly, following Android Open Source Project releases.
+Updates are typically done monthly, following Android Open Source Project security releases.
 
-You can check for updates from **Settings -> System -> Updates**.
+You can check for updates and control update settings from **Settings -> System -> Updates**.
 
-A changelog can also be viewed here, or by tapping the update notification when an update is being downloaded or installed.
-
-It also has additional configuration options.
+A changelog can also be viewed there, or by tapping the update notification.
 
 ### Manual installation
 
 If you'd like to manually update your CalyxOS install, see [[ota]].
+
+### Security patch level
+
+Google releases monthly security updates for Android, which contain important fixes.
+
+CalyxOS takes those and integrates them into the OS, and releases new builds.
+
+They can be divided into multiple parts, as each of them has to be updated separately.
+
+Open source:
+* Platform - AOSP, the open source components that CalyxOS builds on.
+* Kernel - Android's fork of the Linux kernel.
+
+Proprietary:
+* Vendor - the proprietary components needed to make a device work.
+* Firmware / bootloader - more of the above
 
 ## App updates
 
