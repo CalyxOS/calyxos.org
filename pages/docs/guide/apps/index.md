@@ -62,9 +62,9 @@ These applications were developed specifically for use with CalyxOS, although so
 <div>
 **[[SeedVault]]** allows you to securely backup your phone. All backups are encrypted and decrypted on your device, so you are the only one who is able to read the contents. CalyxOS gives SeedVault special permissions to allow full backup and restore.
 
-* Supports remote backups using NextCloud.
-* Supports local backups using USB Storage.
 * File backup: documents, photos, all of your files are also backed up.
+* Supports local backups using USB Storage. (recommended)
+* Supports remote backups using NextCloud. (experimental)
 </div>
 </div>
 
