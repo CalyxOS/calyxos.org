@@ -1,7 +1,7 @@
 ---
 title: Updates
 description: How CalyxOS stays up to date
-redirect_from: /features/system-updates
+redirect_from: /features/system-updates/
 toc: true
 ---
 
