@@ -3,24 +3,36 @@
 //
 
 //
-// simple gallery, just used for apps currently
+// simple gallery
 //
 
 .gallery {
   display: flex;
   flex-wrap: wrap;
   .cell {
+     flex-basis: 0;
+     flex-grow: 1;
      margin: var(--spacing-base);
      text-align: center;
-     width: 25%;
      img {
        display: block;
-       height: 100px;
-       width: 100px;
-       margin: 0 auto;
+       margin: 0.25rem auto;
      }
      a {
        display: block;
+     }
+     &.square {
+       min-width: 200px;
+       img {
+         height: 100px;
+         width: 100px;
+       }
+     }
+     &.full {
+       img {
+         height: inherit;
+         width: inherit;
+       }
      }
   }
 }
