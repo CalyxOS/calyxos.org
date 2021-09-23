@@ -13,22 +13,7 @@ module Releases
   RELEASE_CACHE   = "#{HOME}/tmp/release"
   HASHES_CACHE    = "#{HOME}/tmp/hashes"
   DEST_FILE       = "#{HOME}/pages/_data/downloads.yml"
-
-  CODENAME_MAP = {
-    "barbet"         => "Pixel 5a",
-    "bramble"        => "Pixel 4a (5G)",
-    "redfin"         => "Pixel 5",
-    "sunfish"        => "Pixel 4a",
-    "coral"          => "Pixel 4 XL",
-    "flame"          => "Pixel 4",
-    "bonito"         => "Pixel 3a XL",
-    "sargo"          => "Pixel 3a",
-    "crosshatch"     => "Pixel 3 XL",
-    "blueline"       => "Pixel 3",
-    "taimen"         => "Pixel 2 XL",
-    "walleye"        => "Pixel 2",
-    "jasmine_sprout" => "Xiaomi Mi A2"
-  }
+  DEVICES_DATA    = "#{HOME}/pages/_data/devices.yml"
 
   class << self
     def clone_release_repo
@@ -76,10 +61,14 @@ module Releases
       end
     end
 
+    def get_devices
+      YAML.load(File.new(DEVICES_DATA))
+    end
+
     def parse_release(release)
       info = []
       Dir.chdir(RELEASE_CACHE) do
-        CODENAME_MAP.each do |codename, device|
+        get_devices.each do |codename, device|
           release_filename = codename + "-" + release
           old_release_filename = codename + "-old" + release
           unless File.exist?(release_filename)
@@ -94,8 +83,8 @@ module Releases
           old_release_file = File.read(old_release_filename)
           build_number, timestamp, build_id = release_file.split(' ')
           old_build_number, old_timestamp, old_build_id = old_release_file.split(' ')
-          date = Time.at(timestamp.to_i).strftime("%F")
-          old_date = Time.at(old_timestamp.to_i).strftime("%F")
+          date = Time.at(timestamp.to_i).utc.strftime("%F")
+          old_date = Time.at(old_timestamp.to_i).utc.strftime("%F")
           factory_filename = codename + "-factory-#{build_number}.zip"
           factory_sha256 = get_hash_for(factory_filename)
           ota_filename = codename + "-ota_update-#{build_number}.zip"
@@ -103,7 +92,8 @@ module Releases
           incremental_filename = codename + "-incremental-#{old_build_number}-#{build_number}.zip"
           incremental_sha256 = get_hash_for(incremental_filename)
           info << {
-            "name" => device,
+            "name" => device["model"],
+            "brand" => device["brand"],
             "codename" => codename,
             "factory_link" => RELEASE_DL_BASE + factory_filename,
             "factory_sha256" => factory_sha256,

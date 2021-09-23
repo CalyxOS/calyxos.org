@@ -1,0 +1,92 @@
+---
+barbet:
+  brand: pixel
+  model: Pixel 5a
+  manufacturer_support_ends: 2024-08
+  calyxos_support_ends: 2024-08
+  sim: "dual"
+  esim: "yes"
+bramble:
+  brand: pixel
+  model: Pixel 4a (5G)
+  manufacturer_support_ends: 2023-10
+  calyxos_support_ends: 2024-08
+  sim: "dual"
+  esim: "yes"
+redfin:
+  brand: pixel
+  model: Pixel 5
+  manufacturer_support_ends: 2023-11
+  calyxos_support_ends: 2024-08
+  sim: "dual"
+  esim: "yes"
+sunfish:
+  brand: pixel
+  model: Pixel 4a
+  manufacturer_support_ends: 2023-08
+  calyxos_support_ends: 2023-08
+  sim: "dual"
+  esim: "yes"
+coral:
+  brand: pixel
+  model: Pixel 4 XL
+  manufacturer_support_ends: 2022-10
+  calyxos_support_ends: 2023-08
+  sim: "dual"
+  esim: "yes"
+flame:
+  brand: pixel
+  model: Pixel 4
+  manufacturer_support_ends: 2022-10
+  calyxos_support_ends: 2023-08
+  sim: "dual"
+  esim: "yes"
+bonito:
+  brand: pixel
+  model: Pixel 3a XL
+  manufacturer_support_ends: 2022-04
+  calyxos_support_ends: 2022-08
+  sim: "dual"
+  esim: "yes"
+sargo:
+  brand: pixel
+  model: Pixel 3a
+  manufacturer_support_ends: 2022-04
+  calyxos_support_ends: 2022-08
+  sim: "dual"
+  esim: "yes"
+crosshatch:
+  brand: pixel
+  model: Pixel 3 XL
+  manufacturer_support_ends: 2021-10
+  calyxos_support_ends: 2022-08
+  sim: "single"
+  esim: "yes"
+blueline:
+  brand: pixel
+  model: Pixel 3
+  manufacturer_support_ends: 2021-10
+  calyxos_support_ends: 2022-08
+  sim: "single"
+  esim: "yes"
+taimen:
+  brand: pixel
+  model: Pixel 2 XL
+  manufacturer_support_ends: 2020-10
+  calyxos_support_ends: 2021-08
+  sim: "single"
+  esim: "Fi-only"
+walleye:
+  brand: pixel
+  model: Pixel 2
+  manufacturer_support_ends: 2020-10
+  calyxos_support_ends: 2021-08
+  sim: "single"
+  esim: "Fi-only"
+jasmine_sprout:
+  brand: xiaomi
+  model: Xiaomi Mi A2
+  manufacturer_support_ends: 2021-08
+  calyxos_support_ends: 2021-08
+  sim: "dual"
+  esim: "no"

@@ -14,6 +14,7 @@ before_script:
   - bin/rake update-releases
   - bin/rake update-apps
   - bin/rake back-to-stock
+  - bin/rake generate-data-pages
 
 pages:
   stage: deploy
