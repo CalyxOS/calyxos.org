@@ -67,9 +67,9 @@ sass:
 default_lang: "en"
 languages:
   - en
-  - de
-  - es
-  - pt
+#  - de
+#  - es
+#  - pt
 lang_from_path: true
 exclude_from_localization:
   - \.htaccess
