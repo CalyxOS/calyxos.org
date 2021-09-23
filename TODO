@@ -1,0 +1,42 @@
+implement a level system for pages:
+
+1. important, must localize
+2. useful, tutorials, etc.
+3. technical, not read by many
+
+check out the redirect plugin, don't leave dangle links
+
+website changes: many css changes, get phone pre-installed
+phone payment delayed, edit commit to hide the pre-installed option
+
+new css much better for technical notes, eg https://elijh.gitlab.io/calyxos.org/development/build/
+
+documentation
+  about
+    why
+    team
+    comparison
+  user guide
+    getting started
+    features
+    tutorials
+    security guide
+    troubleshooting
+    faq
+    apps
+      installed apps
+      recommended apps
+      app compatibility
+  development
+    contributing
+      code of conduct
+      gerrit
+    road map
+    design decisions
+    build
+      build chromium
+      build kernel
+      build microg
+      emulator
+      sign
+      production
