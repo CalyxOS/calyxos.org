@@ -1,0 +1,361 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27d773c5_25b67360",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "How do we make device-specific changes / notes?",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4aba64ed_bffef823",
+        "filename": "_config.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "Just for now?\n\nTbh I wouldn\u0027t mind reverting this / the lang patch will we actually have it ready, but that\u0027s a separate conversation.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fc7a5f66_baff8d5e",
+        "filename": "pages/_includes/install/linux_drivers.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "TODO:\n\n1. Mention udev install here, from package managers (Debian/Ubuntu, Fedora, Arch have packages)\n2. Drop sudo from flasher entirely. No more privilege escalation.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0224eeb6_10d8f7f7",
+        "filename": "pages/_includes/install/linux_flasher.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "TODO: Move the link (version) to data.\n\nNot entirely needed in this commit, just making notes.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93439812_d5329f2a",
+        "filename": "pages/_includes/install/linux_flasher.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "Same as above.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9c087aa2_04062fa9",
+        "filename": "pages/_includes/install/mac_drivers.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "Can we call this ${os}_notes.md\n\nThen we can also mention the M1 here (flasher doesn\u0027t work on M1 Macs)",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a0d1de78_94ad090a",
+        "filename": "pages/_includes/install/windows_drivers.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "s/special// perhaps?",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1ec0245d_9be08bed",
+        "filename": "pages/_includes/install/windows_run.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "Do we need the number here? Might be easier to have it in the common template to make changes easier?",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4509f93b_e4480493",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "Let\u0027s use \"Factory Image\" instead.\n\nROM is also acceptable / commonly used.\n\nFirmware means something else and can be confusing.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fdd30dc5_0766f373",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "s/OS image/factory image/ (or ROM)",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8128883_7e619383",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "This sounds technical.\n\nThe bootloader mode of the Android device needed to install a custom Operating System (or ROM)",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7c70dd79_5135439c",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "Can we leave this out of the flashing guide and just in the flasher instead?\n\nThis duplicates the steps which may lead to more confusion.\n\nIt also means they\u0027d end up going back and forth between the flasher and the website, whereas the goal was to have it all in the flasher.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fea9672b_5d463d6d",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "factory image.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "02b4d703_2bec9aef",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "Brick is the commonly used term here, instead of destroy.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "932c7568_abe4eb23",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "Not relevant to guide, but \n\nTODO: Make flasher do this.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "38b37752_12955639",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "Right now flasher asks you to enable developer options and all on the phone which will make this confusing.\n\nFlasher should be updated instead of changing this.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ee9d508_7de24d53",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "This only happens on the Pixel 2 and Mi A2.\n\nEvery other device goes back into fastboot mode after unlock, and so install proceeds automatically.\n\nBesides, at this point the user is running the flasher, so we should rely on that to provide guidance and not add steps here.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3bcd5b2c_76552d98",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "Also if it hangs.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fc5d207b_1a02f233",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "Only on Pixels.\n\nXiaomi Mi A2 fastboot mode is just an android logo.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5f80f8df_ae116c2e",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "Actually, this is better to have on the download page (and probably device support page too) rather than here.\n\nIt can stay here too, but it should definitely be on the downloads page (and device support page)",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "458963da_c2ee512c",
+        "filename": "pages/install/unlock-bootloader.jpg",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:00:46Z",
+      "side": 1,
+      "message": "It\u0027s a bit blurry and I just can\u0027t unsee.\n\nAlso this is on the Pixels, A2 screen is a bit different.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
