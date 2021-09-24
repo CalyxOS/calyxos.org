@@ -18,6 +18,23 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c71ae213_ddcf555f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-24T12:01:48Z",
+      "side": 1,
+      "message": "Should also move the auto-generated content to it\u0027s own commit to make it easier to review.\n\nThere could also be a HTML comment in those files\n\n\u003c!-- Auto-generated. DO NOT EDIT --\u003e",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4aba64ed_bffef823",
