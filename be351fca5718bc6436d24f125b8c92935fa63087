@@ -54,6 +54,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "45d19447_94f3d37c",
+        "filename": "_config.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-25T20:38:45Z",
+      "side": 1,
+      "message": "It was creating lots of link checker errors, and we don\u0027t actually use it. It will take me some time to figure out how to properly do i18n, and i don\u0027t even know if we will end up with this method or not. since it is creating errors now, no point in keeping it.",
+      "parentUuid": "4aba64ed_bffef823",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "fc7a5f66_baff8d5e",
         "filename": "pages/_includes/install/linux_drivers.md",
         "patchSetId": 5
@@ -71,6 +89,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4f0cd879_d08d0920",
+        "filename": "pages/_includes/install/linux_drivers.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-25T20:38:45Z",
+      "side": 1,
+      "message": "i think that is the right approach.\n\nwhat is the text that makes sense? what are the commands to run?",
+      "parentUuid": "fc7a5f66_baff8d5e",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0224eeb6_10d8f7f7",
         "filename": "pages/_includes/install/linux_flasher.md",
         "patchSetId": 5
@@ -82,6 +118,24 @@
       "writtenOn": "2021-09-24T12:00:46Z",
       "side": 1,
       "message": "TODO: Move the link (version) to data.\n\nNot entirely needed in this commit, just making notes.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "466a91a6_67415988",
+        "filename": "pages/_includes/install/linux_flasher.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-25T20:38:45Z",
+      "side": 1,
+      "message": "It was also hard coded before, but I agree. That is easy to change.",
+      "parentUuid": "0224eeb6_10d8f7f7",
       "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -122,6 +176,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "cd343ced_2ec0698b",
+        "filename": "pages/_includes/install/mac_drivers.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-25T20:38:45Z",
+      "side": 1,
+      "message": "ok, os_notes.md makes more sense. will add the note about m1 macs",
+      "parentUuid": "9c087aa2_04062fa9",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a0d1de78_94ad090a",
         "filename": "pages/_includes/install/windows_drivers.md",
         "patchSetId": 5
@@ -133,6 +205,24 @@
       "writtenOn": "2021-09-24T12:00:46Z",
       "side": 1,
       "message": "s/special// perhaps?",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6ce12a1f_f6fb563d",
+        "filename": "pages/_includes/install/windows_drivers.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-25T20:38:45Z",
+      "side": 1,
+      "message": "or s/special/specific/ ??\n\ni mean, windows already has usb drivers...",
+      "parentUuid": "a0d1de78_94ad090a",
       "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -167,6 +257,24 @@
       "writtenOn": "2021-09-24T12:00:46Z",
       "side": 1,
       "message": "Let\u0027s use \"Factory Image\" instead.\n\nROM is also acceptable / commonly used.\n\nFirmware means something else and can be confusing.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ba16b24_cc96add0",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-25T20:38:45Z",
+      "side": 1,
+      "message": "lets go with Factory Image",
+      "parentUuid": "4509f93b_e4480493",
       "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -218,6 +326,24 @@
       "writtenOn": "2021-09-24T12:00:46Z",
       "side": 1,
       "message": "Can we leave this out of the flashing guide and just in the flasher instead?\n\nThis duplicates the steps which may lead to more confusion.\n\nIt also means they\u0027d end up going back and forth between the flasher and the website, whereas the goal was to have it all in the flasher.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "19d6cd1e_ca96d2ea",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-25T20:38:45Z",
+      "side": 1,
+      "message": "I hate the directions in the flasher and find them hard to follow....",
+      "parentUuid": "7c70dd79_5135439c",
       "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -360,6 +486,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "601e1626_fda48c92",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-25T20:38:45Z",
+      "side": 1,
+      "message": "there is no longer a downloads page",
+      "parentUuid": "5f80f8df_ae116c2e",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "458963da_c2ee512c",
         "filename": "pages/install/unlock-bootloader.jpg",
         "patchSetId": 5
@@ -371,6 +515,24 @@
       "writtenOn": "2021-09-24T12:00:46Z",
       "side": 1,
       "message": "It\u0027s a bit blurry and I just can\u0027t unsee.\n\nAlso this is on the Pixels, A2 screen is a bit different.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8ec5773b_9918fb46",
+        "filename": "pages/install/unlock-bootloader.jpg",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-25T20:38:45Z",
+      "side": 1,
+      "message": "it was the best i could do. my pixel can\u0027t photograph the pixel screen. i did many tries and did a lot of adjusting in gimp to clean it up. maybe someone has a better camera.",
+      "parentUuid": "458963da_c2ee512c",
       "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
