@@ -53,6 +53,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ead730e_c5c02faa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-27T13:53:00Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "7ecd7511_b8feb86e",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4aba64ed_bffef823",
@@ -88,6 +106,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6c87f7b_f3f2a132",
+        "filename": "_config.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-27T13:53:00Z",
+      "side": 1,
+      "message": "Agreed.",
+      "parentUuid": "45d19447_94f3d37c",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fc7a5f66_baff8d5e",
@@ -119,6 +155,24 @@
       "side": 1,
       "message": "i think that is the right approach.\n\nwhat is the text that makes sense? what are the commands to run?",
       "parentUuid": "fc7a5f66_baff8d5e",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "153841b8_f9f94955",
+        "filename": "pages/_includes/install/linux_drivers.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-27T13:53:00Z",
+      "side": 1,
+      "message": "Non-exhaustive list as a start:\n\nDebian/Ubuntu/derivatives: sudo apt update \u0026\u0026 sudo apt install android-sdk-platform-tools-common\nFedora: sudo dnf install android-tools\nArchLinux: https://aur.archlinux.org/packages/android-udev-git/ (AUR install needs some form of helper, I think it\u0027s probably safe to assume anyone running Arch would have something setup.)",
+      "parentUuid": "4f0cd879_d08d0920",
       "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -512,6 +566,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "78cea116_a26c6dda",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-27T13:53:00Z",
+      "side": 1,
+      "message": "We should fix those then.\n\nGUI Flasher (soon) will also make it a lot easier.",
+      "parentUuid": "19d6cd1e_ca96d2ea",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "fea9672b_5d463d6d",
         "filename": "pages/install/_templates/_install.md",
         "patchSetId": 5
@@ -582,6 +654,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a4114547_33c437bb",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-27T13:53:00Z",
+      "side": 1,
+      "message": "It\u0027s not entirely jargon, we\u0027ve had multiple people ask on matrix/reddit/twitter if they\u0027ve bricked their device.\n\nMaybe include both? destroy (brick) or brick (destroy) ?",
+      "parentUuid": "d096bb07_31925c9e",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "932c7568_abe4eb23",
         "filename": "pages/install/_templates/_install.md",
         "patchSetId": 5
@@ -628,6 +718,24 @@
       "side": 1,
       "message": "I think there is value in having all the directions in one place, where it is easy to update and localize.",
       "parentUuid": "38b37752_12955639",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab078960_16cdd554",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-27T13:53:00Z",
+      "side": 1,
+      "message": "It\u0027ll be harder to localize flasher but we can still do.\n\nHaving it out of sync in both places right now would just cause additional confusion.\n\n\"The website wants me to put it in fastboot mode, but the flasher asks me to enable usb debugging - What should I do?\"\n\nWe should change the flasher, but till then this will just cause extra confusion.",
+      "parentUuid": "6df7a636_7018bea3",
       "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -739,6 +847,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a117b00c_be94ed55",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-27T13:53:00Z",
+      "side": 1,
+      "message": "Not on the device, no.",
+      "parentUuid": "d5c28404_92d8eccf",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5f80f8df_ae116c2e",
         "filename": "pages/install/_templates/_install.md",
         "patchSetId": 5
@@ -774,6 +900,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "fe628272_8ae730d4",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-27T13:53:00Z",
+      "side": 1,
+      "message": "Right. In that case, it should be mentioned at https://elijh.gitlab.io/calyxos.org/install/\n\nAnd we can also include some text on the A2 / Pixel 2 specific pages.",
+      "parentUuid": "601e1626_fda48c92",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "458963da_c2ee512c",
         "filename": "pages/install/unlock-bootloader.jpg",
         "patchSetId": 5
@@ -803,6 +947,24 @@
       "side": 1,
       "message": "it was the best i could do. my pixel can\u0027t photograph the pixel screen. i did many tries and did a lot of adjusting in gimp to clean it up. maybe someone has a better camera.",
       "parentUuid": "458963da_c2ee512c",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aca327ea_0c63d296",
+        "filename": "pages/install/unlock-bootloader.jpg",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-27T13:53:00Z",
+      "side": 1,
+      "message": "Yeah I had to do a bunch of takes for that photo I sent you and even then it turned out blurry.",
+      "parentUuid": "8ec5773b_9918fb46",
       "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
