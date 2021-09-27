@@ -33,7 +33,7 @@ You can check the microG wiki to see the current status of which [[ parts of GMS
 
 ## Options for running microG in CalyxOS
 
-With CalyxOS, you have three options:
+With CalyxOS, you have four options:
 
 #### 1. microG disabled
 
@@ -41,12 +41,17 @@ You can choose to disable microG when setting up the device for the first time.
 
 This is the 100% de-Googled mode with no attempt to make apps work that expect Google services. You will receive no "push notification" using the Google infrastructure. Many apps refuse to run, however some apps such as Google Camera still work. Some apps will consume more battery without push notifications from Google. The presence of microG, even when disabled, will allow some apps to work that would not otherwise.
 
-#### 2. microG enabled, no Google Account (default)
+#### 2. microG enabled, no Google Account, push notifications disabled
+
+In this mode, microG is used to implement some common functionality (such as maps inside some applications) to make many apps work, but in a way that does not leak any information to Google. In some case (e.g. location),
+privacy-respecting services are used in place of Google services.
+
+#### 3. microG enabled, no Google Account, push notifications enabled (default)
 
 This is the default and recommended option.
 
-In this mode, microG is used to implement some common functionality (such as maps inside some applications) to make many apps work, but in a way that leaks much less information to Google. In some cases (e.g. location), privacy-respecting services are used in place of Google services, and in other cases (e.g. push notifications), Google services are used semi-anonymously (not tied to a user identity).
+This is identical to the above option, with one minor change. Google services are used semi-anonymously (not tied to a user identity) to provide push notification functionality for many apps. This leaks much less information to Google.
 
-#### 3. microG enabled, with a Google Account
+#### 4. microG enabled, with a Google Account
 
 With [[microG]] enabled, you have the option to configure it with a Google account. This will allow some additional apps and services to work, such as Google Fi, but you are no longer semi-anonymous with respect to Google services.
