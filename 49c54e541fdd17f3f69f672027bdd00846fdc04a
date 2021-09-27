@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6819b51_6bdcd2b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-27T21:01:40Z",
+      "side": 1,
+      "message": "Preview:\n\nhttps://mentorne.gitlab.io/-/calyxos.org/-/jobs/1496813098/artifacts/test/about/faq/index.html\n\nWill need updates and also re-adding some of the things removed.\n\n\nAdditionally, I was thinking of splitting up the FAQ.\n\nFor example, installation issues basically need their own little faq. We have some of it addressed in the new install guide but not all.",
+      "revId": "49c54e541fdd17f3f69f672027bdd00846fdc04a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
