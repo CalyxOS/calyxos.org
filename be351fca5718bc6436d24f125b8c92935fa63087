@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7ecd7511_b8feb86e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-27T05:06:25Z",
+      "side": 1,
+      "message": "added comment to the template. i like having the auto-generated pages included with the commit because then it is much easier to preview changes by looking at the gitlab ci site.",
+      "parentUuid": "c71ae213_ddcf555f",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4aba64ed_bffef823",
         "filename": "_config.yml",
         "patchSetId": 5
@@ -140,6 +158,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7891aa6c_ca24fb6d",
+        "filename": "pages/_includes/install/linux_flasher.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-27T05:06:25Z",
+      "side": 1,
+      "message": "fixed now",
+      "parentUuid": "466a91a6_67415988",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "93439812_d5329f2a",
@@ -153,6 +189,24 @@
       "writtenOn": "2021-09-24T12:00:46Z",
       "side": 1,
       "message": "Same as above.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d4025aa_c33f5c92",
+        "filename": "pages/_includes/install/linux_flasher.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-27T05:06:25Z",
+      "side": 1,
+      "message": "fixed now",
+      "parentUuid": "93439812_d5329f2a",
       "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -192,6 +246,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9dc8f69b_c4c9c08d",
+        "filename": "pages/_includes/install/mac_drivers.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-27T05:06:25Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "cd343ced_2ec0698b",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a0d1de78_94ad090a",
@@ -227,6 +299,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7749a082_968e4ce4",
+        "filename": "pages/_includes/install/windows_drivers.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-27T05:06:25Z",
+      "side": 1,
+      "message": "i went with specific",
+      "parentUuid": "6ce12a1f_f6fb563d",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1ec0245d_9be08bed",
@@ -240,6 +330,24 @@
       "writtenOn": "2021-09-24T12:00:46Z",
       "side": 1,
       "message": "Do we need the number here? Might be easier to have it in the common template to make changes easier?",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a809d24a_803b176f",
+        "filename": "pages/_includes/install/windows_run.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-27T05:06:25Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "1ec0245d_9be08bed",
       "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -279,6 +387,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6afde102_9b4968f0",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-27T05:06:25Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "5ba16b24_cc96add0",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fdd30dc5_0766f373",
@@ -296,6 +422,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ab7e3b0_db3242c5",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-27T05:06:25Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "fdd30dc5_0766f373",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f8128883_7e619383",
@@ -309,6 +453,24 @@
       "writtenOn": "2021-09-24T12:00:46Z",
       "side": 1,
       "message": "This sounds technical.\n\nThe bootloader mode of the Android device needed to install a custom Operating System (or ROM)",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be6bcac2_8580d3e1",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-27T05:06:25Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "f8128883_7e619383",
       "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -365,6 +527,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b8a1f096_fcf7cae4",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-27T05:06:25Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "fea9672b_5d463d6d",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "02b4d703_2bec9aef",
@@ -378,6 +558,24 @@
       "writtenOn": "2021-09-24T12:00:46Z",
       "side": 1,
       "message": "Brick is the commonly used term here, instead of destroy.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d096bb07_31925c9e",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-27T05:06:25Z",
+      "side": 1,
+      "message": "Yeah, but that is jargon that some people won\u0027t understand.",
+      "parentUuid": "02b4d703_2bec9aef",
       "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -418,6 +616,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "6df7a636_7018bea3",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-27T05:06:25Z",
+      "side": 1,
+      "message": "I think there is value in having all the directions in one place, where it is easy to update and localize.",
+      "parentUuid": "38b37752_12955639",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9ee9d508_7de24d53",
         "filename": "pages/install/_templates/_install.md",
         "patchSetId": 5
@@ -429,6 +645,24 @@
       "writtenOn": "2021-09-24T12:00:46Z",
       "side": 1,
       "message": "This only happens on the Pixel 2 and Mi A2.\n\nEvery other device goes back into fastboot mode after unlock, and so install proceeds automatically.\n\nBesides, at this point the user is running the flasher, so we should rely on that to provide guidance and not add steps here.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "140437ba_8b3a3f6a",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-27T05:06:25Z",
+      "side": 1,
+      "message": "now only shown for those devices",
+      "parentUuid": "9ee9d508_7de24d53",
       "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -446,6 +680,24 @@
       "writtenOn": "2021-09-24T12:00:46Z",
       "side": 1,
       "message": "Also if it hangs.",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "93343713_73c656e6",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-09-27T05:06:25Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "3bcd5b2c_76552d98",
       "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
