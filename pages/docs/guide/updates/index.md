@@ -25,19 +25,7 @@ If you'd like to manually update your CalyxOS install, see [[ota]].
 
 ### Security patch level
 
-Google releases monthly security updates for Android, which contain important fixes.
-
-CalyxOS takes those and integrates them into the OS, and releases new builds.
-
-They can be divided into multiple parts, as each of them has to be updated separately.
-
-Open source:
-* Platform - AOSP, the open source components that CalyxOS builds on.
-* Kernel - Android's fork of the Linux kernel.
-
-Proprietary:
-* Vendor - the proprietary components needed to make a device work.
-* Firmware / bootloader - more of the above
+For more information about the security patch level, see [[bulletin]].
 
 ## App updates
 
