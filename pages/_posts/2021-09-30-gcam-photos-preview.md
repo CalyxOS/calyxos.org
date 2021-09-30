@@ -15,7 +15,7 @@ Steps:
 1. Uninstall Google Photos (if you have it installed).
 2. Download and install [GCamPhotosPreview.apk](https://release.calyxinstitute.org/GCamPhotosPreview-1.apk).
 3. Open Google Camera, try to view an image by tapping on the bottom right preview circle.
-4. If you scroll past the first image, you may be asked to grant storage permissions. That's required to via those images.
+4. If you scroll past the first image, you may be asked to grant storage permissions. That's required to view those images.
 
 We'll be working on adding more features to this, and making any fixes as needed. It's [open soure](https://gitlab.com/CalyxOS/platform_external_calyx_GCamPhotosPreview), contributions welcome!
 
