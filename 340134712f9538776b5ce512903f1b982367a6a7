@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "54ea2a65_adf669ce",
+        "filename": "pages/_posts/2021-09-30-gcam-photos-preview.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000032
+      },
+      "writtenOn": "2021-09-30T22:10:19Z",
+      "side": 1,
+      "message": "typo [open source]",
+      "revId": "340134712f9538776b5ce512903f1b982367a6a7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
