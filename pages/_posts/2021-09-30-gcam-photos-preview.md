@@ -17,6 +17,6 @@ Steps:
 3. Open Google Camera, try to view an image by tapping on the bottom right preview circle.
 4. If you scroll past the first image, you may be asked to grant storage permissions. That's required to view those images.
 
-We'll be working on adding more features to this, and making any fixes as needed. It's [open soure](https://gitlab.com/CalyxOS/platform_external_calyx_GCamPhotosPreview), contributions welcome!
+We'll be working on adding more features to this, and making any fixes as needed. It's [open source](https://gitlab.com/CalyxOS/platform_external_calyx_GCamPhotosPreview), contributions welcome!
 
 Also, while we're talking about Google Camera, the upcoming CalyxOS update includes some changes that will let you install it directly from Aurora Store :)
