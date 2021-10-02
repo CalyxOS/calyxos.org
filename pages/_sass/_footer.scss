@@ -11,8 +11,8 @@
 
 // footer links
 footer {
-  a, .spacer {color: #999;}
   a {
+    color: #666;
     text-decoration: none;
     &:hover {
       text-decoration: underline;
@@ -35,6 +35,38 @@ footer .wrapper {
     display: flex;
     justify-content: center;
     column-gap: 1rem;
+    row-gap: 1rem;
+    flex-wrap: wrap;
     &.footer-icons {column-gap: 2rem}
+  }
+}
+
+//
+// This is a lot of css, but it achieves an important objective:
+// a wrapped list of items, separated by bullets, but only between
+// items and not at the end of a line when it wraps, and compatible
+// with screen readers (doesn't read 'bullet').
+//
+// It works because the " " in a:after is clipped by the end of line,
+// so the background image is not shown.
+//
+footer .wrapper .row {
+  ul {
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+  }
+  li {
+    display: inline;
+    margin: 0;
+  }
+  li a {
+    white-space: nowrap;
+  }
+  li a:after {
+    content: " ";
+    letter-spacing: 1em;
+    margin: 0 4px;
+    background: center center no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC4xMkMEa+wAAAAnSURBVBhXY/Dz89MA4sNA/B9Ka4AEYQIwfBgkiCwAxjhVopnppwEApxQqhnyQ+VkAAAAASUVORK5CYII=);
   }
 }
