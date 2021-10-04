@@ -71,6 +71,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5643228f_3d1e35fd",
+        "filename": "pages/_data/devices.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-04T22:28:48Z",
+      "side": 1,
+      "message": "\u003e physical_sim: n\ngood!\n\u003e esim: yes\ngood! no true?\n\u003e max_active_sim: n\nNot good, since you can\u0027t have 2 active eSIMs for example.\n\nLet\u0027s just discuss this separately in it\u0027s own change later when actually used?\n\nIn theory you can have 10 esims I think (I\u0027ve seen at least 4-5, Google Fi tends to add a bunch, and then sometimes I\u0027ve added my own eSIM from a different provider to the same phone)\n\nYou can only have one on at a same time of course.",
+      "parentUuid": "207621c2_b0519acc",
+      "revId": "4a5dd8db4a614c72ada1dbc5f0421d450a134cae",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2ebf905b_bcd97b29",
