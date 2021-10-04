@@ -16,6 +16,24 @@
       "message": "typo [open source]",
       "revId": "340134712f9538776b5ce512903f1b982367a6a7",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9df997af_90d74a2c",
+        "filename": "pages/_posts/2021-09-30-gcam-photos-preview.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-04T12:54:08Z",
+      "side": 1,
+      "message": "Fixed, thanks!",
+      "parentUuid": "54ea2a65_adf669ce",
+      "revId": "340134712f9538776b5ce512903f1b982367a6a7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
