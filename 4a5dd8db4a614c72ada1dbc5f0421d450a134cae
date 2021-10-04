@@ -123,6 +123,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "29ade19c_77fb2a1c",
+        "filename": "pages/_data/downloads.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-04T15:49:14Z",
+      "side": 1,
+      "message": "Probably local timezone related then?",
+      "parentUuid": "84856c00_041f2378",
+      "revId": "4a5dd8db4a614c72ada1dbc5f0421d450a134cae",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7081ad80_80b6f4da",
@@ -154,6 +172,24 @@
       "side": 1,
       "message": "That seems like a distinction without a difference. But OK, so most of the time, root is not needed. But does it do the thing where it will ask for the sudo password correctly if needed. Or is that a future thing?\n\nHow about: \"The device-flasher program needs certain **udev** rules installed. The device-flasher will set these rules up for you, but it may ask for your sudo password to do so. Alternately, you can install one of the following packages to correctly set the udev rules in advance.\"",
       "parentUuid": "7081ad80_80b6f4da",
+      "revId": "4a5dd8db4a614c72ada1dbc5f0421d450a134cae",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35e3d7c5_404f32a6",
+        "filename": "pages/_includes/install/linux_notes.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-04T15:49:14Z",
+      "side": 1,
+      "message": "Now:\n* $ device-flasher.linux -\u003e asks for sudo password to install udev rules\n* $ sudo device-flasher.linux -\u003e usually needed if above rules didn\u0027t do the job\n* $ sudo apt install udev \u0026\u0026 device-flasher.linux -\u003e probably fine\n\nFuture:\n* $ device-flasher.linux -\u003e no more sudo, instead it relies on these udev package installs indirectly. The rules didn\u0027t work for everyone anyway, and it\u0027s better to avoid privileged escalation entirely.\n* $ gui-flasher -\u003e not shipping yet, and also doesn\u0027t handle sudo since we never figured out a good way to do it from within a gui (gksudo is deprecated, pkexec seemed complicated)\n\nLet\u0027s keep it like this for now and just ship the flasher updates soon to then not needed that bit entirely.",
+      "parentUuid": "c8f78a83_5b287b2a",
       "revId": "4a5dd8db4a614c72ada1dbc5f0421d450a134cae",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
