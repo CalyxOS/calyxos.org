@@ -33,6 +33,24 @@
       "message": "If you don\u0027t mind, I will like to discard this commit, and instead move the content that you have written here to other pages. In my mind, the FAQ is kind of a horrible unorganized catch all for the stuff that doesn\u0027t fit anywhere.\n\nBut for most of the content in this commit there are good logical places already where it could go, such as the about CalyxOS page, or the device compatibility page, or the security page. ",
       "revId": "49c54e541fdd17f3f69f672027bdd00846fdc04a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee6eebb2_8cd51266",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-04T15:44:25Z",
+      "side": 1,
+      "message": "I didn\u0027t write this, it was contributed by nitromax1 on matrix, but yes, I do agree with you.\n\nIt\u0027s more important that this content be somewhere that\u0027s easily viewable on the website rather than where it is specifically, so other places are fine too.",
+      "parentUuid": "f1f1c73d_ee21906c",
+      "revId": "49c54e541fdd17f3f69f672027bdd00846fdc04a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
