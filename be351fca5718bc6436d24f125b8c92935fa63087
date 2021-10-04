@@ -177,6 +177,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8420d72a_8bf391b8",
+        "filename": "pages/_includes/install/linux_drivers.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-04T04:14:32Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "153841b8_f9f94955",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0224eeb6_10d8f7f7",
@@ -670,6 +688,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e3fbc36_2e367e18",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-04T04:14:32Z",
+      "side": 1,
+      "message": "ok",
+      "parentUuid": "a4114547_33c437bb",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "932c7568_abe4eb23",
@@ -863,6 +899,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b7e7d517_62fcdc2d",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-04T04:14:32Z",
+      "side": 1,
+      "message": "ok, hidden for a2",
+      "parentUuid": "a117b00c_be94ed55",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5f80f8df_ae116c2e",
@@ -912,6 +966,24 @@
       "side": 1,
       "message": "Right. In that case, it should be mentioned at https://elijh.gitlab.io/calyxos.org/install/\n\nAnd we can also include some text on the A2 / Pixel 2 specific pages.",
       "parentUuid": "601e1626_fda48c92",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ebd9cad7_b8e548f9",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-04T04:14:32Z",
+      "side": 1,
+      "message": "ok",
+      "parentUuid": "fe628272_8ae730d4",
       "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
