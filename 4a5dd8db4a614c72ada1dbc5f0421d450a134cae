@@ -53,6 +53,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "207621c2_b0519acc",
+        "filename": "pages/_data/devices.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-04T21:10:50Z",
+      "side": 1,
+      "message": "I was wondering what encoding makes the most sense. Maybe:\n\nphysical_sim: 2\nesim: yes\nmax_active_sim: 2\n\ndoes that cover it? How do limits work with esim? Can you have 10 esims?",
+      "parentUuid": "14c9ca15_746c8645",
+      "revId": "4a5dd8db4a614c72ada1dbc5f0421d450a134cae",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2ebf905b_bcd97b29",
@@ -141,6 +159,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "19ad19ef_2085c923",
+        "filename": "pages/_data/downloads.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-04T21:10:50Z",
+      "side": 1,
+      "message": "Oh, yeah, that is something to check.",
+      "parentUuid": "29ade19c_77fb2a1c",
+      "revId": "4a5dd8db4a614c72ada1dbc5f0421d450a134cae",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7081ad80_80b6f4da",
@@ -207,6 +243,24 @@
       "writtenOn": "2021-10-04T14:10:13Z",
       "side": 1,
       "message": "\u0026 Derivates / Distros based on this? Same for others.",
+      "revId": "4a5dd8db4a614c72ada1dbc5f0421d450a134cae",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "01b5c889_d247f080",
+        "filename": "pages/_includes/install/linux_notes.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-04T21:10:50Z",
+      "side": 1,
+      "message": "resolved",
+      "parentUuid": "d9cd3c99_2faf6dde",
       "revId": "4a5dd8db4a614c72ada1dbc5f0421d450a134cae",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
