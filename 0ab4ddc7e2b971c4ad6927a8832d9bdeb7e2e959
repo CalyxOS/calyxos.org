@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f45ab30_ecc2094e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-04T12:09:39Z",
+      "side": 1,
+      "message": "To avoid having dev diverge from master.\n\nUsually I do it the other way around - push to dev and cherry-pick to master.",
+      "revId": "0ab4ddc7e2b971c4ad6927a8832d9bdeb7e2e959",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
