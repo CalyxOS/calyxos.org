@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ec9de56_9ba0457f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-04T15:35:51Z",
+      "side": 1,
+      "message": "This fixes the issue with the burgerstack too.",
+      "revId": "ecfdcfa75cf146ce8d2789e3bc7f91378959c4bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
