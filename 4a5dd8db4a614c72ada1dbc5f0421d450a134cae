@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8a9edf1b_3a1d60f4",
+        "filename": "pages/_data/devices.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-04T14:10:13Z",
+      "side": 1,
+      "message": "Only 1 Physical SIM\nOnly 1 eSIM active at a time (although it lets you have multiple de-activated eSIMs)\n\nSame for all other \"dual\" Pixels.",
+      "revId": "4a5dd8db4a614c72ada1dbc5f0421d450a134cae",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2ebf905b_bcd97b29",
+        "filename": "pages/_data/devices.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-04T14:10:13Z",
+      "side": 1,
+      "message": "This has 2 physical SIM slots.",
+      "revId": "4a5dd8db4a614c72ada1dbc5f0421d450a134cae",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1d26251c_3aba1791",
+        "filename": "pages/_data/downloads.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-04T14:10:13Z",
+      "side": 1,
+      "message": "Why did this change?",
+      "revId": "4a5dd8db4a614c72ada1dbc5f0421d450a134cae",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7081ad80_80b6f4da",
+        "filename": "pages/_includes/install/linux_notes.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-04T14:10:13Z",
+      "side": 1,
+      "message": "FYI, You don\u0027t need to run the flasher as root.\n\nThe flasher escalates just to install udev on it\u0027s own (through sudo) and then runs the actual install as a normal user.\n\nHowever sometimes even that wasn\u0027t enough for permissions and thus the hint about running as root.",
+      "revId": "4a5dd8db4a614c72ada1dbc5f0421d450a134cae",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d9cd3c99_2faf6dde",
+        "filename": "pages/_includes/install/linux_notes.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-04T14:10:13Z",
+      "side": 1,
+      "message": "\u0026 Derivates / Distros based on this? Same for others.",
+      "revId": "4a5dd8db4a614c72ada1dbc5f0421d450a134cae",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2b1c9ac5_f24e67cb",
+        "filename": "pages/_includes/install/linux_notes.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-04T14:10:13Z",
+      "side": 1,
+      "message": "Super minor, but maybe \u0027\u0026\u0026\u0027 to make it a one liner?\n\nand ```shell``` for formatting?",
+      "revId": "4a5dd8db4a614c72ada1dbc5f0421d450a134cae",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
