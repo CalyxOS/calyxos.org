@@ -124,6 +124,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c8f78a83_5b287b2a",
+        "filename": "pages/_includes/install/linux_notes.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-04T15:32:20Z",
+      "side": 1,
+      "message": "That seems like a distinction without a difference. But OK, so most of the time, root is not needed. But does it do the thing where it will ask for the sudo password correctly if needed. Or is that a future thing?\n\nHow about: \"The device-flasher program needs certain **udev** rules installed. The device-flasher will set these rules up for you, but it may ask for your sudo password to do so. Alternately, you can install one of the following packages to correctly set the udev rules in advance.\"",
+      "parentUuid": "7081ad80_80b6f4da",
+      "revId": "4a5dd8db4a614c72ada1dbc5f0421d450a134cae",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d9cd3c99_2faf6dde",
         "filename": "pages/_includes/install/linux_notes.md",
         "patchSetId": 9
@@ -152,6 +170,24 @@
       "writtenOn": "2021-10-04T14:10:13Z",
       "side": 1,
       "message": "Super minor, but maybe \u0027\u0026\u0026\u0027 to make it a one liner?\n\nand ```shell``` for formatting?",
+      "revId": "4a5dd8db4a614c72ada1dbc5f0421d450a134cae",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a124167a_82c1f677",
+        "filename": "pages/_includes/install/linux_notes.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-04T15:32:20Z",
+      "side": 1,
+      "message": "I find the \u0026\u0026 harder to read, and people not savvy with shell might not know what it is doing.",
+      "parentUuid": "2b1c9ac5_f24e67cb",
       "revId": "4a5dd8db4a614c72ada1dbc5f0421d450a134cae",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
