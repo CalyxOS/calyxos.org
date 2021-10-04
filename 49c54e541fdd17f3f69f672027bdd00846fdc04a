@@ -16,6 +16,23 @@
       "message": "Preview:\n\nhttps://mentorne.gitlab.io/-/calyxos.org/-/jobs/1496813098/artifacts/test/about/faq/index.html\n\nWill need updates and also re-adding some of the things removed.\n\n\nAdditionally, I was thinking of splitting up the FAQ.\n\nFor example, installation issues basically need their own little faq. We have some of it addressed in the new install guide but not all.",
       "revId": "49c54e541fdd17f3f69f672027bdd00846fdc04a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1f1c73d_ee21906c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-04T15:42:23Z",
+      "side": 1,
+      "message": "If you don\u0027t mind, I will like to discard this commit, and instead move the content that you have written here to other pages. In my mind, the FAQ is kind of a horrible unorganized catch all for the stuff that doesn\u0027t fit anywhere.\n\nBut for most of the content in this commit there are good logical places already where it could go, such as the about CalyxOS page, or the device compatibility page, or the security page. ",
+      "revId": "49c54e541fdd17f3f69f672027bdd00846fdc04a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
