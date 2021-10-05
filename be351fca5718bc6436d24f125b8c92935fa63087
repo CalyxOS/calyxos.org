@@ -600,6 +600,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ebc5e97_98b93c06",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-05T18:28:19Z",
+      "side": 1,
+      "message": "These are good, let\u0027s keep these in for now.",
+      "parentUuid": "78cea116_a26c6dda",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fea9672b_5d463d6d",
@@ -790,6 +808,24 @@
       "side": 1,
       "message": "It\u0027ll be harder to localize flasher but we can still do.\n\nHaving it out of sync in both places right now would just cause additional confusion.\n\n\"The website wants me to put it in fastboot mode, but the flasher asks me to enable usb debugging - What should I do?\"\n\nWe should change the flasher, but till then this will just cause extra confusion.",
       "parentUuid": "6df7a636_7018bea3",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b7eee540_49d32247",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-05T18:28:19Z",
+      "side": 1,
+      "message": "I\u0027m suggesting we drop \"Step 1.\" here for now.",
+      "parentUuid": "ab078960_16cdd554",
       "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
