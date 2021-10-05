@@ -16,6 +16,24 @@
       "message": "With this the only 2 unresolved comments are about the install instruction duplication / conflict (i.e. this says fastboot, flasher says adb), and both have unlock instructions which look slightly different.",
       "revId": "3ea53b0cc2879e72b0428a79996e3be8d7439cee",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e772b6ea_348bc34a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-05T21:25:51Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "6093e51f_10db89d4",
+      "revId": "3ea53b0cc2879e72b0428a79996e3be8d7439cee",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }

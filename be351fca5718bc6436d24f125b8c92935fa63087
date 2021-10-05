@@ -830,6 +830,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "df599ea0_5cd67b25",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-05T21:25:51Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "b7eee540_49d32247",
+      "revId": "be351fca5718bc6436d24f125b8c92935fa63087",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9ee9d508_7de24d53",
