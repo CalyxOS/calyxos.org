@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e432b50b_fc9ccd63",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-05T23:37:47Z",
+      "side": 1,
+      "message": "Doesn\u0027t look the best.\n\nget now directly has the list of devices too.\n\nBut I think we should still have something on the homepage.\n\nEspecially once we re-add membership to get, as that might change things again.",
+      "revId": "84fbad5ae98a9d03c3296355d30feea484277364",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
