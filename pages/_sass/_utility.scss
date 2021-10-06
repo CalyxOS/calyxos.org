@@ -1,0 +1,49 @@
+
+// css helpers and utility classes
+
+// margin
+
+.m-xxs {margin: var(--spacing-xxsmall)}
+.m-xs  {margin: var(--spacing-xsmall)}
+.m-sm  {margin: var(--spacing-small)}
+.m-md  {margin: var(--spacing-medium)}
+.m-lg  {margin: var(--spacing-large)}
+.m-xl  {margin: var(--spacing-xlarge)}
+.m-xxl {margin: var(--spacing-xxlarge)}
+
+// margin top
+
+.mt-xxs {margin-top: var(--spacing-xxsmall)}
+.mt-xs  {margin-top: var(--spacing-xsmall)}
+.mt-sm  {margin-top: var(--spacing-small)}
+.mt-md  {margin-top: var(--spacing-medium)}
+.mt-lg  {margin-top: var(--spacing-large)}
+.mt-xl  {margin-top: var(--spacing-xlarge)}
+.mt-xxl {margin-top: var(--spacing-xxlarge)}
+
+// margin bottom
+
+.mb-xxs {margin-bottom: var(--spacing-xxsmall)}
+.mb-xs  {margin-bottom: var(--spacing-xsmall)}
+.mb-sm  {margin-bottom: var(--spacing-small)}
+.mb-md  {margin-bottom: var(--spacing-medium)}
+.mb-lg  {margin-bottom: var(--spacing-large)}
+.mb-xl  {margin-bottom: var(--spacing-xlarge)}
+.mb-xxl {margin-bottom: var(--spacing-xxlarge)}
+
+// padding
+
+.p-xxs {padding: var(--spacing-xxsmall)}
+.p-xs  {padding: var(--spacing-xsmall)}
+.p-sm  {padding: var(--spacing-small)}
+.p-md  {padding: var(--spacing-medium)}
+.p-lg  {padding: var(--spacing-large)}
+.p-xl  {padding: var(--spacing-xlarge)}
+.p-xxl {padding: var(--spacing-xxlarge)}
+
+// background color
+
+.bg-dark {background-color: var(--color-dark)}
+.bg-grey {background-color: var(--color-grey)}
+.bg-lite {background-color: var(--color-lite)}
+.bg-shade {background-color: var(--color-shade)}
