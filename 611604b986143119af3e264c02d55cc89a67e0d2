@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9fefa41c_8cc07bdf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T16:03:36Z",
+      "side": 1,
+      "message": "It\u0027d also be nice to have this linked from some other place so that people can actually find it.\n\nSomewhere under docs/guide perhaps?",
+      "revId": "611604b986143119af3e264c02d55cc89a67e0d2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
