@@ -1,8 +1,8 @@
 ---
-title: Install on Xiaomi Mi A
+title: Install on Xiaomi Mi A2
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Xiaomi Mi A => jasmine_sprout]]</strong>
+<strong>[[Install => install]]</strong> / <strong>[[Xiaomi Mi A2 => jasmine_sprout]]</strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

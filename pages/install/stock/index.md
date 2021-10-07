@@ -7,15 +7,15 @@ redirect_from: /get/back-to-stock/
 If you would like to re-install stock Android, you can follow the below steps.
 
 There are two options:
+
 1. Use the [web installer](#web-installer), only for Pixels.
 2. Flash the [factory image](#factory-images) manually, works for both Pixels and A2
-
-<br />
 
 ## Web Installer
 
 Google provides a [web installer](https://source.android.com/setup/contribute/flash) for the Pixels, which means that you can directly install the stock OS from a web browser (even from another phone!) without having to install anything. Simply click on the correct link for your device.
-<table class="table table-striped download">
+
+<table class="table table-striped download" markdown="0">
   <tr><th>Device</th><th>Link</th></tr>
 {% for device in site.data.back-to-stock %}
   <tr>
@@ -29,12 +29,12 @@ Google provides a [web installer](https://source.android.com/setup/contribute/fl
   </tr>
 </table>
 
-<br />
 
 ## Factory images
 
 These are the latest stock factory images for your device. You can download and install them [manually](https://developers.google.com/android/images#instructions).
-<table class="table table-striped download">
+
+<table class="table table-striped download" markdown="0">
   <tr><th>Device</th><th>Link</th><th>SHA256</th></tr>
 {% for device in site.data.back-to-stock %}
   <tr>
