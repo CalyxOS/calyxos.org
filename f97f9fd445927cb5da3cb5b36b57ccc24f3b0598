@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f70d18d2_42769b50",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T20:47:34Z",
+      "side": 1,
+      "message": "Minor nits",
+      "revId": "f97f9fd445927cb5da3cb5b36b57ccc24f3b0598",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cad2d69f_aac439bb",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T20:47:34Z",
+      "side": 1,
+      "message": "Does this still work?",
+      "revId": "f97f9fd445927cb5da3cb5b36b57ccc24f3b0598",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "33b29b07_8c6271bf",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T20:47:34Z",
+      "side": 1,
+      "message": "update-* is at least once a month.\n\ngenerate-* is anytime we want to make a change to install page.",
+      "revId": "f97f9fd445927cb5da3cb5b36b57ccc24f3b0598",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
