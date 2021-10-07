@@ -33,6 +33,24 @@
       "message": "I really like it.\n\nEspecially given that it\u0027s compact.\n\nOn mobile we\u0027re still hitting the bug where the first row of a table isn\u0027t seen, so we only see Xiaomi, Google is gone.",
       "revId": "241a576d7dc42a50f380caeeeb37245097048bb8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b466a9b_4f9d1373",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-07T15:56:11Z",
+      "side": 1,
+      "message": "ok, shit, i thought I fixed that. That will be a separate commit, however. Can I just merge this?",
+      "parentUuid": "eddd13cb_789bde12",
+      "revId": "241a576d7dc42a50f380caeeeb37245097048bb8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
