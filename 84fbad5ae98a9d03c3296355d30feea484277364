@@ -34,6 +34,24 @@
       "parentUuid": "e432b50b_fc9ccd63",
       "revId": "84fbad5ae98a9d03c3296355d30feea484277364",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd12fd0f_5ca2db48",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-07T15:57:14Z",
+      "side": 1,
+      "message": "oh, nevermind. I got confused about the different patches with the same title.",
+      "parentUuid": "0b4ffff5_7576ffbc",
+      "revId": "84fbad5ae98a9d03c3296355d30feea484277364",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
