@@ -130,7 +130,7 @@ module Releases
   end
 end
 
-desc 'fetch data on current firmware releases and build pages/_data/downloads.yml file'
+desc 'Fetch data on current firmware releases and build pages/_data/downloads.yml file'
 task 'update-releases' do
   Releases.update
 end

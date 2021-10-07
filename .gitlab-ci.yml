@@ -13,7 +13,7 @@ before_script:
   - bundle binstubs rake jekyll
   - bin/rake update-releases
   - bin/rake update-apps
-  - bin/rake back-to-stock
+  - bin/rake update-back-to-stock
   - bin/rake generate-data-pages
 
 pages:

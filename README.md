@@ -3,73 +3,69 @@
 ## Directory layout
 
 * pages: The source content for the site.
-* docs: Rendered static pages. These are not committed to this repo.
+* static: Rendered static pages. These are not committed to this repo.
+* tasks: Various `rake` tasks, such as fetching the updated list of releases. Run `rake -T` for the list of available tasks.
 
-## Building the static pages
+## Install prerequisites
 
-Prerequisites:
+### MacOS
+
+    brew install git
+    brew install ruby
+
+### Debian & Ubuntu
 
     sudo apt install git ruby bundler build-essential libxml2 libxslt1.1 zlib1g-dev
 
-Clone git repo:
+## Install Gems
+
+First, clone git repo:
 
     git clone https://gitlab.com/CalyxOS/calyxos.org.git -b dev
 
-Install gems for development
+### The ruby way
+
+Install gems for development:
 
     cd calyxos.org
     gem install bundler
     bundle install --path=vendor
 
-Install gems for deployment
+Install gems for deployment:
 
     cd calyxos.org
     gem install bundler
     bundle config set deployment true
     bundle
 
-Build the static pages:
+### The Debian way
 
-    rake build
+Instead of using bundler to fetch the gems from rubygems.org, you can use Debian or Ubuntu packages:
 
-To view the pages via a local server:
-
-    rake develop
-
-Update the firmware release download links:
-
-    rake update-releases
-
-Update the app list:
-
-    rake update-app-list
-
-Update stock OS links:
-
-    rake back-to-stock
-
-
-### Alternatie debian package install
-
-Typically, ruby is distributed with a Gemfile, which uses the
-`bundle` and `gem` commands to install the particular versions of
-ruby libraries (gems) that are needed.
-
-However, on Debian, many gems are also packages as Debian packages.
-Installing using Debian packages may be easier if you are not familar
-with ruby.
-
-First, make sure [_buster-backports_ is
-enabled](https://backports.debian.org/Instructions/). Then install
+First, make sure [_buster-backports_ is enabled](https://backports.debian.org/Instructions/). Then install
 the dependencies:
 
     sudo apt-get install -t buster-backports \
       jekyll ruby-jekyll-feed ruby-jekyll-polyglot ruby-jekyll-toc ruby-rouge po4a
     rm -f Gemfile Gemfile.lock
-    jekyll serve
 
+## Building the static pages
 
-## Adding pages
+Build the static pages:
+
+    rake update-releases       # updates factory image links
+    rake update-app-list       # updates app list
+    rake update-back-to-stock  # update stock factory image links
+    rake generate-data-pages   # re-creates pages that are built from pages/_data/
+    rake build
+
+You only need to run the `update-*` and `generate-` rake tasks once in a while (the upstream data doesn't change very often).
+
+## Editing pages
+
+To view the pages via a local server:
+
+    rake server
 
 To modify the navigation menu, edit the file `pages/_data/menu.yml`.
 
@@ -104,6 +100,7 @@ Data from these places are pulled in to help generate this site:
 * https://gitlab.com/CalyxOS/release.git
 * https://gitlab.com/CalyxOS/releases.git
 * https://gitlab.com/CalyxOS/platform_prebuilts_calyx_fdroid/-/raw/android11-qpr1/repo/index.xml
+* https://github.com/AOSPAlliance/vendor_google_devices/raw/android11/config.json
 
 The images on this site are sourced from:
 

@@ -62,8 +62,7 @@ module BacktoStock
   end
 end
 
-desc 'fetch'
-
-task 'back-to-stock' do
+desc 'Fetch stock factory image information'
+task 'update-back-to-stock' do
   BacktoStock.update
 end
