@@ -34,6 +34,24 @@
       "parentUuid": "9fefa41c_8cc07bdf",
       "revId": "611604b986143119af3e264c02d55cc89a67e0d2",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "afbbc9e6_bb6d41f3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T20:49:12Z",
+      "side": 1,
+      "message": "Totally, feel free to play around with any of my changes.\n\nWith gerrit, you can even keep the same Change-Id and branch, and replace this change with something else entirely, and it\u0027d happily take that as a new patch set.\n\nI.e. for example if you redo this commit on your own, if you just copy paste this Change-Id to the footer of yours and run \u0027git review\u0027, this change will have a new patchset which would be your change.",
+      "parentUuid": "1c9c4f67_c1fc0dc7",
+      "revId": "611604b986143119af3e264c02d55cc89a67e0d2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
