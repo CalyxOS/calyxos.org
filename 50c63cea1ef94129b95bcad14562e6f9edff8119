@@ -1,0 +1,191 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14bd6db2_342ff587",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T20:45:13Z",
+      "side": 1,
+      "message": "First pass.\n\nIn general when talking about other projects I try to just re-use as much of the wording they themselves use instead of trying to write our own interpretation.",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dcb1e443_9f96d16b",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T20:45:13Z",
+      "side": 1,
+      "message": "Amazon and Microsoft don\u0027t seem to fit so well when talking about mobile devices, but I get the general idea.",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6d384af0_593efb9b",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T20:45:13Z",
+      "side": 1,
+      "message": "s/drawn/draw/ ?",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0d6fa4ca_23d81e62",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T20:45:13Z",
+      "side": 1,
+      "message": "I think we should mention LineageOS, but I\u0027d have to check in to see what the best way to do that is, so maybe that can go in a follow up commit.\n\nI\u0027d just refer to https://lineageos.org/ though (and maybe copy some text from it)",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d84584cd_5cc9a1f1",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T20:45:13Z",
+      "side": 1,
+      "message": "First line: microG provides an open source re-implementation of proprietary Google Services.\n\nFrom microg.org\n\"A free-as-in-freedom re-implementation of Google’s proprietary Android user space apps and libraries.\"\n\n2nd last: CalyxOS includes [[microG]], an open-source\nLast: Maybe replace now with something else? But I can\u0027t think of something right away.",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5998a8ea_ad95fd5b",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T20:45:13Z",
+      "side": 1,
+      "message": "From f-droid.org\nF-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform. The client makes it easy to browse, install, and keep track of updates on your device.\n\n\nFrom https://auroraoss.com/download/AuroraStore/\nAurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind. Not only does Aurora Store download, update, and search for apps like the Play Store, it also empowers the user with useful features.\n\n\nAlso, it should be called \"Aurora Store\", not just \"Aurora\", since that refers to multiple things / the entire project.\n\nBoth of these could be linked to their pages / section under guide.",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4ecdc70a_bc1093c8",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T20:45:13Z",
+      "side": 1,
+      "message": "CalyxOS is repeated twice, is that ok?",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bda9204a_c6000175",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T20:45:13Z",
+      "side": 1,
+      "message": "The CalyxOS? I guess it\u0027s missing \"Dialer\" or \"Phone app\"",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d3b1ecb_94e4613e",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T20:45:13Z",
+      "side": 1,
+      "message": "default search engine perhaps?",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dacf2e69_aab076ed",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T20:45:13Z",
+      "side": 1,
+      "message": "Is high security the best word to use here?",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d664e26b_7cc534b2",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T20:45:13Z",
+      "side": 1,
+      "message": "We should just call this seedvault",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
