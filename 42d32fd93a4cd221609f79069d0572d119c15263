@@ -35,6 +35,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5cd37d61_312bb7fc",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-07T15:53:31Z",
+      "side": 1,
+      "message": "removed",
+      "parentUuid": "f50e8791_b8e49df0",
+      "revId": "42d32fd93a4cd221609f79069d0572d119c15263",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "28d88474_ba0deca7",
@@ -48,6 +66,24 @@
       "writtenOn": "2021-10-07T09:03:07Z",
       "side": 1,
       "message": "Or just drop this line.",
+      "revId": "42d32fd93a4cd221609f79069d0572d119c15263",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d54f6515_f6934926",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-07T15:53:31Z",
+      "side": 1,
+      "message": "removed",
+      "parentUuid": "28d88474_ba0deca7",
       "revId": "42d32fd93a4cd221609f79069d0572d119c15263",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
