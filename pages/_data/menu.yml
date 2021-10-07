@@ -11,6 +11,11 @@
     - faq
     - microg
     - updates
+    - security:
+      - security-faq
+      - identifiers
+      - location
+      - bulletin
   - tech:
     - microg-details
     - datura-details
