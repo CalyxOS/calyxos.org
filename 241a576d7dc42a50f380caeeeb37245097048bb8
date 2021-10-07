@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f69b5871_59efcb79",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-07T00:11:27Z",
+      "side": 1,
+      "message": "also not the best looking, but maybe a bit better? and is based on the devices.yml file.",
+      "revId": "241a576d7dc42a50f380caeeeb37245097048bb8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
