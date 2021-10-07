@@ -17,7 +17,7 @@ Which device to you wan to install CalyxOS on? If you don't see your device here
 <tr>
 <th>Device</th>
 <th>Codename</th>
-<th>Last CalyxOS Release</th>
+<th>Latest CalyxOS Release</th>
 </tr>
 {% for device in site.data.downloads["stable"] %}
 <tr>
