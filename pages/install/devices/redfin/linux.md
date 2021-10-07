@@ -103,6 +103,10 @@ If you get a mysterious error when running device-flasher, or if device-flasher 
 {% include {{site.data.install.pixel.troubleshooting}} %}
 {% endif %}
 
+## Back to Stock
+
+If you would like to return to the default operating system, please see [[stock]]
+
 ## Security Notes
 
 {% include install/security_notes.html %}

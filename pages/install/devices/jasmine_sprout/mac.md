@@ -1,10 +1,10 @@
 ---
-title: Install on Xiaomi Mi A
+title: Install on Xiaomi Mi A2
 description: From a MacOS computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Xiaomi Mi A => jasmine_sprout]]</strong> / <strong>MacOS</strong>
+<strong>[[Install => install]]</strong> / <strong>[[Xiaomi Mi A2 => jasmine_sprout]]</strong> / <strong>MacOS</strong>
 
 ## Terminology
 
@@ -42,7 +42,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 <a class="btn" href="https://release.calyxinstitute.org/jasmine_sprout-factory-202109290.zip">Download CalyxOS Image</a>
 
-Save this image in the same directory as device-flasher. This image will **only** work for **Xiaomi Mi A (jasmine_sprout)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
+Save this image in the same directory as device-flasher. This image will **only** work for **Xiaomi Mi A2 (jasmine_sprout)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
 Do not extract or rename the zip, simply copy it as-is.
 
@@ -102,6 +102,10 @@ If you get a mysterious error when running device-flasher, or if device-flasher 
 {% if site.data.install.xiaomi.troubleshooting %}
 {% include {{site.data.install.xiaomi.troubleshooting}} %}
 {% endif %}
+
+## Back to Stock
+
+If you would like to return to the default operating system, please see [[stock]]
 
 ## Security Notes
 
