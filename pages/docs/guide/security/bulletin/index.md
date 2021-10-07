@@ -1,5 +1,6 @@
 ---
 title: Android Security Bulletins
+nav_title: Security Bulletins
 description: How CalyxOS keeps up with Android Security Bulletins
 toc: true
 redirect_from: /security/bulletin/

@@ -216,6 +216,10 @@ module Jekyll
     end
   end
 
+  #
+  # TODO: support both single level and expanded content menus
+  #       (e.g. allow argument to modify 'expand' parameter )
+  #
   class ContentMenuTag < MenuTag
     def initialize(tag_name, text, tokens)
       super
@@ -233,7 +237,7 @@ module Jekyll
       "<ul class='content-menu'>" +
         render_menu_items(
           current_root,
-          prefix: path, description: true, expand: true
+          prefix: path, description: true, expand: false
         ) +
       "</ul>"
     end
