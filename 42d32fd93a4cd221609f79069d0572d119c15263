@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "18d17a7a_1a846720",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T09:03:07Z",
+      "side": 1,
+      "message": "No more drama please.\n\nThere\u0027s just no way around it, so let\u0027s stay away from it at all times.",
+      "revId": "42d32fd93a4cd221609f79069d0572d119c15263",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f50e8791_b8e49df0",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T09:03:07Z",
+      "side": 1,
+      "message": "Let\u0027s avoid doing this please.",
+      "revId": "42d32fd93a4cd221609f79069d0572d119c15263",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28d88474_ba0deca7",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T09:03:07Z",
+      "side": 1,
+      "message": "Or just drop this line.",
+      "revId": "42d32fd93a4cd221609f79069d0572d119c15263",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
