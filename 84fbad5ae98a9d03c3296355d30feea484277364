@@ -16,6 +16,24 @@
       "message": "Doesn\u0027t look the best.\n\nget now directly has the list of devices too.\n\nBut I think we should still have something on the homepage.\n\nEspecially once we re-add membership to get, as that might change things again.",
       "revId": "84fbad5ae98a9d03c3296355d30feea484277364",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0b4ffff5_7576ffbc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-07T15:38:23Z",
+      "side": 1,
+      "message": "I agree it doesn\u0027t look great. It seems like you are saying it should be merged, but still have it marked as -2?",
+      "parentUuid": "e432b50b_fc9ccd63",
+      "revId": "84fbad5ae98a9d03c3296355d30feea484277364",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
