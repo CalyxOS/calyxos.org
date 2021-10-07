@@ -1,4 +1,21 @@
 ---
+codenames:
+  - barbet
+  - bramble
+  - redfin
+  - sunfish
+  - coral
+  - flame
+  - bonito
+  - sargo
+  - crosshatch
+  - blueline
+  - taimen
+  - walleye
+  - jasmine_sprout
+brands:
+  - pixel
+  - xiaomi
 barbet:
   brand: pixel
   model: Pixel 5a
