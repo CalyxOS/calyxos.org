@@ -5,8 +5,6 @@ date: 2021-10-08
 
 The October Security update is here. It also contains some bugfixes and minor features that we had been working on.
 
-It is currently in the beta channel, and will be bumped to the stable channel later after additional testing and feedback. Factory images will be available at that time as well.
-
 We're also working on Android 12, for more details see <a href="{{ '/news/2021/10/05/android12/' | relative_url }}">Android 12 update plans</a>
 
 Changelog:
