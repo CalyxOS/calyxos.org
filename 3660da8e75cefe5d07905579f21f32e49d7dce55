@@ -72,6 +72,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b43b5b23_4270078b",
+        "filename": "pages/docs/guide/security/identifiers.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T20:34:59Z",
+      "side": 1,
+      "message": "Not here, I only see the 2 IMEIs. Pixel 5",
+      "parentUuid": "47fd9b69_9a1e43e1",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d4f5a771_f466cf06",
         "filename": "pages/docs/guide/security/identifiers.md",
         "patchSetId": 1
@@ -107,6 +125,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "daee757a_f5e8ae1b",
+        "filename": "pages/docs/guide/security/identifiers.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T20:34:59Z",
+      "side": 1,
+      "message": "My pixel 5 shows two IMEIs when I dial *#06#, there\u0027s two on the box and in settings.",
+      "parentUuid": "f8c9ac4a_1a5dcaec",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "80526fea_82fcb3b2",
         "filename": "pages/docs/guide/security/identifiers.md",
         "patchSetId": 1
@@ -136,6 +172,24 @@
       "side": 1,
       "message": "i could be wrong, i thought that is what it was doing skimming the code",
       "parentUuid": "80526fea_82fcb3b2",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c92235a2_b54c2bc3",
+        "filename": "pages/docs/guide/security/identifiers.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T20:34:59Z",
+      "side": 1,
+      "message": "AFAIK the whole advertising business is handled by play services on stock.\n\nI haven\u0027t not looked into the microG code for this yet though.",
+      "parentUuid": "844c20a4_4d6fcd32",
       "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -258,6 +312,24 @@
       "side": 1,
       "message": "this is what stock google android does when you have location history enabled. you want me to link to an article on it?",
       "parentUuid": "8bb68085_4e419e79",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d13a0d0a_aa2c8a91",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T20:34:59Z",
+      "side": 1,
+      "message": "Wouldn\u0027t hurt, but fine either way.",
+      "parentUuid": "1b451aff_e602becc",
       "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
