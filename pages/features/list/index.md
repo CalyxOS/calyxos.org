@@ -62,7 +62,7 @@ These apps are required for basic functionality and thus always present on the d
 
 | Device | Status |
 | ------ | ------ |
-| Pixel 5a  | any eSIM + physical SIM, dual SIM |
+| Pixel 5a (5G) | any eSIM + physical SIM, dual SIM |
 | Pixel 4a (5G) | any eSIM + physical SIM, dual SIM |
 | Pixel 5 | any eSIM + physical SIM, dual SIM |
 | Pixel 4a | any eSIM + physical SIM, dual SIM |

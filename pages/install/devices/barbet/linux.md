@@ -1,10 +1,10 @@
 ---
-title: Install on Pixel 5a
+title: Install on Pixel 5a (5G)
 description: From a Linux computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 5a => barbet]]</strong> / <strong>Linux</strong>
+<strong>[[Install => install]]</strong> / <strong>[[Pixel 5a (5G) => barbet]]</strong> / <strong>Linux</strong>
 
 ## Terminology
 
@@ -42,7 +42,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 <a class="btn" href="https://release.calyxinstitute.org/barbet-factory-202109290.zip">Download CalyxOS Image</a>
 
-Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 5a (barbet)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
+Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 5a (5G) (barbet)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
 Do not extract or rename the zip, simply copy it as-is.
 

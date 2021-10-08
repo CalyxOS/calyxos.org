@@ -1,6 +1,6 @@
 ---
 stable:
-- name: Pixel 5a
+- name: Pixel 5a (5G)
   brand: pixel
   codename: barbet
   factory_link: https://release.calyxinstitute.org/barbet-factory-202109290.zip
