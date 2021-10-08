@@ -1,6 +1,6 @@
 <div class="gallery" markdown="0">
 {% for app in site.data.apps["apps"] %}
-  <div class="cell">
+  <div class="cell square">
     <a href="{{app.slug}}">
       <img src="{{ app.iconUrl | relative_url }}" />
     </a>

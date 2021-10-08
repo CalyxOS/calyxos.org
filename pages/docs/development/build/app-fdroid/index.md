@@ -2,8 +2,8 @@
 title: Building CalyxOS's F-Droid fork
 nav_title: Build F-Droid
 redirect_from:
-    - /development/build/fdroid
-    - /docs/development/build/fdroid
+    - /development/build/fdroid/
+    - /docs/development/build/fdroid/
 ---
 
 CalyxOS includes [F-Droid](https://f-droid.org) by default. However, since it is an Android app built using the gradle build system, which the AOSP build system does not support, we build it separately and include a prebuilt APK for the OS build.

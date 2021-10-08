@@ -1,0 +1,15 @@
+<h2>Supported Devices</h2>
+<table>
+{% for brand in site.data.devices.brands %}
+<tr>
+<td><b>{{ brand | capitalize }}</b></td>
+<td style="line-height: 2em">
+{%   for device in site.data.devices.codenames %}
+{%     if site.data.devices[device].brand == brand %}
+<a style="white-space: nowrap; margin-right: 1em" href="install/devices/{{device}}">{{site.data.devices[device].model}}</a>
+{%     endif %}
+{%   endfor %}
+</td>
+</tr>
+{% endfor %}
+</table>

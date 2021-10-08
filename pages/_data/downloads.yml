@@ -1,6 +1,7 @@
 ---
 stable:
-- name: Pixel 5a
+- name: Pixel 5a (5G)
+  brand: pixel
   codename: barbet
   factory_link: https://release.calyxinstitute.org/barbet-factory-202109290.zip
   factory_sha256: dda5965b76cc68325e9f9c42d08f29cc976802a59ded06d9ee794d43bb57e7dc
@@ -11,6 +12,7 @@ stable:
   incremental_old_build: 2.8.3
   date: '2021-09-09'
 - name: Pixel 4a (5G)
+  brand: pixel
   codename: bramble
   factory_link: https://release.calyxinstitute.org/bramble-factory-202109290.zip
   factory_sha256: dd169398771ec924cf0c37f050e9175726ca1a352b32cff35c75b296849e9507
@@ -21,6 +23,7 @@ stable:
   incremental_old_build: 2.8.2
   date: '2021-09-09'
 - name: Pixel 5
+  brand: pixel
   codename: redfin
   factory_link: https://release.calyxinstitute.org/redfin-factory-202109290.zip
   factory_sha256: 8e324c79b82d8f3c730f94cdfe05b43ec9d625067ed2db9aaf26780f726f7638
@@ -31,6 +34,7 @@ stable:
   incremental_old_build: 2.8.2
   date: '2021-09-09'
 - name: Pixel 4a
+  brand: pixel
   codename: sunfish
   factory_link: https://release.calyxinstitute.org/sunfish-factory-202109290.zip
   factory_sha256: 6f5725ac7d02d1fe0a07a30442f4a6b30083bd7e39a1cf1b3b0c5788ca7f60f1
@@ -41,6 +45,7 @@ stable:
   incremental_old_build: 2.8.2
   date: '2021-09-09'
 - name: Pixel 4 XL
+  brand: pixel
   codename: coral
   factory_link: https://release.calyxinstitute.org/coral-factory-202109290.zip
   factory_sha256: bf1e5651fc9c1c9912d059930a435e9ce4675991427c0efaae81b847bba33a17
@@ -51,6 +56,7 @@ stable:
   incremental_old_build: 2.8.2
   date: '2021-09-09'
 - name: Pixel 4
+  brand: pixel
   codename: flame
   factory_link: https://release.calyxinstitute.org/flame-factory-202109290.zip
   factory_sha256: 877c12e4b707ce95594af261d897b11b0539489833284b8ab46258ff591d26fa
@@ -61,6 +67,7 @@ stable:
   incremental_old_build: 2.8.2
   date: '2021-09-09'
 - name: Pixel 3a XL
+  brand: pixel
   codename: bonito
   factory_link: https://release.calyxinstitute.org/bonito-factory-202109290.zip
   factory_sha256: ccd36757395195c8dcccdbb811a40ba7f580dd021705baeb13e993421065205f
@@ -71,6 +78,7 @@ stable:
   incremental_old_build: 2.8.2
   date: '2021-09-09'
 - name: Pixel 3a
+  brand: pixel
   codename: sargo
   factory_link: https://release.calyxinstitute.org/sargo-factory-202109290.zip
   factory_sha256: 8c0fc99992e341dda529f680aa659c3f3c93b65c5260fcc55abffca3afbacc05
@@ -81,6 +89,7 @@ stable:
   incremental_old_build: 2.8.2
   date: '2021-09-09'
 - name: Pixel 3 XL
+  brand: pixel
   codename: crosshatch
   factory_link: https://release.calyxinstitute.org/crosshatch-factory-202109290.zip
   factory_sha256: d6922ed8b3d13761e1e1f49c807f8ed5bb8b3a68276f859c4f9fbf2a53fed6a4
@@ -91,6 +100,7 @@ stable:
   incremental_old_build: 2.8.2
   date: '2021-09-09'
 - name: Pixel 3
+  brand: pixel
   codename: blueline
   factory_link: https://release.calyxinstitute.org/blueline-factory-202109290.zip
   factory_sha256: 820552d60295df3c0865a38a3f72793e5190d69918f679a803df1489dd6b1c68
@@ -101,6 +111,7 @@ stable:
   incremental_old_build: 2.8.2
   date: '2021-09-09'
 - name: Pixel 2 XL
+  brand: pixel
   codename: taimen
   factory_link: https://release.calyxinstitute.org/taimen-factory-202109290.zip
   factory_sha256: 76f72da98077a0478a3d20a02c489b3a3e72188b562adc9b297d0b5e0f0e3369
@@ -111,6 +122,7 @@ stable:
   incremental_old_build: 2.8.2
   date: '2021-09-09'
 - name: Pixel 2
+  brand: pixel
   codename: walleye
   factory_link: https://release.calyxinstitute.org/walleye-factory-202109290.zip
   factory_sha256: 70cc206c8abfcf518c452830c500697cc9a47e9f503e95fec485b408a2992315
@@ -121,6 +133,7 @@ stable:
   incremental_old_build: 2.8.2
   date: '2021-09-09'
 - name: Xiaomi Mi A2
+  brand: xiaomi
   codename: jasmine_sprout
   factory_link: https://release.calyxinstitute.org/jasmine_sprout-factory-202109290.zip
   factory_sha256: 3afd538c5a2f8190caa57d2461d1e68f7aaef83f6c9a923aff5d00724a7d6e43
