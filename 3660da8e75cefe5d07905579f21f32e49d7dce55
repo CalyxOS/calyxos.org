@@ -54,6 +54,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "47fd9b69_9a1e43e1",
+        "filename": "pages/docs/guide/security/identifiers.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-08T19:39:51Z",
+      "side": 1,
+      "message": "it shows both",
+      "parentUuid": "fe155b08_19874d9a",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d4f5a771_f466cf06",
         "filename": "pages/docs/guide/security/identifiers.md",
         "patchSetId": 1
@@ -71,6 +89,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f8c9ac4a_1a5dcaec",
+        "filename": "pages/docs/guide/security/identifiers.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-08T19:39:51Z",
+      "side": 1,
+      "message": "oh, that is a good point.",
+      "parentUuid": "d4f5a771_f466cf06",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "80526fea_82fcb3b2",
         "filename": "pages/docs/guide/security/identifiers.md",
         "patchSetId": 1
@@ -82,6 +118,24 @@
       "writtenOn": "2021-10-08T10:32:02Z",
       "side": 1,
       "message": "Source? 😄",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "844c20a4_4d6fcd32",
+        "filename": "pages/docs/guide/security/identifiers.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-08T19:39:51Z",
+      "side": 1,
+      "message": "i could be wrong, i thought that is what it was doing skimming the code",
+      "parentUuid": "80526fea_82fcb3b2",
       "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -120,6 +174,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5fe8eba8_73270aaf",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-08T19:39:51Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "88a895a4_d5206f68",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2bfdfec7_34bf72b6",
@@ -133,6 +205,24 @@
       "writtenOn": "2021-10-08T10:32:02Z",
       "side": 1,
       "message": "Same? our phones are still \u0027normal\u0027, at least we\u0027d want them to be that way :P",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "05961c31_538de950",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-08T19:39:51Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "2bfdfec7_34bf72b6",
       "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -156,6 +246,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1b451aff_e602becc",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-08T19:39:51Z",
+      "side": 1,
+      "message": "this is what stock google android does when you have location history enabled. you want me to link to an article on it?",
+      "parentUuid": "8bb68085_4e419e79",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "817b0af4_133c8b3b",
         "filename": "pages/docs/guide/security/location.md",
         "patchSetId": 1
@@ -167,6 +275,24 @@
       "writtenOn": "2021-10-08T10:32:02Z",
       "side": 1,
       "message": "I\u0027m not sure if this should be mentioned here.",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "887c3e87_2b3f58cf",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-08T19:39:51Z",
+      "side": 1,
+      "message": "i am trying to find more definitive things to say about baseband. i think it is an important issue. both cooper and nick suggested i talk with Yomna Nasser",
+      "parentUuid": "817b0af4_133c8b3b",
       "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -188,6 +314,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c11cda2_394e76c7",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-08T19:39:51Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "dfa341ff_2096ffe1",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5c943bc1_6c31ce29",
@@ -201,6 +345,24 @@
       "writtenOn": "2021-10-08T10:32:02Z",
       "side": 1,
       "message": "Really? They\u0027d have to be pretty, pretty close.",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c25163e7_5065b7af",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-08T19:39:51Z",
+      "side": 1,
+      "message": "i was mistaken, stores use bluetooth. there are no NFC tracking products in the wild that i am aware of. the distance can be boosted enough to read NFC by walking through a detector, but I don\u0027t think this is in the wild yet.",
+      "parentUuid": "5c943bc1_6c31ce29",
       "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
