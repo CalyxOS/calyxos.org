@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4d9feba0_87ae54bf",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T10:20:59Z",
+      "side": 1,
+      "message": "Android-based*\n\nWhen talking about emphasis like this I try to refer to the website but I don\u0027t see anything in particular.\n\n\"LineageOS is free and open-source Android-based operating system for various devices.\" perhaps?",
+      "revId": "d8f3201930c5f2eb18ac8b67aedd979a6150c4a9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
