@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "feff6cec_04017ded",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-08T05:52:51Z",
+      "side": 1,
+      "message": "they have given up making phones, but they both make plenty of LTE devices.",
+      "parentUuid": "dcb1e443_9f96d16b",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6d384af0_593efb9b",
         "filename": "pages/docs/about/index.md",
         "patchSetId": 3
@@ -48,6 +66,24 @@
       "writtenOn": "2021-10-07T20:45:13Z",
       "side": 1,
       "message": "s/drawn/draw/ ?",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b89fd525_01d3d1ca",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-08T05:52:51Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "6d384af0_593efb9b",
       "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -65,6 +101,24 @@
       "writtenOn": "2021-10-07T20:45:13Z",
       "side": 1,
       "message": "I think we should mention LineageOS, but I\u0027d have to check in to see what the best way to do that is, so maybe that can go in a follow up commit.\n\nI\u0027d just refer to https://lineageos.org/ though (and maybe copy some text from it)",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d59a87a4_51dba5df",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-08T05:52:51Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "0d6fa4ca_23d81e62",
       "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -88,6 +142,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a0df19b4_5d5d3fbb",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-08T05:52:51Z",
+      "side": 1,
+      "message": "Wrote some new words. Previously, I just lifted the last two sentences directly from the FAQ commit you made, but they are a bit redundant given the first sentence.",
+      "parentUuid": "d84584cd_5cc9a1f1",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5998a8ea_ad95fd5b",
         "filename": "pages/docs/about/index.md",
         "patchSetId": 3
@@ -99,6 +171,24 @@
       "writtenOn": "2021-10-07T20:45:13Z",
       "side": 1,
       "message": "From f-droid.org\nF-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform. The client makes it easy to browse, install, and keep track of updates on your device.\n\n\nFrom https://auroraoss.com/download/AuroraStore/\nAurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind. Not only does Aurora Store download, update, and search for apps like the Play Store, it also empowers the user with useful features.\n\n\nAlso, it should be called \"Aurora Store\", not just \"Aurora\", since that refers to multiple things / the entire project.\n\nBoth of these could be linked to their pages / section under guide.",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0390c240_69f33011",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-08T05:52:51Z",
+      "side": 1,
+      "message": "f-droid didn\u0027t have a page, so i made one.\n\nlike my words better. both these descriptions use jargon, and I try very hard to keep that out of documentation. for example, \u0027frontend client\u0027. that is not something that most people know what it means.",
+      "parentUuid": "5998a8ea_ad95fd5b",
       "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -122,6 +212,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7dd0eb7c_be560919",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-08T05:52:51Z",
+      "side": 1,
+      "message": "i think it is fine",
+      "parentUuid": "4ecdc70a_bc1093c8",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bda9204a_c6000175",
         "filename": "pages/docs/about/index.md",
         "patchSetId": 3
@@ -133,6 +241,24 @@
       "writtenOn": "2021-10-07T20:45:13Z",
       "side": 1,
       "message": "The CalyxOS? I guess it\u0027s missing \"Dialer\" or \"Phone app\"",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e059dcc3_cfcc5330",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-08T05:52:51Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "bda9204a_c6000175",
       "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -154,6 +280,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "07249763_d6830653",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-08T05:52:51Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "2d3b1ecb_94e4613e",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dacf2e69_aab076ed",
@@ -171,6 +315,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f4b8724_077d3a52",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-08T05:52:51Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "dacf2e69_aab076ed",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d664e26b_7cc534b2",
@@ -184,6 +346,24 @@
       "writtenOn": "2021-10-07T20:45:13Z",
       "side": 1,
       "message": "We should just call this seedvault",
+      "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "df8b7fa4_fe2894d6",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-08T05:52:51Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "d664e26b_7cc534b2",
       "revId": "50c63cea1ef94129b95bcad14562e6f9edff8119",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
