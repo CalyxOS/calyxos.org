@@ -1,5 +1,5 @@
 ---
-- name: Pixel 5a
+- name: Pixel 5a (5G)
   codename: barbet
   avb_fingerprint: "AF7EE1C5"
 - name: Pixel 4a (5G)

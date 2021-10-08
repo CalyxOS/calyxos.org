@@ -1,8 +1,8 @@
 ---
-title: Install on Pixel 5a
+title: Install on Pixel 5a (5G)
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 5a => barbet]]</strong>
+<strong>[[Install => install]]</strong> / <strong>[[Pixel 5a (5G) => barbet]]</strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">
