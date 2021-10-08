@@ -18,7 +18,7 @@ brands:
   - xiaomi
 barbet:
   brand: pixel
-  model: Pixel 5a
+  model: Pixel 5a (5G)
   manufacturer_support_ends: 2024-08
   calyxos_support_ends: 2024-08
   sim: "dual"
