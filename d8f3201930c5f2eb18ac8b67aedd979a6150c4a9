@@ -16,6 +16,24 @@
       "message": "Android-based*\n\nWhen talking about emphasis like this I try to refer to the website but I don\u0027t see anything in particular.\n\n\"LineageOS is free and open-source Android-based operating system for various devices.\" perhaps?",
       "revId": "d8f3201930c5f2eb18ac8b67aedd979a6150c4a9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7235cc53_e56601a6",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-08T15:27:47Z",
+      "side": 1,
+      "message": "the problem is that none of the descriptions on the lineageos website really differentiate it from calyxos... which is why i think it is appropriate to highlight the compatibility and customization options. those are strong points of lineageos.\n\n\"LineageOS is free and open-source Android-based operating system for various devices\" could also be said of calyxos.",
+      "parentUuid": "4d9feba0_87ae54bf",
+      "revId": "d8f3201930c5f2eb18ac8b67aedd979a6150c4a9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
