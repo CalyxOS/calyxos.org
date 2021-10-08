@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e867f95_5e0a681d",
+        "filename": "pages/_data/devices.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T22:46:13Z",
+      "side": 1,
+      "message": "We should add start too (can simply be date / month of first build) so that we can have a good reference point.\n\n5a was fast, 5 / 4a 5g were a bit slower. 4a wasn\u0027t so bad. (time after manufacturer release)",
+      "revId": "68bcbd52e9fc2075e3cd0fc1676980c97675bfd3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
