@@ -10,32 +10,23 @@ module BacktoStock
   HOME        = File.expand_path('../..', __FILE__)
   TMP_FILE    = "#{HOME}/tmp/back-to-stock.json"
   DEST_FILE   = "#{HOME}/pages/_data/back-to-stock.yml"
-
-  CODENAME_MAP = {
-    "barbet"         => "Pixel 5a",
-    "bramble"        => "Pixel 4a (5G)",
-    "redfin"         => "Pixel 5",
-    "sunfish"        => "Pixel 4a",
-    "coral"          => "Pixel 4 XL",
-    "flame"          => "Pixel 4",
-    "bonito"         => "Pixel 3a XL",
-    "sargo"          => "Pixel 3a",
-    "crosshatch"     => "Pixel 3 XL",
-    "blueline"       => "Pixel 3",
-    "taimen"         => "Pixel 2 XL",
-    "walleye"        => "Pixel 2",
-  }
+  DEVICES_DATA    = "#{HOME}/pages/_data/devices.yml"
 
   class << self
+    def get_devices
+      YAML.load(File.new(DEVICES_DATA))
+    end
+
     def parse_apv(config)
       info = []
-      CODENAME_MAP.each do |codename, device|
+      get_devices.each do |codename, device|
         if config["devices"][codename] == nil
           puts "SKIPPED #{codename}"
           next
         end
         info << {
-          "name" => device,
+          "name" => device["model"],
+          "brand" => device["brand"],
           "codename" => codename,
           "flash_link" => config["devices"][codename]["flash_url"],
             "factory_link" => config["devices"][codename]["factory_url"],
