@@ -48,6 +48,6 @@ Mi A2:
 <ul>
 <li>The Pixels 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, 5, 4a (5G), 5a contain the full security patch, as they are still being updated by Google.</li>
 <li>The Pixels 2 and 2 XL are not being updated by Google anymore, so they only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.</li>
-<li>The Xiaomi Mi A2 is still getting security updates, but those are Android 10 and usually released towards the end of the month, whereas CalyxOS is Android 11 and releases the updates right as they're available. This means that the A2 lags behind slightly, by a month or two, in getting security updates for proprietary components.</li>
+<li>The Xiaomi Mi A2 is no longer being updated by Xiaomi, so the CalyxOS releases for it only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates. Additionally, due to a Xiaomi bug wherein updating causes the device to get wiped, we have to ship the September 2020 firmware.</li>
 </ul>
 </div>
