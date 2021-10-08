@@ -1,0 +1,259 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc1740ff_692db49d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T10:32:02Z",
+      "side": 1,
+      "message": "First pass.",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6d76993a_eba4753a",
+        "filename": "pages/docs/guide/security/identifiers.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T10:32:02Z",
+      "side": 1,
+      "message": "Google calls it \"non-resettable device identifiers\", maybe we want \u0027permanent device identifiers\u0027?",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fe155b08_19874d9a",
+        "filename": "pages/docs/guide/security/identifiers.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T10:32:02Z",
+      "side": 1,
+      "message": "This is the IMEI, not serial.",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d4f5a771_f466cf06",
+        "filename": "pages/docs/guide/security/identifiers.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T10:32:02Z",
+      "side": 1,
+      "message": "A dual SIM phone can have two IMEIs, not sure if we should mention that.",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "80526fea_82fcb3b2",
+        "filename": "pages/docs/guide/security/identifiers.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T10:32:02Z",
+      "side": 1,
+      "message": "Source? 😄",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c0161716_426809d5",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T10:32:02Z",
+      "side": 1,
+      "message": "These days there\u0027s GLONASS, INSAT. They mostly all work similarly, for thee user I guess it could still all be GPS, but the bit about US government changes for those.\n\nGNSS.",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "88a895a4_d5206f68",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T10:32:02Z",
+      "side": 1,
+      "message": "s/normal/stock ?",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2bfdfec7_34bf72b6",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T10:32:02Z",
+      "side": 1,
+      "message": "Same? our phones are still \u0027normal\u0027, at least we\u0027d want them to be that way :P",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8bb68085_4e419e79",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T10:32:02Z",
+      "side": 1,
+      "message": "Source?",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "817b0af4_133c8b3b",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T10:32:02Z",
+      "side": 1,
+      "message": "I\u0027m not sure if this should be mentioned here.",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dfa341ff_2096ffe1",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T10:32:02Z",
+      "side": 1,
+      "message": "This was a random search, it\u0027s more technical and isn\u0027t fully relevant.",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c943bc1_6c31ce29",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T10:32:02Z",
+      "side": 1,
+      "message": "Really? They\u0027d have to be pretty, pretty close.",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d6215f55_7e0fccdb",
+        "filename": "pages/docs/guide/security/security-faq.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T10:32:02Z",
+      "side": 1,
+      "message": "We can just drop this from the client (as discussed with Hans) instead of having to mention this and cause further confusion.",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e41b78cf_9dbaa460",
+        "filename": "pages/docs/guide/security/security-faq.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T10:32:02Z",
+      "side": 1,
+      "message": "Maybe mention something about how Aurora Store cannot install apps silently.\n\nAnd that this ends up working similar to what Google did in Android 12 (however with not all of the same requirements)\n\nhttps://www.xda-developers.com/android-12-alternative-app-stores-update-apps-background/",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8e313dba_532a05a1",
+        "filename": "pages/docs/guide/security/security-faq.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T10:32:02Z",
+      "side": 1,
+      "message": "CalyxOS does not support nor do we recommend this.",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
