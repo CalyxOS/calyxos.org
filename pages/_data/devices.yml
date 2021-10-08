@@ -97,13 +97,13 @@ walleye:
   brand: pixel
   model: Pixel 2
   manufacturer_support_ends: 2020-10
-  calyxos_support_ends: 2021-08
+  calyxos_support_ends: 2021-12
   sim: "single"
   esim: "Fi-only"
 jasmine_sprout:
   brand: xiaomi
   model: Xiaomi Mi A2
   manufacturer_support_ends: 2021-08
-  calyxos_support_ends: 2021-08
+  calyxos_support_ends: 2021-12
   sim: "dual"
   esim: "no"
