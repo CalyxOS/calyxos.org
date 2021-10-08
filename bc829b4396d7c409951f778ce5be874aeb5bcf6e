@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f5d1f5e_89a81cde",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-08T20:20:58Z",
+      "side": 1,
+      "message": "Hold, it\u0027s not stable yet.\n\nI just put the commits up in one go when doing the releases, and then actually merge it when done.",
+      "revId": "bc829b4396d7c409951f778ce5be874aeb5bcf6e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
