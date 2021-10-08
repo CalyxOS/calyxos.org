@@ -69,8 +69,8 @@ module Releases
       info = []
       Dir.chdir(RELEASE_CACHE) do
         get_devices.each do |codename, device|
-          release_filename = codename + "-" + release
-          old_release_filename = codename + "-old" + release
+          release_filename = codename + "-" + release + "2"
+          old_release_filename = codename + "-old" + release + "2"
           unless File.exist?(release_filename)
             puts "SKIPPED #{codename}"
             next
