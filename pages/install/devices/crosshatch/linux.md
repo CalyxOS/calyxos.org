@@ -40,7 +40,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/crosshatch-factory-202109290.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/crosshatch-factory-202102100.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 3 XL (crosshatch)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -52,14 +52,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/crosshatch-factory-202109290.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/crosshatch-factory-202102100.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `d6922ed8b3d13761e1e1f49c807f8ed5bb8b3a68276f859c4f9fbf2a53fed6a4`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `85a0a9a263242cd4f0053c0efeea2f436ae5b664f244ec9e7460859e6207c6a9`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/crosshatch-factory-202109290.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/crosshatch-factory-202102100.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 
