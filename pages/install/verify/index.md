@@ -1,6 +1,7 @@
 ---
 title: Verifying CalyxOS builds
 toc: true
+redirect_from: /get/verify/
 ---
 
 ### Factory images
