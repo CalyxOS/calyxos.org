@@ -267,6 +267,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "751bdaaf_74653ba7",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-12T22:16:27Z",
+      "side": 1,
+      "message": "No, but it was more that since GPS is being mentioned, perhaps it should mention the full thing instead to be accurate.",
+      "parentUuid": "0ceb0356_d61ee533",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "88a895a4_d5206f68",
         "filename": "pages/docs/guide/security/location.md",
         "patchSetId": 1
