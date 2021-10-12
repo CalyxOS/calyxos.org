@@ -79,6 +79,9 @@ These apps are required for basic functionality and thus always present on the d
       * Turn off Wi-Fi automatically (Wi-Fi timeout)
   * Hotspot & Tethering
     * Allow clients to use VPNs
+  * VPN
+    * VPN App Settings
+      * Global VPN
   * Private DNS
     * Cloudflare DNS
 * Connected devices
@@ -91,11 +94,14 @@ These apps are required for basic functionality and thus always present on the d
 * Security
   * Show Panic option
   * Panic Settings
+  * Auto reboot
   * Restrict USB
   * Screen lock Settings
     * Scramble layout
     * Quick Settings (Allow toggling quick settings on secure lockscreen)
 * System
+  * Languages and input
+    *  Show arrow keys while typing
   * Status Bar
     * Network traffic monitor
   * System icons
@@ -108,6 +114,12 @@ These apps are required for basic functionality and thus always present on the d
   * System updates
   * Developer options
     * Restrict cleartext traffic completely, globally.
+    * Airplane mode radios
+* About phone
+  * Android version
+    * CalyxOS version
+    * Android security update
+  * CalyxOS version
 
 ### Updates
 * Security updates for the Operating System every month via automatic over-the-air updates.
