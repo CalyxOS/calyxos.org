@@ -88,6 +88,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "85ed5981_3ad9499a",
+        "filename": "pages/docs/guide/security/identifiers.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-12T21:55:16Z",
+      "side": 1,
+      "message": "ok, i guess they changed it. still works on pixel 2. will remove.",
+      "parentUuid": "b43b5b23_4270078b",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d4f5a771_f466cf06",
@@ -194,6 +212,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1779a67d_ee3ddba4",
+        "filename": "pages/docs/guide/security/identifiers.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-12T21:55:16Z",
+      "side": 1,
+      "message": "confirmed. the advertising id in microg is random each time an app requests it. on stock, it is global and stable until the user manually resets it.",
+      "parentUuid": "c92235a2_b54c2bc3",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c0161716_426809d5",
@@ -207,6 +243,24 @@
       "writtenOn": "2021-10-08T10:32:02Z",
       "side": 1,
       "message": "These days there\u0027s GLONASS, INSAT. They mostly all work similarly, for thee user I guess it could still all be GPS, but the bit about US government changes for those.\n\nGNSS.",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ceb0356_d61ee533",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-12T21:55:16Z",
+      "side": 1,
+      "message": "i don\u0027t think any of that has any privacy impact?",
+      "parentUuid": "c0161716_426809d5",
       "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -456,6 +510,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "761e9121_b326df16",
+        "filename": "pages/docs/guide/security/security-faq.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-12T21:55:16Z",
+      "side": 1,
+      "message": "ok",
+      "parentUuid": "d6215f55_7e0fccdb",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e41b78cf_9dbaa460",
@@ -473,6 +545,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2af13f70_e2229732",
+        "filename": "pages/docs/guide/security/security-faq.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-12T21:55:16Z",
+      "side": 1,
+      "message": "ok",
+      "parentUuid": "e41b78cf_9dbaa460",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8e313dba_532a05a1",
@@ -486,6 +576,24 @@
       "writtenOn": "2021-10-08T10:32:02Z",
       "side": 1,
       "message": "CalyxOS does not support nor do we recommend this.",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ba364f5_c6c330be",
+        "filename": "pages/docs/guide/security/security-faq.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-12T21:55:16Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "8e313dba_532a05a1",
       "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
