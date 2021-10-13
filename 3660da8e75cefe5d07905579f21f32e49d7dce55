@@ -35,6 +35,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "809e6d0e_1454c967",
+        "filename": "pages/docs/guide/security/identifiers.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-13T16:59:39Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "6d76993a_eba4753a",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fe155b08_19874d9a",
@@ -159,6 +177,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5556715d_4e02a46d",
+        "filename": "pages/docs/guide/security/identifiers.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-13T16:59:39Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "daee757a_f5e8ae1b",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "80526fea_82fcb3b2",
@@ -279,6 +315,24 @@
       "side": 1,
       "message": "No, but it was more that since GPS is being mentioned, perhaps it should mention the full thing instead to be accurate.",
       "parentUuid": "0ceb0356_d61ee533",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf350ab2_9386bc6a",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-13T16:59:39Z",
+      "side": 1,
+      "message": "android devices in India still use GPS, and not INSAT, right?",
+      "parentUuid": "751bdaaf_74653ba7",
       "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
