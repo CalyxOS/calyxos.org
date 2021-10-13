@@ -357,6 +357,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a25061b3_42323fb0",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-13T23:19:01Z",
+      "side": 1,
+      "message": "I don\u0027t really want to include information about all that, just to point out that when you enable GPS on the phone, it is actually pretty good with respect to privacy.",
+      "parentUuid": "4dabf7c8_1c8724a7",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "88a895a4_d5206f68",
         "filename": "pages/docs/guide/security/location.md",
         "patchSetId": 1
@@ -509,6 +527,24 @@
       "side": 1,
       "message": "i am trying to find more definitive things to say about baseband. i think it is an important issue. both cooper and nick suggested i talk with Yomna Nasser",
       "parentUuid": "817b0af4_133c8b3b",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "13b2bc2d_4d01ee16",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-13T23:19:01Z",
+      "side": 1,
+      "message": "I would like to leave this in for now, and wait to expand it when i can get more information.",
+      "parentUuid": "887c3e87_2b3f58cf",
       "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
