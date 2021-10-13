@@ -373,6 +373,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd52bf6f_78b766ad",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-13T23:20:39Z",
+      "side": 1,
+      "message": "Yeah agree, I went a bit overboard, sorry.",
+      "parentUuid": "a25061b3_42323fb0",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "88a895a4_d5206f68",
@@ -545,6 +563,24 @@
       "side": 1,
       "message": "I would like to leave this in for now, and wait to expand it when i can get more information.",
       "parentUuid": "887c3e87_2b3f58cf",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e905d1de_a25bb6d1",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-13T23:20:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "13b2bc2d_4d01ee16",
       "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
