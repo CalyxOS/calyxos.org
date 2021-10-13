@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "582f81ed_2bf3e93f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-13T23:25:12Z",
+      "side": 1,
+      "message": "Can be done in a followup.",
+      "revId": "1e5fd90a95e72556bc69d8ec122b40f5fee9b099",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "46bcc868_fa817ee4",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-13T23:25:12Z",
+      "side": 1,
+      "message": "We could have a more prominent note template for this that stands out a bit.\n\nmaybe even re-use how the security notes template.\n\nDoesn\u0027t have to hold this up though.",
+      "revId": "1e5fd90a95e72556bc69d8ec122b40f5fee9b099",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
