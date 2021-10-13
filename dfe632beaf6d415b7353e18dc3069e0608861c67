@@ -16,6 +16,24 @@
       "message": "s/installed/usable/ ?\n\nMy daily driver has an eSIM only, shows 2 IMEIs.\n\nIf you only have a SIM now but had an eSIM at some point, it\u0027ll still show 2.",
       "revId": "dfe632beaf6d415b7353e18dc3069e0608861c67",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "56526cd8_bb5f5894",
+        "filename": "pages/docs/guide/security/identifiers.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-13T23:19:24Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "13153a2a_dcf75b16",
+      "revId": "dfe632beaf6d415b7353e18dc3069e0608861c67",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
