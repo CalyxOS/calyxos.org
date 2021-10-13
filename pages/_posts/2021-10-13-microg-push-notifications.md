@@ -1,6 +1,6 @@
 ---
 title: microG push notification fixes
-date: 2021-10-14
+date: 2021-10-13
 ---
 
 The October update included some push notification fixes, however it turned out that they didn't work as well as expected for everyone.
