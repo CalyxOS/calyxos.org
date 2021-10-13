@@ -339,6 +339,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4dabf7c8_1c8724a7",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-13T17:04:53Z",
+      "side": 1,
+      "message": "INSAT is for other purposes, it\u0027s IRNSS / NavIC for navigation, but I don\u0027t see anything about it being used yet.\n\nhttps://en.wikipedia.org/wiki/Satellite_navigation\n\nAs of September 2020, the United States\u0027 Global Positioning System (GPS), Russia\u0027s Global Navigation Satellite System (GLONASS), China\u0027s BeiDou Navigation Satellite System (BDS) [1] and the European Union\u0027s Galileo[2] are fully operational GNSSs.\n\nJapan\u0027s Quasi-Zenith Satellite System (QZSS) is a (US) GPS satellite-based augmentation system to enhance the accuracy of GPS, with satellite navigation independent of GPS scheduled for 2023.[3] The Indian Regional Navigation Satellite System (IRNSS) plans to expand to a global version in the long term.[4]",
+      "parentUuid": "cf350ab2_9386bc6a",
+      "revId": "3660da8e75cefe5d07905579f21f32e49d7dce55",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "88a895a4_d5206f68",
         "filename": "pages/docs/guide/security/location.md",
         "patchSetId": 1
