@@ -83,7 +83,7 @@ Scope: per-device
 
 The Advertising ID is an unique identifier created by Google Play Services and shared among all the apps on your phone to identify you for advertising purposes. This potentially allows advertising networks to correlate all your activity across different apps on your device.
 
-Advertisers are strongly encouraged by Google to only use this identifier for ad tracking, although there is nothing that technically prevents them from using other information, such as your IP address, or Android ID, or other information that you provide the app with (such as your email address).
+Advertisers are [required by Google policy](https://support.google.com/googleplay/android-developer/answer/6048248) to use AAID as the only device identifier used for advertising purposes (Facebook identifier is still allowed, because it is tied to your account and not your device). Enforcement of this policy is lax and there is little to prevent apps from using other device information, such as your IP address, or Android ID.
 
 According to [one study from 2021](https://arxiv.org/pdf/2109.13722.pdf) of Android, 61.7% of apps directly use AAID for advertising through AdMob (owned by Google), and 87.3% of apps use Play Services and can track using AAID.
 
@@ -138,19 +138,37 @@ In CalyxOS:
 * If microG is additionally configured with a Google account, then the device registration will include the account username.
 * Currently, the only way to reset the GFS ID is to clear the application data for microG. Doing so may cause problems with any apps that rely on microG implementation of Google Play Services (for example, you will no longer receive Signal message notifications until you also reset Signal's app data).
 
-### MAC Address
+### Wi-Fi MAC Address
 
 Scope: per-network
 
 Every Android device has a unique identifier called a MAC address that is used for routing on the local network. Unlike an IP address, when your device contacts a remote server, the MAC address is not communicated over the internet.
 
-However, observers on the local network can, and sometimes do, use a MAC address to identify you and track you. For example, if you walk into a store with an open WiFi, your device might communicate the MAC address to the WiFi access point that in turn correlates this data with an external database to track your location.
+However, observers on the local network can, and sometimes do, use a MAC address to identify you and track you. The MAC address is communicated to a network before encryption is established, meaning anyone on the network can see your unique MAC address. For example, if you walk into a store with an open WiFi, your device might communicate the MAC address to the WiFi access point, and to everyone on the network, that in turn correlates this data with an external database to track your location.
 
 Historically, the MAC address has been unchangeable and based on hardware. Since Android 10, the default WiFi setting is for the MAC address to be generated anew for each different network. There is still a single unchangeable "Device MAC Address", but each WiFi network is given a persistent, randomized fake MAC address.
+
+Since Android 12, Android will [sometimes re-randomize](https://source.android.com/devices/tech/connect/wifi-mac-randomization-behavior) the MAC address each time it connects to a network, in certain conditions.
 
 Internal to the device, access to the MAC address is restricted to system applications.
 
 To change the settings for a specific WiFi network go to **Settings** &rarr; **Network & Internet** &rarr; **Wi-Fi** &rarr; **Gear Icon** &rarr; **Advanced** &rarr; **Privacy** &rarr; **Use Randomized MAC**.
+
+### Bluetooth Address
+
+Scope: per-hour
+
+Like Wi-Fi, your device has a globally unique Bluetooth address. Since Android 6, [this address is unavailable to normal apps](http://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-hardware-id).
+
+When Bluetooth is enabled, there is something called Bluetooth Low Energy (BLE) where an unencrypted presence announcement is broadcast frequently to all nearby Bluetooth devices. Fortunately, when this happens [the Bluetooth address of your device is randomized](https://www.bluetooth.com/blog/bluetooth-technology-protecting-your-privacy/) (every 15-45 minutes in Android) to prevent it from being possible to track your device by these announcements (this does not happen in all Bluetooth implementations, but should for any device supported by CalyxOS).
+
+However, [researchers have found a way to correlate these randomized announcements over time](https://nakedsecurity.sophos.com/2019/07/16/bluetooth-les-anti-tracking-technology-beaten/), thus enabling tracking via Bluetooth address. Their approach only works against Windows, Mac, and iOS, but not for tracking Android devices.
+
+Additional privacy considerations with Bluetooth:
+
+* **Location**: When an app has access to scan for nearby Bluetooth devices, the [Android OS considers this to be the same as granting fine-grained location permission](https://developer.android.com/guide/topics/connectivity/bluetooth/permissions), because the set of Bluetooth devices in range can be used to lookup your exact location in a database (such as the database Google keeps on the location on known Bluetooth devices). There is a mode where an app can scan for Bluetooth devices, but receive only a partial list if the app does not also have location permission.
+* **Pairing**: When you pair a Bluetooth device with your phone, that device has access to your unique and static Bluetooth address.
+* **Updates**: Bluetooth is a complicated protocol that is notoriously [prone to vulnerabilities](https://www.securityweek.com/critical-bluetooth-vulnerability-exposes-android-devices-attacks) that can compromise the security of your device. This is one of the many reasons that it is important to choose an operating system, like CalyxOS, that receives regular [[security updates => updates]].
 
 Links
 -------------------------------
