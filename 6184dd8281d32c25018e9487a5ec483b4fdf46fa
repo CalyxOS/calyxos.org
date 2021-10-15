@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f4bd5628_ac05dc88",
+        "filename": "pages/docs/guide/security/identifiers.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-15T15:17:23Z",
+      "side": 1,
+      "message": "We should clarify on Android ID in general.\n\nEspecially because there\u0027s the SSAID (Settings.Secure.ANDROID_ID) we were discussing the other day, and microG\u0027s device-registration token which it calls Android ID as well, but they\u0027re two different things.",
+      "revId": "6184dd8281d32c25018e9487a5ec483b4fdf46fa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d4e06422_b6ed63d4",
+        "filename": "pages/docs/guide/security/identifiers.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-15T15:17:23Z",
+      "side": 1,
+      "message": "This page calls the device MAC a factory MAC, which is a good term for usage if we want.",
+      "revId": "6184dd8281d32c25018e9487a5ec483b4fdf46fa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
