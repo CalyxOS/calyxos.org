@@ -54,7 +54,7 @@
 }
 
 .btn {
-  padding: calc(var(--spacing-small) + 2px) var(--spacing-base) var(--spacing-small) var(--spacing-base);
+  padding: var(--spacing-small) var(--spacing-base);
   border-radius: var(--radius-soft);
   font-size: var(--font-size-small);
   font-weight: bold;
