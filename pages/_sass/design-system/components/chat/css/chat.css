@@ -22,6 +22,10 @@
     color: var(--color-light);
   }
 
+  .chatContainer {
+    border-top: var(--border-lm);
+  }
+
   .noHeader.chatWindow {
     border-top: var(--border-lm);
   }
@@ -65,6 +69,10 @@
   .outgoing p:first-of-type {
     background-color: var(--color-grey);
     color: var(--color-dark);
+  }
+
+  .chatContainer {
+    border-top: var(--border-dm);
   }
 
   .presence {
@@ -122,7 +130,6 @@
   }
 
 }
-
 
 /* CARDS */
 
@@ -230,6 +237,7 @@
 .message .meta {
   opacity: .8;
   padding: 0 var(--spacing-base);
+  margin-top: 0;
 }
 
 .outgoing .meta {
