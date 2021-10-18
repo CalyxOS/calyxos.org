@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ba3aa488_b2a33d74",
+        "filename": "pages/_posts/2021-10-13-targeted-advertising.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-18T15:19:05Z",
+      "side": 1,
+      "message": "Should we call it stock Android here as well?",
+      "revId": "b5be5196b2ae460230900e1ab4e4fdc2e6b5fd97",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eed1604b_8fcdec2c",
+        "filename": "pages/_posts/2021-10-13-targeted-advertising.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-18T15:19:05Z",
+      "side": 1,
+      "message": "This sounds like something that\u0027s part of Play Services though.",
+      "revId": "b5be5196b2ae460230900e1ab4e4fdc2e6b5fd97",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2b5bc0a4_a133b2de",
+        "filename": "pages/_posts/2021-10-13-targeted-advertising.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-18T15:19:05Z",
+      "side": 1,
+      "message": "stock Android?",
+      "revId": "b5be5196b2ae460230900e1ab4e4fdc2e6b5fd97",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5170955f_719a2fdb",
+        "filename": "pages/_posts/2021-10-13-targeted-advertising.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-18T15:19:05Z",
+      "side": 1,
+      "message": "Should add source.",
+      "revId": "b5be5196b2ae460230900e1ab4e4fdc2e6b5fd97",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ec9a28a3_4357ea4c",
+        "filename": "pages/_posts/2021-10-13-targeted-advertising.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-18T15:19:05Z",
+      "side": 1,
+      "message": "This should be reworded.\n\nWe won\u0027t be doing the rooted approach exactly.\n\nWhat we can say is just that we will have some way to block ads in the future.",
+      "revId": "b5be5196b2ae460230900e1ab4e4fdc2e6b5fd97",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ce32d016_9340689f",
+        "filename": "pages/_posts/2021-10-13-targeted-advertising.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-18T15:19:05Z",
+      "side": 1,
+      "message": "One thing we can do for this is remove special privileges for carrier apps but I\u0027m not sure if that\u0027d break anything.",
+      "revId": "b5be5196b2ae460230900e1ab4e4fdc2e6b5fd97",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
