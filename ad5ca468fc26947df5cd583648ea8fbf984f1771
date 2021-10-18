@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb8dece6_04eec238",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-18T15:14:10Z",
+      "side": 1,
+      "message": "It\u0027d be good to mention the upstream repo and commit hash so that it\u0027s easy to see where this came from.\n\nGuessing this is the latest, so I\u0027d usually put something like:\n\nRepo: https://github.com/glenn-sorrentino/design-system\nCommit: 969f338911eeed8388891f3aefd528eba4ee081d\n\nIn the commit message.",
+      "revId": "ad5ca468fc26947df5cd583648ea8fbf984f1771",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
