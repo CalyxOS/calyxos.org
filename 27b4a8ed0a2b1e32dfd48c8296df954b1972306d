@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9837ba57_0101f602",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-19T21:45:32Z",
+      "side": 1,
+      "message": "Thoughts?\n\nAdding these so we can use short links in places instead of the full URLs.",
+      "revId": "27b4a8ed0a2b1e32dfd48c8296df954b1972306d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
