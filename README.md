@@ -85,7 +85,7 @@ By adding links in this way, the links will still be valid even if you move the 
 
 ## Deployment
 
-The 'master' branch of this git repository is automatically deployed to <https://calyxos.org>
+The 'main' branch of this git repository is automatically deployed to <https://calyxos.org>
 
 The 'dev' branch of this git repository is automatically deployed to <https://calyxos.gitlab.io/calyxos.org/>
 
@@ -93,9 +93,9 @@ The 'dev' branch of this git repository is automatically deployed to <https://ca
 
 Development is done on [Gerrit](https://review.calyxos.org/q/project:CalyxOS%252Fcalyxos.org) - for more details see the [contribution guide](https://calyxos.org/development/gerrit/)
 
-The 'dev' branch is used for development, and 'master' is considered the stable branch.
+The 'dev' branch is used for development, and 'main' is considered the stable branch.
 
-Changes must first go the 'dev' branch, after which they can be cherry-picked or merged into 'master' as desired.
+Changes must first go the 'dev' branch, after which they can be cherry-picked or merged into 'main' as desired.
 
 ## External Sources
 

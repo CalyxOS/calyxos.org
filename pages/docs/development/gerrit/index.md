@@ -41,7 +41,7 @@ There are two options to upload changes:
 2. If you're syncing and building CalyxOS, you can use the `repo` tool to upload changes. See [repo](#repo)
 
 #### git-review:
-* Start a new branch to make your change, `git checkout -b newbranch origin/master`
+* Start a new branch to make your change, `git checkout -b newbranch origin/main`
 * Make your changes, and commit them.
 * You can now run `git review` to upload them to gerrit.
 

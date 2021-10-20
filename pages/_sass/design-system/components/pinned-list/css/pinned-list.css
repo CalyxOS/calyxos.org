@@ -117,8 +117,8 @@
 
 .cardMeta p {
   font-size: var(--font-size-small);
+  margin-top: 0;
 }
-
 
 .pinnedListVisible {
   display: initial !important;

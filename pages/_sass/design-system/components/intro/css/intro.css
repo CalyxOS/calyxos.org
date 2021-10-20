@@ -235,6 +235,8 @@ p.typeset {
   font-family: var(--font-serif) !important;
   -webkit-display: initial;
   text-transform: lowercase;
+  font-style: italic;
+  font-weight: 100;
 }
 
 .bookCover p {
