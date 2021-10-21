@@ -158,6 +158,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a5d376b_5925ced7",
+        "filename": "pages/_posts/2021-10-13-targeted-advertising.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-21T20:42:02Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "b61632ce_e437804b",
+      "revId": "b5be5196b2ae460230900e1ab4e4fdc2e6b5fd97",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ec9a28a3_4357ea4c",
@@ -224,6 +242,24 @@
       "side": 1,
       "message": "it seems likely to",
       "parentUuid": "ce32d016_9340689f",
+      "revId": "b5be5196b2ae460230900e1ab4e4fdc2e6b5fd97",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e370ca3f_d21ba127",
+        "filename": "pages/_posts/2021-10-13-targeted-advertising.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-21T20:42:02Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "221bd374_61ac9c1f",
       "revId": "b5be5196b2ae460230900e1ab4e4fdc2e6b5fd97",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
