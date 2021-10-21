@@ -35,6 +35,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "54d80949_60083da6",
+        "filename": "pages/_posts/2021-10-13-targeted-advertising.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-21T19:27:20Z",
+      "side": 1,
+      "message": "well, this change is coming to all Android, not just stock, unless explicitly changed.",
+      "parentUuid": "ba3aa488_b2a33d74",
+      "revId": "b5be5196b2ae460230900e1ab4e4fdc2e6b5fd97",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "eed1604b_8fcdec2c",
@@ -52,6 +70,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6951ac18_a736dbf3",
+        "filename": "pages/_posts/2021-10-13-targeted-advertising.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-21T19:27:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "eed1604b_8fcdec2c",
+      "revId": "b5be5196b2ae460230900e1ab4e4fdc2e6b5fd97",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2b5bc0a4_a133b2de",
@@ -65,6 +101,24 @@
       "writtenOn": "2021-10-18T15:19:05Z",
       "side": 1,
       "message": "stock Android?",
+      "revId": "b5be5196b2ae460230900e1ab4e4fdc2e6b5fd97",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "57436709_d79ae899",
+        "filename": "pages/_posts/2021-10-13-targeted-advertising.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-21T19:27:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "2b5bc0a4_a133b2de",
       "revId": "b5be5196b2ae460230900e1ab4e4fdc2e6b5fd97",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -88,6 +142,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b61632ce_e437804b",
+        "filename": "pages/_posts/2021-10-13-targeted-advertising.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-21T19:27:20Z",
+      "side": 1,
+      "message": "like link to the source code? i would rather not.",
+      "parentUuid": "5170955f_719a2fdb",
+      "revId": "b5be5196b2ae460230900e1ab4e4fdc2e6b5fd97",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ec9a28a3_4357ea4c",
         "filename": "pages/_posts/2021-10-13-targeted-advertising.md",
         "patchSetId": 1
@@ -99,6 +171,24 @@
       "writtenOn": "2021-10-18T15:19:05Z",
       "side": 1,
       "message": "This should be reworded.\n\nWe won\u0027t be doing the rooted approach exactly.\n\nWhat we can say is just that we will have some way to block ads in the future.",
+      "revId": "b5be5196b2ae460230900e1ab4e4fdc2e6b5fd97",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a25c1dd3_ff292833",
+        "filename": "pages/_posts/2021-10-13-targeted-advertising.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-21T19:27:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "ec9a28a3_4357ea4c",
       "revId": "b5be5196b2ae460230900e1ab4e4fdc2e6b5fd97",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -116,6 +206,24 @@
       "writtenOn": "2021-10-18T15:19:05Z",
       "side": 1,
       "message": "One thing we can do for this is remove special privileges for carrier apps but I\u0027m not sure if that\u0027d break anything.",
+      "revId": "b5be5196b2ae460230900e1ab4e4fdc2e6b5fd97",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "221bd374_61ac9c1f",
+        "filename": "pages/_posts/2021-10-13-targeted-advertising.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-21T19:27:20Z",
+      "side": 1,
+      "message": "it seems likely to",
+      "parentUuid": "ce32d016_9340689f",
       "revId": "b5be5196b2ae460230900e1ab4e4fdc2e6b5fd97",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
