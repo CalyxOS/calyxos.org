@@ -35,6 +35,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb18661c_3a2a75f4",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-22T19:23:37Z",
+      "side": 1,
+      "message": "Just a comment, not a blocker.",
+      "parentUuid": "cad2d69f_aac439bb",
+      "revId": "f97f9fd445927cb5da3cb5b36b57ccc24f3b0598",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "33b29b07_8c6271bf",
@@ -48,6 +66,24 @@
       "writtenOn": "2021-10-07T20:47:34Z",
       "side": 1,
       "message": "update-* is at least once a month.\n\ngenerate-* is anytime we want to make a change to install page.",
+      "revId": "f97f9fd445927cb5da3cb5b36b57ccc24f3b0598",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "84768323_426e682d",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-22T19:23:37Z",
+      "side": 1,
+      "message": "Just a comment, not a blocker.",
+      "parentUuid": "33b29b07_8c6271bf",
       "revId": "f97f9fd445927cb5da3cb5b36b57ccc24f3b0598",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
