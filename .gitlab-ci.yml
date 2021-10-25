@@ -24,7 +24,7 @@ pages:
     paths:
     - public
   only:
-  - dev
+  - main
 
 test:
   stage: test
