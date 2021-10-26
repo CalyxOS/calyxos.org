@@ -21,3 +21,10 @@ Arch Linux:
 sudo pacman -Sy
 sudo pacman -S android-udev
 ```
+
+openSUSE:
+
+```
+sudo zypper install android-udev-rules
+```
+
