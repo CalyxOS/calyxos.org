@@ -15,6 +15,7 @@
       - security-faq
       - identifiers
       - location
+      - network-activity
       - bulletin
   - tech:
     - microg-details
