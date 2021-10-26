@@ -163,6 +163,12 @@ a {
   line-height: unset;
 }
 
+// default blockquote has no styling
+blockquote {
+  margin-left: var(--spacing-large);
+  margin-right: var(--spacing-large);
+}
+
 //
 // CODE
 //
