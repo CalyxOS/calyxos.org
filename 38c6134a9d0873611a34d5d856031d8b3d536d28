@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "78668187_2b91d132",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-27T06:10:42Z",
+      "side": 1,
+      "message": "Actually, let\u0027s submit the dev merge first before submitting anything else.",
+      "revId": "38c6134a9d0873611a34d5d856031d8b3d536d28",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
