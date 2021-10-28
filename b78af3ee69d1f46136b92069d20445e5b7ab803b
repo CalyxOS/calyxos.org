@@ -16,6 +16,24 @@
       "message": "Rather than per-organization, I\u0027d like to split them per source.\n\nOS: (can\u0027t be changed)\n* Our updater\n* Google servers for time / connectivity check\n* Cloudflare DNS fallback\n* Qualcomm XTRA\n\nApps:\n* microG (is is optional after all)\n* duckduckgo (same, not everyone may install it)\n* Potentially others.\n\n\nThis is solely because users can\u0027t do anything (at least easily) about the first category, but the second can be easily changed if they want.",
       "revId": "b78af3ee69d1f46136b92069d20445e5b7ab803b",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7959e5bf_29c94bb4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-28T22:54:41Z",
+      "side": 1,
+      "message": "sounds good, will work on that.",
+      "parentUuid": "dfaa4c62_6250c137",
+      "revId": "b78af3ee69d1f46136b92069d20445e5b7ab803b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
