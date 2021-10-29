@@ -65,9 +65,15 @@ module Jekyll
     end
 
     def find_by_url(path)
-      path = add_leading_slash(path)
-      path = remove_trailing_slash(path)
-      data["pages_by_url"][path]
+      absolute_path = add_leading_slash(remove_trailing_slash(path))
+      page = data["pages_by_url"][absolute_path]
+      if page.nil?
+        key = data["pages_by_url"].keys.grep(Regexp.new(Regexp.escape(path))).first
+        if key
+          page = data["pages_by_url"][key]
+        end
+      end
+      return page
     end
 
     # if path has parens, we extract what is in the parens and
