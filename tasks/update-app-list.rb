@@ -9,6 +9,8 @@ module Apps
   APP_PAGES = "#{HOME}/pages/docs/guide/apps/"
   TEMPLATE  = "#{HOME}/pages/docs/guide/apps/_template.md"
 
+  EXCLUDE = ['f-droid', 'aurora-store'] # we have custom pages for these
+
   ELEMENTS  = %w(packageName webSite description name summary icon license categories sourceCode donate issueTracker)
 
   class << self
@@ -54,8 +56,6 @@ module Apps
         value = value.nil? ? "" : value
         new_app[el_name] = value
       end
-      #p 'x' *1000
-      #p app
       if new_app["name"] == ""
         new_app["name"] = fetch(app, "localized.en-US.name")
       end
@@ -81,7 +81,9 @@ module Apps
       json["apps"].each do |app|
         app = copy_elements(app)
         download_icon(app)
-        render_app_page(app, template)
+        unless EXCLUDE.includes?(app['slug'])
+          render_app_page(app, template)
+        end
         yml["apps"] << app
       end
 

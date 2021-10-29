@@ -11,7 +11,7 @@ toc: true
 <div class="feature small-img">
 <img src="{{'/assets/images/osapps/fdroid.png' | relative_url}}" />
 <div>
-F-Droid is the **preferred app store** for CalyxOS. All the apps available in F-Droid are free and **open source** software, and contain no trackers or advertising.
+[[F-Droid]] is the **preferred app store** for CalyxOS. All the apps available in F-Droid are free and **open source** software, and contain no trackers or advertising.
 
 * Install free software Android apps.
 * CalyxOS gives F-Droid special privileges to streamline app updates, installs, and uninstalls.
@@ -24,7 +24,7 @@ F-Droid is the **preferred app store** for CalyxOS. All the apps available in F-
 <div class="feature small-img">
 <img src="{{'/assets/images/apps/com.aurora.store.png' | relative_url}}" />
 <div>
-Aurora Store is an **alternative client** to the standard **Google Play Store**. It uses the same standard catalog of apps and installs apps directly from the Google servers.
+[[Aurora Store]] is an **alternative client** to the standard **Google Play Store**. It uses the same standard catalog of apps and installs apps directly from the Google servers.
 * By default, Aurora Store accesses the Google app catalog anonymously.
 * If you want to install paid apps, or if anonymous mode is not working, you can additionally enter your Google account crendentials in the Aurora Store settings (paid apps don't always work).
 * CalyxOS gives Aurora Store special privileges so that app updates can be automatically installed. New app installs and uninstalls still must be confirmed as normal.
