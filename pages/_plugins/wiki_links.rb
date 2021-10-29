@@ -89,7 +89,7 @@ module Jekyll
             title ||= page_name
             %(<a href="#{page_name}">#{title}</a>)
           else
-            page_name = page_name.downcase
+            page_name = page_name.downcase.gsub(' ','-')
             page = @site.find_page(page_name)
             if page.nil?
               puts "ERROR: No such page '#{page_name}'"
