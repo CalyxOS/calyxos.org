@@ -25,7 +25,7 @@ Additionally, most of these device identifiers are transmitted to the mobile car
 
 To read these permanent identifiers, an app requires the `READ_PRIVILEGED_PHONE_STATE` permission, which is not available to a normal app. Since Android 10, only carrier apps and system apps may have this permission. This is true of both CalyxOS and stock Android.
 
-Most commercial Android distributions come with carrier apps pre-installed for all the major carriers in the region where the phone is sold. These carrier apps then get automatically activated when a SIM card for that carrier is detected. This give the mobile phone carrier [special access to certain phone functions](https://source.android.com/devices/tech/config/uicc), such as configuring WiFi calling. It also gives them access to the permanent identifiers. Additionally, these carrier apps can be installed automatically by the Google Play Store.
+Most commercial Android distributions come with carrier apps pre-installed for all the major carriers in the region where the phone is sold. These carrier apps then get automatically activated when a SIM card for that carrier is detected. This give the mobile phone carrier [special access to certain phone functions](https://source.android.com/devices/tech/config/uicc), such as configuring WiFi calling. It also gives them access to the permanent device identifiers. Additionally, these carrier apps can be installed automatically by the Google Play Store.
 
 With CalyxOS, there are no included carrier apps and carrier apps cannot be installed automatically.
 
@@ -47,7 +47,7 @@ THe IMEI (GSM networks) or the MEID (CDMA networks) is a number that is globally
 
 Your device will have one IMEI for each usable SIM card (physical or eSIM).
 
-Law enforcement and intelligence services can use the IMEI to track a device, even if the SIM card changes.
+Law enforcement and intelligence services can use the IMEI to track a device, even if the SIM card changes or if you have no SIM card at all (and even if the phone is always in airplane mode).
 
 The IMEI or MEID is sometimes called the "Device ID" in internal Android documentation.
 
@@ -70,9 +70,13 @@ To view ICCID: **Settings** &rarr; **About Phone** &rarr; **SIM status** &rarr; 
 
 Scope: per-device
 
-In addition to the ICCID, every SIM card stores a subscriber ID called IMSI (International Mobile Subscriber Identity). This number is used to identify and authenticate a paying customer to the carrier network.
+In addition to the ICCID, every SIM card stores a globally unique subscriber ID called IMSI (International Mobile Subscriber Identity). This number is used to identify and authenticate a paying customer to the carrier network.
 
 The IMSI is transmitted to the mobile network tower, and is logged by the carrier.
+
+To view IMSI:
+
+* Via the dialer: enter `*#*#4636#*#*` and then choose **Phone info**.
 
 Software Identifiers
 -------------------------------
