@@ -16,3 +16,6 @@ F-Droid is the **preferred app store** for CalyxOS. All the apps available in F-
 * CalyxOS gives F-Droid special privileges to streamline app updates, installs, and uninstalls.
 * In addition to the standard F-Droid source for apps (aka "repo"), CalyxOS includes a source for CalyxOS apps, which allows us push out out-of-band updates for various apps when needed.
 
+### F-Droid Security
+
+{% include_page f-droid/security %}
