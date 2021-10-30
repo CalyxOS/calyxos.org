@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e2c2be19_0a9627f1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-30T21:24:41Z",
+      "side": 1,
+      "message": "Minor nit. include_page is very nice, will be useful for other things in the future.",
+      "revId": "726c20ee62df7c01ca0ec1b06085539a84abbefd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e644e635_55d2b009",
+        "filename": "pages/docs/guide/apps/f-droid/security.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-30T21:24:41Z",
+      "side": 1,
+      "message": "https://gitlab.com/CalyxOS/platform_packages_apps_F-DroidPrivilegedExtension",
+      "revId": "726c20ee62df7c01ca0ec1b06085539a84abbefd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
