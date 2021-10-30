@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c438a53_72974488",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-30T21:21:50Z",
+      "side": 1,
+      "message": "LGTM. Thanks!",
+      "revId": "92bf204787746a1c0adba9c589be3cce44c05d63",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "124260d0_63a0a570",
+        "filename": "pages/docs/guide/security/network-activity.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-30T21:21:50Z",
+      "side": 1,
+      "message": "This list domains, do we want to list URLs too? This doesn\u0027t have to hold up this patch, just a general question.",
+      "revId": "92bf204787746a1c0adba9c589be3cce44c05d63",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d6461090_57060f27",
+        "filename": "pages/docs/guide/security/network-activity.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-30T21:21:50Z",
+      "side": 1,
+      "message": "WiFi or mobile data to be pedantic I think. Maybe drop the bits after over?\n\nThere\u0027s some more fallback domains too if they can\u0027t get to this one.\n\nFallback domains:\n* www.google.com\n* play.googleapis.com\n* www.googleapis.cn (China-only, MCC 460)\n\nAdditionally:\n$RANDOM-$RANDOM-android-ds.metric.gstatic.com -\u003e Some form of Private DNS (DNS-over-TLS) measurement thingy, we might be able to disable this.",
+      "revId": "92bf204787746a1c0adba9c589be3cce44c05d63",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
