@@ -50,6 +50,24 @@
       "message": "WiFi or mobile data to be pedantic I think. Maybe drop the bits after over?\n\nThere\u0027s some more fallback domains too if they can\u0027t get to this one.\n\nFallback domains:\n* www.google.com\n* play.googleapis.com\n* www.googleapis.cn (China-only, MCC 460)\n\nAdditionally:\n$RANDOM-$RANDOM-android-ds.metric.gstatic.com -\u003e Some form of Private DNS (DNS-over-TLS) measurement thingy, we might be able to disable this.",
       "revId": "92bf204787746a1c0adba9c589be3cce44c05d63",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b2426ade_c3cb39d0",
+        "filename": "pages/docs/guide/security/network-activity.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-31T17:49:32Z",
+      "side": 1,
+      "message": "that is weird, like when is connectivitycheck.gstatic.com ever not reachable?",
+      "parentUuid": "d6461090_57060f27",
+      "revId": "92bf204787746a1c0adba9c589be3cce44c05d63",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
