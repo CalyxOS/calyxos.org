@@ -86,6 +86,24 @@
       "parentUuid": "b2426ade_c3cb39d0",
       "revId": "92bf204787746a1c0adba9c589be3cce44c05d63",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "21337f04_381710d0",
+        "filename": "pages/docs/guide/security/network-activity.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-31T18:11:18Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "f3d5d918_3d225d54",
+      "revId": "92bf204787746a1c0adba9c589be3cce44c05d63",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
