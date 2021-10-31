@@ -68,6 +68,24 @@
       "parentUuid": "d6461090_57060f27",
       "revId": "92bf204787746a1c0adba9c589be3cce44c05d63",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3d5d918_3d225d54",
+        "filename": "pages/docs/guide/security/network-activity.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-31T18:10:33Z",
+      "side": 1,
+      "message": "I would like to know a bit more about what metric.gstatic.com is used for before we add it to the page.",
+      "parentUuid": "b2426ade_c3cb39d0",
+      "revId": "92bf204787746a1c0adba9c589be3cce44c05d63",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
