@@ -33,6 +33,24 @@
       "message": "https://gitlab.com/CalyxOS/platform_packages_apps_F-DroidPrivilegedExtension",
       "revId": "726c20ee62df7c01ca0ec1b06085539a84abbefd",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6dd5fb9e_029a624e",
+        "filename": "pages/docs/guide/apps/f-droid/security.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-10-31T17:53:15Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "e644e635_55d2b009",
+      "revId": "726c20ee62df7c01ca0ec1b06085539a84abbefd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
