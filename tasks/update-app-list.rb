@@ -81,7 +81,7 @@ module Apps
       json["apps"].each do |app|
         app = copy_elements(app)
         download_icon(app)
-        unless EXCLUDE.includes?(app['slug'])
+        unless EXCLUDE.include?(app['slug'])
           render_app_page(app, template)
         end
         yml["apps"] << app
