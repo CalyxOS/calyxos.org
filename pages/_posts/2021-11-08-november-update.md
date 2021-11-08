@@ -5,8 +5,6 @@ date: 2021-11-08
 
 The Android 11 November Security update is finally here.
 
-It is currently in the beta channel, and will be bumped to the stable channel later after additional testing and feedback. Factory images will be available at that time as well.
-
 For users who can't select the beta channel, that bug has been fixed in this update, and you'll be able to select it again going forward.
 
 Android 12:
