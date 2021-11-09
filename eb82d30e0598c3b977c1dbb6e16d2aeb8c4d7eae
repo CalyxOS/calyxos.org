@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "21f4ee1e_121bfebd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-11-09T13:59:50Z",
+      "side": 1,
+      "message": "I somehow feel like I have seen this in before, but I couldn\u0027t find in the patchsets of the original commit add this.\n\n",
+      "revId": "eb82d30e0598c3b977c1dbb6e16d2aeb8c4d7eae",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
