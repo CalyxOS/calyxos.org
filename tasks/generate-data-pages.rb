@@ -41,6 +41,7 @@ module GenerateDataPages
       FileUtils.mkdir_p(File.dirname(dest))
       File.open(dest, 'w') do |f|
         f.write post_filter(template.render(context))
+        f.write "\n<!-- Auto generated. DO NOT EDIT -->\n"
       end
       puts "CREATE #{dest}"
     end
