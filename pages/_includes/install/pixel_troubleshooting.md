@@ -1,4 +1,4 @@
-#### How do I tell if the booterloader is locked?
+#### How do I tell if the bootloader is locked?
 
 In [[fastboot]] "Device State: locked" means the bootloader is locked.
 
