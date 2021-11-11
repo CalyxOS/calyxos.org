@@ -2,13 +2,27 @@
   <div class="wrapper">
     <div class="logoMark emptyLogo"></div>
     <h1 class="logo"><a class="navbar-brand" href="{{ '/' | relative_url }}">CalyxOS</a></h1>
-    <nav class="navbar navbar-expand-sm">
+    <label class="clickable toggle search-toggle" for="search-checkbox" tabindex="0" role="button" aria-label="search"><i class="icon search"></i></label>
+    <div class="search">
+      <input type="checkbox" class="toggle" id="search-checkbox"></input>
+      <div id="search" style="visibility: hidden">
+        <label class="clickable toggle search-toggle" for="search-checkbox" title="close" tabindex="0" role="button"><i class="big icon close"></i></label>
+        <form action="https://duckduckgo.com" id="searchform" name="searchform">
+          <input type="hidden" name="kae" value="#9ACA3C">  {% comment %} green header     {% endcomment %}
+          <input type="hidden" name="k7" value="w">         {% comment %} white background {% endcomment %}
+          <input type="hidden" name="sites" value="calyxos.org">
+          <input type="search" name="q" autofocus="autofocus">
+          <input type="submit" value="Search">
+        </form>
+      </div>
+    </div>
+    <nav class="navbar">
       <input type="checkbox" class="toggle" id="navbar-visible"></input>
       <ul class="navbar-nav">
         {% top_navigation_menu li:nav-item a:nav-link active:active %}
         <li><a role="button" class="btn primaryBtn" href="{{ '/install' | relative_url }}">Get CalyxOS</a></li>
       </ul>
-      <label class="toggle navbar-toggle" for="navbar-visible"></label>
+      <label class="clickable toggle navbar-toggle" for="navbar-visible" role="button" aria-label="navigation"></label>
     </nav>
   </div>
 </header>
