@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d808d16_5d763e39",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-11-11T20:02:40Z",
+      "side": 1,
+      "message": "Looks very nice, works well.\n\nShould we add any form of indication that the search will take you to duckduckgo?",
+      "revId": "76af28f251801eeebaae2e555e80235e3395310b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
