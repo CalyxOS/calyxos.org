@@ -16,6 +16,24 @@
       "message": "Looks very nice, works well.\n\nShould we add any form of indication that the search will take you to duckduckgo?",
       "revId": "76af28f251801eeebaae2e555e80235e3395310b",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "19f4d97e_3d2e1ffa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2021-11-15T18:13:29Z",
+      "side": 1,
+      "message": "added duckduckgo icon. i wasn\u0027t sure what the license was and the website has no info, but i realized that the android app licenses the dax logo as apache 2.0, so i figure that is good enough. added note to the license file.",
+      "parentUuid": "0d808d16_5d763e39",
+      "revId": "76af28f251801eeebaae2e555e80235e3395310b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
