@@ -18,10 +18,22 @@
 
 // margin instead of padding for gutters
 // fixed size widths are bad
+.contentRowContent {
+  margin-bottom: 0;
+}
 .contentRowContent .contentItem {
   padding: 0;
-  margin: 0 var(--spacing-medium);
+  margin-right: var(--spacing-medium);
+  margin-left: var(--spacing-medium);
+  margin-bottom: 4rem;
   width: 50%;
+}
+@media only screen and (max-width: 768px) {
+  .contentRowContent .contentItem {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 // erase the gutter width on the left and right ends.
@@ -44,6 +56,9 @@
 @media (prefers-color-scheme: dark) {
   .navbar-toggle {
     background-image: url("../images/dm-icon-menu.png");
+  }
+  .secondaryIntro {
+    background-color: #262626;
   }
 }
 
@@ -99,8 +114,14 @@
 .intro h1 {
   width: 100%;
 }
+
 .intro.withImage > div {
   width: 65%;
+}
+@media only screen and (max-width: 768px) {
+  .intro.withImage > div {
+    width: 100%;
+  }
 }
 
 //

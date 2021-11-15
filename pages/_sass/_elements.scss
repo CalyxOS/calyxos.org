@@ -10,12 +10,15 @@ i.icon {
   height: 18px;
   background: no-repeat 50% 50%;
   display: inline-block;
-  vertical-align: middle;
-  margin-top: -3px;
   filter: invert(40%);
   &.big {
     width: 32px;
     height: 32px;
+  }
+  &.inline {
+    // makes icons inline with text look better
+    vertical-align: middle;
+    margin-top: -3px;
   }
   &.color {
     filter: none;
@@ -107,7 +110,7 @@ input.toggle:checked ~ #search {
   left: 0;
   width: 100%;
   height: $search-height;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0,0,0,0.9);
   backdrop-filter: blur(5px);
   align-items: center;
   justify-content: flex-start;
@@ -117,24 +120,28 @@ input.toggle:checked ~ #search {
     flex-grow: 1;
   }
   label {
-    margin-left: 2rem;
+    margin: 2rem 1rem;
   }
   input, button {
-    color: var(--calyx-base);
+    color: #333;
     font-size: var(--font-size-body);
     padding: var(--spacing-small) var(--spacing-base);
     border-radius: var(--radius-soft);
     border: 0;
     background-color: white;
     &[type=search] {
-      border-top-right-radius: 0;
-      border-bottom-right-radius: 0;
-      margin-right: -4px;
+      //border-top-right-radius: 0;
+      //border-bottom-right-radius: 0;
+      //margin-right: -4px;
+      width: 100%;
+      max-width: 16em;
     }
   }
   button {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+    cursor: pointer;
     background-color: #eee;
+    margin-left: 8px;
+    margin-right: 8px;
+    white-space: nowrap;
   }
 }

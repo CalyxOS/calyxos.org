@@ -39,7 +39,9 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 <tr><td> Xiaomi Mi A2 </td><td> August 2021? </td><td> December 2021 </td></tr>
 </table>
 
-Reference: <https://support.google.com/nexus/answer/4457705#zippy=%2Cpixel-phones>
+More information:
+
+* [Google Pixel support dates](https://support.google.com/nexus/answer/4457705#zippy=%2Cpixel-phones)
 
 ### SIM Support
 
