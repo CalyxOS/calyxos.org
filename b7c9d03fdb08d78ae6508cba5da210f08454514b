@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "501098ea_0d56f755",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-11-19T17:23:23Z",
+      "side": 1,
+      "message": "Minor nit",
+      "revId": "b7c9d03fdb08d78ae6508cba5da210f08454514b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "62e993da_3a1f4bcc",
