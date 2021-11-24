@@ -36,6 +36,15 @@ Note: Image/Video sending to any channel is currently prevented to combat spam
 
 * [r/CalyxOS](https://www.reddit.com/r/CalyxOS/)
 
+## Guidelines
+* Be kind. Don't be snarky. Have curious conversation; don't cross-examine. Please don't fulminate. Please don't sneer, including at the rest of the community.
+* Comments should get more thoughtful and substantive, not less, as a topic gets more divisive.
+* When disagreeing, please reply to the argument instead of calling names. "That is idiotic; 1 + 1 is 2, not 3" can be shortened to "1 + 1 is 2, not 3."
+* Please respond to the strongest plausible interpretation of what someone says, not a weaker one that's easier to criticize. Assume good faith.
+* Eschew flamebait. Avoid unrelated controversies and generic tangents.
+* Please don't post shallow dismissals, especially of other people's work. A good critical comment teaches us something.
+* Assume good faith. (It cannot be said enough)
+
 ## Bridges for the chat channels
 
 Matrix is the primary medium of communication. Telegram and IRC are bridged to Matrix, and thus a message sent to any of these would get to all three!
