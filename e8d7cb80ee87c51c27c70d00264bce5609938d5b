@@ -16,6 +16,23 @@
       "message": "Just copy-pasted some bits I thought to be relevant for now.\n\nWe have the CoC linked as well, this can be linked similary / moved as needed.\n\nWe can add more and expand, but how is this for a start?",
       "revId": "e8d7cb80ee87c51c27c70d00264bce5609938d5b",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a51b73bd_7dc508a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-11-24T18:51:17Z",
+      "side": 1,
+      "message": "The main one I want to add and have been quoting a lot recently, is, \"Assume good faith.\u0027",
+      "revId": "e8d7cb80ee87c51c27c70d00264bce5609938d5b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
