@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "735a13a6_d341b03d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-11-24T18:50:45Z",
+      "side": 1,
+      "message": "Just copy-pasted some bits I thought to be relevant for now.\n\nWe have the CoC linked as well, this can be linked similary / moved as needed.\n\nWe can add more and expand, but how is this for a start?",
+      "revId": "e8d7cb80ee87c51c27c70d00264bce5609938d5b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
