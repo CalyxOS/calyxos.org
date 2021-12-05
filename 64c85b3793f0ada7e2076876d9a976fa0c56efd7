@@ -16,6 +16,24 @@
       "message": "What\u0027s this used for?",
       "revId": "64c85b3793f0ada7e2076876d9a976fa0c56efd7",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "629ee04b_310d11b3",
+        "filename": "pages/docs/development/build/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1000043
+      },
+      "writtenOn": "2021-12-05T00:40:34Z",
+      "side": 1,
+      "message": "At some stage of building it would call rsync and my build failed because I didn\u0027t have it installed.",
+      "parentUuid": "c6776870_ce4c4e50",
+      "revId": "64c85b3793f0ada7e2076876d9a976fa0c56efd7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
