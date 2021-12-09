@@ -20,7 +20,7 @@ You will need to register on our Gerrit server and configure some settings to be
 1. Visit <https://review.calyxos.org/> - and click Sign in. That will take you to GitHub, where you can approve the request to sign in.
 2. Go to <https://review.calyxos.org/settings/#Profile> - and set a Display Name, and note down your username (it will be the same as your GitHub username)
 3. Scroll down to <https://review.calyxos.org/settings/#EmailAddresses> - and add the email address you usually use with git. You will need to verify it by clicking on a link sent to the particular email.
-4. Scroll down to <https://review.calyxos.org/settings/#SSHKeys> - and add an SSH public key. This is what you will use to push code changes to Gerrit.
+4. Scroll down to <https://review.calyxos.org/settings/#SSHKeys> - and enter your SSH public key in the text box. This is what you will use to push code changes to Gerrit.
 
 #### Development Machine
 On the system from which you'll be upload changes, you should:
