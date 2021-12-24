@@ -7,25 +7,44 @@ redirect_from:
   - /development/gerrit/
 ---
 
-We have a Gerrit Code Review Instance now at <https://review.calyxos.org/>
+We have a Gerrit Code Review Instance now at <https://review.calyxos.org/> !
 
 Gerrit makes a lot easier to deal with hundreds of repositories in one place, and also for dealing with changes involving multiple repos.
 
 <br>
 
 ### Setup
-You will need to register on our Gerrit server and configure some settings to be able to upload changes.
+You will need to register on our Gerrit server and configure some settings to be able to 
+upload changes. Some of these configurations will be specific to the system used. This is your 
+"Development Machine", the computer you will be doing the work on.
 
 #### Account
-1. Visit <https://review.calyxos.org/> - and click Sign in. That will take you to GitHub, where you can approve the request to sign in.
-2. Go to <https://review.calyxos.org/settings/#Profile> - and set a Display Name, and note down your username (it will be the same as your GitHub username)
-3. Scroll down to <https://review.calyxos.org/settings/#EmailAddresses> - and add the email address you usually use with git. You will need to verify it by clicking on a link sent to the particular email.
-4. Scroll down to <https://review.calyxos.org/settings/#SSHKeys> - and enter your SSH public key in the text box. This is what you will use to push code changes to Gerrit.
+1. Visit <https://review.calyxos.org/> - and click Sign in. That will take you to 
+GitHub, where you can approve the request to sign in.
+2. Go to <https://review.calyxos.org/settings/#Profile> - and set a Display Name, and note down 
+your username (it will be the same as your GitHub username).
+3. Scroll down to <https://review.calyxos.org/settings/#EmailAddresses> - and add the email address you 
+usually use with git. You will need to verify it by clicking on a link sent to the 
+particular email. 
+4. Scroll down to <https://review.calyxos.org/settings/#SSHKeys> - and enter your SSH public key in the **text box**. This is what will verify you and your 
+system when you push code changes to Gerrit.
+
+* Sample keygen on your system.
+
+  * Enter the command: `ssh-keygen`
+  * This gives a prompt with a **location** to save the key. 
+Note the syntax used. Hit enter.
+  * Create your passphrase. Write in your password notebook and enter twice as prompted. A Nice randomart image will be shown! Your passphrase will be needed as your computer pushes reviews or rebases commits from the cloud machine with the main repository.
+  * Then type: `cat ~/.ssh/id_rsa.pub` This should be the same as the **location**. This 
+output is your **ssh-rsa** and is a solid block of charachter. SSH-RSA stands for: 
+Secure SHell-Rivest Shamir Adleman, the three originators of the protocol in 1977.
+  * Copy this key and paste into the **text box** for the key.
 
 #### Development Machine
 On the system from which you'll be upload changes, you should:
 * Add your Gerrit/GitHub username to gitconfig:
-  * `git config --add --global review.review.calyxos.org.username myuser # Replace the myuser with your actual username`
+  * `git config --add --global review.review.calyxos.org.username myuser` Replace 
+the **myuser** with the username you will be using.
   * Note: The double review in 'review.review.' is intentional.
 * Install [git-review](https://docs.openstack.org/infra/git-review/):
   * `pip install git-review`
@@ -36,9 +55,11 @@ On the system from which you'll be upload changes, you should:
 * Gerrit replaces the "Merge Request / Pull Request" workflow.
 * Open Changes can be viewed on the main gerrit homepage - <https://review.calyxos.org/>. For more details see [review](#review).
 
-There are two options to upload changes:
-1. If you're just working on a specific app or this website ([calyxos.org](https://gitlab.com/CalyxOS/calyxos.org)) or just one git repository you can use the `git-review` to quickly upload changes. See [git-review](#git-review), OR
-2. If you're syncing and building CalyxOS, you can use the `repo` tool to upload changes. See [repo](#repo)
+There are two options to upload changes: 1. If you're just working on a specific app or 
+this website ([calyxos.org](https://gitlab.com/CalyxOS/calyxos.org)) or just one git 
+repository you can use the `git-review` to quickly upload changes. See 
+[git-review](#git-review), OR 2. If you're syncing and building CalyxOS, you can use the 
+`repo` tool to upload changes. See [repo](#repo)
 
 #### git-review:
 * Start a new branch to make your change, `git checkout -b newbranch origin/main`
@@ -63,6 +84,9 @@ There are two options to upload changes:
 * A change can also be abandoned if it is no longer needed.
 
 ### Tips
+* Material goes here on best practices.
+  * Keep common syntax and formating.
+  * Be clear and elegant in your code.
 
 #### Topics
 * Topics are another way to group changes together, and super useful with something like `repopick -t $topic` to be able to pick a set of changes easily.
