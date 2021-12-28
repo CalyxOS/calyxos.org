@@ -16,7 +16,7 @@ Gerrit makes a lot easier to deal with hundreds of repositories in one place, an
 ### Setup
 You will need to register on our Gerrit server and configure some settings to be able to 
 upload changes. Some of these configurations will be specific to the system used. This is your 
-"Development Machine", the computer you will be doing the work on.
+"Development Machine", 💻️ the computer you will be doing the work on.
 
 #### Account
 1. Visit <https://review.calyxos.org/> - and click Sign in. That will take you to 

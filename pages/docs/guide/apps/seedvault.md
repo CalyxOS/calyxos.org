@@ -25,8 +25,11 @@ icon: /assets/images/osapps/seedvault.png
 
   * After toggling on the toggles below becoming highlighted and toggled on as well.
 
- <img src="../backuptogglescreenshot.jpg">
 
+<figure>
+ <img src="../backuptogglescreenshot.jpg">
+ <figcaption> backup with settings font color </figcaption>
+</figure>
 
 I am going to skip the experimental option and just backup my files in a different process.
 
