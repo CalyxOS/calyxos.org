@@ -71,7 +71,7 @@ repository you can use the `git-review` to quickly upload changes. See
 * Start a new branch to make your change, `repo start newbranch path/to/directory`
 * Make your changes, and commit them.
 * You can now use the `repo upload` tool to upload them to gerrit.
-* You can use the `repopick` tool, available after `source envsetup.sh` - to quickly download changes from gerrit.
+* You can use the `repopick` ^ `repopick 829388` tool, available after `source envsetup.sh` - to quickly download changes from gerrit.
 
 #### Review
 * You can ask for review using the "Add Review" button on the left.
