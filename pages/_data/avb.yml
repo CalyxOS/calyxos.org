@@ -1,4 +1,10 @@
 ---
+- name: Pixel 6 Pro
+  codename: raven
+  avb_fingerprint: "4AB52825"
+- name: Pixel 6
+  codename: oriole
+  avb_fingerprint: "A1B524F2"
 - name: Pixel 5a (5G)
   codename: barbet
   avb_fingerprint: "AF7EE1C5"
