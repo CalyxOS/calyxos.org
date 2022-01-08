@@ -143,5 +143,29 @@ stable:
   incremental_sha256: 56a14cd87e30fef473bb73bb90e576548f766c353557c765a46b6a3acad21ac0
   incremental_old_build: '202102100'
   date: '2021-11-07'
+twelve:
+- name: Pixel 6 Pro
+  brand: pixel
+  codename: raven
+  factory_link: https://release.calyxinstitute.org/raven-factory-22300000.zip
+  factory_sha256:
+  ota_link: https://release.calyxinstitute.org/raven-ota_update-22300000.zip
+  ota_sha256:
+  incremental_link: ''
+  incremental_sha256: ''
+  incremental_old_build: ''
+  date: '2022-01-07'
+- name: Pixel 6
+  brand: pixel
+  codename: oriole
+  factory_link: https://release.calyxinstitute.org/oriole-factory-22300000.zip
+  factory_sha256:
+  ota_link: https://release.calyxinstitute.org/oriole-ota_update-22300000.zip
+  ota_sha256:
+  incremental_link: ''
+  incremental_sha256: ''
+  incremental_old_build: ''
+  date: '2022-01-07'
 releases:
 - stable
+- twelve
