@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9201e9a8_fd2663ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-08T23:45:19Z",
+      "side": 1,
+      "message": "Hashes match Nick.\n\nBuild is reproducible here at least.\n\nBuilt, copied and noted hashes, cleaned dir, re-built, same hash.\n\n`go version go1.17.5 linux/amd64`",
+      "revId": "d1fa268b5c06248741f5fc497aec07789fcff71c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
