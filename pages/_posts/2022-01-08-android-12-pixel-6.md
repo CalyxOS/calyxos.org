@@ -65,3 +65,26 @@ We will be releasing the January Android 11 security update for them soon either
 
 We will also be starting to look at potentially support other devices this month - we've always
 wanted to support more and more devices, stay tuned for updates!
+
+## Changelog
+
+* Coming soon
+
+## Known issues
+
+* These are the issues we know about and are working on.
+* Temporary workarounds have been posted where possible.
+* The issues will get addressed in upcoming builds.
+
+| Issue | Workaround | Solution |
+| ----- | ---------- | -------- |
+| Bluetooth timeout not working as expected | Turn off Bluetooth timeout | Work in progress |
+| [Wi-Fi timeout turns Wi-Fi off unexpectedly](https://gitlab.com/CalyxOS/calyxos/-/issues/825) | Set Wi-Fi timeout to 8 hours | [Work in progress](https://review.calyxos.org/c/CalyxOS/platform_packages_modules_Wifi/+/7864) |
+| [Mobile data turned off after update from 11](https://gitlab.com/CalyxOS/calyxos/-/issues/820) | Turn it on from Settings | Investigating |
+| [Pixel 6 Pro Settings -> Connected devices -> Conneection preferences crash](https://gitlab.com/CalyxOS/calyxos/-/issues/827) | None | Investigating |
+| [Secondary user networking toggles crash](https://gitlab.com/CalyxOS/calyxos/-/issues/823) | None | Investigating |
+| [Some theming inconsistences](https://gitlab.com/CalyxOS/calyxos/-/issues/824) | N/A | Investigating |
+| [Google Camera crash (Pixel 4a only?)](https://gitlab.com/CalyxOS/calyxos/-/issues/822) | Re-install latest version from Aurora Store | Investigating |
+| No Material You / Dynamic theming | None, not open source yet | Will be open source in 12L |
+| [Can't change icon shape / accent color / font](https://gitlab.com/CalyxOS/calyxos/-/issues/821) | None, not available in 12 | Unfortunately none |
+| [Settings illustrations not present](https://gitlab.com/CalyxOS/calyxos/-/issues/828) | Not needed | Sadly these aren't open source |
