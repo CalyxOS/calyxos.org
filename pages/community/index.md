@@ -19,6 +19,7 @@ Note: Image/Video sending to any channel is currently prevented to combat spam
 
 ### Additional Channels
 
+* For testing CalyxOS builds early and providing feedback **[#calyxos-testers:matrix.org](https://app.element.io/#/room/#calyxos-testers:matrix.org)**
 * For all off-topic conversations: **[#calyxos-offtopic:matrix.org](https://app.element.io/#/room/#calyxos-offtopic:matrix.org)**
 * Live feed of code commits / gitlab activity / reddit posts: **[#calyxos-feeds:matrix.org](https://app.element.io/#/room/#calyxos-feeds:matrix.org)**
 * For documentation / translation related discussion: **[#calyxos-docs:matrix.org](https://app.element.io/#/room/#calyxos-docs:matrix.org)**
@@ -53,6 +54,7 @@ Matrix is the primary medium of communication. Telegram and IRC are bridged to M
 | ---- | ------- | ------ | -------- | --- |
 | CalyxOS | Main channel | [#CalyxOS:matrix.org](https://app.element.io/#/room/#CalyxOS:matrix.org) | [CalyxOSpublic](https://t.me/CalyxOSpublic) | [#calyxos](https://web.libera.chat/?channel=#calyxos) |
 | Calyx | Calyx Institute channel | [#calyx:matrix.org](https://app.element.io/#/room/#calyx:matrix.org) | [CalyxInstitute](https://t.me/CalyxInstitute) | [#calyx](https://web.libera.chat/?channel=#calyx) |
+| CalyxOS Testers | For testing CalyxOS builds early and providing feedback | [#calyxos-testers:matrix.org](https://app.element.io/#/room/#calyxos-testers:matrix.org) | [CalyxOSTesters](https://t.me/CalyxOSTesters) | - |
 | CalyxOS Off-topic | For all off-topic conversations | [#calyxos-offtopic:matrix.org](https://app.element.io/#/room/#calyxos-offtopic:matrix.org) | [CalyxOSOfftopic](https://t.me/CalyxOSOffTopic) | [#calyxos-offtopic](https://web.libera.chat/?channel=#calyxos-offtopic) |
 | CalyxOS Feeds | Live feed of code commits / gitlab activity / reddit posts | [#calyxos-feeds:matrix.org](https://app.element.io/#/room/#calyxos-feeds:matrix.org) | [CalyxOSFeeds](https://t.me/CalyxOSFeeds) | [#calyxos-feeds](https://web.libera.chat/?channel=#calyxos-feeds) |
 | CalyxOS Docs | For documentation / translation related discussion | [#calyxos-docs:matrix.org](https://app.element.io/#/room/#calyxos-docs:matrix.org) | [CalyxOSDocs](https://t.me/CalyxOSDocs) | [#calyxos-docs](https://web.libera.chat/?channel=#calyxos-docs) |
