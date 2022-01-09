@@ -82,6 +82,7 @@ wanted to support more and more devices, stay tuned for updates!
 | [Wi-Fi timeout turns Wi-Fi off unexpectedly](https://gitlab.com/CalyxOS/calyxos/-/issues/825) | Set Wi-Fi timeout to 8 hours | [Work in progress](https://review.calyxos.org/c/CalyxOS/platform_packages_modules_Wifi/+/7864) |
 | [Mobile data turned off after update from 11](https://gitlab.com/CalyxOS/calyxos/-/issues/820) | Turn it on from Settings | Investigating |
 | [Pixel 6 Pro Settings -> Connected devices -> Conneection preferences crash](https://gitlab.com/CalyxOS/calyxos/-/issues/827) | None | Investigating |
+| Intent Filter Verification Service crash | Uninstall Google Maps | AOSP bug, will fix |
 | [Secondary user networking toggles crash](https://gitlab.com/CalyxOS/calyxos/-/issues/823) | None | Investigating |
 | [Some theming inconsistences](https://gitlab.com/CalyxOS/calyxos/-/issues/824) | N/A | Investigating |
 | [Google Camera crash (Pixel 4a only?)](https://gitlab.com/CalyxOS/calyxos/-/issues/822) | Re-install latest version from Aurora Store | Investigating |
