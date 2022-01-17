@@ -72,24 +72,4 @@ wanted to support more and more devices, stay tuned for updates!
 
 ## Known issues
 
-* These are the issues we know about and are working on.
-* Temporary workarounds have been posted where possible.
-* The issues will get addressed in upcoming builds.
-
-| Issue | Workaround | Solution |
-| ----- | ---------- | -------- |
-| [Bluetooth timeout not working as expected](https://gitlab.com/CalyxOS/calyxos/-/issues/830) | Turn off Bluetooth timeout | [Fixed, will be in next build](https://review.calyxos.org/q/topic:bluetooth-timeout) |
-| [Wi-Fi timeout turns Wi-Fi off unexpectedly](https://gitlab.com/CalyxOS/calyxos/-/issues/825) | Set Wi-Fi timeout to 8 hours | [Fixed, will be in next build](https://review.calyxos.org/q/topic:wifi-timeout) |
-| [Mobile data turned off after update from 11](https://gitlab.com/CalyxOS/calyxos/-/issues/820) | Turn it on from Settings | Investigating |
-| [Pixel 6 Pro Settings -> Connected devices -> Conneection preferences crash](https://gitlab.com/CalyxOS/calyxos/-/issues/827) | None | Investigating |
-| Pixel 5a Mobile data not working | Manually configure APNs, Settings -> Mobile | [Fixed, will be in next build](https://review.calyxos.org/c/CalyxOS/scripts/+/7906)
-| [Secondary user networking toggles crash](https://gitlab.com/CalyxOS/calyxos/-/issues/823) | None | [Fixed, will be in next build](https://review.calyxos.org/c/CalyxOS/platform_packages_modules_Connectivity/+/7907) |
-| Intent Filter Verification Service crash | Uninstall Google Maps | AOSP bug, will fix |
-| Location indicator shows UnifiedNlp providers frequently | - | Investigating |
-| Pixel 6, 6 Pro: IMS shows up as accessing location frequently | - | AOSP behaviour, investigating |
-| IMS Service Entitlment registers with cloud messaging | - | AOSP change, investigating |
-| [Some theming inconsistences](https://gitlab.com/CalyxOS/calyxos/-/issues/824) | N/A | [Work in progress](https://review.calyxos.org/c/CalyxOS/vendor_calyx/+/7893) |
-| [Google Camera crash (Pixel 4a only?)](https://gitlab.com/CalyxOS/calyxos/-/issues/822) | Re-install latest version from Aurora Store | Investigating |
-| No Material You / Dynamic theming | None, not open source yet | Will be open source in 12L |
-| [Can't change icon shape / accent color / font](https://gitlab.com/CalyxOS/calyxos/-/issues/821) | None, not available in 12 | Unfortunately none |
-| [Settings illustrations not present](https://gitlab.com/CalyxOS/calyxos/-/issues/828) | Not needed | Sadly these aren't open source |
+* See <a href="{{ '/news/2022/01/16/android-12-jan-security-update//' | append: device.codename | relative_url }}">3.1.0 update for the latest</a>
