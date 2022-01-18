@@ -5,7 +5,7 @@ date: 2022-01-16
 
 CalyxOS 3.1.0 - Android 12, January 2022 Security update is now available for Pixel 3 and above.
 
-Pixel 6 and 6 Pro builds will be out tomorrow with device-specific fixes
+CalyxOS 3.1.1 is now available for Pixel 6 and 6 Pro.
 
 Thank you to everyone who tested and reported bugs, we've been able to fix most of them.
 
@@ -37,7 +37,16 @@ We created a new testers channel for those who're interested in helping us test 
 
 ## Pixel 6, 6 Pro (Beta)
 
-* Available tomorrow
+* Mostly bug fixes, issues mentioned below
+* Enable Smooth Display setting
+
+### Steps
+* From a computer with `adb` setup, run:
+  `adb shell setprop sys.update.channel twelve`
+* Then, on the phone, go to Settings -> System -> System update settings
+  and tap on "Check for updates"
+* The update should begin downloading and installing.
+* Kindly report any issues on the new Testers channel mentioned above.
 
 ## Changelog
 * Mostly bug fixes, issues mentioned below
