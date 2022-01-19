@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fc164995_41d64f39",
+        "filename": "pages/_posts/2022-01-19-android-11-pixel-2-mi-a2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-01-19T13:02:54Z",
+      "side": 1,
+      "message": "aware?",
+      "range": {
+        "startLine": 18,
+        "startChar": 9,
+        "endLine": 18,
+        "endChar": 18
+      },
+      "revId": "6a0c65d7e3705e830199b6989dd6d6146ae8fae8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
