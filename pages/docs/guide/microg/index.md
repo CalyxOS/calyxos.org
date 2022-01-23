@@ -49,7 +49,7 @@ In this mode, microG is used to implement some common functionality (such as map
 
 #### 3. microG enabled, with a Google Account
 
-With [[microG]] enabled, you have the option to configure it with a Google account. This will allow some additional apps and services to work, such as Google Fi, but you are no longer semi-anonymous with respect to Google services.
+With [microG](https://microg.org) enabled, you have the option to configure it with a Google account. This will allow some additional apps and services to work, such as Google Fi, but you are no longer semi-anonymous with respect to Google services.
 
 ## microG FAQ
 
