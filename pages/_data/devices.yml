@@ -20,14 +20,14 @@ brands:
   - xiaomi
 raven:
   brand: pixel
-  model: Pixel 6 Pro (Beta)
+  model: Pixel 6 Pro
   manufacturer_support_ends: 2026-10
   calyxos_support_ends: 2026-10
   sim: "dual"
   esim: "yes"
 oriole:
   brand: pixel
-  model: Pixel 6 (Beta)
+  model: Pixel 6
   manufacturer_support_ends: 2026-10
   calyxos_support_ends: 2026-10
   sim: "dual"
