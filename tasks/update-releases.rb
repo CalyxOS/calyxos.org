@@ -69,28 +69,45 @@ module Releases
       info = []
       Dir.chdir(RELEASE_CACHE) do
         get_devices.each do |codename, device|
-          release_filename = codename + "-" + release + "2"
-          old_release_filename = codename + "-old" + release + "2"
+          incremental = true
+          release_filename = codename + "-" + release
+          old_release_filename = codename + "-old" + release
+          if File.exist?(release_filename + "3")
+            release_filename += "3"
+            old_release_filename += "3"
+          elsif File.exist?(release_filename + "2")
+            release_filename += "2"
+            old_release_filename += "2"
+          end
           unless File.exist?(release_filename)
             puts "SKIPPED #{codename}"
             next
           end
-          unless File.exist?(old_release_filename)
-            puts "SKIPPED #{codename}"
-            next
+          if not File.exist?(old_release_filename)
+            incremental = false
           end
           release_file = File.read(release_filename)
-          old_release_file = File.read(old_release_filename)
           build_number, timestamp, build_id = release_file.split(' ')
-          old_build_number, old_timestamp, old_build_id = old_release_file.split(' ')
           date = Time.at(timestamp.to_i).utc.strftime("%F")
-          old_date = Time.at(old_timestamp.to_i).utc.strftime("%F")
           factory_filename = codename + "-factory-#{build_number}.zip"
           factory_sha256 = get_hash_for(factory_filename)
           ota_filename = codename + "-ota_update-#{build_number}.zip"
           ota_sha256 = get_hash_for(ota_filename)
-          incremental_filename = codename + "-incremental-#{old_build_number}-#{build_number}.zip"
-          incremental_sha256 = get_hash_for(incremental_filename)
+          if incremental
+            old_release_file = File.read(old_release_filename)
+            old_build_number, old_timestamp, old_build_id = old_release_file.split(' ')
+            old_date = Time.at(old_timestamp.to_i).utc.strftime("%F")
+            incremental_filename = codename + "-incremental-#{old_build_number}-#{build_number}.zip"
+            incremental_sha256 = get_hash_for(incremental_filename)
+            if incremental_sha256 == nil
+              incremental_filename = nil
+              old_build_number = nil
+            end
+          else
+            old_build_number = nil
+            incremental_filename = nil
+            incremental_sha256 = nil
+          end
           info << {
             "name" => device["model"],
             "brand" => device["brand"],
@@ -99,7 +116,7 @@ module Releases
             "factory_sha256" => factory_sha256,
             "ota_link" => RELEASE_DL_BASE + ota_filename,
             "ota_sha256" => ota_sha256,
-            "incremental_link" => RELEASE_DL_BASE + incremental_filename,
+            "incremental_link" => incremental_filename != nil ? RELEASE_DL_BASE + incremental_filename : nil,
             "incremental_sha256" => incremental_sha256,
             "incremental_old_build" => old_build_number,
             "date" => date
