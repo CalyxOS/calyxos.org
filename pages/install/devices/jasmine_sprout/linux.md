@@ -40,7 +40,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/jasmine_sprout-factory-202112110.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/jasmine_sprout-factory-22213000.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Xiaomi Mi A2 (jasmine_sprout)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -52,14 +52,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/jasmine_sprout-factory-202112110.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/jasmine_sprout-factory-22213000.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `a0d23a7ee90200224d8bb0c5ac78f053a517f0538060a1c771ae92d2c1eced9e`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `dcdeb37e05b4b3451723bce5b263a8996803382d1152e3133bd7fa882fa11d8c`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/jasmine_sprout-factory-202112110.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/jasmine_sprout-factory-22213000.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 
@@ -110,3 +110,4 @@ If you would like to return to the default operating system, please see [[stock]
 ## Security Notes
 
 {% include install/security_notes.html %}
+<!-- Auto generated. DO NOT EDIT -->

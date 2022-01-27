@@ -40,7 +40,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/blueline-factory-202112110.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/blueline-factory-22301000.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 3 (blueline)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -52,14 +52,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/blueline-factory-202112110.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/blueline-factory-22301000.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `91b4e6a74431850e12a7beb6b9ece901a0ba7bcb40184113071fce0ff376d7ff`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `f3e646eba5616a01b4f30de5d2b94a91caacc497af9e5cf72e5dcb971ac93443`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/blueline-factory-202112110.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/blueline-factory-22301000.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 
@@ -110,3 +110,4 @@ If you would like to return to the default operating system, please see [[stock]
 ## Security Notes
 
 {% include install/security_notes.html %}
+<!-- Auto generated. DO NOT EDIT -->

@@ -40,7 +40,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/walleye-factory-202112110.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/walleye-factory-22213000.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 2 (walleye)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -52,14 +52,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/walleye-factory-202112110.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/walleye-factory-22213000.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `93e513978732325b52feb4be33edf318aa13122b4881a9a03fd7ddd3dc84b63b`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `c1a0eaa8e448e26a8005337a5917c057e3481c66fa41aa616afd1585e2aeeb3a`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/walleye-factory-202112110.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/walleye-factory-22213000.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 
@@ -110,3 +110,4 @@ If you would like to return to the default operating system, please see [[stock]
 ## Security Notes
 
 {% include install/security_notes.html %}
+<!-- Auto generated. DO NOT EDIT -->

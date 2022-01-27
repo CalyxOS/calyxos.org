@@ -18,3 +18,5 @@ title: Install on Xiaomi Mi A2
     <a style="margin-top: 0.5rem" class="btn" href="linux">Install from Linux</a>
   </div>
 </div>
+
+<!-- Auto generated. DO NOT EDIT -->
