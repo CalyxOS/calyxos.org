@@ -35,7 +35,7 @@ We created a new testers channel for those who're interested in helping us test 
 * The update should begin downloading and installing.
 * Kindly report any issues on the new Testers channel mentioned above.
 
-## Pixel 6, 6 Pro (Beta)
+## Pixel 6, 6 Pro
 
 * Mostly bug fixes, issues mentioned below
 * Enable Smooth Display setting

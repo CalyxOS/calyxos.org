@@ -35,25 +35,9 @@ We created a new testers channel for those who're interested in helping us test 
 * The update should begin downloading and installing.
 * Kindly report any issues on the new Testers channel mentioned above.
 
-## Pixel 6, 6 Pro (Beta)
+## Pixel 6, 6 Pro
 
-* Follow the below links for an install guide.
-* Kindly report any issues on the new Testers channel mentioned above.
-
-<table class="table table-striped download">
-<tr>
-<th>Device</th>
-<th>Codename</th>
-<th>Beta CalyxOS Release</th>
-</tr>
-{% for device in site.data.downloads["twelve"] %}
-<tr>
-<td><a href="{{ '/install/devices/' | append: device.codename | relative_url }}">{{device.name}}</a></td>
-<td><a href="{{ '/install/devices/' | append: device.codename | relative_url }}">{{device.codename}}</a></td>
-<td><a href="{{ '/install/devices/' | append: device.codename | relative_url }}">{{device.date}}</a></td>
-</tr>
-{% endfor %}
-</table>
+* Builds are now stable and available from the [homepage](https://calyxos.org)
 
 ## More info
 

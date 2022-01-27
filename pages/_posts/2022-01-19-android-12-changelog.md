@@ -9,8 +9,9 @@ We would like to thank everyone for being patient with us about the release.
 
 A big thank you to all the testers who helped us identify issues.
 
-The builds are currently marked beta and available in the beta channel from the Updater app.
-They will be bumped to stable after feedback. Factory image links will be available then as well.
+The builds are now available in the stable channel. It will be just like any other OTA upgrade.
+
+You can freely switch to the stable channel from beta or testing, and going forward you will get stable updates only.
 
 ## Changelog
 * CalyxOS 3 - Android 12
