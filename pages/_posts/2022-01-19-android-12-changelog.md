@@ -1,5 +1,5 @@
 ---
-title: Android 12 changelog, beta released
+title: Android 12 changelog, now stable
 date: 2022-01-19
 ---
 
