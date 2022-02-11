@@ -5,8 +5,6 @@ date: 2022-02-09
 
 CalyxOS 3.2.0 - February 2022 Security update
 
-It is currently in the beta channel, and will be bumped to the stable channel later after additional testing and feedback. Factory images will be available at that time as well.
-
 We've updated included apps, fixed UI bugs, brought back some beloved features from 11, and also added some highly requested features.
 
 ## Changelog:
