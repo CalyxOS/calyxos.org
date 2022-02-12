@@ -5,8 +5,6 @@ date: 2022-02-11
 
 CalyxOS 2.14.0 - Android 11, February 2022 Security update is now available for the Pixel 2, 2 XL and Mi A2.
 
-It is currently in the beta channel, and will be bumped to the stable channel later after additional testing and feedback. Factory images will be available at that time as well.
-
 Sadly, we will no longer be able to provide OS updates for the Pixel 2, and Pixel 2 XL.  The Xiaomi Mi A2 should get Android 12 at a later date, if everything goes well.
 
 ## Details
