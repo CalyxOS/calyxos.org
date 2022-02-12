@@ -135,35 +135,35 @@ stable:
 - name: Pixel 2 XL
   brand: pixel
   codename: taimen
-  factory_link: https://release.calyxinstitute.org/taimen-factory-22213000.zip
-  factory_sha256: f778ea49137698b70ddf992b5e876ea7d903f3dce4c4cb6572978d250c754fff
-  ota_link: https://release.calyxinstitute.org/taimen-ota_update-22213000.zip
-  ota_sha256: 52673e25a745fd55aadefd0ce6462840ce603c38120e33b14f6c35a60a002cad
-  incremental_link: https://release.calyxinstitute.org/taimen-incremental-202112110-22213000.zip
-  incremental_sha256: 8fe22900103a7f0b8b437ba707180f03730058ec2e3223901367de6237b26364
-  incremental_old_build: '202112110'
-  date: '2022-01-19'
+  factory_link: https://release.calyxinstitute.org/taimen-factory-22214000.zip
+  factory_sha256: 43fee461f376c782501452cbc0ae8ed14d09f8288ae4abff0703280f49aae302
+  ota_link: https://release.calyxinstitute.org/taimen-ota_update-22214000.zip
+  ota_sha256: 6a5d2cd92c8bfc8954161e07ef8f4f76340889228f87d76b488a6e5bfc6d2332
+  incremental_link: https://release.calyxinstitute.org/taimen-incremental-22213000-22214000.zip
+  incremental_sha256: 2faeec5cecdff0a4c19aa6b34583b53eb08cfc366ac54ffd86f9abc02bbe78cc
+  incremental_old_build: '22213000'
+  date: '2022-02-10'
 - name: Pixel 2
   brand: pixel
   codename: walleye
-  factory_link: https://release.calyxinstitute.org/walleye-factory-22213000.zip
-  factory_sha256: c1a0eaa8e448e26a8005337a5917c057e3481c66fa41aa616afd1585e2aeeb3a
-  ota_link: https://release.calyxinstitute.org/walleye-ota_update-22213000.zip
-  ota_sha256: d56ede0a46a59a409c0b8b05261990a0ae4e2d7388ea7ba18f517734e5836424
-  incremental_link: https://release.calyxinstitute.org/walleye-incremental-202112110-22213000.zip
-  incremental_sha256: dd7f3af6a78987bfcfaa1a7ed06cc8ed8545eab7f3aab264a46aa890a642c7e6
-  incremental_old_build: '202112110'
-  date: '2022-01-19'
+  factory_link: https://release.calyxinstitute.org/walleye-factory-22214000.zip
+  factory_sha256: ea8ecc694e687d711efa4b571ef846fc7de85e4123883131f9ab9d75ecacc4c0
+  ota_link: https://release.calyxinstitute.org/walleye-ota_update-22214000.zip
+  ota_sha256: 9bbdc96f72a13269ab67b4f80f9c4ffa7ff714d8f742c40825583c6d41b1aa61
+  incremental_link: https://release.calyxinstitute.org/walleye-incremental-22213000-22214000.zip
+  incremental_sha256: e2147a65dae9b7b8a83a1fde9ecb9d475a5f570401f3a6b3a360886d0378550c
+  incremental_old_build: '22213000'
+  date: '2022-02-10'
 - name: Xiaomi Mi A2
   brand: xiaomi
   codename: jasmine_sprout
-  factory_link: https://release.calyxinstitute.org/jasmine_sprout-factory-22213000.zip
-  factory_sha256: dcdeb37e05b4b3451723bce5b263a8996803382d1152e3133bd7fa882fa11d8c
-  ota_link: https://release.calyxinstitute.org/jasmine_sprout-ota_update-22213000.zip
-  ota_sha256: e3d214ab15b10f5396a2a593b270aa0d56baa17f64466233db50900e31c08033
-  incremental_link: https://release.calyxinstitute.org/jasmine_sprout-incremental-202112110-22213000.zip
-  incremental_sha256: c4dc2238c202d6db84b98e5163ca2cd09d6c8b4ff788b3c7734c18af95f44014
-  incremental_old_build: '202112110'
-  date: '2022-01-19'
+  factory_link: https://release.calyxinstitute.org/jasmine_sprout-factory-22214000.zip
+  factory_sha256: 71fc0f94ece231a1b2a0ca604cdd4a4cfab54e69f45d5f2d8ae149b1ea9d7968
+  ota_link: https://release.calyxinstitute.org/jasmine_sprout-ota_update-22214000.zip
+  ota_sha256: a1465835d567392f071015ae3e6785fbf7220c254a887e9180bcad7505076d01
+  incremental_link: https://release.calyxinstitute.org/jasmine_sprout-incremental-22213000-22214000.zip
+  incremental_sha256: f1a078b82bb36254a7a8cda2f92efcdf7551b46c84033509ebe2a717efc977ab
+  incremental_old_build: '22213000'
+  date: '2022-02-10'
 releases:
 - stable
