@@ -3,25 +3,25 @@ stable:
 - name: Pixel 6 Pro
   brand: pixel
   codename: raven
-  factory_link: https://release.calyxinstitute.org/raven-factory-22302000.zip
-  factory_sha256: 60406e38194da25bc0706cc4b6f6e5e250de4cafb031336a5039e25a5159ab8a
-  ota_link: https://release.calyxinstitute.org/raven-ota_update-22302000.zip
-  ota_sha256: 9ee219936476bcb7b63bf71e694562c40ef982e81eac58fe367acf669bfe20e8
-  incremental_link: https://release.calyxinstitute.org/raven-incremental-22301010-22302000.zip
-  incremental_sha256: 168a5e32da55907ad4700fd98826350ceba3a3402b53484454f89cbb37d94a9c
-  incremental_old_build: '22301010'
-  date: '2022-02-09'
+  factory_link: https://release.calyxinstitute.org/raven-factory-22302010.zip
+  factory_sha256: a6f320a3ffa92f0d3406eeb6a053fabac9ca99251af089b3232ab9b111bae2e7
+  ota_link: https://release.calyxinstitute.org/raven-ota_update-22302010.zip
+  ota_sha256: 7e71291aca0d3d07e69b801ea51e223e3cd72841316fe72a6d00e28ec154afca
+  incremental_link: https://release.calyxinstitute.org/raven-incremental-22302000-22302010.zip
+  incremental_sha256: bdff429ca272da151fe5c4a4d582286e7a95f78a0c1cacef00cac8b309f3901d
+  incremental_old_build: '22302000'
+  date: '2022-02-20'
 - name: Pixel 6
   brand: pixel
   codename: oriole
-  factory_link: https://release.calyxinstitute.org/oriole-factory-22302000.zip
-  factory_sha256: d62eda2a01017350e949534ac4546e2409fe931420b87c02067be4402233f6a5
-  ota_link: https://release.calyxinstitute.org/oriole-ota_update-22302000.zip
-  ota_sha256: 2bbeed6ca992b9a099eb1b5ae4816f9d7cc69bc29404be2ddf7f9944d7e0d966
-  incremental_link: https://release.calyxinstitute.org/oriole-incremental-22301010-22302000.zip
-  incremental_sha256: 424e7fb99905dafb6afe8ec019ea344d6e3e4701a4bc456abd945ce08d4b0fbf
-  incremental_old_build: '22301010'
-  date: '2022-02-09'
+  factory_link: https://release.calyxinstitute.org/oriole-factory-22302010.zip
+  factory_sha256: 1100cbc4ab4aee5922425bcd31ac981d5a209a28db51a7a54097fbd5e24daf7a
+  ota_link: https://release.calyxinstitute.org/oriole-ota_update-22302010.zip
+  ota_sha256: aab2c40618f387bb7d4f9c0c8d5c2983b80b0c2f528b42e6b9be3ddcf5105e90
+  incremental_link: https://release.calyxinstitute.org/oriole-incremental-22302000-22302010.zip
+  incremental_sha256: 3305473830085c43e184f201b2ead52421125bd55fdba69d15aea7b90811e9e6
+  incremental_old_build: '22302000'
+  date: '2022-02-20'
 - name: Pixel 5a (5G)
   brand: pixel
   codename: barbet
