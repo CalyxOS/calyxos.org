@@ -76,8 +76,8 @@ These apps are required for basic functionality and thus always present on the d
 
 ### Settings
 * Network & Internet
-  * Wi-Fi
-    * Wi-Fi preferences
+  * Internet
+    * Network preferences
       * Turn off Wi-Fi automatically (Wi-Fi timeout)
   * Hotspot & Tethering
     * Allow clients to use VPNs
@@ -89,10 +89,25 @@ These apps are required for basic functionality and thus always present on the d
 * Connected devices
   * Bluetooth timeout
 * Display
-  * Dark theme
-    * Pure black (OLED) mode
-* Privacy
-  * Privacy dashboard
+  * Font
+    * Device default (Roboto)
+    * Rubik
+    * Noto Serif / Source Sans Pro
+    * Lato
+  * Icon shape
+    * Device default (Circle)
+    * Pebble
+    * Square
+    * Vessel
+    * Tapered Rect
+    * Teardrop
+    * Squircle
+    * Rounded Recntangle
+  * LiveDisplay
+    * Reading mode (Grayscale)
+    * Color calibration
+    * Picture adjustment
+  * High touch sensitivity
 * Security
   * Show Panic option
   * Panic Settings
@@ -101,14 +116,20 @@ These apps are required for basic functionality and thus always present on the d
   * Screen lock Settings
     * Scramble layout
     * Quick Settings (Allow toggling quick settings on secure lockscreen)
+* Privacy
+  * Privacy dashboard
 * System
-  * Languages and input
-    *  Show arrow keys while typing
+  * Buttons
+    * Show arrow keys while typing
+    * Invert layout (navigation bar)
   * Status Bar
     * Network traffic monitor
-  * System icons
+    * System icons (status bar icons)
   * Gestures
     * Active Edge
+    * System navigation
+      * Gesture navigation
+        * Navigation hint (hide bottom bar)
   * [Backup (SeedVault)](#backup-seedvault)
   * Multiple users
     * Work profile
