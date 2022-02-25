@@ -9,58 +9,33 @@ redirect_from:
 
 CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboot) (including bootloader re-locking) to keep the Android security model intact.
 
-### Supported devices, still receiving updates from the manufacturer
-* Pixel 5a (5G), 5, 4a (5G)
-* Pixel 4a
-* Pixel 4, 4 XL
-* Pixel 3a, 3a XL
-* Pixel 3, 3 XL
-* Xiaomi Mi A2
-   <br>
-   Note: CalyxOS is on Android 11 (R), while the Xiaomi updates are Android 10 (Q).
+### Support length
+<table class="table table-striped download">
+<tr><th> Device(s) </th><th> Manufacturer support date </th><th> CalyxOS support date </th></tr>
+<tr><td> Pixel 6 Pro </td><td> October 2026 </td><td> October 2026* </td></tr>
+<tr><td> Pixel 6 </td><td> October 2026 </td><td> October 2026* </td></tr>
+<tr><td> Pixel 5a (5G) </td><td> August 2024 </td><td> August 2024* </td></tr>
+<tr><td> Pixel 4a (5G) </td><td> October 2023 </td><td> August 2024* </td></tr>
+<tr><td> Pixel 5 </td><td> November 2023 </td><td> August 2024* </td></tr>
+<tr><td> Pixel 4a </td><td> August 2023 </td><td> August 2023* </td></tr>
+<tr><td> Pixels 4, 4 XL </td><td> October 2022 </td><td> August 2023* </td></tr>
+<tr><td> Pixels 3a, 3a XL </td><td> May 2022 </td><td> August 2022* </td></tr>
+<tr><td> Pixels 3, 3 XL </td><td> October 2021 </td><td> August 2022* </td></tr>
+<tr><td> Pixels 2, 2 XL </td><td> October 2020 </td><td> February 2022 </td></tr>
+<tr><td> Xiaomi Mi A2 </td><td> August 2021 </td><td> February 2022* </td></tr>
+</table>
 
-### Supported devices, no longer receiving updates from the manufacturer
-* Pixel 2, 2 XL (last update was December 2020)
+* \*Note that these are the current estimated dates. We try to support devices as long as possible, but it's hard to determine feasibility years in advance, so we'll keep updating these the closer we get to the dates.
+* [Google Pixel support dates](https://support.google.com/nexus/answer/4457705#zippy=%2Cpixel-phones)
 
 ### Update timeframe
 * We generally intend to get monthly security updates out as soon as possible after their release. The process takes some time since we don't get early access but generally the goal is to get them out to the stable channel in the same week as AOSP release.
-* Major version updates (such as the upcoming Android 12 (S) release) take longer because we have to port all of our changes to the new version, which can be a lot of work.
-
-<table class="table table-striped download">
-<tr><th> Device(s) </th><th> Manufacturer support date </th><th> CalyxOS support date </th></tr>
-<tr><td> Pixel 5a (5G) </td><td> August 2024 </td><td> August 2024 </td></tr>
-<tr><td> Pixel 4a (5G) </td><td> October 2023 </td><td> August 2024 </td></tr>
-<tr><td> Pixel 5 </td><td> November 2023 </td><td> August 2024 </td></tr>
-<tr><td> Pixel 4a </td><td> August 2023 </td><td> August 2023 </td></tr>
-<tr><td> Pixels 4, 4 XL </td><td> October 2022 </td><td> August 2023 </td></tr>
-<tr><td> Pixels 3a, 3a XL </td><td> May 2022 </td><td> August 2022 </td></tr>
-<tr><td> Pixels 3, 3 XL </td><td> October 2021 </td><td> August 2022 </td></tr>
-<tr><td> Pixels 2, 2 XL </td><td> October 2020 </td><td> December 2021 </td></tr>
-<tr><td> Xiaomi Mi A2 </td><td> August 2021? </td><td> December 2021 </td></tr>
-</table>
-
-More information:
-
-* [Google Pixel support dates](https://support.google.com/nexus/answer/4457705#zippy=%2Cpixel-phones)
-
-### SIM Support
-
-| Device | Status |
-| ------ | ------ |
-| Pixel 5a (5G) | any eSIM + physical SIM, dual SIM |
-| Pixel 4a (5G) | any eSIM + physical SIM, dual SIM |
-| Pixel 5 | any eSIM + physical SIM, dual SIM |
-| Pixel 4a | any eSIM + physical SIM, dual SIM |
-| Pixel 4, 4 XL | any eSIM + physical SIM, dual SIM |
-| Pixel 3a, 3a XL | any eSIM + physical SIM, dual SIM |
-| Pixel 3, 3 XL | any eSIM, single SIM |
-| Pixel 2, 2 XL | Fi-only eSIM, single SIM |
-| Xiaomi Mi A2 | 2 physical SIMs, dual SIM |
+* Major version updates (such as the next Android 13 (T) release) take longer because we have to port all of our changes to the new version, which can be a lot of work.
 
 ### Requirements for supporting a new device
-1. Android 11.0:
+1. Android 12.0, available now, or eventually:
    <br>
-   CalyxOS targets the latest Android version, currently 11.0 (R). It takes a lot of work to port a newer Android version to a device, and so devices running the latest Android version are preferred.
+   CalyxOS targets the latest Android version, currently 12.0 (S). It takes a lot of work to port a newer Android version to a device, and so devices running the latest Android version are preferred.
 2. Ability to unlock the bootloader:
    <br>
    You can't install any custom OS if you can't unlock the bootloader in the first place. Some devices don't support it all, whereas on others some variants may not support unlocking the bootloader. Note that this is very different from carrier locking, which simply means that you can only use a particular SIM card with your device.
