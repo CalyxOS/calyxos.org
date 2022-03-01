@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ad15dd0_0cb12f0e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-01T15:37:48Z",
+      "side": 1,
+      "message": "Fine for now, ship when the SetupWizard commit does.\n\nWill add more here later.",
+      "revId": "d561301bf9562aa335e48106e0baf6c013f17fcf",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
