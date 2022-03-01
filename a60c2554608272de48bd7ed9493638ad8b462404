@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dad5c642_58f80cee",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-01T13:53:00Z",
+      "side": 1,
+      "message": "It\u0027ll work from calyxos.org/lock when live, gets redirected to the below.\n\nhttps://calyxos.org/docs/guide/security/bootloader-lock/ will be the full URL",
+      "revId": "a60c2554608272de48bd7ed9493638ad8b462404",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
