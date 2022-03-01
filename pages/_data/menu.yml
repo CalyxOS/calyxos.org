@@ -13,6 +13,7 @@
     - updates
     - security:
       - security-faq
+      - bootloader-lock
       - identifiers
       - location
       - network-activity
