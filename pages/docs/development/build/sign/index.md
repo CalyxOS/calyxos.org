@@ -36,8 +36,8 @@ Run:
 
 If you're building for the Mi A2 / `jasmine_sprout`, you should copy `keys/jasmine_sprout/verity.x509.pem` to `kernel/xiaomi/jasmine_sprout/certs/` in the CalyxOS source code and then rebuild.
 
-Optionally, run:
-* `./vendor/calyx/scripts/mkcommonkeys.sh` to create some common keys used to sign apps. These will not be used by default, they are used to sign certain apps put into the OS such as Trichrome (Chromium) and F-Droid.
+Next, run:
+* `./vendor/calyx/scripts/mkcommonkeys.sh` to create some common keys used to sign apps. These are used to sign certain apps put into the OS such as Trichrome (Chromium) and F-Droid.
 
 ## Signing
 
