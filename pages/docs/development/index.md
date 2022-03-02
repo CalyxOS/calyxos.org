@@ -37,10 +37,10 @@ To submit a patch, you can follow the instructions at [[gerrit]]
 
 Steps:
 1. Initialize and sync the source code.
-   * `repo init -u https://gitlab.com/CalyxOS/platform_manifest -b android11-qpr1`
+   * `repo init -u https://gitlab.com/CalyxOS/platform_manifest -b android12`
    * `repo sync`
 2. Obtain proprietary files for your device
-   * `./vendor/calyx/scripts/setup-apv.sh sunfish` (`sunfish` for Pixel 4a)
+   * `./calyx/scripts/pixel/device.sh sunfish` (`sunfish` for Pixel 4a)
 3. Build
    * `source build/envsetup.sh`
    * `lunch calyx_sunfish-user` (`sunfish` for Pixel 4a, `user` is used for release builds, you can use `userdebug` for development builds.)
