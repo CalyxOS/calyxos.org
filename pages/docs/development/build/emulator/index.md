@@ -13,7 +13,7 @@ Assuming that you have setup a build envrionment or already built CalyxOS once a
 For the emulator, the steps are:
 
 ```shell
-cd ~/calyxos/android11-qpr1
+cd ~/calyxos/android12
 source build/envsetup.sh
 lunch calyx_sdk_phone_x86_64-userdebug # x86 for the 32-bit image.
 m sdk sdk_repo
