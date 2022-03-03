@@ -26,7 +26,7 @@ Features of microG:
 
 * Reduces battery, memory, and CPU usage.
 * Allows you to opt-in to specific Google Services if you want.
-* Location: typically, an Android device will using WiFi and cell-towers data from Google to help determine precise location. microG does this without using Google, and without reporting your location to Google (CalyxOS is configured to use [[location information from Mozilla -> location ]]).
+* Location: typically, an Android device will use WiFi and cell-towers data from Google to help determine precise location. microG does this without using Google, and without reporting your location to Google (CalyxOS is configured to use [[location information from Mozilla -> location ]]).
 * Notification: most chat apps depend on Play Services to be alerted when a new message should be delivered to the user. microG allows your device to use this service from Google without the full Play Services installation.
 
 You can check the microG wiki to see the current status of which [[ parts of Play Services have been implemented in microG => https://github.com/microg/android_packages_apps_GmsCore/wiki/Implementation-Status ]].
@@ -75,6 +75,6 @@ What is stock Android like in comparison? Everything is tracked. In one study, [
 
 The short answer: No.
 
-The long answer: microG does indeed require something called 'signature spoofing'. This is the ability of the ability for one program to impersonate the code signature of another. This is needed by microG in order to impersonate Google Play Services (because most apps embed the part of Play Services in the app itself). The standard microG patch for Android to support signature spoofing simply allows it in a free-for-all style. We have instead severely controlled the scope so that it's only allowed for one signature, for one program, microG.
+The long answer: 'Signature spoofing' allows one program to impersonate the code signature of another program, and it's used by microG to mimic Google Play Services to enable Play Services functionality embedded in most apps. While the standard microG patch for Android supports signature spoofing in a loose, free-for-all style, CalyxOS implements it in a very restrictive manner.
 
 For more technical information, see [[microg-details]].
