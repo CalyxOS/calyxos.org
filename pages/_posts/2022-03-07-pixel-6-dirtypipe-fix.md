@@ -1,0 +1,48 @@
+---
+title: Pixel 6 Dirty Pipe Vulnerability fix
+date: 2022-03-07
+---
+
+CalyxOS 3.2.2 - Pixel 6, and 6 Pro
+
+### The Dirty Pipe Vulnerability
+
+A vulnerability was found and patched in the Linux kernel.
+
+This build includes the fix for the Dirty Pipe vulnerability.
+
+There are no other changes.
+
+More details: <https://dirtypipe.cm4all.com/>
+
+### Affected devices
+
+This vulnerability only affects Linux kernel version 5.8 and higher.
+
+Pixel 6 and 6 Pro use Linux kernel 5.10, hence they were affected and updated.
+
+All other older Pixels use an older Linux kernel version, hence they are not affected by this vulnerability
+
+### Timeline
+
+All times in IST (Indian Standard Time, GMT +5:30), 7 March 2022.
+
+| ----- | ---- |
+| Time  | Task |
+| 18:21 | Vulnerability link posted in developer chat |
+| 18:29 | Figured out Pixel 6 was vulnerable, decided to release an update |
+| 18:56 | Quick kernel build test done, boots |
+| 19:00 | Kernel tagged and pushed |
+| 20:02 | Production kernel built, tested and merged |
+| 20:14 | Fired off production OS build after local testing |
+| 21:00 | Dinner while it builds |
+|  | Builds ready and signed, time to test |
+|  | Test successful, build deployed |
+
+### Process
+
+We push the code to [[gerrit]]. In this case, not many changes, <https://review.calyxos.org/q/topic:dirtypipe>
+
+The release process is tracked on [GitLab](https://gitlab.com/CalyxOS/calyxos/-/issues/918) - we use checklists to make sure no step is missed.
+
+Also, no matter what, every single build is tested once before release to ensure a stable experience.
