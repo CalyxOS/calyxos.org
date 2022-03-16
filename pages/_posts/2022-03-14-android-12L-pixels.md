@@ -3,11 +3,9 @@ title: Android 12L for Pixels
 date: 2022-03-14
 ---
 
-CalyxOS 3.3.0 - Android 12L
+CalyxOS 3.3.0 - Android 12L is now available for all supported Pixels, i.e. Pixel 3 - Pixel 6
 
-The update has been pulled due to issues installing it on some phones - we're investigating.
-
-If you already had it installed then it should continue working fine.
+It is currently in the beta channel, and will be bumped to the stable channel later after additional testing and feedback. Factory images will be available at that time as well.
 
 Along with all the improvements Google did for 12L (open sourcing the [Monet theme engine](https://www.xda-developers.com/material-you-monet-theme-engine/), finally), this update also contains some features we've been working on in the past few months, as well as bug fixes for report issues.
 
