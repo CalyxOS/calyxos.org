@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c1386d3f_249b82af",
+        "filename": "pages/_includes/install/windows_notes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2022-03-17T12:17:47Z",
+      "side": 1,
+      "message": "In Windows 11, this is under \"Show More Options\". Do we want to support more than the latest versions of each host OS we currently support?",
+      "range": {
+        "startLine": 12,
+        "startChar": 52,
+        "endLine": 12,
+        "endChar": 63
+      },
+      "revId": "31528b0982c72ee11655386aa12e343ade0faf8f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
