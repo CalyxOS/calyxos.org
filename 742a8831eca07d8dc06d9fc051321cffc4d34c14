@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff9d54c4_c1e383c9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-17T12:21:59Z",
+      "side": 1,
+      "message": "Copied from back-to-stock which got dropped by 10168: Re-work back-to-stock | https://review.calyxos.org/c/CalyxOS/calyxos.org/+/10168\n\nFixes build",
+      "revId": "742a8831eca07d8dc06d9fc051321cffc4d34c14",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
