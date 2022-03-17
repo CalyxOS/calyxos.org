@@ -17,9 +17,9 @@ CalyxOS uses Google's Android Linux kernel with some additional modifications fo
 ### Download the source code
 
 ```shell
-mkdir ~/calyxos/kernel.android12
-cd ~/calyxos/kernel.android12
-repo init -u https://gitlab.com/CalyxOS/kernel_manifest -b android12
+mkdir ~/calyxos/kernel.android12L
+cd ~/calyxos/kernel.android12L
+repo init -u https://gitlab.com/CalyxOS/kernel_manifest -b android12L
 repo sync -j8 # You may use a higher number here if you have a fast computer and fast internet
 ```
 
@@ -35,5 +35,5 @@ This will build the kernel, and it also copies it to the corect directory direct
 Copy that to the OS source code for it to get included in the builds
 
 ```shell
-cp -a ~/calyxos/kernel.android12/device/google/sunfish-kernel ~/calyxos/android12/device/google/
+cp -a ~/calyxos/kernel.android12L/device/google/sunfish-kernel ~/calyxos/android12L/device/google/
 ```
