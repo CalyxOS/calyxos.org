@@ -22,6 +22,30 @@
       },
       "revId": "31528b0982c72ee11655386aa12e343ade0faf8f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "32ea7b52_60429f00",
+        "filename": "pages/_includes/install/windows_notes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-17T12:27:08Z",
+      "side": 1,
+      "message": "Yes.\n\nMaybe we can add \"Install might be under Show More Options\"",
+      "parentUuid": "c1386d3f_249b82af",
+      "range": {
+        "startLine": 12,
+        "startChar": 52,
+        "endLine": 12,
+        "endChar": 63
+      },
+      "revId": "31528b0982c72ee11655386aa12e343ade0faf8f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
