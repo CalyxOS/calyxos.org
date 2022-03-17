@@ -44,11 +44,6 @@ Update the app list:
 
     rake update-app-list
 
-Update stock OS links:
-
-    rake back-to-stock
-
-
 ### Alternatie debian package install
 
 Typically, ruby is distributed with a Gemfile, which uses the
