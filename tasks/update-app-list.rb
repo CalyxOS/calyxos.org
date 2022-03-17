@@ -1,3 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'fileutils'
+require 'yaml'
+require 'json'
+
 module Apps
 
   APPS_URL  = "https://gitlab.com/CalyxOS/platform_prebuilts_calyx_fdroid/-/raw/android11-qpr1/repo/index-v1.json"
