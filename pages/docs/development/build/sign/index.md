@@ -11,7 +11,7 @@ CalyxOS is built on a dedicated server and then signed separately. It can be sig
 
 * You need to have a [[build environment => build]] setup first, and a build of CalyxOS.
 * Choose 'user' when running `lunch`.
-* For signing, you want to build a 'target-files-package' using `m target-files-package`
+* For signing, you want to build a 'target-files-package' using `m target-files-package`.
 * You'll also want to build the tools needed for signing and key creation, `m otatools-package otatools-keys-package`
 
 Copy:
@@ -31,13 +31,27 @@ If you're signing CalyxOS for the first time, you will need to create the necess
 
 You should unzip the 'otatools-keys.zip' from the above step, preferably on an offline machine.
 
+Create a folder named keys in your folder used for signing (i.E. with `mkdir keys`)
+
 Run:
 * `./vendor/calyx/scripts/mkkeys.sh` to generate the keys needed for all devices. Do not set a password as the signing scripts do not support that currently.
+
+This requires two paramters:
+* The folder to store keys into, this should be keys/DEVICECODENAME.
+* A certificate subject, this has the form `/C=countryName/ST=stateOrProvinceName/CN=common name/emailAddress=youremailaddress`
+
+So the entire command looks like this (replace values with those fitting for you):
+`./vendor/calyx/scripts/mkkeys.sh keys/sunfish /C=US/ST=California/O=Android/OU=Android/CN=Android/emailAddress=android@android.com`
 
 If you're building for the Mi A2 / `jasmine_sprout`, you should copy `keys/jasmine_sprout/verity.x509.pem` to `kernel/xiaomi/jasmine_sprout/certs/` in the CalyxOS source code and then rebuild.
 
 Next, run:
 * `./vendor/calyx/scripts/mkcommonkeys.sh` to create some common keys used to sign apps. These are used to sign certain apps put into the OS such as Trichrome (Chromium) and F-Droid.
+
+This requires the same paramters as above, but the directory should be keys/common. i.E.:
+`./vendor/calyx/scripts/mkcommonkeys.sh keys/common /C=US/ST=California/O=Android/OU=Android/CN=Android/emailAddress=android@android.com`
+
+Enter a password in the first password prompt and leave all subsequent prompts blank.
 
 ## Signing
 
