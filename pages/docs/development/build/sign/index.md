@@ -51,7 +51,7 @@ This will sign the build, and create ota update zips and factory images.
 ```shell
 export BUILD_NUMBER=eng.$USERNAME.date # Get this from the filename
 unzip otatools.zip
-./vendor/calyx/scripts/release.sh sunfish calyx_sufnish-target_files-${BUILD_NUMBER}.zip # Replace sunfish with your device
+./vendor/calyx/scripts/release.sh sunfish calyx_sunfish-target_files-${BUILD_NUMBER}.zip # Replace sunfish with your device
 ```
 
 #### Generate incremental OTAs
