@@ -34,6 +34,24 @@
       "parentUuid": "6f525587_765442be",
       "revId": "0b9cd60df8dd26dfea570544319bc94ef50848c4",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "238e72a5_c488c436",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-21T17:10:50Z",
+      "side": 1,
+      "message": "Technically accurate sure, but it could be re-worded and the fact that we now rely on google\u0027s restricted networking mode should be mentioned as well.",
+      "parentUuid": "15fb3523_8a564765",
+      "revId": "0b9cd60df8dd26dfea570544319bc94ef50848c4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
