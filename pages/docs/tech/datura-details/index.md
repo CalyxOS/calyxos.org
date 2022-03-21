@@ -43,6 +43,6 @@ This setting adds an app to the penalty box iptables chain. On AOSP, this chain 
 * Code: <https://review.calyxos.org/q/topic:global-no-cleartext>
 * Code: <https://review.calyxos.org/q/topic:global-no-cleartext-allowlist>
 
-The global cleartext restriction setting adds the cleartext detection chain to the strict mode OUTPUT chain and adds either the log or the reject penalty chain to the cleartext caught chain (which is part of the detection chain).
-Additionally, a DNS whitelist chain is created (and inserted in the caught chain before the penalty chain) to allow udp traffic to the DNS port of a DNS address in order to establish a private DNS connection. Once established, the rule is removed.
-In AOSP, each app can make and remove its own strict mode cleartext restriction chain. In CalyxOS, instead of the chain being removed an ACCEPT is applied. These chains are inserted before the global rule thereby taking priority over it.
+Normally, each app can make and remove its own strict mode cleartext restriction chain. The global cleartext restriction setting disallows this and appends a cleartext restriction chain that applies to all UIDs. Since it is appended (lower priority), apps can be allowed cleartext traffic in a manual override.
+Cleartext DNS traffic is briefly allowed for the root user in order to establish a private DNS connection.
+
