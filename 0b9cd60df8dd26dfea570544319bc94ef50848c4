@@ -16,6 +16,24 @@
       "message": "The other parts could use an update / rewrite as well.",
       "revId": "0b9cd60df8dd26dfea570544319bc94ef50848c4",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "15fb3523_8a564765",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2022-03-21T17:09:43Z",
+      "side": 1,
+      "message": "The descriptions are still accurate. Only thing that\u0027s no longer really applicable is the sections to do with Linux kernels that are no longer supported. Names need to be updated",
+      "parentUuid": "6f525587_765442be",
+      "revId": "0b9cd60df8dd26dfea570544319bc94ef50848c4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
