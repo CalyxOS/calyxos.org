@@ -5,8 +5,6 @@ date: 2022-03-23
 
 CalyxOS 3.3.1 - Android 12L is now avilable for Pixel 6
 
-It is currently in the beta channel, and will be bumped to the stable channel later after additional testing and feedback. Factory images will be available at that time as well.
-
 ## Changelog
 * CalyxOS 3.3.1 - Android 12L
 * March 2022 Security update (2022-03-05)
