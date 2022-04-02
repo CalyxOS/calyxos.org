@@ -78,7 +78,7 @@ Stable builds will be available at a later date, stay tuned!
 * Sometimes the firewall indicator icon in the status bar is seen even when not intended.
 
 ### Fairphone 4 "FP4"
-* Bluetooth audio broken with some headets (SBC, AAC codec)
+* Bluetooth audio broken with some headsets (SBC, AAC codec)
 
 ### OnePlus 8T "kebab"
 * No known issues
