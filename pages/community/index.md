@@ -4,7 +4,7 @@ description: 🧑🏿‍🤝‍🧑🏻 Get support, give support, join the conv
 toc: true
 ---
 
-Welcome to the CalyxOS community. Please see our [[code-of-conduct]] and dive right in.
+Welcome to the CalyxOS community. Please see our [[code-of-conduct]], [[pledge]] and dive right in.
 
 ## Chat
 
