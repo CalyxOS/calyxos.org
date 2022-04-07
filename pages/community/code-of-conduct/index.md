@@ -22,6 +22,7 @@ The following behaviors are expected and requested of all community members:
 * Attempt collaboration and dialog before engaging in conflict.
 * Refrain from demeaning, discriminatory, or harassing behavior and speech.
 * Respect the privacy of your fellow community members.
+
 The following behaviors are unacceptable within our community:
 * Violence, sexual assault, threats of violence, or violent language directed against another person, especially violence against a person or group based on a protected characteristic. (Display of weapons may constitute intimidation or a threat of violence.)
 * Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language.
