@@ -15,8 +15,8 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 <tr><td> Pixel 6 Pro </td><td> October 2026 </td><td> October 2026* </td></tr>
 <tr><td> Pixel 6 </td><td> October 2026 </td><td> October 2026* </td></tr>
 <tr><td> Pixel 5a (5G) </td><td> August 2024 </td><td> August 2024* </td></tr>
-<tr><td> Pixel 4a (5G) </td><td> October 2023 </td><td> August 2024* </td></tr>
-<tr><td> Pixel 5 </td><td> November 2023 </td><td> August 2024* </td></tr>
+<tr><td> Pixel 4a (5G) </td><td> November 2023 </td><td> August 2024* </td></tr>
+<tr><td> Pixel 5 </td><td> October 2023 </td><td> August 2024* </td></tr>
 <tr><td> Pixel 4a </td><td> August 2023 </td><td> August 2023* </td></tr>
 <tr><td> Pixels 4, 4 XL </td><td> October 2022 </td><td> August 2023* </td></tr>
 <tr><td> Pixels 3a, 3a XL </td><td> May 2022 </td><td> August 2022* </td></tr>
