@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f90087a_70b96550",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-04-27T08:50:13Z",
+      "side": 1,
+      "message": "Thanks!\n\nI changed the order of the devices again, we intentionally keep the 4a and 4a (5G) separate to avoid confusion.\n\nGoogle keeps them together, doesn\u0027t help at all.",
+      "revId": "179b495979a8672f31db3f819d52936c50b400cf",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
