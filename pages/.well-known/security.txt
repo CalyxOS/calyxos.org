@@ -1,0 +1,7 @@
+# Our security address
+Contact: mailto:security@calyxos.org
+
+# Our OpenPGP key
+Encryption: https://calyxos.org/pgp-key.txt
+
+Expires: 2022-12-31T23:59:59z

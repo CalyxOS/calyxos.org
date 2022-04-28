@@ -42,6 +42,8 @@ defaults:
     values:
       layout: "sidenav"
 
+include: [".well-known"]
+
 exclude:
   - assets/images/original
   - vendor
