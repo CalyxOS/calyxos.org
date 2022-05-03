@@ -23,4 +23,6 @@ Missing your language?
 
 Help us by translating CalyxOS on [Weblate](https://hosted.weblate.org/projects/calyxos)
 
+We also use translations from LineageOS, for contributing to them check [LineageOS wiki, how to translate](https://wiki.lineageos.org/how-to/translate)
+
 <br />
