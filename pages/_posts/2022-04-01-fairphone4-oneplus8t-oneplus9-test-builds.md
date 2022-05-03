@@ -23,7 +23,7 @@ Stable builds will be available at a later date, stay tuned!
 
 | Name | Link | SHA256 checksum | [Signature](/install/verify) |
 | ---- | ---- | --------------- | ---------------- |
-| Fairphone 4 "FP4" | [Factory image](https://release.calyxinstitute.org/FP4-factory-22303020.zip) | 50200f4a8464c2903e8850cd993a9ffa3e39e64063c5d785dbf031ed5e970386 | [minisig](https://release.calyxinstitute.org/FP4-factory-22303020.zip.minisig) |
+| Fairphone 4 "FP4" | | Build pulled, new release will be available shortly | |
 | OnePlus 8T "kebab" | [Factory image](https://release.calyxinstitute.org/kebab-factory-22303020.zip) | f408550c0877d688888e533c6dc217fd3a831fc1197320b6316b91261cba3452 | [minisig](https://release.calyxinstitute.org/kebab-factory-22303020.zip.minisig) |
 | OnePlus 9 "lemonade" | [Factory image](https://release.calyxinstitute.org/lemonade-factory-22303020.zip) | ee2125aca85178ae5119bb8e507abd3a383f7ef166cbfe135747c8391563384d | [minisig](https://release.calyxinstitute.org/lemonade-factory-22303020.zip.minisig) |
 
