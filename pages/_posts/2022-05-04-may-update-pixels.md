@@ -39,3 +39,7 @@ Newer Fairphone and OnePlus builds will be available soon, with the security upd
 * Drop YubicoAuthenticator - hasn't been updated in a while
 * Update all included apps.
 * Update translations for all apps, and the OS.
+
+## Known issues
+* "Phone Services" shows as using location. Working on it.
+* If you had hidden Gallery before this update, you cannot unhide. Workaround, run `adb shell pm install-existing com.android.gallery3d` from a computer.
