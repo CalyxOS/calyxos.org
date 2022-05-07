@@ -5,8 +5,6 @@ date: 2022-05-07
 
 CalyxOS 3.5.1 - Android 12L is now available for all supported devices, i.e. Pixel 3 - Pixel 6, and Fairphone 4, OnePlus 8T, 9 and 9 Pro
 
-It is currently in the beta channel, and will be bumped to the stable channel later after additional testing and feedback. Factory images will be available at that time as well.
-
 Going forward, we'll be testing the releases even more and make sure things like this get caught early, especially before builds hit stable.
 
 ## Changelog
