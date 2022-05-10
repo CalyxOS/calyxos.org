@@ -132,38 +132,5 @@ stable:
   incremental_sha256: 302a1da71c5e654900f02a5fbd643181670e4ad1472877c92e88d238bd7d3061
   incremental_old_build: '22305000'
   date: '2022-05-06'
-- name: Pixel 2 XL
-  brand: pixel
-  codename: taimen
-  factory_link: https://release.calyxinstitute.org/taimen-factory-22214000.zip
-  factory_sha256: 43fee461f376c782501452cbc0ae8ed14d09f8288ae4abff0703280f49aae302
-  ota_link: https://release.calyxinstitute.org/taimen-ota_update-22214000.zip
-  ota_sha256: 6a5d2cd92c8bfc8954161e07ef8f4f76340889228f87d76b488a6e5bfc6d2332
-  incremental_link: https://release.calyxinstitute.org/taimen-incremental-22213000-22214000.zip
-  incremental_sha256: 2faeec5cecdff0a4c19aa6b34583b53eb08cfc366ac54ffd86f9abc02bbe78cc
-  incremental_old_build: '22213000'
-  date: '2022-02-10'
-- name: Pixel 2
-  brand: pixel
-  codename: walleye
-  factory_link: https://release.calyxinstitute.org/walleye-factory-22214000.zip
-  factory_sha256: ea8ecc694e687d711efa4b571ef846fc7de85e4123883131f9ab9d75ecacc4c0
-  ota_link: https://release.calyxinstitute.org/walleye-ota_update-22214000.zip
-  ota_sha256: 9bbdc96f72a13269ab67b4f80f9c4ffa7ff714d8f742c40825583c6d41b1aa61
-  incremental_link: https://release.calyxinstitute.org/walleye-incremental-22213000-22214000.zip
-  incremental_sha256: e2147a65dae9b7b8a83a1fde9ecb9d475a5f570401f3a6b3a360886d0378550c
-  incremental_old_build: '22213000'
-  date: '2022-02-10'
-- name: Xiaomi Mi A2
-  brand: xiaomi
-  codename: jasmine_sprout
-  factory_link: https://release.calyxinstitute.org/jasmine_sprout-factory-22214000.zip
-  factory_sha256: 71fc0f94ece231a1b2a0ca604cdd4a4cfab54e69f45d5f2d8ae149b1ea9d7968
-  ota_link: https://release.calyxinstitute.org/jasmine_sprout-ota_update-22214000.zip
-  ota_sha256: a1465835d567392f071015ae3e6785fbf7220c254a887e9180bcad7505076d01
-  incremental_link: https://release.calyxinstitute.org/jasmine_sprout-incremental-22213000-22214000.zip
-  incremental_sha256: f1a078b82bb36254a7a8cda2f92efcdf7551b46c84033509ebe2a717efc977ab
-  incremental_old_build: '22213000'
-  date: '2022-02-10'
 releases:
 - stable

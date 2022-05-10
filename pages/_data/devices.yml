@@ -12,12 +12,8 @@ codenames:
   - sargo
   - crosshatch
   - blueline
-  - taimen
-  - walleye
-  - jasmine_sprout
 brands:
   - pixel
-  - xiaomi
 raven:
   brand: pixel
   model: Pixel 6 Pro
@@ -102,24 +98,3 @@ blueline:
   calyxos_support_ends: 2022-08
   sim: "single"
   esim: "yes"
-taimen:
-  brand: pixel
-  model: Pixel 2 XL
-  manufacturer_support_ends: 2020-10
-  calyxos_support_ends: 2021-08
-  sim: "single"
-  esim: "Fi-only"
-walleye:
-  brand: pixel
-  model: Pixel 2
-  manufacturer_support_ends: 2020-10
-  calyxos_support_ends: 2021-12
-  sim: "single"
-  esim: "Fi-only"
-jasmine_sprout:
-  brand: xiaomi
-  model: Xiaomi Mi A2
-  manufacturer_support_ends: 2021-08
-  calyxos_support_ends: 2021-12
-  sim: "dual"
-  esim: "no"
