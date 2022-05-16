@@ -98,7 +98,9 @@ Test builds are available for the OnePlus 9 Pro as well.
 
 ### Fairphone 4 "FP4"
 * [Get code to enable unlocking from Fairphone, and follow their instructions](https://www.fairphone.com/en/bootloader-unlocking-code-for-fairphone-3/)
-* Unlock the bootloader using `fastboot flashing unlock`
+* Unlock the bootloader using
+  1. `fastboot flashing unlock_critical`
+  2. `fastboot flashing unlock`
 * Follow installation steps below
 
 ### OnePlus 8T "kebab"
@@ -147,6 +149,7 @@ Test builds are available for the OnePlus 9 Pro as well.
 
 * For now installation has to be performed manually, by downloading, unzipping, and then running either `flash-all.bat` on Windows, or `flash-all.sh` on Linux or MacOS. The latest version of `fastboot` needs to be installed
 * Re-lock the bootloader using `fastboot flashing lock`
+* **DO NOT** lock critical **DO NOT**
 
 ## Notes
 * We're currently using proprietary parts from Android 11 for OnePlus given that they are yet to release Android 12 kernel source code.
