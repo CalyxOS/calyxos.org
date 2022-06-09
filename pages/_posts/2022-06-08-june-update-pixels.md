@@ -12,7 +12,7 @@ Newer Fairphone and OnePlus builds will be available later, with the security up
 ## Changelog
 * CalyxOS 3.6.0 - Android 12L
 * June 2022 Security update & Feature drop (2022-06-05)
-* Chromium: Switch to a Bromite fork with many features!
+* [Chromium: Switch to a Bromite fork with many features!](https://calyxos.org/news/2022/06/10/chromium-bromite/)
 * Chromium: Adblocking built-in, ads are blocked by default. Control per-site by tapping the padlock, and then permissions.
 * Chromium: 102.0.5005.78
 * Camera: Add QR code Scanner, usable by launcher shortcut (long press icon)
