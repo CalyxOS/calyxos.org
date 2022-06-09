@@ -31,7 +31,7 @@ Examples
 
 * Google's last update was in Dec 2020, Android 11.
 * We provided Android 11 builds till February 2022.
-* Linux version 4.4 got it's last update in February 2022.
+* Linux version 4.4 got its last update in February 2022.
 * We're aware of other ROMs making Android 12 available for this device, however the above factors
   still stand and thus we had to drop this device.
 
@@ -39,7 +39,7 @@ Examples
 
 * Xiaomi's last update was in August 2021, Android 10.
 * We provided Android 11 builds till February 2022.
-* Linux version 4.4 got it's last update in January 2022.
+* Linux version 4.4 got its last update in January 2022.
 * There were some promising ports of Linux 4.19 to the A2 early 2022, which is why we thought we could provide Android 12. However, upon closer inspection, it was found out that to get this fully working we'd have to use some leaked proprietary files - which we didn't want.
 * We're aware of other ROMs making Android 12 available for this device, however the above factors still stand and thus we had to drop this device.
 
@@ -61,14 +61,14 @@ Examples
 
 * Google will provide Android 13 for these devices.
 * We'll continue providing Android 13 builds till February 2024 at least.
-* Linux version 4.9 LTS is expected to end January 2024.
+* Linux version 4.14 LTS is expected to end January 2024.
 * We will provide Android 13 builds till then at least. If we manage to port Android 14 before that, then we will provide builds for longer.
 
 ## Pixel 5, 4a (5G), 5a
 
 * Google will provide Android 14 for these devices.
-* We'll continue providing Android 14 builds till February 2024 at least.
-* Linux version 4.9 LTS is expected to end January 2024.
+* We'll continue providing Android 14 builds till January 2025 at least.
+* Linux version 4.19 LTS is expected to end December 2024.
 * We will provide Android 14 builds till then at least. If we manage to port Android 15 before that, then we will provide builds for longer.
 
 ## Pixel 6, 6 Pro
