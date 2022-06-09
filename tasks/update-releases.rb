@@ -3,15 +3,15 @@
 require 'fileutils'
 require 'yaml'
 
-module Releases
+module UpdateReleases
 
   RELEASES        = ["stable"]
   RELEASE_SOURCE  = 'https://review.calyxos.org/CalyxOS/release'
-  HASHES_SOURCE   = 'https://review.calyxos.org/CalyxOS/releases'
+  RELEASES_SOURCE = 'https://review.calyxos.org/CalyxOS/releases'
   RELEASE_DL_BASE = 'https://release.calyxinstitute.org/'
   HOME            = File.expand_path('../..', __FILE__)
   RELEASE_CACHE   = "#{HOME}/tmp/release"
-  HASHES_CACHE    = "#{HOME}/tmp/hashes"
+  RELEASES_CACHE  = "#{HOME}/tmp/releases"
   DEST_FILE       = "#{HOME}/pages/_data/downloads.yml"
   DEVICES_DATA    = "#{HOME}/pages/_data/devices.yml"
 
@@ -23,10 +23,10 @@ module Releases
       end
     end
 
-    def clone_hashes_repo
-      FileUtils.mkdir_p(HASHES_CACHE)
-      Dir.chdir(HASHES_CACHE) do
-        `git clone #{HASHES_SOURCE} .`
+    def clone_releases_repo
+      FileUtils.mkdir_p(RELEASES_CACHE)
+      Dir.chdir(RELEASES_CACHE) do
+        `git clone #{RELEASES_SOURCE} .`
       end
     end
 
@@ -36,8 +36,8 @@ module Releases
       end
     end
 
-    def update_hashes_repo
-      Dir.chdir(HASHES_CACHE) do
+    def update_releases_repo
+      Dir.chdir(RELEASES_CACHE) do
         `git pull`
       end
     end
@@ -52,7 +52,7 @@ module Releases
 
     def get_hash_for(filename)
       filename += ".sha256sum"
-      Dir.chdir(HASHES_CACHE) do
+      Dir.chdir(RELEASES_CACHE) do
         if File.exist?(filename)
           return File.read(filename).strip
         else
@@ -131,11 +131,11 @@ module Releases
       unless File.exist?(RELEASE_CACHE)
         clone_release_repo
       end
-      unless File.exist?(HASHES_CACHE)
-        clone_hashes_repo
+      unless File.exist?(RELEASES_CACHE)
+        clone_releases_repo
       end
       update_release_repo
-      update_hashes_repo
+      update_releases_repo
       releases = parse_releases
       releases["releases"] = RELEASES
       File.open(DEST_FILE, 'w') do |f|
@@ -149,5 +149,5 @@ end
 
 desc 'fetch data on current firmware releases and build pages/_data/downloads.yml file'
 task 'update-releases' do
-  Releases.update
+  UpdateReleases.update
 end
