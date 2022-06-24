@@ -9,7 +9,7 @@ redirect_from:
 
 ## Choose your device model
 
-Which device to you wan to install CalyxOS on? If you don't see your device here, see [[device-support]] for more information.
+Which device do you want to install CalyxOS on? If you don't see your device here, see [[device-support]] for more information.
 
 **Please note:** Pixel phones from Verizon (US mobile carrier) are not able to install CalyxOS. See [[how to identify a Verizon phone => verizon]] for more information.
 
