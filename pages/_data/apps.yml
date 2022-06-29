@@ -10,7 +10,7 @@ apps:
     get details about in-app trackers, spoof your location and much more.
   name: Aurora Store
   summary: A Google Playstore Client
-  icon: com.aurora.store.38.png
+  icon: ''
   license: GPL-3.0-or-later
   categories:
   - System
@@ -32,7 +32,7 @@ apps:
     Tor network, protecting users and their relationships from surveillance.
   name: Briar
   summary: Secure Messaging, Anywhere
-  icon: org.briarproject.briar.android.10306.png
+  icon: ''
   license: GPL-3.0-or-later
   categories:
   - Connectivity
@@ -56,7 +56,7 @@ apps:
     servers, CalyxVPN is able to prevent many forms of censorship and surveillance.
   name: Calyx VPN
   summary: Free VPN Service offered by The Calyx Institute
-  icon: org.calyxinstitute.vpn.155.png
+  icon: org.calyxinstitute.vpn.160000.png
   license: GPL-3.0-only
   categories:
   - Internet
@@ -82,54 +82,6 @@ apps:
   issueTracker: https://www.davx5.com/forums
   iconUrl: "/assets/images/apps/at.bitfire.davdroid.png"
   slug: davx-
-- packageName: com.duckduckgo.mobile.android
-  webSite: https://duckduckgo.com/app
-  description: |-
-    At DuckDuckGo, we believe the Internet shouldn’t feel so creepy, and getting the
-    privacy you deserve online should be as simple as closing the blinds.
-
-    Our app provides the privacy essentials you need to seamlessly take control of
-    your personal information as you search and browse the web, no matter where the
-    Internet takes you:
-
-    * Escape Advertising Tracker Networks — Our Privacy Protection will block all the hidden third-party trackers we can find, exposing the major advertising networks tracking you over time, so that you can track who’s trying to track you.
-    * Increase Encryption Protection — We force sites to use an encrypted connection where available, protecting your data from prying eyes, like ISPs.
-    * Search Privately — You share your most personal information with your search engine, like your financial, medical, and political questions. What you search for is your own business, which is why DuckDuckGo search doesn’t track you. Ever.
-    * Decode Privacy Policies — We’ve partnered with Terms of Service Didn’t Read to include their scores and labels of website terms of service and privacy policies, where available.
-
-    As you search and browse, the DuckDuckGo Privacy Browser shows you a Privacy
-    Grade rating when you visit a website (A-F). This rating lets you see how
-    protected you are at a glance, dig into the details to see who we caught trying
-    to track you, and learn how we enhanced the underlying site’s privacy measures.
-    The Privacy Grade is scored automatically based on the prevalence of hidden
-    tracker networks, encryption availability, and website privacy practices.
-
-    Our app provides standard browsing functionality including tabs, bookmarks, and
-    autocomplete. In addition to strong Privacy Protection as described above, we
-    also packed in some extra privacy features into the browser itself:
-
-    * Fire Button — Clear all your tabs and data with one tap.
-    * Application Lock — Secure the app with Touch ID or Face ID.
-
-    Too many people believe you simply can’t expect privacy on the Internet. We’re
-    fighting to change that, and have made it our mission to set a new standard of
-    trust online. Install DuckDuckGo and take back your privacy!
-
-    Antifeatures:
-    * NonFreeNet - Uses DuckDuckGo as the exclusive search engine, for which the
-    source code is not available.
-  name: DuckDuckGo Privacy Browser
-  summary: Privacy, simplified
-  icon: com.duckduckgo.mobile.android.59403.png
-  license: Apache-2.0
-  categories:
-  - Internet
-  - Default
-  sourceCode: https://github.com/duckduckgo/Android
-  donate: ''
-  issueTracker: https://github.com/duckduckgo/Android/issues
-  iconUrl: "/assets/images/apps/com.duckduckgo.mobile.android.png"
-  slug: duckduckgo-privacy-browser
 - packageName: com.fsck.k9
   webSite: https://k9mail.app/
   description: |-
@@ -140,7 +92,7 @@ apps:
     installed to achieve this.
   name: K-9 Mail
   summary: Full-featured email client
-  icon: com.fsck.k9.28005.xml
+  icon: ''
   license: Apache-2.0
   categories:
   - Internet
@@ -150,22 +102,6 @@ apps:
   issueTracker: https://github.com/k9mail/k-9/issues
   iconUrl: "/assets/images/apps/com.fsck.k9.png"
   slug: k-9-mail
-- packageName: info.guardianproject.locationprivacy
-  webSite: https://guardianproject.info/2015/01/23/sharing-your-location-privately
-  description: ''
-  name: LocationPrivacy
-  summary: privacy filters for shared location links
-  icon: info.guardianproject.locationprivacy.31.png
-  license: GPL-3.0-or-later
-  categories:
-  - Navigation
-  - Security
-  - Default
-  sourceCode: https://github.com/guardianproject/LocationPrivacy
-  donate: ''
-  issueTracker: https://dev.guardianproject.info/projects/panic/issues
-  iconUrl: "/assets/images/apps/info.guardianproject.locationprivacy.png"
-  slug: locationprivacy
 - packageName: com.artifex.mupdf.viewer.app
   webSite: https://mupdf.com
   description: |-
@@ -174,7 +110,7 @@ apps:
     documents.
   name: MuPDF viewer
   summary: Lightweight document viewer
-  icon: com.artifex.mupdf.viewer.app.90.png
+  icon: com.artifex.mupdf.viewer.app.100.png
   license: AGPL-3.0-or-later
   categories:
   - Reading
@@ -286,21 +222,6 @@ apps:
   issueTracker: https://github.com/ooni/probe-android/issues
   iconUrl: "/assets/images/apps/org.openobservatory.ooniprobe.png"
   slug: ooni-probe
-- packageName: org.sufficientlysecure.keychain
-  webSite: https://www.openkeychain.org/
-  description: ''
-  name: OpenKeychain
-  summary: Encrypt your Files and Communications. Compatible with the OpenPGP Standard.
-  icon: org.sufficientlysecure.keychain.57500.png
-  license: GPL-3.0-or-later
-  categories:
-  - Security
-  - Default
-  sourceCode: https://github.com/open-keychain/open-keychain
-  donate: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=android%40schuermann.eu&lc=US&item_name=OpenKeychain+Donation&no_note=0&no_shipping=1&currency_code=EUR
-  issueTracker: https://github.com/open-keychain/open-keychain/issues
-  iconUrl: "/assets/images/apps/org.sufficientlysecure.keychain.png"
-  slug: openkeychain
 - packageName: org.dmfs.tasks
   webSite: https://opentasks.app/
   description: |-
@@ -367,7 +288,7 @@ apps:
     * No ads, no trackers, no data collection, no crapware, no pesticides
   name: Organic Maps
   summary: Offline maps with turn-by-turn navigation
-  icon: app.organicmaps.21081404.png
+  icon: ''
   license: Apache-2.0
   categories:
   - Navigation
@@ -389,7 +310,7 @@ apps:
     servers, RiseupVPN is able to prevent many forms of censorship and surveillance.
   name: Riseup VPN
   summary: Secure VPN powered by Bitmask
-  icon: se.leap.riseupvpn.155.png
+  icon: se.leap.riseupvpn.162000.png
   license: GPL-3.0-only
   categories:
   - Internet
@@ -405,7 +326,7 @@ apps:
   description: ''
   name: Scrambled Exif
   summary: Remove the metadata from your pictures before sharing them
-  icon: com.jarsilio.android.scrambledeggsif.68.png
+  icon: ''
   license: GPL-3.0-only
   categories:
   - System
@@ -456,7 +377,7 @@ apps:
     Any cookies automatically clear when you’re done browsing.
   name: Tor Browser
   summary: Experience real private browsing without tracking, surveillance, or censorship.
-  icon: org.torproject.torbrowser.2015808947.png
+  icon: ''
   license: MPL
   categories:
   - Security
@@ -485,7 +406,7 @@ apps:
     **NonFreeNet:** OpenWeatherMap service itself is not open source.
   name: Weather
   summary: Get weather information and forecast
-  icon: org.secuso.privacyfriendlyweather.14.png
+  icon: org.secuso.privacyfriendlyweather.15.png
   license: GPL-3.0-only
   categories:
   - Multimedia
@@ -496,28 +417,3 @@ apps:
   issueTracker: https://github.com/SecUSo/privacy-friendly-weather/issues
   iconUrl: "/assets/images/apps/org.secuso.privacyfriendlyweather.png"
   slug: weather
-- packageName: com.yubico.yubioath
-  webSite: ''
-  description: |-
-    Generate One-Time Passwords (OTPs) using a YubiKey NEO hardware, connected using
-    NFC. It generates codes that are compatible with Google two-step verification,
-    and can be used with any other site that supports OATH HOTP/TOTP.
-
-    There are two apps for YubiKey NEO and OATH: YubiTOTP and YubiOATH. They work
-    differently, and both are supported, but to get the most features and best user
-    experience we recommend use of YubiOATH. The YubiTOTP app works with all YubiKey
-    NEOs, however it is more limited than the YubiOATH app. The YubiOATH app
-    requires that the (free software) ykneo-oath applet has been loaded on to the
-    YubiKey NEO. The YubiTOTP app is still maintained for backwards compatibility.
-  name: Yubico Authenticator
-  summary: Generate OATH codes with YubiKey NEO over NFC
-  icon: com.yubico.yubioath.20199.png
-  license: BSD-2-Clause
-  categories:
-  - Connectivity
-  - Default
-  sourceCode: https://github.com/Yubico/yubioath-android
-  donate: ''
-  issueTracker: https://github.com/Yubico/yubioath-android/issues
-  iconUrl: "/assets/images/apps/com.yubico.yubioath.png"
-  slug: yubico-authenticator
