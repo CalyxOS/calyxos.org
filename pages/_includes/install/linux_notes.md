@@ -18,7 +18,6 @@ sudo dnf install android-tools
 Arch Linux:
 
 ```
-sudo pacman -Sy
 sudo pacman -S android-udev
 ```
 
