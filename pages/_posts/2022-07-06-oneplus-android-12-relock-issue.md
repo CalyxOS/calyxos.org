@@ -49,6 +49,7 @@ All of the possible ways have been listed below, while we evaulate them to decid
 ##### 1. Continue with Android 11 bootloader and other proprietary components
 Pros:
 * Locked bootloader
+
 Cons:
 * No security patches to any proprietary components.
 * Diverging from other custom ROMs
@@ -58,6 +59,7 @@ Cons:
 Pros:
 * Security updates
 * Same as other custom ROMs
+
 Cons:
 * Unlocked bootloader, all the benefits of Verified Boot are lost
 
@@ -65,6 +67,7 @@ Cons:
 Pros:
 * Locked bootloader (if it works)
 * Partial proprietary security updates (the components that are on 12)
+
 Cons:
 * Fragile
 * Would still miss some security updates (the components that are on 11)
