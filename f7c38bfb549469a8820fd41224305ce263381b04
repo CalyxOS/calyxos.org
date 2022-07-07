@@ -16,6 +16,24 @@
       "message": "icons 😞\n\nAlso there are other places which reference these apps - updating those shouldn\u0027t be a blocker for this commit, just noting it down though.",
       "revId": "f7c38bfb549469a8820fd41224305ce263381b04",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "527b3ff8_28fae8e2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-07-07T22:34:11Z",
+      "side": 1,
+      "message": "Do\u0027h, icons are fine, don\u0027t go by the field being removed.\n\nWe rely on our own iconUrl",
+      "parentUuid": "f40750a5_0475d719",
+      "revId": "f7c38bfb549469a8820fd41224305ce263381b04",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
