@@ -16,13 +16,13 @@ For questions about device support, both for existing and new devices, as well a
 We aspire to accomplish 3 major goals  1) encrypt the content of communications as much as possible  2) take countermeasures against metadata collection  3) take countermeasures against geolocation tracking
 
 ### How do you accomplish encrypting the content of communications?
-We bundle network encryption applications such as Signal for voice and text messaging, Tor Browser for web browsing, Orbot for using Tor as a VPN, two VPN applications, OpenKeychain for OpenPGP support, Conversations, and Briar.
+We bundle network encryption applications such as Signal for voice and text messaging, Tor Browser for web browsing, Orbot for using Tor as a VPN, two VPN applications, and Briar.
 
 ### What countermeasures do you take against metadata collection?
 We encourage the use of the free VPN applications, of Orbot and Tor Browser for hiding the IP address of the phone. We have a feature to optionally disable bluetooth and Wi-Fi when they haven't been used in a while to avoid proximity tracking. We randomize the Wi-Fi MAC address (on a per network basis) to keep the use of Wi-Fi more anonymous.
 
 ### How do you deal with the issue of geolocation tracking?
-This is one of the hardest issues to address because of the nature of the cellular phone network. It is an ongoing problem that we hope to have better solutions for in the future, however we partially address it in several ways now: by including VPN services to cloak your IP address, by including Tor services to cloak your IP address, and by including functionality to turn off bluetooth or Wi-Fi after a user-configurable period of inactivity to prevent tracking, such as by bluetooth beacons. We also randomize the Wi-Fi MAC address (on a per network basis) as a countermeasure against tracking by unique MAC addresses. Additionally we include utilities such as LocationPrivacy by the Guardian Project.
+This is one of the hardest issues to address because of the nature of the cellular phone network. It is an ongoing problem that we hope to have better solutions for in the future, however we partially address it in several ways now: by including VPN services to cloak your IP address, by including Tor services to cloak your IP address, and by including functionality to turn off bluetooth or Wi-Fi after a user-configurable period of inactivity to prevent tracking, such as by bluetooth beacons. We also randomize the Wi-Fi MAC address (on a per network basis) as a countermeasure against tracking by unique MAC addresses.
 
 ### How do you handle location services in a more private way?
 Normally on stock Android, location services are built into the Google Play Services. Since CalyxOS doesn't include Google Play Services, location services are instead handled by Unified Network Location Provider (UnifiedNLP) bundled with MicroG. By default, we use the [Déjà Vu location service](https://github.com/n76/DejaVu) which uses locally acquired Wi-Fi AP and cell tower data to resolve location as well as [Mozilla location service](https://location.services.mozilla.com).
