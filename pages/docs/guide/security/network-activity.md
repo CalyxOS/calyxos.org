@@ -56,11 +56,6 @@ These connections are made by apps in the default CalyxOS configuration. You can
   <td>On CalyxOS, F-Droid comes pre-configured with a special repository just for use with CalyxOS. This repository has highest priority and we use it to push out security fixes, necessary updates, and our own version of some apps that also exist in F-Droid.</td>
 </tr>
 <tr>
-  <td>staticcdn.duckduckgo.com</td>
-  <td>[[DuckDuckGo => duckduckgo-privacy-browser]]</td>
-  <td>This domain is used to load images and other static content related to the DuckDuckGo search engine.</td>
-</tr>
-<tr>
   <td>mtalk.google.com</td>
   <td>[[microG]]</td>
   <td>If you have [[microG]] enabled, this service is used to receive push notifications (see below).</td>
