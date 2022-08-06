@@ -1,4 +1,7 @@
 ---
+- name: Pixel 6a
+  codename: bluejay
+  avb_fingerprint: "1CD1C64B"
 - name: Pixel 6 Pro
   codename: raven
   avb_fingerprint: "4AB52825"
