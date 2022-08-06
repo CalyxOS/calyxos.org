@@ -1,5 +1,6 @@
 ---
 codenames:
+  - bluejay
   - raven
   - oriole
   - barbet
@@ -14,6 +15,13 @@ codenames:
   - blueline
 brands:
   - pixel
+bluejay:
+  brand: pixel
+  model: Pixel 6a (beta)
+  manufacturer_support_ends: 2027-07
+  calyxos_support_ends: 2027-07
+  sim: "dual"
+  esim: "yes"
 raven:
   brand: pixel
   model: Pixel 6 Pro
