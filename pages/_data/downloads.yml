@@ -1,6 +1,6 @@
 ---
 stable:
-- name: Pixel 6a (beta)
+- name: Pixel 6a
   brand: pixel
   codename: bluejay
   factory_link: https://release.calyxinstitute.org/bluejay-factory-22307032.zip
