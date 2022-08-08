@@ -17,7 +17,7 @@ brands:
   - pixel
 bluejay:
   brand: pixel
-  model: Pixel 6a (beta)
+  model: Pixel 6a
   manufacturer_support_ends: 2027-07
   calyxos_support_ends: 2027-07
   sim: "dual"

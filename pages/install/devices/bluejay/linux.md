@@ -1,10 +1,10 @@
 ---
-title: Install on Pixel 6a (beta)
+title: Install on Pixel 6a
 description: From a Linux computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 6a (beta) => bluejay]]</strong> / <strong>Linux</strong>
+<strong>[[Install => install]]</strong> / <strong>[[Pixel 6a => bluejay]]</strong> / <strong>Linux</strong>
 
 {% if site.data.install.bluejay.arb %}
 ## IMPORTANT
@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 <a class="btn" href="https://release.calyxinstitute.org/bluejay-factory-22308020.zip">Download CalyxOS Image</a>
 
-Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 6a (beta) (bluejay)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
+Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 6a (bluejay)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
 Do not extract or rename the zip, simply copy it as-is.
 

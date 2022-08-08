@@ -1,8 +1,8 @@
 ---
-title: Install on Pixel 6a (beta)
+title: Install on Pixel 6a
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 6a (beta) => bluejay]]</strong>
+<strong>[[Install => install]]</strong> / <strong>[[Pixel 6a => bluejay]]</strong>
 
 {% if site.data.install.bluejay.arb %}
 <h2>IMPORTANT</h2>
