@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bf6c1c15_9d0e5432",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-08-15T20:46:14Z",
+      "side": 1,
+      "message": "The only thing I can think of is the eSIM crash, for now we can try to handle the RRO and then this can be merged.",
+      "revId": "f1d24c0b9f1964dff43e66861d4fe166cdb01701",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
