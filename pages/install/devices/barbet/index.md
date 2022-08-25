@@ -4,6 +4,10 @@ title: Install on Pixel 5a (5G)
 
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 5a (5G) => barbet]]</strong>
 
+{% if site.data.install.barbet.arb %}
+{% include install/arb_notes.html %}
+{% endif %}
+
 <div class="gallery" markdown=0>
   <div class="cell square">
     <a href="windows"><img class="filter-grey" src="{{ '/assets/images/icons/windows.svg' | relative_url }}" alt=""></a>

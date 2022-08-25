@@ -6,6 +6,10 @@ toc: true
 
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 4 XL => coral]]</strong> / <strong>Windows</strong>
 
+{% if site.data.install.coral.arb %}
+{% include install/arb_notes.html %}
+{% endif %}
+
 ## Terminology
 
 * **Factory Image**: This is a zip file that contains the entire CalyxOS operating system to be installed on your device.
@@ -110,4 +114,5 @@ If you would like to return to the default operating system, please see [[stock]
 ## Security Notes
 
 {% include install/security_notes.html %}
+
 <!-- Auto generated. DO NOT EDIT -->
