@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3caa0dac_d2b5d3a5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-08-25T23:35:29Z",
+      "side": 1,
+      "message": "Bit over the top but better be safe than sorry given that it can brick devices.\n\nCan be reverted once 13 is out and stable.",
+      "revId": "958be07e007aa46b7abe4d4b0fd8d813a00e9406",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
