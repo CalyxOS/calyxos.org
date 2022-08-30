@@ -5,6 +5,7 @@ title: Install on Pixel 3
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 3 => blueline]]</strong>
 
 {% if site.data.install.blueline.arb %}
+<h2>IMPORTANT</h2>
 {% include install/arb_notes.html %}
 {% endif %}
 

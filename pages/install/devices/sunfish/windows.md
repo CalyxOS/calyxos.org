@@ -7,6 +7,7 @@ toc: true
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 4a => sunfish]]</strong> / <strong>Windows</strong>
 
 {% if site.data.install.sunfish.arb %}
+## IMPORTANT
 {% include install/arb_notes.html %}
 {% endif %}
 

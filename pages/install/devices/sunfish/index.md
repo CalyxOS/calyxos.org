@@ -5,6 +5,7 @@ title: Install on Pixel 4a
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 4a => sunfish]]</strong>
 
 {% if site.data.install.sunfish.arb %}
+<h2>IMPORTANT</h2>
 {% include install/arb_notes.html %}
 {% endif %}
 

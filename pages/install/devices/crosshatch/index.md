@@ -5,6 +5,7 @@ title: Install on Pixel 3 XL
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 3 XL => crosshatch]]</strong>
 
 {% if site.data.install.crosshatch.arb %}
+<h2>IMPORTANT</h2>
 {% include install/arb_notes.html %}
 {% endif %}
 

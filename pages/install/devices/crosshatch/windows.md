@@ -7,6 +7,7 @@ toc: true
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 3 XL => crosshatch]]</strong> / <strong>Windows</strong>
 
 {% if site.data.install.crosshatch.arb %}
+## IMPORTANT
 {% include install/arb_notes.html %}
 {% endif %}
 

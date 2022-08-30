@@ -7,6 +7,7 @@ toc: true
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 6 Pro => raven]]</strong> / <strong>Linux</strong>
 
 {% if site.data.install.raven.arb %}
+## IMPORTANT
 {% include install/arb_notes.html %}
 {% endif %}
 

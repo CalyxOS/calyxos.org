@@ -5,6 +5,7 @@ title: Install on Pixel 6a (beta)
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 6a (beta) => bluejay]]</strong>
 
 {% if site.data.install.bluejay.arb %}
+<h2>IMPORTANT</h2>
 {% include install/arb_notes.html %}
 {% endif %}
 

@@ -7,6 +7,7 @@ toc: true
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 6a (beta) => bluejay]]</strong> / <strong>Linux</strong>
 
 {% if site.data.install.bluejay.arb %}
+## IMPORTANT
 {% include install/arb_notes.html %}
 {% endif %}
 

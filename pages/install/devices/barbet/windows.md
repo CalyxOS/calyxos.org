@@ -7,6 +7,7 @@ toc: true
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 5a (5G) => barbet]]</strong> / <strong>Windows</strong>
 
 {% if site.data.install.barbet.arb %}
+## IMPORTANT
 {% include install/arb_notes.html %}
 {% endif %}
 

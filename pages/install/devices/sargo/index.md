@@ -5,6 +5,7 @@ title: Install on Pixel 3a
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 3a => sargo]]</strong>
 
 {% if site.data.install.sargo.arb %}
+<h2>IMPORTANT</h2>
 {% include install/arb_notes.html %}
 {% endif %}
 

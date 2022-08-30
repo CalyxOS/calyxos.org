@@ -7,6 +7,7 @@ toc: true
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 4 => flame]]</strong> / <strong>MacOS</strong>
 
 {% if site.data.install.flame.arb %}
+## IMPORTANT
 {% include install/arb_notes.html %}
 {% endif %}
 

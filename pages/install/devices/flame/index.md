@@ -5,6 +5,7 @@ title: Install on Pixel 4
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 4 => flame]]</strong>
 
 {% if site.data.install.flame.arb %}
+<h2>IMPORTANT</h2>
 {% include install/arb_notes.html %}
 {% endif %}
 

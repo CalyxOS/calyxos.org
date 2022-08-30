@@ -5,6 +5,7 @@ title: Install on Pixel 6 Pro
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 6 Pro => raven]]</strong>
 
 {% if site.data.install.raven.arb %}
+<h2>IMPORTANT</h2>
 {% include install/arb_notes.html %}
 {% endif %}
 

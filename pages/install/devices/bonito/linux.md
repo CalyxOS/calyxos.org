@@ -7,6 +7,7 @@ toc: true
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 3a XL => bonito]]</strong> / <strong>Linux</strong>
 
 {% if site.data.install.bonito.arb %}
+## IMPORTANT
 {% include install/arb_notes.html %}
 {% endif %}
 

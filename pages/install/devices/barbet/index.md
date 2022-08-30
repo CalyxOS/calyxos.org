@@ -5,6 +5,7 @@ title: Install on Pixel 5a (5G)
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 5a (5G) => barbet]]</strong>
 
 {% if site.data.install.barbet.arb %}
+<h2>IMPORTANT</h2>
 {% include install/arb_notes.html %}
 {% endif %}
 

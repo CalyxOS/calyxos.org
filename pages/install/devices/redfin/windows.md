@@ -7,6 +7,7 @@ toc: true
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 5 => redfin]]</strong> / <strong>Windows</strong>
 
 {% if site.data.install.redfin.arb %}
+## IMPORTANT
 {% include install/arb_notes.html %}
 {% endif %}
 

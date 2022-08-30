@@ -5,6 +5,7 @@ title: Install on Pixel 5
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 5 => redfin]]</strong>
 
 {% if site.data.install.redfin.arb %}
+<h2>IMPORTANT</h2>
 {% include install/arb_notes.html %}
 {% endif %}
 

@@ -5,6 +5,7 @@ title: Install on Pixel 4 XL
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 4 XL => coral]]</strong>
 
 {% if site.data.install.coral.arb %}
+<h2>IMPORTANT</h2>
 {% include install/arb_notes.html %}
 {% endif %}
 

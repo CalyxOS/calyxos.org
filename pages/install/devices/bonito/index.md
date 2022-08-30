@@ -5,6 +5,7 @@ title: Install on Pixel 3a XL
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 3a XL => bonito]]</strong>
 
 {% if site.data.install.bonito.arb %}
+<h2>IMPORTANT</h2>
 {% include install/arb_notes.html %}
 {% endif %}
 

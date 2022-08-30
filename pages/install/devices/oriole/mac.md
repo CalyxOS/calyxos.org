@@ -7,6 +7,7 @@ toc: true
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 6 => oriole]]</strong> / <strong>MacOS</strong>
 
 {% if site.data.install.oriole.arb %}
+## IMPORTANT
 {% include install/arb_notes.html %}
 {% endif %}
 

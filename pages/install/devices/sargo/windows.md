@@ -7,6 +7,7 @@ toc: true
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 3a => sargo]]</strong> / <strong>Windows</strong>
 
 {% if site.data.install.sargo.arb %}
+## IMPORTANT
 {% include install/arb_notes.html %}
 {% endif %}
 
