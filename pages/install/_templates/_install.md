@@ -7,6 +7,7 @@ toc: true
 <strong>[[Install => install]]</strong> / <strong>[[{{name}} => {{codename}}]]</strong> / <strong>{{os_name}}</strong>
 
 \{% if site.data.install.{{codename}}.arb \%}
+## IMPORTANT
 \{% include install/arb_notes.html \%}
 \{% endif \%}
 
