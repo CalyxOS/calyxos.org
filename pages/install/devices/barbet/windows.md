@@ -45,7 +45,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/barbet-factory-22307002.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/barbet-factory-22308020.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 5a (5G) (barbet)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -57,14 +57,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/barbet-factory-22307002.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/barbet-factory-22308020.zip" | split: "/" | last %}
 {% include install/windows_image_digest.md filename=image %}
 
-And ensure the result says `6ae74587305169bb0abfc7a7ef04e7b754ca5b20004b1e37335500fa73150b0f`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `8e22be95cb57e0e629fa5b41ac6838fb49c8f1cbba0f9403d86a8bdb13c0a223`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/barbet-factory-22307002.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/barbet-factory-22308020.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 
