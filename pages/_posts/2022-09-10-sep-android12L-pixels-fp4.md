@@ -5,8 +5,6 @@ date: 2022-09-10
 
 CalyxOS 3.9.0 - Android 12L is now available for all supported Pixels, i.e. Pixel 3 - 6a, and the Fairphone 4
 
-It is currently in the beta channel and will be bumped to stable soon depending on feedback. Factory images will be available at that time as well.
-
 Work on Android 13 continues!
 
 ## Changelog
