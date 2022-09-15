@@ -15,7 +15,7 @@ We will also revisit OnePlus devices after that.
 1. Make sure your phone is running the latest stable CalyxOS 3.9.0 - Factory images will be available later.
 2. Backup your data - you can use SeedVault, the included Backup app.
 3. Enable USB Debugging on your phone.
-4. From your computer: `adb shell setprop sys.update.channel testing`
+4. From your computer: `adb shell setprop sys.update.channel thirteen`
 5. Then, on your phone: Settings -> System -> System update settings -> Check for updates
 
 ## Changelog
