@@ -28,7 +28,14 @@ We will also revisit OnePlus devices after that.
 * More to be added here later
 
 ## Known issues
-* This will keep getting updated as issues are reported
+### Common
+* Launcher All apps screen is slightly cut off at the top
+
+### Pixel 4a (5G), 5, 5a
+* Camera not working
+
+### Pixel 6a
+* Fingerprint not working
 
 ## IMPORTANT
 
