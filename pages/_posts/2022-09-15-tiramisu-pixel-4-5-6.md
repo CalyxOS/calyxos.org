@@ -29,6 +29,7 @@ We will also revisit OnePlus devices after that.
 
 ## Known issues
 ### Common
+* Calling (VoLTE) broken on some carriers
 * Launcher All apps screen is slightly cut off at the top
 
 ### Pixel 4a (5G), 5, 5a
