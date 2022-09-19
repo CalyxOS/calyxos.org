@@ -10,7 +10,7 @@ redirect_from: /get/verify/
 * Linux:
   * Arch Linux: `sudo pacman -S minisign`
   * Fedora: `sudo dnf install minisign`
-  * Ubuntu: `sudo add-apt-repository ppa:dysfunctionalprogramming/minisign && sudo apt update && sudo apt install minisign`
+  * Ubuntu: `sudo add-apt-repository ppa:savoury1/minisign && sudo apt update && sudo apt install minisign`
   * Others: See <https://github.com/jedisct1/minisign#compilation--installation>
 * macOS:
   * Official binary: <https://github.com/jedisct1/minisign/releases/download/0.9/minisign-osx.zip>
