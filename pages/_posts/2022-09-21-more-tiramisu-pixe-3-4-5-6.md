@@ -33,7 +33,7 @@ We will be revisiting OnePlus devices after that.
 * Fingerprint not working on upgrades. Fresh installs are ok
 
 ## Steps
-1. Make sure your phone is running the latest stable CalyxOS 3.9.0 - Factory images will be available later.
+1. Make sure your phone is running the latest stable CalyxOS 3.9.0 - Factory images will be available later. If you're on the previous test Tiramisu build, you can skip this step.
 2. Go through the Known issues list above, and make sure you're ok with that
 3. Backup your data - you can use SeedVault, the included Backup app.
 4. Enable USB Debugging on your phone.
