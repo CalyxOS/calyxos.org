@@ -15,7 +15,7 @@ We will be revisiting OnePlus devices after that.
 * CalyxOS 4.1.3 - Pixel 3, 3XL, 3a, 3a XL
 * CalyxOS 4.1.4 - Pixel 4, 4 XL, 4a, 4a (5G), 5, 5a,6, 6 Pro, 6a
 * Chromium: 105.0.5195.136
-* VoLTE and Wi-Fi calling fixed. If it worked on
+* VoLTE and Wi-Fi calling fixed. If it worked on Android 12 for you it should work again now.
 * Pixel 4a (5G), 5, 5a: Camera has been fixed
 
 ## Known issues
