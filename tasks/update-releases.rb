@@ -5,7 +5,7 @@ require 'yaml'
 
 module Releases
 
-  RELEASES        = ["stable"]
+  RELEASES        = ["stable", "beta"]
   RELEASE_SOURCE  = 'https://review.calyxos.org/CalyxOS/release'
   HASHES_SOURCE   = 'https://review.calyxos.org/CalyxOS/releases'
   RELEASE_DL_BASE = 'https://release.calyxinstitute.org/'
