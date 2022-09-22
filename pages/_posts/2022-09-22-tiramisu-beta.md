@@ -38,12 +38,27 @@ CalyxOS 4.1 - Android 13 is now available as a beta release for some devices.
 * Launcher All apps screen is slightly cut off at the top, work in progress.
 
 ## Steps
+### OTA upgrades, from your existing CalyxOS install
 1. Make sure your phone is running the latest stable CalyxOS 3.9.0. If you're on the previous test Tiramisu build, you can skip this step.
 2. Go through the Known issues list above, and make sure you're ok with that
 3. Backup your data - you can use SeedVault, the included Backup app.
 4. Settings -> System -> System update settings -> Release channel -> Beta
 5. Then, tap the "Check for updates" button.
 
-## IMPORTANT
+### Fresh installs, factory images
+1. Download the factory images from the links below.
+2. Please follow the installation instructions at [[install]], but use the latest factory image you just downloaded instead of the one linked on that page.
 
-{% include install/arb_notes.html %}
+#### Downloads
+
+<table class="table table-striped download">
+  <tr><th>Device</th><th>Link</th><th><a href="{{ '/get/verify' | relative_url }}">Signature</a></th><th>SHA256</th></tr>
+{% for device in site.data.downloads["beta"] %}
+  <tr>
+    <td>{{device.name}} ({{device.codename}})</td>
+    <td><a href="{{device.factory_link}}">Download</a></td>
+    <td><a href="{{device.factory_link | append: '.minisig' }}">Signature</a></td>
+    <td class="hash">{{device.factory_sha256}}</td>
+  </tr>
+{% endfor %}
+</table>
