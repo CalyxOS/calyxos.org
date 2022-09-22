@@ -147,14 +147,14 @@ beta:
 - name: Pixel 6a
   brand: pixel
   codename: bluejay
-  factory_link: https://release.calyxinstitute.org/bluejay-factory-22309000.zip
-  factory_sha256: 44e87fc927868f9db6126db87a5623d6276a984f4db4ea9c3ba5b19e903825b3
-  ota_link: https://release.calyxinstitute.org/bluejay-ota_update-22309000.zip
-  ota_sha256: db3182b7190650c3a329d8c272e4173f1369a7eee12db0fcb37d5e6a9b6cae1e
+  factory_link: https://release.calyxinstitute.org/bluejay-factory-22401040.zip
+  factory_sha256: 26da1f60a3966eb5eb0f05a950c1a2d889dc57142b0e45cf8c089e3ed229e664
+  ota_link: https://release.calyxinstitute.org/bluejay-ota_update-22401040.zip
+  ota_sha256: ecc509fe8a885811e71aaad824c15e7a6e7fae83255e3e95368a3dad343be3a6
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  date: '2022-09-09'
+  date: '2022-09-21'
 - name: Pixel 6 Pro
   brand: pixel
   codename: raven
