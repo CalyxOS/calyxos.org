@@ -3,7 +3,7 @@ title: Tiramisu Beta - Android 13
 date: 2022-09-21
 ---
 
-CalyxOS 4.1 - Android 13 is now available as a beta release for some devices.
+CalyxOS 4.1.6 - Android 13 is now available as a beta release for some devices.
 
 ## Device status
 ### Available as beta now
@@ -22,7 +22,7 @@ CalyxOS 4.1 - Android 13 is now available as a beta release for some devices.
 * Test builds pending, work in progress.
 
 ## Changelog
-* CalyxOS 4.1 - Android 13 - Tiramisu
+* CalyxOS 4.1.6 - Android 13 - Tiramisu
 * September Security update (2022-09-05)
 * Initial Android 13 release
 * Google has brought lots of new features to Android in this release. Some of them are:
@@ -34,7 +34,6 @@ CalyxOS 4.1 - Android 13 is now available as a beta release for some devices.
 * You're in control of which apps can send you notifications—helping you limit distractions.
 
 ## Known issues
-* Network traffic monitor (in the status bar) is missing, will be available in an upcoming build
 * Launcher All apps screen is slightly cut off at the top, work in progress.
 
 ## Steps
