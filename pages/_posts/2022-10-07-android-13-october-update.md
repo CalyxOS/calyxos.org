@@ -1,6 +1,6 @@
 ---
 title: Android 13 - October Security update
-date: 2022-10-08
+date: 2022-10-07
 ---
 
 CalyxOS 4.2 - Android 13 is now available for the Google supported Pixels, i.e. Pixel 4 - 6a
