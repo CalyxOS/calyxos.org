@@ -45,7 +45,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/bluejay-factory-22309000.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/bluejay-factory-22402010.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 6a (bluejay)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -57,14 +57,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/bluejay-factory-22309000.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/bluejay-factory-22402010.zip" | split: "/" | last %}
 {% include install/mac_image_digest.md filename=image %}
 
-And ensure the result says `44e87fc927868f9db6126db87a5623d6276a984f4db4ea9c3ba5b19e903825b3`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `31028d61c0322f56129b94031e61b2b9f55162cb21509e132d084f5429ef92bd`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/bluejay-factory-22309000.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/bluejay-factory-22402010.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 
