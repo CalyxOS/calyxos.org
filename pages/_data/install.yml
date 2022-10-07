@@ -1,9 +1,3 @@
 ---
-bluejay:
-  arb: true
-raven:
-  arb: true
-oriole:
-  arb: true
 pixel:
   troubleshooting: install/pixel_troubleshooting.md

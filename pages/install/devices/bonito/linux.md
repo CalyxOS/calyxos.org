@@ -6,11 +6,6 @@ toc: true
 
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 3a XL => bonito]]</strong> / <strong>Linux</strong>
 
-{% if site.data.install.bonito.arb %}
-## IMPORTANT
-{% include install/arb_notes.html %}
-{% endif %}
-
 ## Terminology
 
 * **Factory Image**: This is a zip file that contains the entire CalyxOS operating system to be installed on your device.
@@ -115,5 +110,4 @@ If you would like to return to the default operating system, please see [[stock]
 ## Security Notes
 
 {% include install/security_notes.html %}
-
 <!-- Auto generated. DO NOT EDIT -->

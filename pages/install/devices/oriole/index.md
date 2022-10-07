@@ -4,11 +4,6 @@ title: Install on Pixel 6
 
 <strong>[[Install => install]]</strong> / <strong>[[Pixel 6 => oriole]]</strong>
 
-{% if site.data.install.oriole.arb %}
-<h2>IMPORTANT</h2>
-{% include install/arb_notes.html %}
-{% endif %}
-
 <div class="gallery" markdown=0>
   <div class="cell square">
     <a href="windows"><img class="filter-grey" src="{{ '/assets/images/icons/windows.svg' | relative_url }}" alt=""></a>

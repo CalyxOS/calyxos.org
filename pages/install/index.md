@@ -28,10 +28,6 @@ Which device do you want to install CalyxOS on? If you don't see your device her
 {% endfor %}
 </table>
 
-## IMPORTANT
-
-{% include install/arb_notes.html %}
-
 ## Security Notes
 
 {% include install/security_notes.html %}
