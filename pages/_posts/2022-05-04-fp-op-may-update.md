@@ -80,7 +80,7 @@ OnePlus 8T, 9 and 9 Pro builds have been pulled - please see [OnePlus Android 12
 
 | Name | Link | SHA256 checksum | [Signature](/install/verify) |
 | ---- | ---- | --------------- | ---------------- |
-| Fairphone 4 "FP4" | [Factory image](https://release.calyxinstitute.org/FP4-factory-22305000.zip) | a0205a9b56483852696da880e54c98948d3f05331e524e67e27a902f72bc48d4 | [minisig](https://release.calyxinstitute.org/FP4-factory-22305000.zip.minisig) |
+| Fairphone 4 "FP4" | | Builds pulled for now, new builds will be available shortly. |
 | OnePlus 8T "kebab" | | Please see [OnePlus Android 12 relock issue](https://calyxos.org/news/2022/07/06/oneplus-android-12-relock-issue/) for more details |
 | OnePlus 9 "lemonade" | | Please see [OnePlus Android 12 relock issue](https://calyxos.org/news/2022/07/06/oneplus-android-12-relock-issue/) for more details |
 | OnePlus 9 Pro "lemonadep" | | Please see [OnePlus Android 12 relock issue](https://calyxos.org/news/2022/07/06/oneplus-android-12-relock-issue/) for more details  |
