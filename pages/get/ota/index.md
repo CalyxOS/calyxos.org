@@ -18,11 +18,10 @@ Optional: To verify the *SHA256* digest, run the command `sha256sum FILENAME_OF_
 
 ## Incremental OTA updates
 
-{% for release in site.data.downloads.releases %}
-<h3 class="mt-3">{{ release | capitalize }}</h3>
+<h3 class="mt-3">Stable</h3>
 <table class="table table-striped download">
   <tr><th>Device</th><th>Previous build</th><th>Link</th><th>SHA256</th></tr>
-{% for device in site.data.downloads[release] %}
+{% for device in site.data.downloads["stable"] %}
 {% if device.incremental_link and device.incremental_link != "" and device.incremental_link != nil %}
   <tr>
     <td>{{device.name}} ({{device.codename}})</td>
@@ -33,7 +32,6 @@ Optional: To verify the *SHA256* digest, run the command `sha256sum FILENAME_OF_
 {% endif %}
 {% endfor %}
 </table>
-{% endfor %}
 
 ## Full OTA updates
 
