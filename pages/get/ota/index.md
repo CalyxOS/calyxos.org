@@ -23,12 +23,14 @@ Optional: To verify the *SHA256* digest, run the command `sha256sum FILENAME_OF_
 <table class="table table-striped download">
   <tr><th>Device</th><th>Previous build</th><th>Link</th><th>SHA256</th></tr>
 {% for device in site.data.downloads[release] %}
+{% if device.incremental_link and device.incremental_link != "" and device.incremental_link != nil %}
   <tr>
     <td>{{device.name}} ({{device.codename}})</td>
     <td>{{device.incremental_old_build}}</td>
     <td><a href="{{device.incremental_link}}">Download</a></td>
     <td class="hash">{{device.incremental_sha256}}</td>
   </tr>
+{% endif %}
 {% endfor %}
 </table>
 {% endfor %}
