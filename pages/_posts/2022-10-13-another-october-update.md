@@ -19,7 +19,7 @@ We will be supporting the Pixel 7 and 7 Pro. We have started receiving phones, a
 | Pixel 5, 4a (5G), 5a | 4.2.3 | Stable |
 | Pixel 4a | 4.2.3 | Stable |
 | Pixel 4, 4 XL | 4.2.3 | Stable |
-| Fairphone 4 | 4.2.3 | Stable |
+| Fairphone 4 | 4.2.2 | Stable |
 | Pixel 3a, 3a XL | 4.1.3 | Testing, LTE broken, September security patch |
 | Pixel 3, 3 XL | 4.1.3 | Testing, LTE broken, September security patch |
 | OnePlus | WiP | To be revisited soon |
