@@ -76,6 +76,7 @@ These apps are required for basic functionality and thus always present on the d
 | Pixel 3, 3 XL | any eSIM, single SIM |
 | Pixel 2, 2 XL | Fi-only eSIM, single SIM |
 | Xiaomi Mi A2 | 2 physical SIMs, dual SIM |
+| FP4 | any eSIM + physical SIM, dual SIM |
 
 ### Settings
 * Network & Internet
