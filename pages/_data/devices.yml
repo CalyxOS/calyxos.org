@@ -15,8 +15,10 @@ codenames:
   - sargo
   - crosshatch
   - blueline
+  - FP4
 brands:
   - pixel
+  - fairphone
 cheetah:
   brand: pixel
   model: Pixel 7 Pro (beta)
@@ -121,4 +123,11 @@ blueline:
   manufacturer_support_ends: 2021-10
   calyxos_support_ends: 2023-02
   sim: "single"
+  esim: "yes"
+FP4:
+  brand: fairphone
+  model: Fairphone 4
+  manufacturer_support_ends: 2025-12
+  calyxos_support_ends: tbd
+  sim: "dual"
   esim: "yes"

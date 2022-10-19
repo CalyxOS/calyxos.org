@@ -53,3 +53,6 @@
 - name: Xiaomi Mi A2
   codename: jasmine_sprout
   avb_fingerprint: "4FCA76DA0BFD5276 B764AD6AA5FB1EFF 76D70E98E51CFB CF07C92B6000ACBE"
+- name: Fairphone 4
+  codename: FP4
+  avb_fingerprint: ""

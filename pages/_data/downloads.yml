@@ -180,6 +180,18 @@ stable:
   incremental_sha256:
   incremental_old_build:
   date: '2022-09-09'
+- name: Fairphone 4
+  brand: fairphone
+  codename: FP4
+  version: 4.2.5
+  factory_link: https://release.calyxinstitute.org/FP4-factory-22402050.zip
+  factory_sha256: 074b26a400b6bad7fda0ec85b7be0cf910ffe9077b089d84e2ce88f489e2fdd4
+  ota_link: https://release.calyxinstitute.org/FP4-ota_update-22402050.zip
+  ota_sha256: 9c30e8d43610c670998a40e0dc1c59c85bb11000c4a7c4848e4725d6140ca901
+  incremental_link: https://release.calyxinstitute.org/FP4-incremental-22402020-22402050.zip
+  incremental_sha256: e327ef7ef3e3610643187e0380a5694a23fd4ffe90243708a1ae8b7ba620bee2
+  incremental_old_build: '22402020'
+  date: '2022-10-19'
 beta:
 - name: Pixel 6a
   brand: pixel
@@ -337,6 +349,18 @@ beta:
   incremental_sha256:
   incremental_old_build:
   date: '2022-09-09'
+- name: Fairphone 4
+  brand: fairphone
+  codename: FP4
+  version: 4.2.5
+  factory_link: https://release.calyxinstitute.org/FP4-factory-22402050.zip
+  factory_sha256: 074b26a400b6bad7fda0ec85b7be0cf910ffe9077b089d84e2ce88f489e2fdd4
+  ota_link: https://release.calyxinstitute.org/FP4-ota_update-22402050.zip
+  ota_sha256: 9c30e8d43610c670998a40e0dc1c59c85bb11000c4a7c4848e4725d6140ca901
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2022-10-19'
 releases:
 - stable
 - beta
