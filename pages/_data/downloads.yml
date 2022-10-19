@@ -1,5 +1,29 @@
 ---
 stable:
+- name: Pixel 7 Pro (beta)
+  brand: pixel
+  codename: cheetah
+  version: 4.2.4
+  factory_link: https://release.calyxinstitute.org/cheetah-factory-22402040.zip
+  factory_sha256: 2f83c77416c421f18ce43b7dcd23882f885a25b0a940f6c8cd6098b4bb2e77a8
+  ota_link: https://release.calyxinstitute.org/cheetah-ota_update-22402040.zip
+  ota_sha256: bc9f7ee1729a49442dd85d5b4d9df8a76495ffa0fe97028f9e90c8c23d4f3821
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2022-10-19'
+- name: Pixel 7 (beta)
+  brand: pixel
+  codename: panther
+  version: 4.2.4
+  factory_link: https://release.calyxinstitute.org/panther-factory-22402040.zip
+  factory_sha256: 582fcd88bb338571d179e0181a4aa6a1ef88be27e6587cdcf58535f9a444a40e
+  ota_link: https://release.calyxinstitute.org/panther-ota_update-22402040.zip
+  ota_sha256: 999be55065ddfea9fde7f5ad18ab40a9876185839bdd8addbb359af11e705062
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2022-10-19'
 - name: Pixel 6a
   brand: pixel
   codename: bluejay

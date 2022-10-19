@@ -12,6 +12,7 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 ### Support length
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> Manufacturer support date </th><th> CalyxOS support date </th></tr>
+<tr><td> Pixels 7, 7 Pro </td><td> October 2027 </td><td> October 2027* </td></tr>
 <tr><td> Pixel 6a </td><td> July 2027 </td><td> July 2027* </td></tr>
 <tr><td> Pixels 6, 6 Pro </td><td> October 2026 </td><td> October 2026* </td></tr>
 <tr><td> Pixel 5a (5G) </td><td> August 2024 </td><td> January 2025* </td></tr>

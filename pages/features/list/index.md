@@ -62,6 +62,8 @@ These apps are required for basic functionality and thus always present on the d
 
 | Device | Status |
 | ------ | ------ |
+| Pixel 7 Pro | any eSIM + physical SIM, dual SIM/eSIM |
+| Pixel 7 | any eSIM + physical SIM, dual SIM/eSIM |
 | Pixel 6a | any eSIM + physical SIM, dual SIM |
 | Pixel 6 Pro | any eSIM + physical SIM, dual SIM |
 | Pixel 6 | any eSIM + physical SIM, dual SIM |

@@ -1,4 +1,10 @@
 ---
+- name: Pixel 7 Pro
+  codename: cheetah
+  avb_fingerprint: ""
+- name: Pixel 7
+  codename: panther
+  avb_fingerprint: ""
 - name: Pixel 6a
   codename: bluejay
   avb_fingerprint: "1CD1C64B"
