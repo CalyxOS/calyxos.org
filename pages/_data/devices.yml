@@ -1,5 +1,7 @@
 ---
 codenames:
+  - cheetah
+  - panther
   - bluejay
   - raven
   - oriole
@@ -15,6 +17,20 @@ codenames:
   - blueline
 brands:
   - pixel
+cheetah:
+  brand: pixel
+  model: Pixel 7 Pro (beta)
+  manufacturer_support_ends: 2027-10
+  calyxos_support_ends: 2027-10
+  sim: "dual"
+  esim: "dual"
+panther:
+  brand: pixel
+  model: Pixel 7 (beta)
+  manufacturer_support_ends: 2027-10
+  calyxos_support_ends: 2027-10
+  sim: "dual"
+  esim: "dual"
 bluejay:
   brand: pixel
   model: Pixel 6a
