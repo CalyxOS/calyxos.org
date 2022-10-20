@@ -16,6 +16,24 @@
       "message": "flasher needs work for people with critical locks",
       "revId": "c4b0df90dff9b3afbe33ad3319a7cd5c26f1019e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "82eed203_fcf83616",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-20T22:54:28Z",
+      "side": 1,
+      "message": "1.0.6 fixes this",
+      "parentUuid": "91095f89_bbf4f638",
+      "revId": "c4b0df90dff9b3afbe33ad3319a7cd5c26f1019e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
