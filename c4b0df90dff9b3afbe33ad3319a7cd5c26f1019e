@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "91095f89_bbf4f638",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-20T01:39:07Z",
+      "side": 1,
+      "message": "flasher needs work for people with critical locks",
+      "revId": "c4b0df90dff9b3afbe33ad3319a7cd5c26f1019e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
