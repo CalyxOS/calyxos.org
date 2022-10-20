@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "28ba9fd6_e29de2e2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-20T19:47:53Z",
+      "side": 1,
+      "message": "I\u0027d want to mention them somewhere eventually as previously supported but that\u0027s a different issue.",
+      "revId": "f8e9e98bb03f9d5657029c98fbfc9f6a2cdc3699",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
