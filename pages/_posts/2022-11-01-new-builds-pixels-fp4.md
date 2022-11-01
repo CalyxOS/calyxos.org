@@ -3,9 +3,9 @@ title: New builds for Pixel 3 - 7, FP4
 date: 2022-11-01
 ---
 
-CalyxOS 4.2.6 - Android 13 is now available for the Pixels 3 - 7, and also the Fairphone 4.
+CalyxOS 4.2.6 - Android 13 for the Pixels 3 - 7, and also the Fairphone 4.
 
-It's in the beta channel for Pixel 4 - 7, and FP4.
+Pixel 4 - 7, and FP4 - the builds have been pulled from beta due to an issue.
 
 It's available as a test release for the Pixel 3, 3a and will be released to beta if all goes well.
 
@@ -22,14 +22,14 @@ It's available as a test release for the Pixel 3, 3a and will be released to bet
 ## Devices
 
 ### Pixel 7
-* CalyxOS 4.2.6 is now available as beta
+* CalyxOS 4.2.6, builds pulled due to an issue, will be available again soon.
 
 #### Known issues
 * When Smooth Display is turned off, fingerprint doesn't work reliably
 * Face unlock is not available
 
 ### Pixel 4 - 6a
-* CalyxOS 4.2.6 is now available as beta
+* CalyxOS 4.2.6, builds pulled due to an issue, will be available again soon.
 * Should be fully working
 
 ### Pixel 3, 3a
