@@ -3,14 +3,12 @@ title: New builds for Pixel 3 - 7, FP4
 date: 2022-11-01
 ---
 
-CalyxOS 4.2.6 - Android 13 for the Pixels 3 - 7, and also the Fairphone 4.
+CalyxOS 4.2.7 - Android 13 is now available for the Pixels 3 - 7, and also the Fairphone 4.
 
-Pixel 4 - 7, and FP4 - the builds have been pulled from beta due to an issue.
-
-It's available as a test release for the Pixel 3, 3a and will be released to beta if all goes well.
+It's currently in the beta channel, and will be bumped to stable later if all goes well. Factory images will be available at that time as well.
 
 ## Changelog
-* CalyxOS 4.2.6 - Android 13 - Tiramisu
+* CalyxOS 4.2.7 - Android 13 - Tiramisu
 * Fix VPN issues with mobile data on certain carriers
 * microG: v0.2.25.223616
 * microG: FIDO Support - allows using U2F and Fido devices via USB or NFC with supported Browsers (Chromium and Firefox) and to sign into your Google Account in microG.
@@ -19,21 +17,25 @@ It's available as a test release for the Pixel 3, 3a and will be released to bet
 * Settings: Add toggle for Connectivity check. Settings -> Network and internet -> Connectivity check
 * Allow using Bromite System WebView again (Bromite 106 or higher required)
 
+### Changelog from 4.2.6 (It was briefly in beta, and then pulled due to the issues reported)
+* microG: Fix notifications not working / toggle turning off
+* Pixel 6, 6 Pro, 6a: Fix Night Light, Reading mode, and also the crashes due to that.
+
 ## Devices
 
 ### Pixel 7
-* CalyxOS 4.2.6, builds pulled due to an issue, will be available again soon.
+* CalyxOS 4.2.7 is now available as beta
 
 #### Known issues
 * When Smooth Display is turned off, fingerprint doesn't work reliably
 * Face unlock is not available
 
 ### Pixel 4 - 6a
-* CalyxOS 4.2.6, builds pulled due to an issue, will be available again soon.
+* CalyxOS 4.2.7 is now available as beta
 * Should be fully working
 
 ### Pixel 3, 3a
-* CalyxOS 4.2.6 is now available for testing
+* CalyxOS 4.2.7 is now available as beta
 * LTE has been fixed. Thanks to LineageOS and PixelExperience
 * Mobile data, calls (both incoming and outgoing), and texts work fine
 * There were no other major issues reported with the previous tested builds
@@ -49,10 +51,8 @@ It's available as a test release for the Pixel 3, 3a and will be released to bet
 1. Settings -> System -> System update settings -> Release channel -> Beta
 2. Then, tap the "Check for updates" button.
 
-### Pixel 3, 3a
+### Pixel 3, 3a - first Android 13 beta
 1. Make sure your phone is running the latest stable CalyxOS 3.9.0 - Factory images will be available later. If you're on the previous test Tiramisu build, you can skip this step.
-2. Go through the Known issues list above, and make sure you're ok with that
-3. Backup your data - you can use SeedVault, the included Backup app.
-4. Enable USB Debugging on your phone.
-5. From your computer: `adb shell setprop sys.update.channel thirteen`
-6. Then, on your phone: Settings -> System -> System update settings -> Check for updates
+2. Backup your data - you can use SeedVault, the included Backup app.
+3. Settings -> System -> System update settings -> Release channel -> Beta
+4. Then, tap the "Check for updates" button.
