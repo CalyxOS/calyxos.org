@@ -16,6 +16,24 @@
       "message": "The CalyxOS releases for it only contain the **latest** fixes perhaps?\n\ni.e. add latest to it.",
       "revId": "f87b6fa810e16d9d3898d3ecabcce850e711b66c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b4d2f22_7d04ac8d",
+        "filename": "pages/_includes/install/security_notes.html",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-08T20:22:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d45d6553_cc200054",
+      "revId": "f87b6fa810e16d9d3898d3ecabcce850e711b66c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
