@@ -44,6 +44,7 @@ Trusted comment: CalyxOS 2.7.1 - July 2021
 * Place both files in the same folder, and then run:
 
 ```shell
+gpg --recv-keys BC2CB9C4993C086FFDAD8D205905C9C74693488B
 gpg --verify minisign.pub.sig minisign.pub
 ```
 
