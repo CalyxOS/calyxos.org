@@ -16,6 +16,24 @@
       "message": "Maybe something like\n\nFairphone 4 follows a different security update release schedule compared to the Pixels.\n\nCould also add something about how it lags behind by a month or two.",
       "revId": "3d4ca3e11ccec488c9b97d3041926b319862e745",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8801c847_050a1d78",
+        "filename": "pages/_includes/install/security_notes.html",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-08T20:09:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4579c74f_1a0f65ef",
+      "revId": "3d4ca3e11ccec488c9b97d3041926b319862e745",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
