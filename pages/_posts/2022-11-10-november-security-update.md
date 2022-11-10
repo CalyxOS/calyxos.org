@@ -5,8 +5,6 @@ date: 2022-11-10
 
 CalyxOS 4.3.0 - Android 13 is now available for the Pixels 3 - 7, and the Fairphone 4
 
-It is currently in the beta channel, and will be bumped to stable later if all goes well. Factory images will be available at that time as well.
-
 ## Changelog
 * CalyxOS 4.3.0 - Android 13 - Tiramisu
 * November 2022 Security update (2022-11-05)
