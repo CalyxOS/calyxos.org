@@ -1,8 +1,8 @@
 ---
-title: Install on Pixel 7 Pro (beta)
+title: Install on Pixel 7 Pro
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 7 Pro (beta) => cheetah]]</strong>
+<strong>[[Install => install]]</strong> / <strong>[[Pixel 7 Pro => cheetah]]</strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

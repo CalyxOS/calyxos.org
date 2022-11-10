@@ -1,10 +1,10 @@
 ---
-title: Install on Pixel 7 (beta)
+title: Install on Pixel 7
 description: From a Windows computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 7 (beta) => panther]]</strong> / <strong>Windows</strong>
+<strong>[[Install => install]]</strong> / <strong>[[Pixel 7 => panther]]</strong> / <strong>Windows</strong>
 
 ## Terminology
 
@@ -42,7 +42,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 <a class="btn" href="https://release.calyxinstitute.org/panther-factory-22402070.zip">Download CalyxOS Image</a>
 
-Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 7 (beta) (panther)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
+Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 7 (panther)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
 Do not extract or rename the zip, simply copy it as-is.
 
