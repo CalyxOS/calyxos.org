@@ -21,14 +21,14 @@ brands:
   - fairphone
 cheetah:
   brand: pixel
-  model: Pixel 7 Pro (beta)
+  model: Pixel 7 Pro
   manufacturer_support_ends: 2027-10
   calyxos_support_ends: 2027-10
   sim: "dual"
   esim: "dual"
 panther:
   brand: pixel
-  model: Pixel 7 (beta)
+  model: Pixel 7
   manufacturer_support_ends: 2027-10
   calyxos_support_ends: 2027-10
   sim: "dual"
