@@ -11,7 +11,7 @@ CalyxOS includes [F-Droid](https://f-droid.org) by default. However, since it is
 #### Preparation
 
 ```shell
-cd ~/calyxos/android12L
+cd ~/calyxos/android13
 cd external/fdroid/fdroidclient
 git fetch --tags
 export JAVA_OPTS="-Xmx2048m"

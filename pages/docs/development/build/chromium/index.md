@@ -25,7 +25,7 @@ Steps:
    * `git fetch --tags $V && git checkout -b calyxos-$V $V`
    * `gclient sync -D`
 2. Fetch our patches and build configuration
-   * `git clone https://gitlab.com/CalyxOS/chromium-patches -b android12L`
+   * `git clone https://gitlab.com/CalyxOS/chromium-patches -b android13`
 3. Apply patches (you version has to match the version in args.gn)
    * `git am chromium-patches/*.patch`
 4. Setup build config

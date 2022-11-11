@@ -57,9 +57,9 @@ chmod a+x ~/bin/repo
 Now you can download the CalyxOS source code.
 
 ```shell
-mkdir ~/calyxos/android12L
-cd ~/calyxos/android12L
-repo init -u https://gitlab.com/CalyxOS/platform_manifest -b android12L
+mkdir ~/calyxos/android13
+cd ~/calyxos/android13
+repo init -u https://gitlab.com/CalyxOS/platform_manifest -b android13
 repo sync -j8 # You may use a higher number here if you have a fast computer and fast internet
 ```
 
