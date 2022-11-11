@@ -25,7 +25,6 @@
     - contribute
     - gerrit
     - build:
-      - app-fdroid
       - app-microg
       - chromium
       - emulator
