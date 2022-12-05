@@ -23,7 +23,7 @@ These network connections are initiated by the operating system itself and canno
 </tr>
 <tr>
   <td>connectivitycheck.gstatic.com</td>
-  <td>CalyxOS connects to this Google service to determine if the device can connect to the internet. If that domain is unreachable, it may also try www.google.com, play.googleapis.com, or (in China only) www.googleapis.cn.</td>
+  <td>CalyxOS connects to this Google service to determine if the device can connect to the internet. If that domain is unreachable, it may also try www.google.com, play.googleapis.com, or (in China only) www.googleapis.cn. This can be turned off from Settings -> Network & internet -> Connectivity check</td>
 </tr>
 <tr>
   <td>time.android.com</td>
@@ -94,9 +94,9 @@ Per-request logs are kept strictly private without Calyx Institute.
 
 We have considered replacing Google servers for updating the system time and for connectivity check but decided against it. Our position is that using Google servers provides better privacy in this situation by allowing CalyxOS users to hide among the crowd of every other Android device on earth. Imagine if every CalyxOS device was using non-standard servers for these core functions. If we did this, it would be trivially easy for a repressive state to instantly identify all the people running CalyxOS devices and potentially target them for scrutiny.
 
-Additionally, in the case of connectivity check and time updates, Google does not get any meaningful information from your device.
+Additionally, in the case of connectivity check and time updates, Google does not get any meaningful information from your device. It can be turned off from Settings -> Network & internet -> Connectivity check
 
-In the future, we may allow these settings to be changed, although we still advise against doing so.
+In the future, we may allow further configuration of these settings, although we still advise against doing so.
 
 ### What is Qualcomm doing?
 
