@@ -1,15 +1,14 @@
 ---
-title: 4.3.1 - Bugfixes and improvements
+title: 4.3.2 - Bugfixes and improvements
 date: 2022-12-03
 ---
 
-CalyxOS 4.3.1 is now avaiable for the Pixels 3 4a, 5, 6 - 7, and the Fairphone 4.
-Builds for Pixel 4a (5G) and 5a will be available soon.
+CalyxOS 4.3.2 is now avaiable for all supported Pixels, and the Fairphone 4.
 
 It is currently in the beta channel.
 
 ## Changelog
-* CalyxOS 4.3.1
+* CalyxOS 4.3.2 - fixes random reboots that happened in the 4.3.1 beta
 * New bootanimation, new default wallpaper!
 * Old wallpaper, and one more new option is available.
 * Launcher: Fix layout bug
@@ -19,7 +18,8 @@ It is currently in the beta channel.
 * Gallery: Show correct location in image info
 * Settings: Add System -> Other Options, to expose some commonly used Developer Options without needing it enabled.
 * microG: Fix some cases where google account login with FIDO hardware key failed.
-* Chromium: 108.0.5359.61 (108.0.5359.79 available in our testing F-Droid repo)
+* Chromium: 108.0.5359.79 (latest stable)
+* microG: v0.2.26.223616
 * Work profile: Improve app layout, add some helpful text.
 * microG: Remove entry from Settings -> System to avoid confusion. Launcher icon still present.
 * Support creating a work profile on secondary users.
