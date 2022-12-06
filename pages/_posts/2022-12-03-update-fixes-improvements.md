@@ -3,7 +3,7 @@ title: 4.3.2 - Bugfixes and improvements
 date: 2022-12-03
 ---
 
-CalyxOS 4.3.2 is now avaiable for all supported Pixels, and the Fairphone 4.
+CalyxOS 4.3.2 is now available for all supported Pixels, and the Fairphone 4.
 
 It is currently in the beta channel.
 
