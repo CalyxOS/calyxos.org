@@ -5,7 +5,7 @@ date: 2022-12-03
 
 CalyxOS 4.3.2 is now available for all supported Pixels, and the Fairphone 4.
 
-It is currently in the beta channel.
+Bumped to stable as of Dec 7, 2022.
 
 ### December update
 * The December Security update is [work in progress](https://review.calyxos.org/q/topic:dec22).
