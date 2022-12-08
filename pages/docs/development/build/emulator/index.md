@@ -16,13 +16,7 @@ For the emulator, the steps are:
 cd ~/calyxos/android13
 source build/envsetup.sh
 lunch calyx_sdk_phone_x86_64-userdebug # x86 for the 32-bit image.
-m sdk sdk_repo
+m
 ```
 
 You can now run `emulator` to directly launch the built image.
-
-Alternatively, you want take the below files,
-* `out/host/linux-x86/sdk/calyx_sdk_phone_x86_64/calyxos-emulator-system-images-x86_64-calyxos-eng.$USERNAME.zip`
-* `out/host/linux-x86/sdk/calyx_sdk_phone_x86_64/repo-sys-img.xml`
-
-Copy them to a webserver (`python -m http.server` is a great local webserver!) and then you can add them to Android Studio.
