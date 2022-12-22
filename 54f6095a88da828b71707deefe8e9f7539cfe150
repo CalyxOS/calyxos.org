@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8eeb97ee_de99af87",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-12-22T12:35:59Z",
+      "side": 1,
+      "message": "First pass.\n\nI don\u0027t have anything against specific instructions, but at the same time I feel like not having too many options, and just keeping things simpler would be useful.\n\nLike a simple\nGot a bug? See if it\u0027s reported, if not\n\nSettings -\u003e Dev Options -\u003e Take Bugreport -\u003e File Confidential issue or email.",
+      "revId": "54f6095a88da828b71707deefe8e9f7539cfe150",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "089830c9_7d84a79e",
+        "filename": "pages/docs/guide/bug-reporting.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-12-22T12:35:59Z",
+      "side": 1,
+      "message": "Not the biggest fan of this text - I\u0027d prefer a generic lookup if there\u0027s an issue, or just describe and report.",
+      "revId": "54f6095a88da828b71707deefe8e9f7539cfe150",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "18bef868_62d5b5ef",
+        "filename": "pages/docs/guide/bug-reporting.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-12-22T12:35:59Z",
+      "side": 1,
+      "message": "We can just add them here.",
+      "revId": "54f6095a88da828b71707deefe8e9f7539cfe150",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a7e3d1f5_b5624a08",
+        "filename": "pages/docs/guide/bug-reporting.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-12-22T12:35:59Z",
+      "side": 1,
+      "message": "I\u0027d drop the (or link) bit unless we have a specific suggestion here.",
+      "revId": "54f6095a88da828b71707deefe8e9f7539cfe150",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2fee0a21_604140b4",
+        "filename": "pages/docs/guide/bug-reporting.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-12-22T12:35:59Z",
+      "side": 1,
+      "message": "Let\u0027s just stick to confidential issue. Internal notes can only be left by us maintainers.",
+      "revId": "54f6095a88da828b71707deefe8e9f7539cfe150",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "11a2d7e1_8bb3afaa",
+        "filename": "pages/docs/guide/bug-reporting.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-12-22T12:35:59Z",
+      "side": 1,
+      "message": "Lets drop this IMO. Too many options confuse, and this one is easy to mix up.",
+      "revId": "54f6095a88da828b71707deefe8e9f7539cfe150",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
