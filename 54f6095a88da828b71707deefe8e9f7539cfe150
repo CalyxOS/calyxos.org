@@ -20,6 +20,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d0cb5c9f_6ddf367a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-12-22T12:51:09Z",
+      "side": 1,
+      "message": "Can upload a new patchset soon in response to feedback; also fine with me if you wanted to.",
+      "revId": "54f6095a88da828b71707deefe8e9f7539cfe150",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "089830c9_7d84a79e",
         "filename": "pages/docs/guide/bug-reporting.md",
         "patchSetId": 1
@@ -31,6 +48,24 @@
       "writtenOn": "2022-12-22T12:35:59Z",
       "side": 1,
       "message": "Not the biggest fan of this text - I\u0027d prefer a generic lookup if there\u0027s an issue, or just describe and report.",
+      "revId": "54f6095a88da828b71707deefe8e9f7539cfe150",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e48207c9_a1edc7dc",
+        "filename": "pages/docs/guide/bug-reporting.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-12-22T12:51:09Z",
+      "side": 1,
+      "message": "So replace the line with something like this, or...?\n\n\u003e **Does it appear to be an app crashing/misbehaving, as opposed to the entire phone?** Check [CalyxOS\u0027s GitLab issues](https://gitlab.com/CalyxOS/calyxos/-/issues) to look up known problems, or [create a new issue](https://gitlab.com/CalyxOS/calyxos/-/issues/new) describing yours.",
+      "parentUuid": "089830c9_7d84a79e",
       "revId": "54f6095a88da828b71707deefe8e9f7539cfe150",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -65,6 +100,24 @@
       "writtenOn": "2022-12-22T12:35:59Z",
       "side": 1,
       "message": "I\u0027d drop the (or link) bit unless we have a specific suggestion here.",
+      "revId": "54f6095a88da828b71707deefe8e9f7539cfe150",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a77793b3_375bf838",
+        "filename": "pages/docs/guide/bug-reporting.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-12-22T12:51:09Z",
+      "side": 1,
+      "message": "OK.\n\nI wanted to suggest share.riseup.net, but there is no way we could guarantee retrieval of those files within 12 hours.",
+      "parentUuid": "a7e3d1f5_b5624a08",
       "revId": "54f6095a88da828b71707deefe8e9f7539cfe150",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
