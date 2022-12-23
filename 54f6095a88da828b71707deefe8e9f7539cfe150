@@ -90,6 +90,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c260f7c0_fb51dc56",
+        "filename": "pages/docs/guide/bug-reporting.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-12-23T16:30:13Z",
+      "side": 1,
+      "message": "Are we envisioning this specifically as a guide for how to create and share a bug report zip file, then? If so, then yeah, a lot can be removed.\n\nOtherwise, I guess it doesn\u0027t necessarily matter, but part of the point was to de-emphasize the necessity of attaching a full-blown bug report for app issues. It could be useful to have in some cases, but also potentially overkill and a barrier to reporting. So maybe we just don\u0027t suggest it by default, but we can request it as needed.",
+      "parentUuid": "d2e30914_7a3a6fdd",
+      "revId": "54f6095a88da828b71707deefe8e9f7539cfe150",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "18bef868_62d5b5ef",
         "filename": "pages/docs/guide/bug-reporting.md",
         "patchSetId": 1
