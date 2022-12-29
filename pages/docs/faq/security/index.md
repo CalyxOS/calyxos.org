@@ -2,6 +2,8 @@
 title: Security FAQ
 description: Frequently asked questions about CalyxOS security
 toc: true
+redirect_from:
+    - /docs/guide/security/security-faq
 ---
 
 ### How secure is the signing infrastructure for the OS builds?
