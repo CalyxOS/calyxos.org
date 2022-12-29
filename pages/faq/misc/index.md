@@ -1,12 +1,8 @@
 ---
-title: Frequently Asked Questions
-description: 🙋 Get answers to some of the most common questions!
-nav_title: FAQ
+title: FAQ -> Misc
+nav_title: Misc
 toc: true
 toc_title: Questions
-redirect_from:
-    - /faq/
-    - /about/faq/
 ---
 
 ### Device support
