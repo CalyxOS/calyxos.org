@@ -5,10 +5,11 @@
 - docs:
   - about:
     - team
+  - faq:
+    - misc
   - guide:
     - apps
     - device-support
-    - faq
     - microg
     - updates
     - security:
