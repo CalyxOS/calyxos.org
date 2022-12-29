@@ -8,6 +8,7 @@
     - team
   - faq:
     - install
+    - security
     - misc
   - guide:
     - apps
@@ -15,7 +16,6 @@
     - microg
     - updates
     - security:
-      - security-faq
       - bootloader-lock
       - identifiers
       - location
