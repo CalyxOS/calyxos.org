@@ -23,7 +23,7 @@ pages:
     paths:
     - public
   only:
-  - main
+  - faq
 
 test:
   stage: test
@@ -34,3 +34,5 @@ test:
   artifacts:
     paths:
     - test
+  except:
+  - faq
