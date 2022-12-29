@@ -41,6 +41,11 @@ defaults:
       path: "docs"
     values:
       layout: "sidenav"
+  -
+    scope:
+      path: "faq"
+    values:
+      layout: "sidenav"
 
 exclude:
   - assets/images/original
