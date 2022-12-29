@@ -30,10 +30,6 @@
   }
 }
 
-.navbar .nav-link {
-  margin: 0.25em;
-}
-
 .navbar-toggle {
   height: 2.5rem;
   width: 2.5rem;
@@ -68,9 +64,6 @@
     top: calc(var(--spacing-xxlarge)* 1.125);
     padding: var(--spacing-medium);
     border-radius: var(--radius-base);
-    .nav-link {
-      padding: 0.75em 0.5em 0.5em 1em;
-    }
   }
 
   nav ul li {
