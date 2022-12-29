@@ -2,13 +2,14 @@
 - features
 - community:
   - code-of-conduct
+- faq:
+  - misc
 - docs:
   - about:
     - team
   - guide:
     - apps
     - device-support
-    - faq
     - microg
     - updates
     - security:
