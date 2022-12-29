@@ -1,4 +1,4 @@
-image: ruby:latest
+image: ruby:3.1
 
 cache:
   paths:
