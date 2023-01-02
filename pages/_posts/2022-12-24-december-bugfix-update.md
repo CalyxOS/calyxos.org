@@ -7,7 +7,7 @@ Happy Holidays!
 
 CalyxOS 4.4.1 - December 2022 Quarterly Platform Release and Security update is now available for the Pixels 3 - 7, and the Fairphone 4
 
-It's in the beta channel, and given the holidays, will stay in beta for a while just in case there's potential issues. Unlikely given that it's only a minor bugfix release, but better be safe than sorry.
+It was bumped to stable on Monday, January 2, 2023.
 
 We're still investigating the issues reported in 4.4.0, mainly the random shutdowns which seem to be happening for some people.
 
