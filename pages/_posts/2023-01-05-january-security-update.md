@@ -5,7 +5,7 @@ date: 2023-01-05
 
 CalyxOS 4.5.0 - January 2023 Security update is now available for the Pixels 3 - 7, and the Fairphone 4
 
-Released to beta as of January 6, Friday.
+Released to stable as of Friday, January 6.
 
 ## Changelog
 * CalyxOS 4.5.0
