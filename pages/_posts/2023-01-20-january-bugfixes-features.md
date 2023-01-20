@@ -1,0 +1,46 @@
+---
+title: Another January update - Bugfixes and new features!
+date: 2023-01-20
+---
+
+CalyxOS 4.5.1 - January 2023 Security update - Bugfixes and new features is now available for the Pixels 3 - 7, and the Fairphone 4
+
+It is currently in the beta channel, and will get bumped to stable sometime next week. Factory images will be available at that time as well.
+
+## Changelog
+* CalyxOS 4.5.1
+* January 2023 Security update
+* Fix unresponsive black screen / apparent shutdown
+* Camera: Replace the app with LineageOS Aperture - implements several missing features - <https://lineageos.org/Changelog-27/#amazing-aperture>
+* Chromium 109.0.5414.86 (latest stable)
+* microG: v0.2.27.223616
+* Work profile: Fix apps missing from Recents in some cases
+* Fix Firewall VPN handling, especially with split tunnels
+* Settings: Fix possible TTS crash during language selection
+* Bug reports vibrate noticeably, including after completion
+* Launcher: Fix openining of wrong app from search
+* Launcher: Themed icons option now available, they only show up on homescreen
+* SeedVault: Mark Nextcloud as not recommended due to multiple issues reported. DAVx5 can be used for Nextcloud as well
+* SeedVault: Warn before turning off backups
+* SeedVault: Grant permission required for storage backups
+* Settings -> System -> Other Options: No need for Developer Options for these!
+  * Wi-Fi non-persistent MAC randomization
+  * Bug reporting features
+  * OEM Unlocking
+* Update translations
+* Update all included apps
+
+### Pixel 6, 6a, 7
+* Allow unlocking phone via fingerprint without pressing power button,
+  Settings -> Display -> Lock screen -> Long press on fingerprint sensor to unlock phone
+
+### Pixel 3, 3a
+* Update kernel to Linux 4.9.336
+
+### Fairphone 4
+* Update kernel to Linux 4.19.269
+* Bluetooth: Fix some A2DP issues
+
+### Note
+
+{% include install/security_notes.html %}
