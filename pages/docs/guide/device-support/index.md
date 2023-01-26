@@ -20,8 +20,8 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 <tr><td> Pixel 5 </td><td> October 2023 </td><td> January 2025* </td></tr>
 <tr><td> Pixel 4a </td><td> August 2023 </td><td> February 2024* </td></tr>
 <tr><td> Pixels 4, 4 XL </td><td> October 2022 </td><td> February 2024* </td></tr>
-<tr><td> Pixels 3a, 3a XL </td><td> May 2022 </td><td> February 2023* </td></tr>
-<tr><td> Pixels 3, 3 XL </td><td> October 2021 </td><td> February 2023* </td></tr>
+<tr><td> Pixels 3a, 3a XL </td><td> May 2022 </td><td> August 2023* </td></tr>
+<tr><td> Pixels 3, 3 XL </td><td> October 2021 </td><td> August 2023* </td></tr>
 <tr><td> Pixels 2, 2 XL </td><td> October 2020 </td><td> February 2022 </td></tr>
 <tr><td> Xiaomi Mi A2 </td><td> August 2021 </td><td> February 2022 </td></tr>
 <tr><td> Fairphone 4 </td><td> December 2026* </td><td> TBD* </td></tr>
