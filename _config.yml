@@ -41,6 +41,11 @@ defaults:
       path: "docs"
     values:
       layout: "sidenav"
+  -
+    scope:
+      path: "docs/guide/getting-started"
+    values:
+      layout: "page"
 
 exclude:
   - assets/images/original
