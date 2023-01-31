@@ -1,0 +1,157 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a2e0d71d_2e8024cf",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-31T18:43:37Z",
+      "side": 1,
+      "message": "We can link to the respective pages we have about these.\n\nAlso, maybe just change the line to:\n\n\"CalyxOS comes with two app stores, F-Droid and Aurora Store.\"",
+      "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f7374b7d_e3a573aa",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-31T18:43:37Z",
+      "side": 1,
+      "message": "We could link to the detailed guide for this.",
+      "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "55795eda_835ac412",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-31T18:43:37Z",
+      "side": 1,
+      "message": "TODO",
+      "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1b91db39_f1bdf9b5",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-31T18:43:37Z",
+      "side": 1,
+      "message": "TODO: Mention SMS app",
+      "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1bb62666_1199d525",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-31T18:43:37Z",
+      "side": 1,
+      "message": "TODO: Link to our pages for these apps, and icons.\n\nIf we automated the list we\u0027d lose the order.",
+      "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fe7b508c_15cb9978",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 182,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-31T18:43:37Z",
+      "side": 1,
+      "message": "Doesn\u0027t mention GCamPhotosPreview at all :/",
+      "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7e4725f0_515de945",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 251,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-31T18:43:37Z",
+      "side": 1,
+      "message": "Better separator.",
+      "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "38820443_43e1161e",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-31T18:43:37Z",
+      "side": 1,
+      "message": "I don\u0027t know how I feel about including this here, given it\u0027s constantly changing, and also non-exhaustive.",
+      "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "13c989d9_fef1f54f",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-31T18:43:37Z",
+      "side": 1,
+      "message": "For the record we submitted a patch for this which has been merged, Aurora Store just needs to make a new release with it.",
+      "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
