@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e80095e_270450b7",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-02-01T09:42:40Z",
+      "side": 1,
+      "message": "TODO: Split",
+      "revId": "aaa96241933e3196c9cfd34476cf94d6654a30bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
