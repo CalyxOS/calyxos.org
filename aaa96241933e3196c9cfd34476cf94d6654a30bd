@@ -18,6 +18,91 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6df4b1e1_75b1e204",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-09T15:32:20Z",
+      "side": 1,
+      "message": "Overall, this is great! Thanks to Brandon for this!\n\nIdeally, imo, there would be an easier place for people to make documentation contributions than Gerrit, especially if we want more community involvement.",
+      "revId": "aaa96241933e3196c9cfd34476cf94d6654a30bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "de013ba3_9109fe28",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-09T15:32:20Z",
+      "side": 1,
+      "message": "Nitpick: Maybe: \"Install open-source apps with F-Droid, or install apps from the Play Store anonymously with Aurora Store.\"\n\n(They are not technically \"using\" the Google Play store in the way Google intends it to be used, which is a benefit.)",
+      "revId": "aaa96241933e3196c9cfd34476cf94d6654a30bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "606ee29b_e008254d",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-09T15:32:20Z",
+      "side": 1,
+      "message": "Linkify some of this text to point to [Bromite](https://www.bromite.org)?",
+      "revId": "aaa96241933e3196c9cfd34476cf94d6654a30bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4d505ecd_5188ae00",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-09T15:32:20Z",
+      "side": 1,
+      "message": "If/when we have dedicated pages for Datura Firewall, Seedvault, etc., linkify them?",
+      "revId": "aaa96241933e3196c9cfd34476cf94d6654a30bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "697e7e40_8fc224a7",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-09T15:32:20Z",
+      "side": 1,
+      "message": "Nitpick: Maybe \"The built-in keyboard does not support gesture typing\"? There are some third-party keyboards that support this, on F-Droid as well (Florisboard).",
+      "revId": "aaa96241933e3196c9cfd34476cf94d6654a30bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3e80095e_270450b7",
