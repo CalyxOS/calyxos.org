@@ -37,6 +37,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9264cb75_5ddefc07",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-02-09T16:15:33Z",
+      "side": 1,
+      "message": "summary: tbd",
+      "revId": "aaa96241933e3196c9cfd34476cf94d6654a30bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "de013ba3_9109fe28",
         "filename": "pages/docs/guide/getting-started/index.md",
         "patchSetId": 4
