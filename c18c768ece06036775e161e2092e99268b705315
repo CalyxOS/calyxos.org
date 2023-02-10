@@ -35,6 +35,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea5763b4_bcb6c55e",
+        "filename": "pages/docs/guide/security/network-activity.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-10T22:57:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "61f58782_7464de1c",
+      "revId": "c18c768ece06036775e161e2092e99268b705315",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "31e49b8e_feeac845",
@@ -48,6 +66,24 @@
       "writtenOn": "2023-02-10T19:39:03Z",
       "side": 1,
       "message": "nit: \"users\u0027 privacy\" (apostrophe placement)",
+      "revId": "c18c768ece06036775e161e2092e99268b705315",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "899958df_5f844801",
+        "filename": "pages/docs/guide/security/network-activity.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-10T22:57:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "31e49b8e_feeac845",
       "revId": "c18c768ece06036775e161e2092e99268b705315",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -69,6 +105,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ea451a1_252a9417",
+        "filename": "pages/docs/guide/security/network-activity.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-10T22:57:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d90bf5c4_ff77f269",
+      "revId": "c18c768ece06036775e161e2092e99268b705315",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "18a45a46_bd10d75d",
@@ -82,6 +136,24 @@
       "writtenOn": "2023-02-10T19:39:03Z",
       "side": 1,
       "message": "\"SUPL is an assistive GPS (A-GPS) service\"\n\n\"includes the device\u0027s IMEI\" -\u003e \"typically includes the device\u0027s IMSI or phone number\"",
+      "revId": "c18c768ece06036775e161e2092e99268b705315",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "32ef5f2e_bcc9122d",
+        "filename": "pages/docs/guide/security/network-activity.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-10T22:57:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "18a45a46_bd10d75d",
       "revId": "c18c768ece06036775e161e2092e99268b705315",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -103,6 +175,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "030b4fd8_5a8c0c62",
+        "filename": "pages/docs/guide/security/network-activity.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-10T22:57:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "12964d5c_f52be34f",
+      "revId": "c18c768ece06036775e161e2092e99268b705315",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b91c3f26_29787da1",
@@ -116,6 +206,24 @@
       "writtenOn": "2023-02-10T20:24:39Z",
       "side": 1,
       "message": "-\u003e `### What are Key Attestation and Remote Key Provisioning?`",
+      "revId": "c18c768ece06036775e161e2092e99268b705315",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b0058726_32fa6b68",
+        "filename": "pages/docs/guide/security/network-activity.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-10T22:57:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b91c3f26_29787da1",
       "revId": "c18c768ece06036775e161e2092e99268b705315",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -151,6 +259,24 @@
       "side": 1,
       "message": "Maybe something like this?:\n`Key attestation is a system meant to \"ensure the integrity of the device and apps running on the device\" (source: \u003ca href\u003d\"https://security.googleblog.com/2022/05/io-2022-android-13-security-and-privacy.html\"\u003eGoogle Security Blog\u003c/a\u003e). Remote Key Provisioning is a sub-feature which ensures that claims made by compromised OS versions are considered invalid, and also that devices are able to recover their genuine status when newer, uncompromised OS versions are installed. This feature depends on Google servers and is primarily useful in combination with microG and services like SafetyNet, Identity Credential, and Digital Car Key. However, recent research has highlighted that Android still performs communication with Google as part of the Remote Key Provisioning system, even in the absence of microG or Google Play services. CalyxOS is currently looking into this issue and considering ways to address it.`",
       "parentUuid": "4b077410_19f63896",
+      "revId": "c18c768ece06036775e161e2092e99268b705315",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f5515ca_4d1dd568",
+        "filename": "pages/docs/guide/security/network-activity.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-10T22:57:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da5ede58_865eb60b",
       "revId": "c18c768ece06036775e161e2092e99268b705315",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
