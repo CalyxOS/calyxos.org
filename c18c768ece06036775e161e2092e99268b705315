@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48b0babd_1735d8b7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-10T19:39:03Z",
+      "side": 1,
+      "message": "Thanks for working on this, Elijah! This is looking pretty good to me. I mainly want to check a little more into device attestation.",
+      "revId": "c18c768ece06036775e161e2092e99268b705315",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "61f58782_7464de1c",
+        "filename": "pages/docs/guide/security/network-activity.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-10T19:39:03Z",
+      "side": 1,
+      "message": "\"Used by microG\" -\u003e \"Used by the Mozilla Location Service module for microG\"",
+      "revId": "c18c768ece06036775e161e2092e99268b705315",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "31e49b8e_feeac845",
+        "filename": "pages/docs/guide/security/network-activity.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-10T19:39:03Z",
+      "side": 1,
+      "message": "nit: \"users\u0027 privacy\" (apostrophe placement)",
+      "revId": "c18c768ece06036775e161e2092e99268b705315",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d90bf5c4_ff77f269",
+        "filename": "pages/docs/guide/security/network-activity.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-10T19:39:03Z",
+      "side": 1,
+      "message": "Maybe something like this (considering we added a Connectivity Check toggle despite it being a functionality downgrade in most cases)?\n\"Regardless, we continue to look for ways to give users greater control over the use of Google services so that they can decide what works best for them.\"?",
+      "revId": "c18c768ece06036775e161e2092e99268b705315",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "18a45a46_bd10d75d",
+        "filename": "pages/docs/guide/security/network-activity.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-10T19:39:03Z",
+      "side": 1,
+      "message": "\"SUPL is an assistive GPS (A-GPS) service\"\n\n\"includes the device\u0027s IMEI\" -\u003e \"typically includes the device\u0027s IMSI or phone number\"",
+      "revId": "c18c768ece06036775e161e2092e99268b705315",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4b077410_19f63896",
+        "filename": "pages/docs/guide/security/network-activity.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-10T19:39:03Z",
+      "side": 1,
+      "message": "I want to verify some of this information, and maybe make a mention of the relationship to microG (we know this happens even with microG disabled).",
+      "revId": "c18c768ece06036775e161e2092e99268b705315",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
