@@ -88,6 +88,40 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "12964d5c_f52be34f",
+        "filename": "pages/docs/guide/security/network-activity.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-10T20:24:39Z",
+      "side": 1,
+      "message": "Maybe something like: `Used for Remote Key Provisioning, a feature of Android\u0027s key attestation system. See below for more details.`",
+      "revId": "c18c768ece06036775e161e2092e99268b705315",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b91c3f26_29787da1",
+        "filename": "pages/docs/guide/security/network-activity.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-10T20:24:39Z",
+      "side": 1,
+      "message": "-\u003e `### What are Key Attestation and Remote Key Provisioning?`",
+      "revId": "c18c768ece06036775e161e2092e99268b705315",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4b077410_19f63896",
         "filename": "pages/docs/guide/security/network-activity.md",
         "patchSetId": 1
@@ -99,6 +133,24 @@
       "writtenOn": "2023-02-10T19:39:03Z",
       "side": 1,
       "message": "I want to verify some of this information, and maybe make a mention of the relationship to microG (we know this happens even with microG disabled).",
+      "revId": "c18c768ece06036775e161e2092e99268b705315",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "da5ede58_865eb60b",
+        "filename": "pages/docs/guide/security/network-activity.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-10T20:24:39Z",
+      "side": 1,
+      "message": "Maybe something like this?:\n`Key attestation is a system meant to \"ensure the integrity of the device and apps running on the device\" (source: \u003ca href\u003d\"https://security.googleblog.com/2022/05/io-2022-android-13-security-and-privacy.html\"\u003eGoogle Security Blog\u003c/a\u003e). Remote Key Provisioning is a sub-feature which ensures that claims made by compromised OS versions are considered invalid, and also that devices are able to recover their genuine status when newer, uncompromised OS versions are installed. This feature depends on Google servers and is primarily useful in combination with microG and services like SafetyNet, Identity Credential, and Digital Car Key. However, recent research has highlighted that Android still performs communication with Google as part of the Remote Key Provisioning system, even in the absence of microG or Google Play services. CalyxOS is currently looking into this issue and considering ways to address it.`",
+      "parentUuid": "4b077410_19f63896",
       "revId": "c18c768ece06036775e161e2092e99268b705315",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
