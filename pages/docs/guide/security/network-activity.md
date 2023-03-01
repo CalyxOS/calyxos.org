@@ -27,7 +27,7 @@ These network connections are initiated by the operating system itself (or micro
 </tr>
 <tr>
   <td>location.services.mozilla.com</td>
-  <td>Used by the [Mozilla Location Service module](https://github.com/microg/IchnaeaNlpBackend) for microG as an alternative to Google's location services. May be disabled in the microG settings.</td>
+  <td>Used by the <a href="https://github.com/microg/IchnaeaNlpBackend">Mozilla Location Services module</a> for microG as an alternative to Google's location services. May be disabled in the microG settings.</td>
 </tr>
 <tr>
   <td>xtrapath1.izatcloud.net</td>
