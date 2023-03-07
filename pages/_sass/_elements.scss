@@ -26,6 +26,13 @@ i.icon {
   &.search {background-image: var(--icon-search-url);}
   &.close {background-image: var(--icon-close-url);}
   &.ddg {background-image: var(--icon-ddg-url);}
+
+  &.headerSearch {
+    display: inline-block;
+    vertical-align: middle;
+    background-image: var(--icon-search-url);
+  }
+
 }
 
 //
@@ -144,4 +151,9 @@ input.toggle:checked ~ #search {
     margin-right: 8px;
     white-space: nowrap;
   }
+}
+
+
+ul#searchresults {
+  list-style: none;
 }

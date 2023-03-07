@@ -46,6 +46,11 @@ defaults:
       path: "docs/guide/getting-started"
     values:
       layout: "page"
+  -
+    scope:
+      path: "assets/js"
+    values:
+      layout: null
 
 exclude:
   - assets/images/original
