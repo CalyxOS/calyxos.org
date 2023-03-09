@@ -88,6 +88,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "76308613_d6aa5bf5",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-09T15:56:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "55795eda_835ac412",
+      "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1b91db39_f1bdf9b5",
@@ -101,6 +119,24 @@
       "writtenOn": "2023-01-31T18:43:37Z",
       "side": 1,
       "message": "TODO: Mention SMS app",
+      "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e2e357ff_318a1ae8",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-09T15:56:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1b91db39_f1bdf9b5",
       "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -135,6 +171,24 @@
       "writtenOn": "2023-01-31T18:43:37Z",
       "side": 1,
       "message": "Doesn\u0027t mention GCamPhotosPreview at all :/",
+      "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7bf6cad4_4a3c1c48",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 182,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-09T15:56:13Z",
+      "side": 1,
+      "message": "Can handle in a follow up",
+      "parentUuid": "fe7b508c_15cb9978",
       "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
