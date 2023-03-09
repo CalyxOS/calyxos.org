@@ -160,6 +160,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "13e1c8d5_7c10e5ef",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-09T15:57:36Z",
+      "side": 1,
+      "message": "Will do in a follow up",
+      "parentUuid": "1bb62666_1199d525",
+      "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "fe7b508c_15cb9978",
         "filename": "pages/docs/guide/getting-started/index.md",
         "patchSetId": 3
