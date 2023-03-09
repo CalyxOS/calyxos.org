@@ -96,8 +96,9 @@ Options:
 Preferred since it syncs changes.
 
 #### Copy it from another Android phone
-1. On the other phone, open the Contacts app, then open Settings from the drawer on the left
-1. Tap Export, then select "Export to .vcf file"
+1. On the other phone, open the Contacts app
+1. Tap Fix & Manage at the bottom
+1. Tap Export to file
 1. Copy the ".vcf" file to your CalyxOS phone
 1. On your CalyxOS phone - open the Contacts app, then open Settings from the drawer on the left
 1. Tap Import, then choose the copied ".vcf" file
