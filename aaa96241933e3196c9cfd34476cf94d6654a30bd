@@ -261,6 +261,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e707a830_cfff8617",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-09T13:52:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "697e7e40_8fc224a7",
+      "revId": "aaa96241933e3196c9cfd34476cf94d6654a30bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3e80095e_270450b7",
@@ -274,6 +292,24 @@
       "writtenOn": "2023-02-01T09:42:40Z",
       "side": 1,
       "message": "TODO: Split",
+      "revId": "aaa96241933e3196c9cfd34476cf94d6654a30bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a24305a_3153a021",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-09T13:52:13Z",
+      "side": 1,
+      "message": "It\u0027s fine.",
+      "parentUuid": "3e80095e_270450b7",
       "revId": "aaa96241933e3196c9cfd34476cf94d6654a30bd",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
