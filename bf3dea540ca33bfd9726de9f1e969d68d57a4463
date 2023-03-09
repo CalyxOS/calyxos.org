@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "61e7fbc2_e4ccdd80",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-09T13:49:36Z",
+      "side": 1,
+      "message": "Line changed, links can come later.",
+      "parentUuid": "a2e0d71d_2e8024cf",
+      "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f7374b7d_e3a573aa",
@@ -31,6 +49,24 @@
       "writtenOn": "2023-01-31T18:43:37Z",
       "side": 1,
       "message": "We could link to the detailed guide for this.",
+      "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3628c260_1d93f70b",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-09T13:49:36Z",
+      "side": 1,
+      "message": "Will do in follow up",
+      "parentUuid": "f7374b7d_e3a573aa",
       "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -155,6 +191,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0bdd420_7a55cb2a",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-09T13:49:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bb216846_c4a005cc",
+      "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "13c989d9_fef1f54f",
@@ -168,6 +222,24 @@
       "writtenOn": "2023-01-31T18:43:37Z",
       "side": 1,
       "message": "For the record we submitted a patch for this which has been merged, Aurora Store just needs to make a new release with it.",
+      "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ccd9bbd_bf184da3",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-09T13:49:36Z",
+      "side": 1,
+      "message": "Removed for now.",
+      "parentUuid": "13c989d9_fef1f54f",
       "revId": "bf3dea540ca33bfd9726de9f1e969d68d57a4463",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }

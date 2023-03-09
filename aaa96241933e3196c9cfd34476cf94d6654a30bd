@@ -52,6 +52,23 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "06d1a583_5f2eecc1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-09T13:49:36Z",
+      "side": 1,
+      "message": "I want to get this out ASAP.",
+      "revId": "aaa96241933e3196c9cfd34476cf94d6654a30bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a8902fec_bcc6aeb9",
@@ -65,6 +82,24 @@
       "writtenOn": "2023-02-09T16:20:18Z",
       "side": 1,
       "message": "TODO: Add user guide to top level",
+      "revId": "aaa96241933e3196c9cfd34476cf94d6654a30bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "79c3da5c_e6011fff",
+        "filename": "pages/_data/menu.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-09T13:49:36Z",
+      "side": 1,
+      "message": "Can do in follow up",
+      "parentUuid": "a8902fec_bcc6aeb9",
       "revId": "aaa96241933e3196c9cfd34476cf94d6654a30bd",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -88,6 +123,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ed6abd48_1205f40c",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-09T13:49:36Z",
+      "side": 1,
+      "message": "Will do in follow up",
+      "parentUuid": "9264cb75_5ddefc07",
+      "revId": "aaa96241933e3196c9cfd34476cf94d6654a30bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "de013ba3_9109fe28",
         "filename": "pages/docs/guide/getting-started/index.md",
         "patchSetId": 4
@@ -99,6 +152,24 @@
       "writtenOn": "2023-02-09T15:32:20Z",
       "side": 1,
       "message": "Nitpick: Maybe: \"Install open-source apps with F-Droid, or install apps from the Play Store anonymously with Aurora Store.\"\n\n(They are not technically \"using\" the Google Play store in the way Google intends it to be used, which is a benefit.)",
+      "revId": "aaa96241933e3196c9cfd34476cf94d6654a30bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2aedbfad_61e073b6",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-09T13:49:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "de013ba3_9109fe28",
       "revId": "aaa96241933e3196c9cfd34476cf94d6654a30bd",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -122,6 +193,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c7f5f07f_8611a03c",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-09T13:49:36Z",
+      "side": 1,
+      "message": "Will do in follow up",
+      "parentUuid": "606ee29b_e008254d",
+      "revId": "aaa96241933e3196c9cfd34476cf94d6654a30bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4d505ecd_5188ae00",
         "filename": "pages/docs/guide/getting-started/index.md",
         "patchSetId": 4
@@ -133,6 +222,24 @@
       "writtenOn": "2023-02-09T15:32:20Z",
       "side": 1,
       "message": "If/when we have dedicated pages for Datura Firewall, Seedvault, etc., linkify them?",
+      "revId": "aaa96241933e3196c9cfd34476cf94d6654a30bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92f4acb1_9a5ab323",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-09T13:49:36Z",
+      "side": 1,
+      "message": "Can do this later.",
+      "parentUuid": "4d505ecd_5188ae00",
       "revId": "aaa96241933e3196c9cfd34476cf94d6654a30bd",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
