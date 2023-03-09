@@ -28,10 +28,6 @@ On brand new devices, especially those obtained from a carrier, it's better to r
 
 **Settings** &rarr; **About Phone** &rarr; tap **Build number** 7 times
 
-#### Enable USB debugging
-
-**Settings** &rarr; **System** &rarr; **Developer Options** &rarr; **USB Debugging**
-
 #### Enable OEM Unlocking
 
 **Settings** &rarr; **System** &rarr; **Developer Options** &rarr; **OEM unlocking**
@@ -79,9 +75,7 @@ For the highest level of confidence, you can optionally <a href="https://release
 
 Now you are ready to install. Ensure that both the CalyxOS image and device-flasher are in the same directory.
 
-Step 1. Connect the USB cable between the computer and the Android device.
-
-Step 2. Run device-flasher
+Run device-flasher per the below instructions and then follow the steps shown on the computer screen.
 
 {% include install/linux_run.md %}
 
