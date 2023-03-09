@@ -26,15 +26,11 @@ On brand new devices, especially those obtained from a carrier, it's better to r
 
 **Settings** &rarr; **About Phone** &rarr; tap **Build number** 7 times
 
-#### Enable USB debugging
-
-**Settings** &rarr; **System** &rarr; **Advanced** &rarr; **Developer Options** &rarr; **USB Debugging**
-
 #### Enable OEM Unlocking
 
 **Settings** &rarr; **System** &rarr; **Advanced** &rarr; **Developer Options** &rarr; **OEM unlocking**
 
-This step might fail if there is no internet connection. In that case, connect to a WiFi network and then try again.
+This step might fail if there is no internet connection. In that case, connect to a Wi-Fi network and remove SIM card, then try again.
 
 \{% if site.data.install.{{brand}}.pre_unlock_notes \%}
 \{% include \{{site.data.install.{{brand}}.pre_unlock_notes\}} \%}
@@ -75,9 +71,7 @@ For the highest level of confidence, you can optionally <a href="{{factory_link 
 
 Now you are ready to install. Ensure that both the CalyxOS image and device-flasher are in the same directory.
 
-Step 1. Connect the USB cable between the computer and the Android device.
-
-Step 2. Run device-flasher
+Run device-flasher per the below instructions and then follow the steps shown on the screen
 
 \{% include install/{{os_codename}}_run.md \%}
 
