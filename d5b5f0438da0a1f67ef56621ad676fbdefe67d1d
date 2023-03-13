@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3836c83_1c424f71",
+        "filename": "pages/docs/guide/bug-reporting.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-03-13T16:47:09Z",
+      "side": 1,
+      "message": "Is this correct? Is there anyone who can view confidential reports that is not listed on that page?",
+      "revId": "d5b5f0438da0a1f67ef56621ad676fbdefe67d1d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
