@@ -70,6 +70,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "10146a40_8eac08ad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-13T15:37:20Z",
+      "side": 1,
+      "message": "To add to this, what needs to happen is that we just resolve all comments and then I or somebody else can review and +2, and it\u0027ll be live.",
+      "parentUuid": "b531df8b_44a41d99",
+      "revId": "54f6095a88da828b71707deefe8e9f7539cfe150",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "089830c9_7d84a79e",
