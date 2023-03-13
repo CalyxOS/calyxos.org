@@ -52,6 +52,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b531df8b_44a41d99",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-13T15:36:37Z",
+      "side": 1,
+      "message": "Maybe if you want, totally upto you. We can also treat it like code review, and I left comments for every line basically.",
+      "parentUuid": "678699cc_9c3e389d",
+      "revId": "54f6095a88da828b71707deefe8e9f7539cfe150",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "089830c9_7d84a79e",
