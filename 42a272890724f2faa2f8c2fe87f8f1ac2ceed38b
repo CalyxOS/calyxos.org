@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c4c0a377_f6ae5736",
+        "filename": "pages/get/index.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000075
+      },
+      "writtenOn": "2023-03-16T18:45:44Z",
+      "side": 1,
+      "message": "Should this be changed as well, to e.g.: \"Check supported devices\", as the link also lists the supported devices?",
+      "range": {
+        "startLine": 25,
+        "startChar": 102,
+        "endLine": 25,
+        "endChar": 109
+      },
+      "revId": "42a272890724f2faa2f8c2fe87f8f1ac2ceed38b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
