@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d483a1aa_be0f9c8c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-16T13:34:58Z",
+      "side": 1,
+      "message": "I guess we could just deploy this?\n\nCould also write a quick blogpost about it later.",
+      "revId": "f456c3158ee5c27e8d2751141d61deca8000a548",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
