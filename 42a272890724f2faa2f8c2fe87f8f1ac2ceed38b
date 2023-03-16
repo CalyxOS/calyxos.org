@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "322365e9_38b59a2a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000075
+      },
+      "writtenOn": "2023-03-16T19:18:19Z",
+      "side": 1,
+      "message": "No worries :)",
+      "parentUuid": "238aeb22_aec06887",
+      "revId": "42a272890724f2faa2f8c2fe87f8f1ac2ceed38b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c4c0a377_f6ae5736",
@@ -55,6 +73,30 @@
       "side": 1,
       "message": "Yeah, good idea.\n\nI can\u0027t seem to think of good wording but maybe we can just replace the entire sentence.\n\nLike \"Install CalyxOS on your own device, click below for instructions and supported devices\" or something like that.",
       "parentUuid": "c4c0a377_f6ae5736",
+      "range": {
+        "startLine": 25,
+        "startChar": 102,
+        "endLine": 25,
+        "endChar": 109
+      },
+      "revId": "42a272890724f2faa2f8c2fe87f8f1ac2ceed38b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b28d3dd0_833d2952",
+        "filename": "pages/get/index.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000075
+      },
+      "writtenOn": "2023-03-16T19:18:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "40ba56c3_5e1ff6f5",
       "range": {
         "startLine": 25,
         "startChar": 102,
