@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9732b34b_f0888aa9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000075
+      },
+      "writtenOn": "2023-03-16T19:04:19Z",
+      "side": 1,
+      "message": "I am sorry, this is pretty new to me.\n\nFor some reason `[[microg]]` is not parsed, while in other locations (`pages/_includes/features.html`) it works.",
+      "revId": "65fdfeb5a77facbe53254acfcbc6a67c3601d88d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
