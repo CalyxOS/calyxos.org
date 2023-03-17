@@ -21,6 +21,10 @@ It is currently in the beta channel, and will be released to stable at a later d
 * Google hasn't released the March update for this device yet
 * We're using the February beta proprietary files
 
+#### Known issues:
+* Video decoding / playback is broken across most apps.
+* We're working on fixing it, till then you can follow this [temporary workaround](https://gitlab.com/CalyxOS/calyxos/-/issues/1541#note_1318355294).
+
 ### Fairphone 4
 * Set rollback index to match latest stock.
 * This should make new installs easier.
