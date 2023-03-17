@@ -5,7 +5,9 @@ date: 2023-03-16
 
 CalyxOS 4.7.0 (and 4.7.1) - March 2023 Quarterly Platform Release and Security update is now available for the Pixels 3, 3a, 5 - 7, and the Fairphone 4
 
-It is currently in the beta channel, and will be released to stable at a later date.
+4.7.0 has been released to stable on 17 March, Friday.
+
+4.7.1 for Pixel 6, 6 Pro and 6a is still on beta because of the known issue mentioned below.
 
 ## Changelog
 * CalyxOS 4.7.0
