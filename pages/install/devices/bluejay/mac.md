@@ -55,7 +55,7 @@ To verify the image, open a terminal window on the host computer where you saved
 {% assign image = "https://release.calyxinstitute.org/bluejay-factory-23407030.zip" | split: "/" | last %}
 {% include install/mac_image_digest.md filename=image %}
 
-And ensure the result says ``. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `324a80e34e068fa62ee57efe6d985f661f1658e70a83c7a3f4c14143df36ba4a`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 

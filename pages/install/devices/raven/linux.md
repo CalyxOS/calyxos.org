@@ -55,7 +55,7 @@ To verify the image, open a terminal window on the host computer where you saved
 {% assign image = "https://release.calyxinstitute.org/raven-factory-23407030.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says ``. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `310e629196a35215688e393c32ae438305e7de22cf3674cb47535f42f56cfd1c`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
