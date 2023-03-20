@@ -27,39 +27,39 @@ stable:
 - name: Pixel 6a
   brand: pixel
   codename: bluejay
-  version: 4.7.3
-  factory_link: https://release.calyxinstitute.org/bluejay-factory-23407030.zip
-  factory_sha256: 324a80e34e068fa62ee57efe6d985f661f1658e70a83c7a3f4c14143df36ba4a
-  ota_link: https://release.calyxinstitute.org/bluejay-ota_update-23407030.zip
-  ota_sha256: e65fd27f8b3b662731cfd5f0b8dac1012f4aa4232fd8329da4819c7f427978b6
-  incremental_link: https://release.calyxinstitute.org/bluejay-incremental-23406000-23407030.zip
-  incremental_sha256: d34e68b2c4d82d3d47c6eb08c6fdc560b41930a1955d1aa8c0a384ffec9b8e05
-  incremental_old_build: '23406000'
-  date: '2023-03-17'
+  version: 4.7.4
+  factory_link: https://release.calyxinstitute.org/bluejay-factory-23407040.zip
+  factory_sha256: 39812c1281d1c76ab3fb235520650684fa17e5f47efe9dd6fb00080babe61517
+  ota_link: https://release.calyxinstitute.org/bluejay-ota_update-23407040.zip
+  ota_sha256: b0c84e8b4431443a7ffba14d16a44fc46add2c70b3567b75ad823a088040e461
+  incremental_link: https://release.calyxinstitute.org/bluejay-incremental-23407030-23407040.zip
+  incremental_sha256: ebf9125155313606c1c0f8622660c88edb2c3d299eac4e6642b9005bf6c1aa34
+  incremental_old_build: '23407030'
+  date: '2023-03-20'
 - name: Pixel 6 Pro
   brand: pixel
   codename: raven
-  version: 4.7.3
-  factory_link: https://release.calyxinstitute.org/raven-factory-23407030.zip
-  factory_sha256: 310e629196a35215688e393c32ae438305e7de22cf3674cb47535f42f56cfd1c
-  ota_link: https://release.calyxinstitute.org/raven-ota_update-23407030.zip
-  ota_sha256: 36580b5b1ed6efb61cbac4b7189db0e4452c87668a424a94ab54ad04518e8481
-  incremental_link: https://release.calyxinstitute.org/raven-incremental-23406000-23407030.zip
-  incremental_sha256: fdadc49166d3df8ec268c0cb0f81f4aca4bb93b0efda8819a7afb1bd62f5d864
-  incremental_old_build: '23406000'
-  date: '2023-03-17'
+  version: 4.7.4
+  factory_link: https://release.calyxinstitute.org/raven-factory-23407040.zip
+  factory_sha256: 95448c952619080292dfa32dcb0069b5cd33d676d7857a3d3f99595f5f5249af
+  ota_link: https://release.calyxinstitute.org/raven-ota_update-23407040.zip
+  ota_sha256: 68acb737d3b1d1c928b1d7606510e0967bfa492dc104852431286ca2b4e08c7e
+  incremental_link: https://release.calyxinstitute.org/raven-incremental-23407030-23407040.zip
+  incremental_sha256: 98c9e10b6085ca7deb8661ccaa098da65c5a57fc1708d611b74058e74c7757de
+  incremental_old_build: '23407030'
+  date: '2023-03-20'
 - name: Pixel 6
   brand: pixel
   codename: oriole
-  version: 4.7.3
-  factory_link: https://release.calyxinstitute.org/oriole-factory-23407030.zip
-  factory_sha256: 0647fb096cbaae4de6fb11d5a3efb1d951b2f4dec871beac0db83855ad82aa46
-  ota_link: https://release.calyxinstitute.org/oriole-ota_update-23407030.zip
-  ota_sha256: 9e54a38d54ac696913eb72c7250979ae6eeafaff18f9eea6a9cda4f2d2b238d1
-  incremental_link: https://release.calyxinstitute.org/oriole-incremental-23406000-23407030.zip
-  incremental_sha256: 46343f10214e616d0e5001ba2206b4a07e2dd5510c3db0ab5b721b545e794bb3
-  incremental_old_build: '23406000'
-  date: '2023-03-17'
+  version: 4.7.4
+  factory_link: https://release.calyxinstitute.org/oriole-factory-23407040.zip
+  factory_sha256: ebf22f02f42c055b7a238a51d8b802106a7aaa71db46ae1eabd491b1175b18e0
+  ota_link: https://release.calyxinstitute.org/oriole-ota_update-23407040.zip
+  ota_sha256: de3863647a7796e61010814d2af54907348e68f7a8d7e02cf096a01a40ae42f3
+  incremental_link: https://release.calyxinstitute.org/oriole-incremental-23407030-23407040.zip
+  incremental_sha256: f82f65c5dcde0af0215d8a27c55d477b80622e84542ac7deb9c0f62e1373d038
+  incremental_old_build: '23407030'
+  date: '2023-03-20'
 - name: Pixel 5a (5G)
   brand: pixel
   codename: barbet
@@ -220,39 +220,39 @@ beta:
 - name: Pixel 6a
   brand: pixel
   codename: bluejay
-  version: 4.7.3
-  factory_link: https://release.calyxinstitute.org/bluejay-factory-23407030.zip
-  factory_sha256: 324a80e34e068fa62ee57efe6d985f661f1658e70a83c7a3f4c14143df36ba4a
-  ota_link: https://release.calyxinstitute.org/bluejay-ota_update-23407030.zip
-  ota_sha256: e65fd27f8b3b662731cfd5f0b8dac1012f4aa4232fd8329da4819c7f427978b6
+  version: 4.7.4
+  factory_link: https://release.calyxinstitute.org/bluejay-factory-23407040.zip
+  factory_sha256: 39812c1281d1c76ab3fb235520650684fa17e5f47efe9dd6fb00080babe61517
+  ota_link: https://release.calyxinstitute.org/bluejay-ota_update-23407040.zip
+  ota_sha256: b0c84e8b4431443a7ffba14d16a44fc46add2c70b3567b75ad823a088040e461
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  date: '2023-03-17'
+  date: '2023-03-20'
 - name: Pixel 6 Pro
   brand: pixel
   codename: raven
-  version: 4.7.3
-  factory_link: https://release.calyxinstitute.org/raven-factory-23407030.zip
-  factory_sha256: 310e629196a35215688e393c32ae438305e7de22cf3674cb47535f42f56cfd1c
-  ota_link: https://release.calyxinstitute.org/raven-ota_update-23407030.zip
-  ota_sha256: 36580b5b1ed6efb61cbac4b7189db0e4452c87668a424a94ab54ad04518e8481
+  version: 4.7.4
+  factory_link: https://release.calyxinstitute.org/raven-factory-23407040.zip
+  factory_sha256: 95448c952619080292dfa32dcb0069b5cd33d676d7857a3d3f99595f5f5249af
+  ota_link: https://release.calyxinstitute.org/raven-ota_update-23407040.zip
+  ota_sha256: 68acb737d3b1d1c928b1d7606510e0967bfa492dc104852431286ca2b4e08c7e
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  date: '2023-03-17'
+  date: '2023-03-20'
 - name: Pixel 6
   brand: pixel
   codename: oriole
-  version: 4.7.3
-  factory_link: https://release.calyxinstitute.org/oriole-factory-23407030.zip
-  factory_sha256: 0647fb096cbaae4de6fb11d5a3efb1d951b2f4dec871beac0db83855ad82aa46
-  ota_link: https://release.calyxinstitute.org/oriole-ota_update-23407030.zip
-  ota_sha256: 9e54a38d54ac696913eb72c7250979ae6eeafaff18f9eea6a9cda4f2d2b238d1
+  version: 4.7.4
+  factory_link: https://release.calyxinstitute.org/oriole-factory-23407040.zip
+  factory_sha256: ebf22f02f42c055b7a238a51d8b802106a7aaa71db46ae1eabd491b1175b18e0
+  ota_link: https://release.calyxinstitute.org/oriole-ota_update-23407040.zip
+  ota_sha256: de3863647a7796e61010814d2af54907348e68f7a8d7e02cf096a01a40ae42f3
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  date: '2023-03-17'
+  date: '2023-03-20'
 - name: Pixel 5a (5G)
   brand: pixel
   codename: barbet
