@@ -30,6 +30,12 @@ Unfortunately, due to a mistake we accidentally released a buggy update to stabl
 * Fix video playback and recording for Pixel 6, 6 Pro and 6a
 * Stable as of 18 March, Saturday
 
+### 4.7.4
+* March 2023 Security update for Pixel 6, 6 Pro, and 6a
+* Google finally released the March 2023 Security update for these devices
+* That has been integrated into this build
+* Stable as of 20 March, Monday
+
 ## Vulnerabilities
 
 ### Exynos Modems
@@ -42,10 +48,8 @@ Unfortunately, due to a mistake we accidentally released a buggy update to stabl
 * If you're running an older version, please update
 
 #### Pixel 6, 6 Pro, 6a
-* Vulnerable
-* Turn off Wi-Fi calling and Voice-over-LTE (VoLTE) from Settings -> Network and Internet -> SIMs - your SIM (if available)
-* Google hasn't released the March 2023 Security update for these devices yet
-* We will release an update integrating the fixes as soon as Google releases them
+* Fixed
+* CalyxOS 4.7.4 includes March 2023 Security update which contains the fix
 
 #### All other devices
 * Not vulnerable, since this only affects Exynos modems found in certain devices
@@ -58,9 +62,9 @@ Unfortunately, due to a mistake we accidentally released a buggy update to stabl
 
 ## Changelog
 ### Pixel 6, 6 Pro, 6a
-* CalyxOS 4.7.3
-* Fix video playback and recording
-* Using the February beta proprietary files
+* CalyxOS 4.7.4
+* Google finally released the March 2023 Security update for these devices
+* That has been integrated into this build
 
 ### Pixel 4, 4 XL
 * CalyxOS 4.7.2
