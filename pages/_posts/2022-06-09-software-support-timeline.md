@@ -82,15 +82,8 @@ Examples
 * They have promised software support until the end of 2025, including Android 12 and 13
 * We will have to see what it takes to port Android 13 to this device (hopefully FairphoneOS Android 12 is out by then to make the port easier), and will re-evaluate later in 2022.
 
-## OnePlus 8T
-* OnePlus stock is on Android 12, however full kernel source is not out yet, so we've had to use Android 11 firmware for CalyxOS Android 12
-* They have promised 3 major Android updates and 4 years of security updates, which means this should get Android 14.
-* We will try to support these devices till then, and re-evaluate things later in 2022, based on OnePlus Android release schedule (with matching kernel source)
-
-## OnePlus 9, 9 Pro
-* OnePlus stock is on Android 12, CalyxOS is on Android 12 too but using Android 11 firmware for now, Android 12 update is work in progress.
-* They have promised 3 major Android updates and 4 years of security updates, which means this should get Android 14.
-* We will try to support these devices till then, and re-evaluate things later in 2022, based on OnePlus Android release schedule (with matching kernel source)
+## OnePlus
+* OnePlus 8T, 9 and 9 Pro had to be dropped - please see [OnePlus Android 12 relock issue](https://calyxos.org/news/2022/07/06/oneplus-android-12-relock-issue/) for more details.
 
 References:
 * [Google Pixel support dates](https://support.google.com/nexus/answer/4457705#zippy=%2Cpixel-phones)
