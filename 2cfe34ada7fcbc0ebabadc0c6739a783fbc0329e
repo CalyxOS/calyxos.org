@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6586c84b_e2894f47",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2023-03-23T15:33:14Z",
+      "side": 1,
+      "message": "Might be good to add our gitlab email address that autocreates (confidential?) issues.",
+      "revId": "2cfe34ada7fcbc0ebabadc0c6739a783fbc0329e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
