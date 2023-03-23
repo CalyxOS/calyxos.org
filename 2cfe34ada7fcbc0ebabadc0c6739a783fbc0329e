@@ -16,6 +16,24 @@
       "message": "Might be good to add our gitlab email address that autocreates (confidential?) issues.",
       "revId": "2cfe34ada7fcbc0ebabadc0c6739a783fbc0329e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3acd8755_168206b1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-23T15:34:30Z",
+      "side": 1,
+      "message": "That does it on a different tracker though, and could be a completely separate flow.\n\nIt does create confidential issues though.\n\nIf we\u0027re asking them to email, might as well get it directly to us then go via gitlab.",
+      "parentUuid": "6586c84b_e2894f47",
+      "revId": "2cfe34ada7fcbc0ebabadc0c6739a783fbc0329e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
