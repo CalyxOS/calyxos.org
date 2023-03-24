@@ -3,207 +3,207 @@ stable:
 - name: Pixel 7 Pro
   brand: pixel
   codename: cheetah
-  version: 4.7.0
-  factory_link: https://release.calyxinstitute.org/cheetah-factory-23407000.zip
-  factory_sha256: 5d74e3079a2142dfd44851666618e57f5d1e4c58592950e75c699a5f23e2d0a2
-  ota_link: https://release.calyxinstitute.org/cheetah-ota_update-23407000.zip
-  ota_sha256: b7c6f7d85b9c3846432859835d1916daf5b9c3039aad2925bbfd43598486184c
-  incremental_link: https://release.calyxinstitute.org/cheetah-incremental-23406000-23407000.zip
-  incremental_sha256: 1a6934df9095490d8cbf910adecc07a7fea1417281ab592355f864f77653d5f9
-  incremental_old_build: '23406000'
-  date: '2023-03-15'
+  version: 4.7.5
+  factory_link: https://release.calyxinstitute.org/cheetah-factory-23407050.zip
+  factory_sha256: acd722952c0e56c6d0351a3b9c418f87959baab7d29c3f881390820153a80774
+  ota_link: https://release.calyxinstitute.org/cheetah-ota_update-23407050.zip
+  ota_sha256: 1f8d7beb1644889eabae90aeea29ae64a41d7e4f6437ca0f43a6ce59dbbf5b4c
+  incremental_link: https://release.calyxinstitute.org/cheetah-incremental-23407000-23407050.zip
+  incremental_sha256: ba9036b7e7c17be5f14e4e32b1fe6ff5e35f005a120845fd3a8dd711ed13950f
+  incremental_old_build: '23407000'
+  date: '2023-03-22'
 - name: Pixel 7
   brand: pixel
   codename: panther
-  version: 4.7.0
-  factory_link: https://release.calyxinstitute.org/panther-factory-23407000.zip
-  factory_sha256: bb8a0f73241bfb793c07f7e30001ec3d486ab374318248eea2e5f7e78b7fd541
-  ota_link: https://release.calyxinstitute.org/panther-ota_update-23407000.zip
-  ota_sha256: 5ce16870ca5607102f633ba146c1609a3162bee2855f3de70f787ec424e67aa4
-  incremental_link: https://release.calyxinstitute.org/panther-incremental-23406000-23407000.zip
-  incremental_sha256: 47ddd5ecf8215b52de22eff733e560e4257d0e9cb6475c4d1f13d34fb5c4f2d8
-  incremental_old_build: '23406000'
-  date: '2023-03-15'
+  version: 4.7.5
+  factory_link: https://release.calyxinstitute.org/panther-factory-23407050.zip
+  factory_sha256: 49ca0ea652386d6da1007e5b6595591f0da41168cc6bbafe74ed6a273ba3e1b5
+  ota_link: https://release.calyxinstitute.org/panther-ota_update-23407050.zip
+  ota_sha256: 2744ddd1a253e9e979a2c8a20011e28d08de365fd949955938c6c0a60e0a23b1
+  incremental_link: https://release.calyxinstitute.org/panther-incremental-23407000-23407050.zip
+  incremental_sha256: bb653d483d89adae3f7f6e3fecd78e8af5eaf4898a9183e54982429f274f791e
+  incremental_old_build: '23407000'
+  date: '2023-03-22'
 - name: Pixel 6a
   brand: pixel
   codename: bluejay
-  version: 4.7.4
-  factory_link: https://release.calyxinstitute.org/bluejay-factory-23407040.zip
-  factory_sha256: 39812c1281d1c76ab3fb235520650684fa17e5f47efe9dd6fb00080babe61517
-  ota_link: https://release.calyxinstitute.org/bluejay-ota_update-23407040.zip
-  ota_sha256: b0c84e8b4431443a7ffba14d16a44fc46add2c70b3567b75ad823a088040e461
-  incremental_link: https://release.calyxinstitute.org/bluejay-incremental-23407030-23407040.zip
-  incremental_sha256: ebf9125155313606c1c0f8622660c88edb2c3d299eac4e6642b9005bf6c1aa34
-  incremental_old_build: '23407030'
-  date: '2023-03-20'
+  version: 4.7.5
+  factory_link: https://release.calyxinstitute.org/bluejay-factory-23407050.zip
+  factory_sha256: dddc618ba2472e875c36d89ffae3c637672cd2540aa436206d1b47cc5b96c808
+  ota_link: https://release.calyxinstitute.org/bluejay-ota_update-23407050.zip
+  ota_sha256: 3bda7a541a95ef99844d83af6945b6c26e3b2b823cf822e565d9ebef901062d2
+  incremental_link: https://release.calyxinstitute.org/bluejay-incremental-23407040-23407050.zip
+  incremental_sha256: c62e59cac544b43d0ee928f4755b3ca204a919eaad25432964b95c0c11dc111b
+  incremental_old_build: '23407040'
+  date: '2023-03-22'
 - name: Pixel 6 Pro
   brand: pixel
   codename: raven
-  version: 4.7.4
-  factory_link: https://release.calyxinstitute.org/raven-factory-23407040.zip
-  factory_sha256: 95448c952619080292dfa32dcb0069b5cd33d676d7857a3d3f99595f5f5249af
-  ota_link: https://release.calyxinstitute.org/raven-ota_update-23407040.zip
-  ota_sha256: 68acb737d3b1d1c928b1d7606510e0967bfa492dc104852431286ca2b4e08c7e
-  incremental_link: https://release.calyxinstitute.org/raven-incremental-23407030-23407040.zip
-  incremental_sha256: 98c9e10b6085ca7deb8661ccaa098da65c5a57fc1708d611b74058e74c7757de
-  incremental_old_build: '23407030'
-  date: '2023-03-20'
+  version: 4.7.5
+  factory_link: https://release.calyxinstitute.org/raven-factory-23407050.zip
+  factory_sha256: 34e7517d18234e4b49e5a4f3b27f7b7614f4d73a2015860a39e5a81127e262b4
+  ota_link: https://release.calyxinstitute.org/raven-ota_update-23407050.zip
+  ota_sha256: 3060f03a678f6f4f63f07630f198021908f0a4e96f608cac2c27528fa98fbb09
+  incremental_link: https://release.calyxinstitute.org/raven-incremental-23407040-23407050.zip
+  incremental_sha256: 3667b8154002075ff5aa7fea9ffe257a97f8a8d6d79576a289550c28c8b61c39
+  incremental_old_build: '23407040'
+  date: '2023-03-22'
 - name: Pixel 6
   brand: pixel
   codename: oriole
-  version: 4.7.4
-  factory_link: https://release.calyxinstitute.org/oriole-factory-23407040.zip
-  factory_sha256: ebf22f02f42c055b7a238a51d8b802106a7aaa71db46ae1eabd491b1175b18e0
-  ota_link: https://release.calyxinstitute.org/oriole-ota_update-23407040.zip
-  ota_sha256: de3863647a7796e61010814d2af54907348e68f7a8d7e02cf096a01a40ae42f3
-  incremental_link: https://release.calyxinstitute.org/oriole-incremental-23407030-23407040.zip
-  incremental_sha256: f82f65c5dcde0af0215d8a27c55d477b80622e84542ac7deb9c0f62e1373d038
-  incremental_old_build: '23407030'
-  date: '2023-03-20'
+  version: 4.7.5
+  factory_link: https://release.calyxinstitute.org/oriole-factory-23407050.zip
+  factory_sha256: 7d99897f85639cc803d675f1f4f47e396dc956b793b78c565a8aa435a8503c29
+  ota_link: https://release.calyxinstitute.org/oriole-ota_update-23407050.zip
+  ota_sha256: ee5a9768fe6ddba10542663dc2463444c97fffdef442e4e6aead9a1e48d7f4fa
+  incremental_link: https://release.calyxinstitute.org/oriole-incremental-23407040-23407050.zip
+  incremental_sha256: b3893bab1f0f6e2374ce5433a78a02058c965c8ea78831da740677367dd09462
+  incremental_old_build: '23407040'
+  date: '2023-03-22'
 - name: Pixel 5a (5G)
   brand: pixel
   codename: barbet
-  version: 4.7.0
-  factory_link: https://release.calyxinstitute.org/barbet-factory-23407000.zip
-  factory_sha256: 86ed5aa893a3e120220a1936a05b10de615f5585063885201a2749e9b26041d5
-  ota_link: https://release.calyxinstitute.org/barbet-ota_update-23407000.zip
-  ota_sha256: 3b294ca090258c57d145bd8a079ca141456ea117a5c0cd58724a98544cdc8838
-  incremental_link: https://release.calyxinstitute.org/barbet-incremental-23406000-23407000.zip
-  incremental_sha256: 9f510d6c5bcb611d77327a532c7044ae56f1211065c1beb6546a5885933a70c4
-  incremental_old_build: '23406000'
-  date: '2023-03-15'
+  version: 4.7.5
+  factory_link: https://release.calyxinstitute.org/barbet-factory-23407050.zip
+  factory_sha256: be3fa75e6aeb130b84d7f1092039a752b9bee293088071df1647a9bceffd9a45
+  ota_link: https://release.calyxinstitute.org/barbet-ota_update-23407050.zip
+  ota_sha256: 5fcb1dc329d5bc094085125474e88db169e747a7424190e664b0e59e0436c159
+  incremental_link: https://release.calyxinstitute.org/barbet-incremental-23407000-23407050.zip
+  incremental_sha256: 9953c85d7398d1c35e57042ae06c8c4d309b8f3e375a4412715053beae98a4ed
+  incremental_old_build: '23407000'
+  date: '2023-03-22'
 - name: Pixel 4a (5G)
   brand: pixel
   codename: bramble
-  version: 4.7.0
-  factory_link: https://release.calyxinstitute.org/bramble-factory-23407000.zip
-  factory_sha256: 638457a9ed50220b473c8b939e5e7f0e32ce47b75ca529d29b2eba62548a8f7f
-  ota_link: https://release.calyxinstitute.org/bramble-ota_update-23407000.zip
-  ota_sha256: 698ca19104632db75c0cb9f18780fb22e7a03e048ed99c8234f17aa31363919d
-  incremental_link: https://release.calyxinstitute.org/bramble-incremental-23406000-23407000.zip
-  incremental_sha256: 25feeba2d76315430714afbd8f95e047a2c400ed6bd0e003fe93ee079d606368
-  incremental_old_build: '23406000'
-  date: '2023-03-15'
+  version: 4.7.5
+  factory_link: https://release.calyxinstitute.org/bramble-factory-23407050.zip
+  factory_sha256: 0aeabc5e62c6af9a7fea8c6f7beb9306af6ef8d5c64d53ce318fff9ef371f4fc
+  ota_link: https://release.calyxinstitute.org/bramble-ota_update-23407050.zip
+  ota_sha256: ba79ef19e6d66c1ec6d85be1385e73868495576e7d2fdc18d22be19f45a20a5e
+  incremental_link: https://release.calyxinstitute.org/bramble-incremental-23407000-23407050.zip
+  incremental_sha256: 6d0956c2eb5d4f4729f95a391d92a8a67790d260ff58b9c7ed8c9d6ec7ec3e5a
+  incremental_old_build: '23407000'
+  date: '2023-03-22'
 - name: Pixel 5
   brand: pixel
   codename: redfin
-  version: 4.7.0
-  factory_link: https://release.calyxinstitute.org/redfin-factory-23407000.zip
-  factory_sha256: c0bb73eb2724629f99c8c75635f8238b135ce3a28e376fd7d143f9abfbfffae7
-  ota_link: https://release.calyxinstitute.org/redfin-ota_update-23407000.zip
-  ota_sha256: e95031c75d1a6a78369fbcb2e59eb9638a95486e597734af1be330b928c2a828
-  incremental_link: https://release.calyxinstitute.org/redfin-incremental-23406000-23407000.zip
-  incremental_sha256: 3d0a167287c399ac2ecda77937e6bab343ef49d4ce58807db9bc8733d73bacf5
-  incremental_old_build: '23406000'
-  date: '2023-03-15'
+  version: 4.7.5
+  factory_link: https://release.calyxinstitute.org/redfin-factory-23407050.zip
+  factory_sha256: 1f5112b1a9e6f5e84dd1a1a02ac814be0593afd4e23eeb7f4b6ad891d23adac5
+  ota_link: https://release.calyxinstitute.org/redfin-ota_update-23407050.zip
+  ota_sha256: c977e770fdc43570393504c6738507a535a3b2efcfd8d267d29f9cce487c223d
+  incremental_link: https://release.calyxinstitute.org/redfin-incremental-23407000-23407050.zip
+  incremental_sha256: 5bae6a2a539b85296db820d2dc288707174f39f0a402a7885c0856d0bfb81f38
+  incremental_old_build: '23407000'
+  date: '2023-03-22'
 - name: Pixel 4a
   brand: pixel
   codename: sunfish
-  version: 4.7.0
-  factory_link: https://release.calyxinstitute.org/sunfish-factory-23407000.zip
-  factory_sha256: 3048f2221227cb60561469cc5d524c4900b6e914e1069df1d45d9c26e8a20637
-  ota_link: https://release.calyxinstitute.org/sunfish-ota_update-23407000.zip
-  ota_sha256: b56fee186f40e74f0cbbc6c91e88f504e2212a64fb5f7dc2304774120e3750d9
-  incremental_link: https://release.calyxinstitute.org/sunfish-incremental-23406000-23407000.zip
-  incremental_sha256: b2d2c6785c97e7aa522717802ce61f6a2096bf8f8951ba6bdff6f46a7de1b94b
-  incremental_old_build: '23406000'
-  date: '2023-03-15'
+  version: 4.7.5
+  factory_link: https://release.calyxinstitute.org/sunfish-factory-23407050.zip
+  factory_sha256: b2b3c53843ef6275e104bf8bc68fe098455af4bbdce186714b027f17d01ba28c
+  ota_link: https://release.calyxinstitute.org/sunfish-ota_update-23407050.zip
+  ota_sha256: ba6de589f6e03212bc4c7b9e9f234510b0166cfc2593659c03870b527a5375a2
+  incremental_link: https://release.calyxinstitute.org/sunfish-incremental-23407000-23407050.zip
+  incremental_sha256: 1958e3bc8a286efc67b18b067dbcfc11122a2ac450e7b34bf1c5a9957c71bd19
+  incremental_old_build: '23407000'
+  date: '2023-03-22'
 - name: Pixel 4 XL
   brand: pixel
   codename: coral
-  version: 4.7.2
-  factory_link: https://release.calyxinstitute.org/coral-factory-23407020.zip
-  factory_sha256: 0abd1466c7766eccc8d69020f3d8cb32838880aef0ce78698fa844ceebde8b19
-  ota_link: https://release.calyxinstitute.org/coral-ota_update-23407020.zip
-  ota_sha256: 973e91d845434a8b9d0d1870a42dbed02ffa99dc12129b73d9fbc1fbe33f4d30
-  incremental_link: https://release.calyxinstitute.org/coral-incremental-23406000-23407020.zip
-  incremental_sha256: 169ebfba52eec88e227b5894ed3bb720c43ad408121719e70dd8e357449f8f4a
-  incremental_old_build: '23406000'
-  date: '2023-03-17'
+  version: 4.7.5
+  factory_link: https://release.calyxinstitute.org/coral-factory-23407050.zip
+  factory_sha256: 0a42918ef35f379069d37e25caa0b35a65e573b2017da96824bab9d9ec423daa
+  ota_link: https://release.calyxinstitute.org/coral-ota_update-23407050.zip
+  ota_sha256: e453b2625adefa4bb869942c4d77916fa1f1813709d3e8f875b0e5c5f417cd7b
+  incremental_link: https://release.calyxinstitute.org/coral-incremental-23407020-23407050.zip
+  incremental_sha256: d42ea23fc5e6eedb8e16a4deb4adaf626603c793ddb953296a7767c3d36a546a
+  incremental_old_build: '23407020'
+  date: '2023-03-22'
 - name: Pixel 4
   brand: pixel
   codename: flame
-  version: 4.7.2
-  factory_link: https://release.calyxinstitute.org/flame-factory-23407020.zip
-  factory_sha256: 3838d841aa4eb22d3d25f4facd989fa5ea30d96a52e11fdbef84dabebebf09e3
-  ota_link: https://release.calyxinstitute.org/flame-ota_update-23407020.zip
-  ota_sha256: aec52f401112801100544e12df7fe5bdee494491143a34b86913ea9fb882fd4b
-  incremental_link: https://release.calyxinstitute.org/flame-incremental-23406000-23407020.zip
-  incremental_sha256: 62a208927ed91d0642dd9fa6a646f4d3fa6a29d21a6f96827d026302b5d27255
-  incremental_old_build: '23406000'
-  date: '2023-03-17'
+  version: 4.7.5
+  factory_link: https://release.calyxinstitute.org/flame-factory-23407050.zip
+  factory_sha256: 8f03910395e7f98f5c41eaa6c6a32651720d3171647ec4f91550acd4b020a66e
+  ota_link: https://release.calyxinstitute.org/flame-ota_update-23407050.zip
+  ota_sha256: 6f7955eae960e2d7e08e3683038327f7123e9d5e2330a7b4f2a40592202cda4a
+  incremental_link: https://release.calyxinstitute.org/flame-incremental-23407020-23407050.zip
+  incremental_sha256: 045cfb570b3c7209de9c27cfb0b837574901499e7d880c54ff3b46189e37e620
+  incremental_old_build: '23407020'
+  date: '2023-03-22'
 - name: Pixel 3a XL
   brand: pixel
   codename: bonito
-  version: 4.7.2
-  factory_link: https://release.calyxinstitute.org/bonito-factory-23407020.zip
-  factory_sha256: ba55887de6010e223172e94b7fb7d32598cb2397aea1d9d3cb118d5562242faa
-  ota_link: https://release.calyxinstitute.org/bonito-ota_update-23407020.zip
-  ota_sha256: 944c0cb70b47c408e2603a5228159ea816544ec1f69783f0ae482c80d92842d9
-  incremental_link: https://release.calyxinstitute.org/bonito-incremental-23407000-23407020.zip
-  incremental_sha256: 60ab55cd0640ec58d4ebf5f0611af216c958abd8ffe4ac057b79adbb86c27758
-  incremental_old_build: '23407000'
-  date: '2023-03-17'
+  version: 4.7.5
+  factory_link: https://release.calyxinstitute.org/bonito-factory-23407050.zip
+  factory_sha256: c75a4c0cdbcd52b6c4460811e0e8d694618c688458b8b8a61f94537362277ad4
+  ota_link: https://release.calyxinstitute.org/bonito-ota_update-23407050.zip
+  ota_sha256: 72990e9c51c6d8a148147779222532a9583fea5a2678791979d2d0a9efa8d79f
+  incremental_link: https://release.calyxinstitute.org/bonito-incremental-23407020-23407050.zip
+  incremental_sha256: d17b7bebec7f59b9adb9484e9622057122bf5bcf0ecf6732aefccc84637f9820
+  incremental_old_build: '23407020'
+  date: '2023-03-22'
 - name: Pixel 3a
   brand: pixel
   codename: sargo
-  version: 4.7.2
-  factory_link: https://release.calyxinstitute.org/sargo-factory-23407020.zip
-  factory_sha256: 106c2ac8f98f597dd17900f6b666a041ba9e2b4793e9d72fee19ac1734af5471
-  ota_link: https://release.calyxinstitute.org/sargo-ota_update-23407020.zip
-  ota_sha256: 9a8ff02203bcd64e27dd623ca6faf923673f9eab1105975e1867cc20494c4dec
-  incremental_link: https://release.calyxinstitute.org/sargo-incremental-23407000-23407020.zip
-  incremental_sha256: f85813aa7d01f8ead6a0f7028bf87b1cb3da36bf5445965d9a2edfb8cad8c24b
-  incremental_old_build: '23407000'
-  date: '2023-03-17'
+  version: 4.7.5
+  factory_link: https://release.calyxinstitute.org/sargo-factory-23407050.zip
+  factory_sha256: '08445e7f180361cd75f31a7cc00b0a46e3bcd6710386b4161f46b78218d8171e'
+  ota_link: https://release.calyxinstitute.org/sargo-ota_update-23407050.zip
+  ota_sha256: 895ca87578239e86d8d1e5f3a456eea87d504bd978a3445f7e7e972cee64cd75
+  incremental_link: https://release.calyxinstitute.org/sargo-incremental-23407020-23407050.zip
+  incremental_sha256: b600ae14502251bb05863fc5198bde6b31c42241774547afbe898862396d0f2c
+  incremental_old_build: '23407020'
+  date: '2023-03-22'
 - name: Pixel 3 XL
   brand: pixel
   codename: crosshatch
-  version: 4.7.2
-  factory_link: https://release.calyxinstitute.org/crosshatch-factory-23407020.zip
-  factory_sha256: c57c36fad489fe9a4c1fbfe4d53b3238696393237e858c8b02da6f4f9a408265
-  ota_link: https://release.calyxinstitute.org/crosshatch-ota_update-23407020.zip
-  ota_sha256: 9c67685febc2a15433bdc7af29f28ccd5c4c7b129bd1ff9c59bc5c952c3a7721
-  incremental_link: https://release.calyxinstitute.org/crosshatch-incremental-23407000-23407020.zip
-  incremental_sha256: a270b50629199abf3389f52a98831fd465f596180507b976c43881e02d34273b
-  incremental_old_build: '23407000'
-  date: '2023-03-17'
+  version: 4.7.5
+  factory_link: https://release.calyxinstitute.org/crosshatch-factory-23407050.zip
+  factory_sha256: 164f716286205d5cea11f78efc7f620ad295a9c390a0a8ee2248047994a7fe68
+  ota_link: https://release.calyxinstitute.org/crosshatch-ota_update-23407050.zip
+  ota_sha256: 64a2fd9dda041253b362f4bdd2a3d57ac8dc4a18eccd54bd9b87fc7844b0f08c
+  incremental_link: https://release.calyxinstitute.org/crosshatch-incremental-23407020-23407050.zip
+  incremental_sha256: 1c39ff346725022af9e531f20c3e43928ec14520fca74e123aaa66e1e4a954eb
+  incremental_old_build: '23407020'
+  date: '2023-03-22'
 - name: Pixel 3
   brand: pixel
   codename: blueline
-  version: 4.7.2
-  factory_link: https://release.calyxinstitute.org/blueline-factory-23407020.zip
-  factory_sha256: 3679180f5af1ef3956b9e42d80167fa58a1ce63dd4332f018ea251577522e844
-  ota_link: https://release.calyxinstitute.org/blueline-ota_update-23407020.zip
-  ota_sha256: 0d219f5c0711c84850e35b9623b3dff14d5a1f41edd65d3fc1b875e36f4035c4
-  incremental_link: https://release.calyxinstitute.org/blueline-incremental-23407000-23407020.zip
-  incremental_sha256: e509c52f2a02874d32ff321a9a07dec1662a1cd15b27610a4359e10813fbd8bb
-  incremental_old_build: '23407000'
-  date: '2023-03-17'
+  version: 4.7.5
+  factory_link: https://release.calyxinstitute.org/blueline-factory-23407050.zip
+  factory_sha256: 128ba17d80096963525f8cc8cd40ae4029db1b4dcf0b98f0aa5abbf723bed5a1
+  ota_link: https://release.calyxinstitute.org/blueline-ota_update-23407050.zip
+  ota_sha256: c4a86fc89861eb13754c7d32594517e0194b28a0da7fddbe41b48ffeaede2561
+  incremental_link: https://release.calyxinstitute.org/blueline-incremental-23407020-23407050.zip
+  incremental_sha256: 2ea0e9f79c09e4aeb9efe131e1a999d29fbe74d6ed9015b337c3b8ea7abf4c6d
+  incremental_old_build: '23407020'
+  date: '2023-03-22'
 - name: Fairphone 4
   brand: fairphone
   codename: FP4
-  version: 4.7.0
-  factory_link: https://release.calyxinstitute.org/FP4-factory-23407000.zip
-  factory_sha256: ba52ab6c982d3992f2bf4026dabc15a248c8cd9c2ec202d17d85c54a5fc76852
-  ota_link: https://release.calyxinstitute.org/FP4-ota_update-23407000.zip
-  ota_sha256: 479773774380ce5bf2565e2b517e0bd262f522b09a2d35e448f633c1c485f3b0
-  incremental_link: https://release.calyxinstitute.org/FP4-incremental-23406010-23407000.zip
-  incremental_sha256: 01d478548911ec2f015dac56e6b1aae7cfa943437e968a04486ddd952a4bd7be
-  incremental_old_build: '23406010'
-  date: '2023-03-15'
+  version: 4.7.5
+  factory_link: https://release.calyxinstitute.org/FP4-factory-23407050.zip
+  factory_sha256: f1c7a791fb8d1c449258620d7c6e7427f7cccfb8585cc8f5f467bd5bcd08f817
+  ota_link: https://release.calyxinstitute.org/FP4-ota_update-23407050.zip
+  ota_sha256: bd4cb2570a3ec814fb76fa3d21dc5dd6af4957ec33656d3b479bd03c8ffb6482
+  incremental_link: https://release.calyxinstitute.org/FP4-incremental-23407000-23407050.zip
+  incremental_sha256: 984630f409b8ebf758336a926d58249c3b21831ad81735bda32493782227e969
+  incremental_old_build: '23407000'
+  date: '2023-03-23'
 - name: SHIFT6mq (beta)
   brand: shift
   codename: axolotl
-  version: 4.7.0
-  factory_link: https://release.calyxinstitute.org/axolotl-factory-23407000.zip
-  factory_sha256: 0d533c5da1097806a04e636a5101a901f1f40b182f727c46997fbc4b76e598fa
-  ota_link: https://release.calyxinstitute.org/axolotl-ota_update-23407000.zip
-  ota_sha256: 9942d37e7da4d0923ff5c2a4b132d8336d78a7c53642337c0f3b70297d4803dc
-  incremental_link: https://release.calyxinstitute.org/axolotl-incremental-23406000-23407000.zip
-  incremental_sha256: 947bad30f85e2334f3cade2001220e86b2b9fab06b9c853896a0ce1383772c25
-  incremental_old_build: '23406000'
-  date: '2023-03-15'
+  version: 4.7.5
+  factory_link: https://release.calyxinstitute.org/axolotl-factory-23407050.zip
+  factory_sha256: d2a8c1da0d0e27d25d9c4e5c49128b010a7947589db672394738c667bed94e84
+  ota_link: https://release.calyxinstitute.org/axolotl-ota_update-23407050.zip
+  ota_sha256: 100189f1ade54a4846837462662f0b08a0a6ffe88ed93f08e48b0d55b14fde69
+  incremental_link: https://release.calyxinstitute.org/axolotl-incremental-23407000-23407050.zip
+  incremental_sha256: 25540897d3f01f126ca18eaa7e36ad071a90a8483f7a30152bb9f881041d5f00
+  incremental_old_build: '23407000'
+  date: '2023-03-23'
 beta:
 - name: Pixel 7 Pro
   brand: pixel
