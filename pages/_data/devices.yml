@@ -16,9 +16,11 @@ codenames:
   - crosshatch
   - blueline
   - FP4
+  - axolotl
 brands:
   - pixel
   - fairphone
+  - shift
 cheetah:
   brand: pixel
   model: Pixel 7 Pro
@@ -131,3 +133,10 @@ FP4:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "yes"
+axolotl:
+  brand: shift
+  model: SHIFT6mq (beta)
+  manufacturer_support_ends: tbc
+  calyxos_support_ends: tbd
+  sim: "dual"
+  esim: "no"

@@ -192,15 +192,27 @@ stable:
   incremental_sha256: 01d478548911ec2f015dac56e6b1aae7cfa943437e968a04486ddd952a4bd7be
   incremental_old_build: '23406010'
   date: '2023-03-15'
+- name: SHIFT6mq (beta)
+  brand: shift
+  codename: axolotl
+  version: 4.7.0
+  factory_link: https://release.calyxinstitute.org/axolotl-factory-23407000.zip
+  factory_sha256: 0d533c5da1097806a04e636a5101a901f1f40b182f727c46997fbc4b76e598fa
+  ota_link: https://release.calyxinstitute.org/axolotl-ota_update-23407000.zip
+  ota_sha256: 9942d37e7da4d0923ff5c2a4b132d8336d78a7c53642337c0f3b70297d4803dc
+  incremental_link: https://release.calyxinstitute.org/axolotl-incremental-23406000-23407000.zip
+  incremental_sha256: 947bad30f85e2334f3cade2001220e86b2b9fab06b9c853896a0ce1383772c25
+  incremental_old_build: '23406000'
+  date: '2023-03-15'
 beta:
 - name: Pixel 7 Pro
   brand: pixel
   codename: cheetah
   version: 4.7.5
   factory_link: https://release.calyxinstitute.org/cheetah-factory-23407050.zip
-  factory_sha256:
+  factory_sha256: acd722952c0e56c6d0351a3b9c418f87959baab7d29c3f881390820153a80774
   ota_link: https://release.calyxinstitute.org/cheetah-ota_update-23407050.zip
-  ota_sha256:
+  ota_sha256: 1f8d7beb1644889eabae90aeea29ae64a41d7e4f6437ca0f43a6ce59dbbf5b4c
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -210,9 +222,9 @@ beta:
   codename: panther
   version: 4.7.5
   factory_link: https://release.calyxinstitute.org/panther-factory-23407050.zip
-  factory_sha256:
+  factory_sha256: 49ca0ea652386d6da1007e5b6595591f0da41168cc6bbafe74ed6a273ba3e1b5
   ota_link: https://release.calyxinstitute.org/panther-ota_update-23407050.zip
-  ota_sha256:
+  ota_sha256: 2744ddd1a253e9e979a2c8a20011e28d08de365fd949955938c6c0a60e0a23b1
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -222,9 +234,9 @@ beta:
   codename: bluejay
   version: 4.7.5
   factory_link: https://release.calyxinstitute.org/bluejay-factory-23407050.zip
-  factory_sha256:
+  factory_sha256: dddc618ba2472e875c36d89ffae3c637672cd2540aa436206d1b47cc5b96c808
   ota_link: https://release.calyxinstitute.org/bluejay-ota_update-23407050.zip
-  ota_sha256:
+  ota_sha256: 3bda7a541a95ef99844d83af6945b6c26e3b2b823cf822e565d9ebef901062d2
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -234,9 +246,9 @@ beta:
   codename: raven
   version: 4.7.5
   factory_link: https://release.calyxinstitute.org/raven-factory-23407050.zip
-  factory_sha256:
+  factory_sha256: 34e7517d18234e4b49e5a4f3b27f7b7614f4d73a2015860a39e5a81127e262b4
   ota_link: https://release.calyxinstitute.org/raven-ota_update-23407050.zip
-  ota_sha256:
+  ota_sha256: 3060f03a678f6f4f63f07630f198021908f0a4e96f608cac2c27528fa98fbb09
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -246,9 +258,9 @@ beta:
   codename: oriole
   version: 4.7.5
   factory_link: https://release.calyxinstitute.org/oriole-factory-23407050.zip
-  factory_sha256:
+  factory_sha256: 7d99897f85639cc803d675f1f4f47e396dc956b793b78c565a8aa435a8503c29
   ota_link: https://release.calyxinstitute.org/oriole-ota_update-23407050.zip
-  ota_sha256:
+  ota_sha256: ee5a9768fe6ddba10542663dc2463444c97fffdef442e4e6aead9a1e48d7f4fa
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -258,9 +270,9 @@ beta:
   codename: barbet
   version: 4.7.5
   factory_link: https://release.calyxinstitute.org/barbet-factory-23407050.zip
-  factory_sha256:
+  factory_sha256: be3fa75e6aeb130b84d7f1092039a752b9bee293088071df1647a9bceffd9a45
   ota_link: https://release.calyxinstitute.org/barbet-ota_update-23407050.zip
-  ota_sha256:
+  ota_sha256: 5fcb1dc329d5bc094085125474e88db169e747a7424190e664b0e59e0436c159
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -270,9 +282,9 @@ beta:
   codename: bramble
   version: 4.7.5
   factory_link: https://release.calyxinstitute.org/bramble-factory-23407050.zip
-  factory_sha256:
+  factory_sha256: 0aeabc5e62c6af9a7fea8c6f7beb9306af6ef8d5c64d53ce318fff9ef371f4fc
   ota_link: https://release.calyxinstitute.org/bramble-ota_update-23407050.zip
-  ota_sha256:
+  ota_sha256: ba79ef19e6d66c1ec6d85be1385e73868495576e7d2fdc18d22be19f45a20a5e
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -282,9 +294,9 @@ beta:
   codename: redfin
   version: 4.7.5
   factory_link: https://release.calyxinstitute.org/redfin-factory-23407050.zip
-  factory_sha256:
+  factory_sha256: 1f5112b1a9e6f5e84dd1a1a02ac814be0593afd4e23eeb7f4b6ad891d23adac5
   ota_link: https://release.calyxinstitute.org/redfin-ota_update-23407050.zip
-  ota_sha256:
+  ota_sha256: c977e770fdc43570393504c6738507a535a3b2efcfd8d267d29f9cce487c223d
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -294,9 +306,9 @@ beta:
   codename: sunfish
   version: 4.7.5
   factory_link: https://release.calyxinstitute.org/sunfish-factory-23407050.zip
-  factory_sha256:
+  factory_sha256: b2b3c53843ef6275e104bf8bc68fe098455af4bbdce186714b027f17d01ba28c
   ota_link: https://release.calyxinstitute.org/sunfish-ota_update-23407050.zip
-  ota_sha256:
+  ota_sha256: ba6de589f6e03212bc4c7b9e9f234510b0166cfc2593659c03870b527a5375a2
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -306,9 +318,9 @@ beta:
   codename: coral
   version: 4.7.5
   factory_link: https://release.calyxinstitute.org/coral-factory-23407050.zip
-  factory_sha256:
+  factory_sha256: 0a42918ef35f379069d37e25caa0b35a65e573b2017da96824bab9d9ec423daa
   ota_link: https://release.calyxinstitute.org/coral-ota_update-23407050.zip
-  ota_sha256:
+  ota_sha256: e453b2625adefa4bb869942c4d77916fa1f1813709d3e8f875b0e5c5f417cd7b
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -318,9 +330,9 @@ beta:
   codename: flame
   version: 4.7.5
   factory_link: https://release.calyxinstitute.org/flame-factory-23407050.zip
-  factory_sha256:
+  factory_sha256: 8f03910395e7f98f5c41eaa6c6a32651720d3171647ec4f91550acd4b020a66e
   ota_link: https://release.calyxinstitute.org/flame-ota_update-23407050.zip
-  ota_sha256:
+  ota_sha256: 6f7955eae960e2d7e08e3683038327f7123e9d5e2330a7b4f2a40592202cda4a
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -330,9 +342,9 @@ beta:
   codename: bonito
   version: 4.7.5
   factory_link: https://release.calyxinstitute.org/bonito-factory-23407050.zip
-  factory_sha256:
+  factory_sha256: c75a4c0cdbcd52b6c4460811e0e8d694618c688458b8b8a61f94537362277ad4
   ota_link: https://release.calyxinstitute.org/bonito-ota_update-23407050.zip
-  ota_sha256:
+  ota_sha256: 72990e9c51c6d8a148147779222532a9583fea5a2678791979d2d0a9efa8d79f
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -342,9 +354,9 @@ beta:
   codename: sargo
   version: 4.7.5
   factory_link: https://release.calyxinstitute.org/sargo-factory-23407050.zip
-  factory_sha256:
+  factory_sha256: '08445e7f180361cd75f31a7cc00b0a46e3bcd6710386b4161f46b78218d8171e'
   ota_link: https://release.calyxinstitute.org/sargo-ota_update-23407050.zip
-  ota_sha256:
+  ota_sha256: 895ca87578239e86d8d1e5f3a456eea87d504bd978a3445f7e7e972cee64cd75
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -354,9 +366,9 @@ beta:
   codename: crosshatch
   version: 4.7.5
   factory_link: https://release.calyxinstitute.org/crosshatch-factory-23407050.zip
-  factory_sha256:
+  factory_sha256: 164f716286205d5cea11f78efc7f620ad295a9c390a0a8ee2248047994a7fe68
   ota_link: https://release.calyxinstitute.org/crosshatch-ota_update-23407050.zip
-  ota_sha256:
+  ota_sha256: 64a2fd9dda041253b362f4bdd2a3d57ac8dc4a18eccd54bd9b87fc7844b0f08c
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -366,9 +378,9 @@ beta:
   codename: blueline
   version: 4.7.5
   factory_link: https://release.calyxinstitute.org/blueline-factory-23407050.zip
-  factory_sha256:
+  factory_sha256: 128ba17d80096963525f8cc8cd40ae4029db1b4dcf0b98f0aa5abbf723bed5a1
   ota_link: https://release.calyxinstitute.org/blueline-ota_update-23407050.zip
-  ota_sha256:
+  ota_sha256: c4a86fc89861eb13754c7d32594517e0194b28a0da7fddbe41b48ffeaede2561
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -378,9 +390,21 @@ beta:
   codename: FP4
   version: 4.7.5
   factory_link: https://release.calyxinstitute.org/FP4-factory-23407050.zip
-  factory_sha256:
+  factory_sha256: f1c7a791fb8d1c449258620d7c6e7427f7cccfb8585cc8f5f467bd5bcd08f817
   ota_link: https://release.calyxinstitute.org/FP4-ota_update-23407050.zip
-  ota_sha256:
+  ota_sha256: bd4cb2570a3ec814fb76fa3d21dc5dd6af4957ec33656d3b479bd03c8ffb6482
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-03-23'
+- name: SHIFT6mq (beta)
+  brand: shift
+  codename: axolotl
+  version: 4.7.5
+  factory_link: https://release.calyxinstitute.org/axolotl-factory-23407050.zip
+  factory_sha256: d2a8c1da0d0e27d25d9c4e5c49128b010a7947589db672394738c667bed94e84
+  ota_link: https://release.calyxinstitute.org/axolotl-ota_update-23407050.zip
+  ota_sha256: 100189f1ade54a4846837462662f0b08a0a6ffe88ed93f08e48b0d55b14fde69
   incremental_link:
   incremental_sha256:
   incremental_old_build:
