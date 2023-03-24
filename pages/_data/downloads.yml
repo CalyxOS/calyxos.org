@@ -192,7 +192,7 @@ stable:
   incremental_sha256: 984630f409b8ebf758336a926d58249c3b21831ad81735bda32493782227e969
   incremental_old_build: '23407000'
   date: '2023-03-23'
-- name: SHIFT6mq (beta)
+- name: SHIFT6mq
   brand: shift
   codename: axolotl
   version: 4.7.5
@@ -397,7 +397,7 @@ beta:
   incremental_sha256:
   incremental_old_build:
   date: '2023-03-23'
-- name: SHIFT6mq (beta)
+- name: SHIFT6mq
   brand: shift
   codename: axolotl
   version: 4.7.5
