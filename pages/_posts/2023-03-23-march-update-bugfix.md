@@ -5,7 +5,7 @@ date: 2023-03-23
 
 CalyxOS 4.7.5 - Bugfix for March 2023 Quarterly Platform Release and Security update is now available for the Pixels and the Fairphone 4
 
-Released to stable on Friday, 25 March.
+Released to stable on Friday, 24 March.
 
 ## Background
 Google releases security updates every month, which are usually easy to integrate.
