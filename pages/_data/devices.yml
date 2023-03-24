@@ -135,7 +135,7 @@ FP4:
   esim: "yes"
 axolotl:
   brand: shift
-  model: SHIFT6mq (beta)
+  model: SHIFT6mq
   manufacturer_support_ends: tbc
   calyxos_support_ends: tbd
   sim: "dual"
