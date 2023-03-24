@@ -1,8 +1,8 @@
 ---
-title: Install on SHIFT6mq (beta)
+title: Install on SHIFT6mq
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[SHIFT6mq (beta) => axolotl]]</strong>
+<strong>[[Install => install]]</strong> / <strong>[[SHIFT6mq => axolotl]]</strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">
