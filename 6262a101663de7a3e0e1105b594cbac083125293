@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3ef1e78_29ff4939",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-28T19:54:09Z",
+      "side": 1,
+      "message": "Made some minor changes, let me know what you think.\n\nI like it, feel free to submit.\n\nWe can just share this URL around for now, don\u0027t have to find a place to put it before merging",
+      "revId": "6262a101663de7a3e0e1105b594cbac083125293",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
