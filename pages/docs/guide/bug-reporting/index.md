@@ -1,6 +1,7 @@
 ---
 title: Bug Reporting
 description: How to report issues
+toc: true
 ---
 
 ## Using the CalyxOS Issue Tracker
