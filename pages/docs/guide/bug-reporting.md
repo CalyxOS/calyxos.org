@@ -1,3 +1,8 @@
+---
+title: Bug Reporting
+description: How to report issues
+---
+
 # Using the CalyxOS Issue Tracker
 CalyxOS keeps track of issues and feature requests using [GitLab issues](https://gitlab.com/CalyxOS/calyxos/-/issues). From here, you can search for existing issues, subscribe to notifications for changes, thumbs-up to indicate that you are also affected/interested, or leave comments if you have additional information. (Note that most interactions require a GitLab account, but general browsing and some searching/filtering is available without one.)
 
