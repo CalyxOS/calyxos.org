@@ -12,6 +12,7 @@
     - faq
     - microg
     - updates
+    - bug-reporting
     - security:
       - security-faq
       - bootloader-lock
