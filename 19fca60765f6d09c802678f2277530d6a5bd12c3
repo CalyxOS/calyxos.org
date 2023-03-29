@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "79f1d0ae_e840933e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-03-29T13:37:43Z",
+      "side": 1,
+      "message": "For some reason, https://calyxos.org/docs/guide/bug-reporting.md is available directly (and is treated as a download), but https://calyxos.org/docs/guide/bug-reporting is 404. Any ideas? ",
+      "revId": "19fca60765f6d09c802678f2277530d6a5bd12c3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
