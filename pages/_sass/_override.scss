@@ -86,7 +86,10 @@
 
     // chrome rendering of outline is bad at small screen sizes.
     // this sort of fixes it
-    padding: 1px;
+    @media (max-width: 600px) {
+      padding-left: 1px;
+    }
+
     text-decoration: underline;
     text-underline-offset: 7px;
     text-decoration-color: var(--calyx-light);
@@ -94,11 +97,17 @@
 }
 
 // this makes firefox look more like the chrome render
-@supports (-moz-appearance:none) {
-  .secondaryIntro {
+@supports ( -moz-appearance:none) {
+  .secondaryIntro, .intro {
+    .highlighter-wrapper {
+      margin-top: 48px;
+    }
     .highlighter {
       line-height: 1.4em;
-      padding: 8px 0 0 0;
+
+      @media (max-width: 850px) {
+        line-height: 1.6em;
+      }
     }
   }
 }
