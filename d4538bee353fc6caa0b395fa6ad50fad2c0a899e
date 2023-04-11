@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f4ff398_c40b4bbb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-04-11T18:43:45Z",
+      "side": 1,
+      "message": "In case we need them:\n\n#### Fairphone 4\n* Linux 4.19.275\n* Music (Eleven): Fix missing shuffle and repeat buttons\n\n#### SHIFT6mq\n* Add missing APN list from stock\n* Enable call recording feature\n* Fix A2DP issues with AAC codec\n* Fix sdcard access on computer via USB (MTP)\n* Switch to 64bit only mode",
+      "revId": "d4538bee353fc6caa0b395fa6ad50fad2c0a899e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
