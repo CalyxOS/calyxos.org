@@ -16,6 +16,74 @@
       "message": "In case we need them:\n\n#### Fairphone 4\n* Linux 4.19.275\n* Music (Eleven): Fix missing shuffle and repeat buttons\n\n#### SHIFT6mq\n* Add missing APN list from stock\n* Enable call recording feature\n* Fix A2DP issues with AAC codec\n* Fix sdcard access on computer via USB (MTP)\n* Switch to 64bit only mode",
       "revId": "d4538bee353fc6caa0b395fa6ad50fad2c0a899e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d3c8d03c_d41481f5",
+        "filename": "pages/_posts/2023-04-11-april-update-security-express.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-12T02:53:44Z",
+      "side": 1,
+      "message": "Maybe we put them here instead? Changelog is just normal security update / bugfix stuff, this is quite important IMO.",
+      "revId": "d4538bee353fc6caa0b395fa6ad50fad2c0a899e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e85829e7_003e5008",
+        "filename": "pages/_posts/2023-04-11-april-update-security-express.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-12T02:53:44Z",
+      "side": 1,
+      "message": "Should copy to calyxos repo once done under changelogs/ (I do have to plan to avoid duplication but for now it\u0027s fine)",
+      "revId": "d4538bee353fc6caa0b395fa6ad50fad2c0a899e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8f163882_2b8dbfe2",
+        "filename": "pages/_posts/2023-04-11-april-update-security-express.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-12T02:53:44Z",
+      "side": 1,
+      "message": "I\u0027d separate out this section so that people don\u0027t mix it up with security express",
+      "revId": "d4538bee353fc6caa0b395fa6ad50fad2c0a899e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef6db1dd_3b1740b6",
+        "filename": "pages/_posts/2023-04-11-april-update-security-express.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-12T02:53:44Z",
+      "side": 1,
+      "message": "Less of an enrollment atm, more of a one-time thing because the property is reset on reboot.\n\nIn the future it\u0027ll be in the Updater app of course, based on feedback here.",
+      "revId": "d4538bee353fc6caa0b395fa6ad50fad2c0a899e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
