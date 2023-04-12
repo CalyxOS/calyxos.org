@@ -35,6 +35,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "61c8ecfe_41b2a68b",
+        "filename": "pages/_posts/2023-04-11-april-update-security-express.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-12T13:20:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d3c8d03c_d41481f5",
+      "revId": "d4538bee353fc6caa0b395fa6ad50fad2c0a899e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e85829e7_003e5008",
@@ -69,6 +87,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "252c6414_211d4882",
+        "filename": "pages/_posts/2023-04-11-april-update-security-express.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-12T13:20:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8f163882_2b8dbfe2",
+      "revId": "d4538bee353fc6caa0b395fa6ad50fad2c0a899e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ef6db1dd_3b1740b6",
@@ -82,6 +118,24 @@
       "writtenOn": "2023-04-12T02:53:44Z",
       "side": 1,
       "message": "Less of an enrollment atm, more of a one-time thing because the property is reset on reboot.\n\nIn the future it\u0027ll be in the Updater app of course, based on feedback here.",
+      "revId": "d4538bee353fc6caa0b395fa6ad50fad2c0a899e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4165d29c_33176c7b",
+        "filename": "pages/_posts/2023-04-11-april-update-security-express.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-12T13:20:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ef6db1dd_3b1740b6",
       "revId": "d4538bee353fc6caa0b395fa6ad50fad2c0a899e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
