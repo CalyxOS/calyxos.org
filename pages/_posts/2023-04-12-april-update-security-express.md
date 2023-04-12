@@ -1,5 +1,5 @@
 ---
-title: April Security update: Security Express
+title: April Security update - Security Express
 date: 2023-04-12
 ---
 
