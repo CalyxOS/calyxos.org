@@ -70,6 +70,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd84ac7a_78ab1e01",
+        "filename": "pages/_posts/2023-04-11-april-update-security-express.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-12T16:20:35Z",
+      "side": 1,
+      "message": "Done in Gerrit changes",
+      "parentUuid": "e85829e7_003e5008",
+      "revId": "d4538bee353fc6caa0b395fa6ad50fad2c0a899e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8f163882_2b8dbfe2",
