@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ed748dee_038a469e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 7
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-12T13:24:18Z",
+      "side": 1,
+      "message": "can also include 4.8.1",
+      "revId": "bc89407bf7a1c0ec230327cce67db7493bfad6c2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "864628e3_b35f0200",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-12T13:24:18Z",
+      "side": 1,
+      "message": "Minor nits",
+      "revId": "bc89407bf7a1c0ec230327cce67db7493bfad6c2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7f876a9f_76cc5ca7",
+        "filename": "pages/_posts/2023-04-12-april-update-security-express.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-12T13:24:18Z",
+      "side": 1,
+      "message": "For the reddit post - markdown mode, and start from this line (i.e. skip ---)\n\nMake sure to unstick my march post first.",
+      "revId": "bc89407bf7a1c0ec230327cce67db7493bfad6c2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "570c4088_c6ef5707",
+        "filename": "pages/_posts/2023-04-12-april-update-security-express.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-12T13:24:18Z",
+      "side": 1,
+      "message": "It\u0027d be good to do a quick test of this, once live (commits to CalyxOS/release)\n\nJust set to this, have it check for an update, and then check logcat to see if it hit the right URL, and if it says build date not newer (if you\u0027re already on 4.8.x)",
+      "revId": "bc89407bf7a1c0ec230327cce67db7493bfad6c2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "858d0b65_5455e18c",
+        "filename": "pages/_posts/2023-04-12-april-update-security-express.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-12T13:24:18Z",
+      "side": 1,
+      "message": "For the reddit post, this won\u0027t work - so what I do is edit the old post (march here), and copy-paste the markdown from that.",
+      "revId": "bc89407bf7a1c0ec230327cce67db7493bfad6c2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
