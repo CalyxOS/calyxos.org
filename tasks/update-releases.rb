@@ -20,6 +20,7 @@ module Releases
       FileUtils.mkdir_p(RELEASE_CACHE)
       Dir.chdir(RELEASE_CACHE) do
         `git clone #{RELEASE_SOURCE} .`
+        `git fetch https://review.calyxos.org/CalyxOS/release refs/changes/21/16721/1 && git cherry-pick FETCH_HEAD`
       end
     end
 
