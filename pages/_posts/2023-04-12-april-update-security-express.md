@@ -3,9 +3,11 @@ title: April Security update - Security Express
 date: 2023-04-12
 ---
 
-CalyxOS 4.8.0 (and 4.8.1) - April 2023 Security update is now in testing for Pixels, Fairphone 4, and SHIFT6mq
+CalyxOS 4.8.0 (and 4.8.1) - April 2023 Security update is now available for Pixels, Fairphone 4, and SHIFT6mq
 
-This update is initially rolling out in our new Security Express update channel, which can be summarized in four words: Fastest updates, possible breakage.
+Released to stable on Friday, 14 April.
+
+This update initially rolled out in our new Security Express update channel, which can be summarized in four words: Fastest updates, possible breakage.
 
 ### Introducing Security Express
 The Security Express channel allows us to achieve two major goals:
@@ -48,6 +50,9 @@ and fixes added in 4.7.6 / 4.7.7 which have not yet reached the Stable channel.
 
 #### Pixel 7 series
 * Fix VoWiFi (Wi-Fi Calling) for supported providers
+
+#### Pixels 3-3a
+* CalyxOS 4.8.1
 
 #### Fairphone 4
 * CalyxOS 4.8.1
