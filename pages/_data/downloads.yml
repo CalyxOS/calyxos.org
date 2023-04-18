@@ -388,15 +388,15 @@ beta:
 - name: Fairphone 4
   brand: fairphone
   codename: FP4
-  version: 4.7.7
-  factory_link: https://release.calyxinstitute.org/FP4-factory-23407070.zip
-  factory_sha256: 24f2fec8c65d840f642fa88226011424807ade5a8283098a290c15f86d0bb556
-  ota_link: https://release.calyxinstitute.org/FP4-ota_update-23407070.zip
-  ota_sha256: 6593accbe0132759bd0043d44c5a419a098e75a86b06db61369894c4489f03d4
+  version: 4.8.2
+  factory_link: https://release.calyxinstitute.org/FP4-factory-23408020.zip
+  factory_sha256: 85f237b4b7a9f492cb9b643230af3b83c9a4853462d6b23332ded4aba62da605
+  ota_link: https://release.calyxinstitute.org/FP4-ota_update-23408020.zip
+  ota_sha256: db2a7cb30a5e01f19c5dfa3168eb3d19b933237cbf2741d95b3a2a09cc25e995
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  date: '2023-04-06'
+  date: '2023-04-13'
 - name: SHIFT6mq (beta)
   brand: shift
   codename: axolotl
