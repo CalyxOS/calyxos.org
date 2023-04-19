@@ -7,4 +7,14 @@ redirect_from: /lock/
 
 You may have gotten a warning message that brings you to this page (**calyxos.org/lock**)
 
-Information about bootloader re-locking, work in progress
+## Pixels
+
+* It should be safe to re-lock the Pixels anytime.
+
+## Fairphone 4
+
+**DO NOT** re-lock the bootloader without additional checks
+
+## SHIFT6mq
+
+* It should be safe to re-lock anytime
