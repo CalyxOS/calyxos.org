@@ -5,7 +5,7 @@ date: 2023-04-21
 
 CalyxOS 4.8.3 - April 2023 feature update is now available for Pixels, Fairphone 4 and SHIFT6mq
 
-It's currently in the beta channel, and will be rolled out to stable next week based on feedback.
+Released to stable on Wednesday, 26 April.
 
 ### Devices on 4.7.x beta
 We released 4.7.6 and 4.7.7 as beta late last month, and included some changes in that which didn't make it to the previous stable build (4.8.0). We don't usually do that, where the next build doesn't include some of the changes made in the previous build.
