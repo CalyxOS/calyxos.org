@@ -40,7 +40,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/bonito-factory-23408010.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/bonito-factory-23408030.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 3a XL (bonito)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -52,14 +52,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/bonito-factory-23408010.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/bonito-factory-23408030.zip" | split: "/" | last %}
 {% include install/mac_image_digest.md filename=image %}
 
-And ensure the result says `af390fb30380a8e3fc0f76bc30d179a001575351b19b1fb8326df715711dfe1d`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `55083e5640cbf495e7c264de36aa62beb722f4f2dc8a375a58870a0156e93828`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/bonito-factory-23408010.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/bonito-factory-23408030.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 
