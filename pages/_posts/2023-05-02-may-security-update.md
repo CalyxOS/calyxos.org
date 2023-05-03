@@ -26,7 +26,7 @@ The Security express channel, which first debuted in April, allows us to achieve
 5. If it doesn't do anything, make sure to check the "Permitted networks" setting
 
 ### Changelog
-* CalyxOS 4.9.0 an 4.9.1
+* CalyxOS 4.9.0 and 4.9.1
 * May 2023 Security update
 * Chromium: 113.0.5672.61
 * Fix certain VPN apps not working correctly, such as AdAway
