@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66701047_1ad9112a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-05-03T13:07:17Z",
+      "side": 1,
+      "message": "My comments are totally optional so I\u0027m marking them Resolved from the start.",
+      "revId": "fd22a8f8884035448c1dc585b08e8d7fb321fdfd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49e455ea_d8911ebf",
+        "filename": "pages/_posts/2023-05-02-may-security-update.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-05-03T13:07:17Z",
+      "side": 1,
+      "message": "Nit: We\u0027ve technically already introduced it in the April post, but now it\u0027s user-selectable -- maybe the heading could just be \"The Security express channel\" or something, but again, minor nit",
+      "revId": "fd22a8f8884035448c1dc585b08e8d7fb321fdfd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9fd7eca9_9a92fbf6",
+        "filename": "pages/_posts/2023-05-02-may-security-update.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-05-03T13:07:17Z",
+      "side": 1,
+      "message": "Nit: Maybe something like \"The Security express channel, which first debuted in April, \"",
+      "revId": "fd22a8f8884035448c1dc585b08e8d7fb321fdfd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
