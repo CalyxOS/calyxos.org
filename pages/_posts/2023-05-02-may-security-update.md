@@ -5,7 +5,9 @@ date: 2023-05-02
 
 CalyxOS 4.9.0 and 4.9.1 - May 2023  Security update is now available for Pixels, Fairphone 4, and SHIFT6mq
 
-This update will initially roll out in our new Security express update channel, which can be summarized in four words: Fastest updates, possible breakage.
+Released to stable on Thursday, 4 May.
+
+This update initially rolled out in our new Security express update channel, which can be summarized in four words: Fastest updates, possible breakage.
 
 ### The Security express channel
 The Security express channel, which first debuted in April, allows us to achieve two major goals:
