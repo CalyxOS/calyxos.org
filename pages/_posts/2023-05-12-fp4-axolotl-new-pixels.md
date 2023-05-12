@@ -1,5 +1,5 @@
 ---
-title: May update - FP4, SHIFT6mq
+title: May update - FP4, SHIFT6mq and new Pixels
 date: 2023-05-12
 ---
 
