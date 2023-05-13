@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e331c6f0_bb93cfe3",
+        "filename": "pages/community/moderation/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000070
+      },
+      "writtenOn": "2023-05-13T20:50:17Z",
+      "side": 1,
+      "message": "- conflicts should be resolved in DMs and not in public channels\n- maybe add info about mod applications? if need be\n- there are limits to the off-topic room. advertisements, toxic discussions and nonsensical tangents are not ok, mods will step in if need be\n- discussions should be held in the according rooms, e.g. dev related topics in the dev channel. mods will nudge occasionally to keep this in order\nnot much else to add for now imo",
+      "revId": "9b2e7bfb449ec676768917ddbfe9146d47ac757a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
