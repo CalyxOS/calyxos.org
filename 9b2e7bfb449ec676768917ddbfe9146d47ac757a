@@ -16,6 +16,24 @@
       "message": "- conflicts should be resolved in DMs and not in public channels\n- maybe add info about mod applications? if need be\n- there are limits to the off-topic room. advertisements, toxic discussions and nonsensical tangents are not ok, mods will step in if need be\n- discussions should be held in the according rooms, e.g. dev related topics in the dev channel. mods will nudge occasionally to keep this in order\nnot much else to add for now imo",
       "revId": "9b2e7bfb449ec676768917ddbfe9146d47ac757a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3cdb104d_95ff71b9",
+        "filename": "pages/community/moderation/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-14T13:31:05Z",
+      "side": 1,
+      "message": "1. Sounds good\n2. I don\u0027t know how to handle that atm but that sounds good, will add into follow up patch\n3. Sounds good, just want to phrase it slightly differently\n4. Good point.",
+      "parentUuid": "e331c6f0_bb93cfe3",
+      "revId": "9b2e7bfb449ec676768917ddbfe9146d47ac757a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
