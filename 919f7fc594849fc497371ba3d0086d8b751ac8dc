@@ -34,6 +34,24 @@
       "parentUuid": "9aef5ec3_c3fd6b51",
       "revId": "919f7fc594849fc497371ba3d0086d8b751ac8dc",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dbf1e909_1a29699a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-16T21:34:09Z",
+      "side": 1,
+      "message": "Nope, stock is fine, thus it\u0027s still an issue.",
+      "parentUuid": "38f456c8_9c066c18",
+      "revId": "919f7fc594849fc497371ba3d0086d8b751ac8dc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ],
   "submitRequirementResults": []
