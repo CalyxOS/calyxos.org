@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9aef5ec3_c3fd6b51",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-16T19:26:02Z",
+      "side": 1,
+      "message": "Happening again with 4.9.0 :-(",
+      "revId": "919f7fc594849fc497371ba3d0086d8b751ac8dc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ],
   "submitRequirementResults": []
 }
