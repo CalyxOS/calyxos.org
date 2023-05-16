@@ -16,6 +16,24 @@
       "message": "Happening again with 4.9.0 :-(",
       "revId": "919f7fc594849fc497371ba3d0086d8b751ac8dc",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "38f456c8_9c066c18",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-16T19:49:35Z",
+      "side": 1,
+      "message": "False alarm, seems to be a hardware issue, it happened with stock too.",
+      "parentUuid": "9aef5ec3_c3fd6b51",
+      "revId": "919f7fc594849fc497371ba3d0086d8b751ac8dc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ],
   "submitRequirementResults": []
