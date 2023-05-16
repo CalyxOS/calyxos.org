@@ -5,7 +5,7 @@ date: 2023-05-12
 
 CalyxOS 4.9.2 is now available for Fairphone 4 and SHIFT6mq
 
-It's currently in both the Beta and Security express channel, and will roll out to Stable soon based on feedback.
+Released to stable on Tuesday, 16 May
 
 ### Changelog
 * CalyxOS 4.9.2
