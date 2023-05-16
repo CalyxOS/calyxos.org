@@ -28,10 +28,10 @@ stable:
   brand: pixel
   codename: bluejay
   version: 4.9.0
-  factory_link: https://release.calyxinstitute.org/bluejay-factory-23409000.zip
-  factory_sha256: '0729c1d4a8c50db2975c41ae24b60a28ef11865061ca03239095559e65f124a1'
-  ota_link: https://release.calyxinstitute.org/bluejay-ota_update-23409000.zip
-  ota_sha256: bce1bacca3cd702211594dd3e914dbf790f85a0d8b1adf2e7f5b0045634f8c20
+  factory_link: https://release.calyxinstitute.org/bluejay-factory-23408030.zip
+  factory_sha256: 63b3e28373254f320d1c8a001d74d7f3686f435d86fb021a32527aba8c42c3ae
+  ota_link: https://release.calyxinstitute.org/bluejay-ota_update-23408030.zip
+  ota_sha256: eed5c24ba917b956d0cf27d40659286a299878f0abade24456efd9d5087cb4f9
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -40,10 +40,10 @@ stable:
   brand: pixel
   codename: raven
   version: 4.9.0
-  factory_link: https://release.calyxinstitute.org/raven-factory-23409000.zip
-  factory_sha256: c78390100897f5657d5e17b2625ab73db1ca4ca3fb6489861fc4524787dd9b72
-  ota_link: https://release.calyxinstitute.org/raven-ota_update-23409000.zip
-  ota_sha256: 7a147641b4a82910d4eca500ca6825742587249a888ce05c6161e6382b34a3cf
+  factory_link: https://release.calyxinstitute.org/raven-factory-23408030.zip
+  factory_sha256: 839a94575730194bd862e056eed0d02ab73e21643cc6ab1d2e67d369235597fb
+  ota_link: https://release.calyxinstitute.org/raven-ota_update-23408030.zip
+  ota_sha256: d3be50cdbbf07e703ca6b61dc0c5422e93b616f98ac78fbd501e4b57ce2245cd 
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -52,10 +52,10 @@ stable:
   brand: pixel
   codename: oriole
   version: 4.9.0
-  factory_link: https://release.calyxinstitute.org/oriole-factory-23409000.zip
-  factory_sha256: 8e11338539bc3f1988bf03eb2e897cb73d075fe85d67183badcf647e7a8a4f9e
-  ota_link: https://release.calyxinstitute.org/oriole-ota_update-23409000.zip
-  ota_sha256: 2a3f0a628161846a7f51f2819f0756968e7d72a80d1eabfefbe6b5eb7145e00c
+  factory_link: https://release.calyxinstitute.org/oriole-factory-23408030.zip
+  factory_sha256: 3fb621c2c25f47d559a545d2ace6527f03f82433213d852602ad92aa787a95f4
+  ota_link: https://release.calyxinstitute.org/oriole-ota_update-23408030.zip
+  ota_sha256: 16d3ef915e18ba2de19466ac89683fe351d0d1e09a4fa26bb0607b5db9eac4b3 
   incremental_link:
   incremental_sha256:
   incremental_old_build:
