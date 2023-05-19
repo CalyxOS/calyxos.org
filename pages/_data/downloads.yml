@@ -1,5 +1,17 @@
 ---
 stable:
+- name: Pixel 7a
+  brand: pixel
+  codename: lynx
+  version: 4.9.3-2
+  factory_link: https://release.calyxinstitute.org/lynx-factory-23409032.zip
+  factory_sha256: e5b159366039904746007ab058dd98bc0b3fc84880eae4d2cca9cbb764939ccb
+  ota_link: https://release.calyxinstitute.org/lynx-ota_update-23409032.zip
+  ota_sha256: 3e479da41c0b6b8ee38024e9594b3c2803e3a8359b76604fedfa32a8095e1532
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-05-18'
 - name: Pixel 7 Pro
   brand: pixel
   codename: cheetah
@@ -205,6 +217,18 @@ stable:
   incremental_old_build: '23409000'
   date: '2023-05-11'
 beta:
+- name: Pixel 7a
+  brand: pixel
+  codename: lynx
+  version: 4.9.3-2
+  factory_link: https://release.calyxinstitute.org/lynx-factory-23409032.zip
+  factory_sha256: e5b159366039904746007ab058dd98bc0b3fc84880eae4d2cca9cbb764939ccb
+  ota_link: https://release.calyxinstitute.org/lynx-ota_update-23409032.zip
+  ota_sha256: 3e479da41c0b6b8ee38024e9594b3c2803e3a8359b76604fedfa32a8095e1532
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-05-18'
 - name: Pixel 7 Pro
   brand: pixel
   codename: cheetah
