@@ -3,6 +3,91 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4a9d5133_ba45ad87",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2023-05-20T17:25:24Z",
+      "side": 1,
+      "message": "Added further suggestions",
+      "revId": "9b2e7bfb449ec676768917ddbfe9146d47ac757a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "592a4872_d2c3df20",
+        "filename": "pages/community/moderation/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2023-05-20T17:25:24Z",
+      "side": 1,
+      "message": "We should include tips on how to use Mjolnir (e.g. basic commands, etc.)",
+      "revId": "9b2e7bfb449ec676768917ddbfe9146d47ac757a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e11276b2_a2f8c4af",
+        "filename": "pages/community/moderation/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2023-05-20T17:25:24Z",
+      "side": 1,
+      "message": "More information should be added on how to warn.\n\nI personally believe DMs are more appropriate, as otherwise\nmembers may feel both ostracized and embarrassed about a \npublic telling-off.  I normally follow up with a DM after\nseeing inappropriate behaviour and, if they refuse to comply,\ntake further action (kick, then a ban if they still press on).",
+      "revId": "9b2e7bfb449ec676768917ddbfe9146d47ac757a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7a39e077_764d60c0",
+        "filename": "pages/community/moderation/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2023-05-20T17:25:24Z",
+      "side": 1,
+      "message": "While this is definitely pertinent to Graphene, I believe we should also state\nthat any support requests regarding alternative ROMs in main should also not \nbe tolerated.  We don\u0027t have the time to debug other ROMs.",
+      "revId": "9b2e7bfb449ec676768917ddbfe9146d47ac757a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49c7f38b_a0ff7268",
+        "filename": "pages/community/moderation/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2023-05-20T17:25:24Z",
+      "side": 1,
+      "message": "It should be stated that any inappropriate discussions should not take place in the off-topic room (e.g. discrimination, etc.)\nThis should be here and in https://review.calyxos.org/c/CalyxOS/calyxos.org/+/6840",
+      "revId": "9b2e7bfb449ec676768917ddbfe9146d47ac757a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e331c6f0_bb93cfe3",
         "filename": "pages/community/moderation/index.md",
         "patchSetId": 1
