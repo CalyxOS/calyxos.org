@@ -18,6 +18,10 @@ toc: true
 
 There are a few things you must do to prepare your device to accept a new operating system:
 
+#### Remove SIM card
+
+On brand new devices, especially those obtained from a carrier, it's better to remove the SIM card from the device before starting it for the first time, to help with the "OEM Unlocking" step below.
+
 #### Enable Developer Options
 
 **Settings** &rarr; **About Phone** &rarr; tap **Build number** 7 times
@@ -30,7 +34,7 @@ There are a few things you must do to prepare your device to accept a new operat
 
 **Settings** &rarr; **System** &rarr; **Advanced** &rarr; **Developer Options** &rarr; **OEM unlocking**
 
-This step might fail if there is no internet connection. In that case, connect to a WiFi network and remove SIM card, then try again.
+This step might fail if there is no internet connection. In that case, connect to a WiFi network and then try again.
 
 ## Prepare your host computer
 
@@ -110,4 +114,5 @@ If you would like to return to the default operating system, please see [[stock]
 ## Security Notes
 
 {% include install/security_notes.html %}
+
 <!-- Auto generated. DO NOT EDIT -->
