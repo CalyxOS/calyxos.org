@@ -7,7 +7,7 @@ CalyxOS 4.9.4 - Feature update is now available for the Pixels, Fairphone 4, and
 
 Released to Stable on Monday, June 5.
 
-### June Security update
+### Status of June Security update
 
 * Security updates are generally released by Google on the first Monday of every month, around 1200 Pacific Time (1900 UTC). It also then takes a few hours for them to release all of the updated source code.
 * As Monday, June 5, 1700 UTC (time of writing this update), Google is yet to release the securtiy update. We're waiting for them to release it, and as soon as it's out we'll start working on it.
