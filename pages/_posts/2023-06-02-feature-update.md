@@ -5,9 +5,7 @@ date: 2023-06-02
 
 CalyxOS 4.9.4 - Feature update is now available for the Pixels, Fairphone 4, and SHIFT6mq
 
-It's currently in the beta and security express channels.
-
-It'll be released to stable on Monday, June 5 if all goes well.
+Released to Stable on Monday, June 5.
 
 ### Changelog
 * CalyxOS 4.9.4

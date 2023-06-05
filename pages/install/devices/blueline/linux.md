@@ -44,7 +44,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/blueline-factory-23409000.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/blueline-factory-23409040.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 3 (blueline)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -56,14 +56,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/blueline-factory-23409000.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/blueline-factory-23409040.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `4217016e8576744035e0490e74da4f11e372355d28e57a61b5456b4dc397a77d`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `15b9781e7f1638b6288f5c77b3ddbcdc9e69a8fa339a9755a5d8b0f4f7872093`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/blueline-factory-23409000.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/blueline-factory-23409040.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 
