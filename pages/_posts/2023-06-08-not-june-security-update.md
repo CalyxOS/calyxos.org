@@ -5,11 +5,11 @@ date: 2023-06-08
 
 CalyxOS 4.10.0 - NOT June 2023 Security update is now available for the Pixels, Fairphone 4, and SHIFT6mq
 
-We're still waiting for Google to release the June 2023 Security update for Pixels, but figured we'd release a build in the interim.
+~~We're still waiting for Google to release the June 2023 Security update for Pixels, but figured we'd release a build in the interim.~~
 
-It's currently in the beta and security express channels.
+Released to stable on Wednesday, June 14.
 
-It'll be released to stable in the coming days if all goes well.
+June 2023 Security update - work in progress.
 
 ### Changelog
 * CalyxOS 4.10.0
