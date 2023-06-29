@@ -27,6 +27,7 @@ It's currently in the Beta and Security express channel, and will be bumped to S
 * Contacts: Allow storing contacts on device even when a Google account is added.
 * Font and icon shape settings moved to long press on home screen -> Wallpaper and style
 * Drop Aurora Services - it worked the same as "Session Installer" on CalyxOS anyways.
+* Aurora Store will keep working the same as before.
 
 #### Pixel 6 - 7a
 * Fix "Long press on fingerprint sensor to unlock phone"
