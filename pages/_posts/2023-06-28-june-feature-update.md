@@ -33,11 +33,9 @@ It's currently in the Beta and Security express channel, and will be bumped to S
 * Fix "Long press on fingerprint sensor to unlock phone"
 
 #### FP4
+* CalyxOS 4.10.2-2 (23410022)
 * Update to FP4.SP29.B.069.20230510
-
-#### Known issues
-##### FP4
-* Tapping the fingerprint scanner wakes up the device. There used to be an option to change that, it's temporary unavailable, will be brought back in the next build.
+* Tapping the fingerprint scanner wakes up the device, only if configured to do so. Settings -> Fingerprint -> Manage fingerprints -> Touch to unlock anytime
 
 ### Note
 
