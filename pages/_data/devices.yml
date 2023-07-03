@@ -112,28 +112,28 @@ bonito:
   manufacturer_support_ends: 2022-04
   calyxos_support_ends: 2023-02
   sim: "dual"
-  esim: "yes"
+  esim: "no"
 sargo:
   brand: pixel
   model: Pixel 3a
   manufacturer_support_ends: 2022-04
   calyxos_support_ends: 2023-02
   sim: "dual"
-  esim: "yes"
+  esim: "no"
 crosshatch:
   brand: pixel
   model: Pixel 3 XL
   manufacturer_support_ends: 2021-10
   calyxos_support_ends: 2023-02
   sim: "single"
-  esim: "yes"
+  esim: "no"
 blueline:
   brand: pixel
   model: Pixel 3
   manufacturer_support_ends: 2021-10
   calyxos_support_ends: 2023-02
   sim: "single"
-  esim: "yes"
+  esim: "no"
 FP4:
   brand: fairphone
   model: Fairphone 4
