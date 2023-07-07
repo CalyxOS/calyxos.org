@@ -10,7 +10,7 @@ Google released this update late, on Wednesday 5 July instead of their usual Mon
 | Release channel  | Date   |
 | ---------------- | ------ |
 | Security express | 6 July, Thursday |
-| Beta | 7 July (planned) |
+| Beta | 7 July, Friday |
 | Stable | 10 July (planned) |
 
 ### Changelog
