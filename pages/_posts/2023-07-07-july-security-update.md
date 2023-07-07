@@ -3,7 +3,7 @@ title: July 2023 Security update
 date: 2023-07-07
 ---
 
-CalyxOS 4.11.1 - July 2023 is now available for all supported devices.
+CalyxOS 4.11.0 - July 2023 is now available for all supported devices.
 
 Google released this update late, on Wednesday 5 July instead of their usual Monday release.
 
