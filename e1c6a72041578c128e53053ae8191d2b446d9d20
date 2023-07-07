@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e74cdbd_d699bd52",
+        "filename": "pages/_includes/install/linux_notes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-07T15:59:53Z",
+      "side": 1,
+      "message": "Out of curiosity, what is FHS here?\n\nAnd I assume this is needed to run binaries such as `adb` and `fastboot`",
+      "revId": "e1c6a72041578c128e53053ae8191d2b446d9d20",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
