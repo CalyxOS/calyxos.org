@@ -16,6 +16,24 @@
       "message": "Out of curiosity, what is FHS here?\n\nAnd I assume this is needed to run binaries such as `adb` and `fastboot`",
       "revId": "e1c6a72041578c128e53053ae8191d2b446d9d20",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d5051e3d_ad828108",
+        "filename": "pages/_includes/install/linux_notes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000097
+      },
+      "writtenOn": "2023-07-07T19:02:23Z",
+      "side": 1,
+      "message": "FHS is https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard in this case. By default NixOS uses a different filesystem layout. `buildFHSUserEnv` creates an ephemeral FHS-compatible environment, indeed to be able to run binaries such as `adb` and `fastboot` without modifications.",
+      "parentUuid": "2e74cdbd_d699bd52",
+      "revId": "e1c6a72041578c128e53053ae8191d2b446d9d20",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
