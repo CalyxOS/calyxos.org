@@ -7,8 +7,8 @@ CalyxOS 4.11.1 - July 2023 is now available for all supported devices.
 
 Google released this update late, on Wednesday 5 July instead of their usual Monday release.
 
-| ---------------- | ------ |
 | Release channel  | Date   |
+| ---------------- | ------ |
 | Security express | 6 July, Thursday |
 | Beta | 7 July (planned) |
 | Stable | 10 July (planned) |
