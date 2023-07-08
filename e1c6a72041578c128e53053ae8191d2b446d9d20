@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "54aa721d_807c5b18",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-08T19:42:32Z",
+      "side": 1,
+      "message": "Thanks!",
+      "revId": "e1c6a72041578c128e53053ae8191d2b446d9d20",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2e74cdbd_d699bd52",
@@ -32,6 +49,24 @@
       "side": 1,
       "message": "FHS is https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard in this case. By default NixOS uses a different filesystem layout. `buildFHSUserEnv` creates an ephemeral FHS-compatible environment, indeed to be able to run binaries such as `adb` and `fastboot` without modifications.",
       "parentUuid": "2e74cdbd_d699bd52",
+      "revId": "e1c6a72041578c128e53053ae8191d2b446d9d20",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca9a10e5_b3ce23b4",
+        "filename": "pages/_includes/install/linux_notes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-08T19:42:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "d5051e3d_ad828108",
       "revId": "e1c6a72041578c128e53053ae8191d2b446d9d20",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
