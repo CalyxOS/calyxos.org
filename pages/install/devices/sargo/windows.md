@@ -44,7 +44,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/sargo-factory-23410010.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/sargo-factory-23411000.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 3a (sargo)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -56,14 +56,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/sargo-factory-23410010.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/sargo-factory-23411000.zip" | split: "/" | last %}
 {% include install/windows_image_digest.md filename=image %}
 
-And ensure the result says `80dee1fd5a464823cd0e70cc50190325dbea0a27529b6e61aba1c04400d2fbbd`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `822432943c67865d84f535fb2764375477b95a888e519b552bc91d4d3d291e5d`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/sargo-factory-23410010.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/sargo-factory-23411000.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 

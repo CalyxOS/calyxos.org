@@ -11,7 +11,7 @@ Google released this update late, on Wednesday 5 July instead of their usual Mon
 | ---------------- | ------ |
 | Security express | 6 July, Thursday |
 | Beta | 7 July, Friday |
-| Stable | 10 July (planned) |
+| Stable | 11 July, Tuesday |
 
 ### Changelog
 * CalyxOS 4.11.0
