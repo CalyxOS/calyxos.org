@@ -16,6 +16,23 @@
       "message": "https://gitlab.com/fdroid/admin/-/issues/388#note_1466684245",
       "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "275464a6_352fca9b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2023-07-12T14:23:26Z",
+      "side": 1,
+      "message": "Hans\u0027s comment on linked issue mentions \"funding\" and \"funded work\". Might be good to clarify what they mean and how that affects maintenance done by us?",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
