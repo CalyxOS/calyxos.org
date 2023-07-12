@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c83af740_5426c17a",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-12T13:11:25Z",
+      "side": 1,
+      "message": "Nah that\u0027s fine, the apps are called \"Aurora Store\" and \"Google Play Store\" respectively.",
+      "parentUuid": "a6afbb4c_11ad14ff",
+      "revId": "374da01857f12e46e82fba3005e39b78918cbeee",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e39ab0d4_204fa2b6",
@@ -31,6 +49,24 @@
       "writtenOn": "2023-07-12T12:03:44Z",
       "side": 1,
       "message": "Sure, you want to promise that? ;)",
+      "revId": "374da01857f12e46e82fba3005e39b78918cbeee",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "63da1963_91e0cc74",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-12T13:11:25Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "e39ab0d4_204fa2b6",
       "revId": "374da01857f12e46e82fba3005e39b78918cbeee",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -52,6 +88,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f77011a8_77a0e051",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-12T13:11:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f02f0bbf_588bfead",
+      "revId": "374da01857f12e46e82fba3005e39b78918cbeee",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "530060eb_5407c459",
@@ -65,6 +119,24 @@
       "writtenOn": "2023-07-12T12:03:44Z",
       "side": 1,
       "message": "Oh I didn\u0027t know this admin issue is publicly visible, nice!",
+      "revId": "374da01857f12e46e82fba3005e39b78918cbeee",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d5916fdc_0f3e60dd",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-12T13:11:25Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "530060eb_5407c459",
       "revId": "374da01857f12e46e82fba3005e39b78918cbeee",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -88,6 +160,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "eba00ae7_7d52d9d9",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-12T13:11:25Z",
+      "side": 1,
+      "message": "That\u0027s how I meant it to be.",
+      "parentUuid": "86b71c49_5321f119",
+      "revId": "374da01857f12e46e82fba3005e39b78918cbeee",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "8da0f5c2_719483e3",
         "filename": "pages/_posts/2023-07-12-f-droid.md",
         "patchSetId": 9
@@ -99,6 +189,24 @@
       "writtenOn": "2023-07-12T12:03:44Z",
       "side": 1,
       "message": "Hans means to promote 1.17 to stable after alpha1 which is fine with me.",
+      "revId": "374da01857f12e46e82fba3005e39b78918cbeee",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b5090bfd_251b2ae4",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-12T13:11:25Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "8da0f5c2_719483e3",
       "revId": "374da01857f12e46e82fba3005e39b78918cbeee",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -116,6 +224,24 @@
       "writtenOn": "2023-07-12T12:03:44Z",
       "side": 1,
       "message": "s/the F-Droid/F-Droid/ ?",
+      "revId": "374da01857f12e46e82fba3005e39b78918cbeee",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "91b64cfe_33faa492",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-12T13:11:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a7cd52bd_2861bdfd",
       "revId": "374da01857f12e46e82fba3005e39b78918cbeee",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
