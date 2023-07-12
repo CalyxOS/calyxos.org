@@ -69,6 +69,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "75b783db_a229006c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-12T15:44:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "90300712_7e4f2542",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dcd7ae59_8f610f5c",
@@ -82,6 +100,24 @@
       "writtenOn": "2023-07-12T14:39:33Z",
       "side": 1,
       "message": "Since the first section includes lots of discussion about Aurora, it seems like it is somehow linked to F-Droid.  But it is only mentioned in the opening.  How about just discussion Aurora Store in its own blog post and removing it from here?",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f0699f6_2eafbd8b",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-12T15:44:35Z",
+      "side": 1,
+      "message": "Aurora will get it\u0027s own blog post, but this was originally meant to be a post about app stores. It\u0027s just two lines.",
+      "parentUuid": "dcd7ae59_8f610f5c",
       "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -105,6 +141,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f1be8606_0c80baf6",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-12T15:44:35Z",
+      "side": 1,
+      "message": "Done.\n\nNote that we proposed (and want to) maintain the full thing. All of the client, full, basic, libs, everything in `fdroidclient`\n\nAlso, while so far it\u0027s mostly Torsten working on it, the rest of the team does help in from time to time, as needed. I\u0027ve gone through a lot of stuff with him, for example 😊\n\nThat will continue!",
+      "parentUuid": "2b92a053_19ef1678",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e0887671_209b827a",
         "filename": "pages/_posts/2023-07-12-f-droid.md",
         "patchSetId": 11
@@ -116,6 +170,24 @@
       "writtenOn": "2023-07-12T14:39:33Z",
       "side": 1,
       "message": "`org.fdroid.fdroid` is `targetSdkVersion 28` as of 1.17-alpha1.",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "21eaa8e9_e25a0559",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-12T15:44:35Z",
+      "side": 1,
+      "message": "Yes but this section is just about basic.",
+      "parentUuid": "e0887671_209b827a",
       "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -139,6 +211,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "edbe1012_f90a35a6",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-12T15:44:35Z",
+      "side": 1,
+      "message": "FWIW this wasn\u0027t meant to be too technical.",
+      "parentUuid": "bd8bcc66_dacf9fcf",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c4a15e98_19a9daf2",
         "filename": "pages/_posts/2023-07-12-f-droid.md",
         "patchSetId": 11
@@ -150,6 +240,24 @@
       "writtenOn": "2023-07-12T14:39:33Z",
       "side": 1,
       "message": "Maybe its interesting to mention that the Calyx-sponsored basic work already has allowed F-Droid, including Nearby and Panic, to be bumped to targetSdkVersion 28. And there are more bumps in the works, based on other funding.",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "98818699_6bcfa4b1",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-12T15:44:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c4a15e98_19a9daf2",
       "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -171,6 +279,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e8d1925_b17b68f7",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-12T15:44:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b0e0eb31_37be2c08",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "379ddf2a_bb29cbaa",
@@ -184,6 +310,24 @@
       "writtenOn": "2023-07-12T14:39:33Z",
       "side": 1,
       "message": "`/en/` like above",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6b97087_87aabdb4",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-12T15:44:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "379ddf2a_bb29cbaa",
       "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -205,6 +349,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "06d3ddc2_4049bf64",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-12T15:44:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "405ccef6_77086494",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6154c386_709c82dd",
@@ -218,6 +380,24 @@
       "writtenOn": "2023-07-12T14:39:33Z",
       "side": 1,
       "message": "If 1.17-alpha1 is considered \"current\", then this should be `targetSdk 28`.",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e10f4485_2d69923d",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-12T15:44:35Z",
+      "side": 1,
+      "message": "It isn\u0027t, because this post is for what CalyxOS users have in stable right now.\n\n1.17 will get tagged, then built and released, then tested by us (just a quick smoke test), and then finally make it to the next CalyxOS build, which can take some time.",
+      "parentUuid": "6154c386_709c82dd",
       "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
