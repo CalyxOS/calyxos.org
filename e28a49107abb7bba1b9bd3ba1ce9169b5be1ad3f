@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "59f7cfbc_4bb0faef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-12T14:07:29Z",
+      "side": 1,
+      "message": "https://gitlab.com/fdroid/admin/-/issues/388#note_1466684245",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
