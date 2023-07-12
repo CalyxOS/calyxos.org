@@ -33,6 +33,23 @@
       "message": "Hans\u0027s comment on linked issue mentions \"funding\" and \"funded work\". Might be good to clarify what they mean and how that affects maintenance done by us?",
       "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "90300712_7e4f2542",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-07-12T14:23:42Z",
+      "side": 1,
+      "message": "Without some introductory statements, it\u0027s hard to tell what this post is going to be about, which could prevent people from wanting to read it *or* lead them to think it\u0027s something they should be worried about (like, \"oh no, what\u0027s happening with CalyxOS \u0026 F-Droid?\").\n\nWhat if we moved the summary sentences to the top, or otherwise added something similar there?",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
