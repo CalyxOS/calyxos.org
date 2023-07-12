@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a6afbb4c_11ad14ff",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2023-07-12T12:03:44Z",
+      "side": 1,
+      "message": "Style Nitpick: Maybe remove last \"Store\" to not repeat the word.",
+      "revId": "374da01857f12e46e82fba3005e39b78918cbeee",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e39ab0d4_204fa2b6",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2023-07-12T12:03:44Z",
+      "side": 1,
+      "message": "Sure, you want to promise that? ;)",
+      "revId": "374da01857f12e46e82fba3005e39b78918cbeee",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f02f0bbf_588bfead",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2023-07-12T12:03:44Z",
+      "side": 1,
+      "message": "Maybe add something about \"maintaining\" to the headline? \"Helping to maintain F-Droid\" maybe?",
+      "revId": "374da01857f12e46e82fba3005e39b78918cbeee",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "530060eb_5407c459",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2023-07-12T12:03:44Z",
+      "side": 1,
+      "message": "Oh I didn\u0027t know this admin issue is publicly visible, nice!",
+      "revId": "374da01857f12e46e82fba3005e39b78918cbeee",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "86b71c49_5321f119",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2023-07-12T12:03:44Z",
+      "side": 1,
+      "message": "I guess the first thing isn\u0027t a full sentence yet, because a draft still?",
+      "revId": "374da01857f12e46e82fba3005e39b78918cbeee",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8da0f5c2_719483e3",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2023-07-12T12:03:44Z",
+      "side": 1,
+      "message": "Hans means to promote 1.17 to stable after alpha1 which is fine with me.",
+      "revId": "374da01857f12e46e82fba3005e39b78918cbeee",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a7cd52bd_2861bdfd",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2023-07-12T12:03:44Z",
+      "side": 1,
+      "message": "s/the F-Droid/F-Droid/ ?",
+      "revId": "374da01857f12e46e82fba3005e39b78918cbeee",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
