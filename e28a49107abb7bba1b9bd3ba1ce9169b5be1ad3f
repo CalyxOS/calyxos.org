@@ -50,6 +50,176 @@
       "message": "Without some introductory statements, it\u0027s hard to tell what this post is going to be about, which could prevent people from wanting to read it *or* lead them to think it\u0027s something they should be worried about (like, \"oh no, what\u0027s happening with CalyxOS \u0026 F-Droid?\").\n\nWhat if we moved the summary sentences to the top, or otherwise added something similar there?",
       "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b55d873_9347b547",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000021
+      },
+      "writtenOn": "2023-07-12T14:39:33Z",
+      "side": 1,
+      "message": "Looks good to me! I especially like how you added in the discussion of how Calyx is making things more modular and self-contained, like the App Installer, App Updater, and Panic features as standalone apps.  It is a great example of something F-Droid hasn\u0027t really communicated as much as I\u0027d like to see, which is that F-Droid is an app store as well as a whole app distribution ecosystem, that can be used flexibly to suit varying needs.",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dcd7ae59_8f610f5c",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000021
+      },
+      "writtenOn": "2023-07-12T14:39:33Z",
+      "side": 1,
+      "message": "Since the first section includes lots of discussion about Aurora, it seems like it is somehow linked to F-Droid.  But it is only mentioned in the opening.  How about just discussion Aurora Store in its own blog post and removing it from here?",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2b92a053_19ef1678",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000021
+      },
+      "writtenOn": "2023-07-12T14:39:33Z",
+      "side": 1,
+      "message": "How about saying \"we proposed to officially sponsor a maintainer position\" as Nick said it in admin #338?  I think that is clearer, since \"officially maintain\" sounds like Calyx is taking over maintenance.",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e0887671_209b827a",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000021
+      },
+      "writtenOn": "2023-07-12T14:39:33Z",
+      "side": 1,
+      "message": "`org.fdroid.fdroid` is `targetSdkVersion 28` as of 1.17-alpha1.",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bd8bcc66_dacf9fcf",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000021
+      },
+      "writtenOn": "2023-07-12T14:39:33Z",
+      "side": 1,
+      "message": "It would be nice to include mention of the biggest piece of work that Torsten did for the 33 bump, from what I could tell, which was reworking InstallManagerService, DownloaderService and InstallHistoryService to fit into the new background service model. (FYI this was needed with or without swap).  This should improve background update operation in general.\n\nhttps://gitlab.com/fdroid/fdroidclient/-/merge_requests/1216",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c4a15e98_19a9daf2",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000021
+      },
+      "writtenOn": "2023-07-12T14:39:33Z",
+      "side": 1,
+      "message": "Maybe its interesting to mention that the Calyx-sponsored basic work already has allowed F-Droid, including Nearby and Panic, to be bumped to targetSdkVersion 28. And there are more bumps in the works, based on other funding.",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b0e0eb31_37be2c08",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1000021
+      },
+      "writtenOn": "2023-07-12T14:39:33Z",
+      "side": 1,
+      "message": "If you remove the `/en/` first section from the path, the URL will automatically show the user the right language.  `/en/` forces it to English.",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "379ddf2a_bb29cbaa",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1000021
+      },
+      "writtenOn": "2023-07-12T14:39:33Z",
+      "side": 1,
+      "message": "`/en/` like above",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "405ccef6_77086494",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1000021
+      },
+      "writtenOn": "2023-07-12T14:39:33Z",
+      "side": 1,
+      "message": "Like in the opening, \"Calyx is now maintaining the official F-Droid Android app\" sounds like Calyx is taking over maintenance.  I think it is a better story if this is about \"more maintainers\", since it demonstrates that there more and more people who care about putting together a complete, free software Android platform.",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6154c386_709c82dd",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1000021
+      },
+      "writtenOn": "2023-07-12T14:39:33Z",
+      "side": 1,
+      "message": "If 1.17-alpha1 is considered \"current\", then this should be `targetSdk 28`.",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
