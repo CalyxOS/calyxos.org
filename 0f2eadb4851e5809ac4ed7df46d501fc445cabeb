@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0e318da_3f65480b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-17T21:19:14Z",
+      "side": 1,
+      "message": "Intentionally overwrote your changes, bubbles.\n\nStill working on a better layout, but I really want to keep this simple and minimal. Both for us and everyone else.",
+      "revId": "0f2eadb4851e5809ac4ed7df46d501fc445cabeb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}

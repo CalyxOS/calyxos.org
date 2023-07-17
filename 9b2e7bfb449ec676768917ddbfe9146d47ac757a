@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "36781d7f_ab6c37b7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-17T21:19:14Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "4a9d5133_ba45ad87",
+      "revId": "9b2e7bfb449ec676768917ddbfe9146d47ac757a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "592a4872_d2c3df20",
@@ -31,6 +49,24 @@
       "writtenOn": "2023-05-20T17:25:24Z",
       "side": 1,
       "message": "We should include tips on how to use Mjolnir (e.g. basic commands, etc.)",
+      "revId": "9b2e7bfb449ec676768917ddbfe9146d47ac757a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ceecebe2_2d9de54e",
+        "filename": "pages/community/moderation/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-17T21:19:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "592a4872_d2c3df20",
       "revId": "9b2e7bfb449ec676768917ddbfe9146d47ac757a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -52,6 +88,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8a18c93_6c1c3da8",
+        "filename": "pages/community/moderation/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-17T21:19:14Z",
+      "side": 1,
+      "message": "It\u0027s better to give a simple warning in public in most cases to make sure others saee it. Not always, yes, but a simple warning is easier in public. That\u0027s transparent too.",
+      "parentUuid": "e11276b2_a2f8c4af",
+      "revId": "9b2e7bfb449ec676768917ddbfe9146d47ac757a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7a39e077_764d60c0",
@@ -69,6 +123,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c57cc6a5_3c43ea5e",
+        "filename": "pages/community/moderation/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-17T21:19:14Z",
+      "side": 1,
+      "message": "That\u0027s covered by the below point.",
+      "parentUuid": "7a39e077_764d60c0",
+      "revId": "9b2e7bfb449ec676768917ddbfe9146d47ac757a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "49c7f38b_a0ff7268",
@@ -82,6 +154,24 @@
       "writtenOn": "2023-05-20T17:25:24Z",
       "side": 1,
       "message": "It should be stated that any inappropriate discussions should not take place in the off-topic room (e.g. discrimination, etc.)\nThis should be here and in https://review.calyxos.org/c/CalyxOS/calyxos.org/+/6840",
+      "revId": "9b2e7bfb449ec676768917ddbfe9146d47ac757a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8829043_ead38f39",
+        "filename": "pages/community/moderation/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-17T21:19:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "49c7f38b_a0ff7268",
       "revId": "9b2e7bfb449ec676768917ddbfe9146d47ac757a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
