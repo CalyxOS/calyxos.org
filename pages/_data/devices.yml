@@ -26,14 +26,14 @@ brands:
   - shift
 felix:
   brand: pixel
-  model: Pixel Fold
+  model: Pixel Fold (beta)
   manufacturer_support_ends: 2028-06
   calyxos_support_ends: 2028-06
   sim: "dual"
   esim: "dual"
 tangorpro:
   brand: pixel
-  model: Pixel Tablet
+  model: Pixel Tablet (beta)
   manufacturer_support_ends: 2023-06
   calyxos_support_ends: 2023-06
   sim: "no"
