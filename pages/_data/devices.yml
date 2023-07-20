@@ -1,5 +1,7 @@
 ---
 codenames:
+  - felix
+  - tangorpro
   - lynx
   - cheetah
   - panther
@@ -22,6 +24,20 @@ brands:
   - pixel
   - fairphone
   - shift
+felix:
+  brand: pixel
+  model: Pixel Fold
+  manufacturer_support_ends: 2028-06
+  calyxos_support_ends: 2028-06
+  sim: "dual"
+  esim: "dual"
+tangorpro:
+  brand: pixel
+  model: Pixel Tablet
+  manufacturer_support_ends: 2023-06
+  calyxos_support_ends: 2023-06
+  sim: "no"
+  esim: "no"
 lynx:
   brand: pixel
   model: Pixel 7a

@@ -1,4 +1,10 @@
 ---
+- name: Pixel Fold
+  codename: felix
+  avb_fingerprint: ""
+- name: Pixel Tablet
+  codename: tangorpro
+  avb_fingerprint: ""
 - name: Pixel 7a
   codename: lynx
   avb_fingerprint: ""
