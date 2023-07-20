@@ -1,5 +1,29 @@
 ---
 stable:
+- name: Pixel Fold (beta)
+  brand: pixel
+  codename: felix
+  version: 4.11.2
+  factory_link: https://release.calyxinstitute.org/felix-factory-23411020.zip
+  factory_sha256: f14940dca03a1d26d48d2a98e4c19c438e53802155762309f2cf0fd47846784f
+  ota_link: https://release.calyxinstitute.org/felix-ota_update-23411020.zip
+  ota_sha256: e9266c280cdee9a90ae2204538a93d0e03557e27d3d3adc4ecdce0b5078d984f
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-07-20'
+- name: Pixel Tablet (beta)
+  brand: pixel
+  codename: tangorpro
+  version: 4.11.2
+  factory_link: https://release.calyxinstitute.org/tangorpro-factory-23411020.zip
+  factory_sha256: a78efc9b3e6ef5c1d3c2b5eb4def909635d2b7ac3c670912d7ff2d1039018480
+  ota_link: https://release.calyxinstitute.org/tangorpro-ota_update-23411020.zip
+  ota_sha256: 3e823498b181377a47cfd41e04877b05dd9955e6ecc07248166d7a6aa458efc7
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-07-20'
 - name: Pixel 7a
   brand: pixel
   codename: lynx
@@ -217,6 +241,30 @@ stable:
   incremental_old_build: '23410010'
   date: '2023-07-06'
 beta:
+- name: Pixel Fold (beta)
+  brand: pixel
+  codename: felix
+  version: 4.11.2
+  factory_link: https://release.calyxinstitute.org/felix-factory-23411020.zip
+  factory_sha256: f14940dca03a1d26d48d2a98e4c19c438e53802155762309f2cf0fd47846784f
+  ota_link: https://release.calyxinstitute.org/felix-ota_update-23411020.zip
+  ota_sha256: e9266c280cdee9a90ae2204538a93d0e03557e27d3d3adc4ecdce0b5078d984f
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-07-20'
+- name: Pixel Tablet (beta)
+  brand: pixel
+  codename: tangorpro
+  version: 4.11.2
+  factory_link: https://release.calyxinstitute.org/tangorpro-factory-23411020.zip
+  factory_sha256: a78efc9b3e6ef5c1d3c2b5eb4def909635d2b7ac3c670912d7ff2d1039018480
+  ota_link: https://release.calyxinstitute.org/tangorpro-ota_update-23411020.zip
+  ota_sha256: 3e823498b181377a47cfd41e04877b05dd9955e6ecc07248166d7a6aa458efc7
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-07-20'
 - name: Pixel 7a
   brand: pixel
   codename: lynx
