@@ -44,7 +44,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/FP4-factory-23411000.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/FP4-factory-23411010.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Fairphone 4 (FP4)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -56,14 +56,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/FP4-factory-23411000.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/FP4-factory-23411010.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `f3e70bca9efac1f3df902c6d4dace7a84f29393bac04a7d99e83b20a870d5f8d`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `d4a32d4f9b1c43a45d15be7fbc8341a9ef00964f78add816416a1ec5e1c2d3ce`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/FP4-factory-23411000.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/FP4-factory-23411010.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 
