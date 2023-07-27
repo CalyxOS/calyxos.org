@@ -16,6 +16,41 @@
       "message": "Mention anything about Pixels \u003c 4?",
       "revId": "f161e11873ecd7b19beb4ec1c8e04bda42c259b8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5cdeb45d_be0b5f19",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-27T20:20:52Z",
+      "side": 1,
+      "message": "Sure, something about an unexpected last minute issue which means this build won\u0027t be available for those, but that a future build will include all of these improvements and a fix for said last minute issue.",
+      "parentUuid": "2e2a0082_b74ce60d",
+      "revId": "f161e11873ecd7b19beb4ec1c8e04bda42c259b8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "31984c44_9bc3304c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-27T20:20:52Z",
+      "side": 1,
+      "message": "LGTM otherwise.",
+      "revId": "f161e11873ecd7b19beb4ec1c8e04bda42c259b8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
