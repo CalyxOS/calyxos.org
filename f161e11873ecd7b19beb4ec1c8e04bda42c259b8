@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e2a0082_b74ce60d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-07-27T15:02:00Z",
+      "side": 1,
+      "message": "Mention anything about Pixels \u003c 4?",
+      "revId": "f161e11873ecd7b19beb4ec1c8e04bda42c259b8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
