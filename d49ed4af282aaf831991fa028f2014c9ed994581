@@ -16,6 +16,24 @@
       "message": "Date is wrong now, will update when we have a better idea when we can release this",
       "revId": "d49ed4af282aaf831991fa028f2014c9ed994581",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "52a14493_f85ee729",
+        "filename": "pages/_posts/2023-07-27-july-feature-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-07-31T14:13:49Z",
+      "side": 1,
+      "message": "Changed to today, worst case it gets changed again.",
+      "parentUuid": "9d0358e4_8eb42a93",
+      "revId": "d49ed4af282aaf831991fa028f2014c9ed994581",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
