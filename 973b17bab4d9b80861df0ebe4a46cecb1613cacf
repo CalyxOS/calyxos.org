@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0acd5d8_47169bbc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2023-08-02T03:29:30Z",
+      "side": 1,
+      "message": "Things we have done recently (last few versions):\n\n* Dropped dependencies on tons of outdated/deprecated libraries\n* Rework internal architecture to use recommended modern guidelines\n* Fixed tons of bugs, memory leaks and removed deprecated code\n* Fixed translations (weblate) related issues as well as other translation ones (removed hardcode strings to allow translations, added missing parameters in diff langs, etc)\n* Reworked permissions setup to be less-intrusive\n* Targeted latest Android and Gradle versions\n\nThere might be more that I am unable to remember",
+      "revId": "973b17bab4d9b80861df0ebe4a46cecb1613cacf",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
