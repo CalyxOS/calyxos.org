@@ -44,7 +44,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/coral-factory-23411000.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/coral-factory-23411030.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 4 XL (coral)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -56,14 +56,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/coral-factory-23411000.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/coral-factory-23411030.zip" | split: "/" | last %}
 {% include install/mac_image_digest.md filename=image %}
 
-And ensure the result says `f2af4151ae13dacf27c23d4e557db9545a7ba6c59793479a5e96822407d5e9d2`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `a2cec4013228ab924c8794b0513c930d7a35a0f6e0bb42061f5bd3f5053e357e`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/coral-factory-23411000.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/coral-factory-23411030.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 
