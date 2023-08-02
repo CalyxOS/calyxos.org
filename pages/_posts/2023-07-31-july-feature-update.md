@@ -5,7 +5,7 @@ date: 2023-07-31
 
 CalyxOS 4.11.3 - July 2023 Feature update is now available for Pixels 4+, FP4 and SHIFT6MQ
 
-It's currently in the Beta channel, and will be bumped to Stable depending on feedback
+Released to Stable on Wednesday, August 2.
 
 ### Changelog
 * CalyxOS 4.11.3
