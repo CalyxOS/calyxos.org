@@ -219,15 +219,15 @@ stable:
 - name: Fairphone 4
   brand: fairphone
   codename: FP4
-  version: 4.12.0
-  factory_link: https://release.calyxinstitute.org/FP4-factory-23412000.zip
-  factory_sha256: 9103cfeac61124eedbb7878b7679ff70ef8bccc75de3d23fad91c5af60ab52ea
-  ota_link: https://release.calyxinstitute.org/FP4-ota_update-23412000.zip
-  ota_sha256: 6f57c71703bffb2e5eba6b31084e86aad0c68b9ac275d28b30c77d9bfc6e0442
-  incremental_link: https://release.calyxinstitute.org/FP4-incremental-23411030-23412000.zip
-  incremental_sha256: 1cfa73c4cfd5fe1cef9017bb87053eb8c5e901dd95f26099fbec0c6e72ae9e5b
-  incremental_old_build: '23411030'
-  date: '2023-08-09'
+  version: 4.12.1
+  factory_link: https://release.calyxinstitute.org/FP4-factory-23412010.zip
+  factory_sha256: 633aa270819c1c8453180ddd1e09d8a63fbe35fcb3bf45cc7ada0915c30a4bc4
+  ota_link: https://release.calyxinstitute.org/FP4-ota_update-23412010.zip
+  ota_sha256: d2885354bd7397d3309476f166382ba9c94b854656949ea4ebaba4ebe82fbed1
+  incremental_link: https://release.calyxinstitute.org/FP4-incremental-23412000-23412010.zip
+  incremental_sha256: e9ac3562f924002d7529908dc90b19b6993adcef9b1769162485870f08d01905
+  incremental_old_build: '23412000'
+  date: '2023-08-22'
 - name: SHIFT6mq
   brand: shift
   codename: axolotl
@@ -460,15 +460,15 @@ beta:
 - name: Fairphone 4
   brand: fairphone
   codename: FP4
-  version: 4.12.0
-  factory_link: https://release.calyxinstitute.org/FP4-factory-23412000.zip
-  factory_sha256: 9103cfeac61124eedbb7878b7679ff70ef8bccc75de3d23fad91c5af60ab52ea
-  ota_link: https://release.calyxinstitute.org/FP4-ota_update-23412000.zip
-  ota_sha256: 6f57c71703bffb2e5eba6b31084e86aad0c68b9ac275d28b30c77d9bfc6e0442
+  version: 4.12.1
+  factory_link: https://release.calyxinstitute.org/FP4-factory-23412010.zip
+  factory_sha256: 633aa270819c1c8453180ddd1e09d8a63fbe35fcb3bf45cc7ada0915c30a4bc4
+  ota_link: https://release.calyxinstitute.org/FP4-ota_update-23412010.zip
+  ota_sha256: d2885354bd7397d3309476f166382ba9c94b854656949ea4ebaba4ebe82fbed1
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  date: '2023-08-09'
+  date: '2023-08-22'
 - name: SHIFT6mq
   brand: shift
   codename: axolotl
