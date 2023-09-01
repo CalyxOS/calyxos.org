@@ -157,6 +157,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f04b308_7f586f3a",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-01T20:04:34Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "f1be8606_0c80baf6",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e0887671_209b827a",
@@ -223,6 +241,24 @@
       "side": 1,
       "message": "FWIW this wasn\u0027t meant to be too technical.",
       "parentUuid": "bd8bcc66_dacf9fcf",
+      "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b0403f1_616b3394",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-01T20:04:34Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "edbe1012_f90a35a6",
       "revId": "e28a49107abb7bba1b9bd3ba1ce9169b5be1ad3f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },

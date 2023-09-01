@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "eca3e23d_74e94284",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 13
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-01T20:04:34Z",
+      "side": 1,
+      "message": "Hoping https://f-droid.org/en/packages/org.fdroid.basic/ gets updated soon (next index rebuild and then next website rebuild) - so that it no longer says alpha. ",
+      "revId": "e252ea50d9ee74eee5988ef8fcc387486433f9c0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "30854af7_598303d2",
         "filename": "pages/_posts/2023-07-12-f-droid.md",
         "patchSetId": 13
@@ -14,6 +31,24 @@
       "writtenOn": "2023-08-23T20:49:41Z",
       "side": 1,
       "message": "Update after https://review.calyxos.org/q/topic:system2user is merged.",
+      "revId": "e252ea50d9ee74eee5988ef8fcc387486433f9c0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0140699b_fc93b2bd",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-01T20:04:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "30854af7_598303d2",
       "revId": "e252ea50d9ee74eee5988ef8fcc387486433f9c0",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }

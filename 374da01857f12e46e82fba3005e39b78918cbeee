@@ -176,6 +176,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ccde1d7_7c1e2e63",
+        "filename": "pages/_posts/2023-07-12-f-droid.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-01T20:04:34Z",
+      "side": 1,
+      "message": "Sentence even smaller now that it\u0027s no longer alpha",
+      "parentUuid": "eba00ae7_7d52d9d9",
+      "revId": "374da01857f12e46e82fba3005e39b78918cbeee",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8da0f5c2_719483e3",
