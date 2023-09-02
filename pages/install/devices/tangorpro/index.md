@@ -1,8 +1,8 @@
 ---
-title: Install on Pixel Tablet (beta)
+title: Install on Pixel Tablet
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel Tablet (beta) => tangorpro]]</strong>
+<strong>[[Install => install]]</strong> / <strong>[[Pixel Tablet => tangorpro]]</strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

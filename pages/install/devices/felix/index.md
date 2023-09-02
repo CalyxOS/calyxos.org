@@ -1,8 +1,8 @@
 ---
-title: Install on Pixel Fold (beta)
+title: Install on Pixel Fold
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel Fold (beta) => felix]]</strong>
+<strong>[[Install => install]]</strong> / <strong>[[Pixel Fold => felix]]</strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

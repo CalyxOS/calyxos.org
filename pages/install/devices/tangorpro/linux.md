@@ -1,10 +1,10 @@
 ---
-title: Install on Pixel Tablet (beta)
+title: Install on Pixel Tablet
 description: From a Linux computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel Tablet (beta) => tangorpro]]</strong> / <strong>Linux</strong>
+<strong>[[Install => install]]</strong> / <strong>[[Pixel Tablet => tangorpro]]</strong> / <strong>Linux</strong>
 
 ## Terminology
 
@@ -46,7 +46,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 <a class="btn" href="https://release.calyxinstitute.org/tangorpro-factory-23412000.zip">Download CalyxOS Image</a>
 
-Save this image in the same directory as device-flasher. This image will **only** work for **Pixel Tablet (beta) (tangorpro)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
+Save this image in the same directory as device-flasher. This image will **only** work for **Pixel Tablet (tangorpro)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
 Do not extract or rename the zip, simply copy it as-is.
 
