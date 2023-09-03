@@ -8,7 +8,7 @@ CalyxOS 4.12.2 - Feature update is now available for all supported devices.
 | Release channel  | Date   |
 | ---------------- | ------ |
 | Beta | 2 September, Saturday |
-| Security express | Pending |
+| Security express | 4 September, Monday |
 | Stable | Pending |
 
 ### Changelog
