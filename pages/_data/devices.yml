@@ -84,70 +84,70 @@ barbet:
   brand: pixel
   model: Pixel 5a (5G)
   manufacturer_support_ends: 2024-08
-  calyxos_support_ends: 2025-01
+  calyxos_support_ends: 2025-08
   sim: "dual"
   esim: "yes"
 bramble:
   brand: pixel
   model: Pixel 4a (5G)
   manufacturer_support_ends: 2023-10
-  calyxos_support_ends: 2025-01
+  calyxos_support_ends: 2025-08
   sim: "dual"
   esim: "yes"
 redfin:
   brand: pixel
   model: Pixel 5
   manufacturer_support_ends: 2023-11
-  calyxos_support_ends: 2025-01
+  calyxos_support_ends: 2025-08
   sim: "dual"
   esim: "yes"
 sunfish:
   brand: pixel
   model: Pixel 4a
   manufacturer_support_ends: 2023-08
-  calyxos_support_ends: 2024-02
+  calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "yes"
 coral:
   brand: pixel
   model: Pixel 4 XL
   manufacturer_support_ends: 2022-10
-  calyxos_support_ends: 2024-02
+  calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "yes"
 flame:
   brand: pixel
   model: Pixel 4
   manufacturer_support_ends: 2022-10
-  calyxos_support_ends: 2024-02
+  calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "yes"
 bonito:
   brand: pixel
   model: Pixel 3a XL
   manufacturer_support_ends: 2022-04
-  calyxos_support_ends: 2023-02
+  calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "no"
 sargo:
   brand: pixel
   model: Pixel 3a
   manufacturer_support_ends: 2022-04
-  calyxos_support_ends: 2023-02
+  calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "no"
 crosshatch:
   brand: pixel
   model: Pixel 3 XL
   manufacturer_support_ends: 2021-10
-  calyxos_support_ends: 2023-02
+  calyxos_support_ends: 2024-08
   sim: "single"
   esim: "no"
 blueline:
   brand: pixel
   model: Pixel 3
   manufacturer_support_ends: 2021-10
-  calyxos_support_ends: 2023-02
+  calyxos_support_ends: 2024-08
   sim: "single"
   esim: "no"
 FP4:
@@ -161,6 +161,6 @@ axolotl:
   brand: shift
   model: SHIFT6mq
   manufacturer_support_ends: tbc
-  calyxos_support_ends: tbd
+  calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "no"

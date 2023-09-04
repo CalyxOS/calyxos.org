@@ -18,17 +18,17 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 <tr><td> Pixels 7, 7 Pro </td><td> October 2027 </td><td> October 2027* </td></tr>
 <tr><td> Pixel 6a </td><td> July 2027 </td><td> July 2027* </td></tr>
 <tr><td> Pixels 6, 6 Pro </td><td> October 2026 </td><td> October 2026* </td></tr>
-<tr><td> Pixel 5a (5G) </td><td> August 2024 </td><td> January 2025* </td></tr>
-<tr><td> Pixel 4a (5G) </td><td> November 2023 </td><td> January 2025* </td></tr>
-<tr><td> Pixel 5 </td><td> October 2023 </td><td> January 2025* </td></tr>
-<tr><td> Pixel 4a </td><td> August 2023 </td><td> February 2024* </td></tr>
-<tr><td> Pixels 4, 4 XL </td><td> October 2022 </td><td> February 2024* </td></tr>
-<tr><td> Pixels 3a, 3a XL </td><td> May 2022 </td><td> August 2023 </td></tr>
-<tr><td> Pixels 3, 3 XL </td><td> October 2021 </td><td> August 2023 </td></tr>
+<tr><td> Pixel 5a (5G) </td><td> August 2024 </td><td> August 2025* </td></tr>
+<tr><td> Pixel 4a (5G) </td><td> November 2023 </td><td> August 2025* </td></tr>
+<tr><td> Pixel 5 </td><td> October 2023 </td><td> August 2025* </td></tr>
+<tr><td> Pixel 4a </td><td> August 2023 </td><td> August 2024* </td></tr>
+<tr><td> Pixels 4, 4 XL </td><td> October 2022 </td><td> August 2024* </td></tr>
+<tr><td> Pixels 3a, 3a XL </td><td> May 2022 </td><td> August 2024 </td></tr>
+<tr><td> Pixels 3, 3 XL </td><td> October 2021 </td><td> August 2024 </td></tr>
 <tr><td> Pixels 2, 2 XL </td><td> October 2020 </td><td> February 2022 </td></tr>
 <tr><td> Xiaomi Mi A2 </td><td> August 2021 </td><td> February 2022 </td></tr>
 <tr><td> Fairphone 4 </td><td> December 2026* </td><td> TBD* </td></tr>
-<tr><td> SHIFT SHIFT6mq </td><td> TBC* </td><td> TBD* </td></tr>
+<tr><td> SHIFT SHIFT6mq </td><td> TBC* </td><td> August 2024 </td></tr>
 </table>
 
 * \*Note that these are the current estimated dates. We try to support devices as long as possible, but it's hard to determine feasibility years in advance, so we'll keep updating these the closer we get to the dates. For more details see [Software support timeline](https://calyxos.org/news/2022/06/09/software-support-timeline/)
