@@ -1,6 +1,6 @@
 ---
 title: Device Support
-description: 🙋 Check out device support timelines and requirements below!
+description: 🙋 Check out device support timelines and preferences below!
 toc: true
 redirect_from:
    - /faq/device-support/
@@ -39,7 +39,7 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 * We generally intend to get monthly security updates out as soon as possible after their release. The process takes some time since we don't get early access but generally the goal is to get them out to the stable channel in the same week as AOSP release.
 * Major version updates (such as the next Android 14 (U) release) take longer because we have to port all of our changes to the new version, which can be a lot of work.
 
-### Requirements for supporting a new device
+### Preferences for supporting a new device
 1. Android 13.0, available now, or eventually:
    <br>
    CalyxOS targets the latest Android version, currently 13.0 (T). It takes a lot of work to port a newer Android version to a device, and so devices running the latest Android version are preferred.
