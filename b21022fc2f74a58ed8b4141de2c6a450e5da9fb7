@@ -43,6 +43,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1b284af7_4466cb4a",
+        "filename": "pages/_posts/2023-09-05-android-14-plans-device-support.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-09-05T16:55:46Z",
+      "side": 1,
+      "message": "(I suppose the same is true for any of the other devices that won\u0027t receive it right away.)",
+      "parentUuid": "c351999a_9887ed74",
+      "revId": "b21022fc2f74a58ed8b4141de2c6a450e5da9fb7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "60e756fe_11ee345a",
         "filename": "pages/_posts/2023-09-05-android-14-plans-device-support.md",
         "patchSetId": 1
