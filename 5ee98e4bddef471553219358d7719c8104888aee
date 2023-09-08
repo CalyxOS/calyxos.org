@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1d517ba1_815f51a5",
+        "filename": "pages/_posts/2023-09-08-september-security-update-extended-support.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-08T15:57:09Z",
+      "side": 1,
+      "message": "Now this may be confusing for FP4, maybe best to split it. Gah 😞",
+      "revId": "5ee98e4bddef471553219358d7719c8104888aee",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
