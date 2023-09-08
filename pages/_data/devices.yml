@@ -1,5 +1,5 @@
 ---
-codenames:
+modern_codenames:
   - felix
   - tangorpro
   - lynx
@@ -8,6 +8,11 @@ codenames:
   - bluejay
   - raven
   - oriole
+  - FP4
+modern_brands:
+  - pixel
+  - fairphone
+extended_codenames:
   - barbet
   - bramble
   - redfin
@@ -18,12 +23,17 @@ codenames:
   - sargo
   - crosshatch
   - blueline
-  - FP4
   - axolotl
-brands:
+extended_brands:
   - pixel
-  - fairphone
   - shift
+previous_codenames:
+  - taimen
+  - walleye
+  - jasmine_sprout
+previous_brands:
+  - pixel
+  - xiaomi
 felix:
   brand: pixel
   model: Pixel Fold
@@ -164,3 +174,25 @@ axolotl:
   calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "no"
+taimen:
+  brand: pixel
+  model: Pixel 2 XL
+  manufacturer_support_ends: 2020-10
+  calyxos_support_ends: 2022-02
+  sim: "single"
+  esim: "Fi-only"
+walleye:
+  brand: pixel
+  model: Pixel 2
+  manufacturer_support_ends: 2020-10
+  calyxos_support_ends: 2022-02
+  sim: "single"
+  esim: "Fi-only"
+jasmine_sprout:
+  brand: xiaomi
+  model: Xiaomi Mi A2
+  manufacturer_support_ends: 2021-08
+  calyxos_support_ends: 2022-02
+  sim: "dual"
+  esim: "no"
+
