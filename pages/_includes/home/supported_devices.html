@@ -1,12 +1,43 @@
 <h2>Supported Devices</h2>
+<h3>Modern devices</h3>
 <table>
-{% for brand in site.data.devices.brands %}
+{% for brand in site.data.devices.modern_brands %}
 <tr>
 <td><b>{{ brand | capitalize }}</b></td>
 <td style="line-height: 2em">
-{%   for device in site.data.devices.codenames %}
+{%   for device in site.data.devices.modern_codenames %}
 {%     if site.data.devices[device].brand == brand %}
 <a style="white-space: nowrap; margin-right: 1em" href="install/devices/{{device}}">{{site.data.devices[device].model}}</a>
+{%     endif %}
+{%   endfor %}
+</td>
+</tr>
+{% endfor %}
+</table>
+<h3>Extended support</h3>
+<table>
+{% for brand in site.data.devices.extended_brands %}
+<tr>
+<td><b>{{ brand | capitalize }}</b></td>
+<td style="line-height: 2em">
+{%   for device in site.data.devices.extended_codenames %}
+{%     if site.data.devices[device].brand == brand %}
+<a style="white-space: nowrap; margin-right: 1em" href="install/devices/{{device}}">{{site.data.devices[device].model}}</a>
+{%     endif %}
+{%   endfor %}
+</td>
+</tr>
+{% endfor %}
+</table>
+<h3>Previously supported</h3>
+<table>
+{% for brand in site.data.devices.previous_brands %}
+<tr>
+<td><b>{{ brand | capitalize }}</b></td>
+<td style="line-height: 2em">
+{%   for device in site.data.devices.previous_codenames %}
+{%     if site.data.devices[device].brand == brand %}
+<a style="white-space: nowrap; margin-right: 1em" href="docs/guide/device-support">{{site.data.devices[device].model}}</a>
 {%     endif %}
 {%   endfor %}
 </td>
