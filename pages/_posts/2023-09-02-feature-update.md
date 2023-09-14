@@ -9,7 +9,7 @@ CalyxOS 4.12.2 - Feature update is now available for all supported devices.
 | ---------------- | ------ |
 | Beta | 2 September, Saturday |
 | Security express | 4 September, Monday |
-| Stable | Skipped, will go straight to [4.13.0]({% post_url 2023-09-08-september-security-update-extended-support %}) |
+| Stable | Skipped, will go straight to [4.13.2]({% post_url 2023-09-14-another-september-update %}) |
 
 ### Changelog
 * CalyxOS 4.12.2

@@ -9,7 +9,7 @@ CalyxOS 4.13.0 - September 2023 Security update (partial) is now available for a
 | ---------------- | ------ |
 | Beta | 7 September, Thursday |
 | Security express | 8 September, Friday |
-| Stable | Pending |
+| Stable | Skipped, will go straight to [4.13.2]({% post_url 2023-09-14-another-september-update %}) |
 
 ### Changelog
 * CalyxOS 4.13.0
