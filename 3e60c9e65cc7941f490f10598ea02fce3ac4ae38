@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8e7649c_86e92c68",
+        "filename": "pages/_posts/2023-09-08-aurora.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2023-09-18T15:21:54Z",
+      "side": 1,
+      "message": "Squash in one line maybe?\n\n```\nWe intend to regularly do bugfixes, improvements, and releases of the app as well as keep it up to date with Android versions. Android 14, and beyond.\n```",
+      "range": {
+        "startLine": 32,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 78
+      },
+      "revId": "3e60c9e65cc7941f490f10598ea02fce3ac4ae38",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aa5121ec_66342ade",
+        "filename": "pages/_posts/2023-09-08-aurora.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2023-09-18T15:21:54Z",
+      "side": 1,
+      "message": "Starts with a \"We\" again, feels weird.\n\n```\nEventually we would like to have automatic updates\n```",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 36,
+        "endChar": 46
+      },
+      "revId": "3e60c9e65cc7941f490f10598ea02fce3ac4ae38",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
