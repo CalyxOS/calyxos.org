@@ -16,6 +16,24 @@
       "message": "Not sure if this is correct.",
       "revId": "31ca9d79f1fff5446ee856156a6068bc775d29a1",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e0d67792_f85395a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000075
+      },
+      "writtenOn": "2023-09-18T08:46:03Z",
+      "side": 1,
+      "message": "It is still supported by us and will be for at least a few years, until it is impossible to support anymore and the android code bases have diverged so much, that even backporting security patches is impossible.\n\nWe are working on moving to mainline and deblob as much as possible, so kernel CVEs and CVEs from proprietary components are not a blocker.",
+      "parentUuid": "1b812d48_bebf7a04",
+      "revId": "31ca9d79f1fff5446ee856156a6068bc775d29a1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
