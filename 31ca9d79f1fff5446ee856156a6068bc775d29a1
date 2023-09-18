@@ -34,6 +34,24 @@
       "parentUuid": "1b812d48_bebf7a04",
       "revId": "31ca9d79f1fff5446ee856156a6068bc775d29a1",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3c0f7436_d89d5e38",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-18T12:06:57Z",
+      "side": 1,
+      "message": "\u003c3\n\nFor Calyx, we plan to have Android 13 + 14 till 15 comes out, and then 14 + 15, so 2 Android versions max at the same time.\n\nI\u0027ll reword this, and I guess I could link to https://www.shift.eco/shift6mq-status/",
+      "parentUuid": "e0d67792_f85395a1",
+      "revId": "31ca9d79f1fff5446ee856156a6068bc775d29a1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
