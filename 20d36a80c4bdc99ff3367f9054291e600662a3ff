@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6eea85a0_40e8e8a2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-19T08:55:59Z",
+      "side": 1,
+      "message": "20328: install: Manually link to newer FP4 build | https://review.calyxos.org/c/CalyxOS/calyxos.org/+/20328",
+      "revId": "20d36a80c4bdc99ff3367f9054291e600662a3ff",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
