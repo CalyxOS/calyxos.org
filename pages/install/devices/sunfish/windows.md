@@ -44,7 +44,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/sunfish-factory-23412000.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/sunfish-factory-23413020.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 4a (sunfish)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -56,14 +56,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/sunfish-factory-23412000.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/sunfish-factory-23413020.zip" | split: "/" | last %}
 {% include install/windows_image_digest.md filename=image %}
 
-And ensure the result says `876eaf417c5a6140d9beba67916db93531bcd7be12ecfc47dd8faa28a04f33a6`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `65b9bd916ed831cbaeebd05ef4018b1c2f6a23cffc9b35bb859bf5bb237ad5e9`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/sunfish-factory-23412000.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/sunfish-factory-23413020.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 
