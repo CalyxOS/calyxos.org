@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bdd0e404_592b7aaa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-19T08:55:45Z",
+      "side": 1,
+      "message": "20207: downloads: Manually link to newer FP4 build | https://review.calyxos.org/c/CalyxOS/calyxos.org/+/20207",
+      "revId": "4eae7d5d68c5e0a14c610888aa87b1db023f208b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
