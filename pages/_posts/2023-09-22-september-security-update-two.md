@@ -3,13 +3,13 @@ title: September Security Update Two
 date: 2023-09-22
 ---
 
-CalyxOS 4.13.3 - September Security Update Two is now available for all supported devices, except Pixel 5, 4a (5G) and 5a
+CalyxOS 4.13.3 - September Security Update Two is now available for all supported devices
 
-| Release channel  | Date   |
-| ---------------- | ------ |
-| Security express | 22 September, Friday |
-| Beta | 25 September, Monday |
-| Stable | 26 September, Tuesday |
+| Release channel  | Date   | Notes |
+| ---------------- | ------ | ----- |
+| Security express | 22 September, Friday | Monday for Pixel 5, 4a (5G), 5a |
+| Beta | 25 September, Monday | |
+| Stable | 27 September, Wednesday | |
 
 ### Changelog
 * CalyxOS 4.13.3
@@ -25,8 +25,8 @@ CalyxOS 4.13.3 - September Security Update Two is now available for all supporte
 * Updates to all other included apps
 
 #### Note for Pixel 5, 4a (5G) and 5a
-* We ran into a last minute issue with this update on these 3 devices
-* We're looking into it
+* We ran into an issue on these devices with the initial build, 4.13.3
+* It was fixed, and fixed in CalyxOS 4.13.3-2, released on Monday
 
 ### Note
 
