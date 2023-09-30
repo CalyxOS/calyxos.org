@@ -1,7 +1,10 @@
 ---
 upcoming_codenames:
+  - husky
+  - shiba
   - FP5
 upcoming_brands:
+  - pixel
   - fairphone
 modern_codenames:
   - felix
@@ -38,6 +41,20 @@ previous_codenames:
 previous_brands:
   - pixel
   - xiaomi
+husky:
+  brand: pixel
+  model: Pixel 8 Pro
+  manufacturer_support_ends: tbd
+  calyxos_support_ends: tbd
+  sim: "dual"
+  esim: "dual"
+shiba:
+  brand: pixel
+  model: Pixel 8
+  manufacturer_support_ends: tbd
+  calyxos_support_ends: tbd
+  sim: "dual"
+  esim: "dual"
 felix:
   brand: pixel
   model: Pixel Fold
