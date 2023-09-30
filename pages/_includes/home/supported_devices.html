@@ -1,5 +1,18 @@
 <h2>Supported Devices</h2>
 <table>
+<td colspan="2"><b>Upcoming</b></td>
+{% for brand in site.data.devices.upcoming_brands %}
+<tr>
+<td><b>{{ brand | capitalize }}</b></td>
+<td style="line-height: 2em">
+{%   for device in site.data.devices.upcoming_codenames %}
+{%     if site.data.devices[device].brand == brand %}
+{{site.data.devices[device].model}}
+{%     endif %}
+{%   endfor %}
+</td>
+</tr>
+{% endfor %}
 <td colspan="2"><b>Modern</b></td>
 {% for brand in site.data.devices.modern_brands %}
 <tr>
