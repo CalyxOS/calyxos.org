@@ -1,4 +1,8 @@
 ---
+upcoming_codenames:
+  - FP5
+upcoming_brands:
+  - fairphone
 modern_codenames:
   - felix
   - tangorpro
@@ -174,6 +178,13 @@ axolotl:
   calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "no"
+FP5:
+  brand: fairphone
+  model: Fairphone 5
+  manufacturer_support_ends: 2031-01
+  calyxos_support_ends: tbd
+  sim: "dual"
+  esim: "yes"
 taimen:
   brand: pixel
   model: Pixel 2 XL
