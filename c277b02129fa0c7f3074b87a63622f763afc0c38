@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd4b373a_95300778",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-30T00:49:25Z",
+      "side": 1,
+      "message": "Let\u0027s wait till pre-orders open.",
+      "revId": "c277b02129fa0c7f3074b87a63622f763afc0c38",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
