@@ -19,6 +19,7 @@ CalyxOS 4.14.0 - October 2023 Security update (partial) is now available for all
 * Firewall: Work apps are managed in your personal profile’s Firewall app. Work apps have a briefcase icon on them.
 * Firewall: Point out apps without internet permission (i.e. they cannot access the internet at all)
 * Messaging: Fix crash on forwarding messages
+* Put bare minimum metadata in screenshots (strip unique ID, software info, date and timezone info)
 
 ### Android 14 plans
 
