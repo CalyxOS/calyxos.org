@@ -9,7 +9,7 @@ CalyxOS 4.13.4 - September feature update is now available for all supported dev
 | ---------------- | ------ |
 | Beta | 29 September, Friday |
 | Security express | 29 September, Friday |
-| Stable | 2 October, Monday |
+| Stable | Skipped, directly to 4.14.0 |
 
 ### Changelog
 * CalyxOS 4.13.4
