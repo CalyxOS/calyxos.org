@@ -1,6 +1,6 @@
 <h2>Devices</h2>
 <table>
-<td colspan="2"><b>Upcoming</b></td>
+<td colspan="2"><h4>Upcoming</h4></td>
 {% for brand in site.data.devices.upcoming_brands %}
 <tr>
 <td><b>{{ brand | capitalize }}</b></td>
@@ -13,7 +13,7 @@
 </td>
 </tr>
 {% endfor %}
-<td colspan="2"><b>Modern</b></td>
+<td colspan="2"><h4>Modern</h4></td>
 {% for brand in site.data.devices.modern_brands %}
 <tr>
 <td><b>{{ brand | capitalize }}</b></td>
@@ -26,7 +26,7 @@
 </td>
 </tr>
 {% endfor %}
-<td colspan="2"><b>Extended support</b></td>
+<td colspan="2"><h4>Extended support</h4></td>
 {% for brand in site.data.devices.extended_brands %}
 <tr>
 <td><b>{{ brand | capitalize }}</b></td>
@@ -39,7 +39,7 @@
 </td>
 </tr>
 {% endfor %}
-<td colspan="2"><b>Previous</b></td>
+<td colspan="2"><h4>No longer supported</h4></td>
 {% for brand in site.data.devices.previous_brands %}
 <tr>
 <td><b>{{ brand | capitalize }}</b></td>
