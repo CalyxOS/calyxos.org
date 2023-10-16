@@ -3,9 +3,13 @@ upcoming_codenames:
   - husky
   - shiba
   - FP5
+  - devon
+  - hawao
+  - rhode
 upcoming_brands:
   - pixel
   - fairphone
+  - motorola
 modern_codenames:
   - felix
   - tangorpro
@@ -206,6 +210,27 @@ FP5:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "yes"
+devon:
+  brand: motorola
+  model: Moto G32
+  manufacturer_support_ends: tbc
+  calyxos_support_ends: tbd
+  sim: "dual"
+  esim: "no"
+hawao:
+  brand: motorola
+  model: Moto G42
+  manufacturer_support_ends: tbc
+  calyxos_support_ends: tbd
+  sim: "dual"
+  esim: "no"
+rhode:
+  brand: motorola
+  model: Moto G52
+  manufacturer_support_ends: tbc
+  calyxos_support_ends: tbd
+  sim: "dual"
+  esim: "no"
 lemonadep:
   brand: oneplus
   model: OnePlus 9 Pro (Beta)
