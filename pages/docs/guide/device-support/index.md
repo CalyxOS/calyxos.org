@@ -43,6 +43,7 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 #### No longer supported
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> Manufacturer support date </th><th> CalyxOS support date </th></tr>
+<tr><td> OnePlus 8T, 9, 9 Pro Beta </td><td> - </td><td> May 2022 </td></tr>
 <tr><td> Pixels 2, 2 XL </td><td> October 2020 </td><td> February 2022 </td></tr>
 <tr><td> Xiaomi Mi A2 </td><td> August 2021 </td><td> February 2022 </td></tr>
 </table>
