@@ -56,6 +56,7 @@ husky:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "dual"
+  android: 14
 shiba:
   brand: pixel
   model: Pixel 8
@@ -63,6 +64,7 @@ shiba:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "dual"
+  android: 14
 felix:
   brand: pixel
   model: Pixel Fold
@@ -70,6 +72,7 @@ felix:
   calyxos_support_ends: 2028-06
   sim: "dual"
   esim: "dual"
+  android: 14
 tangorpro:
   brand: pixel
   model: Pixel Tablet
@@ -77,6 +80,7 @@ tangorpro:
   calyxos_support_ends: 2023-06
   sim: "no"
   esim: "no"
+  android: 14
 lynx:
   brand: pixel
   model: Pixel 7a
@@ -84,6 +88,7 @@ lynx:
   calyxos_support_ends: 2028-05
   sim: "dual"
   esim: "dual"
+  android: 14
 cheetah:
   brand: pixel
   model: Pixel 7 Pro
@@ -91,6 +96,7 @@ cheetah:
   calyxos_support_ends: 2027-10
   sim: "dual"
   esim: "dual"
+  android: 14
 panther:
   brand: pixel
   model: Pixel 7
@@ -98,6 +104,7 @@ panther:
   calyxos_support_ends: 2027-10
   sim: "dual"
   esim: "dual"
+  android: 14
 bluejay:
   brand: pixel
   model: Pixel 6a
@@ -105,6 +112,7 @@ bluejay:
   calyxos_support_ends: 2027-07
   sim: "dual"
   esim: "yes"
+  android: 14
 raven:
   brand: pixel
   model: Pixel 6 Pro
@@ -112,6 +120,7 @@ raven:
   calyxos_support_ends: 2026-10
   sim: "dual"
   esim: "yes"
+  android: 14
 oriole:
   brand: pixel
   model: Pixel 6
@@ -119,6 +128,7 @@ oriole:
   calyxos_support_ends: 2026-10
   sim: "dual"
   esim: "yes"
+  android: 14
 barbet:
   brand: pixel
   model: Pixel 5a (5G)
@@ -126,6 +136,7 @@ barbet:
   calyxos_support_ends: 2025-08
   sim: "dual"
   esim: "yes"
+  android: 14
 bramble:
   brand: pixel
   model: Pixel 4a (5G)
@@ -133,6 +144,7 @@ bramble:
   calyxos_support_ends: 2025-08
   sim: "dual"
   esim: "yes"
+  android: 14
 redfin:
   brand: pixel
   model: Pixel 5
@@ -140,6 +152,7 @@ redfin:
   calyxos_support_ends: 2025-08
   sim: "dual"
   esim: "yes"
+  android: 14
 sunfish:
   brand: pixel
   model: Pixel 4a
@@ -147,6 +160,7 @@ sunfish:
   calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "yes"
+  android: 13
 coral:
   brand: pixel
   model: Pixel 4 XL
@@ -154,6 +168,7 @@ coral:
   calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "yes"
+  android: 13
 flame:
   brand: pixel
   model: Pixel 4
@@ -161,6 +176,7 @@ flame:
   calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "yes"
+  android: 13
 bonito:
   brand: pixel
   model: Pixel 3a XL
@@ -168,6 +184,7 @@ bonito:
   calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "no"
+  android: 13
 sargo:
   brand: pixel
   model: Pixel 3a
@@ -175,6 +192,7 @@ sargo:
   calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "no"
+  android: 13
 crosshatch:
   brand: pixel
   model: Pixel 3 XL
@@ -182,6 +200,7 @@ crosshatch:
   calyxos_support_ends: 2024-08
   sim: "single"
   esim: "no"
+  android: 13
 blueline:
   brand: pixel
   model: Pixel 3
@@ -189,6 +208,7 @@ blueline:
   calyxos_support_ends: 2024-08
   sim: "single"
   esim: "no"
+  android: 13
 FP4:
   brand: fairphone
   model: Fairphone 4
@@ -196,6 +216,7 @@ FP4:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "yes"
+  android: 13
 axolotl:
   brand: shift
   model: SHIFT6mq
@@ -203,6 +224,7 @@ axolotl:
   calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "no"
+  android: 13
 FP5:
   brand: fairphone
   model: Fairphone 5
@@ -210,6 +232,7 @@ FP5:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "yes"
+  android: 13
 devon:
   brand: motorola
   model: Moto G32
@@ -217,6 +240,7 @@ devon:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "no"
+  android: 13
 hawao:
   brand: motorola
   model: Moto G42
@@ -224,6 +248,7 @@ hawao:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "no"
+  android: 13
 rhode:
   brand: motorola
   model: Moto G52
@@ -231,24 +256,28 @@ rhode:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "no"
+  android: 13
 lemonadep:
   brand: oneplus
   model: OnePlus 9 Pro (Beta)
   calyxos_support_ends: 2022-05
   sim: "dual"
   esim: "no"
+  android: 12
 lemonade:
   brand: oneplus
   model: OnePlus 9 (Beta)
   calyxos_support_ends: 2022-05
   sim: "dual"
   esim: "no"
+  android: 12
 kebab:
   brand: oneplus
   model: OnePlus 8T (Beta)
   calyxos_support_ends: 2022-05
   sim: "dual"
   esim: "no"
+  android: 12
 taimen:
   brand: pixel
   model: Pixel 2 XL
@@ -256,6 +285,7 @@ taimen:
   calyxos_support_ends: 2022-02
   sim: "single"
   esim: "Fi-only"
+  android: 12
 walleye:
   brand: pixel
   model: Pixel 2
@@ -263,6 +293,7 @@ walleye:
   calyxos_support_ends: 2022-02
   sim: "single"
   esim: "Fi-only"
+  android: 12
 jasmine_sprout:
   brand: xiaomi
   model: Xiaomi Mi A2
@@ -270,4 +301,5 @@ jasmine_sprout:
   calyxos_support_ends: 2022-02
   sim: "dual"
   esim: "no"
+  android: 12
 
