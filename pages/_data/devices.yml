@@ -35,10 +35,14 @@ extended_brands:
   - pixel
   - shift
 previous_codenames:
+  - lemonadep
+  - lemonade
+  - kebab
   - taimen
   - walleye
   - jasmine_sprout
 previous_brands:
+  - oneplus
   - pixel
   - xiaomi
 husky:
@@ -202,6 +206,24 @@ FP5:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "yes"
+lemonadep:
+  brand: oneplus
+  model: OnePlus 9 Pro (Beta)
+  calyxos_support_ends: 2022-05
+  sim: "dual"
+  esim: "no"
+lemonade:
+  brand: oneplus
+  model: OnePlus 9 (Beta)
+  calyxos_support_ends: 2022-05
+  sim: "dual"
+  esim: "no"
+kebab:
+  brand: oneplus
+  model: OnePlus 8T (Beta)
+  calyxos_support_ends: 2022-05
+  sim: "dual"
+  esim: "no"
 taimen:
   brand: pixel
   model: Pixel 2 XL
