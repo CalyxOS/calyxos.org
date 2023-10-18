@@ -30,7 +30,7 @@ Only then do they get the upgrade to Android 14. This lets us ensure that we onl
 It'll go something like:
 
 1. All existing users get updated to 4.14.1. Even if you're on the previous 4.14.0, or running an older build.
-2. Once on 4.14.1 (and when Android 14 is releasd), you'll be offered an update to 14.
+2. Once on 4.14.1 (and when Android 14 is released), you'll be offered an update to 14.
 3. After that, the update cycle will continue like before.
 
 ### Other devices
