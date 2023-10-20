@@ -40,7 +40,7 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 <tr><td> SHIFT SHIFT6mq </td><td> TBC* </td><td> August 2024 </td></tr>
 </table>
 
-#### Previously supported
+#### No longer supported
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> Manufacturer support date </th><th> CalyxOS support date </th></tr>
 <tr><td> Pixels 2, 2 XL </td><td> October 2020 </td><td> February 2022 </td></tr>
