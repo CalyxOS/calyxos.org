@@ -78,6 +78,21 @@ module Releases
       end
     end
 
+    def get_android_from(build_number)
+      # https://gitlab.com/CalyxOS/vendor_calyx/-/blob/android13/config/version.mk
+      major = ( build_number % 1000000 ) / 100000
+      case major
+      when 5
+        return "14"
+      when 4
+        return "13"
+      when 3
+        return "12"
+      else
+        return "?"
+      end
+    end
+
     def parse_release(release)
       info = []
       Dir.chdir(RELEASE_CACHE) do
@@ -111,6 +126,7 @@ module Releases
           release_file = File.read(release_filename)
           build_number, timestamp, build_id = release_file.split(' ')
           version = get_version_from(Integer(build_number))
+          android = get_android_from(Integer(build_number))
           date = Time.at(timestamp.to_i).utc.strftime("%F")
           factory_filename = codename + "-factory-#{build_number}.zip"
           factory_sha256 = get_hash_for(factory_filename)
@@ -136,6 +152,7 @@ module Releases
             "brand" => device["brand"],
             "codename" => codename,
             "version" => version,
+            "android" => android,
             "factory_link" => RELEASE_DL_BASE + factory_filename,
             "factory_sha256" => factory_sha256,
             "ota_link" => RELEASE_DL_BASE + ota_filename,
