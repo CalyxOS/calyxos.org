@@ -268,6 +268,7 @@ lemonadep:
   sim: "dual"
   esim: "no"
   android: 12
+  link: news/2022/07/06/oneplus-android-12-relock-issue/
 lemonade:
   brand: oneplus
   model: OnePlus 9 (Beta)
@@ -275,6 +276,7 @@ lemonade:
   sim: "dual"
   esim: "no"
   android: 12
+  link: news/2022/07/06/oneplus-android-12-relock-issue/
 kebab:
   brand: oneplus
   model: OnePlus 8T (Beta)
@@ -282,6 +284,7 @@ kebab:
   sim: "dual"
   esim: "no"
   android: 12
+  link: news/2022/07/06/oneplus-android-12-relock-issue/
 taimen:
   brand: pixel
   model: Pixel 2 XL
@@ -290,6 +293,7 @@ taimen:
   sim: "single"
   esim: "Fi-only"
   android: 11
+  link: news/2022/02/11/android-11-feb-security-update/
 walleye:
   brand: pixel
   model: Pixel 2
@@ -298,6 +302,7 @@ walleye:
   sim: "single"
   esim: "Fi-only"
   android: 11
+  link: news/2022/02/11/android-11-feb-security-update/
 jasmine_sprout:
   brand: xiaomi
   model: Xiaomi Mi A2
@@ -306,4 +311,5 @@ jasmine_sprout:
   sim: "dual"
   esim: "no"
   android: 11
+  link: news/2022/02/11/android-11-feb-security-update/
 
