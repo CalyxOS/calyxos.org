@@ -1,0 +1,75 @@
+---
+title: Android 14 update
+date: 2023-10-26
+---
+
+CalyxOS 5.0.2 - Android 14 is now available for the Pixels 5 and newer.
+
+| Release channel  | Date   |
+| ---------------- | ------ |
+| Security express | 26 October, Thursday |
+| Beta | 26 October, Thursday |
+| Stable | 30 October, Monday |
+
+We're also working on supporting the Pixel 8, and porting Android 14 to the Pixel 4, 4a, and FP4.
+
+### Changelog
+* CalyxOS 5.0.2
+* October 2023 Security update (2023-10-06)
+* Android 14
+* Chromium 118.0.5993.111 (latest stable)
+* Chromium 119 is work in progress
+
+### Fixes
+* Certain banking apps / website crashes have been fixed.
+* Lockscreen shortcuts have been re-added.
+* Certain widgets could not be added to the home screen, fixed now.
+
+### Known issues
+* Google has changed how Work profile "Pausing" works. It's more like "Pause apps" now, where only notifications aren't shown, apps keep running. Will be changed to previous behavior.
+* F-Droid will ask for unknown sources to install/update certain apps. Fixed with F-Droid 1.18.0, kindly update.
+* Custom status bar icons are missing
+* Custom font selection is missing
+* There might be certain other minor issues, but for the most part it should be solid.
+
+### Steps
+#### OTA updates for existing CalyxOS users
+1. Make sure your phone is running the latest CalyxOS version 4.14.1
+1. Backup your data - you can use SeedVault, the included Backup app.
+1. Settings -> System -> System update settings -> Release channel -> (Beta or Security express)
+1. Then, tap "Check for updates"
+
+#### Fresh installs, factory images
+1. Download the factory images from the links below.
+1. Please follow the installation instructions at [[install]], but use the latest factory image you just downloaded instead of the one linked on that page.
+
+<table class="table table-striped download">
+  <tr><th>Device</th><th>Link</th><th><a href="{{ '/get/verify' | relative_url }}">Signature</a></th><th>SHA256</th></tr>
+{% for device in site.data.downloads["beta"] %}
+{% if device.android == "14" %}
+  <tr>
+    <td>{{device.name}} ({{device.codename}})</td>
+    <td><a href="{{device.factory_link}}">Download</a></td>
+    <td><a href="{{device.factory_link | append: '.minisig' }}">Signature</a></td>
+    <td class="hash">{{device.factory_sha256}}</td>
+  </tr>
+{% endif %}
+{% endfor %}
+</table>
+
+### Pixel 6a test build mixup
+* We released an Android 14 test build for the Pixel 6a last week, CalyxOS 5.0.0
+* We also released a final Android 13 upgrade just after that, CalyxOS 4.14.1
+* Unfortunately, that final Android 13 upgrade was also accidendally rolled out to Android 14 users, which wouldn't work given it's a downgrade. Our apologies for this.
+ 
+#### The fix
+* If you're running 4.14.1 already with your data intact, you can ignore this
+* If you're on 5.0.1 or newer already, you can ignore this
+* If you're on 5.0.0 and haven't rebooted yet, you can reboot and then:
+* If you're shown a screen with two options "Try again" or "Factory data reset"
+* If you keep choosing "Try again" eventually it'll boot back to 5.0.0, at which point it should
+
+
+### Note
+
+{% include install/security_notes.html %}
