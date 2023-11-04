@@ -1,5 +1,5 @@
 ---
-title: Another Adroid 14 update
+title: Another Android 14 update
 date: 2023-11-04
 ---
 
