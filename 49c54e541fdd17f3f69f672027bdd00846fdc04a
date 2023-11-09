@@ -51,6 +51,23 @@
       "parentUuid": "f1f1c73d_ee21906c",
       "revId": "49c54e541fdd17f3f69f672027bdd00846fdc04a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7deb323c_51cf3aa3",
+        "filename": "pages/docs/guide/faq/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-11-09T14:24:28Z",
+      "side": 1,
+      "message": "The FAQ has been updated since this change was uploaded. Is this still worth another pass for possible redistribution of pieces to other parts of the site?\n\nThe section on anonymity did stand out to me as useful. I worry we don\u0027t emphasize the risk of \"privacy-invasive apps\" enough, especially when it comes to anonymity; it is impossible by design to prevent being uniquely fingerprinted by any untrusted Android app.",
+      "revId": "49c54e541fdd17f3f69f672027bdd00846fdc04a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
