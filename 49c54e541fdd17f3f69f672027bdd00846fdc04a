@@ -68,6 +68,24 @@
       "message": "The FAQ has been updated since this change was uploaded. Is this still worth another pass for possible redistribution of pieces to other parts of the site?\n\nThe section on anonymity did stand out to me as useful. I worry we don\u0027t emphasize the risk of \"privacy-invasive apps\" enough, especially when it comes to anonymity; it is impossible by design to prevent being uniquely fingerprinted by any untrusted Android app.",
       "revId": "49c54e541fdd17f3f69f672027bdd00846fdc04a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "09c72790_2bdd522b",
+        "filename": "pages/docs/guide/faq/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-09T14:44:06Z",
+      "side": 1,
+      "message": "Yes, there have been updates, and it\u0027s such a major change that we will keep having this problem.\n\nWe can just add parts of it as preferred though.\n\nIf you just put up the \"Anonymity\" section as it\u0027s own commit for example, we can just quickly merge it without thinking. It\u0027s more work to split them up like  this, but we can start by just splitting things found useful right away (like this Anonymity section you mentioned), and merge it right away.\n\nThere\u0027s another big chain of changes for the FAQ as well by yours truly.",
+      "parentUuid": "7deb323c_51cf3aa3",
+      "revId": "49c54e541fdd17f3f69f672027bdd00846fdc04a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
