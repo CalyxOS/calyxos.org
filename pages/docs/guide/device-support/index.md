@@ -14,7 +14,7 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 * \*Note that these are the current estimated dates. We try to support devices as long as possible, but it's hard to determine feasibility years in advance, so we'll keep updating these the closer we get to the dates. For more details see [Software support timeline](https://calyxos.org/news/2022/06/09/software-support-timeline/)
 * [Google Pixel support dates](https://support.google.com/nexus/answer/4457705#zippy=%2Cpixel-phones)
 * [Google Pixel Tablet support date](https://support.google.com/googlepixeltablet/answer/13555449?hl=en-GB#zippy=%2Cwhats-the-os-update-policy-for-the-pixel-tablet)
-* [Fairphone](https://support.fairphone.com/hc/en-us/articles/4405858006545-FP4-Fairphone-OS-Android-11-)
+* [Fairphone](https://support.fairphone.com/hc/en-us/articles/9979180437393-Fairphone-OS)
 * [Motorola](https://en-us.support.motorola.com/app/software-security-update)
 
 #### Modern devices
