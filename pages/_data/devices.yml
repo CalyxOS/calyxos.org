@@ -79,8 +79,8 @@ felix:
 tangorpro:
   brand: pixel
   model: Pixel Tablet
-  manufacturer_support_ends: 2023-06
-  calyxos_support_ends: 2023-06
+  manufacturer_support_ends: 2028-06
+  calyxos_support_ends: 2028-06
   sim: "no"
   esim: "no"
   android: 14
