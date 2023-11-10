@@ -16,6 +16,7 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 * [Google Pixel Tablet support date](https://support.google.com/googlepixeltablet/answer/13555449?hl=en-GB#zippy=%2Cwhats-the-os-update-policy-for-the-pixel-tablet)
 * [Fairphone](https://support.fairphone.com/hc/en-us/articles/9979180437393-Fairphone-OS)
 * [Motorola](https://en-us.support.motorola.com/app/software-security-update)
+* [SHIFT](https://www.shift.eco/shift6mq-status/)
 
 #### Modern devices
 <table class="table table-striped download">
