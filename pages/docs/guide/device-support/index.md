@@ -18,6 +18,7 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 #### Modern devices
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> Manufacturer support date </th><th> CalyxOS support date </th></tr>
+<tr><td> Pixel 8, 8 Pro </td><td> October 2030 </td><td> October 2030* </td></tr>
 <tr><td> Pixel Fold </td><td> June 2028 </td><td> June 2028* </td></tr>
 <tr><td> Pixel Tablet </td><td> Unknown </td><td> TBD* </td></tr>
 <tr><td> Pixel 7a </td><td> May 2028 </td><td> May 2028* </td></tr>

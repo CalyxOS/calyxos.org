@@ -4,17 +4,16 @@ android_versions:
   - 13
   - 11
 upcoming_codenames:
-  - husky
-  - shiba
   - FP5
   - devon
   - hawao
   - rhode
 upcoming_brands:
-  - pixel
   - fairphone
   - motorola
 modern_codenames:
+  - husky
+  - shiba
   - felix
   - tangorpro
   - lynx
@@ -56,16 +55,16 @@ previous_brands:
 husky:
   brand: pixel
   model: Pixel 8 Pro
-  manufacturer_support_ends: tbd
-  calyxos_support_ends: tbd
+  manufacturer_support_ends: 2030-10
+  calyxos_support_ends: 2030-10
   sim: "dual"
   esim: "dual"
   android: 14
 shiba:
   brand: pixel
   model: Pixel 8
-  manufacturer_support_ends: tbd
-  calyxos_support_ends: tbd
+  manufacturer_support_ends: 2030-10
+  calyxos_support_ends: 2030-10
   sim: "dual"
   esim: "dual"
   android: 14
