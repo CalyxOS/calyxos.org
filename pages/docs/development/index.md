@@ -37,13 +37,13 @@ To submit a patch, you can follow the instructions at [[gerrit]]
 
 Steps:
 1. Initialize and sync the source code.
-   * `repo init -u https://gitlab.com/CalyxOS/platform_manifest -b android13`
+   * `repo init -u https://gitlab.com/CalyxOS/platform_manifest -b android14`
    * `repo sync`
 2. Obtain proprietary files for your device
-   * `./calyx/scripts/pixel/device.sh sunfish` (`sunfish` for Pixel 4a)
+   * `./calyx/scripts/pixel/device.sh bluejay` (`bluejay` for Pixel 6a)
 3. Build
    * `source build/envsetup.sh`
-   * `lunch calyx_sunfish-user` (`sunfish` for Pixel 4a, `user` is used for release builds, you can use `userdebug` for development builds.)
+   * `lunch calyx_bluejay-user` (`bluejay` for Pixel 6a, `user` is used for release builds, you can use `userdebug` for development builds.)
    * `m`
 4. Install
    * `fastboot flashall` (Run this in the same shell where you ran the build)

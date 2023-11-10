@@ -32,12 +32,17 @@ If you're signing CalyxOS for the first time, you will need to create the necess
 You should unzip the 'otatools-keys.zip' from the above step, preferably on an offline machine.
 
 Run:
-* `./vendor/calyx/scripts/mkkeys.sh` to generate the keys needed for all devices. Do not set a password as the signing scripts do not support that currently.
-
-If you're building for the Mi A2 / `jasmine_sprout`, you should copy `keys/jasmine_sprout/verity.x509.pem` to `kernel/xiaomi/jasmine_sprout/certs/` in the CalyxOS source code and then rebuild.
+* `./vendor/calyx/scripts/mkkeys.sh` to generate the keys needed for each device. Do not set a password as the signing scripts do not support that currently.
 
 Next, run:
-* `./vendor/calyx/scripts/mkcommonkeys.sh` to create some common keys used to sign apps. These are used to sign certain apps put into the OS such as Trichrome (Chromium) and F-Droid.
+* `./vendor/calyx/scripts/mkcommonkeys.sh` to create some common keys used to sign apps. These are used to sign certain apps put into the OS such as Trichrome (Chromium) and F-Droid. These keys are shared between different devices.
+
+Example:
+
+```shell
+./vendor/calyx/scripts/mkkeys.sh keys/bluejay '/C=US/ST=California/L=Mountain View/O=Android/OU=Android/CN=Android/emailAddress=android@android.com' # Replace bluejay with your device
+./vendor/calyx/scripts/mkcommonkeys.sh keys/common '/C=US/ST=California/L=Mountain View/O=Android/OU=Android/CN=Android/emailAddress=android@android.com'
+```
 
 ## Signing
 
@@ -51,7 +56,7 @@ This will sign the build, and create ota update zips and factory images.
 ```shell
 export BUILD_NUMBER=eng.$USERNAME.date # Get this from the filename
 unzip otatools.zip
-./vendor/calyx/scripts/release.sh sunfish calyx_sunfish-target_files-${BUILD_NUMBER}.zip # Replace sunfish with your device
+./vendor/calyx/scripts/release.sh bluejay calyx_bluejay-target_files-${BUILD_NUMBER}.zip # Replace bluejay with your device
 ```
 
 #### Generate incremental OTAs
@@ -59,13 +64,13 @@ If you have an older build, you should symlink that to 'archive', and then you c
 
 ```shell
 export PREV_BUILD_NUMBER=eng.$USERNAME.prevdate # Get this from the filename
-./vendor/calyx/scripts/generate_delta.sh sunfish ${PREV_BUILD_NUMBER} ${BUILD_NUMBER} # Replace sunfish with your device
+./vendor/calyx/scripts/generate_delta.sh bluejay ${PREV_BUILD_NUMBER} ${BUILD_NUMBER} # Replace bluejay with your device
 ```
 
 #### Generate metadata for the update server
 
 ```shell
-./vendor/calyx/scripts/generate_metadata.py out/release-sunfish-${BUILD_NUMBER}/sunfish-ota_update-${BUILD_NUMBER}.zip # Replace sunfish with your device
+./vendor/calyx/scripts/generate_metadata.py out/release-bluejay-${BUILD_NUMBER}/bluejay-ota_update-${BUILD_NUMBER}.zip # Replace bluejay with your device
 ```
 
 <br />

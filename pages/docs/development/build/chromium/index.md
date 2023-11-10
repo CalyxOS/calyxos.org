@@ -13,9 +13,9 @@ It has it's own build system and is built separately.
 CalyxOS usually tracks the Chrome Android stable release, you can see the latest version at <https://chromiumdash.appspot.com/releases?platform=Android>.
 Look for the first version under 'Stable'
 
-Stable version at time of writing this: 107.0.5304.105
+Stable version at time of writing this: 119.0.6045.66
 
-`export V=107.0.5304.105 # Replace this with the correct version`
+`export V=119.0.6045.66 # Replace this with the correct version`
 
 ## Short version
 * This assumes you have a Chromium build environment already setup and have built it before
@@ -27,7 +27,7 @@ Steps:
    * `gclient sync -D; gclient runhooks`
 2. Fetch our patches and build configuration
    * `cd ~/chromium`
-   * `git clone https://gitlab.com/CalyxOS/platform_external_calyx_chromium -b android13`
+   * `git clone https://gitlab.com/CalyxOS/platform_external_calyx_chromium -b android14`
 3. Apply patches (you version has to match the version in args.gn)
    * `cd ~/chromium/src`
    * `for i in $(cat ../platform_external_calyx_chromium/build/*_patches_list.txt); do git am ../platform_external_calyx_chromium/build/patches/$i; done`

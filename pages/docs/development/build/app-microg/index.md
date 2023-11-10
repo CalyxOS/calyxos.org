@@ -12,7 +12,7 @@ CalyxOS includes [microG](https://github.com/microG) by default. However, since 
 #### Preparation
 
 ```shell
-cd ~/calyxos/android13
+cd ~/calyxos/android14
 cd external/microg/GmsCore
 git fetch --tags
 export JAVA_OPTS="-Xmx2048m"
