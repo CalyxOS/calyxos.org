@@ -7,13 +7,9 @@ upcoming_codenames:
   - husky
   - shiba
   - FP5
-  - devon
-  - hawao
-  - rhode
 upcoming_brands:
   - pixel
   - fairphone
-  - motorola
 modern_codenames:
   - felix
   - tangorpro
@@ -24,9 +20,13 @@ modern_codenames:
   - raven
   - oriole
   - FP4
+  - devon
+  - hawao
+  - rhode
 modern_brands:
   - pixel
   - fairphone
+  - motorola
 extended_codenames:
   - barbet
   - bramble
@@ -241,7 +241,7 @@ FP5:
 devon:
   brand: motorola
   model: Moto G32
-  manufacturer_support_ends: tbc
+  manufacturer_support_ends: 2025-08
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "no"
@@ -249,7 +249,7 @@ devon:
 hawao:
   brand: motorola
   model: Moto G42
-  manufacturer_support_ends: tbc
+  manufacturer_support_ends: 2025-06
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "no"
@@ -257,7 +257,7 @@ hawao:
 rhode:
   brand: motorola
   model: Moto G52
-  manufacturer_support_ends: tbc
+  manufacturer_support_ends: 2025-04
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "no"
