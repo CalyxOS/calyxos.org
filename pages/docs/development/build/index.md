@@ -57,9 +57,9 @@ chmod a+x ~/bin/repo
 Now you can download the CalyxOS source code.
 
 ```shell
-mkdir ~/calyxos/android13
-cd ~/calyxos/android13
-repo init -u https://gitlab.com/CalyxOS/platform_manifest -b android13
+mkdir ~/calyxos/android14
+cd ~/calyxos/android14
+repo init -u https://gitlab.com/CalyxOS/platform_manifest -b android14
 repo sync -j8 # You may use a higher number here if you have a fast computer and fast internet
 ```
 
@@ -69,7 +69,7 @@ This will be a big download and may take a long time. Once it's done, you can bu
 Phones need a lot of proprietary files to boot and for all hardware to work, we have automated scripts to download and set them up.
 
 ```shell
-./calyx/scripts/pixel/device.sh sunfish # Replace sunfish (Pixel 4a) with your device codename here
+./calyx/scripts/pixel/device.sh bluejay # Replace bluejay (Pixel 6a) with your device codename here
 ```
 
 ### Building
@@ -77,7 +77,7 @@ You made it this far! Now you can finally build CalyxOS
 
 ```shell
 source build/envsetup.sh
-lunch calyx_sunfish-user # Replace sunfish (Pixel 4a) with your device codename here, and user with userdebug if you want a debug build
+lunch calyx_bluejay-user # Replace bluejay (Pixel 6a) with your device codename here, and user with userdebug if you want a debug build
 m # Yes, just the letter 'm'
 ```
 
