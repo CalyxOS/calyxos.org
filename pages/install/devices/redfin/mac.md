@@ -44,7 +44,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/redfin-factory-23500030.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/redfin-factory-23501000.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 5 (redfin)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -56,14 +56,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/redfin-factory-23500030.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/redfin-factory-23501000.zip" | split: "/" | last %}
 {% include install/mac_image_digest.md filename=image %}
 
-And ensure the result says `74cf16d58dcb1f16743209ae2cb9e220bc7c168a1517a718619ec5b84a2ddbab`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `b3010405033a2c019ea77a52bb0c2f9643f773858cb91a3317ad922fa879f79a`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/redfin-factory-23500030.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/redfin-factory-23501000.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 
