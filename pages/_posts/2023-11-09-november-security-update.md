@@ -10,8 +10,10 @@ CalyxOS 5.1.0 - Android 14 and CalyxOS 4.15.0 - Android 13; now available for al
 | Release channel  | Date   |
 | ---------------- | ------ |
 | Security express | 8 November, Wednesday |
-| Beta | 10 November, Friday |
-| Stable | 13 November, Monday |
+| Beta | 13 November, Monday |
+| Stable | 14 November, Tuesday |
+
+* Beta got delayed from Friday to Monday, and thus stable got delayed from Monday to Tuesday as well.
 
 ### Changelog
 * CalyxOS 5.1.0 - Android 14
@@ -22,10 +24,11 @@ CalyxOS 5.1.0 - Android 14 and CalyxOS 4.15.0 - Android 13; now available for al
 | Release channel  | Date   |
 | ---------------- | ------ |
 | Security express | 9 November, Thursday |
-| Beta | 10 November, Friday |
-| Stable | 13 November, Monday |
+| Beta | 13 November, Monday |
+| Stable | 14 November, Tuesday |
 
 * This was intentionally meant to go out to Security express on 8 November, Wednesday as well, but due to a server side mix up the rollout got delayed.
+* Beta got delayed from Friday to Monday, and thus stable got delayed from Monday to Tuesday as well.
 
 ### Changelog
 * CalyxOS 4.15.0 - Android 13
