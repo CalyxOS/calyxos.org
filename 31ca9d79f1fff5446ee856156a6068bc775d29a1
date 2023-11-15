@@ -52,6 +52,24 @@
       "parentUuid": "e0d67792_f85395a1",
       "revId": "31ca9d79f1fff5446ee856156a6068bc775d29a1",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c0e8817_dc929c05",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-11-15T17:24:51Z",
+      "side": 1,
+      "message": "Linked here https://review.calyxos.org/c/CalyxOS/calyxos.org/+/23070",
+      "parentUuid": "3c0f7436_d89d5e38",
+      "revId": "31ca9d79f1fff5446ee856156a6068bc775d29a1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
