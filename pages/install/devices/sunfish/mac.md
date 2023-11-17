@@ -59,7 +59,7 @@ To verify the image, open a terminal window on the host computer where you saved
 {% assign image = "https://release.calyxinstitute.org/sunfish-factory-23415000.zip" | split: "/" | last %}
 {% include install/mac_image_digest.md filename=image %}
 
-And ensure the result says ``. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `82a30f73f6a63749bae99e7ec8b621ce96c61ca90cd1b17dbef98b9d421fa74c`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 

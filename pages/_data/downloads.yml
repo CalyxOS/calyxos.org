@@ -149,12 +149,12 @@ stable:
   version: 4.15.0
   android: '13'
   factory_link: https://release.calyxinstitute.org/sunfish-factory-23415000.zip
-  factory_sha256:
+  factory_sha256: 82a30f73f6a63749bae99e7ec8b621ce96c61ca90cd1b17dbef98b9d421fa74c
   ota_link: https://release.calyxinstitute.org/sunfish-ota_update-23415000.zip
-  ota_sha256:
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
+  ota_sha256: b934e2f59c7d6682711102a11dce981303ab46fe535500274ffb127d08b805d3
+  incremental_link: https://release.calyxinstitute.org/sunfish-incremental-23414000-23415000.zip
+  incremental_sha256: fb0ca704267f2005d3ded455e05162eb920619084dfcdd987d611f61e57b796f
+  incremental_old_build: '23414000'
   date: '2023-11-08'
 - name: Pixel 4 XL
   brand: pixel
@@ -410,9 +410,9 @@ beta:
   version: 4.15.0
   android: '13'
   factory_link: https://release.calyxinstitute.org/sunfish-factory-23415000.zip
-  factory_sha256:
+  factory_sha256: 82a30f73f6a63749bae99e7ec8b621ce96c61ca90cd1b17dbef98b9d421fa74c
   ota_link: https://release.calyxinstitute.org/sunfish-ota_update-23415000.zip
-  ota_sha256:
+  ota_sha256: b934e2f59c7d6682711102a11dce981303ab46fe535500274ffb127d08b805d3
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -671,9 +671,9 @@ security-express:
   version: 4.15.0
   android: '13'
   factory_link: https://release.calyxinstitute.org/sunfish-factory-23415000.zip
-  factory_sha256:
+  factory_sha256: 82a30f73f6a63749bae99e7ec8b621ce96c61ca90cd1b17dbef98b9d421fa74c
   ota_link: https://release.calyxinstitute.org/sunfish-ota_update-23415000.zip
-  ota_sha256:
+  ota_sha256: b934e2f59c7d6682711102a11dce981303ab46fe535500274ffb127d08b805d3
   incremental_link:
   incremental_sha256:
   incremental_old_build:
