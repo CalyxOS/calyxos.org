@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ce01490_4ab02fc4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-20T20:34:50Z",
+      "side": 1,
+      "message": "Will add warnings in a followup to make it easier to see.",
+      "revId": "4c650ae983aab82fc2bea5fb9a53a9ade3b4789b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
