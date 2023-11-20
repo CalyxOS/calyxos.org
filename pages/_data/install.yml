@@ -5,3 +5,6 @@ fairphone:
   troubleshooting: install/pixel_troubleshooting.md
 shift:
   troubleshooting: install/pixel_troubleshooting.md
+motorola:
+  pre_unlock_notes: install/moto_unlock.md
+  troubleshooting: install/pixel_troubleshooting.md

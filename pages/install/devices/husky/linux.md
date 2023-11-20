@@ -36,6 +36,10 @@ On brand new devices, especially those obtained from a carrier, it's better to r
 
 This step might fail if there is no internet connection. In that case, connect to a WiFi network and then try again.
 
+{% if site.data.install.pixel.pre_unlock_notes %}
+{% include {{site.data.install.pixel.pre_unlock_notes}} %}
+{% endif %}
+
 ## Prepare your host computer
 
 {% include install/linux_notes.md %}

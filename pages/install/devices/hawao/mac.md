@@ -36,6 +36,10 @@ On brand new devices, especially those obtained from a carrier, it's better to r
 
 This step might fail if there is no internet connection. In that case, connect to a WiFi network and then try again.
 
+{% if site.data.install.motorola.pre_unlock_notes %}
+{% include {{site.data.install.motorola.pre_unlock_notes}} %}
+{% endif %}
+
 ## Prepare your host computer
 
 {% include install/mac_notes.md %}
