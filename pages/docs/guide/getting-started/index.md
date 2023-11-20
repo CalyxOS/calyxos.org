@@ -133,7 +133,7 @@ Firewall - Datura Firewall, a CalyxOS Firewall that allows for fine grain contro
 
 Tor Browser - Private browser, no tracking, surveillance, or censorship
 
-Chromium - Ad/tracker-free, secure, browsing via select Bromite features in the privacy-enhanced CalyxOS Chromium browser, based on Bromite
+Chromium - Ad/tracker-free, secure, browsing via select Cromite features in the privacy-enhanced CalyxOS Chromium browser, based on Cromite
 
 ### VPNs
 
@@ -208,7 +208,7 @@ Because Datura Firewall blocks network access from these applications, much of t
 
 CalyxOS comes with two default browser options: Chromium and Tor Browser.
 
-The Chromium that comes with CalyxOS is different from Google Chrome. It is heavily modified to prioritize privacy, and is based on Bromite, a privacy focused browser with ad blocking and many anti-tracking privacy enhancements.
+The Chromium that comes with CalyxOS is different from Google Chrome. It is heavily modified to prioritize privacy, and is based on Cromite, a privacy focused browser with ad blocking and many anti-tracking privacy enhancements.
 
 For a high degree of anonymity, you may also consider Tor Browser with the following features:
 
@@ -221,7 +221,7 @@ There can be disadvantages of using the Tor Browser:
 * Incompatible with some websites.
 * Slower to browse the web because of the extra network "hops".
 
-Curious how well your browser of choice protects you compared to Chrome, Bromite, Firefox, Safari, Tor, and more? See [Privacy Tests](https://privacytests.org) for an overhead view of the various protections offered by your browser.
+Curious how well your browser of choice protects you compared to Chrome, Firefox, Safari, Tor, and more? See [Privacy Tests](https://privacytests.org) for an overhead view of the various protections offered by your browser.
 
 More Broswer options are available via F-Droid and the Aurora Store.
 
