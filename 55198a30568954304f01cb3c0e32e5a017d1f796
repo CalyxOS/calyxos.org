@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd2c6de7_641db71c",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-20T15:52:09Z",
+      "side": 1,
+      "message": "FWIW, https://privacytests.org/android does not have Cromite.",
+      "revId": "55198a30568954304f01cb3c0e32e5a017d1f796",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
