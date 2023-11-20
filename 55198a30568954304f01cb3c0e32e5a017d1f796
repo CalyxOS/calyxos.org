@@ -16,6 +16,24 @@
       "message": "FWIW, https://privacytests.org/android does not have Cromite.",
       "revId": "55198a30568954304f01cb3c0e32e5a017d1f796",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "288c471e_6f4e02f0",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-11-20T15:55:18Z",
+      "side": 1,
+      "message": "Good catch, I just took it out.",
+      "parentUuid": "dd2c6de7_641db71c",
+      "revId": "55198a30568954304f01cb3c0e32e5a017d1f796",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
