@@ -83,6 +83,6 @@ CalyxOS 5.1.2 - Android 14 and CalyxOS 4.15.1 - Android 13 is now available
 ### Pixel 3, 3a, SHIFT6MQ
 * Looking into it.
 
-### Note
+## Note
 
 {% include install/security_notes.html %}
