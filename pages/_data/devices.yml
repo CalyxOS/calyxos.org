@@ -163,7 +163,7 @@ sunfish:
   calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "yes"
-  android: 13
+  android: 14
 coral:
   brand: pixel
   model: Pixel 4 XL
