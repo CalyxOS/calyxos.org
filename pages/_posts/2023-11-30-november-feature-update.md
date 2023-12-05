@@ -10,8 +10,8 @@ CalyxOS 5.1.2 - Android 14 and CalyxOS 4.15.1 - Android 13 is now available
 | Release channel  | Date   |
 | ---------------- | ------ |
 | Beta | 30 November, Thursday |
-| Security express | 1 December, Friday |
-| Stable | 4 December, Monday |
+| Security express | 2 December, Saturday |
+| Stable | 5 December, Tuesday |
 
 ### Changelog
 * CalyxOS 5.1.2 - Android 14
@@ -50,8 +50,8 @@ CalyxOS 5.1.2 - Android 14 and CalyxOS 4.15.1 - Android 13 is now available
 | Release channel  | Date   |
 | ---------------- | ------ |
 | Beta | 29 November, Wednesday |
-| Security express | 1 December, Friday |
-| Stable | 4 December, Monday |
+| Security express | 2 December, Saturday |
+| Stable | 5 December, Tuesday |
 
 ### Changelog
 * CalyxOS 4.15.1 - Android 13
