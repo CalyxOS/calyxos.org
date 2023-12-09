@@ -60,7 +60,7 @@ We continue to research and implement ways to give the user greater control over
 </tr>
 <tr>
   <td>supl.google.com</td>
-  <td>SUPL is an assistive GPS (A-GPS) service that allows the device to much more quickly get a GPS lock. Currently, the request for GPS satellite information that CalyxOS makes to Google servers typically includes the device's IMSI or phone number (over TLS). We are looking at alternatives to Google's SUPL service.</td>
+  <td>SUPL is an optional assistive GPS (A-GPS) service that allows the device to much more quickly get a GPS lock. When turned on, the request for GPS satellite information that CalyxOS makes to Google servers utilizes TLS and does not include IMSI or phone number information except during emergency calls.</td>
 </tr>
 <tr>
   <td>remoteprovisioning.googleapis.com</td>
