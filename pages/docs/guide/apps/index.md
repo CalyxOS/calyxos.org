@@ -54,7 +54,7 @@ CalyxOS comes with a list of suggested free software applications to facilitate 
 
 ## CalyxOS Apps
 
-These applications were developed specifically for use with CalyxOS, although some people have also ported these to work with other distributions.
+These applications were developed or adapted specifically for use with CalyxOS, although some people have also ported these to work with other distributions.
 
 ### SeedVault (Secure Backups)
 
@@ -94,3 +94,21 @@ These applications were developed specifically for use with CalyxOS, although so
 * Phone Dialer has support for ‘Sensitive Numbers’ feature, where calls to numbers for help lines such as domestic violence, child abuse, suicide hotlines are not recorded in the call log
   * These numbers are also available from a menu entry, Helplines
 
+### CalyxOS Chromium
+
+Our goal with the Chromium browser provided in CalyxOS is to offer a solid base of privacy and security enhancements vs Chromium (and by extension, vs Google Chrome) while still allowing most sites and WebView-based apps to function as expected out of the box. We do this by using select changes from [Cromite](https://github.com/uazo/cromite) (and prior to that, [Bromite](https://github.com/bromite/bromite)). Some of these include the under-the-hood deactivation of intrusive features and analytics, while others provide additional site settings to adjust features like WebGL and WebRTC, features which are sometimes necessary but which can aid in fingerprinting or identification when turned on. We also bring in the legacy ad blocker from Bromite/Cromite to offer some reasonable protection from the worst kinds of ads. You can find and adjust these features in Settings.
+
+Compared to Google Chrome, a few of the things you'll immediately notice are:
+* CalyxOS Chromium does not prompt you to sign in.
+* CalyxOS Chromium does not prompt you to adjust confusing and misleading "privacy sandbox" settings.
+* CalyxOS Chromium does not fill its new tab page with unsolicited site suggestions.
+
+Here are some other things you can try to confirm that CalyxOS's Chromium is working as intended:
+
+* [Privacy Sandbox demos](https://developers.google.com/privacy-sandbox/resources/demos) by Google. Many of these demos (including Topics API and Attribution Reporting) represent new, invasive features that will not function out-of-the-box in Cromite or CalyxOS Chromium. They may be opt-out in Chrome, but they're not even available here.
+* [Adblock test](https://d3ward.github.io/toolz/adblock.html) by [Ursu Edward (d3ward)](https://d3ward.github.io/). While we don't achieve the coveted 99%+, having AdBlock turned on (as it is by default) gets a much better score than the \~1% when it is turned off.
+* [WebRTC Leak Test](https://browserleaks.com/webrtc) by [BrowserLeaks](https://browserleaks.com). With WebRTC turned off, as it is by default in Cromite and CalyxOS Chromium, this site returns "No Leak". With Chrome, or with WebRTC turned on (possible via the site settings, which has an address bar shortcut), more information is exposed.
+
+You can view the CalyxOS Chromium change history on [Gerrit](https://review.calyxos.org/q/project:CalyxOS/platform_external_calyx_chromium) or [GitLab](https://gitlab.com/CalyxOS/platform_external_calyx_chromium/-/commits/android14/?ref_type=heads).
+
+While we do periodically assess our fork for new changes to include, we generally think that the changes we include offer a good balance when it comes to a default browser. We do not aim to *compete* with browsers like Cromite or Mull, but to offer a reasonable default option. That being said, users are by all means free to use whichever browser suits them, and in [the November feature update](https://calyxos.org/news/2023/11/30/november-feature-update/), we added support for using some alternative WebViews as well.
