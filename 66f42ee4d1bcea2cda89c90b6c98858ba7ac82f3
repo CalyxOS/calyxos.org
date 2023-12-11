@@ -16,6 +16,24 @@
       "message": "Sentence is incomplete, because I just wanted to have something up ASAP",
       "revId": "66f42ee4d1bcea2cda89c90b6c98858ba7ac82f3",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a24f5bb8_77ca6fb8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-12-11T16:54:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8bb7b0ad_daa99718",
+      "revId": "66f42ee4d1bcea2cda89c90b6c98858ba7ac82f3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
