@@ -7,11 +7,11 @@ CalyxOS 5.2.0 - Android 14 is now available
 
 ## Pixel 4a, 4a (5G), 5, 5a, 6, 6 Pro, 6a, 7, 7 Pro, 7a, 8, 8 Pro, Tablet, Fold
 
-| Release channel  | Date   |
-| ---------------- | ------ |
-| Security express | 11 December, Monday |
-| Beta | 12 December, Tuesday |
-| Stable | 13 December, Wednesday |
+| Release channel  | Date   | Notes |
+| ---------------- | ------ | ------ |
+| Security express | 11 December, Monday | |
+| Beta | 12 December, Tuesday | |
+| Stable | 13 December, Wednesday | except Pixel 8, 8 Pro |
 
 ### Changelog
 * CalyxOS 5.2.0
@@ -22,6 +22,7 @@ CalyxOS 5.2.0 - Android 14 is now available
 * Add "Charge cycle count" to Settings -> About phone -> Battery information
 
 #### Pixel 8, 8 Pro
+* GPS is known to be broken this release, working on a fix.
 * Add support for wireless power share / reverse wireless charging
 * To use, add the power share quicksettings tile
 * Also includes changes from [5.1.2](https://calyxos.org/news/2023/11/30/november-feature-update/)
