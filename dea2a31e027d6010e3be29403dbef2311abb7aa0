@@ -16,6 +16,24 @@
       "message": "Minor Nit: The ordering is intentional, I\u0027ve been doing that everywhere since the start, to avoid any confusions between 4a and 4a (5G)",
       "revId": "dea2a31e027d6010e3be29403dbef2311abb7aa0",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c382662d_c88bb435",
+        "filename": "pages/_includes/install/security_notes.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-12-19T23:36:59Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "6d2139db_e3bd1c97",
+      "revId": "dea2a31e027d6010e3be29403dbef2311abb7aa0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
