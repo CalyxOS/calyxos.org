@@ -3,29 +3,29 @@ stable:
 - name: Pixel 8 Pro
   brand: pixel
   codename: husky
-  version: 5.1.1-2
+  version: 5.2.0-8
   android: '14'
-  factory_link: https://release.calyxinstitute.org/husky-factory-23501012.zip
-  factory_sha256: 5baaa1fe0bc0bf40a24b87e923b975b21dbead43dbfd421b65ec1b5072c057bb
-  ota_link: https://release.calyxinstitute.org/husky-ota_update-23501012.zip
-  ota_sha256: 9383024815842bc3afd40712460fc0d5524deaaf3bf091812edd4e851460c1b7
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
-  date: '2023-11-16'
+  factory_link: https://release.calyxinstitute.org/husky-factory-23502008.zip
+  factory_sha256: c15882af951c972986068eb1d312c411b6e9006f96e7de31f27cd6d5eeda9560
+  ota_link: https://release.calyxinstitute.org/husky-ota_update-23502008.zip
+  ota_sha256: d2a1d58588ed36e22c97a43ea0d63c1123717cba3c1337229da9af090fada008
+  incremental_link: https://release.calyxinstitute.org/husky-incremental-23501012-23502008.zip
+  incremental_sha256: 76c041048997b632f80491dbce6a6950b50092a82837edb844c1c7594d7807e9
+  incremental_old_build: '23501012'
+  date: '2023-12-15'
 - name: Pixel 8
   brand: pixel
   codename: shiba
-  version: 5.1.1-2
+  version: 5.2.0-8
   android: '14'
-  factory_link: https://release.calyxinstitute.org/shiba-factory-23501012.zip
-  factory_sha256: fbdbfe93baa21353434d9a160866b3c36ba38ce19d2dc0ff17752e156d28c4e4
-  ota_link: https://release.calyxinstitute.org/shiba-ota_update-23501012.zip
-  ota_sha256: e39266e661b9dc61e1cb5bd96dd08d7e30523740d601404045a63171caffbf6f
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
-  date: '2023-11-16'
+  factory_link: https://release.calyxinstitute.org/shiba-factory-23502008.zip
+  factory_sha256: 5f60dd23d0962ad9e888be51f064d1e80d866fac2dff22f8309be33a10e93311
+  ota_link: https://release.calyxinstitute.org/shiba-ota_update-23502008.zip
+  ota_sha256: 6133af274b3fa359a889d66a17c59e61a95056419dd99da27f0e335462d249eb
+  incremental_link: https://release.calyxinstitute.org/shiba-incremental-23501012-23502008.zip
+  incremental_sha256: f260e3b6bbbad0b2a27b8dfa386c2b6e9d72f6d8a19dc13f9c50bf0c7b63107e
+  incremental_old_build: '23501012'
+  date: '2023-12-15'
 - name: Pixel Fold
   brand: pixel
   codename: felix
@@ -329,29 +329,29 @@ beta:
 - name: Pixel 8 Pro
   brand: pixel
   codename: husky
-  version: 5.2.0
+  version: 5.2.0-8
   android: '14'
-  factory_link: https://release.calyxinstitute.org/husky-factory-23502000.zip
-  factory_sha256:
-  ota_link: https://release.calyxinstitute.org/husky-ota_update-23502000.zip
-  ota_sha256:
+  factory_link: https://release.calyxinstitute.org/husky-factory-23502008.zip
+  factory_sha256: c15882af951c972986068eb1d312c411b6e9006f96e7de31f27cd6d5eeda9560
+  ota_link: https://release.calyxinstitute.org/husky-ota_update-23502008.zip
+  ota_sha256: d2a1d58588ed36e22c97a43ea0d63c1123717cba3c1337229da9af090fada008
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  date: '2023-12-10'
+  date: '2023-12-15'
 - name: Pixel 8
   brand: pixel
   codename: shiba
-  version: 5.2.0
+  version: 5.2.0-8
   android: '14'
-  factory_link: https://release.calyxinstitute.org/shiba-factory-23502000.zip
-  factory_sha256:
-  ota_link: https://release.calyxinstitute.org/shiba-ota_update-23502000.zip
-  ota_sha256:
+  factory_link: https://release.calyxinstitute.org/shiba-factory-23502008.zip
+  factory_sha256: 5f60dd23d0962ad9e888be51f064d1e80d866fac2dff22f8309be33a10e93311
+  ota_link: https://release.calyxinstitute.org/shiba-ota_update-23502008.zip
+  ota_sha256: 6133af274b3fa359a889d66a17c59e61a95056419dd99da27f0e335462d249eb
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  date: '2023-12-10'
+  date: '2023-12-15'
 - name: Pixel Fold
   brand: pixel
   codename: felix
@@ -655,29 +655,29 @@ security-express:
 - name: Pixel 8 Pro
   brand: pixel
   codename: husky
-  version: 5.2.0
+  version: 5.2.0-8
   android: '14'
-  factory_link: https://release.calyxinstitute.org/husky-factory-23502000.zip
-  factory_sha256:
-  ota_link: https://release.calyxinstitute.org/husky-ota_update-23502000.zip
-  ota_sha256:
+  factory_link: https://release.calyxinstitute.org/husky-factory-23502008.zip
+  factory_sha256: c15882af951c972986068eb1d312c411b6e9006f96e7de31f27cd6d5eeda9560
+  ota_link: https://release.calyxinstitute.org/husky-ota_update-23502008.zip
+  ota_sha256: d2a1d58588ed36e22c97a43ea0d63c1123717cba3c1337229da9af090fada008
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  date: '2023-12-10'
+  date: '2023-12-15'
 - name: Pixel 8
   brand: pixel
   codename: shiba
-  version: 5.2.0
+  version: 5.2.0-8
   android: '14'
-  factory_link: https://release.calyxinstitute.org/shiba-factory-23502000.zip
-  factory_sha256:
-  ota_link: https://release.calyxinstitute.org/shiba-ota_update-23502000.zip
-  ota_sha256:
+  factory_link: https://release.calyxinstitute.org/shiba-factory-23502008.zip
+  factory_sha256: 5f60dd23d0962ad9e888be51f064d1e80d866fac2dff22f8309be33a10e93311
+  ota_link: https://release.calyxinstitute.org/shiba-ota_update-23502008.zip
+  ota_sha256: 6133af274b3fa359a889d66a17c59e61a95056419dd99da27f0e335462d249eb
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  date: '2023-12-10'
+  date: '2023-12-15'
 - name: Pixel Fold
   brand: pixel
   codename: felix
