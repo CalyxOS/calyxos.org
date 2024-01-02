@@ -13,9 +13,9 @@ It has it's own build system and is built separately.
 CalyxOS usually tracks the Chrome Android stable release, you can see the latest version at <https://chromiumdash.appspot.com/releases?platform=Android>.
 Look for the first version under 'Stable'
 
-Stable version at time of writing this: 119.0.6045.66
+Stable version at time of writing this: 120.0.6099.144
 
-`export V=119.0.6045.66 # Replace this with the correct version`
+`export V=120.0.6099.144 # Replace this with the correct version`
 
 ## Short version
 * This assumes you have a Chromium build environment already setup and have built it before
@@ -23,7 +23,7 @@ Stable version at time of writing this: 119.0.6045.66
 Steps:
 1. Fetch the tag and create a new branch from it.
    * `cd ~/chromium/src`
-   * `git fetch --tags $V && git checkout -b calyxos-$V $V`
+   * `git fetch origin refs/tags/$V:refs/tags/$V && git checkout -b calyxos-$V $V`
    * `gclient sync -D; gclient runhooks`
 2. Fetch our patches and build configuration
    * `cd ~/chromium`
@@ -33,7 +33,7 @@ Steps:
    * `for i in $(cat ../platform_external_calyx_chromium/build/*_patches_list.txt); do git am ../platform_external_calyx_chromium/build/patches/$i; done`
 4. Setup build config
    * `gn args out/Default`
-   * You want to fill out the args from `platform_external_calyx_chromium/build/calyx.gn_args` now.
+   * You want to fill out the args from `~/chromium/src/args.gn` now.
    * You can also modify `target_cpu` if needed.
 5. Build
    * `autoninja -C out/Default trichrome_chrome_64_32_bundle trichrome_library_64_32_apk trichrome_webview_64_32_apk system_webview_shell_apk`
