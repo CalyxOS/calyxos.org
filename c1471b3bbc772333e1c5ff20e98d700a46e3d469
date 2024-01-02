@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7bb9323b_23765218",
+        "filename": "pages/docs/development/build/chromium/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-02T19:51:56Z",
+      "side": 1,
+      "message": "We can also just have this fetch https://github.com/CalyxOS/chromium and not have to deal with patches at all.",
+      "revId": "c1471b3bbc772333e1c5ff20e98d700a46e3d469",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
