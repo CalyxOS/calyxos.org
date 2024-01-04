@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "886f33bf_49da7a64",
+        "filename": "tasks/check-broken.rb",
+        "patchSetId": 6
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-04T19:48:26Z",
+      "side": 1,
+      "message": "We should fix these as well",
+      "revId": "1c3da98a382f6b96b5cde81c22b38543aff7bd0c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
