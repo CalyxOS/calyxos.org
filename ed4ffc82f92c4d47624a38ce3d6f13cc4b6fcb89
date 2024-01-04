@@ -18,6 +18,23 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "070e52e6_9a5c9c37",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-04T18:45:30Z",
+      "side": 1,
+      "message": "For easier testing, you can also fork on gitlab and use ci\n\nShould show up at https://$username.gitlab.io/calyxos.org\n",
+      "revId": "ed4ffc82f92c4d47624a38ce3d6f13cc4b6fcb89",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a52de553_3c49a808",
