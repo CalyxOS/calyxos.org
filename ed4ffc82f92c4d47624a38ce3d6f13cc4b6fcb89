@@ -16,6 +16,29 @@
       "message": "Builds and works on my mac but still have outdated gems, trying to upgrade those too",
       "revId": "ed4ffc82f92c4d47624a38ce3d6f13cc4b6fcb89",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a52de553_3c49a808",
+        "filename": "Gemfile",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2024-01-04T16:10:06Z",
+      "side": 1,
+      "message": "Not valid anymore?",
+      "range": {
+        "startLine": 17,
+        "startChar": 30,
+        "endLine": 17,
+        "endChar": 68
+      },
+      "revId": "ed4ffc82f92c4d47624a38ce3d6f13cc4b6fcb89",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
