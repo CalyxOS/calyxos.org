@@ -39,6 +39,30 @@
       },
       "revId": "ed4ffc82f92c4d47624a38ce3d6f13cc4b6fcb89",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9101fe2_2d487877",
+        "filename": "Gemfile",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-04T18:40:29Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "a52de553_3c49a808",
+      "range": {
+        "startLine": 17,
+        "startChar": 30,
+        "endLine": 17,
+        "endChar": 68
+      },
+      "revId": "ed4ffc82f92c4d47624a38ce3d6f13cc4b6fcb89",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
