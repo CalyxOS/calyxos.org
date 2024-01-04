@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66220b63_a45406bc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-04T18:59:10Z",
+      "side": 1,
+      "message": "I am not a master in html development, someone should verify that the css file change doesn\u0027t breaks things",
+      "revId": "b86e511f9260890a7535600923874509c5562a41",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
