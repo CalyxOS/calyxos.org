@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a47b262_47ce67df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-05T04:10:51Z",
+      "side": 1,
+      "message": "For some reason it looks broken after deploying through CI on gitlab pages but locally seems fine",
+      "revId": "8b78a592b48d9102da9416af184676459c98e7a9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
