@@ -16,6 +16,24 @@
       "message": "https://calyxos.org/news/2021/09/08/pixel-5a/ should have the link changed once this is live. Unless there\u0027s an error. We should find out in a few minutes",
       "revId": "745dfe742dbef7b8d3a6c548b808f0109cb28d6a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8f5bfd02_11d3960f",
+        "filename": "pages/_posts/2021-09-08-pixel-5a.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-05T09:13:29Z",
+      "side": 1,
+      "message": "Live at https://calyxos.gitlab.io/calyxos.org/news/2021/09/08/pixel-5a/ , at least.",
+      "parentUuid": "f9447f61_97b80e1e",
+      "revId": "745dfe742dbef7b8d3a6c548b808f0109cb28d6a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ],
   "submitRequirementResults": [
