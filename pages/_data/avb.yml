@@ -1,10 +1,4 @@
 ---
-- name: Pixel 8 Pro
-  codename: husky
-  avb_fingerprint: ""
-- name: Pixel 8
-  codename: shiba
-  avb_fingerprint: ""
 - name: Pixel Fold
   codename: felix
   avb_fingerprint: ""
@@ -59,18 +53,6 @@
 - name: Pixel 3
   codename: blueline
   avb_fingerprint: "B4DE537A"
-- name: Pixel 2 XL
-  codename: taimen
-  avb_fingerprint: "B4DE537A"
-- name: Pixel 2
-  codename: walleye
-  avb_fingerprint: "B4DE537A"
-- name: Xiaomi Mi A2
-  codename: jasmine_sprout
-  avb_fingerprint: "4FCA76DA0BFD5276 B764AD6AA5FB1EFF 76D70E98E51CFB CF07C92B6000ACBE"
 - name: Fairphone 4
   codename: FP4
   avb_fingerprint: ""
-- name: SHIFT6mq
-  codename: axolotl
-  avb_fingerprint: "green <3"
