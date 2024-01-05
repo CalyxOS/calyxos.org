@@ -60,6 +60,7 @@ husky:
   sim: "dual"
   esim: "dual"
   android: 14
+  avb_fingerprint: "4242fda18f06646f7b7c75bd583e363fa5bb866fe294dc6c88e3ce8b7c428b69"
 shiba:
   brand: pixel
   model: Pixel 8
