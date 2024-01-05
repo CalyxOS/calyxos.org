@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d7046410_24a7e9ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-05T17:59:51Z",
+      "side": 1,
+      "message": "internet.png and network.png both have CalyxVPN\n\nHow about showing Global VPN or hotspot tethering in network.png (or maybe both if possible somehow)",
+      "revId": "93649329f55a16a4b86c9a87b0481339e7bb9f76",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
