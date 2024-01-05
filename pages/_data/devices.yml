@@ -60,6 +60,7 @@ husky:
   sim: "dual"
   esim: "dual"
   android: 14
+  avb_id: "4242fda18f06646f7b7c75bd583e363f a5bb866fe294dc6c88e3ce8b7c428b69"
 shiba:
   brand: pixel
   model: Pixel 8
@@ -68,6 +69,7 @@ shiba:
   sim: "dual"
   esim: "dual"
   android: 14
+  avb_id: "52cff9f81167c8d87831a34a64757708 3e3c6000d75c47b80112095ec26c087b"
 felix:
   brand: pixel
   model: Pixel Fold
@@ -76,6 +78,7 @@ felix:
   sim: "dual"
   esim: "dual"
   android: 14
+  avb_id: ""
 tangorpro:
   brand: pixel
   model: Pixel Tablet
@@ -84,6 +87,7 @@ tangorpro:
   sim: "no"
   esim: "no"
   android: 14
+  avb_id: ""
 lynx:
   brand: pixel
   model: Pixel 7a
@@ -92,6 +96,7 @@ lynx:
   sim: "dual"
   esim: "dual"
   android: 14
+  avb_id: ""
 cheetah:
   brand: pixel
   model: Pixel 7 Pro
@@ -100,6 +105,7 @@ cheetah:
   sim: "dual"
   esim: "dual"
   android: 14
+  avb_id: ""
 panther:
   brand: pixel
   model: Pixel 7
@@ -108,6 +114,7 @@ panther:
   sim: "dual"
   esim: "dual"
   android: 14
+  avb_id: ""
 bluejay:
   brand: pixel
   model: Pixel 6a
@@ -116,6 +123,7 @@ bluejay:
   sim: "dual"
   esim: "yes"
   android: 14
+  avb_id: ""
 raven:
   brand: pixel
   model: Pixel 6 Pro
@@ -124,6 +132,7 @@ raven:
   sim: "dual"
   esim: "yes"
   android: 14
+  avb_id: ""
 oriole:
   brand: pixel
   model: Pixel 6
@@ -132,6 +141,7 @@ oriole:
   sim: "dual"
   esim: "yes"
   android: 14
+  avb_id: ""
 barbet:
   brand: pixel
   model: Pixel 5a (5G)
@@ -140,6 +150,7 @@ barbet:
   sim: "dual"
   esim: "yes"
   android: 14
+  avb_id: "AF7EE1C5"
 bramble:
   brand: pixel
   model: Pixel 4a (5G)
@@ -148,6 +159,7 @@ bramble:
   sim: "dual"
   esim: "yes"
   android: 14
+  avb_id: "0E47032E"
 redfin:
   brand: pixel
   model: Pixel 5
@@ -156,6 +168,7 @@ redfin:
   sim: "dual"
   esim: "yes"
   android: 14
+  avb_id: "B55B81A0"
 sunfish:
   brand: pixel
   model: Pixel 4a
@@ -164,6 +177,7 @@ sunfish:
   sim: "dual"
   esim: "yes"
   android: 14
+  avb_id: ""
 coral:
   brand: pixel
   model: Pixel 4 XL
@@ -172,6 +186,7 @@ coral:
   sim: "dual"
   esim: "yes"
   android: 13
+  avb_id: ""
 flame:
   brand: pixel
   model: Pixel 4
@@ -180,6 +195,7 @@ flame:
   sim: "dual"
   esim: "yes"
   android: 13
+  avb_id: ""
 bonito:
   brand: pixel
   model: Pixel 3a XL
@@ -188,6 +204,7 @@ bonito:
   sim: "dual"
   esim: "no"
   android: 14
+  avb_id: ""
 sargo:
   brand: pixel
   model: Pixel 3a
@@ -196,6 +213,7 @@ sargo:
   sim: "dual"
   esim: "no"
   android: 14
+  avb_id: ""
 crosshatch:
   brand: pixel
   model: Pixel 3 XL
@@ -204,6 +222,7 @@ crosshatch:
   sim: "single"
   esim: "no"
   android: 14
+  avb_id: ""
 blueline:
   brand: pixel
   model: Pixel 3
@@ -212,6 +231,7 @@ blueline:
   sim: "single"
   esim: "no"
   android: 14
+  avb_id: ""
 FP4:
   brand: fairphone
   model: Fairphone 4
@@ -220,6 +240,7 @@ FP4:
   sim: "dual"
   esim: "yes"
   android: 14
+  avb_id: ""
 axolotl:
   brand: shift
   model: SHIFT6mq
@@ -228,6 +249,7 @@ axolotl:
   sim: "dual"
   esim: "no"
   android: 13
+  avb_id: "green <3"
 FP5:
   brand: fairphone
   model: Fairphone 5
@@ -237,6 +259,7 @@ FP5:
   esim: "yes"
   android: 14
   link: news/2023/09/28/fp5-support-future/
+  avb_id: ""
 devon:
   brand: motorola
   model: Moto G32
@@ -245,6 +268,7 @@ devon:
   sim: "dual"
   esim: "no"
   android: 14
+  avb_id: ""
 hawao:
   brand: motorola
   model: Moto G42
@@ -253,6 +277,7 @@ hawao:
   sim: "dual"
   esim: "no"
   android: 14
+  avb_id: ""
 rhode:
   brand: motorola
   model: Moto G52
@@ -261,6 +286,7 @@ rhode:
   sim: "dual"
   esim: "no"
   android: 14
+  avb_id: ""
 lemonadep:
   brand: oneplus
   model: OnePlus 9 Pro (Beta)
@@ -269,6 +295,7 @@ lemonadep:
   esim: "no"
   android: 12
   link: news/2022/07/06/oneplus-android-12-relock-issue/
+  avb_id: ""
 lemonade:
   brand: oneplus
   model: OnePlus 9 (Beta)
@@ -277,6 +304,7 @@ lemonade:
   esim: "no"
   android: 12
   link: news/2022/07/06/oneplus-android-12-relock-issue/
+  avb_id: ""
 kebab:
   brand: oneplus
   model: OnePlus 8T (Beta)
@@ -285,6 +313,7 @@ kebab:
   esim: "no"
   android: 12
   link: news/2022/07/06/oneplus-android-12-relock-issue/
+  avb_id: ""
 taimen:
   brand: pixel
   model: Pixel 2 XL
@@ -294,6 +323,7 @@ taimen:
   esim: "Fi-only"
   android: 11
   link: news/2022/02/11/android-11-feb-security-update/
+  avb_id: "B4DE537A"
 walleye:
   brand: pixel
   model: Pixel 2
@@ -303,6 +333,7 @@ walleye:
   esim: "Fi-only"
   android: 11
   link: news/2022/02/11/android-11-feb-security-update/
+  avb_id: "B4DE537A"
 jasmine_sprout:
   brand: xiaomi
   model: Xiaomi Mi A2
@@ -312,5 +343,4 @@ jasmine_sprout:
   esim: "no"
   android: 11
   link: news/2022/02/11/android-11-feb-security-update/
-
-
+  avb_id: "4FCA76DA0BFD5276 B764AD6AA5FB1EFF 76D70E98E51CFB CF07C92B6000ACBE"
