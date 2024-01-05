@@ -93,9 +93,9 @@ References:
 
 <!--
 * https://web.archive.org/web/20220516123404/https://support.google.com/nexus/answer/4457705#zippy=%2Cpixel-earlier%2Cpixel-a-a-xl-xl-a-a-g-a-g%2Cpixel-pixel-pro-phones
-  http://archive.today/2022.05.16-124329/https://support.google.com/nexus/answer/4457705%23zippy=,pixel-earlier,pixel-a-a-xl-xl-a-a-g-a-g,pixel-pixel-pro-phones
-* http://archive.today/2022.05.16-123350/https://support.fairphone.com/hc/en-us/articles/4405858006545-FP4-Fairphone-OS-Android-11-
+  https://archive.today/2022.05.16-124329/https://support.google.com/nexus/answer/4457705%23zippy=,pixel-earlier,pixel-a-a-xl-xl-a-a-g-a-g,pixel-pixel-pro-phones
+* https://archive.today/2022.05.16-123350/https://support.fairphone.com/hc/en-us/articles/4405858006545-FP4-Fairphone-OS-Android-11-
 * https://web.archive.org/web/20220516123314/https://forums.oneplus.com/threads/update-to-the-oxygenos-codebase-and-software-maintenance-schedule.1462181/
-  http://archive.today/2022.05.16-124316/https://forums.oneplus.com/threads/update-to-the-oxygenos-codebase-and-software-maintenance-schedule.1462181/
-* http://archive.today/2022.05.16-125400/https://www.kernel.org/category/releases.html
+  https://archive.today/2022.05.16-124316/https://forums.oneplus.com/threads/update-to-the-oxygenos-codebase-and-software-maintenance-schedule.1462181/
+* https://archive.today/2022.05.16-125400/https://www.kernel.org/category/releases.html
 -->
