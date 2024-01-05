@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ef094989_6a6d8d4b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-05T06:07:50Z",
+      "side": 1,
+      "message": "There are warnings that some gems will stop being included by defaults in ruby 3.4.0 but those are something jekyll needs to address, not us.",
+      "revId": "7da837cd98e74862c98606a8363eae4386c18ecc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
