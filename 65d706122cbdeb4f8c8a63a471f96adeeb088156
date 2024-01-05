@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bf89eb4c_9b8660b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-05T09:28:37Z",
+      "side": 1,
+      "message": "I wonder if we could somehow split this",
+      "revId": "65d706122cbdeb4f8c8a63a471f96adeeb088156",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
