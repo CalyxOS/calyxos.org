@@ -162,7 +162,7 @@ To change the settings for a specific WiFi network go to **Settings** &rarr; **N
 
 Scope: per-hour
 
-Like Wi-Fi, your device has a globally unique Bluetooth address. Since Android 6, [this address is unavailable to normal apps](http://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-hardware-id).
+Like Wi-Fi, your device has a globally unique Bluetooth address. Since Android 6, [this address is unavailable to normal apps](https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-hardware-id).
 
 When Bluetooth is enabled, there is something called Bluetooth Low Energy (BLE) where an unencrypted presence announcement is broadcast frequently to all nearby Bluetooth devices. Fortunately, when this happens [the Bluetooth address of your device is randomized](https://www.bluetooth.com/blog/bluetooth-technology-protecting-your-privacy/) (every 15-45 minutes in Android) to prevent it from being possible to track your device by these announcements (this does not happen in all Bluetooth implementations, but should for any device supported by CalyxOS).
 
