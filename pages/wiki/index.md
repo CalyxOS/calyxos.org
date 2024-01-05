@@ -12,5 +12,5 @@ It's still in the [git history](https://gitlab.com/CalyxOS/calyxos.org/-/tree/1a
 It has also been archived:
 <details>
 * <https://web.archive.org/web/20210629134248/https://calyxos.org/wiki/>
-* <http://archive.today/2021.06.29-135126/https://calyxos.org/wiki/>
+* <https://archive.today/2021.06.29-135126/https://calyxos.org/wiki/>
 </details>
