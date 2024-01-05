@@ -59,7 +59,7 @@ enabled](https://backports.debian.org/Instructions/). Then install
 the dependencies:
 
     sudo apt-get install -t buster-backports \
-      jekyll ruby-jekyll-feed ruby-jekyll-polyglot ruby-jekyll-toc ruby-rouge po4a
+      jekyll ruby-jekyll-feed ruby-jekyll-toc ruby-rouge po4a
     rm -f Gemfile Gemfile.lock
     jekyll serve
 

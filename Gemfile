@@ -7,7 +7,6 @@ gem "kramdown"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-polyglot", "~> 1.7.0"
   gem "jekyll-toc"
   #gem 'jekyll-twitter-plugin'
   gem "jekyll-redirect-from"
