@@ -47,7 +47,7 @@ module Jekyll
           end
 
           link_text = href.gsub(/(\A#{scheme}\/\/|\/\z)/,'')
-          href = 'http://' + href unless scheme
+          href = 'https://' + href unless scheme
           %(<a href="#{href}">#{link_text}</a>) + punctuation.reverse.join('')
         end
       end

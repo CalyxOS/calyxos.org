@@ -6,7 +6,7 @@ email: os@calyxinstitute.org
 description: >-
   CalyxOS
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: calyxinstitute
 github_username:  calyxos
 git_url: https://github.com/calyxos

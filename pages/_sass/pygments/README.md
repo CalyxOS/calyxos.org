@@ -12,8 +12,8 @@ remove or change the CSS style prefix of `.highlight`.
 
 ## Links
 
-- [Jekyll](http://jekyllrb.com/) ([direct link to code highlighting documentation](http://jekyllrb.com/docs/templates/#code-snippet-highlighting))
-- [Pygments](http://pygments.org)
+- [Jekyll](https://jekyllrb.com/) ([direct link to code highlighting documentation](https://jekyllrb.com/docs/templates/#code-snippet-highlighting))
+- [Pygments](https://pygments.org)
 
 ## Hacking
 

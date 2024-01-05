@@ -193,7 +193,7 @@
         recurse(node, query, maxDistance, results, matrix, 1, n, '');
         return results;
     };
-    // Modified version of http://stevehanov.ca/blog/?id=114
+    // Modified version of http://stevehanov.ca/blog/?id=114 
     // This builds a Levenshtein matrix for a given query and continuously updates
     // it for nodes in the radix tree that fall within the given maximum edit
     // distance. Keeping the same matrix around is beneficial especially for larger

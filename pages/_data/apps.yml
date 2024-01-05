@@ -1,7 +1,7 @@
 ---
 apps:
 - packageName: com.aurora.store
-  webSite: http://auroraoss.com
+  webSite: https://auroraoss.com
   description: |-
     This **Aurora Store** is a complete rewrite, replacing https://f-droid.org/packages/com.dragons.aurora.
 
