@@ -58,8 +58,6 @@ GEM
       webrick (~> 1.7)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-polyglot (1.7.0)
-      jekyll (>= 4.0, >= 3.0)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.0.0)
@@ -138,7 +136,6 @@ DEPENDENCIES
   html-proofer (= 5.0.8)
   jekyll (~> 4.3.3)
   jekyll-feed (~> 0.12)
-  jekyll-polyglot (~> 1.7.0)
   jekyll-redirect-from
   jekyll-toc
   kramdown

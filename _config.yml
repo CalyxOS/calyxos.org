@@ -25,7 +25,6 @@ kramdown:
 
 plugins:
   - jekyll-feed
-  - jekyll-polyglot
   - jekyll-toc
 #  - jekyll-twitter-plugin
   - jekyll-redirect-from
@@ -66,24 +65,3 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-# SASS SETTINGS
-
-sass:
-  sourcemap: never # important! this is needed due to a bug between jekyll 4.0 and polyglot
-
-# POLYGLOT SETTINGS
-
-default_lang: "en"
-languages:
-  - en
-#  - de
-#  - es
-#  - pt
-lang_from_path: true
-exclude_from_localization:
-  - \.htaccess
-  - \.well-known/
-  - assets/
-  - feed\.xml
-  - robots\.txt
