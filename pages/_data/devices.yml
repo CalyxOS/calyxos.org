@@ -170,7 +170,7 @@ coral:
   calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "yes"
-  android: 13
+  android: 14
 flame:
   brand: pixel
   model: Pixel 4
@@ -178,7 +178,7 @@ flame:
   calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "yes"
-  android: 13
+  android: 14
 bonito:
   brand: pixel
   model: Pixel 3a XL
@@ -186,7 +186,7 @@ bonito:
   calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "no"
-  android: 13
+  android: 14
 sargo:
   brand: pixel
   model: Pixel 3a
@@ -194,7 +194,7 @@ sargo:
   calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "no"
-  android: 13
+  android: 14
 crosshatch:
   brand: pixel
   model: Pixel 3 XL
@@ -202,7 +202,7 @@ crosshatch:
   calyxos_support_ends: 2024-08
   sim: "single"
   esim: "no"
-  android: 13
+  android: 14
 blueline:
   brand: pixel
   model: Pixel 3
@@ -210,7 +210,7 @@ blueline:
   calyxos_support_ends: 2024-08
   sim: "single"
   esim: "no"
-  android: 13
+  android: 14
 FP4:
   brand: fairphone
   model: Fairphone 4
@@ -218,7 +218,7 @@ FP4:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "yes"
-  android: 13
+  android: 14
 FP5:
   brand: fairphone
   model: Fairphone 5 (Beta)
@@ -226,7 +226,7 @@ FP5:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "yes"
-  android: 13
+  android: 14
 axolotl:
   brand: shift
   model: SHIFT6mq
@@ -234,7 +234,7 @@ axolotl:
   calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "no"
-  android: 13
+  android: 14
 devon:
   brand: motorola
   model: Moto G32
@@ -242,7 +242,7 @@ devon:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "no"
-  android: 13
+  android: 14
 hawao:
   brand: motorola
   model: Moto G42
@@ -250,7 +250,7 @@ hawao:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "no"
-  android: 13
+  android: 14
 rhode:
   brand: motorola
   model: Moto G52
@@ -258,7 +258,7 @@ rhode:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "no"
-  android: 13
+  android: 14
 lemonadep:
   brand: oneplus
   model: OnePlus 9 Pro (Beta)
@@ -310,4 +310,5 @@ jasmine_sprout:
   esim: "no"
   android: 11
   link: news/2022/02/11/android-11-feb-security-update/
+
 
