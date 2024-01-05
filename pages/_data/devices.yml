@@ -60,6 +60,7 @@ husky:
   sim: "dual"
   esim: "dual"
   android: 14
+  avb_id: "4242fda18f06646f7b7c75bd583e363fa5bb866fe294dc6c88e3ce8b7c428b69"
 shiba:
   brand: pixel
   model: Pixel 8
@@ -68,6 +69,7 @@ shiba:
   sim: "dual"
   esim: "dual"
   android: 14
+  avb_id: "52cff9f81167c8d87831a34a6457708 3e3c6000d75c47b80112095ec26c087b"
 felix:
   brand: pixel
   model: Pixel Fold
