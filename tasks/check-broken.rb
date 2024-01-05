@@ -9,7 +9,7 @@ task :check do
     ignore_empty_alt: true,
     ignore_missing_alt: true,
     allow_missing_href: true,
-    enforce_https: false
+    ignore_urls: [/localhost:4000/]
   }
   HTMLProofer.check_directory(directory, options).run
 end
