@@ -6,7 +6,8 @@ task :check do
   options = {
     assume_extension: true,
     disable_external: true,
-    empty_alt_ignore: true
+    empty_alt_ignore: true,
+    ignore_urls: [/localhost:4000/]
   }
   HTMLProofer.check_directory(directory, options).run
 end

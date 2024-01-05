@@ -6,7 +6,7 @@ autolink: true
 ---
 
 <div class="button-bar" markdown="0">
-<a class="btn" href="http://auroraoss.com">Home Page</a>
+<a class="btn" href="https://auroraoss.com">Home Page</a>
 <a class="btn" href="https://gitlab.com/AuroraOSS/AuroraStore">Source Code</a>
 <a class="btn" href="https://www.paypal.me/whyorean">Donate</a>
 <a class="btn" href="https://gitlab.com/AuroraOSS/AuroraStore/issues">Report a Bug</a>
