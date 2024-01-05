@@ -67,6 +67,7 @@ comet:
   sim: "dual"
   esim: "dual"
   android: 15
+  avb_id: ""
   web_install: true
 komodo:
   brand: pixel
@@ -76,6 +77,7 @@ komodo:
   sim: "dual"
   esim: "dual"
   android: 15
+  avb_id: ""
   web_install: true
 caiman:
   brand: pixel
@@ -85,6 +87,7 @@ caiman:
   sim: "dual"
   esim: "dual"
   android: 15
+  avb_id: ""
   web_install: true
 tokay:
   brand: pixel
@@ -94,6 +97,7 @@ tokay:
   sim: "dual"
   esim: "dual"
   android: 15
+  avb_id: ""
   web_install: true
 akita:
   brand: pixel
@@ -103,6 +107,7 @@ akita:
   sim: "dual"
   esim: "dual"
   android: 14
+  avb_id: ""
   web_install: true
 husky:
   brand: pixel
@@ -112,6 +117,7 @@ husky:
   sim: "dual"
   esim: "dual"
   android: 14
+  avb_id: "4242fda18f06646f7b7c75bd583e363f a5bb866fe294dc6c88e3ce8b7c428b69"
   web_install: true
 shiba:
   brand: pixel
@@ -121,6 +127,7 @@ shiba:
   sim: "dual"
   esim: "dual"
   android: 14
+  avb_id: "52cff9f81167c8d87831a34a64757708 3e3c6000d75c47b80112095ec26c087b"
   web_install: true
 felix:
   brand: pixel
@@ -130,6 +137,7 @@ felix:
   sim: "dual"
   esim: "dual"
   android: 14
+  avb_id: "ea0e01ab0b006e71545cc6114112938c e64fb85b4ee9f8046f8a7bacc388c1e3"
   web_install: true
 tangorpro:
   brand: pixel
@@ -139,6 +147,7 @@ tangorpro:
   sim: "no"
   esim: "no"
   android: 14
+  avb_id: "52acde66c4ebe9b0f6fdfa5c6a07395b 6230fcd1b1ff378819f35e8829dc9ecf"
   web_install: true
 lynx:
   brand: pixel
@@ -148,6 +157,7 @@ lynx:
   sim: "dual"
   esim: "dual"
   android: 14
+  avb_id: "8fcd1734e2864445d7518ea245f930af 52a88434fd88318a7553c242ea499a3f"
   web_install: true
 cheetah:
   brand: pixel
@@ -157,6 +167,7 @@ cheetah:
   sim: "dual"
   esim: "dual"
   android: 14
+  avb_id: "e07c50aa0f850bb8b1a7e68fe3fda1e4 804e7d2b05e13455f123eda2637e2de3"
   web_install: true
 panther:
   brand: pixel
@@ -166,6 +177,7 @@ panther:
   sim: "dual"
   esim: "dual"
   android: 14
+  avb_id: "ce1ce54f8b79c16566571ca64d06bbf6 eda4717d81741e35ab7918baf208a765"
   web_install: true
 bluejay:
   brand: pixel
@@ -175,6 +187,7 @@ bluejay:
   sim: "dual"
   esim: "yes"
   android: 14
+  avb_id: "1cd1c64bf58ece8acc2dfe1a9c91ac1e 6b7e1a4cb4510fc14f6b7807049c2e58"
   web_install: true
 raven:
   brand: pixel
@@ -184,6 +197,7 @@ raven:
   sim: "dual"
   esim: "yes"
   android: 14
+  avb_id: "4ab5282588ed1a1fb08e8489484801a3 7104caedf18161ec45304a33058605b8"
   web_install: true
 oriole:
   brand: pixel
@@ -193,6 +207,7 @@ oriole:
   sim: "dual"
   esim: "yes"
   android: 14
+  avb_id: "a1b524f2ef918dfef394a6509aa51b4 2ee363cab497f18afa0541c6c7532c9a"
   web_install: true
 barbet:
   brand: pixel
@@ -202,6 +217,7 @@ barbet:
   sim: "dual"
   esim: "yes"
   android: 14
+  avb_id: "AF7EE1C5"
   web_install: true
 bramble:
   brand: pixel
@@ -211,6 +227,7 @@ bramble:
   sim: "dual"
   esim: "yes"
   android: 14
+  avb_id: "0E47032E"
   web_install: true
 redfin:
   brand: pixel
@@ -220,6 +237,7 @@ redfin:
   sim: "dual"
   esim: "yes"
   android: 14
+  avb_id: "B55B81A0"
   web_install: true
 sunfish:
   brand: pixel
@@ -229,6 +247,7 @@ sunfish:
   sim: "dual"
   esim: "yes"
   android: 14
+  avb_id: "3FFC7676"
   web_install: true
 coral:
   brand: pixel
@@ -238,6 +257,7 @@ coral:
   sim: "dual"
   esim: "yes"
   android: 14
+  avb_id: ""
   web_install: true
 flame:
   brand: pixel
@@ -247,6 +267,7 @@ flame:
   sim: "dual"
   esim: "yes"
   android: 14
+  avb_id: ""
   web_install: true
 bonito:
   brand: pixel
@@ -256,6 +277,7 @@ bonito:
   sim: "dual"
   esim: "no"
   android: 14
+  avb_id: ""
   web_install: true
   link: news/2024/11/26/14-november-security-update/
 sargo:
@@ -266,6 +288,7 @@ sargo:
   sim: "dual"
   esim: "no"
   android: 14
+  avb_id: ""
   web_install: true
   link: news/2024/11/26/14-november-security-update/
 crosshatch:
@@ -276,6 +299,7 @@ crosshatch:
   sim: "single"
   esim: "no"
   android: 14
+  avb_id: ""
   web_install: true
   link: news/2024/11/26/14-november-security-update/
 blueline:
@@ -286,6 +310,7 @@ blueline:
   sim: "single"
   esim: "no"
   android: 14
+  avb_id: ""
   web_install: true
   link: news/2024/11/26/14-november-security-update/
 FP4:
@@ -296,6 +321,7 @@ FP4:
   sim: "dual"
   esim: "yes"
   android: 14
+  avb_id: ""
   web_install: false
 FP5:
   brand: fairphone
@@ -305,6 +331,7 @@ FP5:
   sim: "dual"
   esim: "yes"
   android: 14
+  avb_id: "A6C26160296D6932 9C49D8B983BB4545 4E2E11F89FE8ED61 2B498309EE7DC2FC"
   web_install: false
 axolotl:
   brand: shift
@@ -314,6 +341,7 @@ axolotl:
   sim: "dual"
   esim: "no"
   android: 14
+  avb_id: "green <3"
   web_install: false
   link: news/2024/11/26/14-november-security-update/
 otter:
@@ -324,6 +352,7 @@ otter:
   sim: "dual"
   esim: "yes"
   android: 14
+  avb_id: "green <3"
   web_install: false
 devon:
   brand: motorola
@@ -333,6 +362,7 @@ devon:
   sim: "dual"
   esim: "no"
   android: 14
+  avb_id: "0X5E3CFEE0"
   web_install: false
 hawao:
   brand: motorola
@@ -342,6 +372,7 @@ hawao:
   sim: "dual"
   esim: "no"
   android: 14
+  avb_id: "0x855559FE"
   web_install: false
 rhode:
   brand: motorola
@@ -351,6 +382,7 @@ rhode:
   sim: "dual"
   esim: "no"
   android: 14
+  avb_id: "0xE559C4B5"
   web_install: false
 lemonadep:
   brand: oneplus
@@ -359,6 +391,7 @@ lemonadep:
   sim: "dual"
   esim: "no"
   android: 12
+  avb_id: ""
   web_install: false
   link: news/2022/07/06/oneplus-android-12-relock-issue/
 lemonade:
@@ -368,6 +401,7 @@ lemonade:
   sim: "dual"
   esim: "no"
   android: 12
+  avb_id: ""
   web_install: false
   link: news/2022/07/06/oneplus-android-12-relock-issue/
 kebab:
@@ -377,6 +411,7 @@ kebab:
   sim: "dual"
   esim: "no"
   android: 12
+  avb_id: ""
   web_install: false
   link: news/2022/07/06/oneplus-android-12-relock-issue/
 taimen:
@@ -387,6 +422,7 @@ taimen:
   sim: "single"
   esim: "Fi-only"
   android: 11
+  avb_id: "B4DE537A"
   web_install: false
   link: news/2022/02/11/android-11-feb-security-update/
 walleye:
@@ -397,6 +433,7 @@ walleye:
   sim: "single"
   esim: "Fi-only"
   android: 11
+  avb_id: "B4DE537A"
   web_install: false
   link: news/2022/02/11/android-11-feb-security-update/
 jasmine_sprout:
@@ -407,7 +444,6 @@ jasmine_sprout:
   sim: "dual"
   esim: "no"
   android: 11
+  avb_id: "4FCA76DA0BFD5276 B764AD6AA5FB1EFF 76D70E98E51CFB CF07C92B6000ACBE"
   web_install: false
   link: news/2022/02/11/android-11-feb-security-update/
-
-
