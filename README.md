@@ -59,7 +59,7 @@ enabled](https://backports.debian.org/Instructions/). Then install
 the dependencies:
 
     sudo apt-get install -t buster-backports \
-      jekyll ruby-jekyll-feed ruby-jekyll-polyglot ruby-jekyll-toc ruby-rouge po4a
+      jekyll ruby-jekyll-feed ruby-jekyll-toc ruby-rouge
     rm -f Gemfile Gemfile.lock
     jekyll serve
 
@@ -113,7 +113,3 @@ Color definitions:
 * `--calyx-light`: `rgba(154, 202, 60, 1)` aka `#9ACA3C`
 * `--calyx-base`: `rgba(98, 128, 38, 1)` aka `#628026`
 * `--calyx-dark`: `rgba(78, 102, 31, 1)` aka `#4E661F`
-
-## TODO
-
-Localization: https://guardianproject.info/2020/04/23/figuring-out-crowdsourced-translation-of-websites/
