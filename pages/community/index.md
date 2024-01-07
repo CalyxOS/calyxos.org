@@ -26,6 +26,11 @@ All below channels are on Matrix. They are public and unencrypted. You can click
 
 ## Stay Up To Date
 
+### Mastodon
+
+* [@calyxos@fosstodon.org](https://mastodon.social/@calyxos@fosstodon.org)
+* [@calyxinstitute@mastodon.social](https://mastodon.social/@calyxinstitute)
+
 ### Twitter
 
 * [@CalyxOS](https://twitter.com/CalyxOS)
