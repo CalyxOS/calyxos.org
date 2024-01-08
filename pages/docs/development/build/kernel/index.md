@@ -17,9 +17,9 @@ CalyxOS uses Google's Android Linux kernel with some additional modifications fo
 ### Download the source code
 
 ```shell
-mkdir ~/calyxos/kernel.android13
-cd ~/calyxos/kernel.android13
-repo init -u https://gitlab.com/CalyxOS/kernel_manifest -b android13
+mkdir ~/calyxos/kernel.android14
+cd ~/calyxos/kernel.android14
+repo init -u https://gitlab.com/CalyxOS/kernel_manifest -b android14
 repo sync -j8 # You may use a higher number here if you have a fast computer and fast internet
 ```
 
@@ -27,13 +27,13 @@ repo sync -j8 # You may use a higher number here if you have a fast computer and
 
 
 ```shell
-./build_kernel.sh sunfish # Replace sunfish (Pixel 4a) with your device codename
+./build_kernel.sh bluejay # Replace bluejay (Pixel 6a) with your device codename
 ```
 
-This will build the kernel, and it also copies it to the corect directory directly (`device/google/sunfish-kernel` for Pixel 4a).
+This will build the kernel, and it also copies it to the corect directory directly (`device/google/bluejay-kernel` for Pixel 6a).
 
 Copy that to the OS source code for it to get included in the builds
 
 ```shell
-cp -a ~/calyxos/kernel.android13/device/google/sunfish-kernel ~/calyxos/android13/device/google/
+cp -a ~/calyxos/kernel.android14/device/google/bluejay-kernel ~/calyxos/android14/device/google/
 ```
