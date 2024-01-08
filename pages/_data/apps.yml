@@ -1,7 +1,7 @@
 ---
 apps:
 - packageName: com.aurora.store
-  webSite: https://auroraoss.com
+  webSite: http://auroraoss.com
   description: |-
     This **Aurora Store** is a complete rewrite, replacing https://f-droid.org/packages/com.dragons.aurora.
 
@@ -56,7 +56,7 @@ apps:
     servers, CalyxVPN is able to prevent many forms of censorship and surveillance.
   name: Calyx VPN
   summary: Free VPN Service offered by The Calyx Institute
-  icon: org.calyxinstitute.vpn.160000.png
+  icon: ''
   license: GPL-3.0-only
   categories:
   - Internet
@@ -82,6 +82,36 @@ apps:
   issueTracker: https://www.davx5.com/forums
   iconUrl: "/assets/images/apps/at.bitfire.davdroid.png"
   slug: davx-
+- packageName: org.fdroid.basic
+  webSite: https://f-droid.org
+  description: |-
+    NOTE: The Basic version of F-Droid Client has a reduced feature set (e.g. no nearby share and no panic feature). It targets Android 13 and can do unattended updates without privileged extension or root.
+
+    F-Droid is an installable catalogue of libre software apps for Android. The F-Droid client app makes it easy to browse, install, and keep track of updates on your device.
+
+    It connects to any F-Droid compatible repositories. The default repo is hosted at f-droid.org, which contains only bona fide libre software.
+
+    Android itself is open in the sense that you are free to install APKs from anywhere you wish, but there are many good reasons for using F-Droid as your libre software app manager:
+
+    * Get notified when updates are available
+    * Optionally download and install updates automatically
+    * Keep track of older and beta versions
+    * Filter out apps incompatible with the device
+    * Find apps via categories and searchable descriptions
+    * Access associated URLs for donations, source code etc.
+    * Stay safe by checking repo index signatures and APK hashes
+  name: F-Droid Basic
+  summary: The minimal client app for the app store that respects freedom and privacy
+  icon: ''
+  license: GPL-3.0-or-later
+  categories:
+  - System
+  - AlwaysInstall
+  sourceCode: https://gitlab.com/fdroid/fdroidclient
+  donate: https://f-droid.org/donate
+  issueTracker: https://gitlab.com/fdroid/fdroidclient/issues
+  iconUrl: "/assets/images/apps/org.fdroid.basic.png"
+  slug: f-droid-basic
 - packageName: wangdaye.com.geometricweather
   webSite: ''
   description: ''
@@ -90,13 +120,28 @@ apps:
   icon: ''
   license: LGPL-3.0-only
   categories:
-  - Default
   - Internet
+  - Default
   sourceCode: https://github.com/WangDaYeeeeee/GeometricWeather
   donate: ''
   issueTracker: https://github.com/WangDaYeeeeee/GeometricWeather/issues
   iconUrl: "/assets/images/apps/wangdaye.com.geometricweather.png"
   slug: geometric-weather
+- packageName: us.spotco.malwarescanner
+  webSite: ''
+  description: ''
+  name: Hypatia
+  summary: A real-time malware scanner
+  icon: ''
+  license: GPL-3.0-or-later
+  categories:
+  - Security
+  - Default
+  sourceCode: https://gitlab.com/divested-mobile/hypatia
+  donate: https://divested.dev/donate
+  issueTracker: https://gitlab.com/divested-mobile/hypatia/issues
+  iconUrl: "/assets/images/apps/us.spotco.malwarescanner.png"
+  slug: hypatia
 - packageName: com.fsck.k9
   webSite: https://k9mail.app/
   description: |-
@@ -156,6 +201,7 @@ apps:
   license: GPL-2.0-only
   categories:
   - Internet
+  - Hidden
   sourceCode: https://github.com/nextcloud/android
   donate: https://nextcloud.com/include/
   issueTracker: https://github.com/nextcloud/android/issues
@@ -305,7 +351,7 @@ apps:
     servers, RiseupVPN is able to prevent many forms of censorship and surveillance.
   name: Riseup VPN
   summary: Secure VPN powered by Bitmask
-  icon: se.leap.riseupvpn.162000.png
+  icon: ''
   license: GPL-3.0-only
   categories:
   - Internet
