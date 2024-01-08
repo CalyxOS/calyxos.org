@@ -33,6 +33,24 @@
       "message": "We don\u0027t have a 14 kernel setup yet",
       "revId": "ba92c154840a1402892e16569b26a46fb41d2824",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d7714490_0512fad8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-08T11:09:35Z",
+      "side": 1,
+      "message": "Thanks, dropped from this change",
+      "parentUuid": "ce593c8a_760eed7e",
+      "revId": "ba92c154840a1402892e16569b26a46fb41d2824",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
