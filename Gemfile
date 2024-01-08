@@ -13,5 +13,5 @@ group :jekyll_plugins do
 end
 
 gem "html-proofer", "= 5.0.8"
-
+gem 'down', '~> 5.4', '>= 5.4.1'
 gem "rake"

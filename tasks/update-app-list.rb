@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
+require 'down'
 require 'fileutils'
 require 'yaml'
 require 'json'
@@ -9,18 +10,18 @@ module Apps
   APPS_URL  = "https://gitlab.com/CalyxOS/platform_prebuilts_calyx_fdroid/-/raw/android14/repo/index-v1.json"
   ICON_URL  = "https://gitlab.com/CalyxOS/platform_prebuilts_calyx_fdroid/-/raw/android14/repo/"
   HOME      = File.expand_path('../..', __FILE__)
-  TMP_FILE  = "#{HOME}/tmp/apps.json"
   DEST_FILE = "#{HOME}/pages/_data/apps.yml"
   ICON_DIR  = "#{HOME}/pages/assets/images/apps/"
   APP_PAGES = "#{HOME}/pages/docs/guide/apps/"
   TEMPLATE  = "#{HOME}/pages/docs/guide/apps/_template.md"
 
-  EXCLUDE = ['f-droid', 'aurora-store'] # we have custom pages for these
+  EXCLUDE = ['f-droid-basic', 'aurora-store'] # we have custom pages for these
 
   ELEMENTS  = %w(packageName webSite description name summary icon license categories sourceCode donate issueTracker)
 
   class << self
     def requirements_met?
+      require "down"
       require "liquid"
     rescue LoadError
       return false
@@ -31,7 +32,9 @@ module Apps
       src_url = ICON_URL + id + "/en-US/icon.png"
       dest_file = ICON_DIR + id + ".png"
       unless File.exist?(dest_file)
-        system("wget", src_url, "-O", dest_file)
+        tempfile = Down.download(src_url)
+        tempfile.close
+        FileUtils.move(tempfile.path, dest_file)
       end
     end
 
@@ -75,19 +78,17 @@ module Apps
     end
 
     def update
-      FileUtils.mkdir_p(File.dirname(TMP_FILE))
-      system("wget", APPS_URL, "-O", TMP_FILE)
-      return unless File.exist?(TMP_FILE)
+      tempfile = Down.download(APPS_URL)
       FileUtils.mkdir_p(ICON_DIR)
 
       template = Liquid::Template.parse(File.read(TEMPLATE))
-      json = JSON.load(File.new(TMP_FILE))
+      json = JSON.load(tempfile)
 
       yml = {"apps" => []}
       json["apps"].each do |app|
         app = copy_elements(app)
-        download_icon(app)
         unless EXCLUDE.include?(app['slug'])
+          download_icon(app)
           render_app_page(app, template)
         end
         yml["apps"] << app
@@ -109,7 +110,6 @@ task "update-apps" do
     Apps.update
   else
     puts "Requirements:"
-    puts "apt install wget"
-    puts "gem install liquid"
+    puts "gem install down liquid"
   end
 end
