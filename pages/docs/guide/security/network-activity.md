@@ -81,12 +81,12 @@ These connections are made by apps in the default CalyxOS configuration. You can
 </tr>
 <tr>
   <td class="nowrap">f-droid.org</td>
-  <td>[[F-Droid]]</td>
+  <td>[[F-Droid Basic]]</td>
   <td>The app repository for F-Droid, the preferred and default app store for CalyxOS. There are also mirrors at ftp-push.lysator.liu.se, plug-mirror.rcac.purdue.edu, and mirror.f-droid.org</td>
 </tr>
 <tr>
   <td class="nowrap">fdroid-repo.calyxinstitute.org</td>
-  <td>[[F-Droid]]</td>
+  <td>[[F-Droid Basic]]</td>
   <td>On CalyxOS, F-Droid comes pre-configured with a special repository just for use with CalyxOS. This repository has highest priority and we use it to push out security fixes, necessary updates, and our own version of some apps that also exist in F-Droid.</td>
 </tr>
 <tr>
