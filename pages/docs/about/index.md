@@ -46,7 +46,7 @@ CalyxOS is built upon many free software projects. The main ones include:
 <div class="feature small-img mt-lg" markdown="0">
   <img class="p-sm bg-shade" src="{{'/assets/images/osapps/fdroid.png' | relative_url}}" />
   <p>
-    <b>F-Droid</b> is an alternative app store for Android for free and open source applications. CalyxOS has integrated [[f-droid]] in such a way that it easier to use as your primary source for mobile apps. In addition, we include [[aurora-store]], an app store that allows you to install any app in the Google Play Store.
+    <b>F-Droid</b> is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform. CalyxOS has integrated [[F-Droid Basic]], the official client for F-Droid, in such a way that it easier to use as your primary source for mobile apps. In addition, we include [[aurora-store]], an app store that allows you to install any app in the Google Play Store.
   </p>
 </div>
 
