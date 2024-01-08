@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b88ab17_9171300c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2024-01-08T11:06:54Z",
+      "side": 1,
+      "message": "https://review.calyxos.org/c/CalyxOS/calyxos.org/+/23063",
+      "revId": "ba92c154840a1402892e16569b26a46fb41d2824",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
