@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "55a89caa_d10e3c3d",
+        "filename": "pages/docs/guide/apps/f-droid-basic/security.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-08T08:44:59Z",
+      "side": 1,
+      "message": "We no longer compile our own build of F-Droid, so that line was removed from here.",
+      "revId": "bebb465ef3e6ac8050189065be8669b08299306d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0f652c8_f5f70c17",
+        "filename": "pages/docs/guide/apps/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-08T08:44:59Z",
+      "side": 1,
+      "message": "I believe it is fine to link it here directly instead of hiding the details under one another click considering that page has more or less no chance of growing anymore.",
+      "revId": "bebb465ef3e6ac8050189065be8669b08299306d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
