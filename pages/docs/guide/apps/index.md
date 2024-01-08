@@ -22,7 +22,7 @@ toc: true
 ### Aurora Store
 
 <div class="feature small-img">
-<img src="{{'/assets/images/apps/com.aurora.store.png' | relative_url}}" />
+<img src="{{'/assets/images/osapps/aurora-store.png' | relative_url}}" />
 <div>
 [[Aurora Store]] is an **alternative client** to the standard **Google Play Store**. It uses the same standard catalog of apps and installs apps directly from the Google servers.
 * By default, Aurora Store accesses the Google app catalog anonymously.

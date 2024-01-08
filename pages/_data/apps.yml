@@ -1,25 +1,5 @@
 ---
 apps:
-- packageName: com.aurora.store
-  webSite: http://auroraoss.com
-  description: |-
-    This **Aurora Store** is a complete rewrite, replacing https://f-droid.org/packages/com.dragons.aurora.
-
-    Aurora Store is an alternate to Google's Play Store, with an elegant design,
-    using Aurora you can download apps, update existing apps, search for apps,
-    get details about in-app trackers, spoof your location and much more.
-  name: Aurora Store
-  summary: A Google Playstore Client
-  icon: ''
-  license: GPL-3.0-or-later
-  categories:
-  - System
-  - Default
-  sourceCode: https://gitlab.com/AuroraOSS/AuroraStore
-  donate: https://www.paypal.me/whyorean
-  issueTracker: https://gitlab.com/AuroraOSS/AuroraStore/issues
-  iconUrl: "/assets/images/apps/com.aurora.store.png"
-  slug: aurora-store
 - packageName: org.briarproject.briar.android
   webSite: https://briarproject.org/
   description: |-
@@ -56,7 +36,7 @@ apps:
     servers, CalyxVPN is able to prevent many forms of censorship and surveillance.
   name: Calyx VPN
   summary: Free VPN Service offered by The Calyx Institute
-  icon: org.calyxinstitute.vpn.160000.png
+  icon: ''
   license: GPL-3.0-only
   categories:
   - Internet
@@ -90,13 +70,28 @@ apps:
   icon: ''
   license: LGPL-3.0-only
   categories:
-  - Default
   - Internet
+  - Default
   sourceCode: https://github.com/WangDaYeeeeee/GeometricWeather
   donate: ''
   issueTracker: https://github.com/WangDaYeeeeee/GeometricWeather/issues
   iconUrl: "/assets/images/apps/wangdaye.com.geometricweather.png"
   slug: geometric-weather
+- packageName: us.spotco.malwarescanner
+  webSite: ''
+  description: ''
+  name: Hypatia
+  summary: A real-time malware scanner
+  icon: ''
+  license: GPL-3.0-or-later
+  categories:
+  - Security
+  - Default
+  sourceCode: https://gitlab.com/divested-mobile/hypatia
+  donate: https://divested.dev/donate
+  issueTracker: https://gitlab.com/divested-mobile/hypatia/issues
+  iconUrl: "/assets/images/apps/us.spotco.malwarescanner.png"
+  slug: hypatia
 - packageName: com.fsck.k9
   webSite: https://k9mail.app/
   description: |-
@@ -156,6 +151,7 @@ apps:
   license: GPL-2.0-only
   categories:
   - Internet
+  - Hidden
   sourceCode: https://github.com/nextcloud/android
   donate: https://nextcloud.com/include/
   issueTracker: https://github.com/nextcloud/android/issues
@@ -305,7 +301,7 @@ apps:
     servers, RiseupVPN is able to prevent many forms of censorship and surveillance.
   name: Riseup VPN
   summary: Secure VPN powered by Bitmask
-  icon: se.leap.riseupvpn.162000.png
+  icon: ''
   license: GPL-3.0-only
   categories:
   - Internet
