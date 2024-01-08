@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "175fdfa3_ec221a8a",
+        "filename": "pages/docs/about/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-08T08:50:01Z",
+      "side": 1,
+      "message": "Taken from official F-Droid website\u0027s homepage",
+      "range": {
+        "startLine": 49,
+        "startChar": 4,
+        "endLine": 49,
+        "endChar": 124
+      },
+      "revId": "630bb16be043c946e6a118c2a9bad09cfcacf4ed",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
