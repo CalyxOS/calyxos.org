@@ -1,7 +1,7 @@
 ---
 title: Aurora Store
 description: A Google Playstore Client
-icon: /assets/images/apps/com.aurora.store.png
+icon: /assets/images/osapps/aurora-store.png
 autolink: true
 ---
 
