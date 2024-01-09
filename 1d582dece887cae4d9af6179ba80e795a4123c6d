@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49eb486b_78daf331",
+        "filename": "pages/_includes/features.html",
+        "patchSetId": 7
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-09T19:03:46Z",
+      "side": 0,
+      "message": "We should keep this section.",
+      "revId": "1d582dece887cae4d9af6179ba80e795a4123c6d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
