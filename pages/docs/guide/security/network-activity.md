@@ -114,6 +114,11 @@ These connections are made by apps in the default CalyxOS configuration. You can
   <td class="nowrap">[[Aurora Store]]</td>
   <td>Aurora Store will connect to this Google service in order to load content from the Google Play Store.</td>
 </tr>
+<tr>
+  <td class="nowrap">divested.dev</td>
+  <td class="nowrap">[[Hypatia]]</td>
+  <td>Hypatia will connect to this domain to update signature databases for scanning.</td>
+</tr>
 </table>
 
 ## Further details
