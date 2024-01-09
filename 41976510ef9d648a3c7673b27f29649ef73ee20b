@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d430391_bf4c210c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-09T19:12:57Z",
+      "side": 1,
+      "message": "In theory this should be fine infra-wise, but I\u0027ll wait a bit for the other changes to be live before merging this, just in case.",
+      "revId": "41976510ef9d648a3c7673b27f29649ef73ee20b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
