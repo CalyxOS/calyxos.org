@@ -16,6 +16,24 @@
       "message": "I didn\u0027t bothered with alphabetical order as that would require to mess with every single row and division",
       "revId": "aedf2c48141261849df99544c8fd12e7c892d4db",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "44b01fda_f2a01850",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-09T19:14:12Z",
+      "side": 1,
+      "message": "Thanks, that\u0027s ok, can do that later, won\u0027t block this change for that.",
+      "parentUuid": "1128603b_7b0776e5",
+      "revId": "aedf2c48141261849df99544c8fd12e7c892d4db",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
