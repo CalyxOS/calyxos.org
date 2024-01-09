@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b9c8e6fa_4c7dd69f",
+        "filename": "pages/docs/guide/apps/f-droid-basic/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-09T19:07:36Z",
+      "side": 1,
+      "message": "We don\u0027t do this anymore.",
+      "revId": "39a2788d7237846679b2b37eb4f98ac84e6c4689",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dc4074c4_3ab730c9",
+        "filename": "pages/docs/guide/apps/f-droid-basic/security.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-09T19:07:36Z",
+      "side": 1,
+      "message": "Basic doesn\u0027t use PrivExt",
+      "revId": "39a2788d7237846679b2b37eb4f98ac84e6c4689",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
