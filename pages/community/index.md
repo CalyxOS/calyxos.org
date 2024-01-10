@@ -28,7 +28,7 @@ All below channels are on Matrix. They are public and unencrypted. You can click
 
 ### Mastodon
 
-* [@calyxos@fosstodon.org](https://mastodon.social/@calyxos@fosstodon.org)
+* [@calyxos@fosstodon.org](https://fosstodon.org/@calyxos)
 * [@calyxinstitute@mastodon.social](https://mastodon.social/@calyxinstitute)
 
 ### Twitter
