@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d8c0419_f2c2e319",
+        "filename": "pages/docs/guide/apps/f-droid-basic/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-10T08:51:41Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "b9c8e6fa_4c7dd69f",
+      "revId": "39a2788d7237846679b2b37eb4f98ac84e6c4689",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dc4074c4_3ab730c9",
@@ -31,6 +49,24 @@
       "writtenOn": "2024-01-09T19:07:36Z",
       "side": 1,
       "message": "Basic doesn\u0027t use PrivExt",
+      "revId": "39a2788d7237846679b2b37eb4f98ac84e6c4689",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "142c863d_85528179",
+        "filename": "pages/docs/guide/apps/f-droid-basic/security.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-10T08:51:41Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "dc4074c4_3ab730c9",
       "revId": "39a2788d7237846679b2b37eb4f98ac84e6c4689",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
