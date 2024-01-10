@@ -33,6 +33,24 @@
       "message": "Does this mean it loses the icon on the webpage 😞\n\nWill need a script update to look at en-US icons I think.",
       "revId": "cc6051fee59bb028b3bfded3bf9c127a68cba809",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1053615c_9514b8a7",
+        "filename": "pages/_data/apps.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-10T17:34:13Z",
+      "side": 1,
+      "message": "Nope, the icon is still there, it downloads it using the URL (with en-US)\n\nRef: https://gitlab.com/CalyxOS/calyxos.org/-/blob/main/tasks/update-app-list.rb?ref_type\u003dheads#L32",
+      "parentUuid": "fd50ae96_5379f503",
+      "revId": "cc6051fee59bb028b3bfded3bf9c127a68cba809",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
