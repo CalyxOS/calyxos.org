@@ -16,6 +16,23 @@
       "message": "Fine on CI",
       "revId": "cc6051fee59bb028b3bfded3bf9c127a68cba809",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fd50ae96_5379f503",
+        "filename": "pages/_data/apps.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-10T17:16:46Z",
+      "side": 1,
+      "message": "Does this mean it loses the icon on the webpage 😞\n\nWill need a script update to look at en-US icons I think.",
+      "revId": "cc6051fee59bb028b3bfded3bf9c127a68cba809",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
