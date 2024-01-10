@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b2774539_77358423",
+        "filename": "pages/docs/guide/apps/f-droid-basic/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-10T18:31:24Z",
+      "side": 1,
+      "message": "Unfortunately I missed one thing, we still do it for existing users.\n\nExisting installs -\u003e F-Droid -\u003e Uses PrivExt\nNew users -\u003e F-Droid Basic -\u003e Doesn\u0027t use PrivExt.\n\nComplicates things a bit 😞",
+      "parentUuid": "8d8c0419_f2c2e319",
+      "revId": "39a2788d7237846679b2b37eb4f98ac84e6c4689",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "dc4074c4_3ab730c9",
         "filename": "pages/docs/guide/apps/f-droid-basic/security.md",
         "patchSetId": 3

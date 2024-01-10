@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7cae5be_d91cbbe3",
+        "filename": "pages/docs/guide/apps/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-10T18:31:24Z",
+      "side": 0,
+      "message": "This part is still valid, F-Droid is the preferred app store, that shouldn\u0027t be changed.\n\nI\u0027d do just a s/F-Droid/F-Droid Basic/",
+      "revId": "c2f6d1a906deab62dce819a2b5526d10ed36e891",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
