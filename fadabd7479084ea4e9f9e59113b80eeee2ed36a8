@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ab70fe75_b5430621",
+        "filename": "pages/docs/guide/apps/f-droid-basic/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-13T06:51:39Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "38bcebc0_bad06836",
+      "revId": "fadabd7479084ea4e9f9e59113b80eeee2ed36a8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a673d5bb_fa6c9ab1",
@@ -31,6 +49,24 @@
       "writtenOn": "2024-01-10T18:31:24Z",
       "side": 1,
       "message": "f-droid.org or maybe just F-Droid",
+      "revId": "fadabd7479084ea4e9f9e59113b80eeee2ed36a8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "61bddca8_4951c4ee",
+        "filename": "pages/docs/guide/apps/f-droid-basic/security.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-13T06:51:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a673d5bb_fa6c9ab1",
       "revId": "fadabd7479084ea4e9f9e59113b80eeee2ed36a8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }

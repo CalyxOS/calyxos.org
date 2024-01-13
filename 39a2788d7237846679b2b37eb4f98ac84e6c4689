@@ -54,6 +54,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "921b8956_6fbd1783",
+        "filename": "pages/docs/guide/apps/f-droid-basic/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-13T06:51:39Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "b2774539_77358423",
+      "revId": "39a2788d7237846679b2b37eb4f98ac84e6c4689",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dc4074c4_3ab730c9",
