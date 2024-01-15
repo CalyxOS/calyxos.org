@@ -16,6 +16,23 @@
       "message": "Fine on CI",
       "revId": "c5c4f0d2df1f1034d96174820a712bf1d903c388",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec657718_4569cade",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-15T21:15:08Z",
+      "side": 1,
+      "message": "This is a copy of the tweet, need to change mentions to links and so on.",
+      "revId": "c5c4f0d2df1f1034d96174820a712bf1d903c388",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
