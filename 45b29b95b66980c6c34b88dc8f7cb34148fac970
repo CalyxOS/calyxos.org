@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3f4ead2e_42411fee",
+        "filename": "pages/docs/guide/apps/f-droid-basic/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-15T21:14:38Z",
+      "side": 1,
+      "message": "I hate to be pedantic, but these privileges still exist for existing users, they\u0027ve been dropped only for new users.\n\nWe should be accurate",
+      "revId": "45b29b95b66980c6c34b88dc8f7cb34148fac970",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
