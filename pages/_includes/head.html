@@ -2,7 +2,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <link rel="shortcut icon" type="image/png" href="{{ "/assets/images/favicon.png" | relative_url }}">
   {% if page.css %}<link rel="stylesheet" type="text/css" href="{{ page.css }}">{% endif %}
   {% if page.description -%}
   <meta name="description" content="{{ page.description }}" />
@@ -16,4 +15,5 @@
   <script src="{{ '/assets/js/vendor/minisearch-6.0.1.js' | relative_url }}" defer></script>
   <script src="{{ '/assets/js/search.js' | relative_url }}" defer></script>
   {% endif  %}
+  {% include_cached favicons.html %}
 </head>
