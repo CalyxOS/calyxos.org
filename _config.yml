@@ -28,6 +28,7 @@ plugins:
   - jekyll-toc
 #  - jekyll-twitter-plugin
   - jekyll-redirect-from
+  - jekyll-include-cache
 
 defaults:
   -
