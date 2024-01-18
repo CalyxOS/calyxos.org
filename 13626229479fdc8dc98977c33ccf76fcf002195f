@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fcf58859_5415a2a8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-18T08:16:07Z",
+      "side": 1,
+      "message": "We should come up with better titles and excerpt. Looks kinda same.",
+      "revId": "13626229479fdc8dc98977c33ccf76fcf002195f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
