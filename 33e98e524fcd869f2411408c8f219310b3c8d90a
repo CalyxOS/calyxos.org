@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc45335a_0ad72c45",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-18T07:59:50Z",
+      "side": 1,
+      "message": "This should be fine to merge for now. We can figure out localization support later on and revert it if we want it.",
+      "revId": "33e98e524fcd869f2411408c8f219310b3c8d90a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
