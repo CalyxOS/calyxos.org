@@ -3,6 +3,23 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "624db3a1_7c071c9f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-22T20:30:53Z",
+      "side": 1,
+      "message": "Need some more links but these projects look good for a start, and we can always keep adding more.\n\nHappy to merge this sooner rather than later - and we\u0027ll keep updating it.",
+      "revId": "7540c3d4a9f94cab46645ec37cd83af0f6f1d95d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "b3879c0f_68043c4a",
         "filename": "pages/docs/about/opensource/index.md",
         "patchSetId": 3
@@ -14,6 +31,24 @@
       "writtenOn": "2024-01-22T19:58:15Z",
       "side": 1,
       "message": "Bad URL formatting, I wish there was a better way to link all in one go.",
+      "revId": "7540c3d4a9f94cab46645ec37cd83af0f6f1d95d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f662636_0d66fd49",
+        "filename": "pages/docs/about/opensource/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-22T20:30:53Z",
+      "side": 1,
+      "message": "fdroid has labels which make this easy, but those can only be added by project members.\n\nAs long as it works, it\u0027s fine.",
+      "parentUuid": "b3879c0f_68043c4a",
       "revId": "7540c3d4a9f94cab46645ec37cd83af0f6f1d95d",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
