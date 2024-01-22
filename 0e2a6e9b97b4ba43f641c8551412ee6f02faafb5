@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d187855_27e0b22c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-22T20:27:21Z",
+      "side": 1,
+      "message": "Potential future improvement:\n\nShow full for latest (or maybe even top 3) posts, and then excerpts for the rest?\n\nAdded complexity I know 😞",
+      "revId": "0e2a6e9b97b4ba43f641c8551412ee6f02faafb5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
