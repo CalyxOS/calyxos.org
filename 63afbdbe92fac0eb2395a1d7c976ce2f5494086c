@@ -16,6 +16,24 @@
       "message": "Seems quite small as there is no background. Leaving it here just for record.",
       "revId": "63afbdbe92fac0eb2395a1d7c976ce2f5494086c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3400f39b_92e2a115",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-22T20:25:21Z",
+      "side": 1,
+      "message": "What do you mean?",
+      "parentUuid": "3567e6ab_2de98ea3",
+      "revId": "63afbdbe92fac0eb2395a1d7c976ce2f5494086c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
