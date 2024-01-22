@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b3879c0f_68043c4a",
+        "filename": "pages/docs/about/opensource/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-22T19:58:15Z",
+      "side": 1,
+      "message": "Bad URL formatting, I wish there was a better way to link all in one go.",
+      "revId": "7540c3d4a9f94cab46645ec37cd83af0f6f1d95d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
