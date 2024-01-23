@@ -36,10 +36,10 @@ CalyxOS is built upon many free software projects. The main ones include:
   </p>
 </div>
 
-<div class="feature small-img mt-lg" markdown="0">
-  <img class="p-sm bg-shade" src="{{'/assets/images/logos/microg.svg' | relative_url}}" />
+<div class="feature small-img mt-lg">
+  <img class="p-sm bg-shade" src="{{'/assets/images/logos/microg.png' | relative_url}}" />
   <p>
-    <b>microG</b> provides an open source re-implementation of proprietary Google Play Services. Most Android devices come with Play Services in order to provide, among other things, access to the Play Store, push notifications, advertising tracking, and location services. While some of these are great features, Play Services is also a closed, proprietary system used by Google to track your behavior. CalyxOS includes [[microG]], allowing many of the apps you love to work without Play Services.
+    **microG** provides an open source re-implementation of proprietary Google Play Services. Most Android devices come with Play Services in order to provide, among other things, access to the Play Store, push notifications, advertising tracking, and location services. While some of these are great features, Play Services is also a closed, proprietary system used by Google to track your behavior. CalyxOS includes [[microG]], allowing many of the apps you love to work without Play Services.
   </p>
 </div>
 
