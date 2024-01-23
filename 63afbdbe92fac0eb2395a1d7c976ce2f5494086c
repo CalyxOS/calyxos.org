@@ -34,6 +34,24 @@
       "parentUuid": "3567e6ab_2de98ea3",
       "revId": "63afbdbe92fac0eb2395a1d7c976ce2f5494086c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b124fd69_d37caa7f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-23T05:54:19Z",
+      "side": 1,
+      "message": "The favicon looks quite small on the browser\u0027s tab",
+      "parentUuid": "3400f39b_92e2a115",
+      "revId": "63afbdbe92fac0eb2395a1d7c976ce2f5494086c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
