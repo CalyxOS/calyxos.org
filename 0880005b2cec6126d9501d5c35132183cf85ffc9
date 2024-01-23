@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5edf3f1_100203fb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-23T09:41:28Z",
+      "side": 1,
+      "message": "Enabled pessimistic version pinning for all gems to avoid dependencies being updated automatically",
+      "revId": "0880005b2cec6126d9501d5c35132183cf85ffc9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
