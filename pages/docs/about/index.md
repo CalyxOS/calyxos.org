@@ -30,7 +30,7 @@ CalyxOS is created by an international team of [[volunteers and staff=>team]] fr
 CalyxOS is built upon many free software projects. The main ones include:
 
 <div class="feature small-img mt-lg" markdown="0">
-  <img class="p-sm bg-shade" src="{{'/assets/images/logos/android.svg' | relative_url}}" />
+  <img class="p-sm bg-shade" src="{{'/assets/images/logos/android.png' | relative_url}}" />
   <p>
     <b>Android Open Source Project (AOSP)</b> is the core backbone for all Android phones that manufacturers such as Samsung build upon. Maintained by Google, AOSP receives contributions from developers around the world.
   </p>
