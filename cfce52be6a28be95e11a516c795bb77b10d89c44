@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "31495f6a_54409013",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-01-23T09:12:32Z",
+      "side": 1,
+      "message": "nvm, seems fine",
+      "revId": "cfce52be6a28be95e11a516c795bb77b10d89c44",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
