@@ -29,10 +29,17 @@ CalyxOS is created by an international team of [[volunteers and staff=>team]] fr
 
 CalyxOS is built upon many free software projects. The main ones include:
 
-<div class="feature small-img mt-lg" markdown="0">
+<div class="feature small-img mt-lg">
   <img class="p-sm bg-shade" src="{{'/assets/images/logos/android.png' | relative_url}}" />
   <p>
-    <b>Android Open Source Project (AOSP)</b> is the core backbone for all Android phones that manufacturers such as Samsung build upon. Maintained by Google, AOSP receives contributions from developers around the world.
+    **Android Open Source Project (AOSP)** is the core backbone for all Android phones that manufacturers such as Samsung build upon. Maintained by Google, AOSP receives contributions from developers around the world.
+  </p>
+</div>
+
+<div class="feature small-img mt-lg mb-lg">
+  <img class="p-sm bg-shade" src="{{'/assets/images/logos/lineage.png' | relative_url}}" />
+  <p>
+    **LineageOS** is an alternative Android-base operating system with an emphasis on device compatibility and customizability. CalyxOS draws heavily from the [LineageOS](https://lineageos.org/) community and code.
   </p>
 </div>
 
@@ -43,21 +50,19 @@ CalyxOS is built upon many free software projects. The main ones include:
   </p>
 </div>
 
-<div class="feature small-img mt-lg" markdown="0">
+<div class="feature small-img mt-lg">
   <img class="p-sm bg-shade" src="{{'/assets/images/osapps/fdroid.png' | relative_url}}" />
   <p>
-    <b>F-Droid</b> is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform. CalyxOS has integrated [[F-Droid Basic]], the official client for F-Droid, in such a way that it easier to use as your primary source for mobile apps. In addition, we include [[aurora-store]], an app store that allows you to install any app in the Google Play Store.
+    **F-Droid** is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform. CalyxOS has integrated [[F-Droid Basic]], the official client for F-Droid, in such a way that it easier to use as your primary source for mobile apps. In addition, we include [[aurora-store]], an app store that allows you to install any app in the Google Play Store.
   </p>
 </div>
 
-<div class="feature small-img mt-lg mb-lg" markdown="0">
+<div class="feature small-img mt-lg mb-lg">
   <img class="p-sm bg-shade" src="{{'/assets/images/osapps/seedvault.png' | relative_url}}" />
   <p>
-    Several <b>CalyxOS Apps</b> are written specifically for CalyxOS to enhance usability and privacy. These include [[SeedVault]], an app for secure, encrypted backups, and [[Datura]], an app to give you fine-grained control over network access.
+    Several **CalyxOS Apps** are written specifically for CalyxOS to enhance usability and privacy. These include [[SeedVault]], an app for secure, encrypted backups, and [[Datura]], an app to give you fine-grained control over network access.
   </p>
 </div>
-
-In addition, CalyxOS draws heavily from the [LineageOS](https://lineageos.org/) community and code. LineageOS is an alternative Android-base operating system with an emphasis on device compatibility and customizability.
 
 ## Privacy By Design
 
