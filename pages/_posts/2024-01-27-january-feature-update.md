@@ -3,8 +3,6 @@ title: January 2024 Feature update - CalyxOS 5.3.2
 date: 2024-01-27
 ---
 
-## Highlights
-
 * CalyxOS will have a stand at [FOSDEM](https://fosdem.org), Brussels, 3 & 4 February, 2024.
 * SeedVault Backup can now backup even more apps, even when they don't allow backup.
 
