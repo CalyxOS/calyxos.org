@@ -7,7 +7,7 @@ CalyxOS 5.3.0 - Android 14 is now available
 
 ## Matrix channel
 
-* If you're having trouble trying to post messages to the [#CalyxOS]() matrix channel, try to leave the channel if possible, and then try writing `/join #CalyxOS:matrix.org` in any chat in Matrix. That should re-connect you to the channel
+* If you're having trouble trying to post messages to the [#CalyxOS](https://app.element.io/#/room/#CalyxOS:matrix.org) matrix channel, try to leave the channel if possible, and then try writing `/join #CalyxOS:matrix.org` in any chat in Matrix. That should re-connect you to the channel.
 
 ## FOSDEM
 
