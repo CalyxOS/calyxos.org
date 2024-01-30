@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8e1ced0b_72d80827",
+        "filename": "pages/_posts/2024-01-30-fosdem-stand.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-01-30T18:23:45Z",
+      "side": 1,
+      "message": "Maybe instead of `This event`, `This celebration of free and open-source software` or something, as a quick description for anyone who doesn\u0027t know. And then they can click the link later for more info.",
+      "revId": "5232d5ce169ee8c7570b425166e443574389e36b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3b424a97_79f5da08",
+        "filename": "pages/_posts/2024-01-30-fosdem-stand.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-01-30T18:23:45Z",
+      "side": 1,
+      "message": "This is verbatim from the site, so maybe reword or change to something like:\n\n`[Like the site says](https://fosdem.org/2024/practical/): \"FOSDEM is free to attend. There is no registration. Just turn up!\"`",
+      "revId": "5232d5ce169ee8c7570b425166e443574389e36b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
