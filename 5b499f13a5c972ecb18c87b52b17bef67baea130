@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9bf46523_f3a72812",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-06T19:10:24Z",
+      "side": 1,
+      "message": "Missing checksums, need to update \u0027releases\u0027",
+      "revId": "5b499f13a5c972ecb18c87b52b17bef67baea130",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
