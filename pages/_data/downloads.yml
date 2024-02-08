@@ -289,42 +289,42 @@ stable:
 - name: Moto G32
   brand: motorola
   codename: devon
-  version: 5.3.2
+  version: 5.4.0
   android: '14'
-  factory_link: https://release.calyxinstitute.org/devon-factory-24503020.zip
-  factory_sha256: 2e407a7365cdb31074237c90dc2d854c2aed21840fac1675bcfb2ea38c063f07
-  ota_link: https://release.calyxinstitute.org/devon-ota_update-24503020.zip
-  ota_sha256: 7ca5f6250bfd03bc908c33250fc19e023aa2acdf045fee8f701cf90d533cf8b9
-  incremental_link: https://release.calyxinstitute.org/devon-incremental-24503010-24503020.zip
-  incremental_sha256: 8c4189b9189aeb8610981dc7cd1a263f656f4b28b8624851e20bca25d7731ccb
-  incremental_old_build: '24503010'
-  date: '2024-01-25'
+  factory_link: https://release.calyxinstitute.org/devon-factory-24504000.zip
+  factory_sha256: 62a8f0c4cb4a98b595a35c20f8473ae25f6548248debc261bf87ffdb2fdc6a3d
+  ota_link: https://release.calyxinstitute.org/devon-ota_update-24504000.zip
+  ota_sha256: 7ae6dae0febd88ab8046e4781f27293100c7a5648b75b8ef49c8eac900c5655a
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-02-07'
 - name: Moto G42
   brand: motorola
   codename: hawao
-  version: 5.3.2
+  version: 5.4.0
   android: '14'
-  factory_link: https://release.calyxinstitute.org/hawao-factory-24503020.zip
-  factory_sha256: 380e1922948db6332edd701e12c47618cec392fcbbb160dec85e938771875e67
-  ota_link: https://release.calyxinstitute.org/hawao-ota_update-24503020.zip
-  ota_sha256: 95d71909a777ae24487aab1fe1d08d69195a7e4f514044a311cfa9971085cb56
-  incremental_link: https://release.calyxinstitute.org/hawao-incremental-24503010-24503020.zip
-  incremental_sha256: 87ccb137ff25ab63a87d63be55176003cb06380e0b8b3739154b7cb7cc0c2905
-  incremental_old_build: '24503010'
-  date: '2024-01-25'
+  factory_link: https://release.calyxinstitute.org/hawao-factory-24504000.zip
+  factory_sha256: 455550d9c401594473a5fe6782084bea3b5325bd08b0d7e29e555dc28f46776f
+  ota_link: https://release.calyxinstitute.org/hawao-ota_update-24504000.zip
+  ota_sha256: ce5b04c2f5035a0ee551dbfdbe34a72f7332ee812c428dddabf66f0861c507ab
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-02-07'
 - name: Moto G52
   brand: motorola
   codename: rhode
-  version: 5.3.2
+  version: 5.4.0
   android: '14'
-  factory_link: https://release.calyxinstitute.org/rhode-factory-24503020.zip
-  factory_sha256: 329a7f8e4c15bf1f662e3caa599787fce00ae67dcb7f8115777636287cbbd8f6
-  ota_link: https://release.calyxinstitute.org/rhode-ota_update-24503020.zip
-  ota_sha256: 40572e3f4e0fb9c0dffc13374faf7b52f58c7d68267641fcd0ef3bdbca746a95
-  incremental_link: https://release.calyxinstitute.org/rhode-incremental-24503010-24503020.zip
-  incremental_sha256: c2f3c07a0fee2cbcda13afcc9b49e392cb9abb84bad2b07b26b145a9849d36dc
-  incremental_old_build: '24503010'
-  date: '2024-01-25'
+  factory_link: https://release.calyxinstitute.org/rhode-factory-24504000.zip
+  factory_sha256: 44414531a02d4615784c39878f044dd8f5e99826cb8b5662b66e6d99530adfd1
+  ota_link: https://release.calyxinstitute.org/rhode-ota_update-24504000.zip
+  ota_sha256: d9509951f09b5bf3a6fa35a23927ee20a158cfa5f1386826c2ea19bf9d036389
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-02-07'
 beta:
 - name: Pixel 8 Pro
   brand: pixel
