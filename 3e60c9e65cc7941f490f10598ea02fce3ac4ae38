@@ -133,6 +133,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bbc5740f_000ead6b",
+        "filename": "pages/_posts/2023-09-08-aurora.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-02-09T09:14:45Z",
+      "side": 1,
+      "message": "Rolled out now",
+      "parentUuid": "8566cc35_888ad14c",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 36,
+        "endChar": 46
+      },
+      "revId": "3e60c9e65cc7941f490f10598ea02fce3ac4ae38",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f2b5b308_30c2cb64",
