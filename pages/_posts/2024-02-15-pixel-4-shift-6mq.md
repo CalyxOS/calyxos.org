@@ -38,7 +38,7 @@ redirect_from: /pixel4-faceunlock/
 * Chromium: 121.0.6167.178 (latest stable)
 * Update translations for the OS and some of the included apps
 
-## Pixel 4, 4a
+## Pixel 4, 4 XL
 * However, face unlock will not be available on Android 14
 
 ## Pixel 3, 3 XL, 3a, 3a XL
