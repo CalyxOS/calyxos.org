@@ -34,6 +34,24 @@
       "parentUuid": "bada9d24_4ed1399a",
       "revId": "2f84b129852d2f488888a05c1ad61d571c2f3c94",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "242b4e32_243c9443",
+        "filename": "pages/_posts/2024-02-15-pixel-4-shift-6mq.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-15T21:45:45Z",
+      "side": 1,
+      "message": "Woops, merged too soon, fixed in 24426: fixup! posts: 4.18.0, pixel4-faceunlock | https://review.calyxos.org/c/CalyxOS/calyxos.org/+/24426",
+      "parentUuid": "309e5c6a_3acd2ad5",
+      "revId": "2f84b129852d2f488888a05c1ad61d571c2f3c94",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ],
   "submitRequirementResults": [
