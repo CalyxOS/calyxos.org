@@ -16,6 +16,24 @@
       "message": "Face Unlock doesn\u0027t apply to 4a, I think",
       "revId": "2f84b129852d2f488888a05c1ad61d571c2f3c94",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "309e5c6a_3acd2ad5",
+        "filename": "pages/_posts/2024-02-15-pixel-4-shift-6mq.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-15T21:34:12Z",
+      "side": 1,
+      "message": "Yes, typo.",
+      "parentUuid": "bada9d24_4ed1399a",
+      "revId": "2f84b129852d2f488888a05c1ad61d571c2f3c94",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
