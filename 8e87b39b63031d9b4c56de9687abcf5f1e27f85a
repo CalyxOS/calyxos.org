@@ -16,6 +16,24 @@
       "message": "If I were a Pixel 4 user, this phrasing would make me hold out hope that a fix for Face Unlock is coming and cause me to ask questions / be unsure whether to update. But a fix seems very unlikely and we don\u0027t want false hope getting in the way of security.\n\nMaybe just take out the \"yet\" and should be okay. Or not. Either way.",
       "revId": "8e87b39b63031d9b4c56de9687abcf5f1e27f85a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36496d99_9c4508e0",
+        "filename": "pages/_posts/2024-02-15-pixel-4-shift-6mq.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-15T21:31:33Z",
+      "side": 1,
+      "message": "Reworded.",
+      "parentUuid": "45f229e7_b764a37d",
+      "revId": "8e87b39b63031d9b4c56de9687abcf5f1e27f85a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
