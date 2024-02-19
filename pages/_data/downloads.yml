@@ -185,29 +185,29 @@ stable:
 - name: Pixel 4 XL
   brand: pixel
   codename: coral
-  version: 4.17.0
+  version: 4.18.0
   android: '13'
-  factory_link: https://release.calyxinstitute.org/coral-factory-24417000.zip
-  factory_sha256: e9374bb021a6f7697164c3f8e723776d6651836e316fe9d50959ceaa0d59aa39
-  ota_link: https://release.calyxinstitute.org/coral-ota_update-24417000.zip
-  ota_sha256: a0752d8e3c11eb569d03ae2dbdf60a7828bcfa899073976cb25cb24f9a291338
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
-  date: '2024-01-10'
+  factory_link: https://release.calyxinstitute.org/coral-factory-24418000.zip
+  factory_sha256: 2386212c3fb73b475663844155d8c861fabc84a3250550c60654a8a533e8e3e6
+  ota_link: https://release.calyxinstitute.org/coral-ota_update-24418000.zip
+  ota_sha256: 4b86e8cfc7e4ab1c6e35433eea16c1cb79ada92d44835b9405033e0a73a14f73
+  incremental_link: https://release.calyxinstitute.org/coral-incremental-24417000-24418000.zip
+  incremental_sha256: 1f9ae5cfa8378050af92230373ec6a41da79b96fa8e94c01c876c109704b736a
+  incremental_old_build: '24417000'
+  date: '2024-02-15'
 - name: Pixel 4
   brand: pixel
   codename: flame
-  version: 4.17.0
+  version: 4.18.0
   android: '13'
-  factory_link: https://release.calyxinstitute.org/flame-factory-24417000.zip
-  factory_sha256: 44addc6db13167e6c2589cb70b1a8870e4dc361206ef9474b1123ec8b722020b
-  ota_link: https://release.calyxinstitute.org/flame-ota_update-24417000.zip
-  ota_sha256: 6b0daf05d73dfb1f74046f17232660ae57fcc689ada8eb386e9db42b640e1c84
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
-  date: '2024-01-10'
+  factory_link: https://release.calyxinstitute.org/flame-factory-24418000.zip
+  factory_sha256: a6ff91b3105e816c504ca0d937023503b1c732f102f26d9a21301e74772fbc04
+  ota_link: https://release.calyxinstitute.org/flame-ota_update-24418000.zip
+  ota_sha256: a57786536701fa16590a7f234afe71a98749bcd9bd9f4c662fa0f7353d6d3ce9
+  incremental_link: https://release.calyxinstitute.org/flame-incremental-24417000-24418000.zip
+  incremental_sha256: ac8bc0d7a22f582863caddadfd44699d7d6ac47a4012a38b660fbdcb15dc7935
+  incremental_old_build: '24417000'
+  date: '2024-02-15'
 - name: Pixel 3a XL
   brand: pixel
   codename: bonito
@@ -276,16 +276,16 @@ stable:
 - name: SHIFT6mq
   brand: shift
   codename: axolotl
-  version: 4.17.0
+  version: 4.18.0
   android: '13'
-  factory_link: https://release.calyxinstitute.org/axolotl-factory-24417000.zip
-  factory_sha256: 6e56f2f4ddafcdab43478594967af0f2e01dee4e8f6697ad3eadfd3d7bd22055
-  ota_link: https://release.calyxinstitute.org/axolotl-ota_update-24417000.zip
-  ota_sha256: 9dfa11804a3aad018dc99923d1e2636b3b415bd8caa5edd4a5619e3410ac7729
-  incremental_link: https://release.calyxinstitute.org/axolotl-incremental-23415000-24417000.zip
-  incremental_sha256: 3489d1c0342221401d75840547fa8624d70ece53703d6882ceb320991b45f7c3
-  incremental_old_build: '23415000'
-  date: '2024-01-10'
+  factory_link: https://release.calyxinstitute.org/axolotl-factory-24418000.zip
+  factory_sha256: e8324b7d158c3b09a20cf86f2751d066caeb020b0f7c48b8ddb5ff343b5d41d9
+  ota_link: https://release.calyxinstitute.org/axolotl-ota_update-24418000.zip
+  ota_sha256: c94e840574a79e6be195f3862b87b7ab92b66e267080d2d7f5971145c8bfb68f
+  incremental_link: https://release.calyxinstitute.org/axolotl-incremental-24417000-24418000.zip
+  incremental_sha256: 56d3887ca631a9eb1d281696f91602d3d99e88f6ba6d3a7f691add9f0b7c075f
+  incremental_old_build: '24417000'
+  date: '2024-02-15'
 - name: Moto G32
   brand: motorola
   codename: devon
@@ -511,29 +511,29 @@ beta:
 - name: Pixel 4 XL
   brand: pixel
   codename: coral
-  version: 4.17.0
+  version: 4.18.0
   android: '13'
-  factory_link: https://release.calyxinstitute.org/coral-factory-24417000.zip
-  factory_sha256: e9374bb021a6f7697164c3f8e723776d6651836e316fe9d50959ceaa0d59aa39
-  ota_link: https://release.calyxinstitute.org/coral-ota_update-24417000.zip
-  ota_sha256: a0752d8e3c11eb569d03ae2dbdf60a7828bcfa899073976cb25cb24f9a291338
+  factory_link: https://release.calyxinstitute.org/coral-factory-24418000.zip
+  factory_sha256: 2386212c3fb73b475663844155d8c861fabc84a3250550c60654a8a533e8e3e6
+  ota_link: https://release.calyxinstitute.org/coral-ota_update-24418000.zip
+  ota_sha256: 4b86e8cfc7e4ab1c6e35433eea16c1cb79ada92d44835b9405033e0a73a14f73
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  date: '2024-01-10'
+  date: '2024-02-15'
 - name: Pixel 4
   brand: pixel
   codename: flame
-  version: 4.17.0
+  version: 4.18.0
   android: '13'
-  factory_link: https://release.calyxinstitute.org/flame-factory-24417000.zip
-  factory_sha256: 44addc6db13167e6c2589cb70b1a8870e4dc361206ef9474b1123ec8b722020b
-  ota_link: https://release.calyxinstitute.org/flame-ota_update-24417000.zip
-  ota_sha256: 6b0daf05d73dfb1f74046f17232660ae57fcc689ada8eb386e9db42b640e1c84
+  factory_link: https://release.calyxinstitute.org/flame-factory-24418000.zip
+  factory_sha256: a6ff91b3105e816c504ca0d937023503b1c732f102f26d9a21301e74772fbc04
+  ota_link: https://release.calyxinstitute.org/flame-ota_update-24418000.zip
+  ota_sha256: a57786536701fa16590a7f234afe71a98749bcd9bd9f4c662fa0f7353d6d3ce9
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  date: '2024-01-10'
+  date: '2024-02-15'
 - name: Pixel 3a XL
   brand: pixel
   codename: bonito
@@ -602,16 +602,16 @@ beta:
 - name: SHIFT6mq
   brand: shift
   codename: axolotl
-  version: 4.17.0
+  version: 4.18.0
   android: '13'
-  factory_link: https://release.calyxinstitute.org/axolotl-factory-24417000.zip
-  factory_sha256: 6e56f2f4ddafcdab43478594967af0f2e01dee4e8f6697ad3eadfd3d7bd22055
-  ota_link: https://release.calyxinstitute.org/axolotl-ota_update-24417000.zip
-  ota_sha256: 9dfa11804a3aad018dc99923d1e2636b3b415bd8caa5edd4a5619e3410ac7729
+  factory_link: https://release.calyxinstitute.org/axolotl-factory-24418000.zip
+  factory_sha256: e8324b7d158c3b09a20cf86f2751d066caeb020b0f7c48b8ddb5ff343b5d41d9
+  ota_link: https://release.calyxinstitute.org/axolotl-ota_update-24418000.zip
+  ota_sha256: c94e840574a79e6be195f3862b87b7ab92b66e267080d2d7f5971145c8bfb68f
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  date: '2024-01-10'
+  date: '2024-02-15'
 - name: Moto G32
   brand: motorola
   codename: devon
@@ -837,29 +837,29 @@ security-express:
 - name: Pixel 4 XL
   brand: pixel
   codename: coral
-  version: 4.17.0
+  version: 4.18.0
   android: '13'
-  factory_link: https://release.calyxinstitute.org/coral-factory-24417000.zip
-  factory_sha256: e9374bb021a6f7697164c3f8e723776d6651836e316fe9d50959ceaa0d59aa39
-  ota_link: https://release.calyxinstitute.org/coral-ota_update-24417000.zip
-  ota_sha256: a0752d8e3c11eb569d03ae2dbdf60a7828bcfa899073976cb25cb24f9a291338
+  factory_link: https://release.calyxinstitute.org/coral-factory-24418000.zip
+  factory_sha256: 2386212c3fb73b475663844155d8c861fabc84a3250550c60654a8a533e8e3e6
+  ota_link: https://release.calyxinstitute.org/coral-ota_update-24418000.zip
+  ota_sha256: 4b86e8cfc7e4ab1c6e35433eea16c1cb79ada92d44835b9405033e0a73a14f73
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  date: '2024-01-10'
+  date: '2024-02-15'
 - name: Pixel 4
   brand: pixel
   codename: flame
-  version: 4.17.0
+  version: 4.18.0
   android: '13'
-  factory_link: https://release.calyxinstitute.org/flame-factory-24417000.zip
-  factory_sha256: 44addc6db13167e6c2589cb70b1a8870e4dc361206ef9474b1123ec8b722020b
-  ota_link: https://release.calyxinstitute.org/flame-ota_update-24417000.zip
-  ota_sha256: 6b0daf05d73dfb1f74046f17232660ae57fcc689ada8eb386e9db42b640e1c84
+  factory_link: https://release.calyxinstitute.org/flame-factory-24418000.zip
+  factory_sha256: a6ff91b3105e816c504ca0d937023503b1c732f102f26d9a21301e74772fbc04
+  ota_link: https://release.calyxinstitute.org/flame-ota_update-24418000.zip
+  ota_sha256: a57786536701fa16590a7f234afe71a98749bcd9bd9f4c662fa0f7353d6d3ce9
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  date: '2024-01-10'
+  date: '2024-02-15'
 - name: Pixel 3a XL
   brand: pixel
   codename: bonito
@@ -928,16 +928,16 @@ security-express:
 - name: SHIFT6mq
   brand: shift
   codename: axolotl
-  version: 4.17.0
+  version: 4.18.0
   android: '13'
-  factory_link: https://release.calyxinstitute.org/axolotl-factory-24417000.zip
-  factory_sha256: 6e56f2f4ddafcdab43478594967af0f2e01dee4e8f6697ad3eadfd3d7bd22055
-  ota_link: https://release.calyxinstitute.org/axolotl-ota_update-24417000.zip
-  ota_sha256: 9dfa11804a3aad018dc99923d1e2636b3b415bd8caa5edd4a5619e3410ac7729
+  factory_link: https://release.calyxinstitute.org/axolotl-factory-24418000.zip
+  factory_sha256: e8324b7d158c3b09a20cf86f2751d066caeb020b0f7c48b8ddb5ff343b5d41d9
+  ota_link: https://release.calyxinstitute.org/axolotl-ota_update-24418000.zip
+  ota_sha256: c94e840574a79e6be195f3862b87b7ab92b66e267080d2d7f5971145c8bfb68f
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  date: '2024-01-10'
+  date: '2024-02-15'
 - name: Moto G32
   brand: motorola
   codename: devon
