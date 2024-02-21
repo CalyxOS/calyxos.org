@@ -18,6 +18,23 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d679b845_317e3e11",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-02-21T18:44:58Z",
+      "side": 1,
+      "message": "- Changelog: https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/fastlane/metadata/android/en-US/changelogs/54.txt\n- Latest nightly targets Android 14\n- For Developers (if we want to add a section): gplayapi had good changes such as SHA exposure and certificate hash support | [CHANGELOG](https://gitlab.com/AuroraOSS/gplayapi/-/blob/master/CHANGELOG)",
+      "revId": "3e60c9e65cc7941f490f10598ea02fce3ac4ae38",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e22c305c_6ea5eaeb",
