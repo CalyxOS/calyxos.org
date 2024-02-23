@@ -60,6 +60,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "9c5f06e2_ce4b064d",
+        "filename": "pages/_posts/2023-09-08-aurora.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-02-23T09:36:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e22c305c_6ea5eaeb",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 4
+      },
+      "revId": "3e60c9e65cc7941f490f10598ea02fce3ac4ae38",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "7288d26e_bd72cc17",
         "filename": "pages/_posts/2023-09-08-aurora.md",
         "patchSetId": 3
@@ -187,6 +211,30 @@
       "writtenOn": "2024-01-01T07:08:08Z",
       "side": 1,
       "message": "This is mostly fixed now but still exists (kinda) for some users sometimes. Might be good to reword in way to not sound like this is a pressing issue.",
+      "range": {
+        "startLine": 40,
+        "startChar": 0,
+        "endLine": 41,
+        "endChar": 41
+      },
+      "revId": "3e60c9e65cc7941f490f10598ea02fce3ac4ae38",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ec85ee7_7b14cabe",
+        "filename": "pages/_posts/2023-09-08-aurora.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-02-23T09:36:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f2b5b308_30c2cb64",
       "range": {
         "startLine": 40,
         "startChar": 0,
