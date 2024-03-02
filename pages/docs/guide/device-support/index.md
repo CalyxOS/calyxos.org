@@ -29,6 +29,7 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 <tr><td> Pixel 6a </td><td> July 2027 </td><td> July 2027* </td></tr>
 <tr><td> Pixels 6, 6 Pro </td><td> October 2026 </td><td> October 2026* </td></tr>
 <tr><td> Fairphone 4 </td><td> December 2026* </td><td> TBD* </td></tr>
+<tr><td> Fairphone 5 </td><td> September 2031* </td><td> TBD* </td></tr>
 <tr><td> Motorola moto g32 </td><td> August 2025* </td><td> TBD* </td></tr>
 <tr><td> Motorola moto g42 </td><td> June 2025* </td><td> TBD* </td></tr>
 <tr><td> Motorola moto g52 </td><td> April 2025* </td><td> TBD* </td></tr>
