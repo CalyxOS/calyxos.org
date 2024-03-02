@@ -14,8 +14,8 @@ date: 2024-03-01
 
 | Release channel  | Date   | Notes |
 | ---------------- | ------ | ------ |
-| Security express | 1 March, Friday | |
-| Beta | 4 March, Monday | |
+| Beta | 1 March, Friday | |
+| Security express | 4 March, Monday | |
 | Stable | 6 March, Wednesday | |
 
 ### Changelog
