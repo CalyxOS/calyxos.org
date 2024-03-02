@@ -71,6 +71,9 @@
 - name: Fairphone 4
   codename: FP4
   avb_fingerprint: ""
+- name: Fairphone 5
+  codename: FP5
+  avb_fingerprint: ""
 - name: SHIFT6mq
   codename: axolotl
   avb_fingerprint: "green <3"

@@ -4,9 +4,7 @@ android_versions:
   - 13
   - 11
 upcoming_codenames:
-  - FP5
 upcoming_brands:
-  - fairphone
 modern_codenames:
   - husky
   - shiba
@@ -19,6 +17,7 @@ modern_codenames:
   - raven
   - oriole
   - FP4
+  - FP5
   - devon
   - hawao
   - rhode
@@ -220,6 +219,14 @@ FP4:
   sim: "dual"
   esim: "yes"
   android: 13
+FP5:
+  brand: fairphone
+  model: Fairphone 5
+  manufacturer_support_ends: 2031-09
+  calyxos_support_ends: tbd
+  sim: "dual"
+  esim: "yes"
+  android: 13
 axolotl:
   brand: shift
   model: SHIFT6mq
@@ -228,15 +235,6 @@ axolotl:
   sim: "dual"
   esim: "no"
   android: 13
-FP5:
-  brand: fairphone
-  model: Fairphone 5
-  manufacturer_support_ends: 2031-01
-  calyxos_support_ends: tbd
-  sim: "dual"
-  esim: "yes"
-  android: 13
-  link: news/2023/09/28/fp5-support-future/
 devon:
   brand: motorola
   model: Moto G32
