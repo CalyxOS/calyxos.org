@@ -273,19 +273,6 @@ stable:
   incremental_sha256: 04b5dcfdf86ef58b79982a8cd4b2813471e10ad8d9939a55eb62a9688e0d1834
   incremental_old_build: '24503020'
   date: '2024-02-07'
-- name: Fairphone 5 (Beta)
-  brand: fairphone
-  codename: FP5
-  version: 5.4.2-2
-  android: '14'
-  factory_link: https://release.calyxinstitute.org/FP5-factory-24504022.zip
-  factory_sha256: 269a4cdafd81afa917ca9167e5290a3028a4e0e526b9fbd42c81f2961404d989
-  ota_link: https://release.calyxinstitute.org/FP5-ota_update-24504022.zip
-  ota_sha256: e5a8716b8af9fcedeb8a32ab7431d25a8445d70a282a8b119c4f8582beef0c2d
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
-  date: '2024-03-02'
 - name: SHIFT6mq
   brand: shift
   codename: axolotl
@@ -299,6 +286,19 @@ stable:
   incremental_sha256: 56d3887ca631a9eb1d281696f91602d3d99e88f6ba6d3a7f691add9f0b7c075f
   incremental_old_build: '24417000'
   date: '2024-02-15'
+- name: Fairphone 5
+  brand: fairphone
+  codename: FP5
+  version: 5.4.2-2
+  android: '14'
+  factory_link: https://release.calyxinstitute.org/FP5-factory-24504022.zip
+  factory_sha256: 269a4cdafd81afa917ca9167e5290a3028a4e0e526b9fbd42c81f2961404d989
+  ota_link: https://release.calyxinstitute.org/FP5-ota_update-24504022.zip
+  ota_sha256: e5a8716b8af9fcedeb8a32ab7431d25a8445d70a282a8b119c4f8582beef0c2d
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-03-02'
 - name: Moto G32
   brand: motorola
   codename: devon
@@ -612,19 +612,6 @@ beta:
   incremental_sha256:
   incremental_old_build:
   date: '2024-02-29'
-- name: Fairphone 5 (Beta)
-  brand: fairphone
-  codename: FP5
-  version: 5.4.2-2
-  android: '14'
-  factory_link: https://release.calyxinstitute.org/FP5-factory-24504022.zip
-  factory_sha256: 269a4cdafd81afa917ca9167e5290a3028a4e0e526b9fbd42c81f2961404d989
-  ota_link: https://release.calyxinstitute.org/FP5-ota_update-24504022.zip
-  ota_sha256: e5a8716b8af9fcedeb8a32ab7431d25a8445d70a282a8b119c4f8582beef0c2d
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
-  date: '2024-03-02'
 - name: SHIFT6mq
   brand: shift
   codename: axolotl
@@ -638,6 +625,19 @@ beta:
   incremental_sha256:
   incremental_old_build:
   date: '2024-02-15'
+- name: Fairphone 5
+  brand: fairphone
+  codename: FP5
+  version: 5.4.2-2
+  android: '14'
+  factory_link: https://release.calyxinstitute.org/FP5-factory-24504022.zip
+  factory_sha256: 269a4cdafd81afa917ca9167e5290a3028a4e0e526b9fbd42c81f2961404d989
+  ota_link: https://release.calyxinstitute.org/FP5-ota_update-24504022.zip
+  ota_sha256: e5a8716b8af9fcedeb8a32ab7431d25a8445d70a282a8b119c4f8582beef0c2d
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-03-02'
 - name: Moto G32
   brand: motorola
   codename: devon
@@ -951,19 +951,6 @@ security-express:
   incremental_sha256:
   incremental_old_build:
   date: '2024-02-29'
-- name: Fairphone 5 (Beta)
-  brand: fairphone
-  codename: FP5
-  version: 5.4.2-2
-  android: '14'
-  factory_link: https://release.calyxinstitute.org/FP5-factory-24504022.zip
-  factory_sha256: 269a4cdafd81afa917ca9167e5290a3028a4e0e526b9fbd42c81f2961404d989
-  ota_link: https://release.calyxinstitute.org/FP5-ota_update-24504022.zip
-  ota_sha256: e5a8716b8af9fcedeb8a32ab7431d25a8445d70a282a8b119c4f8582beef0c2d
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
-  date: '2024-03-02'
 - name: SHIFT6mq
   brand: shift
   codename: axolotl
@@ -977,6 +964,19 @@ security-express:
   incremental_sha256:
   incremental_old_build:
   date: '2024-02-15'
+- name: Fairphone 5
+  brand: fairphone
+  codename: FP5
+  version: 5.4.2-2
+  android: '14'
+  factory_link: https://release.calyxinstitute.org/FP5-factory-24504022.zip
+  factory_sha256: 269a4cdafd81afa917ca9167e5290a3028a4e0e526b9fbd42c81f2961404d989
+  ota_link: https://release.calyxinstitute.org/FP5-ota_update-24504022.zip
+  ota_sha256: e5a8716b8af9fcedeb8a32ab7431d25a8445d70a282a8b119c4f8582beef0c2d
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-03-02'
 - name: Moto G32
   brand: motorola
   codename: devon
