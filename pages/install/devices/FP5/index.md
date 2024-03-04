@@ -1,8 +1,8 @@
 ---
-title: Install on Fairphone 5
+title: Install on Fairphone 5 (Beta)
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Fairphone 5 => FP5]]</strong>
+<strong>[[Install => install]]</strong> / <strong>[[Fairphone 5 (Beta) => FP5]]</strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">
