@@ -2,15 +2,15 @@
 linux:
   filename: device-flasher.linux
   digest_command: "sha256sum device-flasher.linux"
-  url: https://release.calyxinstitute.org/device-flasher/1.0.8/device-flasher.linux
-  sha256: f1385d51a9042cf1b7ef434475da2b7d007ec68665af44ef9ae1cc6df4771b1b
+  url: https://release.calyxinstitute.org/device-flasher/1.0.9/device-flasher.linux
+  sha256: 3c318b63d2e93c62e6e3199e58782557a8f19c84f4993a4c80f47028781899f8
 mac:
   filename: device-flasher.darwin
   digest_command: "shasum -a 256 device-flasher.darwin"
-  url: https://release.calyxinstitute.org/device-flasher/1.0.8/device-flasher.darwin
-  sha256: 5ff2a1760d979612bc41ab089fd5c7d93aed9aa76006b42a32e4940524455386
+  url: https://release.calyxinstitute.org/device-flasher/1.0.9/device-flasher.darwin
+  sha256: dcc44f8ec9d58fa6d3ea5cc15e584c438780accd65dfbb0e05ec583a288f961d
 windows:
   filename: device-flasher.exe
   digest_command: "CertUtil -hashfile device-flasher.exe SHA256"
-  url: https://release.calyxinstitute.org/device-flasher/1.0.8/device-flasher.exe
-  sha256: b88587688334c807745aa3afe0c0804023d2ac19effa7b1908f6f29156f65241
+  url: https://release.calyxinstitute.org/device-flasher/1.0.9/device-flasher.exe
+  sha256: 111266318eb60a3f7094566ee0252e36bc5be12fb551aea03a19edce91ed70a3
