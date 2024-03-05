@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6845fc43_f85c0615",
+        "filename": "pages/_posts/2024-03-05-fp5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-05T15:48:57Z",
+      "side": 1,
+      "message": "nit: Maybe \"Fairphone 5, March update progress\" or something?",
+      "revId": "e2e89b59e7d13512b244901f800844a78bb53ccc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2ce66b65_b5364deb",
+        "filename": "pages/_posts/2024-03-05-fp5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-05T15:48:57Z",
+      "side": 1,
+      "message": "nit: I think we\u0027ve mentioned this for the Matrix channel before, so maybe we can move this section down / near the bottom.",
+      "revId": "e2e89b59e7d13512b244901f800844a78bb53ccc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "239cc244_1dba401a",
+        "filename": "pages/_posts/2024-03-05-fp5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-05T15:48:57Z",
+      "side": 1,
+      "message": "nit: This post is titled Fairphone 5, so with FP5 being the main idea, maybe we should move the FP5 section to the top.",
+      "revId": "e2e89b59e7d13512b244901f800844a78bb53ccc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
