@@ -1,5 +1,6 @@
 <h2>Devices</h2>
 <table>
+{% if site.data.devices.upcoming_codenames.size > 0 %}
 <td colspan="2"><h4>Upcoming</h4></td>
 {% for brand in site.data.devices.upcoming_brands %}
 <tr>
@@ -17,6 +18,7 @@
 </td>
 </tr>
 {% endfor %}
+{% endif %}
 <td colspan="2"><h4>Modern</h4></td>
 {% for brand in site.data.devices.modern_brands %}
 <tr>
