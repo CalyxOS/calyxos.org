@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "abcd10c6_23f2f189",
+        "filename": "pages/_posts/2024-03-05-fp5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-05T16:03:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6845fc43_f85c0615",
+      "revId": "e2e89b59e7d13512b244901f800844a78bb53ccc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2ce66b65_b5364deb",
@@ -35,6 +53,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "de4cea61_a52e3d4d",
+        "filename": "pages/_posts/2024-03-05-fp5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-05T16:03:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2ce66b65_b5364deb",
+      "revId": "e2e89b59e7d13512b244901f800844a78bb53ccc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "239cc244_1dba401a",
@@ -48,6 +84,24 @@
       "writtenOn": "2024-03-05T15:48:57Z",
       "side": 1,
       "message": "nit: This post is titled Fairphone 5, so with FP5 being the main idea, maybe we should move the FP5 section to the top.",
+      "revId": "e2e89b59e7d13512b244901f800844a78bb53ccc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "241b4946_27b00d4b",
+        "filename": "pages/_posts/2024-03-05-fp5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-05T16:03:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "239cc244_1dba401a",
       "revId": "e2e89b59e7d13512b244901f800844a78bb53ccc",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
