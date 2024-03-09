@@ -39,8 +39,8 @@ date: 2024-03-08
 
 | Release channel  | Date   | Notes |
 | ---------------- | ------ | ------ |
-| Security express | 9 March, Saturday | |
-| Beta | 11 March, Monday | |
+| Security express | 11 March, Monday | |
+| Beta | 12 March, Tuesday | |
 | Stable | 13 March, Wednesday | |
 
 ## Pixel 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, SHIFT6MQ
