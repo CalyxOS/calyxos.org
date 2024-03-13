@@ -15,7 +15,7 @@ For the emulator, the steps are:
 ```shell
 cd ~/calyxos/android14
 source build/envsetup.sh
-lunch calyx_sdk_phone_x86_64-userdebug # x86 for the 32-bit image.
+lunch calyx_sdk_phone_x86_64-ap1a-userdebug # x86 for the 32-bit image.
 m
 ```
 
