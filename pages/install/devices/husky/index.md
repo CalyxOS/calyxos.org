@@ -2,7 +2,7 @@
 title: Install on Pixel 8 Pro
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 8 Pro => husky]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/husky/">Pixel 8 Pro</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

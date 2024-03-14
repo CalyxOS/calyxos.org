@@ -2,7 +2,7 @@
 title: Install on Pixel Fold
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel Fold => felix]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/felix/">Pixel Fold</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

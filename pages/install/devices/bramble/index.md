@@ -2,7 +2,7 @@
 title: Install on Pixel 4a (5G)
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 4a (5G) => bramble]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/bramble/">Pixel 4a (5G)</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

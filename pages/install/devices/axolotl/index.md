@@ -2,7 +2,7 @@
 title: Install on SHIFT6mq
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[SHIFT6mq => axolotl]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/axolotl/">SHIFT6mq</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

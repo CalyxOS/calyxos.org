@@ -2,7 +2,7 @@
 title: Install on Pixel 6 Pro
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 6 Pro => raven]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/raven/">Pixel 6 Pro</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

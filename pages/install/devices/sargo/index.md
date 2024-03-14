@@ -2,7 +2,7 @@
 title: Install on Pixel 3a
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 3a => sargo]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/sargo/">Pixel 3a</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

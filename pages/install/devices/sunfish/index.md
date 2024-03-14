@@ -2,7 +2,7 @@
 title: Install on Pixel 4a
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 4a => sunfish]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/sunfish/">Pixel 4a</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

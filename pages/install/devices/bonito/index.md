@@ -2,7 +2,7 @@
 title: Install on Pixel 3a XL
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 3a XL => bonito]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/bonito/">Pixel 3a XL</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

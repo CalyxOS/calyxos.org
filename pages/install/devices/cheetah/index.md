@@ -2,7 +2,7 @@
 title: Install on Pixel 7 Pro
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 7 Pro => cheetah]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/cheetah/">Pixel 7 Pro</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

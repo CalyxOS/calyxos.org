@@ -2,7 +2,7 @@
 title: Install on Pixel 3 XL
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 3 XL => crosshatch]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/crosshatch/">Pixel 3 XL</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">
