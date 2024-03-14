@@ -221,7 +221,7 @@ FP4:
   android: 14
 FP5:
   brand: fairphone
-  model: Fairphone 5 (Beta)
+  model: Fairphone 5
   manufacturer_support_ends: 2031-09
   calyxos_support_ends: tbd
   sim: "dual"
