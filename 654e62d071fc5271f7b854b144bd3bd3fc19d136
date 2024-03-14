@@ -3,6 +3,74 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b693eb20_c47eeea2",
+        "filename": "pages/_includes/install/brick_warning.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-14T16:42:55Z",
+      "side": 1,
+      "message": "It doesn\u0027t have to be this scary. Bricks are rare. And they can still happen anyways, even with all that we do.\n\n\"Use device-flasher to avoid flashing issues\" or something.",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "90c6d52d_12f0baf6",
+        "filename": "pages/_includes/install/brick_warning.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-14T16:42:55Z",
+      "side": 1,
+      "message": "I\u0027d say it applies to everyone tbh.",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "af3c064e_0e26b0e3",
+        "filename": "pages/_includes/install/brick_warning.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-14T16:42:55Z",
+      "side": 1,
+      "message": "... in some other manner, and if something goes wrong, it \u003cstrong\u003ecould become unusable\u003c/strong\u003e",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "868d5b1c_84cdc169",
+        "filename": "pages/_includes/install/brick_warning.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-14T16:42:55Z",
+      "side": 1,
+      "message": "We don\u0027t mention flashing scripts anywhere so this may just add to the confusion.\n\nIt\u0027s for a very small minority of users who may use flash-all.sh\n\nOh I just got a better idea, we can add the warning to flash-all.sh instead.\n\nSet a variable in device-flasher.\n\nif variable is unset, show warning, maybe even a read / press enter to ack / continue.\n\n\nSolves the problem while avoiding making installation scarier than it already is for existing users.",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "2bdb6120_835d04aa",
         "filename": "pages/install/_templates/_install.md",
         "patchSetId": 2
@@ -14,6 +82,24 @@
       "writtenOn": "2024-03-14T16:38:48Z",
       "side": 1,
       "message": "Welp, technically this file isn\u0027t markdown at all, so this could be `.html`. I don\u0027t think it necessarily matters though?",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f1519e9b_64e07667",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-14T16:42:55Z",
+      "side": 1,
+      "message": "Yes I think it should be fine. We\u0027ll see.\n\nI\u0027d also put it above the download part, maybe line 48",
+      "parentUuid": "2bdb6120_835d04aa",
       "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
