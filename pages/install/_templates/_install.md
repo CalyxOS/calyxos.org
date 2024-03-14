@@ -4,7 +4,7 @@ description: From a {{os_name}} computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[{{name}} => {{codename}}]]</strong> / <strong>{{os_name}}</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/{{codename}}/">{{name}}</a></strong>
 
 ## Terminology
 
