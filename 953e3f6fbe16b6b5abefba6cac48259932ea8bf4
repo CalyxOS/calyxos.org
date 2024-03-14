@@ -34,6 +34,24 @@
       "parentUuid": "8a539f5e_e858cb35",
       "revId": "953e3f6fbe16b6b5abefba6cac48259932ea8bf4",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "33621508_85ebf901",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-14T16:27:42Z",
+      "side": 1,
+      "message": "https://rubygems.org/gems/sass-embedded/versions/1.72.0 looks ok, so it could be a temporary rubygems issue.",
+      "parentUuid": "7c892756_78928367",
+      "revId": "953e3f6fbe16b6b5abefba6cac48259932ea8bf4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
