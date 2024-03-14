@@ -210,6 +210,24 @@
       "parentUuid": "f1519e9b_64e07667",
       "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4a903971_bc1a0655",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-14T16:50:05Z",
+      "side": 1,
+      "message": "Putting it in the flashing script solves everything, I\u0027d say.",
+      "parentUuid": "74ae2a41_8a6bf733",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
