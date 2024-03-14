@@ -48,6 +48,8 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
+{% include install/brick_warning.md %}
+
 <a class="btn" href="https://release.calyxinstitute.org/bramble-factory-24504010.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 4a (5G) (bramble)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
