@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "29337a70_5f4a219a",
+        "filename": "pages/_includes/install/brick_warning.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-14T16:46:23Z",
+      "side": 1,
+      "message": "I made it as scary as I wish it had been for me. I would have completely ignored it if that\u0027s all it said. I think other advanced users would, too.\n\nCan we keep it severe and specific but tone it down once we\u0027ve fixed the flashing scripts? Nobody wants a several-hundred dollar brick, this really needs to be noticeable, needs to sound serious.",
+      "parentUuid": "b693eb20_c47eeea2",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "90c6d52d_12f0baf6",
         "filename": "pages/_includes/install/brick_warning.md",
         "patchSetId": 2
@@ -31,6 +49,24 @@
       "writtenOn": "2024-03-14T16:42:55Z",
       "side": 1,
       "message": "I\u0027d say it applies to everyone tbh.",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fd1796bf_c762335a",
+        "filename": "pages/_includes/install/brick_warning.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-14T16:46:23Z",
+      "side": 1,
+      "message": "I said \"too\". I want them to see it.",
+      "parentUuid": "90c6d52d_12f0baf6",
       "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -65,6 +101,24 @@
       "writtenOn": "2024-03-14T16:42:55Z",
       "side": 1,
       "message": "We don\u0027t mention flashing scripts anywhere so this may just add to the confusion.\n\nIt\u0027s for a very small minority of users who may use flash-all.sh\n\nOh I just got a better idea, we can add the warning to flash-all.sh instead.\n\nSet a variable in device-flasher.\n\nif variable is unset, show warning, maybe even a read / press enter to ack / continue.\n\n\nSolves the problem while avoiding making installation scarier than it already is for existing users.",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "46ef726e_886e6bef",
+        "filename": "pages/_includes/install/brick_warning.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-14T16:46:23Z",
+      "side": 1,
+      "message": "Whoa, I just had the exact same thought! That sounds like it could help.\n\nReally though, I just want people to pay attention to this.",
+      "parentUuid": "868d5b1c_84cdc169",
       "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
