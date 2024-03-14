@@ -228,6 +228,24 @@
       "parentUuid": "74ae2a41_8a6bf733",
       "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "45cc6e35_f96947f8",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-14T16:52:53Z",
+      "side": 1,
+      "message": "Somewhat agree, but until that\u0027s live and has been present in one or two releases at least, I think it\u0027s a good idea to have this on the site. But this is also why I originally wanted to target FP4/FP5 for this where it\u0027s a particular concern.",
+      "parentUuid": "4a903971_bc1a0655",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
