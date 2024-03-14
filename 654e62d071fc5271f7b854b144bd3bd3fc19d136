@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2bdb6120_835d04aa",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-14T16:38:48Z",
+      "side": 1,
+      "message": "Welp, technically this file isn\u0027t markdown at all, so this could be `.html`. I don\u0027t think it necessarily matters though?",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
