@@ -156,6 +156,24 @@
       "parentUuid": "2bdb6120_835d04aa",
       "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "74ae2a41_8a6bf733",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-14T16:47:57Z",
+      "side": 1,
+      "message": "No, that wouldn\u0027t help people who go straight to the factory images since it would be skipped.\n\nAgain, I\u0027m trying to help prevent problems for people who did what I did. I know I\u0027m not the only one who would do it this way.",
+      "parentUuid": "f1519e9b_64e07667",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
