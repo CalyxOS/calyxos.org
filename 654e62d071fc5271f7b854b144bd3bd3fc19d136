@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b14e9315_df531d27",
+        "filename": "pages/_includes/install/brick_warning.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-14T16:48:13Z",
+      "side": 1,
+      "message": "Yes that is fair. I want that too.\n\nI also don\u0027t want to cause any unnecessary stress.",
+      "parentUuid": "29337a70_5f4a219a",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "90c6d52d_12f0baf6",
         "filename": "pages/_includes/install/brick_warning.md",
         "patchSetId": 2
@@ -119,6 +137,24 @@
       "side": 1,
       "message": "Whoa, I just had the exact same thought! That sounds like it could help.\n\nReally though, I just want people to pay attention to this.",
       "parentUuid": "868d5b1c_84cdc169",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "08353023_eafde167",
+        "filename": "pages/_includes/install/brick_warning.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-14T16:48:13Z",
+      "side": 1,
+      "message": "The halting should do that, we can even have them enter \u0027yes\u0027 or something.\n\nEasy to do that with `read` on *nix, need to see on windows, but there must be something for sure, for this.",
+      "parentUuid": "46ef726e_886e6bef",
       "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
