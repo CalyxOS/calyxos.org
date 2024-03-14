@@ -2,7 +2,7 @@
 title: Install on Pixel 8
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 8 => shiba]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/shiba/">Pixel 8</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

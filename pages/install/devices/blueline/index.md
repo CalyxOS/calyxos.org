@@ -2,7 +2,7 @@
 title: Install on Pixel 3
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 3 => blueline]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/blueline/">Pixel 3</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

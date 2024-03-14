@@ -4,7 +4,7 @@ description: From a Windows computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Moto G42 => hawao]]</strong> / <strong>Windows</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/hawao/">Moto G42</a></strong>
 
 ## Terminology
 

@@ -2,7 +2,7 @@
 title: Install on Fairphone 5 (Beta)
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Fairphone 5 (Beta) => FP5]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/FP5/">Fairphone 5 (Beta)</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

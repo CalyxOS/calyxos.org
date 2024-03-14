@@ -2,7 +2,7 @@
 title: Install on Pixel Tablet
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel Tablet => tangorpro]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/tangorpro/">Pixel Tablet</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

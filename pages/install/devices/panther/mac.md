@@ -4,7 +4,7 @@ description: From a MacOS computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 7 => panther]]</strong> / <strong>MacOS</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/panther/">Pixel 7</a></strong>
 
 ## Terminology
 

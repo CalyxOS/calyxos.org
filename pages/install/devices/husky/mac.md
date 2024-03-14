@@ -4,7 +4,7 @@ description: From a MacOS computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 8 Pro => husky]]</strong> / <strong>MacOS</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/husky/">Pixel 8 Pro</a></strong>
 
 ## Terminology
 

@@ -4,7 +4,7 @@ description: From a Linux computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 3 => blueline]]</strong> / <strong>Linux</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/blueline/">Pixel 3</a></strong>
 
 ## Terminology
 

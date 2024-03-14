@@ -4,7 +4,7 @@ description: From a Windows computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 4 XL => coral]]</strong> / <strong>Windows</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/coral/">Pixel 4 XL</a></strong>
 
 ## Terminology
 

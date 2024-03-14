@@ -4,7 +4,7 @@ description: From a Linux computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 7a => lynx]]</strong> / <strong>Linux</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/lynx/">Pixel 7a</a></strong>
 
 ## Terminology
 

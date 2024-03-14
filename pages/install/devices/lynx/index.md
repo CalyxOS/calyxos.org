@@ -2,7 +2,7 @@
 title: Install on Pixel 7a
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 7a => lynx]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/lynx/">Pixel 7a</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

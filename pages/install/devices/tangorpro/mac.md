@@ -4,7 +4,7 @@ description: From a MacOS computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel Tablet => tangorpro]]</strong> / <strong>MacOS</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/tangorpro/">Pixel Tablet</a></strong>
 
 ## Terminology
 

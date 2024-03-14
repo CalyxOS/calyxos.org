@@ -4,7 +4,7 @@ description: From a MacOS computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 4a => sunfish]]</strong> / <strong>MacOS</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/sunfish/">Pixel 4a</a></strong>
 
 ## Terminology
 

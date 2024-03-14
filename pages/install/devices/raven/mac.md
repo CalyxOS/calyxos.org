@@ -4,7 +4,7 @@ description: From a MacOS computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 6 Pro => raven]]</strong> / <strong>MacOS</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/raven/">Pixel 6 Pro</a></strong>
 
 ## Terminology
 

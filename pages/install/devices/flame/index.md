@@ -2,7 +2,7 @@
 title: Install on Pixel 4
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 4 => flame]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/flame/">Pixel 4</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

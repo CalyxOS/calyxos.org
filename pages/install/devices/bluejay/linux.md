@@ -4,7 +4,7 @@ description: From a Linux computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 6a => bluejay]]</strong> / <strong>Linux</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/bluejay/">Pixel 6a</a></strong>
 
 ## Terminology
 

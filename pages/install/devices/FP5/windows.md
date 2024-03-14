@@ -4,7 +4,7 @@ description: From a Windows computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Fairphone 5 (Beta) => FP5]]</strong> / <strong>Windows</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/FP5/">Fairphone 5 (Beta)</a></strong>
 
 ## Terminology
 

@@ -2,7 +2,7 @@
 title: Install on Pixel 5
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 5 => redfin]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/redfin/">Pixel 5</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

@@ -2,7 +2,7 @@
 title: Install on Pixel 4 XL
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 4 XL => coral]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/coral/">Pixel 4 XL</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

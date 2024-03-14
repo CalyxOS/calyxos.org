@@ -2,7 +2,7 @@
 title: Install on Moto G42
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Moto G42 => hawao]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/hawao/">Moto G42</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

@@ -4,7 +4,7 @@ description: From a Windows computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 5a (5G) => barbet]]</strong> / <strong>Windows</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/barbet/">Pixel 5a (5G)</a></strong>
 
 ## Terminology
 

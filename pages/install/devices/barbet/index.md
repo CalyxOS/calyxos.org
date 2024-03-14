@@ -2,7 +2,7 @@
 title: Install on Pixel 5a (5G)
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 5a (5G) => barbet]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/barbet/">Pixel 5a (5G)</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

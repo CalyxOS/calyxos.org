@@ -2,7 +2,7 @@
 title: Install on Pixel 6
 ---
 
-<strong>[[Install => install]]</strong> / <strong>[[Pixel 6 => oriole]]</strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/oriole/">Pixel 6</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">
