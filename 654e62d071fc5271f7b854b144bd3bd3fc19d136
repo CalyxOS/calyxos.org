@@ -54,6 +54,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c59e26b_d6ae827d",
+        "filename": "pages/_includes/install/brick_warning.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-14T16:58:44Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "b14e9315_df531d27",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "90c6d52d_12f0baf6",
@@ -155,6 +173,24 @@
       "side": 1,
       "message": "The halting should do that, we can even have them enter \u0027yes\u0027 or something.\n\nEasy to do that with `read` on *nix, need to see on windows, but there must be something for sure, for this.",
       "parentUuid": "46ef726e_886e6bef",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3c642806_9529ad04",
+        "filename": "pages/_includes/install/brick_warning.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-14T16:58:44Z",
+      "side": 1,
+      "message": "Yes, there\u0027s an even better command for Windows called `choice`. Let\u0027s figure out what the message should be.",
+      "parentUuid": "08353023_eafde167",
       "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
