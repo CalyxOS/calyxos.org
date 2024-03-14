@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a539f5e_e858cb35",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-14T16:24:40Z",
+      "side": 1,
+      "message": "```\nBundler::HTTPError: Could not download gem from https://rubygems.org/ due to underlying error \u003cbad response Forbidden 403\n(https://rubygems.org/gems/sass-embedded-1.72.0-x86_64-linux.gem)\u003e\n```\n\n```\nIn Gemfile:\n  jekyll-feed was resolved to 0.17.0, which depends on\n    jekyll was resolved to 4.3.3, which depends on\n      jekyll-sass-converter was resolved to 3.0.0, which depends on\n        sass-embedded\n```",
+      "revId": "953e3f6fbe16b6b5abefba6cac48259932ea8bf4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
