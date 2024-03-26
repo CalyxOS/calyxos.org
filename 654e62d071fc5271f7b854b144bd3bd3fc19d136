@@ -36,6 +36,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "28aa2ceb_af85c309",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-26T19:52:12Z",
+      "side": 1,
+      "message": "This isn\u0027t at all about people determined to ignore our recommendations or modify our scripts. I think my other comments make that clear. I\u0027ll leave it at this: it seems like there\u0027s an aesthetic distaste for this change that is outweighing everything else, even though many other guides have warnings like this in similar places so that they stand out. Like I said, a warning like this would have helped me, and I think that matters.\n\nFixed scripts will help for the new uploads, but we\u0027re still gambling with a small handful of users who may not be using the latest factory images for whatever reason. We\u0027re just saying \"too bad\" because we refuse to add a modest warning.\n\nWeb Flasher will hopefully solve everything, but we\u0027ve been saying that for years.",
+      "parentUuid": "ace0af04_848351e0",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b693eb20_c47eeea2",
