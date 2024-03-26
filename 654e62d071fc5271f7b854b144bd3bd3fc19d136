@@ -54,6 +54,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e07bc89_c142c1e5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-26T20:29:25Z",
+      "side": 1,
+      "message": "It\u0027s not about aesthetics. This installation page is meant for people using device-flasher, for which this warning isn\u0027t valid.\n\nThe vast majority of readers of this page care about installing using the official install method, and as such, I didn\u0027t want to add such scary warnings which don\u0027t affect them.\n\nOld factory images already won\u0027t work for the fairphones due to anti rollback - we only link the latest, and if somebody tries to grab the old and flash that, regardless of this warning - and tries to relock, it may lead to a brick. We added some checks to that for the flasher for FP4 (get_unlock_ability), and if we find anything for FP5 we\u0027ll do that too.\n\nIt matters that it would have helped you, sure, but that doesn\u0027t mean we change the install page shown to every single user. It does mean we try and make other changes which might help though, which we are working on.\n\nWeb Flasher won\u0027t exactly help with this.",
+      "parentUuid": "28aa2ceb_af85c309",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b693eb20_c47eeea2",
