@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "611946b3_e11d10b7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-26T16:00:53Z",
+      "side": 1,
+      "message": "I still think this change is a good idea, but at least we\u0027re doing something else that\u0027s helpful for now, at https://review.calyxos.org/c/CalyxOS/device_common/+/25219",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b693eb20_c47eeea2",
@@ -191,6 +208,24 @@
       "side": 1,
       "message": "Yes, there\u0027s an even better command for Windows called `choice`. Let\u0027s figure out what the message should be.",
       "parentUuid": "08353023_eafde167",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e847e3d4_c00cbc93",
+        "filename": "pages/_includes/install/brick_warning.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-26T16:00:53Z",
+      "side": 1,
+      "message": "Ack, see https://review.calyxos.org/c/CalyxOS/device_common/+/25219",
+      "parentUuid": "3c642806_9529ad04",
       "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
