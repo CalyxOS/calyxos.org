@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ace0af04_848351e0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-26T19:21:19Z",
+      "side": 1,
+      "message": "I still disagree.\n\nflash-all.sh has a fastboot version check too, and people have removed it in the past to use whatever fastboot version their distro had, and if it\u0027s too old, that results in a non working device.\n\nWe can only do so much for people not following our steps, and if they decide to do things on their own, that\u0027s upto them. \n\nHappy with the linked script changes, but really based on past experience some may just remove it to proceed anyways.",
+      "parentUuid": "611946b3_e11d10b7",
+      "revId": "654e62d071fc5271f7b854b144bd3bd3fc19d136",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b693eb20_c47eeea2",
