@@ -514,9 +514,9 @@ beta:
   version: 5.5.3
   android: '14'
   factory_link: https://release.calyxinstitute.org/sunfish-factory-24505030.zip
-  factory_sha256:
+  factory_sha256: 8b93af5cf293387d7918a69013392c0b28c12ffcd6aa42ce5b9545152a4ed8e3
   ota_link: https://release.calyxinstitute.org/sunfish-ota_update-24505030.zip
-  ota_sha256:
+  ota_sha256: d16460d3bc99034cd9b8ea3b19406a70a6e561660588c14be966645f8411da2f
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -527,9 +527,9 @@ beta:
   version: 5.5.3
   android: '14'
   factory_link: https://release.calyxinstitute.org/coral-factory-24505030.zip
-  factory_sha256:
+  factory_sha256: de38dcc2ae9f2d81aebf3a92abe1ecc4f15b8f209997e3dc6ed6d75b647a31c6
   ota_link: https://release.calyxinstitute.org/coral-ota_update-24505030.zip
-  ota_sha256:
+  ota_sha256: 59a3dabca04943de2c174e2d16eb0fbaee074594dd546f608d255f8f4410afc1
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -540,9 +540,9 @@ beta:
   version: 5.5.3
   android: '14'
   factory_link: https://release.calyxinstitute.org/flame-factory-24505030.zip
-  factory_sha256:
+  factory_sha256: da32829f44bc29225f5ea802827a7e802229287801e13b84eeb7288c94b435a4
   ota_link: https://release.calyxinstitute.org/flame-ota_update-24505030.zip
-  ota_sha256:
+  ota_sha256: fabb841caee781ee551a70ad40174a384e035d4b5b1483313d2ea7df4dfc1c04
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -618,9 +618,9 @@ beta:
   version: 5.5.3
   android: '14'
   factory_link: https://release.calyxinstitute.org/FP5-factory-24505030.zip
-  factory_sha256:
+  factory_sha256: c0a816bd99ee684fcd08bf02707f09c7cfc316d44ec5f4730a871c2028a13d43
   ota_link: https://release.calyxinstitute.org/FP5-ota_update-24505030.zip
-  ota_sha256:
+  ota_sha256: f21c0dda737a76cd4841c4ed42585fc5916854b856cba22efc9c3201b2ea1656
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -853,9 +853,9 @@ security-express:
   version: 5.5.3
   android: '14'
   factory_link: https://release.calyxinstitute.org/sunfish-factory-24505030.zip
-  factory_sha256:
+  factory_sha256: 8b93af5cf293387d7918a69013392c0b28c12ffcd6aa42ce5b9545152a4ed8e3
   ota_link: https://release.calyxinstitute.org/sunfish-ota_update-24505030.zip
-  ota_sha256:
+  ota_sha256: d16460d3bc99034cd9b8ea3b19406a70a6e561660588c14be966645f8411da2f
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -866,9 +866,9 @@ security-express:
   version: 5.5.3
   android: '14'
   factory_link: https://release.calyxinstitute.org/coral-factory-24505030.zip
-  factory_sha256:
+  factory_sha256: de38dcc2ae9f2d81aebf3a92abe1ecc4f15b8f209997e3dc6ed6d75b647a31c6
   ota_link: https://release.calyxinstitute.org/coral-ota_update-24505030.zip
-  ota_sha256:
+  ota_sha256: 59a3dabca04943de2c174e2d16eb0fbaee074594dd546f608d255f8f4410afc1
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -879,9 +879,9 @@ security-express:
   version: 5.5.3
   android: '14'
   factory_link: https://release.calyxinstitute.org/flame-factory-24505030.zip
-  factory_sha256:
+  factory_sha256: da32829f44bc29225f5ea802827a7e802229287801e13b84eeb7288c94b435a4
   ota_link: https://release.calyxinstitute.org/flame-ota_update-24505030.zip
-  ota_sha256:
+  ota_sha256: fabb841caee781ee551a70ad40174a384e035d4b5b1483313d2ea7df4dfc1c04
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -957,9 +957,9 @@ security-express:
   version: 5.5.3
   android: '14'
   factory_link: https://release.calyxinstitute.org/FP5-factory-24505030.zip
-  factory_sha256:
+  factory_sha256: c0a816bd99ee684fcd08bf02707f09c7cfc316d44ec5f4730a871c2028a13d43
   ota_link: https://release.calyxinstitute.org/FP5-ota_update-24505030.zip
-  ota_sha256:
+  ota_sha256: f21c0dda737a76cd4841c4ed42585fc5916854b856cba22efc9c3201b2ea1656
   incremental_link:
   incremental_sha256:
   incremental_old_build:
