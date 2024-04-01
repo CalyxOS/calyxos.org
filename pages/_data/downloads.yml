@@ -211,55 +211,55 @@ stable:
 - name: Pixel 3a XL
   brand: pixel
   codename: bonito
-  version: 4.15.0
-  android: '13'
-  factory_link: https://release.calyxinstitute.org/bonito-factory-23415000.zip
-  factory_sha256: 3290b6124ff5859ae427a96a52313754fe20dc9e293b0d05be06eea2ce7b3c5f
-  ota_link: https://release.calyxinstitute.org/bonito-ota_update-23415000.zip
-  ota_sha256: 0d2859a077366749169dc4a783d73696f63c49c0749b28ea40f00ce15c8b5e77
-  incremental_link: https://release.calyxinstitute.org/bonito-incremental-23414000-23415000.zip
-  incremental_sha256: 25480251fcb6c1018ca83e26938a78a52c9b30b6ec7a063afb5632d7509a1298
-  incremental_old_build: '23414000'
-  date: '2023-11-08'
+  version: 5.4.1
+  android: '14'
+  factory_link: https://release.calyxinstitute.org/bonito-factory-24504010.zip
+  factory_sha256: 5c220a38d730a673dfe0aabab5b2abf7a9da80ee4c258aaeb76d4700b65dd72d
+  ota_link: https://release.calyxinstitute.org/bonito-ota_update-24504010.zip
+  ota_sha256:
+  incremental_link: https://release.calyxinstitute.org/bonito-incremental-23415000-24504010.zip
+  incremental_sha256: 1e3c3e09fc792d03cb81d43440352756030ca367be3b643c828738587689d3eb
+  incremental_old_build: '23415000'
+  date: '2024-02-29'
 - name: Pixel 3a
   brand: pixel
   codename: sargo
-  version: 4.15.0
-  android: '13'
-  factory_link: https://release.calyxinstitute.org/sargo-factory-23415000.zip
-  factory_sha256: c349cebaf9117f48b7c34daa7a8d9e2b458dc9cc47876312d0e27c64af96c292
-  ota_link: https://release.calyxinstitute.org/sargo-ota_update-23415000.zip
-  ota_sha256: a2f09320d890df6e844e08b014ea9aec76bd8a0618aa9b8308597303fda10ea8
-  incremental_link: https://release.calyxinstitute.org/sargo-incremental-23414000-23415000.zip
-  incremental_sha256: 50571261828286fccda9c0aa780843774dbcc0522f30c09ac36750639d5d06f7
-  incremental_old_build: '23414000'
-  date: '2023-11-08'
+  version: 5.4.1
+  android: '14'
+  factory_link: https://release.calyxinstitute.org/sargo-factory-24504010.zip
+  factory_sha256: b11117d305844d91cc18d3d98e88bf2baac1fa355d9b864f09d3b4931386d194
+  ota_link: https://release.calyxinstitute.org/sargo-ota_update-24504010.zip
+  ota_sha256:
+  incremental_link: https://release.calyxinstitute.org/sargo-incremental-23415000-24504010.zip
+  incremental_sha256: 3023769e989994580355f3cc8969fcd7c78737d0b18809f58f489beec353c4db
+  incremental_old_build: '23415000'
+  date: '2024-02-29'
 - name: Pixel 3 XL
   brand: pixel
   codename: crosshatch
-  version: 4.15.0
-  android: '13'
-  factory_link: https://release.calyxinstitute.org/crosshatch-factory-23415000.zip
-  factory_sha256: c3abf4c11847168af244893094c8ccd56787ccdfd31c824137a6e0f95fbd517e
-  ota_link: https://release.calyxinstitute.org/crosshatch-ota_update-23415000.zip
-  ota_sha256: 31be6c501d43921721923d1ee0b04dba4e86eb4ae83093d14e8ed911fab3ae64
-  incremental_link: https://release.calyxinstitute.org/crosshatch-incremental-23414000-23415000.zip
-  incremental_sha256: 59306ee60d2bdb7f032467829f8d117e91cac2675933774cf8c4a5bf6afa2d3a
-  incremental_old_build: '23414000'
-  date: '2023-11-08'
+  version: 5.4.1
+  android: '14'
+  factory_link: https://release.calyxinstitute.org/crosshatch-factory-24504010.zip
+  factory_sha256: 854c56512ea53c8402de0a622407b61190ea9044b4009305a13d7813fde79f28
+  ota_link: https://release.calyxinstitute.org/crosshatch-ota_update-24504010.zip
+  ota_sha256:
+  incremental_link: https://release.calyxinstitute.org/crosshatch-incremental-23415000-24504010.zip
+  incremental_sha256: b9569d9bae1ee069e5e6e5ce8de83b606fcecd379288dcdb3d2e73e15deafd3a
+  incremental_old_build: '23415000'
+  date: '2024-02-29'
 - name: Pixel 3
   brand: pixel
   codename: blueline
-  version: 4.15.0
-  android: '13'
-  factory_link: https://release.calyxinstitute.org/blueline-factory-23415000.zip
-  factory_sha256: 67fc6df38f4b8e6ce84e5321dfc00d8917d16944caa0a10f3e5f058de7e1e482
-  ota_link: https://release.calyxinstitute.org/blueline-ota_update-23415000.zip
-  ota_sha256: d034571be60816f1788b5ced9a8b30fdd635a5420b46486091a06a31abcf580d
-  incremental_link: https://release.calyxinstitute.org/blueline-incremental-23414000-23415000.zip
-  incremental_sha256: 4023c6385baeebd09b58bfd9ef69120c9e139ef203069953f5649d1ca7ca93d8
-  incremental_old_build: '23414000'
-  date: '2023-11-08'
+  version: 5.4.1
+  android: '14'
+  factory_link: https://release.calyxinstitute.org/blueline-factory-24504010.zip
+  factory_sha256: 9f2dcb20e98638c43ed6d0c0df1e96cf311245c17e74b705e82d62431454fbf0
+  ota_link: https://release.calyxinstitute.org/blueline-ota_update-24504010.zip
+  ota_sha256:
+  incremental_link: https://release.calyxinstitute.org/blueline-incremental-23415000-24504010.zip
+  incremental_sha256: e836120592e71a922dbe2773fcf4131de5b981452c99ca51f462b52c13b7a70b
+  incremental_old_build: '23415000'
+  date: '2024-02-29'
 - name: Fairphone 4
   brand: fairphone
   codename: FP4
