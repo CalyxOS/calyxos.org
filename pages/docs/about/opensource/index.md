@@ -18,6 +18,7 @@ nav_title: Open Source
   - [ANDROID: fix BIT() redefinition](https://android-review.googlesource.com/c/kernel/common/+/2362046)
   - [Register broadcast receivers for PACKAGE_ADDED/UID_REMOVED on all users](https://android-review.googlesource.com/c/platform/frameworks/base/+/1931761)
   - [releasetools: Use du -b](https://android-review.googlesource.com/c/platform/build/+/1269603)
+  - [Fix unknown sources app install confirmation](https://android-review.googlesource.com/c/platform/frameworks/base/+/2975131)
   </div>
 </div>
 
