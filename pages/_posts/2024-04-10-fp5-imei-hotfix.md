@@ -5,7 +5,7 @@ date: 2024-04-10
 
 * CalyxOS 5.6.1
 * Fairphone 5 only
-* Currently rolling out to beta, will roll out to other release channels shortly
+* Now rolling out to all update channels
 
 ### Changelog
 * CalyxOS 5.6.1
