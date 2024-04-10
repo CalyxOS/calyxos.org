@@ -7,9 +7,6 @@ date: 2024-04-10
 * Fairphone 5 only
 * Now rolling out to all update channels
 
-### Changelog
-* CalyxOS 5.6.1
-
 ### Fairphone 5
 * Allow proper reading of IMEI, restoring cellular functionality in some cases.
 
