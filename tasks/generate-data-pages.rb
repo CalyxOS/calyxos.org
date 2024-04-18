@@ -74,7 +74,7 @@ module GenerateDataPages
       index_template = load_template(RELEASE_INDEX_TEMPLATE)
       install_template = load_template(INSTALL_TEMPLATE)
       dirs = []
-      releases["stable"].each do |release|
+      releases["factory"].each do |release|
         device_dir = File.join(DEVICES_DIR, release["codename"])
         dirs << device_dir
         FileUtils.mkdir_p(device_dir)
