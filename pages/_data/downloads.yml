@@ -1280,29 +1280,29 @@ factory:
 - name: Fairphone 4
   brand: fairphone
   codename: FP4
-  version: 5.6.0
+  version: 5.6.2
   android: '14'
-  factory_link: https://release.calyxinstitute.org/FP4-factory-24506000.zip
-  factory_sha256: 874ac8a1988a7aee043b52925bc032363564954aa089c800a9d614d3293476a1
-  ota_link: https://release.calyxinstitute.org/FP4-ota_update-24506000.zip
-  ota_sha256: c8d4ab31b49070e676bda1541466452483dd3bd4547566938b199e2e1173fbe7
+  factory_link: https://release.calyxinstitute.org/FP4-factory-24506020.zip
+  factory_sha256: c5d555ccae404b23eac1c29082f376820c3421de15fde66ae3528979080eaa2b
+  ota_link: https://release.calyxinstitute.org/FP4-ota_update-24506020.zip
+  ota_sha256: '08c0ddd1beac6564e649d4807536329185ec7455e031e3543fb647938da92579'
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  date: '2024-04-03'
+  date: '2024-04-18'
 - name: Fairphone 5 (Beta)
   brand: fairphone
   codename: FP5
-  version: 5.6.1
+  version: 5.6.2
   android: '14'
-  factory_link: https://release.calyxinstitute.org/FP5-factory-24506010.zip
-  factory_sha256: 99c24169c57549867f7ef45bb1a2593cbe83591f76f6ac8748fea1e01f552bf7
-  ota_link: https://release.calyxinstitute.org/FP5-ota_update-24506010.zip
-  ota_sha256: d7fd133ee0549d20715531d3af339580523a3427f61a3d9e45cab463aac7bb87
+  factory_link: https://release.calyxinstitute.org/FP5-factory-24506020.zip
+  factory_sha256: 39777ec070504ac88a404880a721ec56c0e10f34471c3907294ed54474ff7d23
+  ota_link: https://release.calyxinstitute.org/FP5-ota_update-24506020.zip
+  ota_sha256: dba5f800cca20447a71a47b422e3d13fa105146dc6cf1caf2d1677c29359abd0
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  date: '2024-04-05'
+  date: '2024-04-18'
 - name: SHIFT6mq
   brand: shift
   codename: axolotl
