@@ -16,7 +16,7 @@ As an open source project, CalyxOS depends on the contributions from many develo
 
 ### What are the security implications of the extended permissions for F-Droid
 
-{% include_page f-droid/security %}
+{% include_page f-droid-basic/security %}
 
 ### What are the security implications of the extended permissions for Aurora Store?
 
