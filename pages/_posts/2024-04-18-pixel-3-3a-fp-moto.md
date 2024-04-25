@@ -13,7 +13,7 @@ date: 2024-04-18
 | Security express | 18 April, Thursday | |
 | Beta | 18 April, Thursday | |
 | Stable | 19 April, Friday | FP4, FP5, Moto G32, G42, G52 |
-| Stable | 25 April, Thursday | Pixel 3, 3 XL, 3a, 3a XL |
+| Stable | Skipped, will go to 5.6.3 directly | Pixel 3, 3 XL, 3a, 3a XL |
 
 ## Changelog
 * CalyxOS 5.6.2
