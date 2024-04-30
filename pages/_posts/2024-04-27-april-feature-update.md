@@ -12,7 +12,7 @@ date: 2024-04-27
 | ---------------- | ------ | ------ |
 | Beta | 27 April, Saturday | Pixel Tablet, 3a, 3a XL, 3, 3 XL releasing later in the day |
 | Security express | 29 April, Monday | |
-| Stable | 30 April, Tuesday | |
+| Stable | 30 April, Tuesday | Pixel 3a, 3a XL, 3, 3 XL skipped due to headphone issue |
 
 ## Changelog
 * CalyxOS 5.6.3
