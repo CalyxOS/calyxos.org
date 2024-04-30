@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "07809b1a_94770ac1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-04-30T07:53:31Z",
+      "side": 1,
+      "message": "Updated gems and ruby version to latest",
+      "revId": "36fbcf7b13789675ce7f5b6e43615e9f7b5c8b42",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
