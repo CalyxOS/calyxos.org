@@ -4,7 +4,9 @@ android_versions:
   - 13
   - 11
 upcoming_codenames:
+  - akita
 upcoming_brands:
+  - pixel
 modern_codenames:
   - husky
   - shiba
@@ -51,6 +53,14 @@ previous_brands:
   - oneplus
   - pixel
   - xiaomi
+akita:
+  brand: pixel
+  model: Pixel 8a
+  manufacturer_support_ends: 2031-05
+  calyxos_support_ends: 2031-05
+  sim: "dual"
+  esim: "dual"
+  android: 14
 husky:
   brand: pixel
   model: Pixel 8 Pro
