@@ -1,5 +1,18 @@
 ---
 stable:
+- name: Pixel 8a
+  brand: pixel
+  codename: akita
+  version: 5.7.1
+  android: '14'
+  factory_link: https://release.calyxinstitute.org/akita-factory-24507010.zip
+  factory_sha256: 1b9345e711b85489027144aa99d7bb10d1c8bd2ade7501d34d54cc3afd0e6685
+  ota_link: https://release.calyxinstitute.org/akita-ota_update-24507010.zip
+  ota_sha256: 49b70e07c48e9f6aa7981600f4cb7a69a57df079643e92ee2a3ab3df2d33686b
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-05-17'
 - name: Pixel 8 Pro
   brand: pixel
   codename: husky
@@ -339,6 +352,19 @@ stable:
   incremental_old_build: '24506030'
   date: '2024-05-08'
 beta:
+- name: Pixel 8a
+  brand: pixel
+  codename: akita
+  version: 5.7.1
+  android: '14'
+  factory_link: https://release.calyxinstitute.org/akita-factory-24507010.zip
+  factory_sha256: 1b9345e711b85489027144aa99d7bb10d1c8bd2ade7501d34d54cc3afd0e6685
+  ota_link: https://release.calyxinstitute.org/akita-ota_update-24507010.zip
+  ota_sha256: 49b70e07c48e9f6aa7981600f4cb7a69a57df079643e92ee2a3ab3df2d33686b
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-05-17'
 - name: Pixel 8 Pro
   brand: pixel
   codename: husky
@@ -678,6 +704,19 @@ beta:
   incremental_old_build:
   date: '2024-05-08'
 security-express:
+- name: Pixel 8a
+  brand: pixel
+  codename: akita
+  version: 5.7.1
+  android: '14'
+  factory_link: https://release.calyxinstitute.org/akita-factory-24507010.zip
+  factory_sha256: 1b9345e711b85489027144aa99d7bb10d1c8bd2ade7501d34d54cc3afd0e6685
+  ota_link: https://release.calyxinstitute.org/akita-ota_update-24507010.zip
+  ota_sha256: 49b70e07c48e9f6aa7981600f4cb7a69a57df079643e92ee2a3ab3df2d33686b
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-05-17'
 - name: Pixel 8 Pro
   brand: pixel
   codename: husky
@@ -1017,6 +1056,19 @@ security-express:
   incremental_old_build:
   date: '2024-05-08'
 factory:
+- name: Pixel 8a
+  brand: pixel
+  codename: akita
+  version: 5.7.1
+  android: '14'
+  factory_link: https://release.calyxinstitute.org/akita-factory-24507010.zip
+  factory_sha256: 1b9345e711b85489027144aa99d7bb10d1c8bd2ade7501d34d54cc3afd0e6685
+  ota_link: https://release.calyxinstitute.org/akita-ota_update-24507010.zip
+  ota_sha256: 49b70e07c48e9f6aa7981600f4cb7a69a57df079643e92ee2a3ab3df2d33686b
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-05-17'
 - name: Pixel 8 Pro
   brand: pixel
   codename: husky
