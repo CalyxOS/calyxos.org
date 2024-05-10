@@ -4,10 +4,9 @@ android_versions:
   - 13
   - 11
 upcoming_codenames:
-  - akita
 upcoming_brands:
-  - pixel
 modern_codenames:
+  - akita
   - husky
   - shiba
   - felix
