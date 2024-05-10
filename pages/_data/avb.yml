@@ -1,4 +1,7 @@
 ---
+- name: Pixel 8a
+  codename: akita
+  avb_fingerprint: ""
 - name: Pixel 8 Pro
   codename: husky
   avb_fingerprint: ""
