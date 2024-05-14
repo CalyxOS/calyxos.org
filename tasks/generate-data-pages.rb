@@ -52,6 +52,7 @@ module GenerateDataPages
         next if dir =~ /^[_|\.]/
         full_path = File.join(base,dir)
         if Dir.exist?(full_path) && !dirs.include?(full_path)
+          FileUtils.remove_dir(full_path)
           puts "REMOVE #{full_path}"
         end
       end
