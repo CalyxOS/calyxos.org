@@ -54,7 +54,7 @@ previous_brands:
   - xiaomi
 akita:
   brand: pixel
-  model: Pixel 8a
+  model: Pixel 8a (RC)
   manufacturer_support_ends: 2031-05
   calyxos_support_ends: 2031-05
   sim: "dual"

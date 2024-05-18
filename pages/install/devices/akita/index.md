@@ -1,8 +1,8 @@
 ---
-title: Install on Pixel 8a
+title: Install on Pixel 8a (RC)
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/akita/">Pixel 8a</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/akita/">Pixel 8a (RC)</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

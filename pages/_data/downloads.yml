@@ -1,6 +1,6 @@
 ---
 stable:
-- name: Pixel 8a
+- name: Pixel 8a (RC)
   brand: pixel
   codename: akita
   version: 5.7.1
@@ -352,7 +352,7 @@ stable:
   incremental_old_build: '24506030'
   date: '2024-05-08'
 beta:
-- name: Pixel 8a
+- name: Pixel 8a (RC)
   brand: pixel
   codename: akita
   version: 5.7.1
@@ -704,7 +704,7 @@ beta:
   incremental_old_build:
   date: '2024-05-08'
 security-express:
-- name: Pixel 8a
+- name: Pixel 8a (RC)
   brand: pixel
   codename: akita
   version: 5.7.1
@@ -1056,7 +1056,7 @@ security-express:
   incremental_old_build:
   date: '2024-05-08'
 factory:
-- name: Pixel 8a
+- name: Pixel 8a (RC)
   brand: pixel
   codename: akita
   version: 5.7.1
