@@ -19,7 +19,7 @@ date: 2024-05-24
 | Release channel  | Date   | Notes |
 | ---------------- | ------ | ------ |
 | Beta | 24 May, Friday |  |
-| Security express | 27 May, Monday | |
+| Security express | 28 May, Tuesday | |
 | Stable | 29 May, Wednesday | |
 
 ## Changelog
