@@ -1332,16 +1332,16 @@ factory:
 - name: Fairphone 4
   brand: fairphone
   codename: FP4
-  version: 5.7.0
+  version: 5.7.3-2
   android: '14'
-  factory_link: https://release.calyxinstitute.org/FP4-factory-24507000.zip
-  factory_sha256: 63767b6728630232c6694a527cb22c519ae38850341f9f8fab7df8df89f16e70
-  ota_link: https://release.calyxinstitute.org/FP4-ota_update-24507000.zip
-  ota_sha256: c63b902ba87be0cda048a3520ea2a94f7030dc141d977e93374c8977d5d0828c
+  factory_link: https://release.calyxinstitute.org/FP4-factory-24507032.zip
+  factory_sha256: 7086e0badab92320138e12de8a6356f95e4ff22b3ca1f302b033054a446a1779
+  ota_link: https://release.calyxinstitute.org/FP4-ota_update-24507032.zip
+  ota_sha256:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  date: '2024-05-08'
+  date: '2024-05-30'
 - name: Fairphone 5
   brand: fairphone
   codename: FP5
