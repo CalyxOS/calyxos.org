@@ -20,7 +20,7 @@ Which device do you want to install CalyxOS on? If you don't see your device her
 <th>Latest CalyxOS version</th>
 <th>Release date</th>
 </tr>
-{% for device in site.data.downloads["stable"] %}
+{% for device in site.data.downloads["factory"] %}
 <tr>
 <td><a href="./devices/{{device.codename}}">{{device.name}}</a></td>
 <td><a href="./devices/{{device.codename}}">{{device.codename}}</a></td>
