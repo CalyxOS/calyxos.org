@@ -16,6 +16,24 @@
       "message": "I could go either way on this change. It\u0027s already accurate right now. There\u0027s potential for confusion either way, it\u0027s just a matter of moving the confusion somewhere else (e.g. if this says 5.7.0 but a user receives a 5.7.2 OTA, that\u0027s confusing too).\n\nIf you think this is an improvement, it works for me.",
       "revId": "bd543d6a54bcd837acf064179e1629deb0e5f567",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e6696d01_c25525a4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-06-10T14:35:45Z",
+      "side": 1,
+      "message": "Yes receiving a newer OTA can be confusing, but note that historically we have at times updated these links a day or two later.\n\nWe can mention it in the blog posts\n\nAlso, this month is an outlier, usually the links would get updated and match.",
+      "parentUuid": "012d8a7c_6b6e2b60",
+      "revId": "bd543d6a54bcd837acf064179e1629deb0e5f567",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
