@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48f2dfa9_45321931",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-06-11T16:14:26Z",
+      "side": 1,
+      "message": "Make sure flashing changes are reflected.\n\ndevice/common flash-all.sh changes!",
+      "revId": "ebe16477bde48ae3efeaa28a19effd3b82dc6542",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
