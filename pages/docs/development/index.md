@@ -43,7 +43,7 @@ Steps:
    * `./calyx/scripts/pixel/device.sh bluejay` (`bluejay` for Pixel 6a)
 3. Build
    * `source build/envsetup.sh`
-   * `lunch calyx_bluejay-ap1a-user` (`bluejay` for Pixel 6a, `ap1a` is latest supported release, ` `user` is used for release builds, you can use `userdebug` for development builds.)
+   * `breakfast bluejay user` (`bluejay` for Pixel 6a, ` `user` is used for release builds, you can use `userdebug` for development builds.)
    * `m`
 4. Install
    * `fastboot flashall` (Run this in the same shell where you ran the build)

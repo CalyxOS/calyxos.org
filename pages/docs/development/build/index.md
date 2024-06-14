@@ -77,19 +77,11 @@ You made it this far! Now you can finally build CalyxOS
 
 ```shell
 source build/envsetup.sh
-lunch calyx_bluejay-ap1a-user # Replace bluejay (Pixel 6a) with your device codename here, ap1a with latest supported release and user with userdebug if you want a debug build
+breakfast bluejay user # Replace bluejay (Pixel 6a) with your device codename here and user with userdebug if you want a debug build
 m # Yes, just the letter 'm'
 ```
 
 This will be the longest step, it may take hours depending on your computer. Sit back and watch it build!
-
-##### Finding Latest Supported Release
-
-Since the [March 2024 Quarterly Platform Release](https://calyxos.org/news/2024/03/08/march-qpr2-security-update/), AOSP has switched to Trunk based development model. This requires running the `lunch` command for your device with the AOSP release CalyxOS is based upon.
-
-To find this out, check the default revision in the **default.xml** file in the [CalyxOS/platform_manifest](https://gitlab.com/CalyxOS/platform_manifest/) repository. Once you have the revision, match it against the **Build ID** section [here](https://source.android.com/docs/setup/reference/build-numbers#source-code-tags-and-builds). The release to append to command will be the first 4 alpha-numeric characters (in lowercase).
-
-> In case the default revision in the **default.xml** file is `android-14.0.0_r29` and the AOSP reference documentation mentions the **Build ID** as `AP1A.240305.019.A1`, the release will be `ap1a`. Similarly, the lunch command will be `lunch calyx_bluejay-ap1a-user` if we want to build a user build for bluejay (Pixel 6a).
 
 ### Installing
 * You need to unlock your device. If you haven't done so already, you can run `fastboot flashing unlock` to unlock your device.

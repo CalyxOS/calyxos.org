@@ -10,7 +10,7 @@ CalyxOS is built on a dedicated server and then signed separately. It can be sig
 ## Build
 
 * You need to have a [[build environment => build]] setup first, and a build of CalyxOS.
-* Choose 'user' when running `lunch`.
+* Choose 'user' build type when running `breakfast`.
 * For signing, you want to build a 'target-files-package' using `m target-files-package`
 * You'll also want to build the tools needed for signing and key creation, `m otatools-package otatools-keys-package`
 
