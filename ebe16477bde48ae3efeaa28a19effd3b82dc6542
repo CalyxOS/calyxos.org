@@ -16,6 +16,24 @@
       "message": "Make sure flashing changes are reflected.\n\ndevice/common flash-all.sh changes!",
       "revId": "ebe16477bde48ae3efeaa28a19effd3b82dc6542",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "778548c5_17c0afbe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-06-19T18:55:22Z",
+      "side": 1,
+      "message": "Done https://review.calyxos.org/c/CalyxOS/scripts/+/27050 factory: regen after 5.8.1\n\nMatches prod",
+      "parentUuid": "48f2dfa9_45321931",
+      "revId": "ebe16477bde48ae3efeaa28a19effd3b82dc6542",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
