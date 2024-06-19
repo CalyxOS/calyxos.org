@@ -12,7 +12,7 @@ date: 2024-06-13
 | ---------------- | ------ | ------ |
 | Security express | 13 June, Thursday | |
 | Beta | 14 June, Friday | |
-| Stable | 18 May, Tuesday | |
+| Stable | 19 June, Wednesday | Originally scheduled for 18 June, Tuesday |
 
 ## Changelog
 * CalyxOS 5.8.0
