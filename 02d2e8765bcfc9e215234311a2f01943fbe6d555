@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ba65d389_3f7dde97",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-06-25T15:49:12Z",
+      "side": 1,
+      "message": "Not running this yet because releases can change / get updated in the interim, leading to unnecessary conflicts",
+      "revId": "02d2e8765bcfc9e215234311a2f01943fbe6d555",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
