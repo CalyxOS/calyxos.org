@@ -60,6 +60,7 @@ akita:
   sim: "dual"
   esim: "dual"
   android: 14
+  web_install: false
 husky:
   brand: pixel
   model: Pixel 8 Pro
@@ -68,6 +69,7 @@ husky:
   sim: "dual"
   esim: "dual"
   android: 14
+  web_install: false
 shiba:
   brand: pixel
   model: Pixel 8
@@ -76,6 +78,7 @@ shiba:
   sim: "dual"
   esim: "dual"
   android: 14
+  web_install: false
 felix:
   brand: pixel
   model: Pixel Fold
@@ -84,6 +87,7 @@ felix:
   sim: "dual"
   esim: "dual"
   android: 14
+  web_install: false
 tangorpro:
   brand: pixel
   model: Pixel Tablet
@@ -92,6 +96,7 @@ tangorpro:
   sim: "no"
   esim: "no"
   android: 14
+  web_install: false
 lynx:
   brand: pixel
   model: Pixel 7a
@@ -100,6 +105,7 @@ lynx:
   sim: "dual"
   esim: "dual"
   android: 14
+  web_install: false
 cheetah:
   brand: pixel
   model: Pixel 7 Pro
@@ -108,6 +114,7 @@ cheetah:
   sim: "dual"
   esim: "dual"
   android: 14
+  web_install: false
 panther:
   brand: pixel
   model: Pixel 7
@@ -116,6 +123,7 @@ panther:
   sim: "dual"
   esim: "dual"
   android: 14
+  web_install: false
 bluejay:
   brand: pixel
   model: Pixel 6a
@@ -124,6 +132,7 @@ bluejay:
   sim: "dual"
   esim: "yes"
   android: 14
+  web_install: false
 raven:
   brand: pixel
   model: Pixel 6 Pro
@@ -132,6 +141,7 @@ raven:
   sim: "dual"
   esim: "yes"
   android: 14
+  web_install: false
 oriole:
   brand: pixel
   model: Pixel 6
@@ -140,6 +150,7 @@ oriole:
   sim: "dual"
   esim: "yes"
   android: 14
+  web_install: false
 barbet:
   brand: pixel
   model: Pixel 5a (5G)
@@ -148,6 +159,7 @@ barbet:
   sim: "dual"
   esim: "yes"
   android: 14
+  web_install: false
 bramble:
   brand: pixel
   model: Pixel 4a (5G)
@@ -156,6 +168,7 @@ bramble:
   sim: "dual"
   esim: "yes"
   android: 14
+  web_install: false
 redfin:
   brand: pixel
   model: Pixel 5
@@ -164,6 +177,7 @@ redfin:
   sim: "dual"
   esim: "yes"
   android: 14
+  web_install: false
 sunfish:
   brand: pixel
   model: Pixel 4a
@@ -172,6 +186,7 @@ sunfish:
   sim: "dual"
   esim: "yes"
   android: 14
+  web_install: false
 coral:
   brand: pixel
   model: Pixel 4 XL
@@ -180,6 +195,7 @@ coral:
   sim: "dual"
   esim: "yes"
   android: 14
+  web_install: false
 flame:
   brand: pixel
   model: Pixel 4
@@ -188,6 +204,7 @@ flame:
   sim: "dual"
   esim: "yes"
   android: 14
+  web_install: false
 bonito:
   brand: pixel
   model: Pixel 3a XL
@@ -196,6 +213,7 @@ bonito:
   sim: "dual"
   esim: "no"
   android: 14
+  web_install: false
 sargo:
   brand: pixel
   model: Pixel 3a
@@ -204,6 +222,7 @@ sargo:
   sim: "dual"
   esim: "no"
   android: 14
+  web_install: false
 crosshatch:
   brand: pixel
   model: Pixel 3 XL
@@ -212,6 +231,7 @@ crosshatch:
   sim: "single"
   esim: "no"
   android: 14
+  web_install: false
 blueline:
   brand: pixel
   model: Pixel 3
@@ -220,6 +240,7 @@ blueline:
   sim: "single"
   esim: "no"
   android: 14
+  web_install: false
 FP4:
   brand: fairphone
   model: Fairphone 4
@@ -228,6 +249,7 @@ FP4:
   sim: "dual"
   esim: "yes"
   android: 14
+  web_install: false
 FP5:
   brand: fairphone
   model: Fairphone 5
@@ -236,6 +258,7 @@ FP5:
   sim: "dual"
   esim: "yes"
   android: 14
+  web_install: false
 axolotl:
   brand: shift
   model: SHIFT6mq
@@ -244,6 +267,7 @@ axolotl:
   sim: "dual"
   esim: "no"
   android: 14
+  web_install: false
 devon:
   brand: motorola
   model: Moto G32
@@ -252,6 +276,7 @@ devon:
   sim: "dual"
   esim: "no"
   android: 14
+  web_install: false
 hawao:
   brand: motorola
   model: Moto G42
@@ -260,6 +285,7 @@ hawao:
   sim: "dual"
   esim: "no"
   android: 14
+  web_install: false
 rhode:
   brand: motorola
   model: Moto G52
@@ -268,6 +294,7 @@ rhode:
   sim: "dual"
   esim: "no"
   android: 14
+  web_install: false
 lemonadep:
   brand: oneplus
   model: OnePlus 9 Pro (Beta)
@@ -275,6 +302,7 @@ lemonadep:
   sim: "dual"
   esim: "no"
   android: 12
+  web_install: false
   link: news/2022/07/06/oneplus-android-12-relock-issue/
 lemonade:
   brand: oneplus
@@ -283,6 +311,7 @@ lemonade:
   sim: "dual"
   esim: "no"
   android: 12
+  web_install: false
   link: news/2022/07/06/oneplus-android-12-relock-issue/
 kebab:
   brand: oneplus
@@ -291,6 +320,7 @@ kebab:
   sim: "dual"
   esim: "no"
   android: 12
+  web_install: false
   link: news/2022/07/06/oneplus-android-12-relock-issue/
 taimen:
   brand: pixel
@@ -300,6 +330,7 @@ taimen:
   sim: "single"
   esim: "Fi-only"
   android: 11
+  web_install: false
   link: news/2022/02/11/android-11-feb-security-update/
 walleye:
   brand: pixel
@@ -309,6 +340,7 @@ walleye:
   sim: "single"
   esim: "Fi-only"
   android: 11
+  web_install: false
   link: news/2022/02/11/android-11-feb-security-update/
 jasmine_sprout:
   brand: xiaomi
@@ -318,6 +350,7 @@ jasmine_sprout:
   sim: "dual"
   esim: "no"
   android: 11
+  web_install: false
   link: news/2022/02/11/android-11-feb-security-update/
 
 

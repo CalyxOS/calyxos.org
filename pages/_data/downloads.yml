@@ -5,6 +5,7 @@ stable:
   codename: akita
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/akita-factory-24508000.zip
   factory_sha256: 0c17290bc537ea3999126b2f5940a8fca3e31eecd907038720f9ffd63511df6c
   ota_link: https://release.calyxinstitute.org/akita-ota_update-24508000.zip
@@ -18,6 +19,7 @@ stable:
   codename: husky
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/husky-factory-24508000.zip
   factory_sha256: ab102476d5c5ee9d4deda125c26a5cb99d3f4840d4c7d7f7e50e7cc23fc5987a
   ota_link: https://release.calyxinstitute.org/husky-ota_update-24508000.zip
@@ -31,6 +33,7 @@ stable:
   codename: shiba
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/shiba-factory-24508000.zip
   factory_sha256: f758bd18be4d2905c1534c6b98fed7e48b8efeb9120ef5fb3fceb5fb05dd4452
   ota_link: https://release.calyxinstitute.org/shiba-ota_update-24508000.zip
@@ -44,6 +47,7 @@ stable:
   codename: felix
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/felix-factory-24508000.zip
   factory_sha256: 26c43c1dab22d52e274b2acf7105b8f074cb8ab5d05238c1d4c86b76148fb486
   ota_link: https://release.calyxinstitute.org/felix-ota_update-24508000.zip
@@ -57,6 +61,7 @@ stable:
   codename: tangorpro
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/tangorpro-factory-24508000.zip
   factory_sha256: 639b39ca1aa120d59c0541895938d6dd2853c9c1646fcc5e40700e80295980e7
   ota_link: https://release.calyxinstitute.org/tangorpro-ota_update-24508000.zip
@@ -70,6 +75,7 @@ stable:
   codename: lynx
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/lynx-factory-24508000.zip
   factory_sha256: a826b734c911022dad305cfccf0994760adc607a34f940217c8de4b6dc48bec5
   ota_link: https://release.calyxinstitute.org/lynx-ota_update-24508000.zip
@@ -83,6 +89,7 @@ stable:
   codename: cheetah
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/cheetah-factory-24508000.zip
   factory_sha256: 0f3d41f5707597004e863ad24009d5f34d1382437274188fb30740661898eeda
   ota_link: https://release.calyxinstitute.org/cheetah-ota_update-24508000.zip
@@ -96,6 +103,7 @@ stable:
   codename: panther
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/panther-factory-24508000.zip
   factory_sha256: 38331e7e35310472520272871a97b294998ec6798b05c90611ffa896a8742d06
   ota_link: https://release.calyxinstitute.org/panther-ota_update-24508000.zip
@@ -109,6 +117,7 @@ stable:
   codename: bluejay
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/bluejay-factory-24508000.zip
   factory_sha256: 0db48296d4f4803bd46cb8f42a1c86823a14e493d5d01ef0257d7a47b0bacbe0
   ota_link: https://release.calyxinstitute.org/bluejay-ota_update-24508000.zip
@@ -122,6 +131,7 @@ stable:
   codename: raven
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/raven-factory-24508000.zip
   factory_sha256: 527a85a2b4b3be941aef2c7764534ff99f3f7a08e797ad169b1a8412b77306ff
   ota_link: https://release.calyxinstitute.org/raven-ota_update-24508000.zip
@@ -135,6 +145,7 @@ stable:
   codename: oriole
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/oriole-factory-24508000.zip
   factory_sha256: bb720403de8cb122141e9919bdc870c55df77e6eb0365fcdc9471d97873230cf
   ota_link: https://release.calyxinstitute.org/oriole-ota_update-24508000.zip
@@ -148,6 +159,7 @@ stable:
   codename: barbet
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/barbet-factory-24508000.zip
   factory_sha256: 89980177074cff3b280a084807bf9d89047f103e8433dd4fa347aaea9f65e074
   ota_link: https://release.calyxinstitute.org/barbet-ota_update-24508000.zip
@@ -161,6 +173,7 @@ stable:
   codename: bramble
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/bramble-factory-24508000.zip
   factory_sha256: 65b7704921ce4a730f407732cc7fb9c8e42550c8a4699c89eb22b89ca48a7d16
   ota_link: https://release.calyxinstitute.org/bramble-ota_update-24508000.zip
@@ -174,6 +187,7 @@ stable:
   codename: redfin
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/redfin-factory-24508000.zip
   factory_sha256: 9513360c0f2248a998207c686098dc394e0f05a61ca2d1b0173d98588a88b3f6
   ota_link: https://release.calyxinstitute.org/redfin-ota_update-24508000.zip
@@ -187,6 +201,7 @@ stable:
   codename: sunfish
   version: 5.7.2
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/sunfish-factory-24507020.zip
   factory_sha256: fce87ce573d41022b0e8961f7819c3ca1a6c98edcc6580cb874061bfc85e53ca
   ota_link: https://release.calyxinstitute.org/sunfish-ota_update-24507020.zip
@@ -200,6 +215,7 @@ stable:
   codename: coral
   version: 5.7.2
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/coral-factory-24507020.zip
   factory_sha256: d35dca87125f3d088ea3b29efe627186f267f7160f26e5db78d304a88cb40baf
   ota_link: https://release.calyxinstitute.org/coral-ota_update-24507020.zip
@@ -213,6 +229,7 @@ stable:
   codename: flame
   version: 5.7.2
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/flame-factory-24507020.zip
   factory_sha256: 35f7adb31521a86e8cb7b6c704655ba724074166082c68474dfc2d1202bd59b1
   ota_link: https://release.calyxinstitute.org/flame-ota_update-24507020.zip
@@ -226,6 +243,7 @@ stable:
   codename: bonito
   version: 5.7.3
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/bonito-factory-24507030.zip
   factory_sha256: b6709c77e59bca91f1547b783357e3c03d9762ff9747754de73134c2ffc4453f
   ota_link: https://release.calyxinstitute.org/bonito-ota_update-24507030.zip
@@ -239,6 +257,7 @@ stable:
   codename: sargo
   version: 5.7.3
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/sargo-factory-24507030.zip
   factory_sha256: ebe66b2bddba636edc247b8fe393a8657f4900a2ae03f47748c13141d01788c0
   ota_link: https://release.calyxinstitute.org/sargo-ota_update-24507030.zip
@@ -252,6 +271,7 @@ stable:
   codename: crosshatch
   version: 5.7.3
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/crosshatch-factory-24507030.zip
   factory_sha256: 103157000cb47d773b5b8a676751d06a5a6b781373fa6808f33ce941f87a2ebe
   ota_link: https://release.calyxinstitute.org/crosshatch-ota_update-24507030.zip
@@ -265,6 +285,7 @@ stable:
   codename: blueline
   version: 5.7.3
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/blueline-factory-24507030.zip
   factory_sha256: 5df101d650acfe818deaa6f74400c8c7840dbb909f76f0d8ed3dfc7f83fd18f5
   ota_link: https://release.calyxinstitute.org/blueline-ota_update-24507030.zip
@@ -278,6 +299,7 @@ stable:
   codename: FP4
   version: 5.7.3
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/FP4-factory-24507030.zip
   factory_sha256: b7ef9843692311600bd6f75fe2ecc5dd579339df6d21f5a56b5eba9328e18761
   ota_link: https://release.calyxinstitute.org/FP4-ota_update-24507030.zip
@@ -291,6 +313,7 @@ stable:
   codename: FP5
   version: 5.7.3
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/FP5-factory-24507030.zip
   factory_sha256: 0a6fe8bef27d4f1c1adfa7fdff1dc65dd8071a9dccb9aba407424e97d25a0972
   ota_link: https://release.calyxinstitute.org/FP5-ota_update-24507030.zip
@@ -304,6 +327,7 @@ stable:
   codename: axolotl
   version: 5.7.2
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/axolotl-factory-24507020.zip
   factory_sha256: 796aed30d6b2e40b687af7a6dbc7b181b1b2d1001da483d910b88f034bb65224
   ota_link: https://release.calyxinstitute.org/axolotl-ota_update-24507020.zip
@@ -317,6 +341,7 @@ stable:
   codename: devon
   version: 5.7.2
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/devon-factory-24507020.zip
   factory_sha256: 22e51caf194f5dc50366300b9d97ddee48229e280dd98a8604308c44df3c9773
   ota_link: https://release.calyxinstitute.org/devon-ota_update-24507020.zip
@@ -330,6 +355,7 @@ stable:
   codename: hawao
   version: 5.7.2
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/hawao-factory-24507020.zip
   factory_sha256: 6f14f4a33592e8e53ad79c8dba9ecf340504810001dbe6c42681251c3adf170a
   ota_link: https://release.calyxinstitute.org/hawao-ota_update-24507020.zip
@@ -343,6 +369,7 @@ stable:
   codename: rhode
   version: 5.7.2
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/rhode-factory-24507020.zip
   factory_sha256: ae27ecc20ef54c4f4a94683fd1f9863376430b0a4341618b82c321556d5f3e78
   ota_link: https://release.calyxinstitute.org/rhode-ota_update-24507020.zip
@@ -357,6 +384,7 @@ beta:
   codename: akita
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/akita-factory-24508000.zip
   factory_sha256: 0c17290bc537ea3999126b2f5940a8fca3e31eecd907038720f9ffd63511df6c
   ota_link: https://release.calyxinstitute.org/akita-ota_update-24508000.zip
@@ -370,6 +398,7 @@ beta:
   codename: husky
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/husky-factory-24508000.zip
   factory_sha256: ab102476d5c5ee9d4deda125c26a5cb99d3f4840d4c7d7f7e50e7cc23fc5987a
   ota_link: https://release.calyxinstitute.org/husky-ota_update-24508000.zip
@@ -383,6 +412,7 @@ beta:
   codename: shiba
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/shiba-factory-24508000.zip
   factory_sha256: f758bd18be4d2905c1534c6b98fed7e48b8efeb9120ef5fb3fceb5fb05dd4452
   ota_link: https://release.calyxinstitute.org/shiba-ota_update-24508000.zip
@@ -396,6 +426,7 @@ beta:
   codename: felix
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/felix-factory-24508000.zip
   factory_sha256: 26c43c1dab22d52e274b2acf7105b8f074cb8ab5d05238c1d4c86b76148fb486
   ota_link: https://release.calyxinstitute.org/felix-ota_update-24508000.zip
@@ -409,6 +440,7 @@ beta:
   codename: tangorpro
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/tangorpro-factory-24508000.zip
   factory_sha256: 639b39ca1aa120d59c0541895938d6dd2853c9c1646fcc5e40700e80295980e7
   ota_link: https://release.calyxinstitute.org/tangorpro-ota_update-24508000.zip
@@ -422,6 +454,7 @@ beta:
   codename: lynx
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/lynx-factory-24508000.zip
   factory_sha256: a826b734c911022dad305cfccf0994760adc607a34f940217c8de4b6dc48bec5
   ota_link: https://release.calyxinstitute.org/lynx-ota_update-24508000.zip
@@ -435,6 +468,7 @@ beta:
   codename: cheetah
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/cheetah-factory-24508000.zip
   factory_sha256: 0f3d41f5707597004e863ad24009d5f34d1382437274188fb30740661898eeda
   ota_link: https://release.calyxinstitute.org/cheetah-ota_update-24508000.zip
@@ -448,6 +482,7 @@ beta:
   codename: panther
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/panther-factory-24508000.zip
   factory_sha256: 38331e7e35310472520272871a97b294998ec6798b05c90611ffa896a8742d06
   ota_link: https://release.calyxinstitute.org/panther-ota_update-24508000.zip
@@ -461,6 +496,7 @@ beta:
   codename: bluejay
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/bluejay-factory-24508000.zip
   factory_sha256: 0db48296d4f4803bd46cb8f42a1c86823a14e493d5d01ef0257d7a47b0bacbe0
   ota_link: https://release.calyxinstitute.org/bluejay-ota_update-24508000.zip
@@ -474,6 +510,7 @@ beta:
   codename: raven
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/raven-factory-24508000.zip
   factory_sha256: 527a85a2b4b3be941aef2c7764534ff99f3f7a08e797ad169b1a8412b77306ff
   ota_link: https://release.calyxinstitute.org/raven-ota_update-24508000.zip
@@ -487,6 +524,7 @@ beta:
   codename: oriole
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/oriole-factory-24508000.zip
   factory_sha256: bb720403de8cb122141e9919bdc870c55df77e6eb0365fcdc9471d97873230cf
   ota_link: https://release.calyxinstitute.org/oriole-ota_update-24508000.zip
@@ -500,6 +538,7 @@ beta:
   codename: barbet
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/barbet-factory-24508000.zip
   factory_sha256: 89980177074cff3b280a084807bf9d89047f103e8433dd4fa347aaea9f65e074
   ota_link: https://release.calyxinstitute.org/barbet-ota_update-24508000.zip
@@ -513,6 +552,7 @@ beta:
   codename: bramble
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/bramble-factory-24508000.zip
   factory_sha256: 65b7704921ce4a730f407732cc7fb9c8e42550c8a4699c89eb22b89ca48a7d16
   ota_link: https://release.calyxinstitute.org/bramble-ota_update-24508000.zip
@@ -526,6 +566,7 @@ beta:
   codename: redfin
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/redfin-factory-24508000.zip
   factory_sha256: 9513360c0f2248a998207c686098dc394e0f05a61ca2d1b0173d98588a88b3f6
   ota_link: https://release.calyxinstitute.org/redfin-ota_update-24508000.zip
@@ -539,6 +580,7 @@ beta:
   codename: sunfish
   version: 5.8.1-2
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/sunfish-factory-24508012.zip
   factory_sha256: e10d46aabcb9f4b2db8d9b1c17e918ffd48b0645f4f57db758bdc71ecfbd069f
   ota_link: https://release.calyxinstitute.org/sunfish-ota_update-24508012.zip
@@ -552,6 +594,7 @@ beta:
   codename: coral
   version: 5.8.1-2
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/coral-factory-24508012.zip
   factory_sha256: 9545510101b5001e117ee97779ebd4d7f8d766ef84d6eff84120bffa2dfe8d7c
   ota_link: https://release.calyxinstitute.org/coral-ota_update-24508012.zip
@@ -565,6 +608,7 @@ beta:
   codename: flame
   version: 5.8.1-2
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/flame-factory-24508012.zip
   factory_sha256: 9cf72553bb57bbd6f0fe1bc49301bde21ec3aa7629ffa6390281ce1d86947841
   ota_link: https://release.calyxinstitute.org/flame-ota_update-24508012.zip
@@ -578,6 +622,7 @@ beta:
   codename: bonito
   version: 5.8.1
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/bonito-factory-24508010.zip
   factory_sha256: c6abe5485408ffbf5b75e7ebaffd4e1e38a0549f5f5e80ed84cb902117fc4f45
   ota_link: https://release.calyxinstitute.org/bonito-ota_update-24508010.zip
@@ -591,6 +636,7 @@ beta:
   codename: sargo
   version: 5.8.1
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/sargo-factory-24508010.zip
   factory_sha256: 3d7c1f551b02cb9240561918335f1605660d447057bd5dba3cd1714709c9a5d2
   ota_link: https://release.calyxinstitute.org/sargo-ota_update-24508010.zip
@@ -604,6 +650,7 @@ beta:
   codename: crosshatch
   version: 5.8.1
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/crosshatch-factory-24508010.zip
   factory_sha256: ca373c3a2d47144a24edf4de8ef5774d0f7640bc7392da7ab00aff62be64c93c
   ota_link: https://release.calyxinstitute.org/crosshatch-ota_update-24508010.zip
@@ -617,6 +664,7 @@ beta:
   codename: blueline
   version: 5.8.1
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/blueline-factory-24508010.zip
   factory_sha256: 9ce7ec3d132374a107f1ab8c17e1350a5f23422113abb3d1163970c019cdcc04
   ota_link: https://release.calyxinstitute.org/blueline-ota_update-24508010.zip
@@ -630,6 +678,7 @@ beta:
   codename: FP4
   version: 5.8.1
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/FP4-factory-24508010.zip
   factory_sha256: 670a7f65bb29d539223856fdbf070db488e9416affb193984de9424745975264
   ota_link: https://release.calyxinstitute.org/FP4-ota_update-24508010.zip
@@ -643,6 +692,7 @@ beta:
   codename: FP5
   version: 5.8.1
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/FP5-factory-24508010.zip
   factory_sha256: 3a24ee14ba710000c9ab01ac7635a1936d4447454cc6df48637087487b8a858c
   ota_link: https://release.calyxinstitute.org/FP5-ota_update-24508010.zip
@@ -656,6 +706,7 @@ beta:
   codename: axolotl
   version: 5.8.1
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/axolotl-factory-24508010.zip
   factory_sha256: 54fbeeb88e4d5802e3a8e6b9522b5a2266f14ca2a141ce357e34201e2650f91a
   ota_link: https://release.calyxinstitute.org/axolotl-ota_update-24508010.zip
@@ -669,6 +720,7 @@ beta:
   codename: devon
   version: 5.8.1
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/devon-factory-24508010.zip
   factory_sha256: 7f01c79084b69fd518cb06da736a64db5d4d9d75afc3e98492253dec86f9c355
   ota_link: https://release.calyxinstitute.org/devon-ota_update-24508010.zip
@@ -682,6 +734,7 @@ beta:
   codename: hawao
   version: 5.8.1
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/hawao-factory-24508010.zip
   factory_sha256: c81cbdc944bbc5192e5ae23a32faccee8a2c86a57a4a77a530570c88d604c3fb
   ota_link: https://release.calyxinstitute.org/hawao-ota_update-24508010.zip
@@ -695,6 +748,7 @@ beta:
   codename: rhode
   version: 5.8.1
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/rhode-factory-24508010.zip
   factory_sha256: 359a0f4308a03c8533f36d183c0ecfe62d6fc4b2b416d26c8a149538d5baa60e
   ota_link: https://release.calyxinstitute.org/rhode-ota_update-24508010.zip
@@ -709,6 +763,7 @@ security-express:
   codename: akita
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/akita-factory-24508000.zip
   factory_sha256: 0c17290bc537ea3999126b2f5940a8fca3e31eecd907038720f9ffd63511df6c
   ota_link: https://release.calyxinstitute.org/akita-ota_update-24508000.zip
@@ -722,6 +777,7 @@ security-express:
   codename: husky
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/husky-factory-24508000.zip
   factory_sha256: ab102476d5c5ee9d4deda125c26a5cb99d3f4840d4c7d7f7e50e7cc23fc5987a
   ota_link: https://release.calyxinstitute.org/husky-ota_update-24508000.zip
@@ -735,6 +791,7 @@ security-express:
   codename: shiba
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/shiba-factory-24508000.zip
   factory_sha256: f758bd18be4d2905c1534c6b98fed7e48b8efeb9120ef5fb3fceb5fb05dd4452
   ota_link: https://release.calyxinstitute.org/shiba-ota_update-24508000.zip
@@ -748,6 +805,7 @@ security-express:
   codename: felix
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/felix-factory-24508000.zip
   factory_sha256: 26c43c1dab22d52e274b2acf7105b8f074cb8ab5d05238c1d4c86b76148fb486
   ota_link: https://release.calyxinstitute.org/felix-ota_update-24508000.zip
@@ -761,6 +819,7 @@ security-express:
   codename: tangorpro
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/tangorpro-factory-24508000.zip
   factory_sha256: 639b39ca1aa120d59c0541895938d6dd2853c9c1646fcc5e40700e80295980e7
   ota_link: https://release.calyxinstitute.org/tangorpro-ota_update-24508000.zip
@@ -774,6 +833,7 @@ security-express:
   codename: lynx
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/lynx-factory-24508000.zip
   factory_sha256: a826b734c911022dad305cfccf0994760adc607a34f940217c8de4b6dc48bec5
   ota_link: https://release.calyxinstitute.org/lynx-ota_update-24508000.zip
@@ -787,6 +847,7 @@ security-express:
   codename: cheetah
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/cheetah-factory-24508000.zip
   factory_sha256: 0f3d41f5707597004e863ad24009d5f34d1382437274188fb30740661898eeda
   ota_link: https://release.calyxinstitute.org/cheetah-ota_update-24508000.zip
@@ -800,6 +861,7 @@ security-express:
   codename: panther
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/panther-factory-24508000.zip
   factory_sha256: 38331e7e35310472520272871a97b294998ec6798b05c90611ffa896a8742d06
   ota_link: https://release.calyxinstitute.org/panther-ota_update-24508000.zip
@@ -813,6 +875,7 @@ security-express:
   codename: bluejay
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/bluejay-factory-24508000.zip
   factory_sha256: 0db48296d4f4803bd46cb8f42a1c86823a14e493d5d01ef0257d7a47b0bacbe0
   ota_link: https://release.calyxinstitute.org/bluejay-ota_update-24508000.zip
@@ -826,6 +889,7 @@ security-express:
   codename: raven
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/raven-factory-24508000.zip
   factory_sha256: 527a85a2b4b3be941aef2c7764534ff99f3f7a08e797ad169b1a8412b77306ff
   ota_link: https://release.calyxinstitute.org/raven-ota_update-24508000.zip
@@ -839,6 +903,7 @@ security-express:
   codename: oriole
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/oriole-factory-24508000.zip
   factory_sha256: bb720403de8cb122141e9919bdc870c55df77e6eb0365fcdc9471d97873230cf
   ota_link: https://release.calyxinstitute.org/oriole-ota_update-24508000.zip
@@ -852,6 +917,7 @@ security-express:
   codename: barbet
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/barbet-factory-24508000.zip
   factory_sha256: 89980177074cff3b280a084807bf9d89047f103e8433dd4fa347aaea9f65e074
   ota_link: https://release.calyxinstitute.org/barbet-ota_update-24508000.zip
@@ -865,6 +931,7 @@ security-express:
   codename: bramble
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/bramble-factory-24508000.zip
   factory_sha256: 65b7704921ce4a730f407732cc7fb9c8e42550c8a4699c89eb22b89ca48a7d16
   ota_link: https://release.calyxinstitute.org/bramble-ota_update-24508000.zip
@@ -878,6 +945,7 @@ security-express:
   codename: redfin
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/redfin-factory-24508000.zip
   factory_sha256: 9513360c0f2248a998207c686098dc394e0f05a61ca2d1b0173d98588a88b3f6
   ota_link: https://release.calyxinstitute.org/redfin-ota_update-24508000.zip
@@ -891,6 +959,7 @@ security-express:
   codename: sunfish
   version: 5.8.1-2
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/sunfish-factory-24508012.zip
   factory_sha256: e10d46aabcb9f4b2db8d9b1c17e918ffd48b0645f4f57db758bdc71ecfbd069f
   ota_link: https://release.calyxinstitute.org/sunfish-ota_update-24508012.zip
@@ -904,6 +973,7 @@ security-express:
   codename: coral
   version: 5.8.1-2
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/coral-factory-24508012.zip
   factory_sha256: 9545510101b5001e117ee97779ebd4d7f8d766ef84d6eff84120bffa2dfe8d7c
   ota_link: https://release.calyxinstitute.org/coral-ota_update-24508012.zip
@@ -917,6 +987,7 @@ security-express:
   codename: flame
   version: 5.8.1-2
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/flame-factory-24508012.zip
   factory_sha256: 9cf72553bb57bbd6f0fe1bc49301bde21ec3aa7629ffa6390281ce1d86947841
   ota_link: https://release.calyxinstitute.org/flame-ota_update-24508012.zip
@@ -930,6 +1001,7 @@ security-express:
   codename: bonito
   version: 5.8.1
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/bonito-factory-24508010.zip
   factory_sha256: c6abe5485408ffbf5b75e7ebaffd4e1e38a0549f5f5e80ed84cb902117fc4f45
   ota_link: https://release.calyxinstitute.org/bonito-ota_update-24508010.zip
@@ -943,6 +1015,7 @@ security-express:
   codename: sargo
   version: 5.8.1
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/sargo-factory-24508010.zip
   factory_sha256: 3d7c1f551b02cb9240561918335f1605660d447057bd5dba3cd1714709c9a5d2
   ota_link: https://release.calyxinstitute.org/sargo-ota_update-24508010.zip
@@ -956,6 +1029,7 @@ security-express:
   codename: crosshatch
   version: 5.8.1
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/crosshatch-factory-24508010.zip
   factory_sha256: ca373c3a2d47144a24edf4de8ef5774d0f7640bc7392da7ab00aff62be64c93c
   ota_link: https://release.calyxinstitute.org/crosshatch-ota_update-24508010.zip
@@ -969,6 +1043,7 @@ security-express:
   codename: blueline
   version: 5.8.1
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/blueline-factory-24508010.zip
   factory_sha256: 9ce7ec3d132374a107f1ab8c17e1350a5f23422113abb3d1163970c019cdcc04
   ota_link: https://release.calyxinstitute.org/blueline-ota_update-24508010.zip
@@ -982,6 +1057,7 @@ security-express:
   codename: FP4
   version: 5.8.1
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/FP4-factory-24508010.zip
   factory_sha256: 670a7f65bb29d539223856fdbf070db488e9416affb193984de9424745975264
   ota_link: https://release.calyxinstitute.org/FP4-ota_update-24508010.zip
@@ -995,6 +1071,7 @@ security-express:
   codename: FP5
   version: 5.8.1
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/FP5-factory-24508010.zip
   factory_sha256: 3a24ee14ba710000c9ab01ac7635a1936d4447454cc6df48637087487b8a858c
   ota_link: https://release.calyxinstitute.org/FP5-ota_update-24508010.zip
@@ -1008,6 +1085,7 @@ security-express:
   codename: axolotl
   version: 5.8.1
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/axolotl-factory-24508010.zip
   factory_sha256: 54fbeeb88e4d5802e3a8e6b9522b5a2266f14ca2a141ce357e34201e2650f91a
   ota_link: https://release.calyxinstitute.org/axolotl-ota_update-24508010.zip
@@ -1021,6 +1099,7 @@ security-express:
   codename: devon
   version: 5.8.1
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/devon-factory-24508010.zip
   factory_sha256: 7f01c79084b69fd518cb06da736a64db5d4d9d75afc3e98492253dec86f9c355
   ota_link: https://release.calyxinstitute.org/devon-ota_update-24508010.zip
@@ -1034,6 +1113,7 @@ security-express:
   codename: hawao
   version: 5.8.1
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/hawao-factory-24508010.zip
   factory_sha256: c81cbdc944bbc5192e5ae23a32faccee8a2c86a57a4a77a530570c88d604c3fb
   ota_link: https://release.calyxinstitute.org/hawao-ota_update-24508010.zip
@@ -1047,6 +1127,7 @@ security-express:
   codename: rhode
   version: 5.8.1
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/rhode-factory-24508010.zip
   factory_sha256: 359a0f4308a03c8533f36d183c0ecfe62d6fc4b2b416d26c8a149538d5baa60e
   ota_link: https://release.calyxinstitute.org/rhode-ota_update-24508010.zip
@@ -1061,6 +1142,7 @@ factory:
   codename: akita
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/akita-factory-24508000.zip
   factory_sha256: 0c17290bc537ea3999126b2f5940a8fca3e31eecd907038720f9ffd63511df6c
   ota_link: https://release.calyxinstitute.org/akita-ota_update-24508000.zip
@@ -1074,6 +1156,7 @@ factory:
   codename: husky
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/husky-factory-24508000.zip
   factory_sha256: ab102476d5c5ee9d4deda125c26a5cb99d3f4840d4c7d7f7e50e7cc23fc5987a
   ota_link: https://release.calyxinstitute.org/husky-ota_update-24508000.zip
@@ -1087,6 +1170,7 @@ factory:
   codename: shiba
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/shiba-factory-24508000.zip
   factory_sha256: f758bd18be4d2905c1534c6b98fed7e48b8efeb9120ef5fb3fceb5fb05dd4452
   ota_link: https://release.calyxinstitute.org/shiba-ota_update-24508000.zip
@@ -1100,6 +1184,7 @@ factory:
   codename: felix
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/felix-factory-24508000.zip
   factory_sha256: 26c43c1dab22d52e274b2acf7105b8f074cb8ab5d05238c1d4c86b76148fb486
   ota_link: https://release.calyxinstitute.org/felix-ota_update-24508000.zip
@@ -1113,6 +1198,7 @@ factory:
   codename: tangorpro
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/tangorpro-factory-24508000.zip
   factory_sha256: 639b39ca1aa120d59c0541895938d6dd2853c9c1646fcc5e40700e80295980e7
   ota_link: https://release.calyxinstitute.org/tangorpro-ota_update-24508000.zip
@@ -1126,6 +1212,7 @@ factory:
   codename: lynx
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/lynx-factory-24508000.zip
   factory_sha256: a826b734c911022dad305cfccf0994760adc607a34f940217c8de4b6dc48bec5
   ota_link: https://release.calyxinstitute.org/lynx-ota_update-24508000.zip
@@ -1139,6 +1226,7 @@ factory:
   codename: cheetah
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/cheetah-factory-24508000.zip
   factory_sha256: 0f3d41f5707597004e863ad24009d5f34d1382437274188fb30740661898eeda
   ota_link: https://release.calyxinstitute.org/cheetah-ota_update-24508000.zip
@@ -1152,6 +1240,7 @@ factory:
   codename: panther
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/panther-factory-24508000.zip
   factory_sha256: 38331e7e35310472520272871a97b294998ec6798b05c90611ffa896a8742d06
   ota_link: https://release.calyxinstitute.org/panther-ota_update-24508000.zip
@@ -1165,6 +1254,7 @@ factory:
   codename: bluejay
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/bluejay-factory-24508000.zip
   factory_sha256: 0db48296d4f4803bd46cb8f42a1c86823a14e493d5d01ef0257d7a47b0bacbe0
   ota_link: https://release.calyxinstitute.org/bluejay-ota_update-24508000.zip
@@ -1178,6 +1268,7 @@ factory:
   codename: raven
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/raven-factory-24508000.zip
   factory_sha256: 527a85a2b4b3be941aef2c7764534ff99f3f7a08e797ad169b1a8412b77306ff
   ota_link: https://release.calyxinstitute.org/raven-ota_update-24508000.zip
@@ -1191,6 +1282,7 @@ factory:
   codename: oriole
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/oriole-factory-24508000.zip
   factory_sha256: bb720403de8cb122141e9919bdc870c55df77e6eb0365fcdc9471d97873230cf
   ota_link: https://release.calyxinstitute.org/oriole-ota_update-24508000.zip
@@ -1204,6 +1296,7 @@ factory:
   codename: barbet
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/barbet-factory-24508000.zip
   factory_sha256: 89980177074cff3b280a084807bf9d89047f103e8433dd4fa347aaea9f65e074
   ota_link: https://release.calyxinstitute.org/barbet-ota_update-24508000.zip
@@ -1217,6 +1310,7 @@ factory:
   codename: bramble
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/bramble-factory-24508000.zip
   factory_sha256: 65b7704921ce4a730f407732cc7fb9c8e42550c8a4699c89eb22b89ca48a7d16
   ota_link: https://release.calyxinstitute.org/bramble-ota_update-24508000.zip
@@ -1230,6 +1324,7 @@ factory:
   codename: redfin
   version: 5.8.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/redfin-factory-24508000.zip
   factory_sha256: 9513360c0f2248a998207c686098dc394e0f05a61ca2d1b0173d98588a88b3f6
   ota_link: https://release.calyxinstitute.org/redfin-ota_update-24508000.zip
@@ -1243,6 +1338,7 @@ factory:
   codename: sunfish
   version: 5.7.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/sunfish-factory-24507000.zip
   factory_sha256: 97b05b13ed0f40bf2cafbef403e9278dd26b5df5bc2ea1dcf37c60da5bfa2119
   ota_link: https://release.calyxinstitute.org/sunfish-ota_update-24507000.zip
@@ -1256,6 +1352,7 @@ factory:
   codename: coral
   version: 5.7.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/coral-factory-24507000.zip
   factory_sha256: 47ad9e2cfbffd3d9c87e9924c8caf3c6cd430b7d6d568ec06e890474efd38b4a
   ota_link: https://release.calyxinstitute.org/coral-ota_update-24507000.zip
@@ -1269,6 +1366,7 @@ factory:
   codename: flame
   version: 5.7.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/flame-factory-24507000.zip
   factory_sha256: c447389577f7655bc6fc96a8fd564ea9765d4c9a4e7d964b089aba9bc2d2357a
   ota_link: https://release.calyxinstitute.org/flame-ota_update-24507000.zip
@@ -1282,6 +1380,7 @@ factory:
   codename: bonito
   version: 5.7.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/bonito-factory-24507000.zip
   factory_sha256: a3a54fee88c45ba834c075ed965eb50822e10248c3143344f2359993fc67bd7b
   ota_link: https://release.calyxinstitute.org/bonito-ota_update-24507000.zip
@@ -1295,6 +1394,7 @@ factory:
   codename: sargo
   version: 5.7.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/sargo-factory-24507000.zip
   factory_sha256: 9551bbb61732ec325e7fb76d217bb686c840525c4a664e37f06935e650928e04
   ota_link: https://release.calyxinstitute.org/sargo-ota_update-24507000.zip
@@ -1308,6 +1408,7 @@ factory:
   codename: crosshatch
   version: 5.7.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/crosshatch-factory-24507000.zip
   factory_sha256: e1802a2ba9905fc7eb8ec5a2af2e464889eb2b8b933ec38ee67e474b9345d63d
   ota_link: https://release.calyxinstitute.org/crosshatch-ota_update-24507000.zip
@@ -1321,6 +1422,7 @@ factory:
   codename: blueline
   version: 5.7.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/blueline-factory-24507000.zip
   factory_sha256: be7dfdda506d9801308d129a0278cf802739abe19c181b14a86de58bee881599
   ota_link: https://release.calyxinstitute.org/blueline-ota_update-24507000.zip
@@ -1334,6 +1436,7 @@ factory:
   codename: FP4
   version: 5.7.3-2
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/FP4-factory-24507032.zip
   factory_sha256: 7086e0badab92320138e12de8a6356f95e4ff22b3ca1f302b033054a446a1779
   ota_link: https://release.calyxinstitute.org/FP4-ota_update-24507032.zip
@@ -1347,6 +1450,7 @@ factory:
   codename: FP5
   version: 5.7.0-2
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/FP5-factory-24507002.zip
   factory_sha256: c47cdbc81f618ba050585ffc97e97c16009f02a0d2ae4b629e12d1b5250a3ec5
   ota_link: https://release.calyxinstitute.org/FP5-ota_update-24507002.zip
@@ -1360,6 +1464,7 @@ factory:
   codename: axolotl
   version: 5.7.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/axolotl-factory-24507000.zip
   factory_sha256: 676cd4bec1fa80bf0b3d7564f3029a97cc3f6ad183fa59ac67b9a954c5ead028
   ota_link: https://release.calyxinstitute.org/axolotl-ota_update-24507000.zip
@@ -1373,6 +1478,7 @@ factory:
   codename: devon
   version: 5.7.2-2
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/devon-factory-24507022.zip
   factory_sha256: 3e0235d3ec0ce61602935b42830aa9be113bfcc0a9371e4fb628d9d1c803ffa6
   ota_link: https://release.calyxinstitute.org/devon-ota_update-24507022.zip
@@ -1386,6 +1492,7 @@ factory:
   codename: hawao
   version: 5.7.0
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/hawao-factory-24507000.zip
   factory_sha256: 5cf5a3e9068c0958989c4ea580c631d52c98c241fb347476da0494c0ffd41f60
   ota_link: https://release.calyxinstitute.org/hawao-ota_update-24507000.zip
@@ -1399,6 +1506,7 @@ factory:
   codename: rhode
   version: 5.7.2-2
   android: '14'
+  web_install: false
   factory_link: https://release.calyxinstitute.org/rhode-factory-24507022.zip
   factory_sha256: 24f5efbb0b56ea5e45c8a19c0656d22a44b03ea9752658e4f3d76c10c14c3bf7
   ota_link: https://release.calyxinstitute.org/rhode-ota_update-24507022.zip

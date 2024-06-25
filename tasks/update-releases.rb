@@ -153,6 +153,7 @@ module Releases
             "codename" => codename,
             "version" => version,
             "android" => android,
+            "web_install" => release == "factory" ? device["web_install"] : false,
             "factory_link" => RELEASE_DL_BASE + factory_filename,
             "factory_sha256" => factory_sha256,
             "ota_link" => RELEASE_DL_BASE + ota_filename,
