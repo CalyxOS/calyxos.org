@@ -1254,7 +1254,7 @@ factory:
   codename: bluejay
   version: 5.8.0
   android: '14'
-  web_install: false
+  web_install: true
   factory_link: https://release.calyxinstitute.org/bluejay-factory-24508000.zip
   factory_sha256: 0db48296d4f4803bd46cb8f42a1c86823a14e493d5d01ef0257d7a47b0bacbe0
   ota_link: https://release.calyxinstitute.org/bluejay-ota_update-24508000.zip

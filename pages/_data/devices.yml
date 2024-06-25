@@ -132,7 +132,7 @@ bluejay:
   sim: "dual"
   esim: "yes"
   android: 14
-  web_install: false
+  web_install: true
 raven:
   brand: pixel
   model: Pixel 6 Pro
