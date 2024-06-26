@@ -16,6 +16,24 @@ Next, see the [[OTA installation instructions => ota-install]].
 
 Optional: To verify the *SHA256* digest, run the command `sha256sum FILENAME_OF_DOWNLOAD` and compare the result with the value in the table below.
 
+## Full OTA updates
+
+{% for release in site.data.downloads.releases %}
+<h3 class="mt-3">{{ release | capitalize }}</h3>
+<table class="table table-striped download">
+  <tr><th>Device</th><th>Link</th><th>SHA256</th></tr>
+{% for device in site.data.downloads[release] %}
+  <tr>
+    <td>{{device.name}} ({{device.codename}})</td>
+    <td><a href="{{device.ota_link}}">Download</a></td>
+    <td class="hash">{{device.ota_sha256}}</td>
+  </tr>
+{% endfor %}
+</table>
+{% endfor %}
+
+Next, see the [[OTA installation instructions => ota-install]].
+
 ## Incremental OTA updates
 
 <h3 class="mt-3">Stable</h3>
@@ -32,22 +50,6 @@ Optional: To verify the *SHA256* digest, run the command `sha256sum FILENAME_OF_
 {% endif %}
 {% endfor %}
 </table>
-
-## Full OTA updates
-
-{% for release in site.data.downloads.releases %}
-<h3 class="mt-3">{{ release | capitalize }}</h3>
-<table class="table table-striped download">
-  <tr><th>Device</th><th>Link</th><th>SHA256</th></tr>
-{% for device in site.data.downloads[release] %}
-  <tr>
-    <td>{{device.name}} ({{device.codename}})</td>
-    <td><a href="{{device.ota_link}}">Download</a></td>
-    <td class="hash">{{device.ota_sha256}}</td>
-  </tr>
-{% endfor %}
-</table>
-{% endfor %}
 
 Next, see the [[OTA installation instructions => ota-install]].
 
