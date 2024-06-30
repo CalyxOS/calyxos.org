@@ -16,6 +16,24 @@
       "message": "I think it might be nice to highlight that it is the computer/flasher screen here\n\nA note specifying that the buttons on the phone should be ignored unless the flasher says otherwise I think would be nice here, I see a few people running \u0027Restart system now\u0027 or \u0027Start\u0027 on the bootloader screen, or just interfering with the flasher in general where a brick could happen.",
       "revId": "660727fdac2fb52e2495f6a6c7a51d48e6c41c15",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "217e5c9c_6c1d1e82",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-06-30T02:00:06Z",
+      "side": 1,
+      "message": "Well, this could be done in another commit, or in the flasher itself if it isn\u0027t mentioned already",
+      "parentUuid": "fb5f92a0_3211a329",
+      "revId": "660727fdac2fb52e2495f6a6c7a51d48e6c41c15",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
