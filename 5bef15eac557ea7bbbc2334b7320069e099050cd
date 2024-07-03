@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aa6837c9_10217903",
+        "filename": "pages/_posts/2024-07-03-july-security-update.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2024-07-03T14:42:56Z",
+      "side": 1,
+      "message": "Mention g42 stock update?",
+      "revId": "5bef15eac557ea7bbbc2334b7320069e099050cd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
