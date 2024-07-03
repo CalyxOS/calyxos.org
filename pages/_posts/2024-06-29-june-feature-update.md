@@ -12,8 +12,8 @@ date: 2024-06-29
 | Release channel  | Date   | Notes |
 | ---------------- | ------ | ------ |
 | Beta | 29 June, Saturday | |
-| Security express | 2 July, Tuesday | May skip depending on July security update release date |
-| Stable | 3 July, Tuesday | |
+| Security express | ~~2 July, Tuesday~~ | Skipped in favor of 5.9.0 - July 2024 Security update |
+| Stable | 3 July, Wednesday | |
 
 ## Changelog
 * CalyxOS 5.8.2
