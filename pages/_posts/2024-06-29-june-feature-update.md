@@ -18,6 +18,7 @@ date: 2024-06-29
 ## Changelog
 * CalyxOS 5.8.2
 * June 2024 Feature update
+* If you do not see the Gallery icon, try rebooting
 * Chromium: 126.0.6478.122 (latest stable)
 * Redact location data in more cases when sharing media (thanks to lucasmz for reporting!)
 * Firewall: Implement internet access for new apps setting
