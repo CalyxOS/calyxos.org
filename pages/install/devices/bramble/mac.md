@@ -63,7 +63,7 @@ To verify the image, open a terminal window on the host computer where you saved
 {% assign image = "https://release.calyxinstitute.org/bramble-factory-24509000.zip" | split: "/" | last %}
 {% include install/mac_image_digest.md filename=image %}
 
-And ensure the result says ``. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `a8a6eef92363f4109087a94f92a3d626f778d2ba8501b6b36834d07c1083fc5e`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 

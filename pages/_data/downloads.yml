@@ -175,12 +175,12 @@ stable:
   android: '14'
   web_install: false
   factory_link: https://release.calyxinstitute.org/bramble-factory-24509000.zip
-  factory_sha256:
+  factory_sha256: a8a6eef92363f4109087a94f92a3d626f778d2ba8501b6b36834d07c1083fc5e
   ota_link: https://release.calyxinstitute.org/bramble-ota_update-24509000.zip
-  ota_sha256:
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
+  ota_sha256: 2e893125af2b87419000e71add2579b486f9f21eaad9cff074302f60a692d2a3
+  incremental_link: https://release.calyxinstitute.org/bramble-incremental-24508020-24509000.zip
+  incremental_sha256: fdcf18beff2d69a5040f323441c44af46127019f899b94b4fe10ce0d7c9a0416
+  incremental_old_build: '24508020'
   date: '2024-07-03'
 - name: Pixel 5
   brand: pixel
@@ -189,12 +189,12 @@ stable:
   android: '14'
   web_install: false
   factory_link: https://release.calyxinstitute.org/redfin-factory-24509000.zip
-  factory_sha256:
+  factory_sha256: 3e54b0aea5f539db896b120373bc5082aabb789e5d41cf88b6b8ffc0a5640c26
   ota_link: https://release.calyxinstitute.org/redfin-ota_update-24509000.zip
-  ota_sha256:
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
+  ota_sha256: ea2c43ae19515531b2e1f8df7ed0cb63d41199f872d3213556df862b7314f3f4
+  incremental_link: https://release.calyxinstitute.org/redfin-incremental-24508020-24509000.zip
+  incremental_sha256: 56bb8cb8a05caa12b762e0915190163c1af0ed9fbf155e2d74e5ccf2400b7078
+  incremental_old_build: '24508020'
   date: '2024-07-03'
 - name: Pixel 4a
   brand: pixel
@@ -554,9 +554,9 @@ beta:
   android: '14'
   web_install: false
   factory_link: https://release.calyxinstitute.org/bramble-factory-24509000.zip
-  factory_sha256:
+  factory_sha256: a8a6eef92363f4109087a94f92a3d626f778d2ba8501b6b36834d07c1083fc5e
   ota_link: https://release.calyxinstitute.org/bramble-ota_update-24509000.zip
-  ota_sha256:
+  ota_sha256: 2e893125af2b87419000e71add2579b486f9f21eaad9cff074302f60a692d2a3
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -568,9 +568,9 @@ beta:
   android: '14'
   web_install: false
   factory_link: https://release.calyxinstitute.org/redfin-factory-24509000.zip
-  factory_sha256:
+  factory_sha256: 3e54b0aea5f539db896b120373bc5082aabb789e5d41cf88b6b8ffc0a5640c26
   ota_link: https://release.calyxinstitute.org/redfin-ota_update-24509000.zip
-  ota_sha256:
+  ota_sha256: ea2c43ae19515531b2e1f8df7ed0cb63d41199f872d3213556df862b7314f3f4
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -933,9 +933,9 @@ security-express:
   android: '14'
   web_install: false
   factory_link: https://release.calyxinstitute.org/bramble-factory-24509000.zip
-  factory_sha256:
+  factory_sha256: a8a6eef92363f4109087a94f92a3d626f778d2ba8501b6b36834d07c1083fc5e
   ota_link: https://release.calyxinstitute.org/bramble-ota_update-24509000.zip
-  ota_sha256:
+  ota_sha256: 2e893125af2b87419000e71add2579b486f9f21eaad9cff074302f60a692d2a3
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -947,9 +947,9 @@ security-express:
   android: '14'
   web_install: false
   factory_link: https://release.calyxinstitute.org/redfin-factory-24509000.zip
-  factory_sha256:
+  factory_sha256: 3e54b0aea5f539db896b120373bc5082aabb789e5d41cf88b6b8ffc0a5640c26
   ota_link: https://release.calyxinstitute.org/redfin-ota_update-24509000.zip
-  ota_sha256:
+  ota_sha256: ea2c43ae19515531b2e1f8df7ed0cb63d41199f872d3213556df862b7314f3f4
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -1312,9 +1312,9 @@ factory:
   android: '14'
   web_install: false
   factory_link: https://release.calyxinstitute.org/bramble-factory-24509000.zip
-  factory_sha256:
+  factory_sha256: a8a6eef92363f4109087a94f92a3d626f778d2ba8501b6b36834d07c1083fc5e
   ota_link: https://release.calyxinstitute.org/bramble-ota_update-24509000.zip
-  ota_sha256:
+  ota_sha256: 2e893125af2b87419000e71add2579b486f9f21eaad9cff074302f60a692d2a3
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -1326,9 +1326,9 @@ factory:
   android: '14'
   web_install: false
   factory_link: https://release.calyxinstitute.org/redfin-factory-24509000.zip
-  factory_sha256:
+  factory_sha256: 3e54b0aea5f539db896b120373bc5082aabb789e5d41cf88b6b8ffc0a5640c26
   ota_link: https://release.calyxinstitute.org/redfin-ota_update-24509000.zip
-  ota_sha256:
+  ota_sha256: ea2c43ae19515531b2e1f8df7ed0cb63d41199f872d3213556df862b7314f3f4
   incremental_link:
   incremental_sha256:
   incremental_old_build:

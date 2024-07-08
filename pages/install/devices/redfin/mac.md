@@ -63,7 +63,7 @@ To verify the image, open a terminal window on the host computer where you saved
 {% assign image = "https://release.calyxinstitute.org/redfin-factory-24509000.zip" | split: "/" | last %}
 {% include install/mac_image_digest.md filename=image %}
 
-And ensure the result says ``. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `3e54b0aea5f539db896b120373bc5082aabb789e5d41cf88b6b8ffc0a5640c26`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
