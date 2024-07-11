@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2cf94981_7811133a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-07-11T10:22:15Z",
+      "side": 1,
+      "message": "I\u0027m not sure using relative links works here, can someone confirm? I can change to use URLs instead if not.",
+      "revId": "59187d9b741aabeb1780494677c24d8f918cbe66",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
