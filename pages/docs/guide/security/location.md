@@ -45,9 +45,9 @@ Even in airplane mode, your device will still record location using whatever met
 
 In CalyxOS, location services are handled by alternative providers instead of Google, even if you have a Google account configured with microG.
 
-### Mozilla Location Service (MLS)
+### Positon Location Service
 
-[Mozilla Location Service](https://location.services.mozilla.com/) is an alternative to Google Location Accuracy and is enabled by default in CalyxOS. Mozilla gathers and stores your IP Address, cell phone tower information, and WiFi network information. Unlike when using Google location services, Mozilla does not get any perminant identifiers or information tied to your identity.
+[Positon](https://positon.xyz) is an alternative to Google Location Accuracy and is enabled by default in CalyxOS. Positon gathers and stores your IP Address, cell phone tower information, and WiFi network information. Unlike when using Google location services, Positon does not get any permanent identifiers or information tied to your identity.
 
 ### Déjà Vu Location Service
 
