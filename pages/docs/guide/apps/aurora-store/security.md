@@ -2,9 +2,9 @@
 title: Aurora Store Security
 ---
 
-In CalyxOS, Aurora Store is given the ability to update apps without approving each one manually, much like the Google Play Store. This is achieved with [Aurora Services](https://gitlab.com/CalyxOS/platform_packages_apps_AuroraStorePrivilegedExtension). Aurora Store is not able to install apps silently or without user intervention.
+In CalyxOS, Aurora Store is not able to install apps silently or without user intervention. It is able however, to automatically update apps in the background, which can be turned off.
 
-The special permissions granted to Aurora introduce these possible attacks:
+Some possible attacks are:
 
 * There could be a vulnerability in the Aurora Store bundled with CalyxOS. We use the [version built by F-Droid](https://f-droid.org/en/packages/com.aurora.store/).
 * An attacker could compromise the Google Play Store servers used both Aurora and the Google Play Store.
