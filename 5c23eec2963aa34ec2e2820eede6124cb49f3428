@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "00249623_287e2f56",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-07-11T10:24:54Z",
+      "side": 1,
+      "message": "It may make sense to wait until the Priviliged Extensions are fully removed from the system.",
+      "revId": "5c23eec2963aa34ec2e2820eede6124cb49f3428",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
