@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "97330d8b_0019311e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-07-11T22:04:10Z",
+      "side": 1,
+      "message": "should wait until positon (or another service) is implemented in releases",
+      "revId": "f47fe35143b0a6ab1c26bf733c0e500ca1e9416f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
