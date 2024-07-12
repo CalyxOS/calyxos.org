@@ -16,6 +16,24 @@
       "message": "I\u0027m not sure using relative links works here, can someone confirm? I can change to use URLs instead if not.",
       "revId": "59187d9b741aabeb1780494677c24d8f918cbe66",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1a6d478_f462fe1d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-07-12T22:23:36Z",
+      "side": 1,
+      "message": "Actually, I don\u0027t think these are relative (was thinking about issues with GitHub/Forgejo), this should be fine.",
+      "parentUuid": "2cf94981_7811133a",
+      "revId": "59187d9b741aabeb1780494677c24d8f918cbe66",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
