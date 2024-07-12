@@ -16,6 +16,23 @@
       "message": "It may make sense to wait until the Priviliged Extensions are fully removed from the system.",
       "revId": "5c23eec2963aa34ec2e2820eede6124cb49f3428",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b7d67b3_75903493",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-07-12T10:58:04Z",
+      "side": 1,
+      "message": "iirc it is still part and used as default for older builds. We should phrase in a way that explains that.",
+      "revId": "5c23eec2963aa34ec2e2820eede6124cb49f3428",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
