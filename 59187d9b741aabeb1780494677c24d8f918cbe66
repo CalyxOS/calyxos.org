@@ -34,6 +34,23 @@
       "parentUuid": "2cf94981_7811133a",
       "revId": "59187d9b741aabeb1780494677c24d8f918cbe66",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a0c7b35_81beda87",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-16T21:52:30Z",
+      "side": 1,
+      "message": "Will need some re-wording. This wasn\u0027t meant to be a general info on re-locking page, more what to do when the SetupWizard tells you device isn\u0027t locked. See the change this conflicts with for some more minimal info.",
+      "revId": "59187d9b741aabeb1780494677c24d8f918cbe66",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
