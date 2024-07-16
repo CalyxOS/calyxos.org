@@ -16,6 +16,115 @@
       "message": "should wait until positon (or another service) is implemented in releases",
       "revId": "f47fe35143b0a6ab1c26bf733c0e500ca1e9416f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "819ae65d_13dce431",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-16T22:05:02Z",
+      "side": 1,
+      "message": "Thanks!",
+      "revId": "f47fe35143b0a6ab1c26bf733c0e500ca1e9416f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "47643c43_7729d608",
+        "filename": "pages/docs/guide/faq/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-16T22:05:02Z",
+      "side": 1,
+      "message": "Nit: here and a few other places\n\n```suggestion\nNormally on stock Android, location services are built into the Google Play Services. Since CalyxOS doesn\u0027t include Google Play Services, location services are instead handled by microG. By default, we use microG\u0027s local \"Remember from GPS\" features, and the [Positon location service.](https://positon.xyz) which both check for surrounding Wi-Fi and cell towers for better availability.\n```",
+      "range": {
+        "startLine": 28,
+        "startChar": 259,
+        "endLine": 28,
+        "endChar": 308
+      },
+      "revId": "f47fe35143b0a6ab1c26bf733c0e500ca1e9416f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1b2dfe52_80ceb7f9",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-16T22:05:02Z",
+      "side": 1,
+      "message": "Nit: Given Positon is new and Mozilla is more known, worth adding a hyperlink here.\n\n```suggestion\nLocation: typically, an Android device will using WiFi and cell-towers data from Google to help determine precise location. microG does this without using Google, and without reporting your location to Google (CalyxOS is configured to use location information from [Positon location service.](https://positon.xyz) by default).\n```",
+      "range": {
+        "startLine": 78,
+        "startChar": 265,
+        "endLine": 78,
+        "endChar": 272
+      },
+      "revId": "f47fe35143b0a6ab1c26bf733c0e500ca1e9416f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc947046_9682d986",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-16T22:05:02Z",
+      "side": 1,
+      "message": "I realise that the \"enabled\" part is a leftover but we may change how this is handled, TODO: Update when that\u0027s finalized.",
+      "range": {
+        "startLine": 50,
+        "startChar": 81,
+        "endLine": 50,
+        "endChar": 103
+      },
+      "revId": "f47fe35143b0a6ab1c26bf733c0e500ca1e9416f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b4bd50d5_3633ba44",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-16T22:05:02Z",
+      "side": 1,
+      "message": "Just storing additional data can have privacy implications too, so we shouldn\u0027t claim this.",
+      "range": {
+        "startLine": 54,
+        "startChar": 302,
+        "endLine": 54,
+        "endChar": 368
+      },
+      "revId": "f47fe35143b0a6ab1c26bf733c0e500ca1e9416f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
