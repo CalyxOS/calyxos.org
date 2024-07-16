@@ -51,6 +51,41 @@
       "message": "Will need some re-wording. This wasn\u0027t meant to be a general info on re-locking page, more what to do when the SetupWizard tells you device isn\u0027t locked. See the change this conflicts with for some more minimal info.",
       "revId": "59187d9b741aabeb1780494677c24d8f918cbe66",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7dd6e0a0_8e971af9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-16T21:58:14Z",
+      "side": 1,
+      "message": "Also, for links here, [[community]] can be used for example.",
+      "parentUuid": "f1a6d478_f462fe1d",
+      "revId": "59187d9b741aabeb1780494677c24d8f918cbe66",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "68e172eb_a0da7278",
+        "filename": "pages/docs/guide/security/bootloader-lock.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-16T21:58:14Z",
+      "side": 1,
+      "message": "That\u0027s not right.\n\nIf you\u0027re running a production CalyxOS build - even with an unlocked bootloader, you can\u0027t just install anything else without losing data.\n\nYou also cannot steal encryption keys or passwords.",
+      "revId": "59187d9b741aabeb1780494677c24d8f918cbe66",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
