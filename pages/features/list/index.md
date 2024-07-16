@@ -6,7 +6,7 @@ toc_title: List of Features
 ---
 
 ### Apps
-We include a selection of recommeneded FOSS applications.
+We include a selection of recommended FOSS applications.
 #### Optional apps
 CalyxOS comes with a list of suggested free software applications to facilitate private online access but the user always has the choice whether to install or not. They'll always be available when needed, even when offline since they're included with the OS.
 <ul>
@@ -80,10 +80,11 @@ These apps are required for basic functionality and thus always present on the d
 | Pixel 4, 4 XL | any eSIM + physical SIM, dual SIM |
 | Pixel 3a, 3a XL | physical SIM, single SIM |
 | Pixel 3, 3 XL | physical SIM, single SIM |
-| Pixel 2, 2 XL | Fi-only eSIM, single SIM |
-| Xiaomi Mi A2 | 2 physical SIMs, dual SIM |
 | FP4 | any eSIM + physical SIM, dual SIM |
 | FP5 | any eSIM + physical SIM, dual SIM |
+| moto g32 | physical SIM, dual SIM |
+| moto g42 | physical SIM, dual SIM |
+| moto g52 | physical SIM, dual SIM |
 | SHIFT6mq | physical SIM, dual SIM |
 
 ### Settings
