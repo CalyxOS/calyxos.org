@@ -16,6 +16,24 @@
       "message": "Not running this yet because releases can change / get updated in the interim, leading to unnecessary conflicts",
       "revId": "02d2e8765bcfc9e215234311a2f01943fbe6d555",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0abbcf0_28abeb8b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-16T20:25:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba65d389_3f7dde97",
+      "revId": "02d2e8765bcfc9e215234311a2f01943fbe6d555",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
