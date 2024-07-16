@@ -1445,20 +1445,6 @@ factory:
   incremental_sha256:
   incremental_old_build:
   date: '2024-07-03'
-- name: Fairphone 5
-  brand: fairphone
-  codename: FP5
-  version: 5.9.0
-  android: '14'
-  web_install: false
-  factory_link: https://release.calyxinstitute.org/FP5-factory-24509000.zip
-  factory_sha256: 60807ccd5eed4d15c89f1fefe5b97745e0d705ca7e1bd64f09f1e56ff15b7dd6
-  ota_link: https://release.calyxinstitute.org/FP5-ota_update-24509000.zip
-  ota_sha256: 46e35f3a590b88e0648fc149b730032a7748d7ea6b06f4e6d54af6cf774db41d
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
-  date: '2024-07-03'
 - name: SHIFT6mq
   brand: shift
   codename: axolotl
