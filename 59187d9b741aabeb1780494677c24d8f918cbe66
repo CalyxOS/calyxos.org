@@ -86,6 +86,24 @@
       "message": "That\u0027s not right.\n\nIf you\u0027re running a production CalyxOS build - even with an unlocked bootloader, you can\u0027t just install anything else without losing data.\n\nYou also cannot steal encryption keys or passwords.",
       "revId": "59187d9b741aabeb1780494677c24d8f918cbe66",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e0866ad1_f6a08745",
+        "filename": "pages/docs/guide/security/bootloader-lock.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-07-16T23:48:26Z",
+      "side": 1,
+      "message": "Wait, how so? I thought the entire point of relocking your bootloader was to protect against this type of attack? (someone flashing some other/extra software that can steal your PIN for example)\n\nIn Pixels, I suppose the risk is lower and it is harder to do with the Titan chip, but in the Motos and Fairphones, with an unlocked bootloader, I could see someone flashing TWRP, making a copy of like /data, then installing some other software on which the main purpose is to steal that person\u0027s lock screen/encryption key and then doing decryption. \n\nOr did I just word this bad?",
+      "parentUuid": "68e172eb_a0da7278",
+      "revId": "59187d9b741aabeb1780494677c24d8f918cbe66",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
