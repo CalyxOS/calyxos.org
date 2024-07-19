@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d0118927_de0408b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-07-19T04:11:25Z",
+      "side": 1,
+      "message": "Still has to wait for Positon to be a default and potentially migrated, and from potential changes to how microG defaults work.",
+      "revId": "3f1b2204263ed0f7997ae17d0ce8b8970076b429",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
