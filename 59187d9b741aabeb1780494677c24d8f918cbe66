@@ -71,6 +71,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "866b18d9_3283de17",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-07-19T04:16:33Z",
+      "side": 1,
+      "message": "The change made here actually gets the point across and satifies me. It points out the Community tab for any questions and concerns, and to me that\u0027s enough. If the flasher didn\u0027t give the user the option to relock, there may be more to look into anyway and a reinstall may not always resolve it, though it can happen by accident sometimes.",
+      "parentUuid": "5a0c7b35_81beda87",
+      "revId": "59187d9b741aabeb1780494677c24d8f918cbe66",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "68e172eb_a0da7278",
@@ -120,6 +138,24 @@
       "side": 1,
       "message": "Locking does prevent against flashing anything, yes.\n\nOn any device, with an unlocked bootloader - you could flash something that makes a copy of userdata, yes. However, it\u0027s still encrypted.\n\nSince CalyxOS official builds are signed with private keys, installing some other software may also affect data, that remains to be tested.\n\nYour wording is a bit scary, and also not fully accurate. In theory it\u0027s possible, but we don\u0027t know what one can actually gain.\n\nA possibility is yes what you wrote happens, another is you can\u0027t retain the data with modified software. It may vary from device to device as well, Pixels vs moto / fairphone like you mention.",
       "parentUuid": "e0866ad1_f6a08745",
+      "revId": "59187d9b741aabeb1780494677c24d8f918cbe66",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e59561b0_cd7f82eb",
+        "filename": "pages/docs/guide/security/bootloader-lock.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-07-19T04:16:33Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "b0e026db_694f5cb7",
       "revId": "59187d9b741aabeb1780494677c24d8f918cbe66",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
