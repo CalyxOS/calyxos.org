@@ -33,6 +33,23 @@
       "message": "Some clients even add matrix.to as a link that can be opened with them. (e.g. Element X if you go into app info and add it as a compatible link)",
       "revId": "c0a7b5344933e77c352afd4020b010e17d0303c7",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed8a1442_0cc7e0c9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-23T21:45:38Z",
+      "side": 1,
+      "message": "Could you split this into two changes?\n\nI want to think a bit about the footer and community page, but the posts should be good to change right away I\u0027d say.",
+      "revId": "c0a7b5344933e77c352afd4020b010e17d0303c7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
