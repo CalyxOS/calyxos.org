@@ -50,6 +50,24 @@
       "message": "Could you split this into two changes?\n\nI want to think a bit about the footer and community page, but the posts should be good to change right away I\u0027d say.",
       "revId": "c0a7b5344933e77c352afd4020b010e17d0303c7",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ec97747_ed62d6f9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-07-23T21:51:26Z",
+      "side": 1,
+      "message": "The user *can* still select Element and get a preview, but I can see what you mean. I\u0027m not very sure on how useful the preview really ends up being though.\nThere are a few links that don\u0027t really show a preview when not logged in, like the space one. I think it might make sense to change the ones that don\u0027t show proper previews. I can change this patch to that if you\u0027d like.",
+      "parentUuid": "6e0f5b75_3091b090",
+      "revId": "c0a7b5344933e77c352afd4020b010e17d0303c7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
