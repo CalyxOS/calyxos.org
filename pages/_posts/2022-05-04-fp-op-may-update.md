@@ -15,7 +15,7 @@ OnePlus 8T, 9 and 9 Pro builds have been pulled - please see [OnePlus Android 12
 
 | Name | Matrix (Primary) | Telegram (Bridge) |
 | ---- | ------ | -------- |
-| CalyxOS Testers | [#calyxos-testers:matrix.org](https://app.element.io/#/room/#calyxos-testers:matrix.org) | [CalyxOSTesters](https://t.me/CalyxOSTesters) |
+| CalyxOS Testers | [#calyxos-testers:matrix.org](https://matrix.to/#/#calyxos-testers:matrix.org) | [CalyxOSTesters](https://t.me/CalyxOSTesters) |
 
 ## Path towards stable
 

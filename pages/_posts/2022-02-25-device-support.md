@@ -73,4 +73,4 @@ In the coming months, we intend to support the following devices:
 
 | Name | Matrix (Primary) | Telegram (Bridge) |
 | ---- | ------ | -------- |
-| CalyxOS Testers | [#calyxos-testers:matrix.org](https://app.element.io/#/room/#calyxos-testers:matrix.org) | [CalyxOSTesters](https://t.me/CalyxOSTesters) |
+| CalyxOS Testers | [#calyxos-testers:matrix.org](https://matrix.to/#/#calyxos-testers:matrix.org) | [CalyxOSTesters](https://t.me/CalyxOSTesters) |
