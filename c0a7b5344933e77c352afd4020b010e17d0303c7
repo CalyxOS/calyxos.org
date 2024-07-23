@@ -16,6 +16,23 @@
       "message": "That was an intentional choice given it offers a preview even when not logged in, especially for the files outside of `_posts`",
       "revId": "c0a7b5344933e77c352afd4020b010e17d0303c7",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6993e34d_4b539c80",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-07-23T21:42:56Z",
+      "side": 1,
+      "message": "Some clients even add matrix.to as a link that can be opened with them. (e.g. Element X if you go into app info and add it as a compatible link)",
+      "revId": "c0a7b5344933e77c352afd4020b010e17d0303c7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
