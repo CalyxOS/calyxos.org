@@ -8,7 +8,7 @@ date: 2024-01-27
 
 ## Matrix channel
 
-* If you're having trouble trying to post messages to the [#CalyxOS](https://app.element.io/#/room/#CalyxOS:matrix.org) matrix channel, try to leave the channel if possible, and then try writing `/join #CalyxOS:matrix.org` in any chat in Matrix. That should re-connect you to the channel.
+* If you're having trouble trying to post messages to the [#CalyxOS](https://matrix.to/#/#CalyxOS:matrix.org) matrix channel, try to leave the channel if possible, and then try writing `/join #CalyxOS:matrix.org` in any chat in Matrix. That should re-connect you to the channel.
 
 ## Pixel 4a and newer, Moto G32, G42, G52, FP4
 

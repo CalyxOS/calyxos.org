@@ -17,7 +17,7 @@ We created a new testers channel for those who're interested in helping us test 
 
 | Name | Matrix (Primary) | Telegram (Bridge) |
 | ---- | ------ | -------- |
-| CalyxOS Testers | [#calyxos-testers:matrix.org](https://app.element.io/#/room/#calyxos-testers:matrix.org) | [CalyxOSTesters](https://t.me/CalyxOSTesters) |
+| CalyxOS Testers | [#calyxos-testers:matrix.org](https://matrix.to/#/#calyxos-testers:matrix.org) | [CalyxOSTesters](https://t.me/CalyxOSTesters) |
 
 ## Pixel 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, 5, 4a (5g), 5a (5g)
 
