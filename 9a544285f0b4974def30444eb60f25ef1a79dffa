@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "57632d94_c22f02c6",
+        "filename": "pages/_includes/footer.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-24T14:56:03Z",
+      "side": 1,
+      "message": "Test URL: https://review.calyxos.org/admin/repos/edit/repo/CalyxOS/calyxos.org/branch/refs/heads/main/file/pages/news/index.md",
+      "revId": "9a544285f0b4974def30444eb60f25ef1a79dffa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
