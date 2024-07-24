@@ -86,6 +86,24 @@
       "parentUuid": "ed8a1442_0cc7e0c9",
       "revId": "c0a7b5344933e77c352afd4020b010e17d0303c7",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "239215f4_5de82039",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-24T17:59:59Z",
+      "side": 1,
+      "message": "Right now it\u0027s one click and you get a preview, on web at least.\n\nWith matrix.to it\u0027s not that easier. You have to select a client, if you pick Element depending on platform it may try to take you to the native app, and only after that can you get to the preview.\n\nI\u0027d just keep all the links the same",
+      "parentUuid": "5ec97747_ed62d6f9",
+      "revId": "c0a7b5344933e77c352afd4020b010e17d0303c7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
