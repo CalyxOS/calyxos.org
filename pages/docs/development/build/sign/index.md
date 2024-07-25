@@ -40,7 +40,7 @@ Next, run:
 Example:
 
 ```shell
-./vendor/calyx/scripts/mkkeys.sh keys/bluejay '/C=US/ST=California/L=Mountain View/O=Android/OU=Android/CN=Android/emailAddress=android@android.com' # Replace bluejay with your device
+./vendor/calyx/scripts/mkkeys.sh keys/akita '/C=US/ST=California/L=Mountain View/O=Android/OU=Android/CN=Android/emailAddress=android@android.com' # Replace akita with your device
 ./vendor/calyx/scripts/mkcommonkeys.sh keys/common '/C=US/ST=California/L=Mountain View/O=Android/OU=Android/CN=Android/emailAddress=android@android.com'
 ```
 
@@ -56,7 +56,7 @@ This will sign the build, and create ota update zips and factory images.
 ```shell
 export BUILD_NUMBER=eng.$USERNAME.date # Get this from the filename
 unzip otatools.zip
-./vendor/calyx/scripts/release.sh bluejay calyx_bluejay-target_files-${BUILD_NUMBER}.zip # Replace bluejay with your device
+./vendor/calyx/scripts/release.sh akita calyx_akita-target_files-${BUILD_NUMBER}.zip # Replace akita with your device
 ```
 
 #### Generate incremental OTAs
@@ -64,13 +64,13 @@ If you have an older build, you should symlink that to 'archive', and then you c
 
 ```shell
 export PREV_BUILD_NUMBER=eng.$USERNAME.prevdate # Get this from the filename
-./vendor/calyx/scripts/generate_delta.sh bluejay ${PREV_BUILD_NUMBER} ${BUILD_NUMBER} # Replace bluejay with your device
+./vendor/calyx/scripts/generate_delta.sh akita ${PREV_BUILD_NUMBER} ${BUILD_NUMBER} # Replace akita with your device
 ```
 
 #### Generate metadata for the update server
 
 ```shell
-./vendor/calyx/scripts/generate_metadata.py out/release-bluejay-${BUILD_NUMBER}/bluejay-ota_update-${BUILD_NUMBER}.zip # Replace bluejay with your device
+./vendor/calyx/scripts/generate_metadata.py out/release-akita-${BUILD_NUMBER}/akita-ota_update-${BUILD_NUMBER}.zip # Replace akita with your device
 ```
 
 <br />
