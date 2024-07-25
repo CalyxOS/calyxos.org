@@ -69,7 +69,7 @@ This will be a big download and may take a long time. Once it's done, you can bu
 Phones need a lot of proprietary files to boot and for all hardware to work, we have automated scripts to download and set them up.
 
 ```shell
-./calyx/scripts/pixel/device.sh bluejay # Replace bluejay (Pixel 6a) with your device codename here
+./calyx/scripts/pixel/device.sh akita # Replace akita (Pixel 8a) with your device codename here
 ```
 
 ### Building
@@ -77,7 +77,7 @@ You made it this far! Now you can finally build CalyxOS
 
 ```shell
 source build/envsetup.sh
-breakfast bluejay user # Replace bluejay (Pixel 6a) with your device codename here and user with userdebug if you want a debug build
+breakfast akita user # Replace akita (Pixel 8a) with your device codename here and user with userdebug if you want a debug build
 m # Yes, just the letter 'm'
 ```
 

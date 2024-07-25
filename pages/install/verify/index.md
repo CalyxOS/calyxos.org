@@ -29,15 +29,15 @@ redirect_from: /get/verify/
 * Place all 3 files in the same folder, and then run:
 
 ```shell
-minisign -Vm bluejay-factory-23502000.zip -p minisign.pub
-# bluejay is Pixel 6a, replace with your device
+minisign -Vm akita-factory-24509000.zip -p minisign.pub
+# akita is Pixel 8a, replace with your device
 ```
 
 It should output (comment may differ as per release):
 
 ```shell
 Signature and comment signature verified
-Trusted comment: CalyxOS 5.2.0 - December 2023 Quarterly Platform Release & Security update
+Trusted comment: CalyxOS 5.9.0 - July 2024 Security update
 ```
 
 <br>
@@ -75,19 +75,19 @@ Primary key fingerprint: BC2C B9C4 993C 086F FDAD  8D20 5905 C9C7 4693 488B
 
 * SHA256 checksums are available for all factory images and OTA updates.
 * You can run the below command and make sure the hash matches what's shown on [[get]] or [[ota]]
-* You can also simply append `.sha256sum` to the download URL for any file to get them, e.g. <https://release.calyxinstitute.org/bluejay-factory-23502000.zip.sha256sum>
+* You can also simply append `.sha256sum` to the download URL for any file to get them, e.g. <https://release.calyxinstitute.org/akita-factory-24509000.zip.sha256sum>
 
 ##### Linux
 
 ```shell
-sha256sum bluejay-factory-23502000.zip
-# bluejay is Pixel 6a, replace with your device
+sha256sum akita-factory-24509000.zip
+# akita is Pixel 8a, replace with your device
 ```
 
 It should output:
 
 ```shell
-713180eb98b17ef2787ab1d7cf80c087b8d5922208d7161048e2a90d6646d357  bluejay-factory-23502000.zip
+66d091f4788ea93cd9a4e5be8ecd5de4ea74c29785e99343aa106bed3bea62f3  akita-factory-24509000.zip
 ```
 
 <br>
@@ -95,14 +95,14 @@ It should output:
 ##### macOS
 
 ```shell
-shasum -a 256 bluejay-factory-23502000.zip
-# bluejay is Pixel 6a, replace with your device
+shasum -a 256 akita-factory-24509000.zip
+# akita is Pixel 8a, replace with your device
 ```
 
 It should output:
 
 ```shell
-713180eb98b17ef2787ab1d7cf80c087b8d5922208d7161048e2a90d6646d357  bluejay-factory-23502000.zip
+66d091f4788ea93cd9a4e5be8ecd5de4ea74c29785e99343aa106bed3bea62f3  akita-factory-24509000.zip
 ```
 
 <br>
@@ -110,15 +110,15 @@ It should output:
 ##### Windows
 
 ```shell
-certUtil -hashfile bluejay-factory-23502000.zip SHA256
-# bluejay is Pixel 6a, replace with your device
+certUtil -hashfile akita-factory-24509000.zip SHA256
+# akita is Pixel 8a, replace with your device
 ```
 
 It should output:
 
 ```shell
-SHA256 hash of bluejay-factory-23502000.zip:
-713180eb98b17ef2787ab1d7cf80c087b8d5922208d7161048e2a90d6646d357
+SHA256 hash of akita-factory-24509000.zip:
+66d091f4788ea93cd9a4e5be8ecd5de4ea74c29785e99343aa106bed3bea62f3
 CertUtil: -hashfile command completed successfully.
 ```
 
@@ -132,4 +132,4 @@ CertUtil: -hashfile command completed successfully.
   2. <https://github.com/CalyxOS/releases>
   3. <https://0xacab.org/calyx/os/releases>
 
-Hint: You can press `t` on these pages to quick jump to a filename (e.g. `bluejay-factory-23502000`)
+Hint: You can press `t` on these pages to quick jump to a filename (e.g. `akita-factory-24509000`)
