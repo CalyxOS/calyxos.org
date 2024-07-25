@@ -40,10 +40,10 @@ Steps:
    * `repo init -u https://gitlab.com/CalyxOS/platform_manifest -b android14`
    * `repo sync`
 2. Obtain proprietary files for your device
-   * `./calyx/scripts/pixel/device.sh bluejay` (`bluejay` for Pixel 6a)
+   * `./calyx/scripts/pixel/device.sh akita` (`akita` for Pixel 8a)
 3. Build
    * `source build/envsetup.sh`
-   * `breakfast bluejay user` (`bluejay` for Pixel 6a, ` `user` is used for release builds, you can use `userdebug` for development builds.)
+   * `breakfast akita user` (`akita` for Pixel 8a, ` `user` is used for release builds, you can use `userdebug` for development builds.)
    * `m`
 4. Install
    * `fastboot flashall` (Run this in the same shell where you ran the build)
