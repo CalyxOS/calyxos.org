@@ -17,3 +17,5 @@ gem "webrick", "~> 1.7"
 gem "html-proofer", "= 3.19.1" # last version to support ruby < 2.6.0
 gem 'down', '~> 5.4', '>= 5.4.1'
 gem "rake"
+
+gem "json"
