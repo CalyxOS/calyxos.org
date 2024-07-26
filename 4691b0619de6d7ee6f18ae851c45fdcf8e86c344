@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b56ed6e3_9777911d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-26T21:37:23Z",
+      "side": 1,
+      "message": "Made two builds on different machines, this matches",
+      "revId": "4691b0619de6d7ee6f18ae851c45fdcf8e86c344",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
