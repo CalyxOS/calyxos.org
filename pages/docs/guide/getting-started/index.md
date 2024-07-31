@@ -1,6 +1,7 @@
 ---
 title: Getting Started
 toc: true
+redirect_from: /start/
 ---
 
 # CalyxOS User Guide
