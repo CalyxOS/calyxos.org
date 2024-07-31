@@ -52,6 +52,24 @@
       "parentUuid": "217e5c9c_6c1d1e82",
       "revId": "660727fdac2fb52e2495f6a6c7a51d48e6c41c15",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a76152d0_42579ded",
+        "filename": "pages/install/_templates/_install.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-07-31T20:41:23Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "7b1559ef_e70a634f",
+      "revId": "660727fdac2fb52e2495f6a6c7a51d48e6c41c15",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
