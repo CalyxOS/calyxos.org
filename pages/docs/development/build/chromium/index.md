@@ -42,3 +42,6 @@ Steps:
    * `java -jar ../../../third_party/android_build_tools/bundletool/bundletool.jar build-apks --mode universal --bundle TrichromeChrome6432.aab --output . --output-format DIRECTORY`
 7. Done
    * You can now copy the APKs to `prebuilts/calyx/chromium/arm64/` for usage in the OS build.
+
+## Porting Cromite changes to newer versions of Chromium
+This section is under construction! It's meant to serve as a starting point for now.
