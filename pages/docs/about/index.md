@@ -82,7 +82,7 @@ Here are a few examples of ways in which this approach makes it into CalyxOS:
 * The default search engine and web browsers block advertising and behavior trackers.
 * We include many security-focused apps by default, such as Signal for secure messaging and Tor Browser for fully anonymous web browsing.
 * CalyxOS includes built-in free VPN services from trusted organizations protect your network traffic and IP address.
-* CalyxOS is diligent about sending your our phone regular, timely, automatic security updates.
+* CalyxOS is diligent about sending your phone regular, timely, automatic security updates.
 * [[SeedVault]] uses end-to-end encryption to securely backup your phone via USB storage or the cloud.
 
 ## Who is it for?
