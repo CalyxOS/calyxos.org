@@ -1434,13 +1434,13 @@ factory:
 - name: Fairphone 4
   brand: fairphone
   codename: FP4
-  version: 5.9.0
+  version: 5.9.0-2
   android: '14'
   web_install: false
-  factory_link: https://release.calyxinstitute.org/FP4-factory-24509000.zip
-  factory_sha256: 87b282741fb9680c619cb112c6ac71db6b4ba5596f9cf06474d424eb78b54cb3
-  ota_link: https://release.calyxinstitute.org/FP4-ota_update-24509000.zip
-  ota_sha256: a3faf9d9840c1f9d1ff9277d935e26bd31f1a4dffdfce17d1c0a21e71a46d4f7
+  factory_link: https://release.calyxinstitute.org/FP4-factory-24509002.zip
+  factory_sha256: 9eeec693f32e0c4aa204bcd3e9243d78573bdd359a8a1d5382626e47b2b0ac91
+  ota_link: https://release.calyxinstitute.org/FP4-ota_update-24509002.zip
+  ota_sha256:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -1476,13 +1476,13 @@ factory:
 - name: Moto G32
   brand: motorola
   codename: devon
-  version: 5.9.0
+  version: 5.9.0-2
   android: '14'
   web_install: false
-  factory_link: https://release.calyxinstitute.org/devon-factory-24509000.zip
-  factory_sha256: 9642d667ad9750748d1b7feef1772a82118fe4b078f50e0a0619fe96753b12c8
-  ota_link: https://release.calyxinstitute.org/devon-ota_update-24509000.zip
-  ota_sha256: 6c45d1652da77239c972becb0462d1033ea8fd555b5386114032ccbd3a0e7d4f
+  factory_link: https://release.calyxinstitute.org/devon-factory-24509002.zip
+  factory_sha256: 8d229a39386e34572125a2d0ce30f80d0bbd47109256800b1f9dea3e3b39948c
+  ota_link: https://release.calyxinstitute.org/devon-ota_update-24509002.zip
+  ota_sha256:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -1504,13 +1504,13 @@ factory:
 - name: Moto G52
   brand: motorola
   codename: rhode
-  version: 5.9.0
+  version: 5.9.0-2
   android: '14'
   web_install: false
-  factory_link: https://release.calyxinstitute.org/rhode-factory-24509000.zip
-  factory_sha256: b30739b28a242dda4d3f0304d2e31e6ab4b26f00c1183e3babc94e57555b49aa
-  ota_link: https://release.calyxinstitute.org/rhode-ota_update-24509000.zip
-  ota_sha256: 23185a78a89e6170d627307d40c0f771957ad5a2b745496945939dfd9e4401f5
+  factory_link: https://release.calyxinstitute.org/rhode-factory-24509002.zip
+  factory_sha256: e0ae283961c3271b89721960fa8de7a3eb40b1909ba6845cbbed2ffc5d0a48dc
+  ota_link: https://release.calyxinstitute.org/rhode-ota_update-24509002.zip
+  ota_sha256:
   incremental_link:
   incremental_sha256:
   incremental_old_build:

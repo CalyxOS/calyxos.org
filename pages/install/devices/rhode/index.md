@@ -2,7 +2,7 @@
 title: Install on Moto G52
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="">Moto G52 - Downloads temporarily removed</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/rhode/">Moto G52</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">
