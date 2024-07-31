@@ -30,7 +30,7 @@ This will help you setup a build environment for CalyxOS from scratch
 For Debian Stable and other Debian based distros:
 
 ```shell
-sudo apt update && sudo apt install bc curl default-jdk-headless default-jre-headless git libncurses5 libncurses5-dev libssl-dev lz4 m4 python3-lxml python3-protobuf python3-yaml python-is-python3 rsync zip
+sudo apt update && sudo apt install bc curl default-jdk-headless default-jre-headless git git-lfs libncurses5 libncurses5-dev libssl-dev lz4 m4 python3-lxml python3-protobuf python3-yaml python-is-python3 rsync zip
 ```
 
 Other distributions may have the same or similar names for packages.
@@ -59,7 +59,7 @@ Now you can download the CalyxOS source code.
 ```shell
 mkdir ~/calyxos/android14
 cd ~/calyxos/android14
-repo init -u https://gitlab.com/CalyxOS/platform_manifest -b android14
+repo init --git-lfs -u https://gitlab.com/CalyxOS/platform_manifest -b android14
 repo sync -j8 # You may use a higher number here if you have a fast computer and fast internet
 ```
 
