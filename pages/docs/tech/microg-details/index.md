@@ -19,8 +19,6 @@ On CalyxOS, [signature spoofing](https://review.calyxos.org/c/CalyxOS/platform_f
 
 This approach means that as far as microG is concerned, the behavior remains pretty much the same, while also not letting any other app use this functionality.
 
-### Mozilla Location Services
+### Positon Location Service
 
-[Mozilla Location Service](https://location.services.mozilla.com/) is an alternative to Google Location Accuracy and is enabled by default in CalyxOS. Mozilla gathers and stores your IP Address, cell phone tower information, and WiFi network information. Unlike when using Google location services, Mozilla does not get any perminant identifiers or information tied to your identity.
-
-For more information, see <https://github.com/microg/IchnaeaNlpBackend>.
+[Positon](https://positon.xyz) is an alternative to Google Location Accuracy and is enabled by default in CalyxOS. You can learn more about what data is collected when you use their API in their [privacy policy](https://positon.xyz/docs/privacy/#data-processed-with-the-api).
