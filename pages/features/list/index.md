@@ -51,7 +51,7 @@ These apps are required for basic functionality and thus always present on the d
 
 ### microG
 * Available, but completely optional, replaces some functions of Google Play Services while maintaining much more anonymity and privacy
-* Mozilla Location Services (and Dejavu) available as default location services (instead of Google on stock) https://location.services.mozilla.com/
+* Mozilla Location Services (and microG's Remember from GPS) available as default location services (instead of Google on stock) https://location.services.mozilla.com/
 * Nominatim available as default geocoding service https://nominatim.org/
 
 ### Network
