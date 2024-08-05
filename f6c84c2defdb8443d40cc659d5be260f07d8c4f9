@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b85e846_938b2aa1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-08-05T19:06:01Z",
+      "side": 1,
+      "message": "I don\u0027t have any better suggestions right away.",
+      "revId": "f6c84c2defdb8443d40cc659d5be260f07d8c4f9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e5b67f7_22076e11",
+        "filename": "pages/_includes/features.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-08-05T19:06:01Z",
+      "side": 1,
+      "message": "Not sure about the change to this line.",
+      "revId": "f6c84c2defdb8443d40cc659d5be260f07d8c4f9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
