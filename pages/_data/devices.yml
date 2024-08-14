@@ -4,7 +4,12 @@ android_versions:
   - 13
   - 11
 upcoming_codenames:
+  - comet
+  - komodo
+  - caiman
+  - tokay
 upcoming_brands:
+  - pixel
 modern_codenames:
   - akita
   - husky
@@ -52,6 +57,42 @@ previous_brands:
   - oneplus
   - pixel
   - xiaomi
+comet:
+  brand: pixel
+  model: Pixel 9 Pro Fold
+  manufacturer_support_ends: 2031-08
+  calyxos_support_ends: 2031-08
+  sim: "dual"
+  esim: "dual"
+  android: 14
+  web_install: false
+komodo:
+  brand: pixel
+  model: Pixel 9 Pro XL
+  manufacturer_support_ends: 2031-08
+  calyxos_support_ends: 2031-08
+  sim: "dual"
+  esim: "dual"
+  android: 14
+  web_install: false
+caiman:
+  brand: pixel
+  model: Pixel 9 Pro
+  manufacturer_support_ends: 2031-08
+  calyxos_support_ends: 2031-08
+  sim: "dual"
+  esim: "dual"
+  android: 14
+  web_install: false
+tokay:
+  brand: pixel
+  model: Pixel 9
+  manufacturer_support_ends: 2031-08
+  calyxos_support_ends: 2031-08
+  sim: "dual"
+  esim: "dual"
+  android: 14
+  web_install: false
 akita:
   brand: pixel
   model: Pixel 8a
