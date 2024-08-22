@@ -21,9 +21,9 @@ This will help you setup a build environment for CalyxOS from scratch
 
 #### Hardware requirements
 * Android building is a very intensive process, and requires a lot of resources
-* Approximately 250GB of free disk space (preferably on a fast SSD), more if you want to build for multiple devices
-* At least 16GB of RAM, although 32GB or 64GB will give you a much better experience, especially if trying to use the computer while building
-* A reasonably fast / unmetered internet connection, as the initial source code download is quite large (approximately 50GB)
+* Approximately 500GB of free disk space (preferably on a fast SSD), more if you want to build for multiple devices
+* At least 32GB of RAM, although 64GB or higher will give you a much better experience, especially if trying to use the computer while building
+* A reasonably fast / unmetered internet connection, as the initial source code download is quite large (approximately 100GB)
 
 #### Install packages
 
