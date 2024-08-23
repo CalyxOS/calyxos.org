@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9548efed_b810e15a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-08-23T15:05:25Z",
+      "side": 1,
+      "message": "Same points as Torsten, looks good otherwise",
+      "revId": "591202842a27054c43a01d2bfa0aa9798b5a2f18",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9905969c_d6b35d58",
