@@ -35,6 +35,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe30dae5_52b29e1a",
+        "filename": "pages/_posts/2024-08-23-august-updates.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-08-23T17:33:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9905969c_d6b35d58",
+      "revId": "591202842a27054c43a01d2bfa0aa9798b5a2f18",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f20f6555_e13d2023",
@@ -48,6 +66,24 @@
       "writtenOn": "2024-08-23T13:11:06Z",
       "side": 1,
       "message": "the update (as 5.10.1)",
+      "revId": "591202842a27054c43a01d2bfa0aa9798b5a2f18",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74c7a8b0_271dc7fe",
+        "filename": "pages/_posts/2024-08-23-august-updates.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-08-23T17:33:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f20f6555_e13d2023",
       "revId": "591202842a27054c43a01d2bfa0aa9798b5a2f18",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
