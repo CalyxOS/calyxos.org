@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9905969c_d6b35d58",
+        "filename": "pages/_posts/2024-08-23-august-updates.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2024-08-23T13:11:06Z",
+      "side": 1,
+      "message": "will be next is open to interpretation, maybe clarify?",
+      "revId": "591202842a27054c43a01d2bfa0aa9798b5a2f18",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f20f6555_e13d2023",
+        "filename": "pages/_posts/2024-08-23-august-updates.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2024-08-23T13:11:06Z",
+      "side": 1,
+      "message": "the update (as 5.10.1)",
+      "revId": "591202842a27054c43a01d2bfa0aa9798b5a2f18",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
