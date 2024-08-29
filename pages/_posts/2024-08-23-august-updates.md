@@ -4,7 +4,7 @@ date: 2024-08-23
 ---
 
 * CalyxOS 5.10.1 for Pixel 4a (5G) and newer Pixels
-* CalyxOS 5.10.3 for all other devices will be next week
+* CalyxOS 5.10.3 for all other devices
 
 ## Explanation
 * CalyxOS 5.10.0 was released to Security express on 7 August, Wednesday, 1 day after Google released the update.
@@ -15,8 +15,6 @@ date: 2024-08-23
 * Due to that, we didn't roll out the update to other channels.
 * The team was also travelling and recovering from travel at that time, further adding to the delay.
 * The chromium bug has since been fixed, and thus we're releasing the update (5.10.1) more broadly now.
-* We'll follow up with updates for other devices next week.
-
 ## Rollout
 
 ### Pixel 4a (5G) and newer Pixels
@@ -32,7 +30,14 @@ date: 2024-08-23
 
 ### All other devices
 
-* Pending
+* CalyxOS version: 5.10.3
+* Build number: Ends with `24510030`
+
+| Release channel  | Date   | Notes |
+| ---------------- | ------ | ------ |
+| Security express | 29 August, Thursday |  |
+| Beta | 30 August, Friday |  |
+| Stable | 2 September, Monday |  |
 
 ## Note
 
