@@ -37,7 +37,7 @@ date: 2024-08-23
 | ---------------- | ------ | ------ |
 | Security express | 29 August, Thursday |  |
 | Beta | 30 August, Friday |  |
-| Stable | 2 September, Monday |  |
+| Stable | 3 September, Tuesday |  |
 
 ## Note
 
