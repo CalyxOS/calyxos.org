@@ -51,7 +51,7 @@ Trusted comment: CalyxOS 5.2.0 - December 2023 Quarterly Platform Release & Secu
 * Place both files in the same folder, and then run:
 
 ```shell
-gpg --recv-keys BC2CB9C4993C086FFDAD8D205905C9C74693488B
+gpg --keyserver keys.openpgp.org --recv-keys BC2CB9C4993C086FFDAD8D205905C9C74693488B
 gpg --verify minisign.pub.sig minisign.pub
 ```
 
