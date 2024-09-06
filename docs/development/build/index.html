@@ -136,16 +136,16 @@
 <h4 id="hardware-requirements">Hardware requirements</h4>
 <ul>
   <li>Android building is a very intensive process, and requires a lot of resources</li>
-  <li>Approximately 250GB of free disk space (preferably on a fast SSD), more if you want to build for multiple devices</li>
-  <li>At least 16GB of RAM, although 32GB or 64GB will give you a much better experience, especially if trying to use the computer while building</li>
-  <li>A reasonably fast / unmetered internet connection, as the initial source code download is quite large (approximately 50GB)</li>
+  <li>Approximately 500GB of free disk space (preferably on a fast SSD), more if you want to build for multiple devices</li>
+  <li>At least 32GB of RAM, although 64GB or higher will give you a much better experience, especially if trying to use the computer while building</li>
+  <li>A reasonably fast / unmetered internet connection, as the initial source code download is quite large (approximately 100GB)</li>
 </ul>
 
 <h4 id="install-packages">Install packages</h4>
 
 <p>For Debian Stable and other Debian based distros:</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt update <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>apt <span class="nb">install </span>bc curl default-jdk-headless default-jre-headless git libncurses5 libncurses5-dev libssl-dev lz4 m4 python3-lxml python3-protobuf python3-yaml python-is-python3 rsync zip
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt update <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>apt <span class="nb">install </span>bc curl default-jdk-headless default-jre-headless git git-lfs libncurses5 libncurses5-dev libssl-dev lz4 m4 python3-lxml python3-protobuf python3-yaml python-is-python3 rsync zip
 </code></pre></div></div>
 
 <p>Other distributions may have the same or similar names for packages.</p>
@@ -171,7 +171,7 @@ curl https://storage.googleapis.com/git-repo-downloads/repo <span class="o">&gt;
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir</span> ~/calyxos/android14
 <span class="nb">cd</span> ~/calyxos/android14
-repo init <span class="nt">-u</span> https://gitlab.com/CalyxOS/platform_manifest <span class="nt">-b</span> android14
+repo init <span class="nt">--git-lfs</span> <span class="nt">-u</span> https://gitlab.com/CalyxOS/platform_manifest <span class="nt">-b</span> android14
 repo <span class="nb">sync</span> <span class="nt">-j8</span> <span class="c"># You may use a higher number here if you have a fast computer and fast internet</span>
 </code></pre></div></div>
 
