@@ -2,7 +2,7 @@
 title: Install on Fairphone 5
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="">Fairphone 5 Downloads temporarily removed</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/FP5/">Fairphone 5</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">
