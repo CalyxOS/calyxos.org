@@ -187,7 +187,7 @@
 
 <h3 id="download-device-flasher">Download device-flasher</h3>
 
-<p><a class="btn" href="https://release.calyxinstitute.org/device-flasher/1.0.9/device-flasher.exe">Download device-flasher.exe</a></p>
+<p><a class="btn" href="https://release.calyxinstitute.org/device-flasher/1.0.10/device-flasher.exe">Download device-flasher.exe</a></p>
 
 <p>Save this executable to a new directory, where you will also later save the CalyxOS image.</p>
 
@@ -198,11 +198,11 @@
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CertUtil -hashfile device-flasher.exe SHA256
 </code></pre></div></div>
 
-<p>And ensure the result says <code class="language-plaintext highlighter-rouge">111266318eb60a3f7094566ee0252e36bc5be12fb551aea03a19edce91ed70a3</code>. This is the unique digest of the device-flasher. If it doesn’t match, then you have a corrupted or incorrect file.</p>
+<p>And ensure the result says <code class="language-plaintext highlighter-rouge">0e97823c27e9ed8d98cdab61e09fbaf9ae6d102913fa75df16ed1b7010100127</code>. This is the unique digest of the device-flasher. If it doesn’t match, then you have a corrupted or incorrect file.</p>
 
 <h3 id="download-factory-image">Download factory image</h3>
 
-<p><a class="btn" href="https://release.calyxinstitute.org/rhode-factory-24509002.zip">Download CalyxOS Image</a></p>
+<p><a class="btn" href="https://release.calyxinstitute.org/rhode-factory-24510032.zip">Download CalyxOS Image</a></p>
 
 <p>Save this image in the same directory as device-flasher. This image will <strong>only</strong> work for <strong>Moto G52 (rhode)</strong>. Any attempt to install this image on a different device model may brick (destroy) the Android device.</p>
 
@@ -214,14 +214,14 @@
 
 <p>To verify the image, open a terminal window on the host computer where you saved the image and run the command:</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CertUtil <span class="nt">-hashfile</span> rhode-factory-24509002.zip SHA256
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CertUtil <span class="nt">-hashfile</span> rhode-factory-24510032.zip SHA256
 </code></pre></div></div>
 
-<p>And ensure the result says <code class="language-plaintext highlighter-rouge">e0ae283961c3271b89721960fa8de7a3eb40b1909ba6845cbbed2ffc5d0a48dc</code>. This is the unique digest of the image file. If it doesn’t match, then you have a corrupted or incorrect file.</p>
+<p>And ensure the result says <code class="language-plaintext highlighter-rouge">5cd7c11a5c6cb6f604578514e28c418af6abe42f6269e7f2f4b54a9613e67741</code>. This is the unique digest of the image file. If it doesn’t match, then you have a corrupted or incorrect file.</p>
 
 <h4 id="verify-signature">Verify Signature</h4>
 
-<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/rhode-factory-24509002.zip.minisig">download the signature file</a> and then <a href="/install/verify/">verify image signature</a>.</p>
+<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/rhode-factory-24510032.zip.minisig">download the signature file</a> and then <a href="/install/verify/">verify image signature</a>.</p>
 
 <h2 id="install-calyxos">Install CalyxOS</h2>
 
