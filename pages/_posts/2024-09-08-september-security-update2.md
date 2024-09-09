@@ -3,16 +3,24 @@ title: September 2024 Security update, take two
 date: 2024-09-08
 ---
 
-* CalyxOS 5.11.1 - September 2024 Security update for Pixel 5 series, FP4, FP5 and Motos
-* Pixel 3, 3a, 4, 4a work in progress
-* Android 15 also work in progress
+* CalyxOS 5.11.1 - September 2024 Security update for Pixel 3 - 5, FP4, FP5 and Motos
+* Android 15 work in progress
 
 ## Rollout
 
+### Pixel 5 series, FP4, FP5 and Motos
 
 | Release channel  | Date   | Notes |
 | ---------------- | ------ | ------ |
 | Security express | 8 September, Sunday |  |
+| Beta | 9 September, Monday |  |
+| Stable | 10 September, Tuesday | |
+
+### Pixel 3, 3a, 4, 4a
+
+| Release channel  | Date   | Notes |
+| ---------------- | ------ | ------ |
+| Security express | 9 September, Monday |  |
 | Beta | 9 September, Monday |  |
 | Stable | 10 September, Tuesday | |
 
