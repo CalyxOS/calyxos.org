@@ -69,6 +69,24 @@
       "parentUuid": "b540f6d7_14c052d6",
       "revId": "993dea3f71cd749ff607acf1460f31d9a9e209aa",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2cd113a0_dd066fab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-09-10T13:27:14Z",
+      "side": 1,
+      "message": "Server doesn\u0027t deal with ruby version at all, feel free to upgrade as needed.",
+      "parentUuid": "485621a1_1afceedc",
+      "revId": "993dea3f71cd749ff607acf1460f31d9a9e209aa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
