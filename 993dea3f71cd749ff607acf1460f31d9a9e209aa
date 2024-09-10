@@ -51,6 +51,24 @@
       "parentUuid": "320387d7_3316e220",
       "revId": "993dea3f71cd749ff607acf1460f31d9a9e209aa",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "485621a1_1afceedc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-09-10T06:19:41Z",
+      "side": 1,
+      "message": "Done for the CI image. I am not sure how the server manages the ruby version, so that is left.",
+      "parentUuid": "b540f6d7_14c052d6",
+      "revId": "993dea3f71cd749ff607acf1460f31d9a9e209aa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
