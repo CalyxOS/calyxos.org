@@ -8,8 +8,10 @@ upcoming_codenames:
   - komodo
   - caiman
   - tokay
+  - otter
 upcoming_brands:
   - pixel
+  - shift
 modern_codenames:
   - akita
   - husky
@@ -307,6 +309,15 @@ axolotl:
   calyxos_support_ends: 2024-08
   sim: "dual"
   esim: "no"
+  android: 14
+  web_install: false
+otter:
+  brand: shift
+  model: SHIFTphone 8
+  manufacturer_support_ends: tbc
+  calyxos_support_ends: tbd
+  sim: "dual"
+  esim: "yes"
   android: 14
   web_install: false
 devon:
