@@ -39,6 +39,6 @@ Steps:
    * `autoninja -C out/Default trichrome_chrome_64_32_bundle trichrome_library_64_32_apk trichrome_webview_64_32_apk system_webview_shell_apk`
 6. Process output
    * `cd ~/chromium/src/out/Default/apks`
-   * `java -jar ../../../third_party/android_build_tools/bundletool/bundletool.jar build-apks --mode universal --bundle TrichromeChrome6432.aab --output . --output-format DIRECTORY`
+   * `java -jar ../../../third_party/android_build_tools/bundletool/cipd/bundletool.jar build-apks --mode universal --bundle TrichromeChrome6432.aab --output . --output-format DIRECTORY`
 7. Done
    * You can now copy the APKs to `prebuilts/calyx/chromium/arm64/` for usage in the OS build.
