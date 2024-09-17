@@ -87,6 +87,24 @@
       "parentUuid": "485621a1_1afceedc",
       "revId": "993dea3f71cd749ff607acf1460f31d9a9e209aa",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4cffd55a_a273be71",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000084
+      },
+      "writtenOn": "2024-09-17T18:35:42Z",
+      "side": 1,
+      "message": "the main compatibility issues we had recently have had do with default gems like strscan that get stuck sometimes in debian versions, but otherwise I see no reason not to use ruby 3.3 and updated gems",
+      "parentUuid": "2cd113a0_dd066fab",
+      "revId": "993dea3f71cd749ff607acf1460f31d9a9e209aa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
