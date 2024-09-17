@@ -34,6 +34,24 @@
       "parentUuid": "902b30fb_fa27e3a5",
       "revId": "a1382d964de77b8309670ddb070d1ea9a1c8801a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6406b508_67a7263a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000084
+      },
+      "writtenOn": "2024-09-17T20:32:58Z",
+      "side": 1,
+      "message": "Resolved the ruby warnings. I still see a couple of sass errors though...",
+      "parentUuid": "0ea13efb_f2e9a47c",
+      "revId": "a1382d964de77b8309670ddb070d1ea9a1c8801a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
