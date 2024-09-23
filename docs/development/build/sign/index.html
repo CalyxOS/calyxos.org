@@ -150,7 +150,7 @@
 
 <p>Example:</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./vendor/calyx/scripts/mkkeys.sh keys/bluejay <span class="s1">'/C=US/ST=California/L=Mountain View/O=Android/OU=Android/CN=Android/emailAddress=android@android.com'</span> <span class="c"># Replace bluejay with your device</span>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./vendor/calyx/scripts/mkkeys.sh keys/akita <span class="s1">'/C=US/ST=California/L=Mountain View/O=Android/OU=Android/CN=Android/emailAddress=android@android.com'</span> <span class="c"># Replace akita with your device</span>
 ./vendor/calyx/scripts/mkcommonkeys.sh keys/common <span class="s1">'/C=US/ST=California/L=Mountain View/O=Android/OU=Android/CN=Android/emailAddress=android@android.com'</span>
 </code></pre></div></div>
 
@@ -165,19 +165,19 @@
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">BUILD_NUMBER</span><span class="o">=</span>eng.<span class="nv">$USERNAME</span>.date <span class="c"># Get this from the filename</span>
 unzip otatools.zip
-./vendor/calyx/scripts/release.sh bluejay calyx_bluejay-target_files-<span class="k">${</span><span class="nv">BUILD_NUMBER</span><span class="k">}</span>.zip <span class="c"># Replace bluejay with your device</span>
+./vendor/calyx/scripts/release.sh akita calyx_akita-target_files-<span class="k">${</span><span class="nv">BUILD_NUMBER</span><span class="k">}</span>.zip <span class="c"># Replace akita with your device</span>
 </code></pre></div></div>
 
 <h4 id="generate-incremental-otas">Generate incremental OTAs</h4>
 <p>If you have an older build, you should symlink that to ‘archive’, and then you can generate an incremental OTA using:</p>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">PREV_BUILD_NUMBER</span><span class="o">=</span>eng.<span class="nv">$USERNAME</span>.prevdate <span class="c"># Get this from the filename</span>
-./vendor/calyx/scripts/generate_delta.sh bluejay <span class="k">${</span><span class="nv">PREV_BUILD_NUMBER</span><span class="k">}</span> <span class="k">${</span><span class="nv">BUILD_NUMBER</span><span class="k">}</span> <span class="c"># Replace bluejay with your device</span>
+./vendor/calyx/scripts/generate_delta.sh akita <span class="k">${</span><span class="nv">PREV_BUILD_NUMBER</span><span class="k">}</span> <span class="k">${</span><span class="nv">BUILD_NUMBER</span><span class="k">}</span> <span class="c"># Replace akita with your device</span>
 </code></pre></div></div>
 
 <h4 id="generate-metadata-for-the-update-server">Generate metadata for the update server</h4>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./vendor/calyx/scripts/generate_metadata.py out/release-bluejay-<span class="k">${</span><span class="nv">BUILD_NUMBER</span><span class="k">}</span>/bluejay-ota_update-<span class="k">${</span><span class="nv">BUILD_NUMBER</span><span class="k">}</span>.zip <span class="c"># Replace bluejay with your device</span>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./vendor/calyx/scripts/generate_metadata.py out/release-akita-<span class="k">${</span><span class="nv">BUILD_NUMBER</span><span class="k">}</span>/akita-ota_update-<span class="k">${</span><span class="nv">BUILD_NUMBER</span><span class="k">}</span>.zip <span class="c"># Replace akita with your device</span>
 </code></pre></div></div>
 
 <p><br /></p>

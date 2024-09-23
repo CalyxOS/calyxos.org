@@ -130,14 +130,14 @@
   <li>Place all 3 files in the same folder, and then run:</li>
 </ul>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>minisign <span class="nt">-Vm</span> bluejay-factory-23502000.zip <span class="nt">-p</span> minisign.pub
-<span class="c"># bluejay is Pixel 6a, replace with your device</span>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>minisign <span class="nt">-Vm</span> akita-factory-24509000.zip <span class="nt">-p</span> minisign.pub
+<span class="c"># akita is Pixel 8a, replace with your device</span>
 </code></pre></div></div>
 
 <p>It should output (comment may differ as per release):</p>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Signature and comment signature verified
-Trusted comment: CalyxOS 5.2.0 - December 2023 Quarterly Platform Release &amp; Security update
+Trusted comment: CalyxOS 5.9.0 - July 2024 Security update
 </code></pre></div></div>
 
 <p><br /></p>
@@ -176,45 +176,45 @@ Primary key fingerprint: BC2C B9C4 993C 086F FDAD  8D20 5905 C9C7 4693 488B
 <ul>
   <li>SHA256 checksums are available for all factory images and OTA updates.</li>
   <li>You can run the below command and make sure the hash matches what’s shown on <a href="/get/">Get CalyxOS</a> or <a href="/get/ota/">CalyxOS OTA updates</a></li>
-  <li>You can also simply append <code class="language-plaintext highlighter-rouge">.sha256sum</code> to the download URL for any file to get them, e.g. <a href="https://release.calyxinstitute.org/bluejay-factory-23502000.zip.sha256sum">https://release.calyxinstitute.org/bluejay-factory-23502000.zip.sha256sum</a></li>
+  <li>You can also simply append <code class="language-plaintext highlighter-rouge">.sha256sum</code> to the download URL for any file to get them, e.g. <a href="https://release.calyxinstitute.org/akita-factory-24509000.zip.sha256sum">https://release.calyxinstitute.org/akita-factory-24509000.zip.sha256sum</a></li>
 </ul>
 
 <h5 id="linux">Linux</h5>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sha256sum </span>bluejay-factory-23502000.zip
-<span class="c"># bluejay is Pixel 6a, replace with your device</span>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sha256sum </span>akita-factory-24509000.zip
+<span class="c"># akita is Pixel 8a, replace with your device</span>
 </code></pre></div></div>
 
 <p>It should output:</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>713180eb98b17ef2787ab1d7cf80c087b8d5922208d7161048e2a90d6646d357  bluejay-factory-23502000.zip
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>66d091f4788ea93cd9a4e5be8ecd5de4ea74c29785e99343aa106bed3bea62f3  akita-factory-24509000.zip
 </code></pre></div></div>
 
 <p><br /></p>
 
 <h5 id="macos">macOS</h5>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>shasum <span class="nt">-a</span> 256 bluejay-factory-23502000.zip
-<span class="c"># bluejay is Pixel 6a, replace with your device</span>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>shasum <span class="nt">-a</span> 256 akita-factory-24509000.zip
+<span class="c"># akita is Pixel 8a, replace with your device</span>
 </code></pre></div></div>
 
 <p>It should output:</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>713180eb98b17ef2787ab1d7cf80c087b8d5922208d7161048e2a90d6646d357  bluejay-factory-23502000.zip
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>66d091f4788ea93cd9a4e5be8ecd5de4ea74c29785e99343aa106bed3bea62f3  akita-factory-24509000.zip
 </code></pre></div></div>
 
 <p><br /></p>
 
 <h5 id="windows">Windows</h5>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>certUtil <span class="nt">-hashfile</span> bluejay-factory-23502000.zip SHA256
-<span class="c"># bluejay is Pixel 6a, replace with your device</span>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>certUtil <span class="nt">-hashfile</span> akita-factory-24509000.zip SHA256
+<span class="c"># akita is Pixel 8a, replace with your device</span>
 </code></pre></div></div>
 
 <p>It should output:</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SHA256 <span class="nb">hash </span>of bluejay-factory-23502000.zip:
-713180eb98b17ef2787ab1d7cf80c087b8d5922208d7161048e2a90d6646d357
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SHA256 <span class="nb">hash </span>of akita-factory-24509000.zip:
+66d091f4788ea93cd9a4e5be8ecd5de4ea74c29785e99343aa106bed3bea62f3
 CertUtil: <span class="nt">-hashfile</span> <span class="nb">command </span>completed successfully.
 </code></pre></div></div>
 
@@ -234,7 +234,7 @@ CertUtil: <span class="nt">-hashfile</span> <span class="nb">command </span>comp
   </li>
 </ul>
 
-<p>Hint: You can press <code class="language-plaintext highlighter-rouge">t</code> on these pages to quick jump to a filename (e.g. <code class="language-plaintext highlighter-rouge">bluejay-factory-23502000</code>)</p>
+<p>Hint: You can press <code class="language-plaintext highlighter-rouge">t</code> on these pages to quick jump to a filename (e.g. <code class="language-plaintext highlighter-rouge">akita-factory-24509000</code>)</p>
 
 
       </section>

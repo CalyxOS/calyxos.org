@@ -180,14 +180,14 @@ repo <span class="nb">sync</span> <span class="nt">-j8</span> <span class="c"># 
 <h5 id="proprietary-files">Proprietary files</h5>
 <p>Phones need a lot of proprietary files to boot and for all hardware to work, we have automated scripts to download and set them up.</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./calyx/scripts/pixel/device.sh bluejay <span class="c"># Replace bluejay (Pixel 6a) with your device codename here</span>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./calyx/scripts/pixel/device.sh akita <span class="c"># Replace akita (Pixel 8a) with your device codename here</span>
 </code></pre></div></div>
 
 <h3 id="building">Building</h3>
 <p>You made it this far! Now you can finally build CalyxOS</p>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">source </span>build/envsetup.sh
-breakfast bluejay user <span class="c"># Replace bluejay (Pixel 6a) with your device codename here and user with userdebug if you want a debug build</span>
+breakfast akita user <span class="c"># Replace akita (Pixel 8a) with your device codename here and user with userdebug if you want a debug build</span>
 m <span class="c"># Yes, just the letter 'm'</span>
 </code></pre></div></div>
 
