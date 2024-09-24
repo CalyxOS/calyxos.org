@@ -13,9 +13,9 @@ It has it's own build system and is built separately.
 CalyxOS usually tracks the Chrome Android stable release, you can see the latest version at <https://chromiumdash.appspot.com/releases?platform=Android>.
 Look for the first version under 'Stable'
 
-Stable version at time of writing this: 120.0.6099.144
+Stable version at time of writing this: 129.0.6668.54
 
-`export V=120.0.6099.144 # Replace this with the correct version`
+`export V=129.0.6668.54 # Replace this with the correct version`
 
 ## Short version
 * This assumes you have a Chromium build environment already setup and have built it before
@@ -36,7 +36,8 @@ Steps:
    * You want to fill out the args from `~/chromium/src/args.gn` now.
    * You can also modify `target_cpu` if needed.
 5. Build
-   * `autoninja -C out/Default trichrome_chrome_64_32_bundle trichrome_library_64_32_apk trichrome_webview_64_32_apk system_webview_shell_apk`
+   * **IMPORTANT**: We are working to resolve [build issues with Chromium 129](https://gitlab.com/CalyxOS/calyxos/-/issues/2715) that make it necessary to run autoninja multiple times before a successful build is achieved. In the meantime, we have updated the command below with a workaround. Thanks for your patience.
+   * `for i in $(seq 1 5); do autoninja -k 0 -C out/Default trichrome_chrome_64_32_bundle trichrome_library_64_32_apk trichrome_webview_64_32_apk system_webview_shell_apk && break; done`
 6. Process output
    * `cd ~/chromium/src/out/Default/apks`
    * `java -jar ../../../third_party/android_build_tools/bundletool/cipd/bundletool.jar build-apks --mode universal --bundle TrichromeChrome6432.aab --output . --output-format DIRECTORY`
