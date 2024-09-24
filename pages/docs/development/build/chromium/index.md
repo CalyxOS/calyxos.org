@@ -13,9 +13,12 @@ It has it's own build system and is built separately.
 CalyxOS usually tracks the Chrome Android stable release, you can see the latest version at <https://chromiumdash.appspot.com/releases?platform=Android>.
 Look for the first version under 'Stable'
 
-Stable version at time of writing this: 120.0.6099.144
+Stable version at time of writing this: 129.0.6668.54
 
-`export V=120.0.6099.144 # Replace this with the correct version`
+`export V=129.0.6668.54 # Replace this with the correct version`
+
+> **IMPORTANT**: We are aware of and working to resolve [build issues with Chromium 129](https://gitlab.com/CalyxOS/calyxos/-/issues/2715) that make it necessary to run `autoninja` multiple times before a successful build is achieved.
+> To reduce the number of tries needed, it is recommended to use `autoninja` with `-k 0` to allow the build process to continue after the first failure.
 
 ## Short version
 * This assumes you have a Chromium build environment already setup and have built it before
