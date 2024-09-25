@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>February Security update</title>
+  <title>September 2024 Feature update</title>
   
-  <meta name="description" content="February Security update" />
+  <meta name="description" content="September 2024 Feature update" />
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="alternate" type="application/rss+xml" title="CalyxOS" href="/feed.xml">
   <script src="/assets/js/main.js" defer></script>
@@ -65,26 +65,102 @@
     <main>
       <section class="secondaryIntro">
         <div class="wrapper">
-          <h1><span class="highlighter">February Security update</span></h1>
+          <h1><span class="highlighter">September 2024 Feature update</span></h1>
           
         </div>
       </section>
       <section class="content primaryContent wrapper">
         
-        <p>CalyxOS 4.6.0 - February 2023 Security update is now available for the Pixels 3 - 7, and the Fairphone 4</p>
-
-<p>It was released on stable on Monday, 13 February.</p>
-
-<h2 id="changelog">Changelog</h2>
-<ul>
-  <li>CalyxOS 4.6.0</li>
-  <li>February 2023 Security update</li>
-  <li>Chromium 109.0.5414.117 (110 work in progress)</li>
-  <li>Fix Firewall VPN handling, again</li>
-  <li>Set “Play Store” as installer when installing from Aurora Store to make some apps work</li>
+        <ul>
+  <li>CalyxOS 5.11.2 - September 2024 Feature update for Pixel 4 and newer, Fairphone, Motorola</li>
+  <li>Android 15, Pixel 9 work in progress</li>
+  <li>Pixel 3, 3a, SHIFT6MQ are EOL, but will receive another update</li>
 </ul>
 
-<h3 id="note">Note</h3>
+<h2 id="calyxos-5112">CalyxOS 5.11.2</h2>
+<h3 id="rollout">Rollout</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Release channel</th>
+      <th>Date</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Beta</td>
+      <td>25 September, Wednesday</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Security express</td>
+      <td>27 September, Friday</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Stable</td>
+      <td>2 October, Wednesday</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="changelog">Changelog</h3>
+<ul>
+  <li>CalyxOS 5.11.2</li>
+  <li>September 2024 Feature update</li>
+  <li>microG: Fix unexpected registration and notifications state <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2674">#2674</a></li>
+  <li>System: Fixes for VPN-covered DNS traffic <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/">#2660</a>, <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2660">#2680</a></li>
+  <li>Chromium: 129.0.6668.54 (latest stable)</li>
+  <li>Chromium: Switch to self-hosted adblock filter <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2679">#2679</a></li>
+  <li>Chromium: Fix some AMP / Google News links <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2689">#2689</a></li>
+  <li>Chromium: Prevent some unwanted sign-in-related connections <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2703">#2703</a></li>
+  <li>Seedvault: Update to <a href="https://github.com/seedvault-app/seedvault/releases/tag/14-4.1">14-4.1</a>, many new features included</li>
+  <li>Seedvault: It is now possible to restore after setting up a profile</li>
+  <li>Seedvault: It is now possible to select what to restore (e.g. apps, files…)</li>
+  <li>Firewall: Refresh app list on new install &amp; uninstalls</li>
+  <li>Firewall: Fix handling of VPN-only apps after restore of backup <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2586">#2586</a></li>
+  <li>Firewall: Fix blocking of updated apps that newly have INTERNET permission <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2657">#2657</a></li>
+  <li>Camera: Fix front camera intent preview mirroring</li>
+  <li>Camera: Add support for mute button and mic mute gesture</li>
+  <li>Calendar: Updates from upstream Etar, version 1.0.47</li>
+  <li>Messaging: Fix animated GIFs <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2535">#2535</a></li>
+  <li>Work Hours: Fix stopping of work profile on second reminder <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2462">#2462</a></li>
+  <li>Update all included apps</li>
+</ul>
+
+<h2 id="android-15">Android 15</h2>
+<ul>
+  <li>Work in progress</li>
+  <li>Still waiting for Google to release it for the Pixels to get the required proprietary files</li>
+</ul>
+
+<h2 id="pixel-9">Pixel 9</h2>
+<ul>
+  <li>Work in progress, will be released after Android 15</li>
+</ul>
+
+<h2 id="pixel-4-4a">Pixel 4, 4a</h2>
+<ul>
+  <li>We’re looking into possibilities to extend support for these devices further.</li>
+  <li>The options are:
+    <ul>
+      <li>Get Android 15 working on these, and support that for some time</li>
+      <li>Keep Android 14 maintained further to extend support</li>
+    </ul>
+  </li>
+  <li>We’ll post an update once we have some more info.</li>
+</ul>
+
+<h2 id="pixel-3-3a-shift6mq">Pixel 3, 3a, SHIFT6MQ</h2>
+<ul>
+  <li>We’re ending support for these devices</li>
+  <li>We will release another update or two with as many bugfixes as possible, to have a better last build</li>
+</ul>
+
+<h2 id="note">Note</h2>
 
 <div class="alert alert-info" style="margin-top: 3rem">
 <ul>
@@ -110,7 +186,6 @@
   </li>
 </ul>
 </div>
-
 
 
       </section>
@@ -155,7 +230,7 @@
     <div class="row">
       <a href="https://calyxinstitute.org" target="_blank" rel="noreferrer nooopener">&copy; 2021-2024 Calyx Institute</a>
       <span class="spacer" aria-hidden="true">&bull;</span>
-      <a target="_blank" href="https://review.calyxos.org/admin/repos/edit/repo/CalyxOS/calyxos.org/branch/refs/heads/main/file/pages/_posts/2023-02-08-february-security-update.md">Edit page</a>
+      <a target="_blank" href="https://review.calyxos.org/admin/repos/edit/repo/CalyxOS/calyxos.org/branch/refs/heads/main/file/pages/_posts/2024-09-25-september-feature-update.md">Edit page</a>
     </div>
     <div class="row">
       <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer nofollow" title="License: Attribution-ShareAlike 4.0 International"><img class="filter-grey" style="height: 24px" src="/assets/images/icons/cc-by-sa.svg" /></a>
