@@ -1,4 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-09-24T19:58:32+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">September 2024 Security update, take two</title><link href="/news/2024/09/08/september-security-update2/" rel="alternate" type="text/html" title="September 2024 Security update, take two" /><published>2024-09-08T00:00:00+05:30</published><updated>2024-09-08T00:00:00+05:30</updated><id>/news/2024/09/08/september-security-update2</id><content type="html" xml:base="/news/2024/09/08/september-security-update2/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-09-25T19:28:41+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">September 2024 Feature update</title><link href="/news/2024/09/25/september-feature-update/" rel="alternate" type="text/html" title="September 2024 Feature update" /><published>2024-09-25T00:00:00+05:30</published><updated>2024-09-25T00:00:00+05:30</updated><id>/news/2024/09/25/september-feature-update</id><content type="html" xml:base="/news/2024/09/25/september-feature-update/"><![CDATA[<ul>
+  <li>CalyxOS 5.11.2 - September 2024 Feature update for Pixel 4 and newer, Fairphone, Motorola</li>
+  <li>Android 15, Pixel 9 work in progress</li>
+  <li>Pixel 3, 3a, SHIFT6MQ are EOL, but will receive another update</li>
+</ul>
+
+<h2 id="calyxos-5112">CalyxOS 5.11.2</h2>
+<h3 id="rollout">Rollout</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Release channel</th>
+      <th>Date</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Beta</td>
+      <td>25 September, Wednesday</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Security express</td>
+      <td>27 September, Friday</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Stable</td>
+      <td>2 October, Wednesday</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="changelog">Changelog</h3>
+<ul>
+  <li>CalyxOS 5.11.2</li>
+  <li>September 2024 Feature update</li>
+  <li>microG: Fix unexpected registration and notifications state <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2674">#2674</a></li>
+  <li>System: Fixes for VPN-covered DNS traffic <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/">#2660</a>, <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2660">#2680</a></li>
+  <li>Chromium: 129.0.6668.54 (latest stable)</li>
+  <li>Chromium: Switch to self-hosted adblock filter <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2679">#2679</a></li>
+  <li>Chromium: Fix some AMP / Google News links <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2689">#2689</a></li>
+  <li>Chromium: Prevent some unwanted sign-in-related connections <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2703">#2703</a></li>
+  <li>Seedvault: Update to <a href="https://github.com/seedvault-app/seedvault/releases/tag/14-4.1">14-4.1</a>, many new features included</li>
+  <li>Seedvault: It is now possible to restore after setting up a profile</li>
+  <li>Seedvault: It is now possible to select what to restore (e.g. apps, files…)</li>
+  <li>Firewall: Refresh app list on new install &amp; uninstalls</li>
+  <li>Firewall: Fix handling of VPN-only apps after restore of backup <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2586">#2586</a></li>
+  <li>Firewall: Fix blocking of updated apps that newly have INTERNET permission <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2657">#2657</a></li>
+  <li>Camera: Fix front camera intent preview mirroring</li>
+  <li>Camera: Add support for mute button and mic mute gesture</li>
+  <li>Calendar: Updates from upstream Etar, version 1.0.47</li>
+  <li>Messaging: Fix animated GIFs <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2535">#2535</a></li>
+  <li>Work Hours: Fix stopping of work profile on second reminder <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2462">#2462</a></li>
+  <li>Update all included apps</li>
+</ul>
+
+<h2 id="android-15">Android 15</h2>
+<ul>
+  <li>Work in progress</li>
+  <li>Still waiting for Google to release it for the Pixels to get the required proprietary files</li>
+</ul>
+
+<h2 id="pixel-9">Pixel 9</h2>
+<ul>
+  <li>Work in progress, will be released after Android 15</li>
+</ul>
+
+<h2 id="pixel-4-4a">Pixel 4, 4a</h2>
+<ul>
+  <li>We’re looking into possibilities to extend support for these devices further.</li>
+  <li>The options are:
+    <ul>
+      <li>Get Android 15 working on these, and support that for some time</li>
+      <li>Keep Android 14 maintained further to extend support</li>
+    </ul>
+  </li>
+  <li>We’ll post an update once we have some more info.</li>
+</ul>
+
+<h2 id="pixel-3-3a-shift6mq">Pixel 3, 3a, SHIFT6MQ</h2>
+<ul>
+  <li>We’re ending support for these devices</li>
+  <li>We will release another update or two with as many bugfixes as possible, to have a better last build</li>
+</ul>
+
+<h2 id="note">Note</h2>
+
+<div class="alert alert-info" style="margin-top: 3rem">
+<ul>
+  <li>
+    <strong>Over-the-air Updates:</strong>
+    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
+  </li>
+  <li>
+    <strong>Security Updates:</strong>
+    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
+  </li>
+  <li>
+    <strong>Security Updates:</strong>
+    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
+  </li>
+  <li>
+    <strong>Security Updates:</strong>
+    The <strong>SHIFT6mq</strong> stock OS follows a different security update release schedule. The device is still supported by the manufacturer. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
+  </li>
+  <li>
+    <strong>End-of-life:</strong>
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+  </li>
+</ul>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 5.11.2 - September 2024 Feature update for Pixel 4 and newer, Fairphone, Motorola Android 15, Pixel 9 work in progress Pixel 3, 3a, SHIFT6MQ are EOL, but will receive another update]]></summary></entry><entry><title type="html">September 2024 Security update, take two</title><link href="/news/2024/09/08/september-security-update2/" rel="alternate" type="text/html" title="September 2024 Security update, take two" /><published>2024-09-08T00:00:00+05:30</published><updated>2024-09-08T00:00:00+05:30</updated><id>/news/2024/09/08/september-security-update2</id><content type="html" xml:base="/news/2024/09/08/september-security-update2/"><![CDATA[<ul>
   <li>CalyxOS 5.11.1 - September 2024 Security update for Pixel 3 - 5, FP4, FP5, motorola &amp; SHIFT6mq</li>
   <li>Android 15 work in progress</li>
 </ul>
@@ -116,7 +230,7 @@
   </li>
   <li>
     <strong>Security Updates:</strong>
-    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6, 5a (5G)</strong> contain the full security patch, as they are still being updated by Google.
+    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
   </li>
   <li>
     <strong>Security Updates:</strong>
@@ -128,7 +242,7 @@
   </li>
   <li>
     <strong>End-of-life:</strong>
-    The <strong>Pixel 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
 </div>
@@ -189,7 +303,7 @@
   </li>
   <li>
     <strong>Security Updates:</strong>
-    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6, 5a (5G)</strong> contain the full security patch, as they are still being updated by Google.
+    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
   </li>
   <li>
     <strong>Security Updates:</strong>
@@ -201,7 +315,7 @@
   </li>
   <li>
     <strong>End-of-life:</strong>
-    The <strong>Pixel 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
 </div>
@@ -307,7 +421,7 @@
   </li>
   <li>
     <strong>Security Updates:</strong>
-    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6, 5a (5G)</strong> contain the full security patch, as they are still being updated by Google.
+    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
   </li>
   <li>
     <strong>Security Updates:</strong>
@@ -319,7 +433,7 @@
   </li>
   <li>
     <strong>End-of-life:</strong>
-    The <strong>Pixel 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
 </div>
@@ -383,7 +497,7 @@
   </li>
   <li>
     <strong>Security Updates:</strong>
-    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6, 5a (5G)</strong> contain the full security patch, as they are still being updated by Google.
+    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
   </li>
   <li>
     <strong>Security Updates:</strong>
@@ -395,7 +509,7 @@
   </li>
   <li>
     <strong>End-of-life:</strong>
-    The <strong>Pixel 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
 </div>
@@ -465,7 +579,7 @@
   </li>
   <li>
     <strong>Security Updates:</strong>
-    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6, 5a (5G)</strong> contain the full security patch, as they are still being updated by Google.
+    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
   </li>
   <li>
     <strong>Security Updates:</strong>
@@ -477,7 +591,7 @@
   </li>
   <li>
     <strong>End-of-life:</strong>
-    The <strong>Pixel 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
 </div>
@@ -581,7 +695,7 @@
   </li>
   <li>
     <strong>Security Updates:</strong>
-    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6, 5a (5G)</strong> contain the full security patch, as they are still being updated by Google.
+    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
   </li>
   <li>
     <strong>Security Updates:</strong>
@@ -593,7 +707,7 @@
   </li>
   <li>
     <strong>End-of-life:</strong>
-    The <strong>Pixel 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
 </div>
@@ -654,7 +768,7 @@
   </li>
   <li>
     <strong>Security Updates:</strong>
-    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6, 5a (5G)</strong> contain the full security patch, as they are still being updated by Google.
+    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
   </li>
   <li>
     <strong>Security Updates:</strong>
@@ -666,7 +780,7 @@
   </li>
   <li>
     <strong>End-of-life:</strong>
-    The <strong>Pixel 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
 </div>
@@ -732,7 +846,7 @@
   </li>
   <li>
     <strong>Security Updates:</strong>
-    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6, 5a (5G)</strong> contain the full security patch, as they are still being updated by Google.
+    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
   </li>
   <li>
     <strong>Security Updates:</strong>
@@ -744,7 +858,7 @@
   </li>
   <li>
     <strong>End-of-life:</strong>
-    The <strong>Pixel 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
 </div>
@@ -827,7 +941,7 @@
   </li>
   <li>
     <strong>Security Updates:</strong>
-    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6, 5a (5G)</strong> contain the full security patch, as they are still being updated by Google.
+    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
   </li>
   <li>
     <strong>Security Updates:</strong>
@@ -839,7 +953,7 @@
   </li>
   <li>
     <strong>End-of-life:</strong>
-    The <strong>Pixel 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
 </div>
@@ -848,140 +962,4 @@
 
 <ul>
   <li>If you’re having trouble trying to post messages to the <a href="https://matrix.to/#/#CalyxOS:matrix.org">#CalyxOS</a> matrix channel, try to leave the channel if possible, and then try writing <code class="language-plaintext highlighter-rouge">/join #CalyxOS:matrix.org</code> in any chat in Matrix. That should re-connect you to the channel.</li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 5.7.3 for FP5, FP4, Pixel 3a, 3a XL, 3, 3 XL Bugfixes, mostly]]></summary></entry><entry><title type="html">May 2024 Feature update</title><link href="/news/2024/05/24/may-feature-update/" rel="alternate" type="text/html" title="May 2024 Feature update" /><published>2024-05-24T00:00:00+05:30</published><updated>2024-05-24T00:00:00+05:30</updated><id>/news/2024/05/24/may-feature-update</id><content type="html" xml:base="/news/2024/05/24/may-feature-update/"><![CDATA[<ul>
-  <li>CalyxOS 5.7.2 for all supported devices except Pixel 8a, 3a, 3a XL, 3, 3 XL</li>
-  <li>SeedVault, microG, Chromium updates and more</li>
-</ul>
-
-<h2 id="pixel-8a">Pixel 8a</h2>
-<ul>
-  <li>The current version of CalyxOS available for the Pixel 8a <code class="language-plaintext highlighter-rouge">akita</code> is 5.7.1</li>
-  <li>Google is using an older version of their codebase for this device, and as such so are we</li>
-  <li>We’re hoping they start using the same version of the codebase for all the Pixels next month (June) to make our work easier.</li>
-</ul>
-
-<h3 id="pixel-3a-3a-xl-3-3-xl">Pixel 3a, 3a XL, 3, 3 XL</h3>
-<ul>
-  <li>Release delayed due to telephony issues, working on it</li>
-</ul>
-
-<h2 id="rollout">Rollout</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Release channel</th>
-      <th>Date</th>
-      <th>Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Beta</td>
-      <td>24 May, Friday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Security express</td>
-      <td>28 May, Tuesday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Stable</td>
-      <td>29 May, Wednesday</td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="changelog">Changelog</h2>
-<ul>
-  <li>CalyxOS 5.7.2</li>
-  <li>May 2024 Feature update</li>
-  <li>Bluetooth: Fix file sharing and connection to certain devices such as Pebble.</li>
-  <li>SeedVault: Add a built-in WebDAV plugin to directly backup to Nextcloud and more.</li>
-  <li>SeedVault: Show backup size</li>
-  <li>SeedVault: Various bugfixes and improvements all around</li>
-  <li>Chromium: 125.0.6422.71</li>
-  <li>microG: v0.3.2.240913</li>
-  <li>Fix “No service” being displayed for certain carriers even when everything was working</li>
-  <li>Chromium: Fix crash when following certain links</li>
-  <li>Chromium: Support saving crash reports</li>
-  <li>microG: Improve support for sign-in to Google account in various apps and Games.</li>
-  <li>microG: Fix push notification sent_time delivery. Will help apps such as Telegram.</li>
-  <li>microG: Fix dynamic links with React Native. Will help with certain apps.</li>
-  <li>microG: Fix map in Signal location sharing.</li>
-  <li>microG: Fix location updates not being reported properly</li>
-  <li>Status bar: Allow toggling VPN icon</li>
-  <li>Gallery: Fix editing crash</li>
-  <li>Launcher: Fix “Turn off work apps” not working sometimes</li>
-  <li>Updated translations for the OS and apps</li>
-  <li>Update all included apps</li>
-</ul>
-
-<h3 id="pixel-tablet">Pixel Tablet</h3>
-<ul>
-  <li>Enable aspect ratio setting for apps</li>
-</ul>
-
-<h3 id="fp5">FP5</h3>
-<ul>
-  <li>Set default peak refresh rate to 60</li>
-  <li>Added double tap to wake setting</li>
-  <li>Don’t try to play many-channel audio as is</li>
-  <li>Updated to stock TT4D</li>
-  <li>Added audio amplifier HAL, should improve speaker protection in high volume</li>
-  <li>Enabled WiFi RTT/AWARE</li>
-  <li>Removed serial number access from GPS XTRA data</li>
-  <li>Enabled call recording support</li>
-  <li>Fixed manual network scanning</li>
-  <li>Updated CarrierConfig from TT4D</li>
-  <li>Enabled new auto selection network UI</li>
-  <li>Updated auto brightness tuning from stock OS</li>
-  <li>Added color profiles in display settings</li>
-  <li>Enabled AOD support</li>
-</ul>
-
-<h3 id="fp4">FP4</h3>
-<ul>
-  <li>Don’t try to play many-channel audio as is</li>
-  <li>Add 5G RAT for e-SIM</li>
-  <li>Make wfc Roaming preference available globally</li>
-  <li>Update CarrierConfig from TP2D</li>
-  <li>Disable fluence, improves incall mic issues</li>
-  <li>Correct battery capacity in power profile, corrects what 3rd party apps report</li>
-  <li>Added color profiles in display settings</li>
-</ul>
-
-<h2 id="note">Note</h2>
-
-<div class="alert alert-info" style="margin-top: 3rem">
-<ul>
-  <li>
-    <strong>Over-the-air Updates:</strong>
-    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6, 5a (5G)</strong> contain the full security patch, as they are still being updated by Google.
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>SHIFT6mq</strong> stock OS follows a different security update release schedule. The device is still supported by the manufacturer. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
-    <strong>End-of-life:</strong>
-    The <strong>Pixel 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
-  </li>
-</ul>
-</div>
-
-<h2 id="matrix-channel">Matrix channel</h2>
-
-<ul>
-  <li>If you’re having trouble trying to post messages to the <a href="https://matrix.to/#/#CalyxOS:matrix.org">#CalyxOS</a> matrix channel, try to leave the channel if possible, and then try writing <code class="language-plaintext highlighter-rouge">/join #CalyxOS:matrix.org</code> in any chat in Matrix. That should re-connect you to the channel.</li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 5.7.2 for all supported devices except Pixel 8a, 3a, 3a XL, 3, 3 XL SeedVault, microG, Chromium updates and more]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 5.7.3 for FP5, FP4, Pixel 3a, 3a XL, 3, 3 XL Bugfixes, mostly]]></summary></entry></feed>
