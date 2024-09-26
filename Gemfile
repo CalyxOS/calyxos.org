@@ -14,5 +14,5 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem 'jekyll-include-cache', '~> 0.2.1'
   gem 'jekyll-redirect-from', '~> 0.16.0'
-  gem 'jekyll-toc', '~> 0.18.0'
+  gem 'jekyll-toc', '~> 0.19.0'
 end
