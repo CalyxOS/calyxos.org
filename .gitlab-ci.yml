@@ -1,36 +1,62 @@
-image: ruby:3.3.5
+stages:
+  - test
+  - deploy
+  - registry
 
-cache:
-  paths:
-  - vendor/
-  - tmp/.htmlproofer
+.ruby:
+  image: ruby:3.3.5
+  before_script:
+    - bundle config set deployment true
+    - bundle config set --local path vendor
+    - bundle install
+  cache:
+    paths:
+      - vendor/
 
-before_script:
-  - gem install bundler
-  - bundle config set deployment true
-  - bundle config set --local path vendor
-  - bundle install
-  - bundle binstubs rake jekyll
-  - bin/rake update-releases
-  - bin/rake update-apps
-  - bin/rake generate-data-pages
+test:
+  stage: test
+  extends: .ruby
+  script:
+    - bundle exec jekyll build --future --trace
+    - bundle exec rake check
+  only:
+    - main
+
+test-external:
+  stage: test
+  extends: .ruby
+  when: manual
+  script:
+    - bundle exec jekyll build --future --trace
+    - bundle exec rake check-external
+  only:
+    - main
 
 pages:
   stage: deploy
+  extends: .ruby
   script:
-  - bin/jekyll build -d public --future --baseUrl "/calyxos.org"
+    - bundle exec rake update-releases
+    - bundle exec rake update-apps
+    - bundle exec rake generate-data-pages
+    - bundle exec jekyll build -d public --future --baseUrl "/calyxos.org"
   artifacts:
     paths:
     - public
   only:
-  - main
+    - main
 
-test:
-  stage: test
+build:
+  image: docker:27
+  stage: registry
+  services:
+    - name: docker:27-dind
+      alias: docker
+  variables:
+    IMAGE_TAG: $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG
   script:
-  - bin/jekyll build -d test
-  - bin/rake check DIR=./test
-  - bin/rake check-external DIR=./test || true
-  artifacts:
-    paths:
-    - test
+    - echo "$CI_REGISTRY_PASSWORD" | docker login $CI_REGISTRY -u $CI_REGISTRY_USER --password-stdin
+    - docker build -t $IMAGE_TAG .
+    - docker push $IMAGE_TAG
+  only:
+    - main
