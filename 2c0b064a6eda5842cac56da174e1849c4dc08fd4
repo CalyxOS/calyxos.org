@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "245e5c03_82a33ad3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000084
+      },
+      "writtenOn": "2024-09-26T21:11:36Z",
+      "side": 1,
+      "message": "Do we want to run these on CI or local like update-releases in the web installer?\n\nbundle exec rake update-releases\nbundle exec rake update-apps\nbundle exec rake generate-data-pages",
+      "revId": "2c0b064a6eda5842cac56da174e1849c4dc08fd4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
