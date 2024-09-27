@@ -40,24 +40,24 @@ extended_codenames:
   - sunfish
   - coral
   - flame
-  - bonito
-  - sargo
-  - crosshatch
-  - blueline
-  - axolotl
 extended_brands:
   - pixel
-  - shift
 previous_codenames:
   - lemonadep
   - lemonade
   - kebab
+  - bonito
+  - sargo
+  - crosshatch
+  - blueline
   - taimen
   - walleye
+  - axolotl
   - jasmine_sprout
 previous_brands:
   - oneplus
   - pixel
+  - shift
   - xiaomi
 comet:
   brand: pixel
@@ -257,6 +257,7 @@ bonito:
   esim: "no"
   android: 14
   web_install: false
+  link: news/2024/09/25/september-feature-update/
 sargo:
   brand: pixel
   model: Pixel 3a
@@ -266,6 +267,7 @@ sargo:
   esim: "no"
   android: 14
   web_install: false
+  link: news/2024/09/25/september-feature-update/
 crosshatch:
   brand: pixel
   model: Pixel 3 XL
@@ -275,6 +277,7 @@ crosshatch:
   esim: "no"
   android: 14
   web_install: false
+  link: news/2024/09/25/september-feature-update/
 blueline:
   brand: pixel
   model: Pixel 3
@@ -284,6 +287,7 @@ blueline:
   esim: "no"
   android: 14
   web_install: false
+  link: news/2024/09/25/september-feature-update/
 FP4:
   brand: fairphone
   model: Fairphone 4
@@ -311,6 +315,7 @@ axolotl:
   esim: "no"
   android: 14
   web_install: false
+  link: news/2024/09/25/september-feature-update/
 otter:
   brand: shift
   model: SHIFTphone 8
