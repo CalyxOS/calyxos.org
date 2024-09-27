@@ -16,7 +16,6 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 * [Google Pixel Tablet support date](https://support.google.com/googlepixeltablet/answer/13555449?hl=en-GB#zippy=%2Cwhats-the-os-update-policy-for-the-pixel-tablet)
 * [Fairphone](https://support.fairphone.com/hc/en-us/articles/9979180437393-Fairphone-OS)
 * [Motorola](https://en-us.support.motorola.com/app/software-security-update)
-* [SHIFT6mq](https://www.shift.eco/shift6mq-status/)
 
 #### Modern devices
 <table class="table table-striped download">
@@ -44,16 +43,16 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 <tr><td> Pixel 5 </td><td> August 2024* </td><td> August 2025* </td></tr>
 <tr><td> Pixel 4a </td><td> August 2024 </td><td> August 2024* </td></tr>
 <tr><td> Pixel 4, 4 XL </td><td> August 2024 </td><td> August 2024* </td></tr>
-<tr><td> Pixel 3a, 3a XL </td><td> August 2024 </td><td> August 2024 </td></tr>
-<tr><td> Pixel 3, 3 XL </td><td> August 2024 </td><td> August 2024 </td></tr>
-<tr><td> SHIFT SHIFT6mq </td><td> August 2024 </td><td> August 2024 </td></tr>
 </table>
 
 #### No longer supported
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>
 <tr><td> OnePlus 8T, 9, 9 Pro Beta </td><td> May 2022 </td><td> May 2022 </td></tr>
+<tr><td> Pixel 3a, 3a XL </td><td> August 2024 </td><td> September 2024 </td></tr>
+<tr><td> Pixel 3, 3 XL </td><td> August 2024 </td><td> September 2024 </td></tr>
 <tr><td> Pixel 2, 2 XL </td><td> February 2022 </td><td> February 2022 </td></tr>
+<tr><td> SHIFT SHIFT6mq </td><td> August 2024 </td><td> September 2024 </td></tr>
 <tr><td> Xiaomi Mi A2 </td><td> February 2022 </td><td> February 2022 </td></tr>
 </table>
 
