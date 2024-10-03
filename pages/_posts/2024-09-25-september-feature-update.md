@@ -13,8 +13,8 @@ date: 2024-09-25
 | Release channel  | Date   | Notes |
 | ---------------- | ------ | ------ |
 | Beta | 25 September, Wednesday |  |
-| Security express | 27 September, Friday |  |
-| Stable | 2 October, Wednesday | |
+| Security express | ~27 September, Friday~ | Rollout halted due to bug [#2718](https://gitlab.com/CalyxOS/calyxos/-/issues/2718) |
+| Stable | ~2 October, Wednesday~ | Rollout halted due to bug [#2718](https://gitlab.com/CalyxOS/calyxos/-/issues/2718) |
 
 ### Changelog
 * CalyxOS 5.11.2
