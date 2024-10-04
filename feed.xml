@@ -1,4 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-10-04T03:30:59+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">September 2024 Feature update</title><link href="/news/2024/09/25/september-feature-update/" rel="alternate" type="text/html" title="September 2024 Feature update" /><published>2024-09-25T00:00:00+05:30</published><updated>2024-09-25T00:00:00+05:30</updated><id>/news/2024/09/25/september-feature-update</id><content type="html" xml:base="/news/2024/09/25/september-feature-update/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-10-05T04:43:41+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Bugfix for September 2024 Feature update</title><link href="/news/2024/10/04/bugfix-for-september/" rel="alternate" type="text/html" title="Bugfix for September 2024 Feature update" /><published>2024-10-04T00:00:00+05:30</published><updated>2024-10-04T00:00:00+05:30</updated><id>/news/2024/10/04/bugfix-for-september</id><content type="html" xml:base="/news/2024/10/04/bugfix-for-september/"><![CDATA[<ul>
+  <li>CalyxOS 5.11.3 - Bugfix for September 2024 Feature update for Pixel 4 and newer, Fairphone, Motorola</li>
+  <li>Fixes a bug in the previous update due to which we halted rollout to security express and stable</li>
+</ul>
+
+<h2 id="calyxos-5113">CalyxOS 5.11.3</h2>
+<h3 id="rollout">Rollout</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Release channel</th>
+      <th>Date</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Beta</td>
+      <td>4 October, Friday</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Security express</td>
+      <td>4 October, Friday</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Stable</td>
+      <td>7 October, Monday</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="changelog">Changelog</h3>
+<ul>
+  <li>CalyxOS 5.11.3</li>
+  <li>Bugfix for September 2024 Feature update</li>
+  <li>Fix default network data restriction handling <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2718">#2718</a></li>
+  <li>Chromium: 129.0.6668.81 (latest stable)</li>
+</ul>
+
+<h3 id="fp5">FP5</h3>
+<ul>
+  <li>Fix eSIM activation</li>
+</ul>
+
+<h3 id="fp4">FP4</h3>
+<ul>
+  <li>Fix eSIM activation</li>
+  <li>Update to FP4.TP2L.C.0126.20240909</li>
+</ul>
+
+<h2 id="note">Note</h2>
+
+<div class="alert alert-info" style="margin-top: 3rem">
+<ul>
+  <li>
+    <strong>Over-the-air Updates:</strong>
+    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
+  </li>
+  <li>
+    <strong>Security Updates:</strong>
+    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
+  </li>
+  <li>
+    <strong>Security Updates:</strong>
+    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
+  </li>
+  <li>
+    <strong>Security Updates:</strong>
+    The <strong>SHIFT6mq</strong> stock OS follows a different security update release schedule. The device is still supported by the manufacturer. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
+  </li>
+  <li>
+    <strong>End-of-life:</strong>
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+  </li>
+</ul>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 5.11.3 - Bugfix for September 2024 Feature update for Pixel 4 and newer, Fairphone, Motorola Fixes a bug in the previous update due to which we halted rollout to security express and stable]]></summary></entry><entry><title type="html">September 2024 Feature update</title><link href="/news/2024/09/25/september-feature-update/" rel="alternate" type="text/html" title="September 2024 Feature update" /><published>2024-09-25T00:00:00+05:30</published><updated>2024-09-25T00:00:00+05:30</updated><id>/news/2024/09/25/september-feature-update</id><content type="html" xml:base="/news/2024/09/25/september-feature-update/"><![CDATA[<ul>
   <li>CalyxOS 5.11.2 - September 2024 Feature update for Pixel 4 and newer, Fairphone, Motorola</li>
   <li>Android 15, Pixel 9 work in progress</li>
   <li>Pixel 3, 3a, SHIFT6MQ are EOL, but will receive another update</li>
@@ -867,99 +946,4 @@
 
 <ul>
   <li>If you’re having trouble trying to post messages to the <a href="https://matrix.to/#/#CalyxOS:matrix.org">#CalyxOS</a> matrix channel, try to leave the channel if possible, and then try writing <code class="language-plaintext highlighter-rouge">/join #CalyxOS:matrix.org</code> in any chat in Matrix. That should re-connect you to the channel.</li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Pixel 5 and newer pixels Other devices work in progress]]></summary></entry><entry><title type="html">May 2024 Bugfix update</title><link href="/news/2024/05/30/may-bugfix-update/" rel="alternate" type="text/html" title="May 2024 Bugfix update" /><published>2024-05-30T00:00:00+05:30</published><updated>2024-05-30T00:00:00+05:30</updated><id>/news/2024/05/30/may-bugfix-update</id><content type="html" xml:base="/news/2024/05/30/may-bugfix-update/"><![CDATA[<ul>
-  <li>CalyxOS 5.7.3 for FP5, FP4, Pixel 3a, 3a XL, 3, 3 XL</li>
-  <li>Bugfixes, mostly</li>
-</ul>
-
-<h2 id="pixel-8a">Pixel 8a</h2>
-<ul>
-  <li>The current version of CalyxOS available for the Pixel 8a <code class="language-plaintext highlighter-rouge">akita</code> is 5.7.1</li>
-  <li>Google is using an older version of their codebase for this device, and as such so are we</li>
-  <li>We’re hoping they start using the same version of the codebase for all the Pixels next month (June) to make our work easier.</li>
-</ul>
-
-<h2 id="rollout">Rollout</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Release channel</th>
-      <th>Date</th>
-      <th>Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Beta</td>
-      <td>30 May, Thursday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Security express</td>
-      <td>30 May, Thursday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Stable</td>
-      <td>31 May, Friday</td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="changelog">Changelog</h2>
-<ul>
-  <li>CalyxOS 5.7.3</li>
-  <li>May Bugfix update</li>
-</ul>
-
-<h3 id="fp5">FP5</h3>
-<ul>
-  <li>Fix installation of certain apps</li>
-  <li>Audio improvements</li>
-</ul>
-
-<h3 id="fp4">FP4</h3>
-<ul>
-  <li>Improve mic during calls</li>
-  <li>Fix camcorder sound</li>
-</ul>
-
-<h3 id="pixel-3a-3a-xl-3-3-xl">Pixel 3a, 3a XL, 3, 3 XL</h3>
-<ul>
-  <li>For these devices, it’s basically the <a href="https://calyxos.org/news/2024/05/24/may-feature-update/">5.7.2 Feature update</a></li>
-</ul>
-
-<h2 id="note">Note</h2>
-
-<div class="alert alert-info" style="margin-top: 3rem">
-<ul>
-  <li>
-    <strong>Over-the-air Updates:</strong>
-    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Pixel 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>SHIFT6mq</strong> stock OS follows a different security update release schedule. The device is still supported by the manufacturer. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
-    <strong>End-of-life:</strong>
-    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
-  </li>
-</ul>
-</div>
-
-<h2 id="matrix-channel">Matrix channel</h2>
-
-<ul>
-  <li>If you’re having trouble trying to post messages to the <a href="https://matrix.to/#/#CalyxOS:matrix.org">#CalyxOS</a> matrix channel, try to leave the channel if possible, and then try writing <code class="language-plaintext highlighter-rouge">/join #CalyxOS:matrix.org</code> in any chat in Matrix. That should re-connect you to the channel.</li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 5.7.3 for FP5, FP4, Pixel 3a, 3a XL, 3, 3 XL Bugfixes, mostly]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Pixel 5 and newer pixels Other devices work in progress]]></summary></entry></feed>
