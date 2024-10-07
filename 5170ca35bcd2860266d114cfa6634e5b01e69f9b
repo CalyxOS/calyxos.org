@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11acf7c4_8d070cc9",
+        "filename": "Dockerfile",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-10-07T16:37:06Z",
+      "side": 1,
+      "message": "FTR, We don\u0027t do `--future` on prod.",
+      "revId": "5170ca35bcd2860266d114cfa6634e5b01e69f9b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
