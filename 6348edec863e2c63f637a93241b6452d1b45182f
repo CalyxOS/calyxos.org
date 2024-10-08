@@ -16,6 +16,24 @@
       "message": "This will likely remove their download links entirely, which I don\u0027t like, but we can figure out a solution for that separately later.",
       "revId": "6348edec863e2c63f637a93241b6452d1b45182f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3cc25009_74ca8043",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-10-08T19:52:48Z",
+      "side": 1,
+      "message": "https://calyxos.org/install/ looks like it doesn\u0027t.",
+      "parentUuid": "9becadb0_e0673a00",
+      "revId": "6348edec863e2c63f637a93241b6452d1b45182f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ],
   "submitRequirementResults": [
