@@ -15,6 +15,10 @@ sudo apt install android-sdk-platform-tools-common
 sudo dnf install android-tools
 ```
 
+Currently, there are issues with **udev** rules on Fedora, you may need to either run `device-flasher.linux` using `sudo` or [manually install udev-rules from a third-party resource.](https://github.com/M0Rf30/android-udev-rules?tab=readme-ov-file#using-the-automatic-install-script)
+
+If you expect to use tools like fastboot/adb on the future, installing them probably makes more sense to you. Beware this is a third-party resource of which we do not control.
+
 **Arch Linux:**
 
 ```
