@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-10-05T04:43:41+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Bugfix for September 2024 Feature update</title><link href="/news/2024/10/04/bugfix-for-september/" rel="alternate" type="text/html" title="Bugfix for September 2024 Feature update" /><published>2024-10-04T00:00:00+05:30</published><updated>2024-10-04T00:00:00+05:30</updated><id>/news/2024/10/04/bugfix-for-september</id><content type="html" xml:base="/news/2024/10/04/bugfix-for-september/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-10-09T00:42:34+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Bugfix for September 2024 Feature update</title><link href="/news/2024/10/04/bugfix-for-september/" rel="alternate" type="text/html" title="Bugfix for September 2024 Feature update" /><published>2024-10-04T00:00:00+05:30</published><updated>2024-10-04T00:00:00+05:30</updated><id>/news/2024/10/04/bugfix-for-september</id><content type="html" xml:base="/news/2024/10/04/bugfix-for-september/"><![CDATA[<ul>
   <li>CalyxOS 5.11.3 - Bugfix for September 2024 Feature update for Pixel 4 and newer, Fairphone, Motorola</li>
   <li>Fixes a bug in the previous update due to which we halted rollout to security express and stable</li>
 </ul>
@@ -69,12 +69,8 @@
     The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
   </li>
   <li>
-    <strong>Security Updates:</strong>
-    The <strong>SHIFT6mq</strong> stock OS follows a different security update release schedule. The device is still supported by the manufacturer. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
     <strong>End-of-life:</strong>
-    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
 </div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 5.11.3 - Bugfix for September 2024 Feature update for Pixel 4 and newer, Fairphone, Motorola Fixes a bug in the previous update due to which we halted rollout to security express and stable]]></summary></entry><entry><title type="html">September 2024 Feature update</title><link href="/news/2024/09/25/september-feature-update/" rel="alternate" type="text/html" title="September 2024 Feature update" /><published>2024-09-25T00:00:00+05:30</published><updated>2024-09-25T00:00:00+05:30</updated><id>/news/2024/09/25/september-feature-update</id><content type="html" xml:base="/news/2024/09/25/september-feature-update/"><![CDATA[<ul>
@@ -183,12 +179,8 @@
     The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
   </li>
   <li>
-    <strong>Security Updates:</strong>
-    The <strong>SHIFT6mq</strong> stock OS follows a different security update release schedule. The device is still supported by the manufacturer. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
     <strong>End-of-life:</strong>
-    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
 </div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 5.11.2 - September 2024 Feature update for Pixel 4 and newer, Fairphone, Motorola Android 15, Pixel 9 work in progress Pixel 3, 3a, SHIFT6MQ are EOL, but will receive another update]]></summary></entry><entry><title type="html">September 2024 Security update, take two</title><link href="/news/2024/09/08/september-security-update2/" rel="alternate" type="text/html" title="September 2024 Security update, take two" /><published>2024-09-08T00:00:00+05:30</published><updated>2024-09-08T00:00:00+05:30</updated><id>/news/2024/09/08/september-security-update2</id><content type="html" xml:base="/news/2024/09/08/september-security-update2/"><![CDATA[<ul>
@@ -316,12 +308,8 @@
     The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
   </li>
   <li>
-    <strong>Security Updates:</strong>
-    The <strong>SHIFT6mq</strong> stock OS follows a different security update release schedule. The device is still supported by the manufacturer. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
     <strong>End-of-life:</strong>
-    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
 </div>
@@ -389,12 +377,8 @@
     The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
   </li>
   <li>
-    <strong>Security Updates:</strong>
-    The <strong>SHIFT6mq</strong> stock OS follows a different security update release schedule. The device is still supported by the manufacturer. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
     <strong>End-of-life:</strong>
-    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
 </div>
@@ -507,12 +491,8 @@
     The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
   </li>
   <li>
-    <strong>Security Updates:</strong>
-    The <strong>SHIFT6mq</strong> stock OS follows a different security update release schedule. The device is still supported by the manufacturer. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
     <strong>End-of-life:</strong>
-    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
 </div>
@@ -583,12 +563,8 @@
     The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
   </li>
   <li>
-    <strong>Security Updates:</strong>
-    The <strong>SHIFT6mq</strong> stock OS follows a different security update release schedule. The device is still supported by the manufacturer. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
     <strong>End-of-life:</strong>
-    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
 </div>
@@ -665,12 +641,8 @@
     The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
   </li>
   <li>
-    <strong>Security Updates:</strong>
-    The <strong>SHIFT6mq</strong> stock OS follows a different security update release schedule. The device is still supported by the manufacturer. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
     <strong>End-of-life:</strong>
-    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
 </div>
@@ -781,12 +753,8 @@
     The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
   </li>
   <li>
-    <strong>Security Updates:</strong>
-    The <strong>SHIFT6mq</strong> stock OS follows a different security update release schedule. The device is still supported by the manufacturer. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
     <strong>End-of-life:</strong>
-    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
 </div>
@@ -854,12 +822,8 @@
     The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
   </li>
   <li>
-    <strong>Security Updates:</strong>
-    The <strong>SHIFT6mq</strong> stock OS follows a different security update release schedule. The device is still supported by the manufacturer. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
     <strong>End-of-life:</strong>
-    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
 </div>
@@ -932,12 +896,8 @@
     The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
   </li>
   <li>
-    <strong>Security Updates:</strong>
-    The <strong>SHIFT6mq</strong> stock OS follows a different security update release schedule. The device is still supported by the manufacturer. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
     <strong>End-of-life:</strong>
-    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
 </div>

@@ -186,7 +186,7 @@
 
 <h3 id="download-factory-image">Download factory image</h3>
 
-<p><a class="btn" href="https://release.calyxinstitute.org/lynx-factory-24511000.zip">Download CalyxOS Image</a></p>
+<p><a class="btn" href="https://release.calyxinstitute.org/lynx-factory-24511030.zip">Download CalyxOS Image</a></p>
 
 <p>Save this image in the same directory as device-flasher. This image will <strong>only</strong> work for <strong>Pixel 7a (lynx)</strong>. Any attempt to install this image on a different device model may brick (destroy) the Android device.</p>
 
@@ -198,14 +198,14 @@
 
 <p>To verify the image, open a terminal window on the host computer where you saved the image and run the command:</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CertUtil <span class="nt">-hashfile</span> lynx-factory-24511000.zip SHA256
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CertUtil <span class="nt">-hashfile</span> lynx-factory-24511030.zip SHA256
 </code></pre></div></div>
 
-<p>And ensure the result says <code class="language-plaintext highlighter-rouge">118a0286c062678906f0f17739caeb52ebe33130ac46b9ea2088b15e7729abf5</code>. This is the unique digest of the image file. If it doesn’t match, then you have a corrupted or incorrect file.</p>
+<p>And ensure the result says <code class="language-plaintext highlighter-rouge">e69e15b966dea49b7a215e72e4cb4bfee14b64a758021610b0ef06349df256ce</code>. This is the unique digest of the image file. If it doesn’t match, then you have a corrupted or incorrect file.</p>
 
 <h4 id="verify-signature">Verify Signature</h4>
 
-<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/lynx-factory-24511000.zip.minisig">download the signature file</a> and then <a href="/install/verify/">verify image signature</a>.</p>
+<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/lynx-factory-24511030.zip.minisig">download the signature file</a> and then <a href="/install/verify/">verify image signature</a>.</p>
 
 <h2 id="install-calyxos">Install CalyxOS</h2>
 
@@ -273,12 +273,8 @@
     The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
   </li>
   <li>
-    <strong>Security Updates:</strong>
-    The <strong>SHIFT6mq</strong> stock OS follows a different security update release schedule. The device is still supported by the manufacturer. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
     <strong>End-of-life:</strong>
-    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
 </div>
