@@ -15,6 +15,8 @@ sudo apt install android-sdk-platform-tools-common
 sudo dnf install android-tools
 ```
 
+Currently, there are issues with **udev** rules on Fedora, you may need to run `device-flasher.linux` using `sudo` later on the install process.
+
 **Arch Linux:**
 
 ```
