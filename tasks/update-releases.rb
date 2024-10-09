@@ -100,6 +100,9 @@ module Releases
           incremental = true
           release_filename = codename + "-" + release
           old_release_filename = codename + "-old" + release
+          if File.exist?(release_filename + "7")
+            release_filename += "7"
+            old_release_filename += "7"
           if File.exist?(release_filename + "6")
             release_filename += "6"
             old_release_filename += "6"
