@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a5f982c_2194c7f5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-10-09T12:45:01Z",
+      "side": 1,
+      "message": "Thanks for taking the time to work on this.\n\nWhile it\u0027s nice for the third-party repo to exist, and you did warn that we don\u0027t control it, in my mind, *because* we don\u0027t control it and can\u0027t vouch for the third party, I would rather not link to it. Using `sudo` isn\u0027t ideal, but it\u0027s a workable workaround that doesn\u0027t rely on trusting an additional party. (Those udev rules also impact many more devices than we support, but perhaps this is more of a side note.)\n\nIt sure would be nice if this were fixed upstream in Fedora somehow. Does anyone know if there is an upstream issue about it? Maybe we could link to that instead...?",
+      "revId": "3adfdcd704a99460d2285a0e0a7676c7b2491f4d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
