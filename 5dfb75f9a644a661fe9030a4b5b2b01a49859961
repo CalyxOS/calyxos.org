@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6396a962_131f6774",
+        "filename": "pages/_includes/install/linux_notes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-10-09T20:59:13Z",
+      "side": 1,
+      "message": "Decided to not remove this and leave the statement below as \"may\", in case it is fixed upstream.",
+      "revId": "5dfb75f9a644a661fe9030a4b5b2b01a49859961",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}

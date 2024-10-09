@@ -34,6 +34,24 @@
       "parentUuid": "3a5f982c_2194c7f5",
       "revId": "3adfdcd704a99460d2285a0e0a7676c7b2491f4d",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4095927b_3e638ffd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-10-09T20:59:13Z",
+      "side": 1,
+      "message": "Link removed, instructions only recommend the user to run the flasher using sudo now.",
+      "parentUuid": "d3bb73f2_d3d9a72b",
+      "revId": "3adfdcd704a99460d2285a0e0a7676c7b2491f4d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
