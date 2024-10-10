@@ -63,6 +63,30 @@
       },
       "revId": "a739c686c2a515b31795efeb72ef7866f2a6319a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dfe893fe_e8db3b2b",
+        "filename": "pages/docs/guide/faq/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-10-10T18:08:13Z",
+      "side": 1,
+      "message": "Whoops, thanks for catching that. I had no idea how wrong I was. Surprised AOSP doesn\u0027t have this. Let\u0027s definitely not take my suggested edit then.",
+      "parentUuid": "09460896_d15620d1",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 43,
+        "endChar": 221
+      },
+      "revId": "a739c686c2a515b31795efeb72ef7866f2a6319a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
