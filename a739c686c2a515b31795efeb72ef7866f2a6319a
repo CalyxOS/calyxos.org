@@ -70,6 +70,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "518cb7c6_a72645a3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-10-10T21:36:36Z",
+      "side": 1,
+      "message": "There were a bunch of commits improving it, but it got stalled.\n\nhttps://review.calyxos.org/c/CalyxOS/calyxos.org/+/15064",
+      "parentUuid": "90c1cd57_53b0f23f",
+      "revId": "a739c686c2a515b31795efeb72ef7866f2a6319a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "50c73f05_f6feb493",
