@@ -52,6 +52,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "90c1cd57_53b0f23f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-10-10T21:24:29Z",
+      "side": 1,
+      "message": "Maybe it\u0027d make sense to make the FAQ into something like that? ATM it is only about like new-to-the-OS questions",
+      "parentUuid": "ca1c6d81_644d5ea1",
+      "revId": "a739c686c2a515b31795efeb72ef7866f2a6319a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "50c73f05_f6feb493",
