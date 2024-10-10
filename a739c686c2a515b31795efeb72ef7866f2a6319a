@@ -128,6 +128,30 @@
       },
       "revId": "a739c686c2a515b31795efeb72ef7866f2a6319a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e0934632_6b50c0bb",
+        "filename": "pages/docs/guide/faq/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-10-10T20:26:41Z",
+      "side": 1,
+      "message": "Call recording is a LineageOS feature. The code right now can only figure out if it\u0027s being used in a particular country, not state, thus the limitation.\n\nIt\u0027s purely technical. If a solution for state detection is implemented, we can then have a list of US states where it\u0027d be fine and enable it for those.\n\n\nGoogle Dialer has call recording too, although I don\u0027t remember if that behaves the same in the US.",
+      "parentUuid": "5f8578ab_7954d6ae",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 43,
+        "endChar": 221
+      },
+      "revId": "a739c686c2a515b31795efeb72ef7866f2a6319a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
