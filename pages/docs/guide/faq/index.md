@@ -37,3 +37,7 @@ The majority of development on CalyxOS is funded by the charitable donations of 
 
 ### How can I back up and restore the software and data on my phone?
 We developed a privacy focused backup and restore application called SeedVault which is built into CalyxOS. SeedVault uses encryption to protect your data before it ever leaves the phone. Currently there are two options for backing up: USB storage and cloud storage using NextCloud. SeedVault can be accessed from Settings -> System -> Backup. The first time you run it, SeedVault will generate an encryption passphrase made up of 12 words.  You must keep these words in a safe place in order to be able to restore your backups.
+
+### Why can't I use call recording?
+
+CalyxOS allows you to do call recording, however, this feature is blocked on certain countries for legal reasons, this blocking unfortunately does not allow us to filter specific states, even where it would've been legal.
