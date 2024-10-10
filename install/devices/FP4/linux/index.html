@@ -80,6 +80,7 @@
 <li class="toc-entry toc-h4"><a href="#enable-developer-options">Enable Developer Options</a></li>
 <li class="toc-entry toc-h4"><a href="#enable-usb-debugging">Enable USB debugging</a></li>
 <li class="toc-entry toc-h4"><a href="#enable-oem-unlocking">Enable OEM Unlocking</a></li>
+<li class="toc-entry toc-h4"><a href="#obtaining-an-unlock-code">Obtaining an unlock code</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h2"><a href="#prepare-your-host-computer">Prepare your host computer</a>
@@ -150,6 +151,12 @@
 
 <p>This step might fail if there is no internet connection. In that case, connect to a WiFi network and then try again.</p>
 
+<h4 id="obtaining-an-unlock-code">Obtaining an unlock code</h4>
+
+<p>Fairphones require you to request for a code to unlock their bootloader.</p>
+
+<p>You can do this by heading over to: https://www.fairphone.com/bootloader-unlocking-code-for-fairphone</p>
+
 <h2 id="prepare-your-host-computer">Prepare your host computer</h2>
 
 <h3 id="linux-packages">Linux packages</h3>
@@ -166,6 +173,8 @@ sudo apt install android-sdk-platform-tools-common
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo dnf install android-tools
 </code></pre></div></div>
+
+<p>Currently, there are issues with <strong>udev</strong> rules on Fedora, you may need to run <code class="language-plaintext highlighter-rouge">device-flasher.linux</code> using <code class="language-plaintext highlighter-rouge">sudo</code> later on the install process.</p>
 
 <p><strong>Arch Linux:</strong></p>
 
