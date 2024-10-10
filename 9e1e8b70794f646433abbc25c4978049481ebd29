@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a3c900e7_c850bc80",
+        "filename": "pages/docs/guide/faq/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-10-10T21:37:32Z",
+      "side": 1,
+      "message": "Nit:\n\n```suggestion\nCalyxOS uses the call recording feature from LineageOS. For legal reasons, countries where call recording would be illegal have this feature blocked. However in countries like the United States, there are states where it is legal, others where it is not. Unfortunately, there is a limitation in its implementation and we are not able to block specific states and leave out others.\n```",
+      "range": {
+        "startLine": 43,
+        "startChar": 292,
+        "endLine": 43,
+        "endChar": 294
+      },
+      "revId": "9e1e8b70794f646433abbc25c4978049481ebd29",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
