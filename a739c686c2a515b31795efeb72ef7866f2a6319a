@@ -104,6 +104,30 @@
       },
       "revId": "a739c686c2a515b31795efeb72ef7866f2a6319a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5f8578ab_7954d6ae",
+        "filename": "pages/docs/guide/faq/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-10-10T18:17:27Z",
+      "side": 1,
+      "message": "I think I\u0027ll try and use your more american english wording though.",
+      "parentUuid": "dfe893fe_e8db3b2b",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 43,
+        "endChar": 221
+      },
+      "revId": "a739c686c2a515b31795efeb72ef7866f2a6319a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
