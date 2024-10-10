@@ -22,6 +22,30 @@
       },
       "revId": "9e1e8b70794f646433abbc25c4978049481ebd29",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27e40147_dabade79",
+        "filename": "pages/docs/guide/faq/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-10-10T21:41:57Z",
+      "side": 1,
+      "message": "Done, thanks for pointing it out!",
+      "parentUuid": "a3c900e7_c850bc80",
+      "range": {
+        "startLine": 43,
+        "startChar": 292,
+        "endLine": 43,
+        "endChar": 294
+      },
+      "revId": "9e1e8b70794f646433abbc25c4978049481ebd29",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
