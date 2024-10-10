@@ -34,6 +34,24 @@
       "parentUuid": "0f480658_58b656b9",
       "revId": "066a28314cf9a86fb1ae5b189e46962e7e36f866",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d9877c5_3d800dd5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-10-10T20:32:55Z",
+      "side": 1,
+      "message": "The preview is an added benefit, but the one click and less confusion part is important too.\n\nWe\u0027ve had many people who haven\u0027t used Matrix before, and a matrix.to link would then also entail choosing a client, vs these links show you the chat preview and let you join directly.",
+      "parentUuid": "47875a90_6fad39cc",
+      "revId": "066a28314cf9a86fb1ae5b189e46962e7e36f866",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
