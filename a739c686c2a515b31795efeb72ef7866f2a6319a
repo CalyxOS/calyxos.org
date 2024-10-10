@@ -16,6 +16,29 @@
       "message": "Tommy, should I be adding you as a reviewer here? Is that ok?",
       "revId": "a739c686c2a515b31795efeb72ef7866f2a6319a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "50c73f05_f6feb493",
+        "filename": "pages/docs/guide/faq/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-10-10T13:48:18Z",
+      "side": 1,
+      "message": "Feel free to add me as a reviewer on anything, and I\u0027ll pass it up the chain when needed!\n\n```suggestion\nWhile CalyxOS does allow call recording, AOSP blocks this feature in certain countries for legal reasons, including the United States. This blocking unfortunately is not designed to support state-specific behavior, preventing us from making exceptions for states where call recording is legal. Because CalyxOS inherits AOSP\u0027s behavior here, if this behavior improves upstream, it will be improved for CalyxOS as well.\n```\n\nWhat do you think of these changes? (I know the US is not the only country with states or provinces, but it comes up a lot.)",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 43,
+        "endChar": 221
+      },
+      "revId": "a739c686c2a515b31795efeb72ef7866f2a6319a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
