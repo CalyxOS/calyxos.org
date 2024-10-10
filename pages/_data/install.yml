@@ -2,6 +2,7 @@
 pixel:
   troubleshooting: install/pixel_troubleshooting.md
 fairphone:
+  pre_unlock_notes: install/fairphone_unlock.md
   troubleshooting: install/pixel_troubleshooting.md
 shift:
   troubleshooting: install/pixel_troubleshooting.md
