@@ -16,6 +16,24 @@
       "message": "https://review.calyxos.org/c/CalyxOS/calyxos.org/+/27880/3#message-382f3a11678f999d19e2c5d20d69b1c3e29a3b06",
       "revId": "066a28314cf9a86fb1ae5b189e46962e7e36f866",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "47875a90_6fad39cc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-10-10T04:04:10Z",
+      "side": 1,
+      "message": "Why exactly do we want a preview anyways? IMO this causes more issues than solves them.\n\ne.g. a friend went to join the Calyx rooms and just got annoyed at this.",
+      "parentUuid": "0f480658_58b656b9",
+      "revId": "066a28314cf9a86fb1ae5b189e46962e7e36f866",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
