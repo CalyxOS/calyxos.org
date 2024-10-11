@@ -16,6 +16,24 @@
       "message": "Noticed the link live isn\u0027t clickable, also noticed the Moto is but it has \u003c\u003e in between, not sure if this fixes it.",
       "revId": "0afe962a982113e25476d8231e566d44709f8b73",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c3da26fa_18690d3d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-10-11T17:23:28Z",
+      "side": 1,
+      "message": "It does, can verify even in GitLab preview, https://gitlab.com/CalyxOS/calyxos.org/-/blob/0afe962a982113e25476d8231e566d44709f8b73/pages/_includes/install/fairphone_unlock.md",
+      "parentUuid": "1b70b939_b3e19ec9",
+      "revId": "0afe962a982113e25476d8231e566d44709f8b73",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
