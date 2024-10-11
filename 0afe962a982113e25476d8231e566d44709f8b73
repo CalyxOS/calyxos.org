@@ -34,6 +34,24 @@
       "parentUuid": "1b70b939_b3e19ec9",
       "revId": "0afe962a982113e25476d8231e566d44709f8b73",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "02d3375e_eed9f7d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-10-11T18:41:11Z",
+      "side": 1,
+      "message": "That doesn\u0027t seem to change, I usually also don\u0027t need for when using Markdown, but I have only used it in the context of Git forge.\n\nChecking the file with the older patch also gives a clickable link, I think this is just some quirk with how Markdown is dealt with by the website",
+      "parentUuid": "c3da26fa_18690d3d",
+      "revId": "0afe962a982113e25476d8231e566d44709f8b73",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ],
   "submitRequirementResults": [
