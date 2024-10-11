@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "55e4d7a3_584403d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-10-11T18:27:50Z",
+      "side": 1,
+      "message": "Installed fine on barbet, coral, crosshatch, bonito",
+      "revId": "e78ebb28669e994e6ea39b0afed79f87d3a68139",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
