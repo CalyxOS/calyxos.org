@@ -202,7 +202,7 @@ barbet:
   sim: "dual"
   esim: "yes"
   android: 14
-  web_install: false
+  web_install: true
 bramble:
   brand: pixel
   model: Pixel 4a (5G)
@@ -211,7 +211,7 @@ bramble:
   sim: "dual"
   esim: "yes"
   android: 14
-  web_install: false
+  web_install: true
 redfin:
   brand: pixel
   model: Pixel 5
@@ -220,7 +220,7 @@ redfin:
   sim: "dual"
   esim: "yes"
   android: 14
-  web_install: false
+  web_install: true
 sunfish:
   brand: pixel
   model: Pixel 4a
@@ -229,7 +229,7 @@ sunfish:
   sim: "dual"
   esim: "yes"
   android: 14
-  web_install: false
+  web_install: true
 coral:
   brand: pixel
   model: Pixel 4 XL
@@ -238,7 +238,7 @@ coral:
   sim: "dual"
   esim: "yes"
   android: 14
-  web_install: false
+  web_install: true
 flame:
   brand: pixel
   model: Pixel 4
@@ -247,7 +247,7 @@ flame:
   sim: "dual"
   esim: "yes"
   android: 14
-  web_install: false
+  web_install: true
 bonito:
   brand: pixel
   model: Pixel 3a XL
@@ -256,7 +256,7 @@ bonito:
   sim: "dual"
   esim: "no"
   android: 14
-  web_install: false
+  web_install: true
   link: news/2024/09/25/september-feature-update/
 sargo:
   brand: pixel
@@ -266,7 +266,7 @@ sargo:
   sim: "dual"
   esim: "no"
   android: 14
-  web_install: false
+  web_install: true
   link: news/2024/09/25/september-feature-update/
 crosshatch:
   brand: pixel
@@ -276,7 +276,7 @@ crosshatch:
   sim: "single"
   esim: "no"
   android: 14
-  web_install: false
+  web_install: true
   link: news/2024/09/25/september-feature-update/
 blueline:
   brand: pixel
@@ -286,7 +286,7 @@ blueline:
   sim: "single"
   esim: "no"
   android: 14
-  web_install: false
+  web_install: true
   link: news/2024/09/25/september-feature-update/
 FP4:
   brand: fairphone
