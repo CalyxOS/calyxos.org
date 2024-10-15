@@ -48,7 +48,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/axolotl-factory-24511010.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/axolotl-factory-24512012.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **SHIFT6mq (axolotl)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -60,14 +60,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/axolotl-factory-24511010.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/axolotl-factory-24512012.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `231f4ddf57badc31ee1e268355385e99d999c170e1811a774aa217657b4181af`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `8d91a5377735f7ef8ef6460d95efde7b2b8bb8acf4c79988f9b7de04e33614f8`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/axolotl-factory-24511010.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/axolotl-factory-24512012.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 
