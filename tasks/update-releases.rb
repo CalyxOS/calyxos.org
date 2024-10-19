@@ -82,6 +82,8 @@ module Releases
       # https://gitlab.com/CalyxOS/vendor_calyx/-/blob/android14/config/version.mk
       major = ( build_number % 1000000 ) / 100000
       case major
+      when 6
+        return "15"
       when 5
         return "14"
       when 4
