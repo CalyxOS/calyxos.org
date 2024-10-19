@@ -1515,8 +1515,52 @@ factory:
   incremental_sha256:
   incremental_old_build:
   date: '2024-10-11'
+fifteen:
+- name: Pixel 8a
+  brand: pixel
+  codename: akita
+  version: 6.0.1
+  android: '15'
+  web_install: false
+  factory_link: https://release.calyxinstitute.org/akita-factory-24600010.zip
+  factory_sha256: 5fa16450076f38f8e3280206f0db5414bdb0d1568a0642be9863b2eab4b8bbf6
+  ota_link: https://release.calyxinstitute.org/akita-ota_update-24600010.zip
+  ota_sha256: 3ba5027b91406b9e9803745b1994664b36edbed9e8d26dcf9ed130eb79d32fa3
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-10-19'
+- name: Pixel 7a
+  brand: pixel
+  codename: lynx
+  version: 6.0.1
+  android: '15'
+  web_install: false
+  factory_link: https://release.calyxinstitute.org/lynx-factory-24600010.zip
+  factory_sha256: b3c1ff67a285b807e1368f471acbf3e0c9510fc4c71294bab41dd73545bd5514
+  ota_link: https://release.calyxinstitute.org/lynx-ota_update-24600010.zip
+  ota_sha256: beda86fa2e7baa5fcb04f77319585363d8bade2d654237726561bf2fcd94a827
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-10-19'
+- name: Pixel 6a
+  brand: pixel
+  codename: bluejay
+  version: 6.0.1
+  android: '15'
+  web_install: false
+  factory_link: https://release.calyxinstitute.org/bluejay-factory-24600010.zip
+  factory_sha256: 4ab8ce27b36de1c26603cb9833a11ee0562a10767309b50a246a7e73f7a7d9fc
+  ota_link: https://release.calyxinstitute.org/bluejay-ota_update-24600010.zip
+  ota_sha256: 3b17df2a6898cc7c1f2bf6640d49c5824cb798bd0d861039679482a3dfcbc713
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-10-19'
 releases:
 - stable
 - beta
 - security-express
 - factory
+- fifteen
