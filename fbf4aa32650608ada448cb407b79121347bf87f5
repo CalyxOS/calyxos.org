@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c5fef2f3_2683fa1c",
+        "filename": "pages/_posts/2024-10-19-android-15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2024-10-20T00:25:57Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 97,
+        "startChar": 39,
+        "endLine": 97,
+        "endChar": 52
+      },
+      "revId": "fbf4aa32650608ada448cb407b79121347bf87f5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
