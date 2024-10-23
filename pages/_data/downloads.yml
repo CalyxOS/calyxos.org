@@ -1445,6 +1445,20 @@ factory:
   incremental_sha256:
   incremental_old_build:
   date: '2024-10-11'
+- name: Fairphone 5
+  brand: fairphone
+  codename: FP5
+  version: 5.12.1-4
+  android: '14'
+  web_install: false
+  factory_link: https://release.calyxinstitute.org/FP5-factory-24512014.zip
+  factory_sha256: 2798e5bd2c1afe880b69bdabecc1e86d35757a42e26c410b1bfbf0e0056a93f4
+  ota_link: https://release.calyxinstitute.org/FP5-ota_update-24512014.zip
+  ota_sha256:
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-10-11'
 - name: SHIFT6mq
   brand: shift
   codename: axolotl
@@ -1469,6 +1483,20 @@ factory:
   factory_sha256: e37e899db567d8e720e261d083479f90467ff59dee366202da565c0f5ee20f95
   ota_link: https://release.calyxinstitute.org/devon-ota_update-24512012.zip
   ota_sha256: 57e0b0151e6ae5d831aa3fe4048fcb661f1f6b5f1bda5a028a6907de7fedd01e
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-10-11'
+- name: Moto G42
+  brand: motorola
+  codename: hawao
+  version: 5.12.1-4
+  android: '14'
+  web_install: false
+  factory_link: https://release.calyxinstitute.org/hawao-factory-24512014.zip
+  factory_sha256: 3e93754b7de8b1a586c9ca0134d5a72f2c3309e71b23934f1f4b9bba68c6acd9
+  ota_link: https://release.calyxinstitute.org/hawao-ota_update-24512014.zip
+  ota_sha256:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
