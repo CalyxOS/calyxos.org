@@ -1473,20 +1473,6 @@ factory:
   incremental_sha256:
   incremental_old_build:
   date: '2024-10-11'
-- name: Moto G42
-  brand: motorola
-  codename: hawao
-  version: 5.12.1-2
-  android: '14'
-  web_install: false
-  factory_link: https://release.calyxinstitute.org/hawao-factory-24512012.zip
-  factory_sha256: 6388058eb90f6ae0e871795d6a160a2cad79997b4a352398e11bc80f79e9ab5a
-  ota_link: https://release.calyxinstitute.org/hawao-ota_update-24512012.zip
-  ota_sha256: 5a1432e8be071acbf1aca95a501207ecc2748d4d1eddacf4466cd844a40e4844
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
-  date: '2024-10-11'
 - name: Moto G52
   brand: motorola
   codename: rhode
