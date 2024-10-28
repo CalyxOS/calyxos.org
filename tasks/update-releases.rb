@@ -105,7 +105,7 @@ module Releases
           if File.exist?(release_filename + "7")
             release_filename += "7"
             old_release_filename += "7"
-          if File.exist?(release_filename + "6")
+          elsif File.exist?(release_filename + "6")
             release_filename += "6"
             old_release_filename += "6"
           elsif File.exist?(release_filename + "5")
