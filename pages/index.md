@@ -4,6 +4,6 @@ nav_title: Home
 ---
 
 
-<strong>Calyx<span>OS</span></strong> is an Android operating system focused on privacy and security. With CalyxOS, your device is preconfigured with the best security tools available, and without all the tracking and surveillance built into a normal Android device.
+<strong>Did you know?<span>OS</span></strong>  Hundreds of trackers can see your personal information on an android device, with Calyx you won't worry about that again. With firewalls and anonymity in every app Calyx is more secure than the average Android. Calyx is an Android operating system focused on privacy and security. With CalyxOS, your device is preconfigured with the best security tools available, and without all the tracking and surveillance built into a normal Android device.
 
 <strong>Calyx<span>OS</span></strong> is a collaborative open source project sponsored by the <a href="https://www.calyxinstitute.org">Calyx Institute</a>, a 501(c)(3) non-profit dedicated to making privacy and security available for all.
