@@ -99,9 +99,9 @@
 <p>CalyxOS usually tracks the Chrome Android stable release, you can see the latest version at <a href="https://chromiumdash.appspot.com/releases?platform=Android">https://chromiumdash.appspot.com/releases?platform=Android</a>.
 Look for the first version under ‘Stable’</p>
 
-<p>Stable version at time of writing this: 129.0.6668.54</p>
+<p>Stable version at time of writing this: 120.0.6099.144</p>
 
-<p><code class="language-plaintext highlighter-rouge">export V=129.0.6668.54 # Replace this with the correct version</code></p>
+<p><code class="language-plaintext highlighter-rouge">export V=120.0.6099.144 # Replace this with the correct version</code></p>
 
 <h2 id="short-version">Short version</h2>
 <ul>
@@ -138,8 +138,7 @@ Look for the first version under ‘Stable’</p>
   </li>
   <li>Build
     <ul>
-      <li><strong>IMPORTANT</strong>: We are working to resolve <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2715">build issues with Chromium 129</a> that make it necessary to run autoninja multiple times before a successful build is achieved. We have updated the command below to do this, for now. Thanks for your patience.</li>
-      <li><code class="language-plaintext highlighter-rouge">for i in $(seq 1 5); do autoninja -k 0 -C out/Default trichrome_chrome_64_32_bundle trichrome_library_64_32_apk trichrome_webview_64_32_apk system_webview_shell_apk &amp;&amp; break; done</code></li>
+      <li><code class="language-plaintext highlighter-rouge">autoninja -C out/Default trichrome_chrome_64_32_bundle trichrome_library_64_32_apk trichrome_webview_64_32_apk system_webview_shell_apk</code></li>
     </ul>
   </li>
   <li>Process output
