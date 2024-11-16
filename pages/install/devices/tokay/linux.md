@@ -1,10 +1,10 @@
 ---
-title: Install on Pixel 9
+title: Install on Pixel 9 (Beta)
 description: From a Linux computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/tokay/">Pixel 9</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/tokay/">Pixel 9 (Beta)</a></strong>
 
 ## Terminology
 
@@ -50,7 +50,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 <a class="btn" href="https://release.calyxinstitute.org/tokay-factory-24601010.zip">Download CalyxOS Image</a>
 
-Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 9 (tokay)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
+Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 9 (Beta) (tokay)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
 Do not extract or rename the zip, simply copy it as-is.
 

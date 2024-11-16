@@ -1,8 +1,8 @@
 ---
-title: Install on Pixel 9 Pro Fold
+title: Install on Pixel 9 Pro Fold (Beta)
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/comet/">Pixel 9 Pro Fold</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/comet/">Pixel 9 Pro Fold (Beta)</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">
