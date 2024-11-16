@@ -1,5 +1,61 @@
 ---
 stable:
+- name: Pixel 9 Pro Fold
+  brand: pixel
+  codename: comet
+  version: 6.1.1
+  android: '15'
+  web_install: false
+  factory_link: https://release.calyxinstitute.org/comet-factory-24601010.zip
+  factory_sha256: ac86d582c7b0a000886592e94f61973ee984091ace77fa0ac15d4d07ba478ed1
+  ota_link: https://release.calyxinstitute.org/comet-ota_update-24601010.zip
+  ota_sha256: d1cabb62c3499e235cb90bf2db7a8372c5977e5ea507166822d0b9bdd994fb86
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-11-14'
+- name: Pixel 9 Pro XL
+  brand: pixel
+  codename: komodo
+  version: 6.1.1
+  android: '15'
+  web_install: false
+  factory_link: https://release.calyxinstitute.org/komodo-factory-24601010.zip
+  factory_sha256: 184e7bce0a1370c80197129517d9e92fa193e31dc483b67664ab6150c8ffa469
+  ota_link: https://release.calyxinstitute.org/komodo-ota_update-24601010.zip
+  ota_sha256: 9e95a62784f96e90df947e74a6fd2b70c0e9861c94ab5a1663e35bfbb037bbf4
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-11-14'
+- name: Pixel 9 Pro
+  brand: pixel
+  codename: caiman
+  version: 6.1.1
+  android: '15'
+  web_install: false
+  factory_link: https://release.calyxinstitute.org/caiman-factory-24601010.zip
+  factory_sha256: 025acf2c90845ab539f9ffdc264c091b45f2d04fcbb0d7a76a69a2275a7832ed
+  ota_link: https://release.calyxinstitute.org/caiman-ota_update-24601010.zip
+  ota_sha256: 7e42123b1c5c69bbdbf22167fdb856ba0e34c6fa958299b4333c03bd61ac009f
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-11-14'
+- name: Pixel 9
+  brand: pixel
+  codename: tokay
+  version: 6.1.1
+  android: '15'
+  web_install: false
+  factory_link: https://release.calyxinstitute.org/tokay-factory-24601010.zip
+  factory_sha256: 7a155c60ac1bc05aef7c00e64fabb5c2dfe5cdf7a09388515609e69aaab65e59
+  ota_link: https://release.calyxinstitute.org/tokay-ota_update-24601010.zip
+  ota_sha256: 46946cddd01a562775d8ec58e4a9b33f3c4755833719424f535709940e215118
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-11-14'
 - name: Pixel 8a
   brand: pixel
   codename: akita
@@ -379,6 +435,62 @@ stable:
   incremental_old_build: '24511030'
   date: '2024-10-11'
 beta:
+- name: Pixel 9 Pro Fold
+  brand: pixel
+  codename: comet
+  version: 6.1.1
+  android: '15'
+  web_install: false
+  factory_link: https://release.calyxinstitute.org/comet-factory-24601010.zip
+  factory_sha256: ac86d582c7b0a000886592e94f61973ee984091ace77fa0ac15d4d07ba478ed1
+  ota_link: https://release.calyxinstitute.org/comet-ota_update-24601010.zip
+  ota_sha256: d1cabb62c3499e235cb90bf2db7a8372c5977e5ea507166822d0b9bdd994fb86
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-11-14'
+- name: Pixel 9 Pro XL
+  brand: pixel
+  codename: komodo
+  version: 6.1.1
+  android: '15'
+  web_install: false
+  factory_link: https://release.calyxinstitute.org/komodo-factory-24601010.zip
+  factory_sha256: 184e7bce0a1370c80197129517d9e92fa193e31dc483b67664ab6150c8ffa469
+  ota_link: https://release.calyxinstitute.org/komodo-ota_update-24601010.zip
+  ota_sha256: 9e95a62784f96e90df947e74a6fd2b70c0e9861c94ab5a1663e35bfbb037bbf4
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-11-14'
+- name: Pixel 9 Pro
+  brand: pixel
+  codename: caiman
+  version: 6.1.1
+  android: '15'
+  web_install: false
+  factory_link: https://release.calyxinstitute.org/caiman-factory-24601010.zip
+  factory_sha256: 025acf2c90845ab539f9ffdc264c091b45f2d04fcbb0d7a76a69a2275a7832ed
+  ota_link: https://release.calyxinstitute.org/caiman-ota_update-24601010.zip
+  ota_sha256: 7e42123b1c5c69bbdbf22167fdb856ba0e34c6fa958299b4333c03bd61ac009f
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-11-14'
+- name: Pixel 9
+  brand: pixel
+  codename: tokay
+  version: 6.1.1
+  android: '15'
+  web_install: false
+  factory_link: https://release.calyxinstitute.org/tokay-factory-24601010.zip
+  factory_sha256: 7a155c60ac1bc05aef7c00e64fabb5c2dfe5cdf7a09388515609e69aaab65e59
+  ota_link: https://release.calyxinstitute.org/tokay-ota_update-24601010.zip
+  ota_sha256: 46946cddd01a562775d8ec58e4a9b33f3c4755833719424f535709940e215118
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-11-14'
 - name: Pixel 8a
   brand: pixel
   codename: akita
@@ -758,6 +870,62 @@ beta:
   incremental_old_build:
   date: '2024-10-11'
 security-express:
+- name: Pixel 9 Pro Fold
+  brand: pixel
+  codename: comet
+  version: 6.1.1
+  android: '15'
+  web_install: false
+  factory_link: https://release.calyxinstitute.org/comet-factory-24601010.zip
+  factory_sha256: ac86d582c7b0a000886592e94f61973ee984091ace77fa0ac15d4d07ba478ed1
+  ota_link: https://release.calyxinstitute.org/comet-ota_update-24601010.zip
+  ota_sha256: d1cabb62c3499e235cb90bf2db7a8372c5977e5ea507166822d0b9bdd994fb86
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-11-14'
+- name: Pixel 9 Pro XL
+  brand: pixel
+  codename: komodo
+  version: 6.1.1
+  android: '15'
+  web_install: false
+  factory_link: https://release.calyxinstitute.org/komodo-factory-24601010.zip
+  factory_sha256: 184e7bce0a1370c80197129517d9e92fa193e31dc483b67664ab6150c8ffa469
+  ota_link: https://release.calyxinstitute.org/komodo-ota_update-24601010.zip
+  ota_sha256: 9e95a62784f96e90df947e74a6fd2b70c0e9861c94ab5a1663e35bfbb037bbf4
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-11-14'
+- name: Pixel 9 Pro
+  brand: pixel
+  codename: caiman
+  version: 6.1.1
+  android: '15'
+  web_install: false
+  factory_link: https://release.calyxinstitute.org/caiman-factory-24601010.zip
+  factory_sha256: 025acf2c90845ab539f9ffdc264c091b45f2d04fcbb0d7a76a69a2275a7832ed
+  ota_link: https://release.calyxinstitute.org/caiman-ota_update-24601010.zip
+  ota_sha256: 7e42123b1c5c69bbdbf22167fdb856ba0e34c6fa958299b4333c03bd61ac009f
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-11-14'
+- name: Pixel 9
+  brand: pixel
+  codename: tokay
+  version: 6.1.1
+  android: '15'
+  web_install: false
+  factory_link: https://release.calyxinstitute.org/tokay-factory-24601010.zip
+  factory_sha256: 7a155c60ac1bc05aef7c00e64fabb5c2dfe5cdf7a09388515609e69aaab65e59
+  ota_link: https://release.calyxinstitute.org/tokay-ota_update-24601010.zip
+  ota_sha256: 46946cddd01a562775d8ec58e4a9b33f3c4755833719424f535709940e215118
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-11-14'
 - name: Pixel 8a
   brand: pixel
   codename: akita
@@ -1137,6 +1305,62 @@ security-express:
   incremental_old_build:
   date: '2024-10-11'
 factory:
+- name: Pixel 9 Pro Fold
+  brand: pixel
+  codename: comet
+  version: 6.1.1
+  android: '15'
+  web_install: true
+  factory_link: https://release.calyxinstitute.org/comet-factory-24601010.zip
+  factory_sha256: ac86d582c7b0a000886592e94f61973ee984091ace77fa0ac15d4d07ba478ed1
+  ota_link: https://release.calyxinstitute.org/comet-ota_update-24601010.zip
+  ota_sha256: d1cabb62c3499e235cb90bf2db7a8372c5977e5ea507166822d0b9bdd994fb86
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-11-14'
+- name: Pixel 9 Pro XL
+  brand: pixel
+  codename: komodo
+  version: 6.1.1
+  android: '15'
+  web_install: true
+  factory_link: https://release.calyxinstitute.org/komodo-factory-24601010.zip
+  factory_sha256: 184e7bce0a1370c80197129517d9e92fa193e31dc483b67664ab6150c8ffa469
+  ota_link: https://release.calyxinstitute.org/komodo-ota_update-24601010.zip
+  ota_sha256: 9e95a62784f96e90df947e74a6fd2b70c0e9861c94ab5a1663e35bfbb037bbf4
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-11-14'
+- name: Pixel 9 Pro
+  brand: pixel
+  codename: caiman
+  version: 6.1.1
+  android: '15'
+  web_install: true
+  factory_link: https://release.calyxinstitute.org/caiman-factory-24601010.zip
+  factory_sha256: 025acf2c90845ab539f9ffdc264c091b45f2d04fcbb0d7a76a69a2275a7832ed
+  ota_link: https://release.calyxinstitute.org/caiman-ota_update-24601010.zip
+  ota_sha256: 7e42123b1c5c69bbdbf22167fdb856ba0e34c6fa958299b4333c03bd61ac009f
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-11-14'
+- name: Pixel 9
+  brand: pixel
+  codename: tokay
+  version: 6.1.1
+  android: '15'
+  web_install: true
+  factory_link: https://release.calyxinstitute.org/tokay-factory-24601010.zip
+  factory_sha256: 7a155c60ac1bc05aef7c00e64fabb5c2dfe5cdf7a09388515609e69aaab65e59
+  ota_link: https://release.calyxinstitute.org/tokay-ota_update-24601010.zip
+  ota_sha256: 46946cddd01a562775d8ec58e4a9b33f3c4755833719424f535709940e215118
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2024-11-14'
 - name: Pixel 8a
   brand: pixel
   codename: akita
