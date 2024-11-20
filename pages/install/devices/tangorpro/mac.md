@@ -48,7 +48,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/tangorpro-factory-24512022.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/tangorpro-factory-24601000.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel Tablet (tangorpro)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -60,14 +60,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/tangorpro-factory-24512022.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/tangorpro-factory-24601000.zip" | split: "/" | last %}
 {% include install/mac_image_digest.md filename=image %}
 
-And ensure the result says `4a9505e70e92b5acc32ad0ff4e61d01d8bce8aa4fdf4f6ee924317e31b3ae226`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `af20dad183137b81ef2c140bd7a8b958a54798bcb61898eb3218a1fc3769b179`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/tangorpro-factory-24512022.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/tangorpro-factory-24601000.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 
