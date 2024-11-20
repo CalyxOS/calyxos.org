@@ -16,6 +16,57 @@
       "message": "Put this as-is.\n\nLayout will need work, I don\u0027t know what this looks like right now, but we can decide on language separately.",
       "revId": "9766a84468507744e9056cf4fbb7264767b9db6c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7b5c10a_3a3e565d",
+        "filename": "pages/get/index.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-11-20T20:51:31Z",
+      "side": 1,
+      "message": "I\u0027d remove the our here and below, make it \"Try the new Web Installer\" instead, because it\u0027s a fork of an existing project and I really don\u0027t want to get into anything with anyone about that.",
+      "revId": "9766a84468507744e9056cf4fbb7264767b9db6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c3e2d546_e225e5b1",
+        "filename": "pages/get/index.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-11-20T20:51:31Z",
+      "side": 1,
+      "message": "There\u0027s no need to choose the model in this case technically, can directly have them jump into it from here too, I added a link above.",
+      "revId": "9766a84468507744e9056cf4fbb7264767b9db6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "462bc43d_6b1af442",
+        "filename": "pages/get/index.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-11-20T20:51:31Z",
+      "side": 1,
+      "message": "\"smooth experience\" may not be the right word here, it just won\u0027t work at all on those.",
+      "revId": "9766a84468507744e9056cf4fbb7264767b9db6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
