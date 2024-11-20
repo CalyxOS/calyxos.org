@@ -7,6 +7,12 @@ redirect_from:
   - /install/devices
 ---
 
+## Try the new Web Installer
+
+The new [CalyxOS Web Installer](https://install.calyxos.org) is here! This tool walks you through the entire installation process in simple clicks. If you are using Pixel 6 or later models of Pixels, we highly recommend that you use the Web Installer to ease your installation process.
+
+**Please note:** Web Installer is a browser installation tool and requires WebUSB access. To ensure successful installation, avoid browsers that do not allow WebUSB access, such as Firefox and Safari.
+
 ## Choose your device model
 
 Which device do you want to install CalyxOS on? If you don't see your device here, see [[device-support]] for more information.
