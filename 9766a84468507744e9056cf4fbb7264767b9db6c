@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b0602fd3_819085cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-11-20T20:49:30Z",
+      "side": 1,
+      "message": "Put this as-is.\n\nLayout will need work, I don\u0027t know what this looks like right now, but we can decide on language separately.",
+      "revId": "9766a84468507744e9056cf4fbb7264767b9db6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
