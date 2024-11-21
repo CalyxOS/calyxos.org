@@ -53,6 +53,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6cf436e_b254a9e9",
+        "filename": "pages/get/index.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-11-21T16:19:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "73ebc04e_b1a238b1",
+      "revId": "9766a84468507744e9056cf4fbb7264767b9db6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c3e2d546_e225e5b1",
@@ -90,6 +108,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e5f22ae8_e5a0f868",
+        "filename": "pages/get/index.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-11-21T16:19:54Z",
+      "side": 1,
+      "message": "Yes it detects the device model. There\u0027s no device-specific web installer links, it always goes to the homepage and starts and then detects.\n\nI\u0027ll send you a screen of what it does when connected to an unsupported device later today.",
+      "parentUuid": "3cc26fc1_5976c901",
+      "revId": "9766a84468507744e9056cf4fbb7264767b9db6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "462bc43d_6b1af442",
         "filename": "pages/get/index.html",
         "patchSetId": 1
@@ -119,6 +155,24 @@
       "side": 1,
       "message": "Changed to \u0027To ensure successful installation.\u0027 Would this work?",
       "parentUuid": "462bc43d_6b1af442",
+      "revId": "9766a84468507744e9056cf4fbb7264767b9db6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee0ecfb4_0e51c9f9",
+        "filename": "pages/get/index.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-11-21T16:19:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8f8c8010_d4dee703",
       "revId": "9766a84468507744e9056cf4fbb7264767b9db6c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
