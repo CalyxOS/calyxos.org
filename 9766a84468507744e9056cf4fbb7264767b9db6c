@@ -126,6 +126,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3da52081_fe547b18",
+        "filename": "pages/get/index.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2024-11-21T21:25:24Z",
+      "side": 1,
+      "message": "I see. I deleted that entire sentence since the Web Installer detects the device model. But I realized that the new language is now put on this page (https://calyxos.org/get/) instead of this page (https://calyxos.org/install/). I was suggesting adding this language to /install. If we want to add announcement for Web Installer to /get, I need to make further edits.",
+      "parentUuid": "e5f22ae8_e5a0f868",
+      "revId": "9766a84468507744e9056cf4fbb7264767b9db6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "462bc43d_6b1af442",
         "filename": "pages/get/index.html",
         "patchSetId": 1
