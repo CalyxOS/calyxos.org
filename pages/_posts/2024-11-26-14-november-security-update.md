@@ -1,6 +1,6 @@
 ---
 title: Android 14, November 2024 Security update
-date: 2024-12-26
+date: 2024-11-26
 ---
 
 * CalyxOS 5.13.0 - Android 14 for FP5, FP4, Moto G52, G42, G32, Pixel 3 - 5a, SHIFT6MQ
