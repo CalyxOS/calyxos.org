@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dcfb55ca_1366004b",
+        "filename": "pages/install/_templates/_choose_os.html",
+        "patchSetId": 6
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-11-27T14:29:01Z",
+      "side": 1,
+      "message": "This conditional doesn\u0027t work but we need to make it work.",
+      "revId": "acf1b47b820fd0ae4bec4a5f9d35db8569bd35fa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
