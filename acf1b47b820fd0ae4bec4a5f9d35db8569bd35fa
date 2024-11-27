@@ -16,6 +16,24 @@
       "message": "This conditional doesn\u0027t work but we need to make it work.",
       "revId": "acf1b47b820fd0ae4bec4a5f9d35db8569bd35fa",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f424c7a2_129ddb26",
+        "filename": "pages/install/_templates/_choose_os.html",
+        "patchSetId": 6
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2024-11-27T15:42:07Z",
+      "side": 1,
+      "message": "The line height of the note for \"Install from Browser\" needs some polishing. I assumed \u003cp\u003e will come with styles. If it doesn\u0027t work, please make sure \u003cstyle\u003d\"line-height: 1.2\"\u003e",
+      "parentUuid": "dcfb55ca_1366004b",
+      "revId": "acf1b47b820fd0ae4bec4a5f9d35db8569bd35fa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
