@@ -1,12 +1,12 @@
 ---
 android_versions:
+  - 15
   - 14
   - 13
   - 11
 upcoming_codenames:
   - otter
 upcoming_brands:
-  - pixel
   - shift
 modern_codenames:
   - comet

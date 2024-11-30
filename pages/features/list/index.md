@@ -62,6 +62,10 @@ These apps are required for basic functionality and thus always present on the d
 
 | Device | Status |
 | ------ | ------ |
+| Pixel 9 Pro Fold | any eSIM + physical SIM, dual SIM/eSIM |
+| Pixel 9 Pro XL | any eSIM + physical SIM, dual SIM/eSIM |
+| Pixel 9 Pro | any eSIM + physical SIM, dual SIM/eSIM |
+| Pixel 9 | any eSIM + physical SIM, dual SIM/eSIM |
 | Pixel 8a | any eSIM + physical SIM, dual SIM/eSIM |
 | Pixel 8 Pro | any eSIM + physical SIM, dual SIM/eSIM |
 | Pixel 8 | any eSIM + physical SIM, dual SIM/eSIM |
