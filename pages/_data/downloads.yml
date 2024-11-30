@@ -1658,13 +1658,13 @@ factory:
 - name: Fairphone 4
   brand: fairphone
   codename: FP4
-  version: 5.13.0
-  android: '14'
+  version: 0.0.0
+  android: "?"
   web_install: false
-  factory_link: https://release.calyxinstitute.org/FP4-factory-24513000.zip
-  factory_sha256: 00e47e9cd00857a4043257653c615d1a4091ec604b4d2fab0c5b6a301d9a557d
-  ota_link: https://release.calyxinstitute.org/FP4-ota_update-24513000.zip
-  ota_sha256: 62cccd4373460c071ac6163178cefd56c9be2bb26babfea3b1425d9825730961
+  factory_link: https://release.calyxinstitute.org/FP4-factory-0.zip
+  factory_sha256:
+  ota_link: https://release.calyxinstitute.org/FP4-ota_update-0.zip
+  ota_sha256:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -1672,13 +1672,13 @@ factory:
 - name: Fairphone 5
   brand: fairphone
   codename: FP5
-  version: 5.13.0
-  android: '14'
+  version: 0.0.0
+  android: "?"
   web_install: false
-  factory_link: https://release.calyxinstitute.org/FP5-factory-24513000.zip
-  factory_sha256: 4ac0468887b801041dbb829c2346d957b2a6a4a9bb2fb412a839cc9820454960
-  ota_link: https://release.calyxinstitute.org/FP5-ota_update-24513000.zip
-  ota_sha256: 677d9424fa0c42e3550adf845dcf8f9fc5ffc88d1a7a1005df18b6c5b4d53747
+  factory_link: https://release.calyxinstitute.org/FP5-factory-0.zip
+  factory_sha256:
+  ota_link: https://release.calyxinstitute.org/FP5-ota_update-0.zip
+  ota_sha256:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
