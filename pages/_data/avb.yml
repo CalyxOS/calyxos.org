@@ -1,4 +1,16 @@
 ---
+- name: Pixel 9 Pro Fold
+  codename: comet
+  avb_fingerprint: ""
+- name: Pixel 9 Pro XL
+  codename: komodo
+  avb_fingerprint: ""
+- name: Pixel 9 Pro
+  codename: caiman
+  avb_fingerprint: ""
+- name: Pixel 9
+  codename: tokay
+  avb_fingerprint: ""
 - name: Pixel 8a
   codename: akita
   avb_fingerprint: ""
