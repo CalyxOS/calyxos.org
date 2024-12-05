@@ -22,6 +22,30 @@
       },
       "revId": "a7c44a03e690f8ca6a8fa73ad9b5ae29f0232c14",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "19fd730f_bfa83820",
+        "filename": "pages/_posts/2024-12-04-14-december-security-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-12-05T11:31:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0b49ae61_b925176a",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 33
+      },
+      "revId": "a7c44a03e690f8ca6a8fa73ad9b5ae29f0232c14",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ],
   "submitRequirementResults": [
