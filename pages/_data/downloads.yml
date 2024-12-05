@@ -1700,13 +1700,13 @@ factory:
 - name: Moto G32
   brand: motorola
   codename: devon
-  version: 5.13.0
-  android: '14'
+  version: 0.0.0
+  android: "?"
   web_install: false
-  factory_link: https://release.calyxinstitute.org/devon-factory-24513000.zip
-  factory_sha256: 4754cd2f59f45e0f83b101ea9f55929ef127966002bc4a031d45067691815505
-  ota_link: https://release.calyxinstitute.org/devon-ota_update-24513000.zip
-  ota_sha256: 871ff3343f414300be94be3f9776360d5904b3dbdd28790bd71d247cd12b7717
+  factory_link: https://release.calyxinstitute.org/devon-factory-0.zip
+  factory_sha256:
+  ota_link: https://release.calyxinstitute.org/devon-ota_update-0.zip
+  ota_sha256:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
@@ -1728,13 +1728,13 @@ factory:
 - name: Moto G52
   brand: motorola
   codename: rhode
-  version: 5.13.0
-  android: '14'
+  version: 0.0.0
+  android: "?"
   web_install: false
-  factory_link: https://release.calyxinstitute.org/rhode-factory-24513000.zip
-  factory_sha256: a3c4690d671eccfb30c9e64bc9765de5f071ac03ddc014c057329d4c006cd018
-  ota_link: https://release.calyxinstitute.org/rhode-ota_update-24513000.zip
-  ota_sha256: b9adf7c0da8a0be6bdc3047b72e63b4a1051e3b932e600f386ab1fc858f2a516
+  factory_link: https://release.calyxinstitute.org/rhode-factory-0.zip
+  factory_sha256:
+  ota_link: https://release.calyxinstitute.org/rhode-ota_update-0.zip
+  ota_sha256:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
