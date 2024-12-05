@@ -22,9 +22,9 @@ date: 2024-12-04
 
 | Release channel  | Date   | Notes |
 | ---------------- | ------ | ------ |
-| Security express | 4 November, Wednesday |  |
-| Beta | 5 November, Thursday |  |
-| Stable | 9 November, Monday | |
+| Security express | 4 December, Wednesday |  |
+| Beta | 5 December, Thursday |  |
+| Stable | 9 December, Monday | |
 
 ### Changelog
 * CalyxOS 5.14.0
