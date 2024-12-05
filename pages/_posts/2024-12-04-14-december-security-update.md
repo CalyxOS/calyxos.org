@@ -22,7 +22,7 @@ date: 2024-12-04
 
 | Release channel  | Date   | Notes |
 | ---------------- | ------ | ------ |
-| Security express | 4 December, Wednesday |  |
+| Security express | 5 December, Thursday | Meant to release on Wednesday but missed that accidentally |
 | Beta | 5 December, Thursday |  |
 | Stable | 9 December, Monday | |
 
