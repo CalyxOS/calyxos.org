@@ -1,4 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-12-05T22:52:28+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Android 14, December 2024 Security update</title><link href="/news/2024/12/04/14-december-security-update/" rel="alternate" type="text/html" title="Android 14, December 2024 Security update" /><published>2024-12-04T00:00:00+05:30</published><updated>2024-12-04T00:00:00+05:30</updated><id>/news/2024/12/04/14-december-security-update</id><content type="html" xml:base="/news/2024/12/04/14-december-security-update/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-12-06T19:57:46+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Android 15, December 2024 Security update, Partial</title><link href="/news/2024/12/05/15-december-security-update-partial/" rel="alternate" type="text/html" title="Android 15, December 2024 Security update, Partial" /><published>2024-12-05T00:00:00+05:30</published><updated>2024-12-05T00:00:00+05:30</updated><id>/news/2024/12/05/15-december-security-update-partial</id><content type="html" xml:base="/news/2024/12/05/15-december-security-update-partial/"><![CDATA[<ul>
+  <li>CalyxOS 6.2.0 - Android 15 for Pixel 6 - 9</li>
+  <li>Contains security fixes for open source components, hence partial</li>
+  <li>Will release 6.2.1 will the full security update as well ASAP.</li>
+</ul>
+
+<h3 id="explanation">Explanation</h3>
+<ul>
+  <li>Google typically releases the monthly (security) updates for Pixels on the first Monday of each month.</li>
+  <li>However, from time to time they’re delayed, and it’s unknown when they’ll be released.</li>
+  <li>All we can do is just wait.</li>
+  <li>A LineageOS contributor fixed Wi-Fi calling on these devices, which we were waiting for.</li>
+  <li>So we decided to make a build with that, and include whatever we can in that.</li>
+  <li>Thus the generic open source parts, which were released on Monday, were included in this build.</li>
+  <li>After we had already prepared for the build, Google released the full December update for the Pixels</li>
+  <li>By the time the source code was released, our builds were ready as well.</li>
+  <li>While we integrate that, here’s an update with Wi-Fi calling fixed, some other minor changes, and the aforementioned security patches</li>
+  <li>We’ll release another update for these devices as soon as Google’s Pixel specific source code is integrated into CalyxOS.</li>
+</ul>
+
+<h3 id="rollout">Rollout</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Release channel</th>
+      <th>Date</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Security express</td>
+      <td>5 December, Thursday</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Beta</td>
+      <td>5 December, Thursday</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Stable</td>
+      <td>9 December, Monday</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="changelog">Changelog</h3>
+<ul>
+  <li>CalyxOS 6.2.0</li>
+  <li>Android 15, December 2024 Security update (2024-12-01), Partial</li>
+  <li>This includes the generic open source components of the December Security update</li>
+  <li>The full update containing the device-specific and proprietary components will be released later</li>
+  <li>Fix Wi-Fi calling in airplane mode <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2813">#2813</a></li>
+  <li>Chromium: 131.0.6778.104</li>
+  <li>Fix Global VPN being turned off upon app uninstallation <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2761">#2761</a></li>
+  <li>Update all included apps</li>
+</ul>
+
+<h2 id="note">Note</h2>
+
+<div class="alert alert-info" style="margin-top: 3rem">
+<ul>
+  <li>
+    <strong>Over-the-air Updates:</strong>
+    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
+  </li>
+  <li>
+    <strong>Security Updates:</strong>
+    The <strong>Pixel 9 Pro Fold, 9 Pro XL, 9 Pro, 9, 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
+  </li>
+  <li>
+    <strong>Security Updates:</strong>
+    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
+  </li>
+  <li>
+    <strong>End-of-life:</strong>
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+  </li>
+</ul>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.2.0 - Android 15 for Pixel 6 - 9 Contains security fixes for open source components, hence partial Will release 6.2.1 will the full security update as well ASAP.]]></summary></entry><entry><title type="html">Android 14, December 2024 Security update</title><link href="/news/2024/12/04/14-december-security-update/" rel="alternate" type="text/html" title="Android 14, December 2024 Security update" /><published>2024-12-04T00:00:00+05:30</published><updated>2024-12-04T00:00:00+05:30</updated><id>/news/2024/12/04/14-december-security-update</id><content type="html" xml:base="/news/2024/12/04/14-december-security-update/"><![CDATA[<ul>
   <li>CalyxOS 5.14.0 - Android 14 for FP5, FP4, Moto G52, G42, G32, Pixel 4 - 5a</li>
   <li>Will determine Android 15 status for the above devices after the Android 15 QPR1 release</li>
   <li>Still waiting for Google to release the Android 15 update for Pixel 6 - 9</li>
@@ -389,27 +471,6 @@
 
 <table class="table table-striped download">
   <tr><th>Device</th><th>Link</th><th><a href="/get/verify">Signature</a></th><th>SHA256</th></tr>
-
-  <tr>
-    <td>Pixel 8a (akita)</td>
-    <td><a href="https://release.calyxinstitute.org/akita-factory-24600010.zip">Download</a></td>
-    <td><a href="https://release.calyxinstitute.org/akita-factory-24600010.zip.minisig">Signature</a></td>
-    <td class="hash">5fa16450076f38f8e3280206f0db5414bdb0d1568a0642be9863b2eab4b8bbf6</td>
-  </tr>
-
-  <tr>
-    <td>Pixel 7a (lynx)</td>
-    <td><a href="https://release.calyxinstitute.org/lynx-factory-24600010.zip">Download</a></td>
-    <td><a href="https://release.calyxinstitute.org/lynx-factory-24600010.zip.minisig">Signature</a></td>
-    <td class="hash">b3c1ff67a285b807e1368f471acbf3e0c9510fc4c71294bab41dd73545bd5514</td>
-  </tr>
-
-  <tr>
-    <td>Pixel 6a (bluejay)</td>
-    <td><a href="https://release.calyxinstitute.org/bluejay-factory-24600010.zip">Download</a></td>
-    <td><a href="https://release.calyxinstitute.org/bluejay-factory-24600010.zip.minisig">Signature</a></td>
-    <td class="hash">4ab8ce27b36de1c26603cb9833a11ee0562a10767309b50a246a7e73f7a7d9fc</td>
-  </tr>
 
 </table>
 
@@ -979,73 +1040,4 @@
 
 <ul>
   <li>If you’re having trouble trying to post messages to the <a href="https://matrix.to/#/#CalyxOS:matrix.org">#CalyxOS</a> matrix channel, try to leave the channel if possible, and then try writing <code class="language-plaintext highlighter-rouge">/join #CalyxOS:matrix.org</code> in any chat in Matrix. That should re-connect you to the channel.</li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 5.11.1 - September 2024 Security update for Pixel 3 - 5, FP4, FP5, motorola &amp; SHIFT6mq Android 15 work in progress]]></summary></entry><entry><title type="html">September 2024 Security update</title><link href="/news/2024/09/05/september-security-update/" rel="alternate" type="text/html" title="September 2024 Security update" /><published>2024-09-05T00:00:00+05:30</published><updated>2024-09-05T00:00:00+05:30</updated><id>/news/2024/09/05/september-security-update</id><content type="html" xml:base="/news/2024/09/05/september-security-update/"><![CDATA[<ul>
-  <li>CalyxOS 5.11.0 - September 2024 Security update for Pixel 6 and newer Pixels</li>
-  <li>Other devices work in progress</li>
-  <li>Android 15 also work in progress</li>
-</ul>
-
-<h2 id="rollout">Rollout</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Release channel</th>
-      <th>Date</th>
-      <th>Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Security express</td>
-      <td>5 September, Thursday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Beta</td>
-      <td>6 September, Friday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Stable</td>
-      <td>9 September, Monday</td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="changelog">Changelog</h2>
-<ul>
-  <li>CalyxOS 5.11.0</li>
-  <li>September 2024 Security update</li>
-  <li>Chromium 128.0.6613.99</li>
-</ul>
-
-<h2 id="note">Note</h2>
-
-<div class="alert alert-info" style="margin-top: 3rem">
-<ul>
-  <li>
-    <strong>Over-the-air Updates:</strong>
-    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Pixel 9 Pro Fold, 9 Pro XL, 9 Pro, 9, 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
-    <strong>End-of-life:</strong>
-    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
-  </li>
-</ul>
-</div>
-
-<h2 id="matrix-channel">Matrix channel</h2>
-
-<ul>
-  <li>If you’re having trouble trying to post messages to the <a href="https://matrix.to/#/#CalyxOS:matrix.org">#CalyxOS</a> matrix channel, try to leave the channel if possible, and then try writing <code class="language-plaintext highlighter-rouge">/join #CalyxOS:matrix.org</code> in any chat in Matrix. That should re-connect you to the channel.</li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 5.11.0 - September 2024 Security update for Pixel 6 and newer Pixels Other devices work in progress Android 15 also work in progress]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 5.11.1 - September 2024 Security update for Pixel 3 - 5, FP4, FP5, motorola &amp; SHIFT6mq Android 15 work in progress]]></summary></entry></feed>
