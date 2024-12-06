@@ -19,10 +19,19 @@ The Calyx Institute's mission is to educate the public about privacy in digital 
 
 ## Translation
 
-Missing your language?
+Missing your language, or seeing wrong strings?
+Help us translate CalyxOS on [Weblate!](https://hosted.weblate.org/projects/calyxos)
 
-Help us by translating CalyxOS on [Weblate](https://hosted.weblate.org/projects/calyxos)
+In common open-source fashion, we use and contribute back to many other components developed primarily by other people, these have separate translation processes. Here's some quick links on where you can translate them if you choose to do so!
+    * [LineageOS](https://wiki.lineageos.org/how-to/translate), *many strings come from here*
+    * [microG](https://github.com/microg/GmsCore/blob/master/TRANSLATION.md)
+    * [F-Droid](https://hosted.weblate.org/projects/f-droid/)
+    * [Aurora Store](https://hosted.weblate.org/projects/aurora-store)
+    * [Breezy Weather](https://hosted.weblate.org/projects/breezy-weather/breezy-weather-android/#information)
+    * [Bitmask](https://explore.transifex.com/otf/bitmask/), *the upstream client for Calyx and Riseup VPN!*
+    * [Briar](https://explore.transifex.com/otf/briar/)
 
-We also use translations from LineageOS, for contributing to them check [LineageOS wiki, how to translate](https://wiki.lineageos.org/how-to/translate)
+You don't need to translate everything! Translating just CalyxOS itself is fine.
+Thanks in advance for the help!
 
 <br />
