@@ -48,7 +48,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/FP5-factory-24513002.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/FP5-factory-24514000.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Fairphone 5 (FP5)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -60,14 +60,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/FP5-factory-24513002.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/FP5-factory-24514000.zip" | split: "/" | last %}
 {% include install/windows_image_digest.md filename=image %}
 
-And ensure the result says `4114dada5507fd41eaf35c093f01711b29ce9b2a3b8c1e48be9001d426545faf`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `37b8f7c54e8280cc8a669ba2cff782fc03cdd4149498d3cede1926cd73c73260`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/FP5-factory-24513002.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/FP5-factory-24514000.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 

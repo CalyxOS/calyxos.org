@@ -48,7 +48,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/komodo-factory-24601010.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/komodo-factory-24602000.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 9 Pro XL (Beta) (komodo)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -60,14 +60,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/komodo-factory-24601010.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/komodo-factory-24602000.zip" | split: "/" | last %}
 {% include install/windows_image_digest.md filename=image %}
 
-And ensure the result says `184e7bce0a1370c80197129517d9e92fa193e31dc483b67664ab6150c8ffa469`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `6e8ddacafb0163abc6b3a956a9d852d5bf7f26af9d14530c026094051b96d6c2`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/komodo-factory-24601010.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/komodo-factory-24602000.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 

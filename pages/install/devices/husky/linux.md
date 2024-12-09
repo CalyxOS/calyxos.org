@@ -48,7 +48,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/husky-factory-24512022.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/husky-factory-24602000.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 8 Pro (husky)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -60,14 +60,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/husky-factory-24512022.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/husky-factory-24602000.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `4c23b3289110b64e25f5aab7876a8cdfe012656bdbf2d8fae50f3aa0686d2f0c`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `72d18807b27dbbeeb592065a2c4f3e391b81ccdf8e3091a00c6085c633d8c8f5`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/husky-factory-24512022.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/husky-factory-24602000.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 

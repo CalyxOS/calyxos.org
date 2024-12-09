@@ -48,7 +48,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/cheetah-factory-24512022.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/cheetah-factory-24602000.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 7 Pro (cheetah)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -60,14 +60,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/cheetah-factory-24512022.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/cheetah-factory-24602000.zip" | split: "/" | last %}
 {% include install/windows_image_digest.md filename=image %}
 
-And ensure the result says `507e72ab189e832d548a83ec2d6f78b45929fd4cea752092e83377495eb75b2c`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `c3cdbb3e42787ac53e722da4976885b8bbd8b245c8d98e26ebe2869dad2e33b2`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/cheetah-factory-24512022.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/cheetah-factory-24602000.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 
