@@ -1,10 +1,10 @@
 ---
-title: Install on Pixel 9 Pro XL (Beta)
+title: Install on Pixel 9 Pro XL
 description: From a Linux computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/komodo/">Pixel 9 Pro XL (Beta)</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/komodo/">Pixel 9 Pro XL</a></strong>
 
 ## Terminology
 
@@ -50,7 +50,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 <a class="btn" href="https://release.calyxinstitute.org/komodo-factory-24602000.zip">Download CalyxOS Image</a>
 
-Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 9 Pro XL (Beta) (komodo)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
+Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 9 Pro XL (komodo)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
 Do not extract or rename the zip, simply copy it as-is.
 

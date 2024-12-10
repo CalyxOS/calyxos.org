@@ -1,8 +1,8 @@
 ---
-title: Install on Pixel 9 Pro XL (Beta)
+title: Install on Pixel 9 Pro XL
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/komodo/">Pixel 9 Pro XL (Beta)</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/komodo/">Pixel 9 Pro XL</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

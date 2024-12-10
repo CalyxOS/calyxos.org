@@ -1,8 +1,8 @@
 ---
-title: Install on Pixel 9 Pro (Beta)
+title: Install on Pixel 9 Pro
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/caiman/">Pixel 9 Pro (Beta)</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/caiman/">Pixel 9 Pro</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">

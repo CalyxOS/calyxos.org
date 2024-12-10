@@ -61,7 +61,7 @@ previous_brands:
   - xiaomi
 comet:
   brand: pixel
-  model: Pixel 9 Pro Fold (Beta)
+  model: Pixel 9 Pro Fold
   manufacturer_support_ends: 2031-08
   calyxos_support_ends: 2031-08
   sim: "dual"
@@ -70,7 +70,7 @@ comet:
   web_install: true
 komodo:
   brand: pixel
-  model: Pixel 9 Pro XL (Beta)
+  model: Pixel 9 Pro XL
   manufacturer_support_ends: 2031-08
   calyxos_support_ends: 2031-08
   sim: "dual"
@@ -79,7 +79,7 @@ komodo:
   web_install: true
 caiman:
   brand: pixel
-  model: Pixel 9 Pro (Beta)
+  model: Pixel 9 Pro
   manufacturer_support_ends: 2031-08
   calyxos_support_ends: 2031-08
   sim: "dual"
@@ -88,7 +88,7 @@ caiman:
   web_install: true
 tokay:
   brand: pixel
-  model: Pixel 9 (Beta)
+  model: Pixel 9
   manufacturer_support_ends: 2031-08
   calyxos_support_ends: 2031-08
   sim: "dual"

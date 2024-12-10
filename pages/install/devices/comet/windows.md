@@ -1,10 +1,10 @@
 ---
-title: Install on Pixel 9 Pro Fold (Beta)
+title: Install on Pixel 9 Pro Fold
 description: From a Windows computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/comet/">Pixel 9 Pro Fold (Beta)</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/comet/">Pixel 9 Pro Fold</a></strong>
 
 ## Terminology
 
@@ -50,7 +50,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 <a class="btn" href="https://release.calyxinstitute.org/comet-factory-24602000.zip">Download CalyxOS Image</a>
 
-Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 9 Pro Fold (Beta) (comet)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
+Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 9 Pro Fold (comet)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
 Do not extract or rename the zip, simply copy it as-is.
 

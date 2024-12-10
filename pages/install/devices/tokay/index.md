@@ -1,8 +1,8 @@
 ---
-title: Install on Pixel 9 (Beta)
+title: Install on Pixel 9
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/tokay/">Pixel 9 (Beta)</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/tokay/">Pixel 9</a></strong>
 
 <div class="gallery" markdown=0>
   <div class="cell square">
