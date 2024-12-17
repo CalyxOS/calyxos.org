@@ -1672,12 +1672,12 @@ factory:
 - name: Fairphone 5
   brand: fairphone
   codename: FP5
-  version: 0.0.0
-  android: "?"
+  version: 5.14.0-2
+  android: '14'
   web_install: false
-  factory_link: https://release.calyxinstitute.org/FP5-factory-0.zip
-  factory_sha256:
-  ota_link: https://release.calyxinstitute.org/FP5-ota_update-0.zip
+  factory_link: https://release.calyxinstitute.org/FP5-factory-24514002.zip
+  factory_sha256: 1ad331bf9f079c7f0727d2544d84389f3f45c8abc3ae8d15fddba7bb7a9cb281
+  ota_link: https://release.calyxinstitute.org/FP5-ota_update-24514002.zip
   ota_sha256:
   incremental_link:
   incremental_sha256:
