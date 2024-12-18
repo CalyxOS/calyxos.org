@@ -3,7 +3,7 @@ title: Android 15, December 2024 Quarterly Platform Release & Security update
 date: 2024-12-13
 ---
 
-* CalyxOS 6.2.1 - Android 15 for Pixel 6 - 9, except Pixel Fold (1st generation)
+* CalyxOS 6.2.1 - Android 15 for Pixel 6 - 9
 * The full December 2024 Security update (2024-12-05)
 
 ### Rollout
