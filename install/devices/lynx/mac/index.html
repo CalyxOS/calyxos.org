@@ -179,7 +179,7 @@ Installation from the M1 Macs is currently not supported due to an incompatibili
 
 <h3 id="download-factory-image">Download factory image</h3>
 
-<p><a class="btn" href="https://release.calyxinstitute.org/lynx-factory-24602000.zip">Download CalyxOS Image</a></p>
+<p><a class="btn" href="https://release.calyxinstitute.org/lynx-factory-24602012.zip">Download CalyxOS Image</a></p>
 
 <p>Save this image in the same directory as device-flasher. This image will <strong>only</strong> work for <strong>Pixel 7a (lynx)</strong>. Any attempt to install this image on a different device model may brick (destroy) the Android device.</p>
 
@@ -191,14 +191,14 @@ Installation from the M1 Macs is currently not supported due to an incompatibili
 
 <p>To verify the image, open a terminal window on the host computer where you saved the image and run the command:</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>shasum <span class="nt">-a</span> 256 lynx-factory-24602000.zip
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>shasum <span class="nt">-a</span> 256 lynx-factory-24602012.zip
 </code></pre></div></div>
 
-<p>And ensure the result says <code class="language-plaintext highlighter-rouge">543e980a442ec152aff110845af9a6d084e4b1ff0e28d4b9093e7cddd7061ba1</code>. This is the unique digest of the image file. If it doesn’t match, then you have a corrupted or incorrect file.</p>
+<p>And ensure the result says <code class="language-plaintext highlighter-rouge">7a68d2c31e08b9bfa05e27ce93b3ff612819eadec82d66bfc21939f9d47c7957</code>. This is the unique digest of the image file. If it doesn’t match, then you have a corrupted or incorrect file.</p>
 
 <h4 id="verify-signature">Verify Signature</h4>
 
-<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/lynx-factory-24602000.zip.minisig">download the signature file</a> and then <a href="/install/verify/">verify image signature</a>.</p>
+<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/lynx-factory-24602012.zip.minisig">download the signature file</a> and then <a href="/install/verify/">verify image signature</a>.</p>
 
 <h2 id="install-calyxos">Install CalyxOS</h2>
 
