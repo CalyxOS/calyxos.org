@@ -12,8 +12,9 @@ date: 2024-12-13
 | ---------------- | ------ | ------ |
 | Security express | 13 December, Friday | Rollout Halted after 12 hours due to issue |
 | Security express | 17 December, Tuesday | Rolling it out again |
-| Beta | 17 December, Tuesday | |
-| Stable | On Hold | Until issues are resolved |
+| Beta | 17 December, Tuesday | Rolling it out again |
+| Stable | Skipped | Jumped to next release |
+| Stable | 24 December, Tuesday | Minus the "microG Google apps" fix. |
 
 ### The issue
 * We initially released this to security express on 13 December Friday. At that time, one of our test devices failed to boot, which we thought was a device-specific issue and thus we skipped that device while investigating, but released for the rest
@@ -42,7 +43,7 @@ date: 2024-12-13
 ### Changelog
 * CalyxOS 6.2.1
 * Android 15, December 2024 Quarterly Platform Release Security update (2024-12-05), Full
-* microG: Fix some google apps not working after recent updates
+* ~~microG: Fix some google apps not working after recent updates~~
 * Keyboard: Fix landscape mode
 * Chromium: 131.0.6778.135
 * Update all included apps
