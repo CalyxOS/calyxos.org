@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-12-24T21:18:44+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Android 15, December 2024 Quarterly Platform Release &amp;amp; Security update</title><link href="/news/2024/12/13/15-december-qpr1-security-update/" rel="alternate" type="text/html" title="Android 15, December 2024 Quarterly Platform Release &amp;amp; Security update" /><published>2024-12-13T00:00:00+05:30</published><updated>2024-12-13T00:00:00+05:30</updated><id>/news/2024/12/13/15-december-qpr1-security-update</id><content type="html" xml:base="/news/2024/12/13/15-december-qpr1-security-update/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-12-27T21:43:48+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Android 15, December 2024 Quarterly Platform Release &amp;amp; Security update</title><link href="/news/2024/12/13/15-december-qpr1-security-update/" rel="alternate" type="text/html" title="Android 15, December 2024 Quarterly Platform Release &amp;amp; Security update" /><published>2024-12-13T00:00:00+05:30</published><updated>2024-12-13T00:00:00+05:30</updated><id>/news/2024/12/13/15-december-qpr1-security-update</id><content type="html" xml:base="/news/2024/12/13/15-december-qpr1-security-update/"><![CDATA[<ul>
   <li>CalyxOS 6.2.1 - Android 15 for Pixel 6 - 9</li>
   <li>The full December 2024 Security update (2024-12-05)</li>
 </ul>
@@ -27,12 +27,12 @@
     <tr>
       <td>Beta</td>
       <td>17 December, Tuesday</td>
-      <td> </td>
+      <td>Rolling it out again</td>
     </tr>
     <tr>
       <td>Stable</td>
-      <td>On Hold</td>
-      <td>Until issues are resolved</td>
+      <td>24 December, Tuesday</td>
+      <td>Minus the “microG Google apps” fix.</td>
     </tr>
   </tbody>
 </table>
@@ -84,7 +84,7 @@
 <ul>
   <li>CalyxOS 6.2.1</li>
   <li>Android 15, December 2024 Quarterly Platform Release Security update (2024-12-05), Full</li>
-  <li>microG: Fix some google apps not working after recent updates</li>
+  <li><del>microG: Fix some google apps not working after recent updates</del></li>
   <li>Keyboard: Fix landscape mode</li>
   <li>Chromium: 131.0.6778.135</li>
   <li>Update all included apps</li>
