@@ -26,7 +26,7 @@ Features of microG:
 
 * Reduces battery, memory, and CPU usage.
 * Allows you to opt-in to specific Google Services if you want.
-* Location: typically, an Android device will using WiFi and cell-towers data from Google to help determine precise location. microG does this without using Google, and without reporting your location to Google (CalyxOS is configured to use [[location information from Mozilla -> location ]]).
+* Location: typically, an Android device will using WiFi and cell-towers data from Google to help determine precise location. microG does this without using Google, and without reporting your location to Google.
 * Notification: most chat apps depend on Play Services to be alerted when a new message should be delivered to the user. microG allows your device to use this service from Google without the full Play Services installation.
 
 You can check the microG wiki to see the current status of which [[ parts of Play Services have been implemented in microG => https://github.com/microg/android_packages_apps_GmsCore/wiki/Implementation-Status ]].
@@ -71,7 +71,7 @@ If you don't have a Google account configured in microG, then this connection is
 We think of the way we have implemented microG as a 'harm reduction' approach: it is not 100% perfect privacy, but it is very good and still affords a solid user experience.
 
 * **microG disabled**: No information is sent to any server.
-* **microG enabled**: Your IP address and device model information is sent to Google (see [[identifiers]]) when microG first registers itself with Google. Similar information is sent to Mozilla for location services (see [[location]]). Google's Advertising ID is completely disabled. Your device will receive push notifications from Google servers.
+* **microG enabled**: Your IP address and device model information is sent to Google (see [[identifiers]]) when microG first registers itself with Google. Similar information may be sent for location services depending on your settings, (see [[location]]). Google's Advertising ID is completely disabled. Your device will receive push notifications from Google servers.
 * **microG enabled, with a Google Account**: Your Google Account name is sent to Google when microG first register itself with Google services.
 
 What is stock Android like in comparison? Everything is tracked. In one study, [stock Android phones sent location data to Google 340 times during a 24-hour period](https://digitalcontentnext.org/wp-content/uploads/2018/08/DCN-Google-Data-Collection-Paper.pdf). Another [study from University of Edinburgh](https://www.scss.tcd.ie/Doug.Leith/Android_privacy_report.pdf) showed that even right out of the box, a typical stock Android device sends a high degree of information to numerous data brokers.

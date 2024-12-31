@@ -26,8 +26,12 @@ These network connections are initiated by the operating system itself (or micro
   <td>To update the anti-tracking filters built into the OS.</td>
 </tr>
 <tr>
-  <td>location.services.mozilla.com</td>
-  <td>Used by the <a href="https://github.com/microg/IchnaeaNlpBackend">Mozilla Location Services module</a> for microG as an alternative to Google's location services. May be disabled in the microG settings.</td>
+  <td>api.positon.xyz</td>
+  <td>Used by microG as an online location service. Only used if you selected it, you can disable or modify it in microG settings.</td>
+</tr>
+<tr>
+  <td>api.beacondb.net</td>
+  <td>Used by microG as an online location service. Only used if you selected it, you can disable or modify it in microG settings.</td>
 </tr>
 <tr>
   <td>xtrapath1.izatcloud.net</td>
