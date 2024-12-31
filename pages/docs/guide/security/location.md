@@ -45,13 +45,17 @@ Even in airplane mode, your device will still record location using whatever met
 
 In CalyxOS, location services are handled by alternative providers instead of Google, even if you have a Google account configured with microG.
 
-### Mozilla Location Service (MLS)
+### Positon
 
-[Mozilla Location Service](https://location.services.mozilla.com/) is an alternative to Google Location Accuracy and is enabled by default in CalyxOS. Mozilla gathers and stores your IP Address, cell phone tower information, and WiFi network information. Unlike when using Google location services, Mozilla does not get any perminant identifiers or information tied to your identity.
+Positon is one of the online location services available for use in CalyxOS. It provides commercial levels of quality, therefore has higher availability and accuracy, but isn't an open database. Their privacy policy can be found [here.](https://positon.xyz/docs/privacy/)
 
-### Déjà Vu Location Service
+### BeaconDB
 
-To be written.
+BeaconDB is one of the online location services available for use in CalyxOS. It doesn't yet have [as much data](https://beacondb.net/map) as Positon, but is an open database. It is possible to contribute to BeaconDB, for more details and their privacy policy, check their [website.](https://beacondb.net/)
+
+### microG Remember from GPS
+
+microG's Remember from GPS option builds a local database of known APs and their location, this is used for obtaining a location when GPS isn't available, like when there isn't a line of sight to the sky. All data stays in your device.
 
 Strategies for increasing location privacy
 --------------------------------------------------

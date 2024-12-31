@@ -76,7 +76,7 @@ Features of microG:
 
 Reduces battery, memory, and CPU usage.
 Allows you to opt-in to specific Google Services if you want.
-Location: typically, an Android device will using WiFi and cell-towers data from Google to help determine precise location. microG does this without using Google, and without reporting your location to Google (CalyxOS is configured to use location information from Mozilla).
+Location: typically, an Android device will using WiFi and cell-towers data from Google to help determine precise location. microG does this without using Google, and without reporting your location to Google.
 Notification: most chat apps depend on Play Services to be alerted when a new message should be delivered to the user. microG allows your device to use this service from Google without the full Play Services installation.
 
 When you first start your phone, you will be given several options for the microg implementation on your device.

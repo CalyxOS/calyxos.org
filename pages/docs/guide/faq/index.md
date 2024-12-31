@@ -25,7 +25,7 @@ We encourage the use of the free VPN applications, of Orbot and Tor Browser for 
 This is one of the hardest issues to address because of the nature of the cellular phone network. It is an ongoing problem that we hope to have better solutions for in the future, however we partially address it in several ways now: by including VPN services to cloak your IP address, by including Tor services to cloak your IP address, and by including functionality to turn off bluetooth or Wi-Fi after a user-configurable period of inactivity to prevent tracking, such as by bluetooth beacons. We also randomize the Wi-Fi MAC address (on a per network basis) as a countermeasure against tracking by unique MAC addresses.
 
 ### How do you handle location services in a more private way?
-Normally on stock Android, location services are built into the Google Play Services. Since CalyxOS doesn't include Google Play Services, location services are instead handled by Unified Network Location Provider (UnifiedNLP) bundled with MicroG. By default, we use the [Déjà Vu location service](https://github.com/n76/DejaVu) which uses locally acquired Wi-Fi AP and cell tower data to resolve location as well as [Mozilla location service](https://location.services.mozilla.com).
+Normally on stock Android, location services are built into the Google Play Services. Since CalyxOS doesn't include Google Play Services, location services are instead handled by microG. By default, we use microG's "Remember from GPS" which uses locally acquired Wi-Fi AP and cell tower data to resolve location, we also prompt if you'd like to use an online location service, you can choose between [Positon](https://positon.xyz), [BeaconDB](https://beacondb.net), or none.
 
 ### What does 'de-googled' Android mean?
 

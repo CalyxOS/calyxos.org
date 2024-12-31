@@ -51,8 +51,8 @@ These apps are required for basic functionality and thus always present on the d
 
 ### microG
 * Available, but completely optional, replaces some functions of Google Play Services while maintaining much more anonymity and privacy
-* Mozilla Location Services (and Dejavu) available as default location services (instead of Google on stock) https://location.services.mozilla.com/
-* Nominatim available as default geocoding service https://nominatim.org/
+* [Positon](https://positon.xyz) or [BeaconDB](https://beacondb.net) (and locally obtained AP data) available as location services (instead of Google on stock)
+* [Nominatim](https://nominatim.org) available as default geocoding service
 
 ### Network
 * Google DNS is replaced as fallback with Cloudflare DNS which has been audited for privacy by a third party auditor.

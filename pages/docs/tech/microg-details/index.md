@@ -18,9 +18,3 @@ On CalyxOS, [signature spoofing](https://review.calyxos.org/c/CalyxOS/platform_f
 * Only allowed the microG packages, GmsCore and Store to spoof signature. Both of these are included as system apps on CalyxOS so simply checking against the package name is enough.
 
 This approach means that as far as microG is concerned, the behavior remains pretty much the same, while also not letting any other app use this functionality.
-
-### Mozilla Location Services
-
-[Mozilla Location Service](https://location.services.mozilla.com/) is an alternative to Google Location Accuracy and is enabled by default in CalyxOS. Mozilla gathers and stores your IP Address, cell phone tower information, and WiFi network information. Unlike when using Google location services, Mozilla does not get any perminant identifiers or information tied to your identity.
-
-For more information, see <https://github.com/microg/IchnaeaNlpBackend>.
