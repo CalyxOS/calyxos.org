@@ -1,4 +1,151 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-12-27T21:43:48+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Android 15, December 2024 Quarterly Platform Release &amp;amp; Security update</title><link href="/news/2024/12/13/15-december-qpr1-security-update/" rel="alternate" type="text/html" title="Android 15, December 2024 Quarterly Platform Release &amp;amp; Security update" /><published>2024-12-13T00:00:00+05:30</published><updated>2024-12-13T00:00:00+05:30</updated><id>/news/2024/12/13/15-december-qpr1-security-update</id><content type="html" xml:base="/news/2024/12/13/15-december-qpr1-security-update/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-12-31T20:38:48+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">December 2024 Feature update</title><link href="/news/2024/12/31/december-feature-update/" rel="alternate" type="text/html" title="December 2024 Feature update" /><published>2024-12-31T00:00:00+05:30</published><updated>2024-12-31T00:00:00+05:30</updated><id>/news/2024/12/31/december-feature-update</id><content type="html" xml:base="/news/2024/12/31/december-feature-update/"><![CDATA[<ul>
+  <li>CalyxOS 6.2.2 - Android 15 for Pixel 6 - 9</li>
+  <li>CalyxOS 5.14.1 - Android 14 for FP5, FP4, Moto G52, G42, G32, Pixel 4 - 5</li>
+  <li>New microG, SeedVault, and more</li>
+</ul>
+
+<h3 id="rollout">Rollout</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Release channel</th>
+      <th>Date</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>6.2.2</td>
+      <td>Beta</td>
+      <td>27 December, Friday</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>5.14.1</td>
+      <td>Beta</td>
+      <td>31 December, Tuesday</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="known-issues">Known issues</h4>
+<ul>
+  <li>Some apps using maps crash. A fix is in the works, and this page will be updated with the details as soon as it’s available</li>
+</ul>
+
+<h3 id="changelog">Changelog</h3>
+<h4 id="622---android-15">6.2.2 - Android 15</h4>
+<ul>
+  <li>CalyxOS 6.2.2</li>
+  <li>December 2024 Feature update</li>
+  <li>microG: Fix some google apps not working after recent updates (again)</li>
+  <li>microG: v0.3.6.244735</li>
+  <li>microG: Online location sources - prompt to choose one</li>
+  <li>microG: Many other fixes and improvements from the past few months</li>
+  <li>Add Private Space feature</li>
+  <li>Chromium: 131.0.6778.200</li>
+  <li>Fix installation of updated apps on creating new work profile / user</li>
+  <li>SeedVault: 15-5.2</li>
+  <li>SeedVault: It is now possible to verify the integrity of app and file backups, partially or fully</li>
+  <li>SeedVault: Allow changing backup location when USB drive isn’t plugged in</li>
+  <li>SeedVault: Fix work profile USB backup</li>
+  <li>SeedVault: A launch button is now shown for apps that are force-stopped so that they can be backed up</li>
+  <li>Allow disabling lock screen user switcher</li>
+  <li>Allow user switching when system user locked</li>
+  <li>Improve verification of links apps can open</li>
+  <li>Allow turning off work profile on end of work hours</li>
+  <li>Fix creation of work profile in certain cases</li>
+  <li>Fix status bar padding</li>
+  <li>Remove support for no longer updated Mulch WebView.</li>
+  <li>Update all included apps</li>
+</ul>
+
+<h4 id="5141---android-14">5.14.1 - Android 14</h4>
+<ul>
+  <li>CalyxOS 5.14.1</li>
+  <li>December 2024 Feature update</li>
+  <li>microG: Fix some google apps not working after recent updates</li>
+  <li>microG: v0.3.6.244735</li>
+  <li>microG: Online location sources - prompt to choose one</li>
+  <li>microG: Many other fixes and improvements from the past few months</li>
+  <li>Chromium: 131.0.6778.200</li>
+  <li>Fix installation of updated apps on creating new work profile / user</li>
+  <li>SeedVault: 14-5.2</li>
+  <li>SeedVault: New backup format using compression and deduplication (same as Android 15)</li>
+  <li>SeedVault: Can still restore old backups, but old Seedvault can’t restore backups from this version</li>
+  <li>SeedVault: It is now possible to verify the integrity of app and file backups, partially or fully</li>
+  <li>SeedVault: Allow changing backup location when USB drive isn’t plugged in</li>
+  <li>SeedVault: Fix work profile USB backup</li>
+  <li>SeedVault: Faster and more reliable backups making snapshots that can individually be restored</li>
+  <li>SeedVault: Auto-cleaning of old backups</li>
+  <li>SeedVault: All backups now mimic device-to-device (allowing backup for all apps)</li>
+  <li>SeedVault: All backups now use a high per-app app quota</li>
+  <li>SeedVault: Show more information for backups available to restore</li>
+  <li>SeedVault: Fix “Waiting to back up…” showing for apps</li>
+  <li>SeedVault: A launch button is now shown for apps that are force-stopped so that they can be backed up</li>
+  <li>Remove support for no longer updated Mulch WebView.</li>
+  <li>Update all included apps</li>
+  <li>Updated translations</li>
+</ul>
+
+<h4 id="fp5">FP5</h4>
+<ul>
+  <li>Update to FP5.UT2H.B.088.20241122</li>
+  <li>Kernel: Update to Linux 5.4.286, ASB-2024-12-05_11-5.4</li>
+</ul>
+
+<h4 id="fp4">FP4</h4>
+<ul>
+  <li>Kernel: Update to Linux 4.19.324, ASB-2024-12-05_4.19-stable</li>
+</ul>
+
+<h4 id="moto-g32">Moto G32</h4>
+<ul>
+  <li>Update to T2SNS33.73-22-3-11</li>
+  <li>Kernel: Update to Linux 4.19.324, ASB-2024-12-05_4.19-stable</li>
+</ul>
+
+<h4 id="moto-g42">Moto G42</h4>
+<ul>
+  <li>Kernel: Update to Linux 4.19.324, ASB-2024-12-05_4.19-stable</li>
+</ul>
+
+<h4 id="moto-g52">Moto G52</h4>
+<ul>
+  <li>Update to T2SRS33.72-22-4-9</li>
+  <li>Kernel: Update to Linux 4.19.324, ASB-2024-12-05_4.19-stable</li>
+</ul>
+
+<h4 id="pixel-5a-5-4a-5g">Pixel 5a, 5, 4a (5G)</h4>
+<ul>
+  <li>Enable charging limit</li>
+</ul>
+
+<h2 id="note">Note</h2>
+
+<div class="alert alert-info" style="margin-top: 3rem">
+<ul>
+  <li>
+    <strong>Over-the-air Updates:</strong>
+    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
+  </li>
+  <li>
+    <strong>Security Updates:</strong>
+    The <strong>Pixel 9 Pro Fold, 9 Pro XL, 9 Pro, 9, 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
+  </li>
+  <li>
+    <strong>Security Updates:</strong>
+    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
+  </li>
+  <li>
+    <strong>End-of-life:</strong>
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+  </li>
+</ul>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.2.2 - Android 15 for Pixel 6 - 9 CalyxOS 5.14.1 - Android 14 for FP5, FP4, Moto G52, G42, G32, Pixel 4 - 5 New microG, SeedVault, and more]]></summary></entry><entry><title type="html">Android 15, December 2024 Quarterly Platform Release &amp;amp; Security update</title><link href="/news/2024/12/13/15-december-qpr1-security-update/" rel="alternate" type="text/html" title="Android 15, December 2024 Quarterly Platform Release &amp;amp; Security update" /><published>2024-12-13T00:00:00+05:30</published><updated>2024-12-13T00:00:00+05:30</updated><id>/news/2024/12/13/15-december-qpr1-security-update</id><content type="html" xml:base="/news/2024/12/13/15-december-qpr1-security-update/"><![CDATA[<ul>
   <li>CalyxOS 6.2.1 - Android 15 for Pixel 6 - 9</li>
   <li>The full December 2024 Security update (2024-12-05)</li>
 </ul>
@@ -908,114 +1055,4 @@
     The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 5.11.3 - Bugfix for September 2024 Feature update for Pixel 4 and newer, Fairphone, Motorola Fixes a bug in the previous update due to which we halted rollout to security express and stable]]></summary></entry><entry><title type="html">September 2024 Feature update</title><link href="/news/2024/09/25/september-feature-update/" rel="alternate" type="text/html" title="September 2024 Feature update" /><published>2024-09-25T00:00:00+05:30</published><updated>2024-09-25T00:00:00+05:30</updated><id>/news/2024/09/25/september-feature-update</id><content type="html" xml:base="/news/2024/09/25/september-feature-update/"><![CDATA[<ul>
-  <li>CalyxOS 5.11.2 - September 2024 Feature update for Pixel 4 and newer, Fairphone, Motorola</li>
-  <li>Android 15, Pixel 9 work in progress</li>
-  <li>Pixel 3, 3a, SHIFT6MQ are EOL, but will receive another update</li>
-</ul>
-
-<h2 id="calyxos-5112">CalyxOS 5.11.2</h2>
-<h3 id="rollout">Rollout</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>Release channel</th>
-      <th>Date</th>
-      <th>Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Beta</td>
-      <td>25 September, Wednesday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Security express</td>
-      <td>~27 September, Friday~</td>
-      <td>Rollout halted due to bug <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2718">#2718</a></td>
-    </tr>
-    <tr>
-      <td>Stable</td>
-      <td>~2 October, Wednesday~</td>
-      <td>Rollout halted due to bug <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2718">#2718</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="changelog">Changelog</h3>
-<ul>
-  <li>CalyxOS 5.11.2</li>
-  <li>September 2024 Feature update</li>
-  <li>microG: Fix unexpected registration and notifications state <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2674">#2674</a></li>
-  <li>System: Fixes for VPN-covered DNS traffic <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/">#2660</a>, <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2660">#2680</a></li>
-  <li>Chromium: 129.0.6668.54 (latest stable)</li>
-  <li>Chromium: Switch to self-hosted adblock filter <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2679">#2679</a></li>
-  <li>Chromium: Fix some AMP / Google News links <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2689">#2689</a></li>
-  <li>Chromium: Prevent some unwanted sign-in-related connections <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2703">#2703</a></li>
-  <li>Seedvault: Update to <a href="https://github.com/seedvault-app/seedvault/releases/tag/14-4.1">14-4.1</a>, many new features included</li>
-  <li>Seedvault: It is now possible to restore after setting up a profile</li>
-  <li>Seedvault: It is now possible to select what to restore (e.g. apps, files…)</li>
-  <li>Firewall: Refresh app list on new install &amp; uninstalls</li>
-  <li>Firewall: Fix handling of VPN-only apps after restore of backup <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2586">#2586</a></li>
-  <li>Firewall: Fix blocking of updated apps that newly have INTERNET permission <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2657">#2657</a></li>
-  <li>Camera: Fix front camera intent preview mirroring</li>
-  <li>Camera: Add support for mute button and mic mute gesture</li>
-  <li>Calendar: Updates from upstream Etar, version 1.0.47</li>
-  <li>Messaging: Fix animated GIFs <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2535">#2535</a></li>
-  <li>Work Hours: Fix stopping of work profile on second reminder <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2462">#2462</a></li>
-  <li>Update all included apps</li>
-</ul>
-
-<h2 id="android-15">Android 15</h2>
-<ul>
-  <li>Work in progress</li>
-  <li>Still waiting for Google to release it for the Pixels to get the required proprietary files</li>
-</ul>
-
-<h2 id="pixel-9">Pixel 9</h2>
-<ul>
-  <li>Work in progress, will be released after Android 15</li>
-</ul>
-
-<h2 id="pixel-4-4a">Pixel 4, 4a</h2>
-<ul>
-  <li>We’re looking into possibilities to extend support for these devices further.</li>
-  <li>The options are:
-    <ul>
-      <li>Get Android 15 working on these, and support that for some time</li>
-      <li>Keep Android 14 maintained further to extend support</li>
-    </ul>
-  </li>
-  <li>We’ll post an update once we have some more info.</li>
-</ul>
-
-<h2 id="pixel-3-3a-shift6mq">Pixel 3, 3a, SHIFT6MQ</h2>
-<ul>
-  <li>We’re ending support for these devices</li>
-  <li>We will release another update or two with as many bugfixes as possible, to have a better last build</li>
-</ul>
-
-<h2 id="note">Note</h2>
-
-<div class="alert alert-info" style="margin-top: 3rem">
-<ul>
-  <li>
-    <strong>Over-the-air Updates:</strong>
-    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Pixel 9 Pro Fold, 9 Pro XL, 9 Pro, 9, 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
-    <strong>End-of-life:</strong>
-    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
-  </li>
-</ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 5.11.2 - September 2024 Feature update for Pixel 4 and newer, Fairphone, Motorola Android 15, Pixel 9 work in progress Pixel 3, 3a, SHIFT6MQ are EOL, but will receive another update]]></summary></entry></feed>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 5.11.3 - Bugfix for September 2024 Feature update for Pixel 4 and newer, Fairphone, Motorola Fixes a bug in the previous update due to which we halted rollout to security express and stable]]></summary></entry></feed>

@@ -33,9 +33,9 @@
   // get variables from jekyll
   // 
   // 
-  const SITE_CONTENTS_FILE = "sitecontents-1735316028.json";
+  const SITE_CONTENTS_FILE = "sitecontents-1735657728.json";
   const SITE_CONTENTS_URL =
-    "/assets/sitecontents-1735316028.json";
+    "/assets/sitecontents-1735657728.json";
 
   async function fetchDocuments() {
     if (window.localStorage) {
