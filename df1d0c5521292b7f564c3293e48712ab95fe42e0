@@ -34,6 +34,24 @@
       "parentUuid": "3e76698b_b7e3da2c",
       "revId": "df1d0c5521292b7f564c3293e48712ab95fe42e0",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "96442fd1_348cf320",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-01-02T20:59:10Z",
+      "side": 1,
+      "message": "Got it, thanks. Maybe \"Start from Stock\" would make more sense to be higher up rather than below \"Enable OEM unlocking\"? I don\u0027t know, at least the info is somewhere.",
+      "parentUuid": "0455fc34_2a32fb89",
+      "revId": "df1d0c5521292b7f564c3293e48712ab95fe42e0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
