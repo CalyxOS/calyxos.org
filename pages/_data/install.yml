@@ -1,5 +1,6 @@
 ---
 pixel:
+  pre_unlock_notes: install/pixel_stock_disclaimer.md
   troubleshooting: install/pixel_troubleshooting.md
 fairphone:
   pre_unlock_notes: install/fairphone_unlock.md
