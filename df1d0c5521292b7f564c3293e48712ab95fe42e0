@@ -52,6 +52,24 @@
       "parentUuid": "0455fc34_2a32fb89",
       "revId": "df1d0c5521292b7f564c3293e48712ab95fe42e0",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "03685693_104916aa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-03T12:45:34Z",
+      "side": 1,
+      "message": "It might, but then if you\u0027re on a custom ROM, you may potentially have to \"Enable OEM unlocking\" anyways.",
+      "parentUuid": "96442fd1_348cf320",
+      "revId": "df1d0c5521292b7f564c3293e48712ab95fe42e0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
