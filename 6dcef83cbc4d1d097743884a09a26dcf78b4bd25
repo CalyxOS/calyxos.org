@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ef304e4_160b4f60",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-03T17:13:26Z",
+      "side": 1,
+      "message": "I need to figure out the size of this, how many characters are used. That way we can add info about rotating this SSID manually.",
+      "revId": "6dcef83cbc4d1d097743884a09a26dcf78b4bd25",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "98e7ef0d_40ffc385",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-03T17:13:26Z",
+      "side": 1,
+      "message": "It may also be interesting to add some info about location services and how they collect data from pretty much all other Android devices and Apple devices.\nI would expect them to ignore hotspots, as they can\u0027t be used reliably for location estimation anyway and may cause issues, but I\u0027m not sure this happens. They should respect `_nomap` at least, and the randomization of the BSSID may break this for anyone trying to use a location service to query about a mobile hotspot.",
+      "revId": "6dcef83cbc4d1d097743884a09a26dcf78b4bd25",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
