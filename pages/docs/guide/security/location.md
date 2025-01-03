@@ -90,4 +90,7 @@ Unfortunately, apps are able to detect that this location is not real, and many 
 
 ### Wi-Fi hotspot
 
-To be written.
+Wi-Fi hotspots in CalyxOS use non-stable randomized BSSIDs, meaning their MAC address. However, their SSIDs, meaning their name, uses a stable randomized name, and may be replaced with your device name if you set it to something else.
+This name will usually be `AndroidAP_` followed by random characters. Therefore, it may be possible to track your location long-term using its SSID. It is recommended to not add personally identifiable info to your hotspot name, as well as use a secure password and protocol.
+
+
