@@ -88,6 +88,19 @@ There is an app in F-droid called [Fake Traveler](https://f-droid.org/packages/c
 
 Unfortunately, apps are able to detect that this location is not real, and many applications will ignore the mocked location.
 
+### EXIF metadata
+
+Your photos and videos contain EXIF metadata, this includes info such as the device used for the shot, the date and time it was shot, etc. Inside this metadata, location may be included.
+When this is case, like when you allow the camera app to add location tags to photos, apps with access to media are able to recreate your location history from the media available. To remediate this,
+you can start by not allowing apps to access your media or files, disabling the location tags from your camera app, and using tools like Scrambled Exif to remove EXIF data when sharing media.
+
+#### Strict location redaction
+
+CalyxOS bundles a feature called "Strict location redaction". While Android tries to redact location data in a few situations, it still has considerable holes and may leak your location data when not expected.
+When this feature is enabled, CalyxOS will redact location from EXIF metadata in most scenearios, with the exception of apps allowed to manage media or all of the device's files.
+
+Note: this may cause issues with media management apps that do not use these permissions, if you wish to, you can disable this feature in Settings > Security and privacy > More security and privacy > Redact location data when sharing media
+
 ### Wi-Fi hotspot
 
 To be written.
