@@ -3,8 +3,8 @@ title: December 2024 Feature update
 date: 2024-12-31
 ---
 
-* CalyxOS 6.2.2 - Android 15 for Pixel 6 - 9
-* CalyxOS 5.14.1 - Android 14 for FP5, FP4, Moto G52, G42, G32, Pixel 4 - 5
+* CalyxOS 6.2.3 - Android 15 for Pixel 6 - 9
+* CalyxOS 5.14.2 - Android 14 for FP5, FP4, Moto G52, G42, G32, Pixel 3 - 5
 * New microG, SeedVault, and more
 
 ### Rollout
@@ -13,9 +13,17 @@ date: 2024-12-31
 | ------- | ---------------- | ------ | ------ |
 | 6.2.2 | Beta | 27 December, Friday | |
 | 5.14.1 | Beta | 31 December, Tuesday | |
+| 6.2.3 | Beta | 4 January, Saturday | |
+| 6.2.3 | Security express | 4 January, Saturday | |
+| 5.14.2 | Beta | 4 January, Saturday | |
+| 5.14.2 | Security express | 4 January, Saturday | |
+| 6.2.3 | Stable | 6 January, Monday | |
+| 5.14.2 | Stable | 6 January, Monday | |
 
-#### Known issues
-* Some apps using maps crash. A fix is in the works, and this page will be updated with the details as soon as it's available
+
+#### Previously Known issues
+* ~Some apps using maps crash. A fix is in the works, and this page will be updated with the details as soon as it's available~
+* Fixed in 6.2.3 and 5.14.2
 
 ### Changelog
 #### 6.2.2 - Android 15
