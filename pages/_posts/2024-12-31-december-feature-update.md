@@ -26,8 +26,8 @@ date: 2024-12-31
 * Fixed in 6.2.3 and 5.14.2
 
 ### Changelog
-#### 6.2.2 - Android 15
-* CalyxOS 6.2.2
+#### 6.2.3 - Android 15
+* CalyxOS 6.2.3
 * December 2024 Feature update
 * microG: Fix some google apps not working after recent updates (again)
 * microG: v0.3.6.244735
@@ -50,8 +50,8 @@ date: 2024-12-31
 * Remove support for no longer updated Mulch WebView.
 * Update all included apps
 
-#### 5.14.1 - Android 14
-* CalyxOS 5.14.1
+#### 5.14.2 - Android 14
+* CalyxOS 5.14.2
 * December 2024 Feature update
 * microG: Fix some google apps not working after recent updates
 * microG: v0.3.6.244735
