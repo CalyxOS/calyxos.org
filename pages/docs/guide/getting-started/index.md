@@ -176,7 +176,7 @@ Datura provides quick and easy access to these network controls, so you can quic
 
 To SeedVault, swipe up on the home screen to see a list of all currently downloaded apps. Open the App listed as "Backup".
 
-SeedVault will require you to enter a 12 word recoverty code to restore data. This is to protect you - only the you should be able to access backup data! Write does the 12-word recovery code somewhere secure to make sure you have access later.
+SeedVault will require you to enter a 12 word recovery code to restore data. This is to protect you - only the you should be able to access backup data! Write does the 12-word recovery code somewhere secure to make sure you have access later.
 
 Once you have entered your recovery code, SeedVault will prompt you to backup your data in one of three ways.
 
