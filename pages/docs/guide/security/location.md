@@ -29,7 +29,7 @@ This include:
 * WiFi Networks: the unique identifiers of WiFi networks near by.
 * Bluetooth Beacons: the unique identifier of bluetooth devices near by.
 
-The way it works is this: your device submits to Google your IP address, the nearbye bluetooth and Wi-Fi network information, and cell phone tower signal strength. Google then returns with an estimate of where it thinks you probably are.
+The way it works is this: your device submits to Google your IP address, the nearby bluetooth and Wi-Fi network information, and cell phone tower signal strength. Google then returns with an estimate of where it thinks you probably are.
 
 ### Google Servers
 
@@ -76,7 +76,7 @@ There are some reports that some devices will continue to report the IMSI and IM
 
 #### GPS
 
-Even when in Airplane Mode, your device will still **receive** signals from the GPS sattelites unless "Location" is specifically turned off.
+Even when in Airplane Mode, your device will still **receive** signals from the GPS satellites unless "Location" is specifically turned off.
 
 An app on your device might then keep track of your fine grain movements and then upload this history once you are back online. This is what stock Android does if location history is enabled. If you want location privacy, you should both turn on "Airplane Mode" and turn off "Location".
 

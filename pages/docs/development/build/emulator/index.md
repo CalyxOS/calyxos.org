@@ -8,7 +8,7 @@ redirect_from:
 
 CalyxOS Emulator images are built in largely the same way as the OS, just with a different target name.
 
-Assuming that you have setup a build envrionment or already built CalyxOS once as described in [[build]].
+Assuming that you have setup a build environment or already built CalyxOS once as described in [[build]].
 
 For the emulator, the steps are:
 

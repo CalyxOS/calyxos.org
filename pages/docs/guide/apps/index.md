@@ -29,7 +29,7 @@ In earlier versions, CalyxOS gave the client app (F-Droid) special privileges to
 <div>
 [[Aurora Store]] is an **alternative client** to the standard **Google Play Store**. It uses the same standard catalog of apps and installs apps directly from the Google servers.
 * By default, Aurora Store accesses the Google app catalog anonymously.
-* If you want to install paid apps, or if anonymous mode is not working, you can additionally enter your Google account crendentials in the Aurora Store settings (paid apps don't always work).
+* If you want to install paid apps, or if anonymous mode is not working, you can additionally enter your Google account credentials in the Aurora Store settings (paid apps don't always work).
 * CalyxOS gives Aurora Store special privileges so that app updates can be automatically installed. New app installs and uninstalls still must be confirmed as normal.
 </div>
 </div>
@@ -93,7 +93,7 @@ These applications were developed or adapted specifically for use with CalyxOS, 
 * Phone Dialer has built in optional support for Signal and WhatsApp calling.
   * You're always shown the Signal option, and you can make a Signal call if the contact has Signal.
   * The WhatsApp option is only shown when you have WhatsApp installed, and you can make a WhatsApp call if the contact has WhatsApp.
-  * If you don't want these optons, they can be turned off from Menu (top right) -> Settings -> Display options -> Show call provider selection dialog.
+  * If you don't want these options, they can be turned off from Menu (top right) -> Settings -> Display options -> Show call provider selection dialog.
 * Phone Dialer has support for ‘Sensitive Numbers’ feature, where calls to numbers for help lines such as domestic violence, child abuse, suicide hotlines are not recorded in the call log
   * These numbers are also available from a menu entry, Helplines
 

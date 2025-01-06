@@ -10,7 +10,7 @@ toc: true
 
 CalyxOS gives you agency over your digital life.
 
-When you purchase a device from Google, Apple, Amazon or Microsoft these companies generate more revenue from how you use the device than from the purchse of the device.
+When you purchase a device from Google, Apple, Amazon or Microsoft these companies generate more revenue from how you use the device than from the purchase of the device.
 
 They do this in two ways: first, they work hard to funnel all your activity into their closed technology fiefdoms, such as payment systems, cloud storage, and app stores; second, these companies facilitate the continual monitoring of all your behavior. Your most intimate personal details are bought and sold, by advertisers, health insurance companies, credit agencies, and even the government.
 

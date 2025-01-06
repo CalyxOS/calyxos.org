@@ -27,7 +27,7 @@ CalyxOS will work differently than the Android that comes with most devices. Her
   * Better Web Browsing: the default web browser (Chromium) and the browser component used in most apps has been modified to add security enhancements and block advertising trackers.
   * Datura Firewall: an easier way to block network access for particular apps.
   * SeedVault: a secure way to back up your entire device.
-  * Signal and Whatsapp: When making a call, CalyxOS encourages you to make it via Signal or WhatsApp when possible. Signal and Whatsapp offer encrypted calling and videochat, as well as text messaging, if both parties are using Signal or both parties are using Whatsapp.
+  * Signal and WhatsApp: When making a call, CalyxOS encourages you to make it via Signal or WhatsApp when possible. Signal and Whatsapp offer encrypted calling and videochat, as well as text messaging, if both parties are using Signal or both parties are using Whatsapp.
 
 * Limitations & incompatibilities:
   * CalyxOS does not yet include the ability to block advertising and trackers in all apps without running a third party VPN-based app or using Private DNS to block these.
@@ -79,7 +79,7 @@ Allows you to opt-in to specific Google Services if you want.
 Location: typically, an Android device will using WiFi and cell-towers data from Google to help determine precise location. microG does this without using Google, and without reporting your location to Google.
 Notification: most chat apps depend on Play Services to be alerted when a new message should be delivered to the user. microG allows your device to use this service from Google without the full Play Services installation.
 
-When you first start your phone, you will be given several options for the microg implementation on your device.
+When you first start your phone, you will be given several options for the microG implementation on your device.
 
 We recommend the default option, microG enabled, no Google Account, push notifications enabled.
 
@@ -198,7 +198,7 @@ Open the Aurora Store
 
 Search for the Google Photos and Camera applications and download
 Before opening either of the applications, open the Firewall app.
-The firewall app allows finegrain control over application network permissions.
+The firewall app allows fine-grain control over application network permissions.
 Under the Google Photos and Google Camera applications, turn off all network access.
 
 Is Using Google Photos and Google Camera a privacy concern?
@@ -224,7 +224,7 @@ There can be disadvantages of using the Tor Browser:
 
 Curious how well your browser of choice protects you compared to Chrome, Firefox, Safari, Tor, and more? See [Privacy Tests](https://privacytests.org) for an overhead view of the various protections offered by your browser.
 
-More Broswer options are available via F-Droid and the Aurora Store.
+More browser options are available via F-Droid and the Aurora Store.
 
 ## Cool Tips
 
@@ -244,7 +244,7 @@ To set Wi-Fi timeout:
 1. Select Network & Internet
 1. Select Internet
 1. Scroll to the bottom of the page, past the list of available Wi-Fi networks if available
-1. Select Network Prefrences
+1. Select Network Preferences
 1. Select Turn off Wi-Fi automatically
 1. Select the timeout timeframe
 

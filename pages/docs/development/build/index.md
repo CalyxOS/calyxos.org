@@ -14,7 +14,7 @@ This will help you setup a build environment for CalyxOS from scratch
 ### [Computer setup](https://source.android.com/setup/build/initializing)
 
 #### OS
-* Linux, specifcally Debian Stable is preferred and is used for official builds
+* Linux, specifically Debian Stable is preferred and is used for official builds
 * Other recent Linux distros (Arch, Ubuntu, Fedora amongst many others) should mostly work just fine
 * Windows will work too, using WSL2 (Windows Subsystem for Linux)
 * macOS isn't supported
