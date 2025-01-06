@@ -104,8 +104,9 @@
 <li class="toc-entry toc-h3"><a href="#global-positioning-system-gps">Global Positioning System (GPS)</a></li>
 <li class="toc-entry toc-h3"><a href="#network-signals">Network Signals</a></li>
 <li class="toc-entry toc-h3"><a href="#google-servers">Google Servers</a></li>
-<li class="toc-entry toc-h3"><a href="#mozilla-location-service-mls">Mozilla Location Service (MLS)</a></li>
-<li class="toc-entry toc-h3"><a href="#déjà-vu-location-service">Déjà Vu Location Service</a></li>
+<li class="toc-entry toc-h3"><a href="#positon">Positon</a></li>
+<li class="toc-entry toc-h3"><a href="#beacondb">BeaconDB</a></li>
+<li class="toc-entry toc-h3"><a href="#microg-remember-from-gps">microG Remember from GPS</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h2"><a href="#strategies-for-increasing-location-privacy">Strategies for increasing location privacy</a>
@@ -168,13 +169,17 @@
 
 <p>In CalyxOS, location services are handled by alternative providers instead of Google, even if you have a Google account configured with microG.</p>
 
-<h3 id="mozilla-location-service-mls">Mozilla Location Service (MLS)</h3>
+<h3 id="positon">Positon</h3>
 
-<p><a href="https://location.services.mozilla.com/">Mozilla Location Service</a> is an alternative to Google Location Accuracy and is enabled by default in CalyxOS. Mozilla gathers and stores your IP Address, cell phone tower information, and WiFi network information. Unlike when using Google location services, Mozilla does not get any perminant identifiers or information tied to your identity.</p>
+<p>Positon is one of the online location services available for use in CalyxOS. It provides commercial levels of quality, therefore has higher availability and accuracy, but isn’t an open database. Their privacy policy can be found <a href="https://positon.xyz/docs/privacy/">here.</a></p>
 
-<h3 id="déjà-vu-location-service">Déjà Vu Location Service</h3>
+<h3 id="beacondb">BeaconDB</h3>
 
-<p>To be written.</p>
+<p>BeaconDB is one of the online location services available for use in CalyxOS. It doesn’t yet have <a href="https://beacondb.net/map">as much data</a> as Positon, but is an open database. It is possible to contribute to BeaconDB, for more details and their privacy policy, check their <a href="https://beacondb.net/">website.</a></p>
+
+<h3 id="microg-remember-from-gps">microG Remember from GPS</h3>
+
+<p>microG’s Remember from GPS option builds a local database of known APs and their location, this is used for obtaining a location when GPS isn’t available, like when there isn’t a line of sight to the sky. All data stays in your device.</p>
 
 <h2 id="strategies-for-increasing-location-privacy">Strategies for increasing location privacy</h2>
 

@@ -80,6 +80,7 @@
 <li class="toc-entry toc-h4"><a href="#enable-developer-options">Enable Developer Options</a></li>
 <li class="toc-entry toc-h4"><a href="#enable-usb-debugging">Enable USB debugging</a></li>
 <li class="toc-entry toc-h4"><a href="#enable-oem-unlocking">Enable OEM Unlocking</a></li>
+<li class="toc-entry toc-h4"><a href="#start-from-stock">Start from Stock</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h2"><a href="#prepare-your-host-computer">Prepare your host computer</a>
@@ -150,6 +151,17 @@
 
 <p>This step might fail if there is no internet connection. In that case, connect to a WiFi network and then try again.</p>
 
+<h4 id="start-from-stock">Start from Stock</h4>
+
+<p>If you are coming to CalyxOS from another custom ROM,
+<a href="https://issuetracker.google.com/issues/387030988">a Pixel bootloader issue</a>
+may require you to flash back to stock using <a href="https://flash.android.com">Google’s web flasher</a>
+in order to be able to lock the bootloader.</p>
+
+<p>If your device was already running stock with a locked bootloader,
+or you are not coming from another custom ROM,
+you do not need to take any additional action.</p>
+
 <h2 id="prepare-your-host-computer">Prepare your host computer</h2>
 
 <h3 id="linux-packages">Linux packages</h3>
@@ -216,7 +228,7 @@ sudo apt install android-sdk-platform-tools-common
 
 <h3 id="download-factory-image">Download factory image</h3>
 
-<p><a class="btn" href="https://release.calyxinstitute.org/flame-factory-24514000.zip">Download CalyxOS Image</a></p>
+<p><a class="btn" href="https://release.calyxinstitute.org/flame-factory-25514020.zip">Download CalyxOS Image</a></p>
 
 <p>Save this image in the same directory as device-flasher. This image will <strong>only</strong> work for <strong>Pixel 4 (flame)</strong>. Any attempt to install this image on a different device model may brick (destroy) the Android device.</p>
 
@@ -228,14 +240,14 @@ sudo apt install android-sdk-platform-tools-common
 
 <p>To verify the image, open a terminal window on the host computer where you saved the image and run the command:</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sha256sum </span>flame-factory-24514000.zip
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sha256sum </span>flame-factory-25514020.zip
 </code></pre></div></div>
 
-<p>And ensure the result says <code class="language-plaintext highlighter-rouge">703acf122ac0dac2daeb3723bc37fcdee88a62008840a7ed5caab67a158b1057</code>. This is the unique digest of the image file. If it doesn’t match, then you have a corrupted or incorrect file.</p>
+<p>And ensure the result says <code class="language-plaintext highlighter-rouge">72ad14139facba49a58b8f53329e0a57f21f22b6340160644ca195557451ea2b</code>. This is the unique digest of the image file. If it doesn’t match, then you have a corrupted or incorrect file.</p>
 
 <h4 id="verify-signature">Verify Signature</h4>
 
-<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/flame-factory-24514000.zip.minisig">download the signature file</a> and then <a href="/install/verify/">verify image signature</a>.</p>
+<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/flame-factory-25514020.zip.minisig">download the signature file</a> and then <a href="/install/verify/">verify image signature</a>.</p>
 
 <h2 id="install-calyxos">Install CalyxOS</h2>
 
