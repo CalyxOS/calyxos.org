@@ -58,6 +58,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "045c879d_ea83d57b",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-07T18:15:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3069161c_547c4776",
+      "range": {
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 186
+      },
+      "revId": "9b8d83b7061e81e0861949ecea20000f1439bca1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b06ee768_7e8ec47c",
@@ -105,6 +129,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "21428670_53624ed7",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-07T18:15:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3545124a_2001d7f7",
+      "range": {
+        "startLine": 98,
+        "startChar": 0,
+        "endLine": 99,
+        "endChar": 191
+      },
+      "revId": "9b8d83b7061e81e0861949ecea20000f1439bca1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dc8d2dae_2537faf8",
@@ -118,6 +166,30 @@
       "writtenOn": "2025-01-07T15:14:12Z",
       "side": 1,
       "message": "```suggestion\nCalyxOS broadens Android\u0027s existing media location redaction endeavors considerably to prevent unexpected leaks.\nBefore third-party apps can access this data in CalyxOS, they must be granted permission to manage media or to manage all of the device\u0027s files. These special permissions can be managed in Settings \u003e Apps \u003e Special app access.\n\nAlthough this strict system-wide location redaction is the default behavior, it is optional, and in some situations, you may want to turn it off. For example, if you regularly share photos and would like the location data to be visible to others, you may prefer to turn this off and use a tool like Scrambled Exif when you need it, instead. (Please note that we are working to [improve this use case](https://gitlab.com/CalyxOS/calyxos/-/issues/2522).) Alternatively, it\u0027s possible that your preferred media gallery app was not designed to support the required special permissions, in which case you would need to turn this feature off in order to view location data in media.\n\nYou can control this feature using the toggle in Settings \u003e Security \u0026 privacy \u003e More security \u0026 privacy \u003e Redact location data when sharing media.\n```",
+      "range": {
+        "startLine": 103,
+        "startChar": 0,
+        "endLine": 106,
+        "endChar": 239
+      },
+      "revId": "9b8d83b7061e81e0861949ecea20000f1439bca1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "53c1a09a_360affbb",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-07T18:15:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dc8d2dae_2537faf8",
       "range": {
         "startLine": 103,
         "startChar": 0,

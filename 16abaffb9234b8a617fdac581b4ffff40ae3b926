@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5cba66b6_aecf03d3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-07T18:15:19Z",
+      "side": 1,
+      "message": "(why is gerrit moving tommy to cc... anyway)\n\nI went over and applied everything as well as make it so that EXIF is typed as Exif as it seems that\u0027s how it\u0027s usually spelled",
+      "revId": "16abaffb9234b8a617fdac581b4ffff40ae3b926",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
