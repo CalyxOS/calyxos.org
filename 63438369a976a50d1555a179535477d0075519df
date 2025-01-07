@@ -22,6 +22,30 @@
       },
       "revId": "63438369a976a50d1555a179535477d0075519df",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7181d435_b1b4298d",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-01-07T18:31:53Z",
+      "side": 1,
+      "message": "Almost there... I meant to say \"separate paragraph\" earlier, whoops. I\u0027ll go ahead and make it a new paragraph now.\n\nUnsolicited Markdown tip!:\n\nHere\u0027s [patchset 7 in rendered Markdown](https://gitlab.com/CalyxOS/calyxos.org/-/blob/9b405b51c8779e5bcbc56906158cbc8be66e0522/pages/docs/guide/security/location.md#exif-metadata). You\u0027ll notice it\u0027s all still in the same paragraph.\n\nMarkdown will join lines unless you end a line with two spaces - but really a new paragraph is what I was hoping for, which just requires having a blank line in between.",
+      "parentUuid": "3e94dfed_87257870",
+      "range": {
+        "startLine": 99,
+        "startChar": 454,
+        "endLine": 99,
+        "endChar": 575
+      },
+      "revId": "63438369a976a50d1555a179535477d0075519df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
