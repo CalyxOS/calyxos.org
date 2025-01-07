@@ -92,7 +92,7 @@
 
 <p>microG Services Core (GmsCore) pretends to be Google Play Services by using the same package name. Apps also expect this to be signed by Google’s keys, which we achieve by spoofing the signature that apps see to be that of Google Play Services.</p>
 
-<p>On CalyxOS, <a href="https://review.calyxos.org/c/CalyxOS/platform_frameworks_base/+/388">signature spoofing</a> is implemented in a very restricive manner. We have:</p>
+<p>On CalyxOS, <a href="https://review.calyxos.org/c/CalyxOS/platform_frameworks_base/+/388">signature spoofing</a> is implemented in a very restrictive manner. We have:</p>
 <ul>
   <li>Made the permission <code class="language-plaintext highlighter-rouge">signature|privileged</code> so only system apps signed with the right key, or privileged system apps with an explicit allowlist for this permission can use it.</li>
   <li>Hardcoded the signature to be spoofed instead of letting the application specify it.</li>
