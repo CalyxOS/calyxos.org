@@ -92,6 +92,23 @@ There is an app in F-droid called [Fake Traveler](https://f-droid.org/packages/c
 
 Unfortunately, apps are able to detect that this location is not real, and many applications will ignore the mocked location.
 
+### Exif metadata
+
+Your photos and videos contain metadata in the form of [Exif tags](https://en.wikipedia.org/wiki/Exif), composed of info such as device model, the date and time the media was captured, and more. Depending on your settings, this metadata may also include location information.
+
+In most Android-based operating systems, when you allow the camera app to add location tags, apps with access to media are capable of recreating your location history from the media available. To remedy this, users must either be selective about which apps can access media or turn off location tagging entirely. When location tagging has been used, it's particularly important to use tools like Scrambled Exif to remove this metadata when sharing media.
+
+In CalyxOS, location metadata is redacted by default, unless the involved apps are granted special permissions.
+
+#### Strict location redaction
+
+CalyxOS broadens Android's existing media location redaction endeavors considerably to prevent unexpected leaks.
+Before third-party apps can access this data in CalyxOS, they must be granted permission to manage media or to manage all of the device's files. These special permissions can be managed in Settings > Apps > Special app access.
+
+Although this strict system-wide location redaction is the default behavior, it is optional, and in some situations, you may want to turn it off. For example, if you regularly share photos and would like the location data to be visible to others, you may prefer to turn this off and use a tool like Scrambled Exif when you need it, instead. (Please note that we are working to [improve this use case](https://gitlab.com/CalyxOS/calyxos/-/issues/2522).) It's also possible that your preferred media gallery app was not designed to support the required special permissions, in which case you would need to turn this feature off in order to view location data in media.
+
+You can control this feature using the toggle in Settings > Security & privacy > More security & privacy > Redact location data when sharing media.
+
 ### Wi-Fi hotspot
 
 To be written.
