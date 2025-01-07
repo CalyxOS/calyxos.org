@@ -83,6 +83,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3545124a_2001d7f7",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-01-07T15:15:38Z",
+      "side": 1,
+      "message": "Oops, \"add location tags to photos\" should probably just be \"add location tags\", actually, since it could be videos, right?",
+      "parentUuid": "b06ee768_7e8ec47c",
+      "range": {
+        "startLine": 98,
+        "startChar": 0,
+        "endLine": 99,
+        "endChar": 191
+      },
+      "revId": "9b8d83b7061e81e0861949ecea20000f1439bca1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "dc8d2dae_2537faf8",
         "filename": "pages/docs/guide/security/location.md",
         "patchSetId": 3
