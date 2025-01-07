@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e94dfed_87257870",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-01-07T18:23:06Z",
+      "side": 1,
+      "message": "```suggestion\nIn most Android-based operating systems, when you allow the camera app to add location tags, apps with access to media are capable of recreating your location history from the media available. To remedy this, users must either be selective about which apps can access media or turn off location tagging entirely. When location tagging has been used, it\u0027s particularly important to use tools like Scrambled Exif to remove this metadata when sharing media.\n\nIn CalyxOS, location metadata is redacted by default, unless the involved apps are granted special permissions.\n```\n\nThis is all looking good btw (sorry for the clobber with my published edit adjusting newlines a second ago, but looks like no harm done). After viewing it in rendered markdown via the GitLab link and then View File, I just wanted to put the CalyxOS part on a separate line so it stands out, and to remove the \"however\".",
+      "range": {
+        "startLine": 99,
+        "startChar": 454,
+        "endLine": 99,
+        "endChar": 575
+      },
+      "revId": "63438369a976a50d1555a179535477d0075519df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
