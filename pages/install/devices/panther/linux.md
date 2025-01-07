@@ -28,11 +28,11 @@ On brand new devices, especially those obtained from a carrier, it's better to r
 
 #### Enable USB debugging
 
-**Settings** &rarr; **System** &rarr; **Advanced** &rarr; **Developer Options** &rarr; **USB Debugging**
+**Settings** &rarr; **System** &rarr; **Developer Options** &rarr; **USB Debugging**
 
 #### Enable OEM Unlocking
 
-**Settings** &rarr; **System** &rarr; **Advanced** &rarr; **Developer Options** &rarr; **OEM unlocking**
+**Settings** &rarr; **System** &rarr; **Developer Options** &rarr; **OEM unlocking**
 
 This step might fail if there is no internet connection. In that case, connect to a WiFi network and then try again.
 
