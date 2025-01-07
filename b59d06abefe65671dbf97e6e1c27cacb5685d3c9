@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b09ba55_92af8a72",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-07T17:57:03Z",
+      "side": 1,
+      "message": "https://calyxos-org-95df2d.gitlab.io/docs/development/contribute/",
+      "revId": "b59d06abefe65671dbf97e6e1c27cacb5685d3c9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
