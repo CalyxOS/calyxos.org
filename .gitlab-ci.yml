@@ -39,7 +39,7 @@ pages:
     - bundle exec rake update-releases
     - bundle exec rake update-apps
     - bundle exec rake generate-data-pages
-    - bundle exec jekyll build -d public --future --baseUrl "/calyxos.org"
+    - bundle exec jekyll build -d public --future
   artifacts:
     paths:
     - public
