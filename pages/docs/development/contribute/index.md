@@ -23,15 +23,14 @@ Missing your language, or seeing wrong strings?
 Help us translate CalyxOS on [Weblate!](https://hosted.weblate.org/projects/calyxos)
 
 In common open-source fashion, we use and contribute back to many other components developed primarily by other people, these have separate translation processes. Here's some quick links on where you can translate some of the included apps and components inside CalyxOS if you choose to do so!
-    * [LineageOS](https://wiki.lineageos.org/how-to/translate), *many strings come from here*
-    * [microG](https://github.com/microg/GmsCore/blob/master/TRANSLATION.md)
-    * [F-Droid](https://hosted.weblate.org/projects/f-droid/)
-    * [Aurora Store](https://hosted.weblate.org/projects/aurora-store)
-    * [Breezy Weather](https://hosted.weblate.org/projects/breezy-weather/breezy-weather-android/#information)
-    * [Bitmask](https://explore.transifex.com/otf/bitmask/), *the upstream client for Calyx VPN!*
-    * [Briar](https://explore.transifex.com/otf/briar/)
+
+* [LineageOS](https://wiki.lineageos.org/how-to/translate), *many translations come from here*
+* [microG](https://github.com/microg/GmsCore/blob/master/TRANSLATION.md)
+* [F-Droid](https://hosted.weblate.org/projects/f-droid/)
+* [Aurora Store](https://hosted.weblate.org/projects/aurora-store)
+* [Breezy Weather](https://hosted.weblate.org/projects/breezy-weather/breezy-weather-android/#information)
+* [Bitmask](https://explore.transifex.com/otf/bitmask/), *the upstream client for Calyx VPN!*
+* [Briar](https://explore.transifex.com/otf/briar/)
 
 You don't need to translate everything listed here! Translating just CalyxOS itself already helps us tremendously!
 Thanks in advance for the help!
-
-<br />
