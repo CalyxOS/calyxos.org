@@ -46,6 +46,30 @@
       },
       "revId": "63438369a976a50d1555a179535477d0075519df",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5cd5a060_7bc35be5",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-01-07T18:32:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7181d435_b1b4298d",
+      "range": {
+        "startLine": 99,
+        "startChar": 454,
+        "endLine": 99,
+        "endChar": 575
+      },
+      "revId": "63438369a976a50d1555a179535477d0075519df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
