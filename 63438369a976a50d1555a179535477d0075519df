@@ -70,6 +70,30 @@
       },
       "revId": "63438369a976a50d1555a179535477d0075519df",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "02ab164f_4e5acb1a",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-07T18:39:49Z",
+      "side": 1,
+      "message": "I don\u0027t think it is on a new paragraph but eh whatever, it seems fine and there\u0027s a whole section for this anyway;",
+      "parentUuid": "5cd5a060_7bc35be5",
+      "range": {
+        "startLine": 99,
+        "startChar": 454,
+        "endLine": 99,
+        "endChar": 575
+      },
+      "revId": "63438369a976a50d1555a179535477d0075519df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }

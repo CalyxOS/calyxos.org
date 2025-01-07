@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "df87788f_d4afc85a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-07T18:39:49Z",
+      "side": 1,
+      "message": "tested with GitLab CI (well one commit before tmw but should be ok considering the diff), looks fine",
+      "revId": "83a081bbd1e8032ccfff6a26930c7ab8cf2b0453",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
