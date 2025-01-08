@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b03fee99_6c67d325",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-08T06:10:59Z",
+      "side": 1,
+      "message": "DNM",
+      "revId": "4a3c36dfbc62b6a87ea3a0a901c2d859e6f44570",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3ea2e6f_b486e59f",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-08T06:10:59Z",
+      "side": 1,
+      "message": "finding it weird that these other steps are all using 1.\nanyway I don\u0027t want this merged just yet anyway\nI\u0027ll be waiting on some other quick stuff and then see this on the CI and go through it again but from there (here I just did it with the markdown file)",
+      "revId": "4a3c36dfbc62b6a87ea3a0a901c2d859e6f44570",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
