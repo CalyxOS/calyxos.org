@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b2ab6a77_71fa81b4",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 274,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2025-01-08T05:45:08Z",
+      "side": 1,
+      "message": "Do we have any special reason to mention Steam? It has 2 stars on Play Store as I see with tons of bad reviews which makes me feel it is broken in general.",
+      "revId": "44699f5a13f190d046c51433d5cc8a19a7aeec15",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
