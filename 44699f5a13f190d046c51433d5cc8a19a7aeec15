@@ -16,6 +16,24 @@
       "message": "Do we have any special reason to mention Steam? It has 2 stars on Play Store as I see with tons of bad reviews which makes me feel it is broken in general.",
       "revId": "44699f5a13f190d046c51433d5cc8a19a7aeec15",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "96da846a_1249cc4e",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 274,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-08T05:58:44Z",
+      "side": 1,
+      "message": "Actually, I just tried it here and it works fine...? I didn\u0027t check this kind of info because I wanted to get the more obvious stuff out of the way first;\nMaybe I\u0027m missing something but I\u0027m AFAICT able to navigate the app, get Steam Guard working, was able to log in with it... got a notification for the login, works fine\n\nThe payment methods listed seem like they\u0027d work too, but I didn\u0027t confirm\n\nthis authentication method is stupid tho, disabling -_-",
+      "parentUuid": "b2ab6a77_71fa81b4",
+      "revId": "44699f5a13f190d046c51433d5cc8a19a7aeec15",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
