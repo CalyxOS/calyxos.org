@@ -23,8 +23,12 @@ All below channels are on Matrix. They are public and **unencrypted**. Click the
 * For documentation, translation related discussion: **[#calyxos-docs:matrix.org](https://app.element.io/#/room/#calyxos-docs:matrix.org)**
 * For development related discussion: **[#calyxos-dev:matrix.org](https://app.element.io/#/room/#calyxos-dev:matrix.org)**
 * For infrastructure related discussion: **[#calyxos-infra:matrix.org](https://app.element.io/#/room/#calyxos-infra:matrix.org)**
+<<<<<<< PATCH SET (038f0d672a0c750aae40f838783c6d2b8fd564af Community: add Seedvault channel and update other channels' )
+* For discussion about SeedVault: **[#seedvault-app:matrix.org](https://app.element.io/#/room/#seedvault-app:matrix.org)**
+=======
 * Live feed of code commits, gitlab activity, reddit posts: **[#calyxos-feeds:matrix.org](https://app.element.io/#/room/#calyxos-feeds:matrix.org)**
 * For testing CalyxOS builds early and providing feedback **[#calyxos-testers:matrix.org](https://app.element.io/#/room/#calyxos-testers:matrix.org)**
+>>>>>>> BASE      (03f75b04e0d89348c673b09eec874714b58a29c8 Updated the Web Installer section for the install page.)
 
 ## Stay Up To Date
 
@@ -62,6 +66,19 @@ As of September 2023, Matrix is the primary medium of communication. We will re-
 
 ### All chat channels
 
+<<<<<<< PATCH SET (038f0d672a0c750aae40f838783c6d2b8fd564af Community: add Seedvault channel and update other channels' )
+| Name | Purpose | Matrix (Primary) | Telegram |
+| ---- | ------- | ------ | -------- | --- |
+| CalyxOS | Main channel, support for CalyxOS | [#CalyxOS:matrix.org](https://app.element.io/#/room/#CalyxOS:matrix.org) | [CalyxOSpublic](https://t.me/CalyxOSpublic) |
+| Calyx Institute | For discussions about the Calyx Institute | [#calyx:matrix.org](https://app.element.io/#/room/#calyx:matrix.org) | [CalyxInstitute](https://t.me/CalyxInstitute) |
+| CalyxOS Testers | For testing CalyxOS builds early and providing feedback | [#calyxos-testers:matrix.org](https://app.element.io/#/room/#calyxos-testers:matrix.org) | [CalyxOSTesters](https://t.me/CalyxOSTesters) |
+| CalyxOS Off-topic | For all off-topic conversations | [#calyxos-offtopic:matrix.org](https://app.element.io/#/room/#calyxos-offtopic:matrix.org) | [CalyxOSOfftopic](https://t.me/CalyxOSOffTopic) |
+| CalyxOS Feeds | Live feed of code commits / GitLab activity / Reddit posts | [#calyxos-feeds:matrix.org](https://app.element.io/#/room/#calyxos-feeds:matrix.org) | [CalyxOSFeeds](https://t.me/CalyxOSFeeds) |
+| CalyxOS Documentation | For documentation / translation related discussion | [#calyxos-docs:matrix.org](https://app.element.io/#/room/#calyxos-docs:matrix.org) | [CalyxOSDocs](https://t.me/CalyxOSDocs) |
+| CalyxOS Development | For development related discussion | [#calyxos-dev:matrix.org](https://app.element.io/#/room/#calyxos-dev:matrix.org) | [CalyxOSDev](https://t.me/CalyxOSDev) |
+| CalyxOS Infrastructure | For infrastructure related discussion | [#calyxos-infra:matrix.org](https://app.element.io/#/room/#calyxos-infra:matrix.org) | [CalyxOSInfra](https://t.me/CalyxOSInfra) |
+| SeedVault Backup | For SeedVault related discussion | [#seedvault-app:matrix.org](https://app.element.io/#/room/#seedvault-app:matrix.org) | [SeedVaultApp](https://t.me/SeedVaultApp) |
+=======
 | Name | Purpose | Matrix (Primary) |
 | ---- | ------- | ------ | -------- |
 | CalyxOS | Main channel | [#CalyxOS:matrix.org](https://app.element.io/#/room/#CalyxOS:matrix.org) |
@@ -72,6 +89,7 @@ As of September 2023, Matrix is the primary medium of communication. We will re-
 | CalyxOS Development | For development related discussion | [#calyxos-dev:matrix.org](https://app.element.io/#/room/#calyxos-dev:matrix.org) |
 | CalyxOS Infrastructure | For infrastructure related discussion | [#calyxos-infra:matrix.org](https://app.element.io/#/room/#calyxos-infra:matrix.org) |
 | CalyxOS Testers | For testing CalyxOS builds early and providing feedback | [#calyxos-testers:matrix.org](https://app.element.io/#/room/#calyxos-testers:matrix.org) |
+>>>>>>> BASE      (03f75b04e0d89348c673b09eec874714b58a29c8 Updated the Web Installer section for the install page.)
 
 ### Matrix Space
 
