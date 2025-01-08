@@ -6,7 +6,7 @@ redirect_from: /start/
 
 # CalyxOS User Guide
 
-Welcome to CalyxOS! You have joined a community of privacy enthusiasts, activists,journalists and everyday users interested in having greater agency over how their data is shared online.
+Welcome to CalyxOS! You have joined a community of privacy enthusiasts, activists, journalists and everyday users interested in having greater agency over how their data is shared online.
 
 This introductory guide will help you navigate the features, changes, differences, and setbacks that come with using a custom OS like CalyxOS.
 
@@ -27,11 +27,11 @@ CalyxOS will work differently than the Android that comes with most devices. Her
   * Better Web Browsing: the default web browser (Chromium) and the browser component used in most apps has been modified to add security enhancements and block advertising trackers.
   * Datura Firewall: an easier way to block network access for particular apps.
   * SeedVault: a secure way to back up your entire device.
-  * Signal and WhatsApp: When making a call, CalyxOS encourages you to make it via Signal or WhatsApp when possible. Signal and Whatsapp offer encrypted calling and videochat, as well as text messaging, if both parties are using Signal or both parties are using Whatsapp.
+  * Signal and WhatsApp: When making a call, CalyxOS encourages you to make it via Signal or WhatsApp (if installed) when possible. Signal and WhatsApp offer encrypted calling and videochat, as well as text messaging, if both parties are using Signal or WhatsApp.
 
 * Limitations & incompatibilities:
   * CalyxOS does not yet include the ability to block advertising and trackers in all apps without running a third party VPN-based app or using Private DNS to block these.
-  * Paid Google Play store apps usually won't work.
+  * Paid Google Play store apps might not always work. (logging in to a Google account in microG and enabling "Answer license verification requests" in microG Settings > Play Store services may help)
   * Some free apps will not work, such as Google Wallet.
   * The built-in keyboard does not support gesture typing.
 
@@ -48,13 +48,12 @@ F-Droid is the preferred app store for CalyxOS. All the apps available in F-Droi
 
 Use F-Droid to install free software Android apps.
 
-CalyxOS gives F-Droid special privileges to streamline app updates, installs, and uninstalls.
+In addition to the standard F-Droid source for apps (aka “repo”), CalyxOS includes two other repos, the CalyxOS Local Repo, used for installing bundled apps, and the Calyx Institute repo, which allows us push out updates for various apps when needed.
 
-In addition to the standard F-Droid source for apps (aka “repo”), CalyxOS includes a source for CalyxOS apps, which allows us push out updates for various apps when needed.
 
 ### Aurora Store
 
-Aurora Store is an open source, alternative way to access Google Play Store. With Aurora Store, you can download apps, update existing apps, search for apps, get details about in-app trackers, spoof your location and much more.
+Aurora Store is an open source, alternative way to access the Google Play Store. With Aurora Store, you can download apps, update existing apps, search for apps, get details about in-app trackers, spoof your device details and much more.
 
 Aurora Store allows you to access Google Play Store using either anonymous credentials, or your own Google Account.
 
@@ -74,12 +73,12 @@ microG is a open source replacement for Google Play Services (and related softwa
 
 Features of microG:
 
-Reduces battery, memory, and CPU usage.
+Lighter on battery, memory, and CPU usage.
 Allows you to opt-in to specific Google Services if you want.
 Location: typically, an Android device will using WiFi and cell-towers data from Google to help determine precise location. microG does this without using Google, and without reporting your location to Google.
-Notification: most chat apps depend on Play Services to be alerted when a new message should be delivered to the user. microG allows your device to use this service from Google without the full Play Services installation.
+Notifications: most chat apps depend on Play Services to be alerted when a new message should be delivered to the user. microG allows your device to use this service from Google without the full Play Services installation.
 
-When you first start your phone, you will be given several options for the microG implementation on your device.
+When you first start your phone, you will be given several options for how you'd like to set up microG in your device.
 
 We recommend the default option, microG enabled, no Google Account, push notifications enabled.
 
@@ -106,110 +105,110 @@ Preferred since it syncs changes.
 
 It will only be a one-time copy.
 
-## Applications
+## Apps
 
 ### App Stores
 
-F-Droid - Catalog of open-source applications available for download.
+F-Droid - Catalog of open-source apps available for download.
 
-Aurora Store - Download social media, Google apps, games, and other non-open source applications - A Google Play Store Client
+Aurora Store - Download social media, Google apps, games, and other non-open source apps - A Google Play Store Client
 
 ### Messaging
 
-Messaging - The default SMS application. Messages not encrypted.
+Signal - End-to-end encrypted messaging app
 
-Signal - Encrypted messaging Application.
+Briar - End-to-end encrypted and decentralized messaging app
 
-K-9 Mail - Email Client, supports Gmail
+K-9 Mail - Email client, supports IMAP, POP3, and IMAP Push. Protects against media-based read receipts, works with Gmail
 
-Briar - Encrypted Messaging Application
+Messaging - The default SMS app. Messages not encrypted.
 
 ### CalyxOS apps
 
 Backup - SeedVault, a CalyxOS project
 
-Firewall - Datura Firewall, a CalyxOS Firewall that allows for fine grain control over network permissions
+Firewall - Datura Firewall, a firewall that allows for fine grain control over network permissions of installed apps
 
 ### Web Browsers
 
 Tor Browser - Private browser, no tracking, surveillance, or censorship
 
-Chromium - Ad/tracker-free, secure, browsing via select Cromite features in the privacy-enhanced CalyxOS Chromium browser, based on Cromite
+Chromium - Ad/tracker-free, secure, browsing, with the privacy-enhanced CalyxOS Chromium browser, built with select Cromite/Brave patches 
 
 ### VPNs
 
-RiseupVPN - Free secure VPN powered by Bitmask
+Orbot - Orbot allows access to Tor by accessing a local SOCKS or HTTP proxy, or as a VPN for use in all apps
 
-Orbot - Orbot allows access to Tor by accessing a local SOCKS or HTTP proxy
+RiseupVPN - Free secure VPN powered by Bitmask
 
 CalyxVPN - Free Calyx Institute VPN for Android powered by Bitmask
 
 ### Utilities
 
+Breezy Weather: An open-source weather app
+
 Scrambled Exif - Removes metadata from pictures before sharing
 
-OONI Probe - Open Observatory of Network Interference (OONI) application that provides speed tests and checks to see if any websites or messaging applications are blocked in your network. Detects internet censorship
+OONI Probe - Open Observatory of Network Interference (OONI) app that provides speed tests and checks to see if any websites or messaging apps are blocked in your network. Detects internet censorship
 
 DAVx5 - An adapter that allows access to external contacts and calendar services (such as with Nextcloud)
 
 MuPDF viewer - PDF viewer - transparent
 
-Nextcloud - Backup/synchronization client
-
 Organic Maps - Offline, crowd-sourced maps with no ads, no trackers, and no data collection
+
+OnionShare: File-sharing utility which uses Tor for secure and anonymous sharing
 
 ## Datura Firewall Guide
 
-To Access Datura Firewall, swipe up on the home screen to see a list of all currently downloaded apps.  Open the App listed as "Firewall".
+To access Datura Firewall, swipe up on the home screen to see a list of all currently installed apps. Open the app called "Firewall".
 
-Datura Firewall allows for fine grained control over network permissions to each application. When downloading CalyxOS for the first time, many of the applications allow network access by default.
+Datura Firewall allows for fine grained control over network permissions to each app. When downloading CalyxOS for the first time, many of the apps allow network access by default.
 
-In Datura, you will see a list of all your downloaded and System applications. Under each, you can control if the application allows network access. access via: background network services, Wi-Fi data, Mobile data, or VPN data.
+In Datura, you will see a list of all your downloaded and system apps. Under each, you can control if the app allows network access. access via: background network services, Wi-Fi data, Mobile data, or VPN data.
 
-The main blue toggle next to the application name will turn all of these off or on at once, or you can open the drop down menu under each app to individually control different network permissions.
+The main blue toggle next to the app name will turn all of these off or on at once, or you can open the drop down menu under each app to individually control different network permissions.
 
-Some applications, like the Aurora store, require an all or nothing approach - either all network permissions must be on or off.
+Some apps, like the Aurora store, require an all or nothing approach - either all network permissions must be on or off.
+
+When an app does not request network access, but does so after an update, Datura will automatically block it by default.
+
+It is possible to block internet access by default when first installing apps, to do so, click on the three dots at the upper right corner, then on Settings, and then toggle off "Allow internet for new installs". You'll get a notification when an app is installed, asking if you'd like to grant it internet access.
 
 Datura provides quick and easy access to these network controls, so you can quickly allow network access momentarily for an app, and then turn those permissions back off when not in use. Datura Firewall never changes your set preferences without your control.
 
 ## SeedVault Guide
 
-To SeedVault, swipe up on the home screen to see a list of all currently downloaded apps. Open the App listed as "Backup".
+To use SeedVault, swipe up on the home screen to see a list of all currently downloaded apps. Open the app called "Backup".
 
-SeedVault will require you to enter a 12 word recovery code to restore data. This is to protect you - only the you should be able to access backup data! Write does the 12-word recovery code somewhere secure to make sure you have access later.
+SeedVault will require you to enter a 12 word recovery code to restore data. This is to protect you - only you should be able to access backup data! Write down the 12-word recovery code somewhere secure to make sure you have access later.
 
-Once you have entered your recovery code, SeedVault will prompt you to backup your data in one of three ways.
+Once you have entered your recovery code, SeedVault will prompt you where you'd like to store your backup. e.g. USB drive, on the device, WebDAV, etc.
 
-SeedVault is integrated into CalyxOS and can backup application data.
+SeedVault is integrated into CalyxOS and can backup app data. No other backup/sync client can do that on CalyxOS.
 
-Seedvault is built into CalyxOS, providing native backups that can be backed-up to the user's client of choice - WebDAV (via DAVx5), Nextcloud (not recommended), or a USB drive (recommended).
-
-No other backup/sync client can do that on CalyxOS.
-
-On stock android your only option is backing up to Google, and on iOS only iCloud.
+On stock Android your only option is backing up to Google, and on iOS only iCloud.
 
 ## Google Camera
 
-CalyxOS does not come with Google Camera and Google Photos, which are included in base Android. The CalyxOS team removes as much of Google's software as possible from CalyxOS. However, some users may want to use Google's photo applications to best utilize the hardware of their device.
+CalyxOS does not come with Google Camera and Google Photos, which are included in base Android. The CalyxOS team removes as much of Google's software as possible from CalyxOS. However, some users may want to use Google's photo apps to best utilize the hardware of their device.
 
-To get Google Photos and Google Camera:
+### To get Google Photos and Google Camera:
 
-Open the Aurora Store
+1. Open the Aurora Store
+1. Search for the Google Photos and Camera apps and download
+1. Before opening either of the apps, open the Firewall app.
+1. Under the Google Photos and Google Camera apps, turn off all network access.
 
-Search for the Google Photos and Camera applications and download
-Before opening either of the applications, open the Firewall app.
-The firewall app allows fine-grain control over application network permissions.
-Under the Google Photos and Google Camera applications, turn off all network access.
+### Is using Google Photos and Google Camera a privacy concern?
 
-Is Using Google Photos and Google Camera a privacy concern?
-
-Because Datura Firewall blocks network access from these applications, much of the concern is removed. However, these applications are not open source. Developers and users are not made aware of what data these applications collect, how it is collected, where it goes, or who it is given to.
+Because Datura Firewall blocks network access from these apps, much of the concern is removed. However, these apps are not open source. Developers and users are not made aware of what data these apps collect, how it is collected, where it goes, or who it is given to.
 
 ## Browser choice
 
 CalyxOS comes with two default browser options: Chromium and Tor Browser.
 
-The Chromium that comes with CalyxOS is different from Google Chrome. It is heavily modified to prioritize privacy, and is based on Cromite, a privacy focused browser with ad blocking and many anti-tracking privacy enhancements.
+The Chromium that comes with CalyxOS is different from Google Chrome. It is heavily modified to prioritize privacy, it builds upon patches from Cromite, a privacy focused browser with ad blocking and many anti-tracking privacy enhancements.
 
 For a high degree of anonymity, you may also consider Tor Browser with the following features:
 
@@ -229,18 +228,18 @@ More browser options are available via F-Droid and the Aurora Store.
 ## Cool Tips
 
 ### Work Profiles
-A work profile is available for all users on the phone. The CalyxOS team has made accessing the work profile easy. You do not need to restart or log out of the device.
+You may configure a work profile by setting one up with the Work Profile app. The CalyxOS team has made accessing the work profile easy. You do not need to restart or log out of the device.
 
 Swipe up on the homescreen to see all of your apps. Swipe left to see the apps in your work profile. These apps will not access the data from the main profile, even if they are duplicates.
 
-Despite the name, "work" profiles do not need to only be for your job! You can use the  work profile feature to keep a good work/life balance, maintain multiple app profiles on the same device and keep seperate versions of the same apps.
+Despite the name, "work" profiles do not need to only be for your job! You can use the work profile feature to keep a good work/life balance, school, maintaining multiple app profiles on the same device, isolate data from your main profile, turn off apps you don't trust as much, etc.
 
 ### Wi-fi Timeout & Bluetooth Timeout
 
 CalyxOS allows for users to set automatic Wi-Fi and bluetooth timeouts. This prevents your device from being connected to networks and devices when either of these features are not in use.
 
 To set Wi-Fi timeout:
-1. Open Settings from the application page
+1. Open Settings from the app page
 1. Select Network & Internet
 1. Select Internet
 1. Scroll to the bottom of the page, past the list of available Wi-Fi networks if available
@@ -249,31 +248,29 @@ To set Wi-Fi timeout:
 1. Select the timeout timeframe
 
 To set Bluetooth timeout:
-1. Open Settings from the application page
+1. Open Settings from the app page
 1. Select Connected Devices
 1. Select Bluetooth timeout
 1. Select the timeout timeframe
 
 ## Updates
 
-Installing updates is one of the most important things you can do to keep your phone  secure.
+Installing updates is one of the most important things you can do to keep your phone secure.
 
 CalyxOS provides automatic, monthly (at least), over-the-air security updates for the operating system to keep your phone up to date.
 
 In order to keep apps updated, follow these steps:
 
 * F-Droid will notify you of app updates.
-* To make F-Droid automatically install application updates, open F-Droid, go to Settings and enable "Automatically install updates".
+* To make F-Droid automatically install app updates, open F-Droid, go to Settings and enable "Automatically install updates".
 * To update apps via Aurora Store, open Aurora Store, press the "Updates" tab at the bottom, then press "Update All".
-
-Note: Aurora will say that it is updating "Google Player Services" but this does nothing.
 
 ## CalyxOS Limitations - CalyxOS versus Stock Android
 
-CalyxOS does have several limitations. By removing Google Play services from the device, several applications will no longer work in CalyxOS:
-* Google pay (and most other payment apps)
-* Second line apps (line2, google voice, mysudo)
-* Steam, a game store site and application, does not work on CalyxOS.
+CalyxOS does have several limitations. By removing Google Play services from the device, several apps will no longer work in CalyxOS:
+* Google Pay (and many other payment apps)
+* Some banks may actively block custom ROMs (including CalyxOS) via Play Integrity
+* Second line apps (Line2, Google Voice, MySudo)
 
 Things that do work:
 * Most popular apps will work e.g. Google Maps, WhatsApp, Uber, Lyft, Instagram, Spotify.
