@@ -34,6 +34,24 @@
       "parentUuid": "b2ab6a77_71fa81b4",
       "revId": "44699f5a13f190d046c51433d5cc8a19a7aeec15",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c501a7e0_66ccd475",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 274,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-08T06:07:20Z",
+      "side": 1,
+      "message": "Went over and just removed that part as it seems to work fine these days\n\nI have no idea about Google Voice, MySudo etc, not available here",
+      "parentUuid": "96da846a_1249cc4e",
+      "revId": "44699f5a13f190d046c51433d5cc8a19a7aeec15",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
