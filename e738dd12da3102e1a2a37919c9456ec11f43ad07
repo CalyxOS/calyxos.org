@@ -16,6 +16,24 @@
       "message": "Looks 1000x better to me:\nhttps://calyxos.org/community/ vs. https://calyxos-org-95df2d.gitlab.io/community/",
       "revId": "e738dd12da3102e1a2a37919c9456ec11f43ad07",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "199a2bbb_6c19d9aa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-08T09:03:49Z",
+      "side": 1,
+      "message": "The main and OT channels were intentionally listed first separately, because we want to direct people to those first.\n\n\nThis looks better, and it can certainly be improved in general, but it\u0027ll be confusing for new users to have 10 channels to choose from.",
+      "parentUuid": "d76fcb4e_bbc2bd45",
+      "revId": "e738dd12da3102e1a2a37919c9456ec11f43ad07",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
