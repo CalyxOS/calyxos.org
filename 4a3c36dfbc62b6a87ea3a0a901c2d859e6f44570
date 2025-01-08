@@ -18,6 +18,57 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "64597d42_6f7b6751",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-08T09:01:18Z",
+      "side": 1,
+      "message": "Some quick comments. Note that this guide is meant for an average user, and not necessarily technically minded, thus not mentioning some things or trying to keep it somewhat brief.\n\nThanks!",
+      "revId": "4a3c36dfbc62b6a87ea3a0a901c2d859e6f44570",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "783a9e7e_8a7423be",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-08T09:01:18Z",
+      "side": 1,
+      "message": "We specifically try and avoid this term, intentionally.\n\nEspecially because there\u0027s still some Google bits here and there.",
+      "revId": "4a3c36dfbc62b6a87ea3a0a901c2d859e6f44570",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "362d2fa2_e7f71ac4",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-08T09:01:18Z",
+      "side": 1,
+      "message": "I don\u0027t think this information is needed here.",
+      "revId": "4a3c36dfbc62b6a87ea3a0a901c2d859e6f44570",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f3ea2e6f_b486e59f",
@@ -31,6 +82,75 @@
       "writtenOn": "2025-01-08T06:10:59Z",
       "side": 1,
       "message": "finding it weird that these other steps are all using 1.\nanyway I don\u0027t want this merged just yet anyway\nI\u0027ll be waiting on some other quick stuff and then see this on the CI and go through it again but from there (here I just did it with the markdown file)",
+      "revId": "4a3c36dfbc62b6a87ea3a0a901c2d859e6f44570",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "13a5d49a_835d52b3",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-08T09:01:18Z",
+      "side": 1,
+      "message": "All steps using 1 is intentional, they are rendered correctly.\n\nThis way, anytime you add / remove / change steps - you don\u0027t have to re-number everything.",
+      "parentUuid": "f3ea2e6f_b486e59f",
+      "revId": "4a3c36dfbc62b6a87ea3a0a901c2d859e6f44570",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5fcda563_4982857f",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-08T09:01:18Z",
+      "side": 1,
+      "message": "Need to check, but this may have been auto generated from apps own summary.",
+      "revId": "4a3c36dfbc62b6a87ea3a0a901c2d859e6f44570",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ed1d4ef_37ac600b",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-08T09:01:18Z",
+      "side": 1,
+      "message": "Use all 1s",
+      "revId": "4a3c36dfbc62b6a87ea3a0a901c2d859e6f44570",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "612d868a_98cf0cf0",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 272,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-08T09:01:18Z",
+      "side": 1,
+      "message": "They don\u0027t actively block CalyxOS - but Custom ROMs / unofficial software in general.",
       "revId": "4a3c36dfbc62b6a87ea3a0a901c2d859e6f44570",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
