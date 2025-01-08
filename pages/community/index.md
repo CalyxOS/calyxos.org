@@ -6,24 +6,26 @@ toc: true
 
 Welcome to the CalyxOS community. Please see our [[code-of-conduct]], [[pledge]] and dive right in.
 
-## Chat
 
-All below channels are on Matrix. They are public and unencrypted. You can click the link to directly connect to the channel, or using one of the [clients](https://matrix.org/clients/)
+### Chat channels
 
-### Main channel
+| Name | Purpose | Matrix (Primary) | Telegram |
+| ---- | ------- | ------ | -------- | --- |
+| CalyxOS | Main channel, support for CalyxOS | [#CalyxOS:matrix.org](https://app.element.io/#/room/#CalyxOS:matrix.org) | [CalyxOSpublic](https://t.me/CalyxOSpublic) |
+| Calyx Institute | For discussions about the Calyx Institute | [#calyx:matrix.org](https://app.element.io/#/room/#calyx:matrix.org) | [CalyxInstitute](https://t.me/CalyxInstitute) |
+| CalyxOS Testers | For testing CalyxOS builds early and providing feedback | [#calyxos-testers:matrix.org](https://app.element.io/#/room/#calyxos-testers:matrix.org) | [CalyxOSTesters](https://t.me/CalyxOSTesters) |
+| CalyxOS Off-topic | For all off-topic conversations | [#calyxos-offtopic:matrix.org](https://app.element.io/#/room/#calyxos-offtopic:matrix.org) | [CalyxOSOfftopic](https://t.me/CalyxOSOffTopic) |
+| CalyxOS Feeds | Live feed of code commits / GitLab activity / Reddit posts | [#calyxos-feeds:matrix.org](https://app.element.io/#/room/#calyxos-feeds:matrix.org) | [CalyxOSFeeds](https://t.me/CalyxOSFeeds) |
+| CalyxOS Documentation | For documentation / translation related discussion | [#calyxos-docs:matrix.org](https://app.element.io/#/room/#calyxos-docs:matrix.org) | [CalyxOSDocs](https://t.me/CalyxOSDocs) |
+| CalyxOS Development | For development related discussion | [#calyxos-dev:matrix.org](https://app.element.io/#/room/#calyxos-dev:matrix.org) | [CalyxOSDev](https://t.me/CalyxOSDev) |
+| CalyxOS Infrastructure | For infrastructure related discussion | [#calyxos-infra:matrix.org](https://app.element.io/#/room/#calyxos-infra:matrix.org) | [CalyxOSInfra](https://t.me/CalyxOSInfra) |
+| SeedVault App | For SeedVault related discussion | [#seedvault-app:matrix.org](https://app.element.io/#/room/#seedvault-app:matrix.org) | [SeedVaultApp](https://t.me/SeedVaultApp) |
 
-* CalyxOS: **[#CalyxOS:matrix.org](https://app.element.io/#/room/#CalyxOS:matrix.org)**
-* Calyx Institute channel: **[#calyx:matrix.org](https://app.element.io/#/room/#calyx:matrix.org)**
+### Matrix Space
 
-### Additional Channels
+Matrix has a new [spaces feature](https://element.io/blog/spaces-the-next-frontier/), which lets you view all these rooms together.
 
-* For testing CalyxOS builds early and providing feedback **[#calyxos-testers:matrix.org](https://app.element.io/#/room/#calyxos-testers:matrix.org)**
-* For all off-topic conversations: **[#calyxos-offtopic:matrix.org](https://app.element.io/#/room/#calyxos-offtopic:matrix.org)**
-* Live feed of code commits / gitlab activity / reddit posts: **[#calyxos-feeds:matrix.org](https://app.element.io/#/room/#calyxos-feeds:matrix.org)**
-* For documentation / translation related discussion: **[#calyxos-docs:matrix.org](https://app.element.io/#/room/#calyxos-docs:matrix.org)**
-* For development related discussion: **[#calyxos-dev:matrix.org](https://app.element.io/#/room/#calyxos-dev:matrix.org)**
-* For infrastructure related discussion: **[#calyxos-infra:matrix.org](https://app.element.io/#/room/#calyxos-infra:matrix.org)**
-* For discussion about SeedVault: **[#seedvault-app:matrix.org](https://app.element.io/#/room/#seedvault-app:matrix.org)**
+We've created a [CalyxOS space](https://app.element.io/#/room/#calyxos-space:matrix.org).
 
 ## Stay Up To Date
 
@@ -59,23 +61,3 @@ Matrix is the primary medium of communication. Telegram is bridged to Matrix, wh
   * On Telegram, Matrix messages will appear to be sent by "Calyx Matrix Bridge" -> `@SepalBridgeBot`
 * **IRC**:
   * Bridging has been disabled as of 2023-11-03
-
-### All chat channels
-
-| Name | Purpose | Matrix (Primary) | Telegram |
-| ---- | ------- | ------ | -------- | --- |
-| CalyxOS | Main channel, support for CalyxOS | [#CalyxOS:matrix.org](https://app.element.io/#/room/#CalyxOS:matrix.org) | [CalyxOSpublic](https://t.me/CalyxOSpublic) |
-| Calyx Institute | For discussions about the Calyx Institute | [#calyx:matrix.org](https://app.element.io/#/room/#calyx:matrix.org) | [CalyxInstitute](https://t.me/CalyxInstitute) |
-| CalyxOS Testers | For testing CalyxOS builds early and providing feedback | [#calyxos-testers:matrix.org](https://app.element.io/#/room/#calyxos-testers:matrix.org) | [CalyxOSTesters](https://t.me/CalyxOSTesters) |
-| CalyxOS Off-topic | For all off-topic conversations | [#calyxos-offtopic:matrix.org](https://app.element.io/#/room/#calyxos-offtopic:matrix.org) | [CalyxOSOfftopic](https://t.me/CalyxOSOffTopic) |
-| CalyxOS Feeds | Live feed of code commits / GitLab activity / Reddit posts | [#calyxos-feeds:matrix.org](https://app.element.io/#/room/#calyxos-feeds:matrix.org) | [CalyxOSFeeds](https://t.me/CalyxOSFeeds) |
-| CalyxOS Documentation | For documentation / translation related discussion | [#calyxos-docs:matrix.org](https://app.element.io/#/room/#calyxos-docs:matrix.org) | [CalyxOSDocs](https://t.me/CalyxOSDocs) |
-| CalyxOS Development | For development related discussion | [#calyxos-dev:matrix.org](https://app.element.io/#/room/#calyxos-dev:matrix.org) | [CalyxOSDev](https://t.me/CalyxOSDev) |
-| CalyxOS Infrastructure | For infrastructure related discussion | [#calyxos-infra:matrix.org](https://app.element.io/#/room/#calyxos-infra:matrix.org) | [CalyxOSInfra](https://t.me/CalyxOSInfra) |
-| SeedVault App | For SeedVault related discussion | [#seedvault-app:matrix.org](https://app.element.io/#/room/#seedvault-app:matrix.org) | [SeedVaultApp](https://t.me/SeedVaultApp) |
-
-### Matrix Space
-
-Matrix has a new [spaces feature](https://element.io/blog/spaces-the-next-frontier/), which lets you view all these rooms together.
-
-We've created a [CalyxOS space](https://app.element.io/#/room/#calyxos-space:matrix.org).
