@@ -16,6 +16,24 @@
       "message": "SeedVault Backup would be better as name.",
       "revId": "689ed2d664c1ba8dbbc5afbda1274bbc86d1e299",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7fd28829_590c1122",
+        "filename": "pages/community/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-12T07:41:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "004c9cc0_994d8ebc",
+      "revId": "689ed2d664c1ba8dbbc5afbda1274bbc86d1e299",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
