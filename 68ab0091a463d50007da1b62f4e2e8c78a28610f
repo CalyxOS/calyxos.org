@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "735acdb8_6e3b8d40",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-12T07:35:46Z",
+      "side": 1,
+      "message": "Moved guidelines above chats so that users see it first, due to the amount of changes also renamed the commit message, lmk if this is a problem",
+      "revId": "68ab0091a463d50007da1b62f4e2e8c78a28610f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}

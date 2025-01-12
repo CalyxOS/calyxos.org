@@ -34,6 +34,24 @@
       "parentUuid": "d76fcb4e_bbc2bd45",
       "revId": "e738dd12da3102e1a2a37919c9456ec11f43ad07",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2cde87ba_46ae0687",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-12T07:35:46Z",
+      "side": 1,
+      "message": "Originally it was actually just the main CalyxOS channel and the Calyx Institute, which isn\u0027t used much; \n\nIt isn\u0027t that complicated, it\u0027s just a list of channels, though it could be better ordered, for the more useful and used channels / relativeness to CalyxOS\n(Calyx Institute ended up being listed last here as it isn\u0027t as CalyxOS related as much as e.g. SeedVault)\n\nIn my mind, it would be something like:\n1. CalyxOS\n2. CalyxOS Testers\n3. CalyxOS Off-Topic\n4. SeedVault Backup\n5. CalyxOS Development\n6. CalyxOS Documentation\n7. CalyxOS Infrastructure\n8. CalyxOS Feeds\n8. Calyx Institute\n\nNot listing Outreach here, it has never really been used, though we could.\n\nAdded this into the latest patchset.\n\nhttps://lucasmz.gitlab.io/calyxos.org/community/",
+      "parentUuid": "199a2bbb_6c19d9aa",
+      "revId": "e738dd12da3102e1a2a37919c9456ec11f43ad07",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
