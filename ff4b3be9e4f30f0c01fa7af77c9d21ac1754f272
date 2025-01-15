@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa9b65d1_ae0542c8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000147
+      },
+      "writtenOn": "2025-01-15T21:44:12Z",
+      "side": 1,
+      "message": "Should the markdown file be renamed to `breezy-weather.md`? It would require updating references to this file elsewhere, and I don\u0027t feel comfortable making such changes (being new here).",
+      "revId": "ff4b3be9e4f30f0c01fa7af77c9d21ac1754f272",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
