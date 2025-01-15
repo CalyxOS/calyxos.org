@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11d36ef4_19ad5be6",
+        "filename": "pages/docs/development/build/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-15T12:58:16Z",
+      "side": 1,
+      "message": "Undid this unrelated change, good to not keep all source in one dir.",
+      "revId": "a317b49c7a43c8f615ebcf097e176abe47e02b27",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce2040cd_ae9281d2",
+        "filename": "tasks/update-app-list.rb",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-15T12:58:16Z",
+      "side": 1,
+      "message": "Undid this change, it won\u0027t work, files are stored in LFS.",
+      "revId": "a317b49c7a43c8f615ebcf097e176abe47e02b27",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
