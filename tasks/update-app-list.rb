@@ -7,8 +7,8 @@ require 'json'
 
 module Apps
 
-  APPS_URL  = "https://gitlab.com/CalyxOS/platform_prebuilts_calyx_fdroid/-/raw/android14/repo/index-v1.json"
-  ICON_URL  = "https://gitlab.com/CalyxOS/platform_prebuilts_calyx_fdroid/-/raw/android14/repo/"
+  APPS_URL  = "https://gitlab.com/CalyxOS/lfs_prebuilts_calyx_fdroid/-/raw/android15-qpr1/repo/index-v1.json"
+  ICON_URL  = "https://gitlab.com/CalyxOS/lfs_prebuilts_calyx_fdroid/-/raw/android15-qpr1/repo/"
   HOME      = File.expand_path('../..', __FILE__)
   DEST_FILE = "#{HOME}/pages/_data/apps.yml"
   ICON_DIR  = "#{HOME}/pages/assets/images/apps/"
