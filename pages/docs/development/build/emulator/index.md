@@ -13,7 +13,7 @@ Assuming that you have setup a build environment or already built CalyxOS once a
 For the emulator, the steps are:
 
 ```shell
-cd ~/calyxos/android14
+cd ~/calyxos/android5-qpr1
 source build/envsetup.sh
 breakfast sdk_phone_x86_64 # x86 for the 32-bit image.
 m
