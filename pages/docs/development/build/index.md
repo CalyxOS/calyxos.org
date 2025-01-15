@@ -59,7 +59,7 @@ Now you can download the CalyxOS source code.
 ```shell
 mkdir ~/calyxos/android14
 cd ~/calyxos/android14
-repo init --git-lfs -u https://gitlab.com/CalyxOS/platform_manifest -b android14
+repo init --git-lfs -u https://gitlab.com/CalyxOS/platform_manifest -b android15-qpr1
 repo sync -j8 # You may use a higher number here if you have a fast computer and fast internet
 ```
 
