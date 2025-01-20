@@ -5,8 +5,11 @@ android_versions:
   - 13
   - 11
 upcoming_codenames:
+  - bangkk
+  - fogos
   - otter
 upcoming_brands:
+  - motorola
   - shift
 modern_codenames:
   - FP5
@@ -75,6 +78,24 @@ FP4:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "yes"
+  android: 15
+  web_install: false
+bangkk:
+  brand: motorola
+  model: Moto G84
+  manufacturer_support_ends: 2026-09
+  calyxos_support_ends: tbd
+  sim: "dual"
+  esim: "no"
+  android: 15
+  web_install: false
+fogos:
+  brand: motorola
+  model: Moto G34
+  manufacturer_support_ends: 2027-01
+  calyxos_support_ends: tbd
+  sim: "dual"
+  esim: "no"
   android: 15
   web_install: false
 rhode:
