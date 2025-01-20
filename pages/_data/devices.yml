@@ -66,7 +66,7 @@ FP5:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "yes"
-  android: 14
+  android: 15
   web_install: false
 FP4:
   brand: fairphone
@@ -75,7 +75,7 @@ FP4:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "yes"
-  android: 14
+  android: 15
   web_install: false
 rhode:
   brand: motorola
@@ -84,7 +84,7 @@ rhode:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "no"
-  android: 14
+  android: 15
   web_install: false
 hawao:
   brand: motorola
@@ -93,7 +93,7 @@ hawao:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "no"
-  android: 14
+  android: 15
   web_install: false
 devon:
   brand: motorola
@@ -102,7 +102,7 @@ devon:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "no"
-  android: 14
+  android: 15
   web_install: false
 comet:
   brand: pixel
@@ -147,7 +147,7 @@ akita:
   calyxos_support_ends: 2031-05
   sim: "dual"
   esim: "dual"
-  android: 14
+  android: 15
   web_install: true
 husky:
   brand: pixel
@@ -156,7 +156,7 @@ husky:
   calyxos_support_ends: 2030-10
   sim: "dual"
   esim: "dual"
-  android: 14
+  android: 15
   web_install: true
 shiba:
   brand: pixel
@@ -165,7 +165,7 @@ shiba:
   calyxos_support_ends: 2030-10
   sim: "dual"
   esim: "dual"
-  android: 14
+  android: 15
   web_install: true
 felix:
   brand: pixel
@@ -174,7 +174,7 @@ felix:
   calyxos_support_ends: 2028-06
   sim: "dual"
   esim: "dual"
-  android: 14
+  android: 15
   web_install: true
 tangorpro:
   brand: pixel
@@ -183,7 +183,7 @@ tangorpro:
   calyxos_support_ends: 2028-06
   sim: "no"
   esim: "no"
-  android: 14
+  android: 15
   web_install: true
 lynx:
   brand: pixel
@@ -192,7 +192,7 @@ lynx:
   calyxos_support_ends: 2028-05
   sim: "dual"
   esim: "dual"
-  android: 14
+  android: 15
   web_install: true
 cheetah:
   brand: pixel
@@ -201,7 +201,7 @@ cheetah:
   calyxos_support_ends: 2027-10
   sim: "dual"
   esim: "dual"
-  android: 14
+  android: 15
   web_install: true
 panther:
   brand: pixel
@@ -210,7 +210,7 @@ panther:
   calyxos_support_ends: 2027-10
   sim: "dual"
   esim: "dual"
-  android: 14
+  android: 15
   web_install: true
 bluejay:
   brand: pixel
@@ -219,7 +219,7 @@ bluejay:
   calyxos_support_ends: 2027-07
   sim: "dual"
   esim: "yes"
-  android: 14
+  android: 15
   web_install: true
 raven:
   brand: pixel
@@ -228,7 +228,7 @@ raven:
   calyxos_support_ends: 2026-10
   sim: "dual"
   esim: "yes"
-  android: 14
+  android: 15
   web_install: true
 oriole:
   brand: pixel
@@ -237,7 +237,7 @@ oriole:
   calyxos_support_ends: 2026-10
   sim: "dual"
   esim: "yes"
-  android: 14
+  android: 15
   web_install: true
 otter:
   brand: shift
@@ -246,7 +246,7 @@ otter:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "yes"
-  android: 14
+  android: 15
   web_install: false
 barbet:
   brand: pixel
@@ -255,7 +255,7 @@ barbet:
   calyxos_support_ends: 2025-08
   sim: "dual"
   esim: "yes"
-  android: 14
+  android: 15
   web_install: true
 bramble:
   brand: pixel
@@ -264,7 +264,7 @@ bramble:
   calyxos_support_ends: 2025-08
   sim: "dual"
   esim: "yes"
-  android: 14
+  android: 15
   web_install: true
 redfin:
   brand: pixel
@@ -273,7 +273,7 @@ redfin:
   calyxos_support_ends: 2025-08
   sim: "dual"
   esim: "yes"
-  android: 14
+  android: 15
   web_install: true
 sunfish:
   brand: pixel
