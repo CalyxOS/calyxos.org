@@ -59,6 +59,51 @@ previous_brands:
   - pixel
   - shift
   - xiaomi
+FP5:
+  brand: fairphone
+  model: Fairphone 5
+  manufacturer_support_ends: 2031-09
+  calyxos_support_ends: tbd
+  sim: "dual"
+  esim: "yes"
+  android: 14
+  web_install: false
+FP4:
+  brand: fairphone
+  model: Fairphone 4
+  manufacturer_support_ends: 2026-12
+  calyxos_support_ends: tbd
+  sim: "dual"
+  esim: "yes"
+  android: 14
+  web_install: false
+rhode:
+  brand: motorola
+  model: Moto G52
+  manufacturer_support_ends: 2025-04
+  calyxos_support_ends: tbd
+  sim: "dual"
+  esim: "no"
+  android: 14
+  web_install: false
+hawao:
+  brand: motorola
+  model: Moto G42
+  manufacturer_support_ends: 2025-06
+  calyxos_support_ends: tbd
+  sim: "dual"
+  esim: "no"
+  android: 14
+  web_install: false
+devon:
+  brand: motorola
+  model: Moto G32
+  manufacturer_support_ends: 2025-08
+  calyxos_support_ends: tbd
+  sim: "dual"
+  esim: "no"
+  android: 14
+  web_install: false
 comet:
   brand: pixel
   model: Pixel 9 Pro Fold
@@ -194,6 +239,15 @@ oriole:
   esim: "yes"
   android: 14
   web_install: true
+otter:
+  brand: shift
+  model: SHIFTphone 8
+  manufacturer_support_ends: tbc
+  calyxos_support_ends: tbd
+  sim: "dual"
+  esim: "yes"
+  android: 14
+  web_install: false
 barbet:
   brand: pixel
   model: Pixel 5a (5G)
@@ -248,6 +302,33 @@ flame:
   esim: "yes"
   android: 14
   web_install: true
+lemonadep:
+  brand: oneplus
+  model: OnePlus 9 Pro (Beta)
+  calyxos_support_ends: 2022-05
+  sim: "dual"
+  esim: "no"
+  android: 12
+  web_install: false
+  link: news/2022/07/06/oneplus-android-12-relock-issue/
+lemonade:
+  brand: oneplus
+  model: OnePlus 9 (Beta)
+  calyxos_support_ends: 2022-05
+  sim: "dual"
+  esim: "no"
+  android: 12
+  web_install: false
+  link: news/2022/07/06/oneplus-android-12-relock-issue/
+kebab:
+  brand: oneplus
+  model: OnePlus 8T (Beta)
+  calyxos_support_ends: 2022-05
+  sim: "dual"
+  esim: "no"
+  android: 12
+  web_install: false
+  link: news/2022/07/06/oneplus-android-12-relock-issue/
 bonito:
   brand: pixel
   model: Pixel 3a XL
@@ -288,97 +369,6 @@ blueline:
   android: 14
   web_install: true
   link: news/2024/11/26/14-november-security-update/
-FP4:
-  brand: fairphone
-  model: Fairphone 4
-  manufacturer_support_ends: 2026-12
-  calyxos_support_ends: tbd
-  sim: "dual"
-  esim: "yes"
-  android: 14
-  web_install: false
-FP5:
-  brand: fairphone
-  model: Fairphone 5
-  manufacturer_support_ends: 2031-09
-  calyxos_support_ends: tbd
-  sim: "dual"
-  esim: "yes"
-  android: 14
-  web_install: false
-axolotl:
-  brand: shift
-  model: SHIFT6mq
-  manufacturer_support_ends: tbc
-  calyxos_support_ends: 2024-11
-  sim: "dual"
-  esim: "no"
-  android: 14
-  web_install: false
-  link: news/2024/11/26/14-november-security-update/
-otter:
-  brand: shift
-  model: SHIFTphone 8
-  manufacturer_support_ends: tbc
-  calyxos_support_ends: tbd
-  sim: "dual"
-  esim: "yes"
-  android: 14
-  web_install: false
-devon:
-  brand: motorola
-  model: Moto G32
-  manufacturer_support_ends: 2025-08
-  calyxos_support_ends: tbd
-  sim: "dual"
-  esim: "no"
-  android: 14
-  web_install: false
-hawao:
-  brand: motorola
-  model: Moto G42
-  manufacturer_support_ends: 2025-06
-  calyxos_support_ends: tbd
-  sim: "dual"
-  esim: "no"
-  android: 14
-  web_install: false
-rhode:
-  brand: motorola
-  model: Moto G52
-  manufacturer_support_ends: 2025-04
-  calyxos_support_ends: tbd
-  sim: "dual"
-  esim: "no"
-  android: 14
-  web_install: false
-lemonadep:
-  brand: oneplus
-  model: OnePlus 9 Pro (Beta)
-  calyxos_support_ends: 2022-05
-  sim: "dual"
-  esim: "no"
-  android: 12
-  web_install: false
-  link: news/2022/07/06/oneplus-android-12-relock-issue/
-lemonade:
-  brand: oneplus
-  model: OnePlus 9 (Beta)
-  calyxos_support_ends: 2022-05
-  sim: "dual"
-  esim: "no"
-  android: 12
-  web_install: false
-  link: news/2022/07/06/oneplus-android-12-relock-issue/
-kebab:
-  brand: oneplus
-  model: OnePlus 8T (Beta)
-  calyxos_support_ends: 2022-05
-  sim: "dual"
-  esim: "no"
-  android: 12
-  web_install: false
-  link: news/2022/07/06/oneplus-android-12-relock-issue/
 taimen:
   brand: pixel
   model: Pixel 2 XL
@@ -399,6 +389,16 @@ walleye:
   android: 11
   web_install: false
   link: news/2022/02/11/android-11-feb-security-update/
+axolotl:
+  brand: shift
+  model: SHIFT6mq
+  manufacturer_support_ends: tbc
+  calyxos_support_ends: 2024-11
+  sim: "dual"
+  esim: "no"
+  android: 14
+  web_install: false
+  link: news/2024/11/26/14-november-security-update/
 jasmine_sprout:
   brand: xiaomi
   model: Xiaomi Mi A2
@@ -409,5 +409,3 @@ jasmine_sprout:
   android: 11
   web_install: false
   link: news/2022/02/11/android-11-feb-security-update/
-
-

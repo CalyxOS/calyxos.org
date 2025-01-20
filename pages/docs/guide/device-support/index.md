@@ -20,6 +20,11 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 #### Modern devices
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>
+<tr><td> Fairphone 5 </td><td> August 2026* </td><td> September 2031* </td></tr>
+<tr><td> Fairphone 4 </td><td> August 2024* </td><td> December 2026* </td></tr>
+<tr><td> Motorola moto g52 </td><td> August 2024* </td><td> August 2025* </td></tr>
+<tr><td> Motorola moto g42 </td><td> August 2024* </td><td> August 2025* </td></tr>
+<tr><td> Motorola moto g32 </td><td> August 2024* </td><td> August 2025* </td></tr>
 <tr><td> Pixel 9, 9 Pro, 9 Pro XL, 9 Pro Fold </td><td> August 2031 </td><td> August 2031 </td></tr>
 <tr><td> Pixel 8a </td><td> May 2031 </td><td> May 2031 </td></tr>
 <tr><td> Pixel 8, 8 Pro </td><td> October 2030 </td><td> October 2030 </td></tr>
@@ -29,11 +34,6 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 <tr><td> Pixel 7, 7 Pro </td><td> October 2027 </td><td> October 2027 </td></tr>
 <tr><td> Pixel 6a </td><td> July 2027 </td><td> July 2027 </td></tr>
 <tr><td> Pixel 6, 6 Pro </td><td> October 2026 </td><td> October 2026 </td></tr>
-<tr><td> Fairphone 5 </td><td> August 2026* </td><td> September 2031* </td></tr>
-<tr><td> Fairphone 4 </td><td> August 2024* </td><td> December 2026* </td></tr>
-<tr><td> Motorola moto g52 </td><td> August 2024* </td><td> August 2025* </td></tr>
-<tr><td> Motorola moto g42 </td><td> August 2024* </td><td> August 2025* </td></tr>
-<tr><td> Motorola moto g32 </td><td> August 2024* </td><td> August 2025* </td></tr>
 </table>
 
 #### Extended support
