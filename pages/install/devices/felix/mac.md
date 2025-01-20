@@ -48,7 +48,7 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/felix-factory-25602030.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/felix-factory-25603000.zip">Download CalyxOS Image</a>
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel Fold (felix)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -60,14 +60,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/felix-factory-25602030.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/felix-factory-25603000.zip" | split: "/" | last %}
 {% include install/mac_image_digest.md filename=image %}
 
-And ensure the result says `c840c5eddd3cae81a020579a0106c7a8a6ed413cc9fbfcd3ef8f27827b3e61e9`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `7c21ea15b5d1f3f7fcb676e781d9551504934789d33facf03ecc4b2f8513a23e`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/felix-factory-25602030.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/felix-factory-25603000.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 
