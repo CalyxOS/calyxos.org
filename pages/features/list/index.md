@@ -62,6 +62,11 @@ These apps are required for basic functionality and thus always present on the d
 
 | Device | Status |
 | ------ | ------ |
+| FP5 | any eSIM + physical SIM, dual SIM |
+| FP4 | any eSIM + physical SIM, dual SIM |
+| moto g52 | physical SIM, dual SIM |
+| moto g42 | physical SIM, dual SIM |
+| moto g32 | physical SIM, dual SIM |
 | Pixel 9 Pro Fold | any eSIM + physical SIM, dual SIM/eSIM |
 | Pixel 9 Pro XL | any eSIM + physical SIM, dual SIM/eSIM |
 | Pixel 9 Pro | any eSIM + physical SIM, dual SIM/eSIM |
@@ -84,11 +89,6 @@ These apps are required for basic functionality and thus always present on the d
 | Pixel 4, 4 XL | any eSIM + physical SIM, dual SIM |
 | Pixel 3a, 3a XL | physical SIM, single SIM |
 | Pixel 3, 3 XL | physical SIM, single SIM |
-| FP4 | any eSIM + physical SIM, dual SIM |
-| FP5 | any eSIM + physical SIM, dual SIM |
-| moto g32 | physical SIM, dual SIM |
-| moto g42 | physical SIM, dual SIM |
-| moto g52 | physical SIM, dual SIM |
 | SHIFT6mq | physical SIM, dual SIM |
 
 ### Settings
