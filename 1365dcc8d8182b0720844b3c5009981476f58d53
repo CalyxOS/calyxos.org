@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "461d2098_a862cd6a",
+        "filename": "pages/docs/guide/device-support/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-23T11:55:58Z",
+      "side": 1,
+      "message": "It\u0027s September 2026 in `devices.yml` above. Should change Security updates, at least.",
+      "revId": "1365dcc8d8182b0720844b3c5009981476f58d53",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "15531448_cbee3238",
+        "filename": "pages/docs/guide/device-support/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-23T11:55:58Z",
+      "side": 1,
+      "message": "It\u0027s January 2027 in `devices.yml` above. Should change Security updates, at least.",
+      "revId": "1365dcc8d8182b0720844b3c5009981476f58d53",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
