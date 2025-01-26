@@ -87,6 +87,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b50fce97_54386fc1",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-26T16:58:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "362d2fa2_e7f71ac4",
+      "revId": "4a3c36dfbc62b6a87ea3a0a901c2d859e6f44570",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f3ea2e6f_b486e59f",
