@@ -52,6 +52,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cda8576d_dc07334b",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-26T16:47:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "783a9e7e_8a7423be",
+      "revId": "4a3c36dfbc62b6a87ea3a0a901c2d859e6f44570",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "362d2fa2_e7f71ac4",
@@ -104,6 +122,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e78a737_a09a825c",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-26T16:47:35Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "13a5d49a_835d52b3",
+      "revId": "4a3c36dfbc62b6a87ea3a0a901c2d859e6f44570",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5fcda563_4982857f",
@@ -138,6 +174,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "da8c15e6_7b75ad07",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-26T16:47:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0ed1d4ef_37ac600b",
+      "revId": "4a3c36dfbc62b6a87ea3a0a901c2d859e6f44570",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "612d868a_98cf0cf0",
@@ -151,6 +205,24 @@
       "writtenOn": "2025-01-08T09:01:18Z",
       "side": 1,
       "message": "They don\u0027t actively block CalyxOS - but Custom ROMs / unofficial software in general.",
+      "revId": "4a3c36dfbc62b6a87ea3a0a901c2d859e6f44570",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "12a21d8d_c11c2c68",
+        "filename": "pages/docs/guide/getting-started/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 272,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-01-26T16:47:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "612d868a_98cf0cf0",
       "revId": "4a3c36dfbc62b6a87ea3a0a901c2d859e6f44570",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
