@@ -90,12 +90,13 @@
 <li class="toc-entry toc-h3"><a href="#download-device-flasher">Download device-flasher</a>
 <ul>
 <li class="toc-entry toc-h4"><a href="#verify-digest">Verify Digest</a></li>
+<li class="toc-entry toc-h4"><a href="#verify-signature">Verify Signature</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h3"><a href="#download-factory-image">Download factory image</a>
 <ul>
 <li class="toc-entry toc-h4"><a href="#verify-digest-1">Verify Digest</a></li>
-<li class="toc-entry toc-h4"><a href="#verify-signature">Verify Signature</a></li>
+<li class="toc-entry toc-h4"><a href="#verify-signature-1">Verify Signature</a></li>
 </ul>
 </li>
 </ul>
@@ -193,6 +194,10 @@ Installation from the M1 Macs is currently not supported due to an incompatibili
 
 <p>And ensure the result says <code class="language-plaintext highlighter-rouge">4b367c1f8163cc5dab77eca882699cafeaca7e7bf711caa8a5af467e5ca31c22</code>. This is the unique digest of the device-flasher. If it doesn’t match, then you have a corrupted or incorrect file.</p>
 
+<h4 id="verify-signature">Verify Signature</h4>
+
+<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/device-flasher/1.0.10/device-flasher.darwin.minisig">download the signature file</a> and then <a href="/install/verify/">verify it</a>.</p>
+
 <h3 id="download-factory-image">Download factory image</h3>
 
 <p><a class="btn" href="https://release.calyxinstitute.org/hawao-factory-25514020.zip">Download CalyxOS Image</a></p>
@@ -212,7 +217,7 @@ Installation from the M1 Macs is currently not supported due to an incompatibili
 
 <p>And ensure the result says <code class="language-plaintext highlighter-rouge">7bfbdbdadcaf577a2e1a3ac3a968e23aef86a97141e180d7b4fe794f2651dc5d</code>. This is the unique digest of the image file. If it doesn’t match, then you have a corrupted or incorrect file.</p>
 
-<h4 id="verify-signature">Verify Signature</h4>
+<h4 id="verify-signature-1">Verify Signature</h4>
 
 <p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/hawao-factory-25514020.zip.minisig">download the signature file</a> and then <a href="/install/verify/">verify image signature</a>.</p>
 

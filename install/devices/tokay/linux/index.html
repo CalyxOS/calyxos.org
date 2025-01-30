@@ -89,12 +89,13 @@
 <li class="toc-entry toc-h3"><a href="#download-device-flasher">Download device-flasher</a>
 <ul>
 <li class="toc-entry toc-h4"><a href="#verify-digest">Verify Digest</a></li>
+<li class="toc-entry toc-h4"><a href="#verify-signature">Verify Signature</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h3"><a href="#download-factory-image">Download factory image</a>
 <ul>
 <li class="toc-entry toc-h4"><a href="#verify-digest-1">Verify Digest</a></li>
-<li class="toc-entry toc-h4"><a href="#verify-signature">Verify Signature</a></li>
+<li class="toc-entry toc-h4"><a href="#verify-signature-1">Verify Signature</a></li>
 </ul>
 </li>
 </ul>
@@ -226,6 +227,10 @@ sudo apt install android-sdk-platform-tools-common
 
 <p>And ensure the result says <code class="language-plaintext highlighter-rouge">90c306006c8f6ff74a6fc264b85349f9dce4f0e790f673d7c3c8b8a9e083284b</code>. This is the unique digest of the device-flasher. If it doesn’t match, then you have a corrupted or incorrect file.</p>
 
+<h4 id="verify-signature">Verify Signature</h4>
+
+<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/device-flasher/1.0.10/device-flasher.linux.minisig">download the signature file</a> and then <a href="/install/verify/">verify it</a>.</p>
+
 <h3 id="download-factory-image">Download factory image</h3>
 
 <p><a class="btn" href="https://release.calyxinstitute.org/tokay-factory-25603000.zip">Download CalyxOS Image</a></p>
@@ -245,7 +250,7 @@ sudo apt install android-sdk-platform-tools-common
 
 <p>And ensure the result says <code class="language-plaintext highlighter-rouge">3a29eacfc05e4b769243b951e8f667d25e0335116181e3c9a483e09c69a9059d</code>. This is the unique digest of the image file. If it doesn’t match, then you have a corrupted or incorrect file.</p>
 
-<h4 id="verify-signature">Verify Signature</h4>
+<h4 id="verify-signature-1">Verify Signature</h4>
 
 <p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/tokay-factory-25603000.zip.minisig">download the signature file</a> and then <a href="/install/verify/">verify image signature</a>.</p>
 
