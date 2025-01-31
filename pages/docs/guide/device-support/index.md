@@ -67,12 +67,12 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 
 ### Update timeframe
 * We generally intend to get monthly security updates out as soon as possible after their release. The process takes some time since we don't get early access but generally the goal is to get them out to the stable channel in the same week as AOSP release.
-* Major version updates (such as the next Android 15 (V) release) take longer because we have to port all of our changes to the new version, which can be a lot of work.
+* Major version updates (such as the next Android 16 release) take longer because we have to port all of our changes to the new version, which can be a lot of work.
 
 ### Preferences for supporting a new device
-1. Android 14.0, available now, or eventually:
+1. Android 15.0, available now, or eventually:
    <br>
-   CalyxOS targets the latest Android version, currently 14.0 (U). It takes a lot of work to port a newer Android version to a device, and so devices running the latest Android version are preferred.
+   CalyxOS targets the latest Android version, currently 15.0. It takes a lot of work to port a newer Android version to a device, and so devices running the latest Android version are preferred.
 2. Ability to unlock the bootloader:
    <br>
    You can't install any custom OS if you can't unlock the bootloader in the first place. Some devices don't support it all, whereas on others some variants may not support unlocking the bootloader. Note that this is very different from carrier locking, which simply means that you can only use a particular SIM card with your device.
