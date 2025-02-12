@@ -6,6 +6,10 @@ toc: true
 
 <strong>[[Install => install]]</strong> / <strong><a href="/install/devices/{{codename}}/">{{name}}</a></strong>
 
+{% if version == "0.0.0" %}
+Downloads temporarily removed
+{% endif %}
+
 ## Terminology
 
 * **Factory Image**: This is a zip file that contains the entire CalyxOS operating system to be installed on your device.
@@ -48,7 +52,11 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
+{% if version == "0.0.0" %}
+Downloads temporarily removed
+{% else %}
 <a class="btn" href="{{factory_link}}">Download CalyxOS Image</a>
+{% endif %}
 
 Save this image in the same directory as device-flasher. This image will **only** work for **{{name}} ({{codename}})**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
