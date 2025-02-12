@@ -24,8 +24,13 @@ Which device do you want to install CalyxOS on? If you don't see your device her
 <tr>
 <td><a href="./devices/{{device.codename}}">{{device.name}}</a></td>
 <td><a href="./devices/{{device.codename}}">{{device.codename}}</a></td>
+{% if device.version == "0.0.0" %}
+<td>Temporarily removed</td>
+<td></td>
+{% else %}
 <td><a href="./devices/{{device.codename}}">{{device.version}}</a></td>
 <td><a href="./devices/{{device.codename}}">{{device.date}}</a></td>
+{% endif %}
 </tr>
 {% endfor %}
 </table>
