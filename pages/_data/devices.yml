@@ -91,7 +91,7 @@ bangkk:
   web_install: false
 fogos:
   brand: motorola
-  model: Moto G34
+  model: Moto G34 & G45
   manufacturer_support_ends: 2027-01
   calyxos_support_ends: tbd
   sim: "dual"

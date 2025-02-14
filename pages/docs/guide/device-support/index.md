@@ -22,7 +22,7 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 <tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>
 <tr><td> SHIFTphone 8 </td><td> August 2026* </td><td> August 2026* </td></tr>
 <tr><td> Motorola moto g84 </td><td> August 2026* </td><td> September 2026* </td></tr>
-<tr><td> Motorola moto g34 </td><td> August 2026* </td><td> January 2027* </td></tr>
+<tr><td> Motorola moto g34 & g45 </td><td> August 2026* </td><td> January 2027* </td></tr>
 </table>
 
 #### Modern devices
