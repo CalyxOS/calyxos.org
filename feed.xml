@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-21T02:23:23+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Important Notice Regarding CalyxOS USB Restriction on Fairphone 5 Devices</title><link href="/news/2025/02/20/usb-restriction-fp5-security/" rel="alternate" type="text/html" title="Important Notice Regarding CalyxOS USB Restriction on Fairphone 5 Devices" /><published>2025-02-20T00:00:00+05:30</published><updated>2025-02-20T00:00:00+05:30</updated><id>/news/2025/02/20/usb-restriction-fp5-security</id><content type="html" xml:base="/news/2025/02/20/usb-restriction-fp5-security/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-21T03:02:59+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Important Notice Regarding CalyxOS USB Restriction on Fairphone 5 Devices</title><link href="/news/2025/02/20/usb-restriction-fp5-security/" rel="alternate" type="text/html" title="Important Notice Regarding CalyxOS USB Restriction on Fairphone 5 Devices" /><published>2025-02-20T00:00:00+05:30</published><updated>2025-02-20T00:00:00+05:30</updated><id>/news/2025/02/20/usb-restriction-fp5-security</id><content type="html" xml:base="/news/2025/02/20/usb-restriction-fp5-security/"><![CDATA[<ul>
   <li>Security Disclosure from the CalyxOS team</li>
   <li>USB restriction issue on Fairphone 5 fixed in CalyxOS 6.4.1 or newer.</li>
   <li>Update now!</li>
@@ -19,11 +19,29 @@
 <p>We recommend that all affected users update to CalyxOS versions 6.4.1 or newer to resolve this issue. Users running older CalyxOS versions on Fairphone 5 devices are advised to only plug their devices into trusted receptacles and devices until a fix is implemented.</p>
 
 <h3 id="timetable-for-641">Timetable for 6.4.1</h3>
-<p>| Release channel  | Date   |
-| —————- | —— |
-| Beta | 12 February, Wednesday |
-| Security express | 12 February, Wednesday |
-| Stable | 19 February, Wednesday |</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Release channel</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Beta</td>
+      <td>12 February, Wednesday</td>
+    </tr>
+    <tr>
+      <td>Security express</td>
+      <td>12 February, Wednesday</td>
+    </tr>
+    <tr>
+      <td>Stable</td>
+      <td>19 February, Wednesday</td>
+    </tr>
+  </tbody>
+</table>
 
 <h3 id="gitlab-issue-link">GitLab Issue link</h3>
 <p><a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2970">https://gitlab.com/CalyxOS/calyxos/-/issues/2970</a></p>
