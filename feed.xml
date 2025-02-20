@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-20T01:52:13+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Android 15 for FP5, FP4, Moto G52, G42, G32, Pixel 5a, 5, 4a (5G)</title><link href="/news/2025/02/19/15-for-fp-moto-pixel5/" rel="alternate" type="text/html" title="Android 15 for FP5, FP4, Moto G52, G42, G32, Pixel 5a, 5, 4a (5G)" /><published>2025-02-19T00:00:00+05:30</published><updated>2025-02-19T00:00:00+05:30</updated><id>/news/2025/02/19/15-for-fp-moto-pixel5</id><content type="html" xml:base="/news/2025/02/19/15-for-fp-moto-pixel5/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-21T02:23:23+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Important Notice Regarding CalyxOS USB Restriction on Fairphone 5 Devices</title><link href="/news/2025/02/20/usb-restriction-fp5-security/" rel="alternate" type="text/html" title="Important Notice Regarding CalyxOS USB Restriction on Fairphone 5 Devices" /><published>2025-02-20T00:00:00+05:30</published><updated>2025-02-20T00:00:00+05:30</updated><id>/news/2025/02/20/usb-restriction-fp5-security</id><content type="html" xml:base="/news/2025/02/20/usb-restriction-fp5-security/"><![CDATA[<ul>
+  <li>Security Disclosure from the CalyxOS team</li>
+  <li>USB restriction issue on Fairphone 5 fixed in CalyxOS 6.4.1 or newer.</li>
+  <li>Update now!</li>
+</ul>
+
+<h3 id="issue-summary">Issue summary</h3>
+<h4 id="problem">Problem</h4>
+<p>The USB restriction feature on Fairphone 5 (FP5) devices running CalyxOS was not functioning as expected. Regardless of the selected restriction setting, USB connections (including USB debugging, data transfer, and other USB features) remained fully functional.</p>
+<h4 id="impact">Impact</h4>
+<p>All Fairphone 5 devices running CalyxOS were affected by this issue, potentially allowing unauthorized USB connections.</p>
+<h4 id="affected-devices">Affected devices</h4>
+<p>Fairphone 5 devices running CalyxOS 5.14.2 or older</p>
+
+<h3 id="current-status">Current Status</h3>
+<p>The issue has been remedied as of CalyxOS updates 6.4.1 or newer. USB restrictions are now functioning as intended.</p>
+
+<h3 id="recommendation-for-affected-users">Recommendation for affected users</h3>
+<p>We recommend that all affected users update to CalyxOS versions 6.4.1 or newer to resolve this issue. Users running older CalyxOS versions on Fairphone 5 devices are advised to only plug their devices into trusted receptacles and devices until a fix is implemented.</p>
+
+<h3 id="timetable-for-641">Timetable for 6.4.1</h3>
+<p>| Release channel  | Date   |
+| —————- | —— |
+| Beta | 12 February, Wednesday |
+| Security express | 12 February, Wednesday |
+| Stable | 19 February, Wednesday |</p>
+
+<h3 id="gitlab-issue-link">GitLab Issue link</h3>
+<p><a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2970">https://gitlab.com/CalyxOS/calyxos/-/issues/2970</a></p>
+
+<h3 id="next-steps">Next steps</h3>
+<p>Users should update to the latest version of CalyxOS (6.4.1 or newer) to ensure USB restrictions are properly enforced.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Security Disclosure from the CalyxOS team USB restriction issue on Fairphone 5 fixed in CalyxOS 6.4.1 or newer. Update now!]]></summary></entry><entry><title type="html">Android 15 for FP5, FP4, Moto G52, G42, G32, Pixel 5a, 5, 4a (5G)</title><link href="/news/2025/02/19/15-for-fp-moto-pixel5/" rel="alternate" type="text/html" title="Android 15 for FP5, FP4, Moto G52, G42, G32, Pixel 5a, 5, 4a (5G)" /><published>2025-02-19T00:00:00+05:30</published><updated>2025-02-19T00:00:00+05:30</updated><id>/news/2025/02/19/15-for-fp-moto-pixel5</id><content type="html" xml:base="/news/2025/02/19/15-for-fp-moto-pixel5/"><![CDATA[<ul>
   <li>CalyxOS 6.4.1 - Android 15 upgrade is now available for these devices</li>
 </ul>
 
@@ -892,255 +923,4 @@
     The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.1.0 - Android 15 is now available for the Pixel 6 - 8a Pixel 9 builds will be released this week Will also release Android 14 builds with the security update for other devices this week]]></summary></entry><entry><title type="html">Android 15 test builds for Pixel 6a, 7a, 8a</title><link href="/news/2024/10/19/android-15/" rel="alternate" type="text/html" title="Android 15 test builds for Pixel 6a, 7a, 8a" /><published>2024-10-19T00:00:00+05:30</published><updated>2024-10-19T00:00:00+05:30</updated><id>/news/2024/10/19/android-15</id><content type="html" xml:base="/news/2024/10/19/android-15/"><![CDATA[<ul>
-  <li>CalyxOS 6.0.1 - Android 15 is now available for testing for the Pixel 6a, 7a, 8a. Please report any issues to the testers channel.</li>
-  <li>Pixel 6 - 8, Tab, Fold builds will be available shortly, after testing and feedback from the above</li>
-  <li>Pixel 9 builds will be available shortly after that as well.</li>
-</ul>
-
-<h2 id="testers-channel">Testers channel</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Matrix (Primary)</th>
-      <th>Telegram (Bridge)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>CalyxOS Testers</td>
-      <td><a href="https://app.element.io/#/room/#calyxos-testers:matrix.org">#calyxos-testers:matrix.org</a></td>
-      <td><a href="https://t.me/CalyxOSTesters">CalyxOSTesters</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="pixel-6a-7a-8a">Pixel 6a, 7a, 8a</h2>
-<h3 id="known-issues">Known issues</h3>
-<ul>
-  <li>All hardware should work</li>
-  <li>The new Android 15 feature “Private Space” is currently disabled, because we wanted to be sure it works well before enabling it for everyone. It’ll be enabled in a future build.</li>
-</ul>
-
-<h3 id="changelog">Changelog</h3>
-<ul>
-  <li>CalyxOS 6.0.1 - Android 15</li>
-  <li>October 2024 Security update (2024-10-05)</li>
-  <li>Chromium 130.0.6723.58 (latest stable)</li>
-  <li><a href="https://github.com/seedvault-app/seedvault/releases/tag/15-5.0">Seedvault 15-5.0</a>
-    <ul>
-      <li>New backup format using compression and deduplication</li>
-      <li>Can still restore old backups, but old Seedvault can’t restore backups from this version</li>
-      <li>Faster and more reliable backups making snapshots that can individually be restored</li>
-      <li>Auto-cleaning of old backups</li>
-      <li>All backups now mimic device-to-device (allowing backup for all apps)</li>
-      <li>All backups now use a high per-app app quota</li>
-      <li>App backup (for APKs) moved to expert settings</li>
-      <li>Show more information for backups available to restore</li>
-      <li>Fix “Waiting to back up…” showing for apps</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="steps">Steps</h3>
-<h4 id="ota-updates-for-existing-calyxos-users">OTA updates for existing CalyxOS users</h4>
-<ol>
-  <li>Make sure your phone is running the latest CalyxOS version 5.12.0</li>
-  <li>Backup your data - you can use SeedVault, the included Backup app.</li>
-  <li>Enable USB Debugging on your phone.</li>
-  <li>From your computer: <code class="language-plaintext highlighter-rouge">adb shell setprop sys.update.channel fifteen</code></li>
-  <li>Then, on your phone: Settings -&gt; System -&gt; System update settings -&gt; Check for updates</li>
-</ol>
-
-<h4 id="fresh-installs-factory-images">Fresh installs, factory images</h4>
-<ol>
-  <li>Download the factory images from the links below.</li>
-  <li>Please follow the installation instructions at [[install]], but use the latest factory image you just downloaded instead of the one linked on that page.</li>
-</ol>
-
-<h5 id="downloads">Downloads</h5>
-
-<table class="table table-striped download">
-  <tr><th>Device</th><th>Link</th><th><a href="/get/verify">Signature</a></th><th>SHA256</th></tr>
-
-  <tr>
-    <td>Fairphone 5 (FP5)</td>
-    <td><a href="https://release.calyxinstitute.org/FP5-factory-25603010.zip">Download</a></td>
-    <td><a href="https://release.calyxinstitute.org/FP5-factory-25603010.zip.minisig">Signature</a></td>
-    <td class="hash">84d03851a22435a17dcf7fa44c1cd5ea977cd79c925f5ea5a7967f9ed1aae06c</td>
-  </tr>
-
-  <tr>
-    <td>Fairphone 4 (FP4)</td>
-    <td><a href="https://release.calyxinstitute.org/FP4-factory-25603010.zip">Download</a></td>
-    <td><a href="https://release.calyxinstitute.org/FP4-factory-25603010.zip.minisig">Signature</a></td>
-    <td class="hash">efac118ce511ebd07685d10ca955030ab158bb7b5cb54590526254fd93847d38</td>
-  </tr>
-
-  <tr>
-    <td>Moto G52 (rhode)</td>
-    <td><a href="https://release.calyxinstitute.org/rhode-factory-25603010.zip">Download</a></td>
-    <td><a href="https://release.calyxinstitute.org/rhode-factory-25603010.zip.minisig">Signature</a></td>
-    <td class="hash">224ec2fd55c108f473a606d28b2cfba1036bf7f198cf50405da782e6a28707da</td>
-  </tr>
-
-  <tr>
-    <td>Moto G42 (hawao)</td>
-    <td><a href="https://release.calyxinstitute.org/hawao-factory-25603010.zip">Download</a></td>
-    <td><a href="https://release.calyxinstitute.org/hawao-factory-25603010.zip.minisig">Signature</a></td>
-    <td class="hash">c0621e535bab33f912916993669e8a1feb0f65672ed5370bca947a309873f526</td>
-  </tr>
-
-  <tr>
-    <td>Moto G32 (devon)</td>
-    <td><a href="https://release.calyxinstitute.org/devon-factory-25603010.zip">Download</a></td>
-    <td><a href="https://release.calyxinstitute.org/devon-factory-25603010.zip.minisig">Signature</a></td>
-    <td class="hash">48cebb3bc14f7b4b4fdaf65090dad9f17026b3c019c0ed5b87dd615e814a0945</td>
-  </tr>
-
-  <tr>
-    <td>Pixel 5a (5G) (barbet)</td>
-    <td><a href="https://release.calyxinstitute.org/barbet-factory-25603010.zip">Download</a></td>
-    <td><a href="https://release.calyxinstitute.org/barbet-factory-25603010.zip.minisig">Signature</a></td>
-    <td class="hash">001e2bb0edf64d3d8897d7c0ca02acff9afa8eaf0e5099903501a2510bec59fc</td>
-  </tr>
-
-  <tr>
-    <td>Pixel 4a (5G) (bramble)</td>
-    <td><a href="https://release.calyxinstitute.org/bramble-factory-25603010.zip">Download</a></td>
-    <td><a href="https://release.calyxinstitute.org/bramble-factory-25603010.zip.minisig">Signature</a></td>
-    <td class="hash">f83358f10e7f1e0490c6108bd0ed7125eff93a44769ce9823a2c1e841c3f5f0d</td>
-  </tr>
-
-  <tr>
-    <td>Pixel 5 (redfin)</td>
-    <td><a href="https://release.calyxinstitute.org/redfin-factory-25603010.zip">Download</a></td>
-    <td><a href="https://release.calyxinstitute.org/redfin-factory-25603010.zip.minisig">Signature</a></td>
-    <td class="hash">28b1d2fb2c66199ff6218ee76ace7d2683c103c515efd335e89c044a67d680bf</td>
-  </tr>
-
-</table>
-
-<h2 id="what-about-other-devices">What about other devices?</h2>
-<ul>
-  <li>TL;DR: Easier to test with fewer devices, rest coming soon.</li>
-  <li>Like last year, we decided to limit the number of devices for the first build, to make things easier for us</li>
-  <li>We like to test every single build before release, and as you can imagine doing that for just 3 devices instead of 11 is a lot faster</li>
-  <li>Every CalyxOS developer one of these devices. Some have 2. That makes working much easier. Not everyone has every other device.</li>
-  <li>We figured that it’d be easier to start with a few devices, fix some bugs and then release it for all.</li>
-  <li>Also, because of the way things are, anything that works on Pixel 6a should be fine for 6 and 6 Pro, and so on for the others too.</li>
-  <li>We didn’t want to release something too buggy / non functional.</li>
-  <li>At the same time, no matter how much testing we do, there’ll always be something we missed, so it’s better to release it and get some feedback.</li>
-</ul>
-
-<h3 id="pixel-6-6-pro-7-7-pro-8-8-pro-fold-tablet">Pixel 6, 6 Pro, 7, 7 Pro, 8, 8 Pro, Fold, Tablet</h3>
-<ul>
-  <li>Hoping to release test builds in the coming week unless something major comes up.</li>
-</ul>
-
-<h3 id="pixel-9">Pixel 9</h3>
-<ul>
-  <li>Google released these devices with Android 14, but with an entirely different codebase compared to the rest of the pixels.</li>
-  <li>That would’ve entailed porting all of our changes to that codebase and keeping it up to date with the rest.</li>
-  <li>We decided to wait for Android 15 instead, since we knew that Google would unify the codebases then, they typically do that. It was also apparent with the build IDs of the betas they released.</li>
-  <li>We’re hoping to release the first test builds in the coming week, unless something unexpected comes up.</li>
-</ul>
-
-<h3 id="fp5-fp4-moto-g32-g42-g52-pixel-5-4a-5g-5a">FP5, FP4, Moto G32, G42, G52, Pixel 5, 4a (5G), 5a</h3>
-<ul>
-  <li>We’re still evaluating Android 15 for all of these devices.</li>
-  <li>Each of them will need a lot of work to get things ported and running.</li>
-  <li>We’ll test all hardware functionality before deciding, and post an update once we know more.</li>
-</ul>
-
-<h2 id="timeline">Timeline</h2>
-
-<p>The below gives an overview of how the CalyxOS team went about the Android 15 work.</p>
-
-<h3 id="august">August</h3>
-<ul>
-  <li>This was the initial earliest expected date, based on past releases</li>
-  <li>We were waiting for it, and also used this opportunity to do some more preparation work.</li>
-  <li>A big part of that was going through every major change we made to Android 14, and re-organizing / cleaning them up for easier porting. This was done at <a href="https://review.calyxos.org/q/branch:staging/android14-rebase">staging/android14-rebase</a></li>
-</ul>
-
-<h3 id="september-3-2024">September 3, 2024</h3>
-<ul>
-  <li><a href="https://android-developers.googleblog.com/2024/09/android-15-is-released-to-aosp.html">Android 15 is released to AOSP</a>.</li>
-  <li>Android 14 September Security update released for the Pixels.</li>
-  <li>We began working on both right away, prioritising the security update.</li>
-  <li>For Android 15, because only the open source components were released, we used the beta updates as a base for the Pixel components.</li>
-  <li>The work can be seen at <a href="https://review.calyxos.org/q/+branch:staging/android15">staging/android15</a></li>
-</ul>
-
-<h3 id="september-5-2024">September 5, 2024</h3>
-<ul>
-  <li>Released CalyxOS <a href="https://calyxos.org/news/2024/09/05/september-security-update/">5.11.0</a> - September 2024 Security update for Pixel 6 - 8, 11 devices total.</li>
-  <li>Because the only 15 builds we could use for Pixels were the betas, which had the August Security patch level, we couldn’t release that as it’d be a downgrade, and that isn’t allowed by Android.</li>
-  <li>We also started work on Pixel 9 and 9 Pro XL based on the same beta release.</li>
-</ul>
-
-<h3 id="september-8-2024">September 8, 2024</h3>
-<ul>
-  <li>Released CalyxOS <a href="https://calyxos.org/news/2024/09/08/september-security-update2/">5.11.1</a> - September 2024 Security update for Pixel 3 - 5, FP4, FP5, motorola &amp; SHIFT6mq</li>
-  <li>That’s 16 devices!</li>
-</ul>
-
-<h3 id="rest-of-september">Rest of September</h3>
-<ul>
-  <li>Continued work on porting our codebase to Android 15</li>
-  <li>We also kept working on Android 14, new <a href="https://calyxos.org/news/2024/09/25/september-feature-update/">features</a> and <a href="https://calyxos.org/news/2024/10/04/bugfix-for-september/">bugfixes</a> for all 27 supported devices.</li>
-</ul>
-
-<h3 id="october-7-2024">October 7, 2024</h3>
-<ul>
-  <li>October 2024 Security update sources uploaded to AOSP.</li>
-  <li>Nothing Pixel specific included in this.</li>
-</ul>
-
-<h3 id="october-9-2024">October 9, 2024</h3>
-<ul>
-  <li>Working on our Android 15 port and waiting on Google’s Android 15 release.</li>
-  <li>Released CalyxOS <a href="https://calyxos.org/news/2024/10/09/partial-october-security-update/">5.12.0</a> - Partial October 2024 Security update for Pixel 6 - 8, 11 devices total.</li>
-</ul>
-
-<h3 id="october-11-2024">October 11, 2024</h3>
-<ul>
-  <li>Released CalyxOS <a href="https://calyxos.org/news/2024/10/11/october-security-update2/">5.12.1</a> - October 2024 Security update for Pixel 3 - 5, Fairphone 4, 5, Motos &amp; SHIFT6MQ</li>
-</ul>
-
-<h3 id="october-15-2024">October 15, 2024</h3>
-<ul>
-  <li>Android 15 is released for Pixel 6 and all newer Pixels.</li>
-  <li>We began work integrating that right away.</li>
-  <li>The final release didn’t differ too much from the beta we had based our work on for the Pixels, which helped as we didn’t have to do too much work to update it.</li>
-  <li>We also started work on the Pixel 9 Pro and 9 Pro Fold, since that didn’t receive the beta release we were using for all other devices.</li>
-</ul>
-
-<h3 id="october-18-2024">October 18, 2024</h3>
-<ul>
-  <li>CalyxOS 6.0.0 was being prepared for release, when at the last moment we noticed an issue.</li>
-  <li>We wanted to be sure about it just in case, so we decided to move the release by a day.</li>
-  <li>The issue was due to the changes Google has introduced for Factory Reset Protection Hardening in Android 15. This article: <a href="https://www.androidauthority.com/android-15-factory-reset-protection-upgrades-3479431/">Here’s how Android 15 blocks thieves from bypassing factory reset protection
-</a> covers it well.</li>
-  <li>For CalyxOS, since we don’t have the proprietary Google code that handles this, it meant we couldn’t ask users to input their credentials to turn it off.</li>
-  <li>It is only an issue if your Pixel was already running Android 15, and you didn’t “Factory Reset” from Settings before installing CalyxOS. Regardless, we wanted to err on the side of caution.</li>
-  <li>We have disabled this for now since it’s not useful for us right now. Will revisit in the future.</li>
-</ul>
-
-<h3 id="october-19-2024">October 19, 2024</h3>
-<ul>
-  <li>Noticed an issue with SMS sending, due to AOSP not updating apps.</li>
-  <li>We found a <a href="https://github.com/yaap/packages_apps_Messaging/commit/b6bb85adae52d663d9e950191f71955a6111ef96">patch on GitHub</a>, thanks <a href="https://github.com/yaap">Yet another AOSP project</a>!</li>
-  <li>Included that and a fix for the FRP issue mentioned above in CalyxOS 6.0.1</li>
-  <li>This post - Released the first Android 15 test build :)</li>
-</ul>
-
-<h3 id="rest-of-october">Rest of October</h3>
-<ul>
-  <li>We’ll continue working on Android 15 and Pixel 9. Our plan is to release builds regularly.</li>
-  <li>We’ll post an update about other devices later, after we’re done with the modern Pixels.</li>
-  <li>We’ll still try to push out an Android 14 update for those.</li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.0.1 - Android 15 is now available for testing for the Pixel 6a, 7a, 8a. Please report any issues to the testers channel. Pixel 6 - 8, Tab, Fold builds will be available shortly, after testing and feedback from the above Pixel 9 builds will be available shortly after that as well.]]></summary></entry></feed>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.1.0 - Android 15 is now available for the Pixel 6 - 8a Pixel 9 builds will be released this week Will also release Android 14 builds with the security update for other devices this week]]></summary></entry></feed>
