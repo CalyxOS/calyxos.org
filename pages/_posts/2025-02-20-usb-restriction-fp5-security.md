@@ -22,6 +22,7 @@ The issue has been remedied as of CalyxOS updates 6.4.1 or newer. USB restrictio
 We recommend that all affected users update to CalyxOS versions 6.4.1 or newer to resolve this issue. Users running older CalyxOS versions on Fairphone 5 devices are advised to only plug their devices into trusted receptacles and devices until a fix is implemented.
 
 ### Timetable for 6.4.1
+
 | Release channel  | Date   |
 | ---------------- | ------ |
 | Beta | 12 February, Wednesday |
