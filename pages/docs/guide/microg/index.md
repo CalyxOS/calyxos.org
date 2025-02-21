@@ -80,6 +80,6 @@ What is stock Android like in comparison? Everything is tracked. In one study, [
 
 The short answer: No.
 
-The long answer: microG does indeed require something called 'signature spoofing'. This is the ability of the ability for one program to impersonate the code signature of another. This is needed by microG in order to impersonate Google Play Services (because most apps embed the part of Play Services in the app itself). The standard microG patch for Android to support signature spoofing simply allows it in a free-for-all style. We have instead severely controlled the scope so that it's only allowed for one signature, for one program, microG.
+The long answer: microG does indeed require something called 'signature spoofing'. This is the ability for one program to impersonate the code signature of another. This is needed by microG in order to impersonate Google Play Services (because most apps embed the part of Play Services in the app itself). The standard microG patch for Android to support signature spoofing simply allows it in a free-for-all style. We have instead severely controlled the scope so that it's only allowed for one signature, for one program, microG.
 
 For more technical information, see [[microg-details]].
