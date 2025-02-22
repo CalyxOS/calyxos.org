@@ -22,7 +22,7 @@ redirect_from: /global-no-cleartext/
 
 ### Changelog
 * CalyxOS 6.4.2 - February Feature update
-* [Android Auto support!](android-auto) Enable from Settings -> Connected devices -> Android Auto
+* [[android-auto]] support! Enable from Settings -> Connected devices -> Android Auto
 * Add a Text-to-speech engine by default, eSpeakNG
 * Add Talkback screen reader
 * Always allow editing APNs.
