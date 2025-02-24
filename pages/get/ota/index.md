@@ -19,7 +19,7 @@ Optional: To verify the *SHA256* digest, run the command `sha256sum FILENAME_OF_
 ## Full OTA updates
 
 {% for release in site.data.downloads.releases %}
-{% if release != "factory" }
+{% if release != "factory" %}
 <h3 class="mt-3">{{ release | capitalize }}</h3>
 <table class="table table-striped download">
   <tr><th>Device</th><th>Link</th><th>SHA256</th></tr>
