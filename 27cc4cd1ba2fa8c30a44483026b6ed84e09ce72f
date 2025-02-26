@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff5ee90a_7ff99c94",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-02-26T13:38:06Z",
+      "side": 1,
+      "message": "Thanks, minor nits inline",
+      "revId": "27cc4cd1ba2fa8c30a44483026b6ed84e09ce72f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e94a776d_f9997142",
+        "filename": "pages/docs/guide/security/bootloader-lock.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-02-26T13:38:06Z",
+      "side": 1,
+      "message": "Could mention a backup too",
+      "revId": "27cc4cd1ba2fa8c30a44483026b6ed84e09ce72f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5f7968e8_726d08ce",
+        "filename": "pages/docs/guide/security/bootloader-lock.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-02-26T13:38:06Z",
+      "side": 1,
+      "message": "```suggestion\nOur device flasher and web installer try to make sure that relocking is safe, and as such usually is the safest method.\n```",
+      "revId": "27cc4cd1ba2fa8c30a44483026b6ed84e09ce72f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
