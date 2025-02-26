@@ -7,6 +7,10 @@ redirect_from: /lock/
 
 You may have gotten a warning message that brings you to this page (**calyxos.org/lock**)
 
+Relocking, just like unlocking, wipes your device. Make sure you have access to everything you need before continuing.
+
+Our device flasher and web installer try to make sure that relocking is safe, and as such usually is the safest method.
+
 Feel free to contact us at [[community]] for any questions or concerns.
 
 ## Pixels
