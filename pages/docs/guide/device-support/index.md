@@ -50,18 +50,18 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 <tr><td> Pixel 5a (5G) </td><td> August 2024* </td><td> August 2025* </td></tr>
 <tr><td> Pixel 4a (5G) </td><td> August 2024* </td><td> August 2025* </td></tr>
 <tr><td> Pixel 5 </td><td> August 2024* </td><td> August 2025* </td></tr>
-<tr><td> Pixel 4a </td><td> August 2024 </td><td> August 2024* </td></tr>
-<tr><td> Pixel 4, 4 XL </td><td> August 2024 </td><td> August 2024* </td></tr>
+<tr><td> Pixel 4a </td><td> August 2024 </td><td> February 2025 </td></tr>
+<tr><td> Pixel 4, 4 XL </td><td> August 2024 </td><td> February 2025 </td></tr>
 </table>
 
 #### No longer supported
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>
 <tr><td> OnePlus 8T, 9, 9 Pro Beta </td><td> May 2022 </td><td> May 2022 </td></tr>
-<tr><td> Pixel 3a, 3a XL </td><td> August 2024 </td><td> November 2024 </td></tr>
-<tr><td> Pixel 3, 3 XL </td><td> August 2024 </td><td> November 2024 </td></tr>
+<tr><td> Pixel 3a, 3a XL </td><td> August 2024 </td><td> February 2025 </td></tr>
+<tr><td> Pixel 3, 3 XL </td><td> August 2024 </td><td> February 2025 </td></tr>
 <tr><td> Pixel 2, 2 XL </td><td> February 2022 </td><td> February 2022 </td></tr>
-<tr><td> SHIFT SHIFT6mq </td><td> August 2024 </td><td> November 2024 </td></tr>
+<tr><td> SHIFT SHIFT6mq </td><td> August 2024 </td><td> February 2025 </td></tr>
 <tr><td> Xiaomi Mi A2 </td><td> February 2022 </td><td> February 2022 </td></tr>
 </table>
 
