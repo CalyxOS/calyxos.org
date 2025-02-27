@@ -203,7 +203,7 @@ you do not need to take any additional action.</p>
 
 <h3 id="download-factory-image">Download factory image</h3>
 
-<p><a class="btn" href="https://release.calyxinstitute.org/bramble-factory-25604010.zip">Download CalyxOS Image</a></p>
+<p><a class="btn" href="https://release.calyxinstitute.org/bramble-factory-25604020.zip">Download CalyxOS Image</a></p>
 
 <p>Save this image in the same directory as device-flasher. This image will <strong>only</strong> work for <strong>Pixel 4a (5G) (bramble)</strong>. Any attempt to install this image on a different device model may brick (destroy) the Android device.</p>
 
@@ -215,14 +215,14 @@ you do not need to take any additional action.</p>
 
 <p>To verify the image, open a terminal window on the host computer where you saved the image and run the command:</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CertUtil <span class="nt">-hashfile</span> bramble-factory-25604010.zip SHA256
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CertUtil <span class="nt">-hashfile</span> bramble-factory-25604020.zip SHA256
 </code></pre></div></div>
 
-<p>And ensure the result says <code class="language-plaintext highlighter-rouge">66ae3a19f39fc1c9aceffb99eebb015777d89d0fb51b4386236351835886ad87</code>. This is the unique digest of the image file. If it doesn’t match, then you have a corrupted or incorrect file.</p>
+<p>And ensure the result says <code class="language-plaintext highlighter-rouge">e5252db1a5aa72e93017535755892971c05fb26eefadb3c65af59fa68ac52960</code>. This is the unique digest of the image file. If it doesn’t match, then you have a corrupted or incorrect file.</p>
 
 <h4 id="verify-signature-1">Verify Signature</h4>
 
-<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/bramble-factory-25604010.zip.minisig">download the signature file</a> and then <a href="/install/verify/">verify image signature</a>.</p>
+<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/bramble-factory-25604020.zip.minisig">download the signature file</a> and then <a href="/install/verify/">verify image signature</a>.</p>
 
 <h2 id="install-calyxos">Install CalyxOS</h2>
 
