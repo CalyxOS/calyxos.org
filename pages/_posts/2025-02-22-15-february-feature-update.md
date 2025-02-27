@@ -13,7 +13,7 @@ redirect_from: /global-no-cleartext/
 | ---------------- | ------ | ------ |
 | Beta | 22 February, Saturday |  |
 | Security express | 24 February, Monday |  |
-| Stable | 26 February, Wednesday | |
+| Stable | 27 February, Thursday | |
 
 ### Restrict cleartext traffic feature deprecation
 * We've decided to remove the "Restrict cleartext traffic" feature in the next feature update in March.
