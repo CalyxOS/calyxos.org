@@ -4,6 +4,7 @@ title: Install on Moto G42
 
 <strong>[[Install => install]]</strong> / <strong><a href="/install/devices/hawao/">Moto G42</a></strong>
 
+
 <div class="gallery" markdown=0>
   <div class="cell square">
     <a href="windows"><img class="filter-grey" src="{{ '/assets/images/icons/windows.svg' | relative_url }}" alt=""></a>
