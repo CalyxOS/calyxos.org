@@ -5,6 +5,7 @@ title: Install on Moto G32
 <strong>[[Install => install]]</strong> / <strong><a href="/install/devices/devon/">Moto G32</a></strong>
 
 <div class="gallery" markdown=0>
+
   <div class="cell square">
     <a href="windows"><img class="filter-grey" src="{{ '/assets/images/icons/windows.svg' | relative_url }}" alt=""></a>
     <a style="margin-top: 0.5rem" class="btn" href="windows">Install from Windows</a>

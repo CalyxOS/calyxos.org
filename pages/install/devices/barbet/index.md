@@ -5,6 +5,13 @@ title: Install on Pixel 5a (5G)
 <strong>[[Install => install]]</strong> / <strong><a href="/install/devices/barbet/">Pixel 5a (5G)</a></strong>
 
 <div class="gallery" markdown=0>
+
+  <div class="cell square">
+    <a href="browser"><img class="filter-grey" src="{{ '/assets/images/icons/chrome.svg' | relative_url }}" alt=""></a>
+    <a style="margin-top: 0.5rem" class="btn" href="https://install.calyxos.org">Install from Browser</a>
+    <p>For successful installation, please use browsers that allow WebUSB access, such as Chrome, Brave, Edge, or any other Chromium based browser.</p>
+  </div>
+
   <div class="cell square">
     <a href="windows"><img class="filter-grey" src="{{ '/assets/images/icons/windows.svg' | relative_url }}" alt=""></a>
     <a style="margin-top: 0.5rem" class="btn" href="windows">Install from Windows</a>
