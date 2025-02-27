@@ -86,12 +86,6 @@ Your phone includes NFC (Near-field Communication) in order to facilitate things
 
 However, it is theoretically possible to build a door that can read unique NFC information when you pass through it, although there are no known products like this yet. You are probably safe leaving NFC on, but for full location privacy, you might consider also disabling NFC.
 
-### Fake Traveler
-
-There is an app in F-droid called [Fake Traveler](https://f-droid.org/packages/cl.coders.faketraveler/). This allows you to set an arbitrary location for testing purposes.
-
-Unfortunately, apps are able to detect that this location is not real, and many applications will ignore the mocked location.
-
 ### Exif metadata
 
 Your photos and videos contain metadata in the form of [Exif tags](https://en.wikipedia.org/wiki/Exif), composed of info such as device model, the date and time the media was captured, and more. Depending on your settings, this metadata may also include location information.
