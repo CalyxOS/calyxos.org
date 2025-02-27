@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff251574_aa53979d",
+        "filename": "pages/install/_templates/_choose_os.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-02-27T15:49:32Z",
+      "side": 1,
+      "message": "Still not working. Previously at https://review.calyxos.org/c/CalyxOS/calyxos.org/+/32562",
+      "revId": "d9bb5495c1fdda00c675ffdf961e78b519339965",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
