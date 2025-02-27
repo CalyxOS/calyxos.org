@@ -61,6 +61,12 @@ module GenerateDataPages
       Liquid::Template.parse(pre_filter(File.read(path)))
     end
 
+    def generate_main_page(release, template:)
+      dest = File.join(DEVICES_DIR, release["codename"], 'index.md')
+      context = release.merge("web_install" => release["web_install"])
+      render(template: template,  context: release, dest: dest)
+    end
+
     def generate_os_pages(release ,template:)
       OSES.each do |os|
         dest = File.join(DEVICES_DIR, release["codename"], os["codename"] + ".md")
@@ -78,7 +84,7 @@ module GenerateDataPages
         device_dir = File.join(DEVICES_DIR, release["codename"])
         dirs << device_dir
         FileUtils.mkdir_p(device_dir)
-        render(template: index_template, dest: File.join(device_dir,'index.md'), context: release)
+        generate_main_page(release, template: index_template)
         generate_os_pages(release, template: install_template)
       end
       cleanup_dirs(dirs)
