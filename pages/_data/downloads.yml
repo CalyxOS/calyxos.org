@@ -1350,13 +1350,13 @@ factory:
 - name: Moto G42
   brand: motorola
   codename: hawao
-  version: 6.4.2
-  android: '15'
+  version: 0.0.0
+  android: "?"
   web_install: false
-  factory_link: https://release.calyxinstitute.org/hawao-factory-25604020.zip
-  factory_sha256: dd1c06ac52b8b6551d3903c1cc3a127e3fd0c9f68bdbe620cd9ea70846b515a2
-  ota_link: https://release.calyxinstitute.org/hawao-ota_update-25604020.zip
-  ota_sha256: 210432f40ddc948a673054aa831b9caeccf7e6fd7a3feaf19351444288d3590f
+  factory_link: https://release.calyxinstitute.org/hawao-factory-0.zip
+  factory_sha256:
+  ota_link: https://release.calyxinstitute.org/hawao-ota_update-0.zip
+  ota_sha256:
   incremental_link:
   incremental_sha256:
   incremental_old_build:

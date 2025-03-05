@@ -6,6 +6,10 @@ toc: true
 
 <strong>[[Install => install]]</strong> / <strong><a href="/install/devices/hawao/">Moto G42</a></strong>
 
+
+## Downloads temporarily removed
+
+
 ## Terminology
 
 * **Factory Image**: This is a zip file that contains the entire CalyxOS operating system to be installed on your device.
@@ -48,7 +52,9 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-<a class="btn" href="https://release.calyxinstitute.org/hawao-factory-25604020.zip">Download CalyxOS Image</a>
+
+<a class="btn">Downloads temporarily removed</a>
+
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Moto G42 (hawao)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -60,14 +66,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/hawao-factory-25604020.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/hawao-factory-0.zip" | split: "/" | last %}
 {% include install/windows_image_digest.md filename=image %}
 
-And ensure the result says `dd1c06ac52b8b6551d3903c1cc3a127e3fd0c9f68bdbe620cd9ea70846b515a2`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says ``. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/hawao-factory-25604020.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/hawao-factory-0.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 

@@ -6,6 +6,8 @@ toc: true
 
 <strong>[[Install => install]]</strong> / <strong><a href="/install/devices/felix/">Pixel Fold</a></strong>
 
+
+
 ## Terminology
 
 * **Factory Image**: This is a zip file that contains the entire CalyxOS operating system to be installed on your device.
@@ -48,7 +50,9 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
+
 <a class="btn" href="https://release.calyxinstitute.org/felix-factory-25604020.zip">Download CalyxOS Image</a>
+
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel Fold (felix)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
