@@ -73,6 +73,7 @@
         <div class="toc">
   <h2>Contents</h2>
   <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h2"><a href="#downloads-temporarily-removed">Downloads temporarily removed</a></li>
 <li class="toc-entry toc-h2"><a href="#terminology">Terminology</a></li>
 <li class="toc-entry toc-h2"><a href="#prepare-your-android-device">Prepare your Android device</a>
 <ul>
@@ -120,6 +121,8 @@
 </div>
 
         <p><strong><a href="/install/">Install</a></strong> / <strong><a href="/install/devices/hawao/">Moto G42</a></strong></p>
+
+<h2 id="downloads-temporarily-removed">Downloads temporarily removed</h2>
 
 <h2 id="terminology">Terminology</h2>
 
@@ -207,7 +210,7 @@
 
 <h3 id="download-factory-image">Download factory image</h3>
 
-<p><a class="btn" href="https://release.calyxinstitute.org/hawao-factory-25604020.zip">Download CalyxOS Image</a></p>
+<p><a class="btn">Downloads temporarily removed</a></p>
 
 <p>Save this image in the same directory as device-flasher. This image will <strong>only</strong> work for <strong>Moto G42 (hawao)</strong>. Any attempt to install this image on a different device model may brick (destroy) the Android device.</p>
 
@@ -219,14 +222,14 @@
 
 <p>To verify the image, open a terminal window on the host computer where you saved the image and run the command:</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CertUtil <span class="nt">-hashfile</span> hawao-factory-25604020.zip SHA256
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CertUtil <span class="nt">-hashfile</span> hawao-factory-0.zip SHA256
 </code></pre></div></div>
 
-<p>And ensure the result says <code class="language-plaintext highlighter-rouge">dd1c06ac52b8b6551d3903c1cc3a127e3fd0c9f68bdbe620cd9ea70846b515a2</code>. This is the unique digest of the image file. If it doesn’t match, then you have a corrupted or incorrect file.</p>
+<p>And ensure the result says ``. This is the unique digest of the image file. If it doesn’t match, then you have a corrupted or incorrect file.</p>
 
 <h4 id="verify-signature-1">Verify Signature</h4>
 
-<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/hawao-factory-25604020.zip.minisig">download the signature file</a> and then <a href="/install/verify/">verify image signature</a>.</p>
+<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/hawao-factory-0.zip.minisig">download the signature file</a> and then <a href="/install/verify/">verify image signature</a>.</p>
 
 <h2 id="install-calyxos">Install CalyxOS</h2>
 
