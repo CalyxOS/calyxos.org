@@ -7,7 +7,7 @@ title: Install on Pixel 8a
 
 <div class="gallery" markdown=0>
   <div class="cell square">
-    <a href="browser"><img class="filter-grey" src="{{ '/assets/images/icons/chrome.svg' | relative_url }}" alt=""></a>
+    <a href="https://install.calyxos.org"><img class="filter-grey" src="{{ '/assets/images/icons/chrome.svg' | relative_url }}" alt=""></a>
     <a style="margin-top: 0.5rem" class="btn" href="https://install.calyxos.org">Install from Browser</a>
     <p style="margin-top: 0.5rem">For successful installation, please use browsers that allow WebUSB access, such as Chrome, Brave, Edge, or any other Chromium based browser.</p>
   </div>
