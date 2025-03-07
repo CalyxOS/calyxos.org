@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d8db75c_7961a255",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-03-07T14:17:46Z",
+      "side": 1,
+      "message": "Here that old link redirects me to /en/ fine. And I imagine it\u0027d redirect to the relevant language based on browser / system settings.\n\n```\n$ curl -I https://www.fairphone.com/bootloader-unlocking-code-for-fairphone/\nHTTP/2 301\nlocation: /en/bootloader-unlocking-code-for-fairphone/\n```",
+      "revId": "e2b0d049637707e51551f4d3762d19eb6ab9967c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
