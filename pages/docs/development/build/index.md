@@ -30,7 +30,7 @@ This will help you setup a build environment for CalyxOS from scratch
 For Debian Stable and other Debian based distros:
 
 ```shell
-sudo apt update && sudo apt install bc curl default-jdk-headless default-jre-headless git git-lfs libncurses5 libncurses5-dev libssl-dev lz4 m4 python3-lxml python3-protobuf python3-yaml python-is-python3 rsync zip protobuf-compiler
+sudo apt update && sudo apt install bc curl default-jdk-headless default-jre-headless git git-lfs libncurses5 libncurses5-dev libssl-dev lz4 m4 python3-lxml python3-protobuf python3-yaml python-is-python3 rsync zip protobuf-compiler e2fsprogs
 ```
 
 Other distributions may have the same or similar names for packages.
