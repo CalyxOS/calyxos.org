@@ -34,6 +34,24 @@
       "parentUuid": "449a53ef_97f1fb8a",
       "revId": "9dd76d78f3e0959cc65c5f292e23f890760063ac",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "97ca9867_93d2b914",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-03-20T22:22:29Z",
+      "side": 1,
+      "message": "or this is potentially changeable behavior, or are we stuck with these values?",
+      "parentUuid": "a85c1b92_743b8153",
+      "revId": "9dd76d78f3e0959cc65c5f292e23f890760063ac",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
