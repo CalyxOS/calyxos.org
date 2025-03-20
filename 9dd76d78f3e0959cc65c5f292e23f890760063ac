@@ -16,6 +16,24 @@
       "message": "This differs per device, and per-language even.\n\n`wifi_tether_configure_ssid_default`\n\nPossible values:\n* Fairphone 5 5G\n* Fairphone 4 5G\n* Pixel\n* SHIFT6mq\n* AndroidHotspot (various languages in Settings)",
       "revId": "9dd76d78f3e0959cc65c5f292e23f890760063ac",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a85c1b92_743b8153",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-03-20T22:20:32Z",
+      "side": 1,
+      "message": "🥲\n\nIs there a place I can find where these strings are",
+      "parentUuid": "449a53ef_97f1fb8a",
+      "revId": "9dd76d78f3e0959cc65c5f292e23f890760063ac",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
