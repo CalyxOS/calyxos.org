@@ -52,6 +52,24 @@
       "parentUuid": "a85c1b92_743b8153",
       "revId": "9dd76d78f3e0959cc65c5f292e23f890760063ac",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f0e844bf_b75ee92b",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-03-26T00:25:11Z",
+      "side": 1,
+      "message": "They are set in the various device_ repos - I pasted all the possible values in that comment.\n\nBut now that you bring it up - we could and should change them to something generic. They\u0027re currently set this way to match stock, but we don\u0027t have to do that.",
+      "parentUuid": "97ca9867_93d2b914",
+      "revId": "9dd76d78f3e0959cc65c5f292e23f890760063ac",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
