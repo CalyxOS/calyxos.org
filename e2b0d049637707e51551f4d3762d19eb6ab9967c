@@ -34,6 +34,23 @@
       "parentUuid": "1d8db75c_7961a255",
       "revId": "e2b0d049637707e51551f4d3762d19eb6ab9967c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6225cec5_b034d7b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-03-28T03:02:33Z",
+      "side": 1,
+      "message": "I think I did this intentionally. I remember excluding the /en/ because it redirected properly. I only did it because I noticed the little flag and locale code and was like, oh it\u0027s redirecting me, better not specify it, but actually I can\u0027t seem to get a translated page to e.g. German anyway.",
+      "revId": "e2b0d049637707e51551f4d3762d19eb6ab9967c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
