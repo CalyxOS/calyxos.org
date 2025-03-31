@@ -1,4 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-03-28T02:37:55+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Android 15, March 2025 Quarterly Platform Release &amp;amp; Security update</title><link href="/news/2025/03/27/march-qpr2-security-update/" rel="alternate" type="text/html" title="Android 15, March 2025 Quarterly Platform Release &amp;amp; Security update" /><published>2025-03-27T00:00:00+05:30</published><updated>2025-03-27T00:00:00+05:30</updated><id>/news/2025/03/27/march-qpr2-security-update</id><content type="html" xml:base="/news/2025/03/27/march-qpr2-security-update/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-01T04:49:26+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Android 14, Final CalyxOS update for Pixel 3 - 4a and SHIFT6MQ</title><link href="/news/2025/03/31/pixel-3-4a-shift6mq-eol/" rel="alternate" type="text/html" title="Android 14, Final CalyxOS update for Pixel 3 - 4a and SHIFT6MQ" /><published>2025-03-31T00:00:00+05:30</published><updated>2025-03-31T00:00:00+05:30</updated><id>/news/2025/03/31/pixel-3-4a-shift6mq-eol</id><content type="html" xml:base="/news/2025/03/31/pixel-3-4a-shift6mq-eol/"><![CDATA[<ul>
+  <li>CalyxOS 5.17.1 - Android 14, March 2025 Security update (2025-05-01)</li>
+  <li>End of CalyxOS support for Pixel 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, and SHIFT6MQ</li>
+  <li>Pixel 4a (5G), 5 and 5a, and other newer Pixels are still supported.</li>
+</ul>
+
+<h3 id="rollout">Rollout:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Release channel</th>
+      <th>Date</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Security express</td>
+      <td>31 March, Monday</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Beta</td>
+      <td>31 March, Monday</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Stable</td>
+      <td>2 April, Wednesday</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="important-update-end-of-calyxos-support-for-pixel-3-3-xl-3a-3a-xl-4-4-xl-4a-and-shift6mq"><strong>Important update: end of CalyxOS support for Pixel 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, and SHIFT6MQ</strong></h3>
+
+<p>With this release (5.17.1), CalyxOS has stopped providing official software updates for the Pixel 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, and SHIFT6MQ. This means these devices will no longer receive security patches, new features, and bug fixes. As of the time of this update, March 2025, the Pixel 4a (5G), 5 and 5a, and other newer Pixels are still supported.</p>
+
+<p>We strive to extend our support as long as possible after a device reaches manufacturer’s end of support. However, our team can only provide fixes to the open source components, such as the OS code and the Linux kernel. As the manufacturer terminates updates for these devices, proprietary components such as the bootloader, modem firmware, and camera firmware will get no more updates.</p>
+
+<p>As devices age, the amount of work to keep devices up to date against latest vulnerabilities grows at an exponential rate while trying to provide timely support for new devices. At this moment, we cannot guarantee the same level of protection for the following phone models despite our best effort to extend the life of devices that our users have trusted for years.</p>
+
+<ul>
+  <li>Pixel 4a sunfish</li>
+  <li>Pixel 4 XL coral</li>
+  <li>Pixel 4 flame</li>
+  <li>Pixel 3a XL bonito</li>
+  <li>Pixel 3a sargo</li>
+  <li>Pixel 3 XL crosshatch</li>
+  <li>Pixel 3 blueline</li>
+  <li>SHIFT6MQ axolotl</li>
+</ul>
+
+<p>To ensure transparency, we are sending a reminder to these devices. If you have one of these devices, you will see an end-of-CalyxOS-support notification at each boot. You can disable this notification by going to Settings &gt; Apps. Click “Show system” on the top right corner of the page. Then from the list of apps, select CalyxOS Update Client &gt; Notifications and toggle “End of CalyxOS Support” off.</p>
+
+<p>It is important to mantain your digital security and privacy. To ensure you can continue receiving updates, please consider shifting to [[a device that is still supported by us =&gt; device-support]] or the manufacturer.</p>
+
+<p>Thanks for trusting CalyxOS to keep your device secure.</p>
+
+<h3 id="changelog">Changelog</h3>
+<ul>
+  <li>CalyxOS 5.17.1 - Final update</li>
+  <li>March 2025 Security update (2025-03-01)</li>
+  <li>Also includes security updates from previous months</li>
+  <li>Implement charging control - allow setting a limit for charging, under Settings -&gt; Battery</li>
+  <li>Seedvault: Update to 14-5.3</li>
+  <li>Seedvault: Added support for user CA certificates</li>
+  <li>Seedvault: Fixed issue where many Go server implementations of WebDAV did not work with the WebDAV client in Seedvault</li>
+  <li>Seedvault: Bumped the app data quota from 1GB to 3GB</li>
+  <li>Seedvault: Nextcloud app is no longer allowed for backup (Use built-in WebDAV Cloud support!)</li>
+  <li>Seedvault: Improved handling of metered networks, if disallowed, the backup process will be aborted</li>
+  <li>Seedvault: Fixed backup errors with USB when file and app backup are both on</li>
+  <li>Seedvault: Fixed overdue backups not automatically starting when USB drives are plugged in</li>
+  <li>Chromium: 134.0.6998.135</li>
+  <li>Update kernel</li>
+  <li>Update all included apps</li>
+  <li>Update translations</li>
+</ul>
+
+<h3 id="note">Note</h3>
+
+<div class="alert alert-info" style="margin-top: 3rem">
+<ul>
+  <li>
+    <strong>Over-the-air Updates:</strong>
+    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
+  </li>
+  <li>
+    <strong>Security Updates:</strong>
+    The <strong>Pixel 9 Pro Fold, 9 Pro XL, 9 Pro, 9, 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
+  </li>
+  <li>
+    <strong>Security Updates:</strong>
+    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
+  </li>
+  <li>
+    <strong>End-of-life:</strong>
+    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+  </li>
+</ul>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 5.17.1 - Android 14, March 2025 Security update (2025-05-01) End of CalyxOS support for Pixel 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, and SHIFT6MQ Pixel 4a (5G), 5 and 5a, and other newer Pixels are still supported.]]></summary></entry><entry><title type="html">Android 15, March 2025 Quarterly Platform Release &amp;amp; Security update</title><link href="/news/2025/03/27/march-qpr2-security-update/" rel="alternate" type="text/html" title="Android 15, March 2025 Quarterly Platform Release &amp;amp; Security update" /><published>2025-03-27T00:00:00+05:30</published><updated>2025-03-27T00:00:00+05:30</updated><id>/news/2025/03/27/march-qpr2-security-update</id><content type="html" xml:base="/news/2025/03/27/march-qpr2-security-update/"><![CDATA[<ul>
   <li>CalyxOS 6.5.20 - Android 15 is now available for the Pixel 6 - 9</li>
   <li>Full security update (2025-03-05)</li>
 </ul>
@@ -774,86 +875,4 @@
     The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.2.1 - Android 15 for Pixel 6 - 9 The full December 2024 Security update (2024-12-05)]]></summary></entry><entry><title type="html">Android 15, December 2024 Security update, Partial</title><link href="/news/2024/12/05/15-december-security-update-partial/" rel="alternate" type="text/html" title="Android 15, December 2024 Security update, Partial" /><published>2024-12-05T00:00:00+05:30</published><updated>2024-12-05T00:00:00+05:30</updated><id>/news/2024/12/05/15-december-security-update-partial</id><content type="html" xml:base="/news/2024/12/05/15-december-security-update-partial/"><![CDATA[<ul>
-  <li>CalyxOS 6.2.0 - Android 15 for Pixel 6 - 9</li>
-  <li>Contains security fixes for open source components, hence partial</li>
-  <li>Will release 6.2.1 will the full security update as well ASAP.</li>
-</ul>
-
-<h3 id="explanation">Explanation</h3>
-<ul>
-  <li>Google typically releases the monthly (security) updates for Pixels on the first Monday of each month.</li>
-  <li>However, from time to time they’re delayed, and it’s unknown when they’ll be released.</li>
-  <li>All we can do is just wait.</li>
-  <li>A LineageOS contributor fixed Wi-Fi calling on these devices, which we were waiting for.</li>
-  <li>So we decided to make a build with that, and include whatever we can in that.</li>
-  <li>Thus the generic open source parts, which were released on Monday, were included in this build.</li>
-  <li>After we had already prepared for the build, Google released the full December update for the Pixels</li>
-  <li>By the time the source code was released, our builds were ready as well.</li>
-  <li>While we integrate that, here’s an update with Wi-Fi calling fixed, some other minor changes, and the aforementioned security patches</li>
-  <li>We’ll release another update for these devices as soon as Google’s Pixel specific source code is integrated into CalyxOS.</li>
-</ul>
-
-<h3 id="rollout">Rollout</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>Release channel</th>
-      <th>Date</th>
-      <th>Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Security express</td>
-      <td>5 December, Thursday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Beta</td>
-      <td>5 December, Thursday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Stable</td>
-      <td>9 December, Monday</td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="changelog">Changelog</h3>
-<ul>
-  <li>CalyxOS 6.2.0</li>
-  <li>Android 15, December 2024 Security update (2024-12-01), Partial</li>
-  <li>This includes the generic open source components of the December Security update</li>
-  <li>The full update containing the device-specific and proprietary components will be released later</li>
-  <li>Fix Wi-Fi calling in airplane mode <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2813">#2813</a></li>
-  <li>Chromium: 131.0.6778.104</li>
-  <li>Fix Global VPN being turned off upon app uninstallation <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2761">#2761</a></li>
-  <li>Update all included apps</li>
-</ul>
-
-<h2 id="note">Note</h2>
-
-<div class="alert alert-info" style="margin-top: 3rem">
-<ul>
-  <li>
-    <strong>Over-the-air Updates:</strong>
-    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Pixel 9 Pro Fold, 9 Pro XL, 9 Pro, 9, 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
-    <strong>End-of-life:</strong>
-    The <strong>Pixel 5a (5G), 4a (5G), 5, 4a, 4 XL, 4</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
-  </li>
-</ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.2.0 - Android 15 for Pixel 6 - 9 Contains security fixes for open source components, hence partial Will release 6.2.1 will the full security update as well ASAP.]]></summary></entry></feed>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.2.1 - Android 15 for Pixel 6 - 9 The full December 2024 Security update (2024-12-05)]]></summary></entry></feed>

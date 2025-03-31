@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Android 14 for Pixels 5 and newer</title>
+  <title>Android 14, Final CalyxOS update for Pixel 3 - 4a and SHIFT6MQ</title>
   
-  <meta name="description" content="Android 14 for Pixels 5 and newer" />
+  <meta name="description" content="Android 14, Final CalyxOS update for Pixel 3 - 4a and SHIFT6MQ" />
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="alternate" type="application/rss+xml" title="CalyxOS" href="/feed.xml">
   <script src="/assets/js/main.js" defer></script>
@@ -65,215 +65,90 @@
     <main>
       <section class="secondaryIntro">
         <div class="wrapper">
-          <h1><span class="highlighter">Android 14 for Pixels 5 and newer</span></h1>
+          <h1><span class="highlighter">Android 14, Final CalyxOS update for Pixel 3 - 4a and SHIFT6MQ</span></h1>
           
         </div>
       </section>
       <section class="content primaryContent wrapper">
         
-        <p>CalyxOS 5.0.1 - Android 14 is now available for the Pixels 5 and newer.</p>
+        <ul>
+  <li>CalyxOS 5.17.1 - Android 14, March 2025 Security update (2025-05-01)</li>
+  <li>End of CalyxOS support for Pixel 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, and SHIFT6MQ</li>
+  <li>Pixel 4a (5G), 5 and 5a, and other newer Pixels are still supported.</li>
+</ul>
+
+<h3 id="rollout">Rollout:</h3>
 
 <table>
   <thead>
     <tr>
       <th>Release channel</th>
       <th>Date</th>
+      <th>Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Fourteen (testing)</td>
-      <td>19 October, Thursday</td>
-    </tr>
-    <tr>
       <td>Security express</td>
-      <td>20 October, Friday</td>
+      <td>31 March, Monday</td>
+      <td> </td>
     </tr>
     <tr>
       <td>Beta</td>
-      <td>20 October, Friday</td>
+      <td>31 March, Monday</td>
+      <td> </td>
     </tr>
     <tr>
       <td>Stable</td>
-      <td>Skipped due to known issues</td>
+      <td>2 April, Wednesday</td>
+      <td> </td>
     </tr>
   </tbody>
 </table>
 
-<p>For Pixel 6a, testing was a week earlier, and Security express / beta were a day earlier than the above.</p>
+<h3 id="important-update-end-of-calyxos-support-for-pixel-3-3-xl-3a-3a-xl-4-4-xl-4a-and-shift6mq"><strong>Important update: end of CalyxOS support for Pixel 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, and SHIFT6MQ</strong></h3>
 
-<p>We’re also working on supporting the Pixel 8, and porting Android 14 to the Pixel 4 / 4a after that.</p>
+<p>With this release (5.17.1), CalyxOS has stopped providing official software updates for the Pixel 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, and SHIFT6MQ. This means these devices will no longer receive security patches, new features, and bug fixes. As of the time of this update, March 2025, the Pixel 4a (5G), 5 and 5a, and other newer Pixels are still supported.</p>
+
+<p>We strive to extend our support as long as possible after a device reaches manufacturer’s end of support. However, our team can only provide fixes to the open source components, such as the OS code and the Linux kernel. As the manufacturer terminates updates for these devices, proprietary components such as the bootloader, modem firmware, and camera firmware will get no more updates.</p>
+
+<p>As devices age, the amount of work to keep devices up to date against latest vulnerabilities grows at an exponential rate while trying to provide timely support for new devices. At this moment, we cannot guarantee the same level of protection for the following phone models despite our best effort to extend the life of devices that our users have trusted for years.</p>
+
+<ul>
+  <li>Pixel 4a sunfish</li>
+  <li>Pixel 4 XL coral</li>
+  <li>Pixel 4 flame</li>
+  <li>Pixel 3a XL bonito</li>
+  <li>Pixel 3a sargo</li>
+  <li>Pixel 3 XL crosshatch</li>
+  <li>Pixel 3 blueline</li>
+  <li>SHIFT6MQ axolotl</li>
+</ul>
+
+<p>To ensure transparency, we are sending a reminder to these devices. If you have one of these devices, you will see an end-of-CalyxOS-support notification at each boot. You can disable this notification by going to Settings &gt; Apps. Click “Show system” on the top right corner of the page. Then from the list of apps, select CalyxOS Update Client &gt; Notifications and toggle “End of CalyxOS Support” off.</p>
+
+<p>It is important to mantain your digital security and privacy. To ensure you can continue receiving updates, please consider shifting to <a href="/docs/guide/device-support/">a device that is still supported by us</a> or the manufacturer.</p>
+
+<p>Thanks for trusting CalyxOS to keep your device secure.</p>
 
 <h3 id="changelog">Changelog</h3>
 <ul>
-  <li>CalyxOS 5.0.1</li>
-  <li>October 2023 Security update (2023-10-06)</li>
-  <li>Android 14</li>
-</ul>
-
-<h4 id="known-issues">Known issues</h4>
-<ul>
-  <li>Certain banking apps / website crash. Will be fixed in the next build</li>
-  <li>Google has changed how Work profile “Pausing” works. It’s more like “Pause apps” now, where only notifications aren’t shown, apps keep running. Will be changed to previous behavior.</li>
-  <li>F-Droid will ask for unknown sources to install/update certain apps. Will be fixed in the next build.</li>
-  <li>Lockscreen shortcuts are missing</li>
-  <li>Custom status bar icons are missing</li>
-  <li>Custom font selection is missing</li>
-  <li>There might be certain other minor issues, but for the most part it should be solid.</li>
-</ul>
-
-<h3 id="steps">Steps</h3>
-<h4 id="ota-updates-for-existing-calyxos-users">OTA updates for existing CalyxOS users</h4>
-<ol>
-  <li>Make sure your phone is running the latest CalyxOS version 4.14.1</li>
-  <li>Backup your data - you can use SeedVault, the included Backup app.</li>
-  <li>Settings -&gt; System -&gt; System update settings -&gt; Release channel -&gt; (Beta or Security express)</li>
-  <li>Then, tap “Check for updates”</li>
-</ol>
-
-<h4 id="fresh-installs-factory-images">Fresh installs, factory images</h4>
-<ol>
-  <li>Download the factory images from the links below.</li>
-  <li>Please follow the installation instructions at <a href="/install/">Install CalyxOS</a>, but use the latest factory image you just downloaded instead of the one linked on that page.</li>
-</ol>
-
-<table class="table table-striped download">
-  <tr><th>Device</th><th>Link</th><th><a href="/get/verify">Signature</a></th><th>SHA256</th></tr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <tr>
-    <td>Pixel 4a (sunfish)</td>
-    <td><a href="https://release.calyxinstitute.org/sunfish-factory-25517010.zip">Download</a></td>
-    <td><a href="https://release.calyxinstitute.org/sunfish-factory-25517010.zip.minisig">Signature</a></td>
-    <td class="hash">aee4c2122237a1c1af0c3a61f687af7d77ea6d440efba9ed95bfdc6686707a8d</td>
-  </tr>
-
-
-
-  <tr>
-    <td>Pixel 4 XL (coral)</td>
-    <td><a href="https://release.calyxinstitute.org/coral-factory-25517010.zip">Download</a></td>
-    <td><a href="https://release.calyxinstitute.org/coral-factory-25517010.zip.minisig">Signature</a></td>
-    <td class="hash">236ec124c877e84472ac9c22bab68a0896cb23a46afec31b5b089d34988aea7f</td>
-  </tr>
-
-
-
-  <tr>
-    <td>Pixel 4 (flame)</td>
-    <td><a href="https://release.calyxinstitute.org/flame-factory-25517010.zip">Download</a></td>
-    <td><a href="https://release.calyxinstitute.org/flame-factory-25517010.zip.minisig">Signature</a></td>
-    <td class="hash">57ea810f3b2157353933d4d9008067b1f833d8754cbe8056c1cca54fe6096a6d</td>
-  </tr>
-
-
-
-  <tr>
-    <td>Pixel 3a XL (bonito)</td>
-    <td><a href="https://release.calyxinstitute.org/bonito-factory-25517010.zip">Download</a></td>
-    <td><a href="https://release.calyxinstitute.org/bonito-factory-25517010.zip.minisig">Signature</a></td>
-    <td class="hash">cb4161d7b56218ec8b88d0d3be73fa46bed1344e834692cbe1971c1ad80a652b</td>
-  </tr>
-
-
-
-  <tr>
-    <td>Pixel 3a (sargo)</td>
-    <td><a href="https://release.calyxinstitute.org/sargo-factory-25517010.zip">Download</a></td>
-    <td><a href="https://release.calyxinstitute.org/sargo-factory-25517010.zip.minisig">Signature</a></td>
-    <td class="hash">38b6589d41143f1041d45f6064875ab213ab8f3b642c9cb3a48c4af4527b4992</td>
-  </tr>
-
-
-
-  <tr>
-    <td>Pixel 3 XL (crosshatch)</td>
-    <td><a href="https://release.calyxinstitute.org/crosshatch-factory-25517010.zip">Download</a></td>
-    <td><a href="https://release.calyxinstitute.org/crosshatch-factory-25517010.zip.minisig">Signature</a></td>
-    <td class="hash">45b261250bbdd8716692b2feb3ac83a9f25079b2037d3e8ea925d4a44c2bb289</td>
-  </tr>
-
-
-
-  <tr>
-    <td>Pixel 3 (blueline)</td>
-    <td><a href="https://release.calyxinstitute.org/blueline-factory-25517010.zip">Download</a></td>
-    <td><a href="https://release.calyxinstitute.org/blueline-factory-25517010.zip.minisig">Signature</a></td>
-    <td class="hash">52874058bb571f3e6ee3fc2299649fa4e13d309cecd376901c2ba73c47b5868c</td>
-  </tr>
-
-
-
-  <tr>
-    <td>SHIFT6mq (axolotl)</td>
-    <td><a href="https://release.calyxinstitute.org/axolotl-factory-25517010.zip">Download</a></td>
-    <td><a href="https://release.calyxinstitute.org/axolotl-factory-25517010.zip.minisig">Signature</a></td>
-    <td class="hash">ccea8a105419157077575fe0a0be3504e3ebba6bcb683660c786569b3c6be4de</td>
-  </tr>
-
-
-</table>
-
-<h3 id="pixel-6a-test-build-mixup">Pixel 6a test build mixup</h3>
-<ul>
-  <li>We released an Android 14 test build for the Pixel 6a last week, CalyxOS 5.0.0</li>
-  <li>We also released a final Android 13 upgrade just after that, CalyxOS 4.14.1</li>
-  <li>Unfortunately, that final Android 13 upgrade was also accidendally rolled out to Android 14 users, which wouldn’t work given it’s a downgrade. Our apologies for this.</li>
-</ul>
-
-<h4 id="the-fix">The fix</h4>
-<ul>
-  <li>If you’re running 4.14.1 already with your data intact, you can ignore this</li>
-  <li>If you’re on 5.0.1 already, you can ignore this</li>
-  <li>If you’re on 5.0.0 and haven’t rebooted yet, you can reboot and then:</li>
-  <li>If you’re shown a screen with two options “Try again” or “Factory data reset”</li>
-  <li>If you keep choosing “Try again” eventually it’ll boot back to 5.0.0, at which point it should download and install an update to 5.0.1</li>
+  <li>CalyxOS 5.17.1 - Final update</li>
+  <li>March 2025 Security update (2025-03-01)</li>
+  <li>Also includes security updates from previous months</li>
+  <li>Implement charging control - allow setting a limit for charging, under Settings -&gt; Battery</li>
+  <li>Seedvault: Update to 14-5.3</li>
+  <li>Seedvault: Added support for user CA certificates</li>
+  <li>Seedvault: Fixed issue where many Go server implementations of WebDAV did not work with the WebDAV client in Seedvault</li>
+  <li>Seedvault: Bumped the app data quota from 1GB to 3GB</li>
+  <li>Seedvault: Nextcloud app is no longer allowed for backup (Use built-in WebDAV Cloud support!)</li>
+  <li>Seedvault: Improved handling of metered networks, if disallowed, the backup process will be aborted</li>
+  <li>Seedvault: Fixed backup errors with USB when file and app backup are both on</li>
+  <li>Seedvault: Fixed overdue backups not automatically starting when USB drives are plugged in</li>
+  <li>Chromium: 134.0.6998.135</li>
+  <li>Update kernel</li>
+  <li>Update all included apps</li>
+  <li>Update translations</li>
 </ul>
 
 <h3 id="note">Note</h3>
@@ -343,7 +218,7 @@
     <div class="row">
       <a href="https://calyxinstitute.org" target="_blank" rel="noreferrer nooopener">&copy; 2021-2024 Calyx Institute</a>
       <span class="spacer" aria-hidden="true">&bull;</span>
-      <a target="_blank" href="https://review.calyxos.org/admin/repos/edit/repo/CalyxOS/calyxos.org/branch/refs/heads/main/file/pages/_posts/2023-10-20-android-14-pixel-5-6-7.md">Edit page</a>
+      <a target="_blank" href="https://review.calyxos.org/admin/repos/edit/repo/CalyxOS/calyxos.org/branch/refs/heads/main/file/pages/_posts/2025-03-31-pixel-3-4a-shift6mq-eol.md">Edit page</a>
     </div>
     <div class="row">
       <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer nofollow" title="License: Attribution-ShareAlike 4.0 International"><img class="filter-grey" style="height: 24px" src="/assets/images/icons/cc-by-sa.svg" /></a>
