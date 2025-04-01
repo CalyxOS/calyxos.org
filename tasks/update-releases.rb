@@ -66,7 +66,7 @@ module Releases
     end
 
     def get_version_from(build_number)
-      # https://gitlab.com/CalyxOS/vendor_calyx/-/blob/android15-qpr1/config/version.mk
+      # https://gitlab.com/CalyxOS/vendor_calyx/-/blob/android15-qpr2/config/version.mk
       major = ( build_number % 1000000 ) / 100000
       minor = ( build_number % 100000 ) / 1000
       patch = ( build_number % 1000 ) / 10
@@ -79,7 +79,7 @@ module Releases
     end
 
     def get_android_from(build_number)
-      # https://gitlab.com/CalyxOS/vendor_calyx/-/blob/android15-qpr1/config/version.mk
+      # https://gitlab.com/CalyxOS/vendor_calyx/-/blob/android15-qpr2/config/version.mk
       major = ( build_number % 1000000 ) / 100000
       case major
       when 6
