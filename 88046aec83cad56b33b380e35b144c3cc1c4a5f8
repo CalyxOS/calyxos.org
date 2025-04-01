@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c0e79ab_87bf6e2b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-04-01T16:35:42Z",
+      "side": 1,
+      "message": "This depends on microg rebase being finished",
+      "revId": "88046aec83cad56b33b380e35b144c3cc1c4a5f8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
