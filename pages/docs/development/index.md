@@ -37,7 +37,7 @@ To submit a patch, you can follow the instructions at [[gerrit]]
 
 Steps:
 1. Initialize and sync the source code.
-   * `repo init --git-lfs -u https://gitlab.com/CalyxOS/platform_manifest -b android15-qpr1`
+   * `repo init --git-lfs -u https://gitlab.com/CalyxOS/platform_manifest -b android15-qpr2`
    * `repo sync`
 2. Obtain proprietary files for your device
    * `./calyx/scripts/pixel/device.sh akita` (`akita` for Pixel 8a)
