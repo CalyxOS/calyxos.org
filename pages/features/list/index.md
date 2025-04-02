@@ -89,11 +89,6 @@ These apps are required for basic functionality and thus always present on the d
 | Pixel 5a (5G) | any eSIM + physical SIM, dual SIM |
 | Pixel 4a (5G) | any eSIM + physical SIM, dual SIM |
 | Pixel 5 | any eSIM + physical SIM, dual SIM |
-| Pixel 4a | any eSIM + physical SIM, dual SIM |
-| Pixel 4, 4 XL | any eSIM + physical SIM, dual SIM |
-| Pixel 3a, 3a XL | physical SIM, single SIM |
-| Pixel 3, 3 XL | physical SIM, single SIM |
-| SHIFT6mq | physical SIM, dual SIM |
 
 ### Settings
 * Network & Internet
