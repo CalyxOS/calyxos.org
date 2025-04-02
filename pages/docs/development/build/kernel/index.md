@@ -10,7 +10,7 @@ CalyxOS uses Google's Android Linux kernel with some additional modifications fo
 
 ## Kernel build
 * This is the process used for official builds, since
-  * The kernel is shared between Pixels of the same family. Which means 1 kernel build usually ends up covering 2 devices (e.g. Pixel 6 and 6 Pro share the kernel)
+  * The kernel is shared between Pixels of the same family. Which means 1 kernel build usually ends up covering multiple devices (e.g. Pixel 5, 4a (5G), 5a share the same kernel)
   * The kernel usually does not change that often, so it's beneficial to build it separately to avoid having to build the exact same source code every time.
   * Google uses the same model, in fact we're using their scripts and setup.
 
@@ -27,13 +27,13 @@ repo sync -j8 # You may use a higher number here if you have a fast computer and
 
 
 ```shell
-./build_kernel.sh sunfish # Replace sunfish (Pixel 4a) with your device codename
+./build_kernel.sh redbull # Replace redbull (Pixel 5, 4a (5G), 5a) with your device family
 ```
 
-This will build the kernel, and it also copies it to the corect directory directly (`device/google/sunfish-kernel` for Pixel 4a).
+This will build the kernel, and it also copies it to the corect directory directly (`device/google/redbull-kernel` for Pixel 5, 4a (5G), 5a).
 
 Copy that to the OS source code for it to get included in the builds
 
 ```shell
-cp -a ~/calyxos/kernel.android13/device/google/sunfish-kernel ~/calyxos/android13/device/google/
+cp -a ~/calyxos/kernel.android13/device/google/redbull-kernel ~/calyxos/android15-qpr2/device/google/
 ```
