@@ -30,7 +30,7 @@ repo sync -j8 # You may use a higher number here if you have a fast computer and
 ./build_kernel.sh redbull # Replace redbull (Pixel 5, 4a (5G), 5a) with your device family
 ```
 
-This will build the kernel, and it also copies it to the corect directory directly (`device/google/redbull-kernel` for Pixel 4a).
+This will build the kernel, and it also copies it to the corect directory directly (`device/google/redbull-kernel` for Pixel 5, 4a (5G), 5a).
 
 Copy that to the OS source code for it to get included in the builds
 
