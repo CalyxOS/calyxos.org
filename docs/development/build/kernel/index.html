@@ -98,7 +98,7 @@
 <ul>
   <li>This is the process used for official builds, since
     <ul>
-      <li>The kernel is shared between Pixels of the same family. Which means 1 kernel build usually ends up covering 2 devices (e.g. Pixel 6 and 6 Pro share the kernel)</li>
+      <li>The kernel is shared between Pixels of the same family. Which means 1 kernel build usually ends up covering multiple devices (e.g. Pixel 5, 4a (5G), 5a share the same kernel)</li>
       <li>The kernel usually does not change that often, so it’s beneficial to build it separately to avoid having to build the exact same source code every time.</li>
       <li>Google uses the same model, in fact we’re using their scripts and setup.</li>
     </ul>
@@ -115,14 +115,14 @@ repo <span class="nb">sync</span> <span class="nt">-j8</span> <span class="c"># 
 
 <h3 id="building">Building</h3>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./build_kernel.sh sunfish <span class="c"># Replace sunfish (Pixel 4a) with your device codename</span>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./build_kernel.sh redbull <span class="c"># Replace redbull (Pixel 5, 4a (5G), 5a) with your device family</span>
 </code></pre></div></div>
 
-<p>This will build the kernel, and it also copies it to the corect directory directly (<code class="language-plaintext highlighter-rouge">device/google/sunfish-kernel</code> for Pixel 4a).</p>
+<p>This will build the kernel, and it also copies it to the corect directory directly (<code class="language-plaintext highlighter-rouge">device/google/redbull-kernel</code> for Pixel 5, 4a (5G), 5a).</p>
 
 <p>Copy that to the OS source code for it to get included in the builds</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cp</span> <span class="nt">-a</span> ~/calyxos/kernel.android13/device/google/sunfish-kernel ~/calyxos/android13/device/google/
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cp</span> <span class="nt">-a</span> ~/calyxos/kernel.android13/device/google/redbull-kernel ~/calyxos/android15-qpr2/device/google/
 </code></pre></div></div>
 
 
