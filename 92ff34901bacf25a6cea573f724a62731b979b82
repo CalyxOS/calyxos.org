@@ -212,6 +212,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5665243c_6c107c6c",
+        "filename": "pages/install/verizon.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2025-04-09T14:44:52Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "42692ec8_e2659ee3",
+      "range": {
+        "startLine": 17,
+        "startChar": 98,
+        "endLine": 17,
+        "endChar": 102
+      },
+      "revId": "92ff34901bacf25a6cea573f724a62731b979b82",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f67f5643_b92956a5",
@@ -225,6 +249,24 @@
       "writtenOn": "2025-04-09T14:19:08Z",
       "side": 1,
       "message": "Note: This may still be a carrier-locked device potentially - we should clarify that. It\u0027s two things named unlock which are somewhat related yet different, and thus potentially confusing.\n\n(I\u0027m not sure about carrier locking though, since from what I know, in some cases you can\u0027t unlock carrier locked devices either, but as long as it\u0027s not Verizon, you can unlock them once that carrier lock is removed)",
+      "revId": "92ff34901bacf25a6cea573f724a62731b979b82",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b19c3fb5_adf2dfb4",
+        "filename": "pages/install/verizon.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2025-04-09T14:44:52Z",
+      "side": 1,
+      "message": "I updated the text.",
+      "parentUuid": "f67f5643_b92956a5",
       "revId": "92ff34901bacf25a6cea573f724a62731b979b82",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
