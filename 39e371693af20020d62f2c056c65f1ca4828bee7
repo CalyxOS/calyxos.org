@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dfdfbac7_e6dc2a4b",
+        "filename": "pages/docs/guide/device-support/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-04-09T14:53:34Z",
+      "side": 1,
+      "message": "```suggestion\n   You cannot install any custom OS if you are not able to unlock the device\u0027s bootloader in the first place. Some phone makers or mobile carriers do not allow all or some of their devices to unlock the bootloader. On these devices, you cannot enable \u0027[OEM unlocking](https://source.android.com/docs/core/architecture/bootloader/locking_unlocking#unlocking-bootloader)\u0027 to install custom OSes. Unlocking bootloader is different from carrier unlocking. The latter means you can unlock a carrier-locked phone to use SIM cards provided by other carriers on the device. \n```\n\nChanged \"part of their devices\" to \"some of their devices\" as otherwise it felt like it meant a part of a device otherwise.",
+      "range": {
+        "startLine": 78,
+        "startChar": 167,
+        "endLine": 78,
+        "endChar": 171
+      },
+      "revId": "39e371693af20020d62f2c056c65f1ca4828bee7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
