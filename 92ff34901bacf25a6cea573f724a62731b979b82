@@ -1,0 +1,136 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fcb876d4_d2aa7332",
+        "filename": "pages/install/verizon.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-04-09T14:19:08Z",
+      "side": 1,
+      "message": "What does factory unlocked mean here?",
+      "range": {
+        "startLine": 6,
+        "startChar": 88,
+        "endLine": 6,
+        "endChar": 104
+      },
+      "revId": "92ff34901bacf25a6cea573f724a62731b979b82",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fb130ae4_6c2bb57b",
+        "filename": "pages/install/verizon.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-04-09T14:19:08Z",
+      "side": 1,
+      "message": "Do we know if that\u0027s the case in Canada?",
+      "range": {
+        "startLine": 6,
+        "startChar": 25,
+        "endLine": 6,
+        "endChar": 31
+      },
+      "revId": "92ff34901bacf25a6cea573f724a62731b979b82",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d2c6673_5431369f",
+        "filename": "pages/install/verizon.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-04-09T14:19:08Z",
+      "side": 1,
+      "message": "I found this a bit confusing but I don\u0027t have better suggestions atm.",
+      "range": {
+        "startLine": 6,
+        "startChar": 142,
+        "endLine": 6,
+        "endChar": 173
+      },
+      "revId": "92ff34901bacf25a6cea573f724a62731b979b82",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6197036e_773bce39",
+        "filename": "pages/install/verizon.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-04-09T14:19:08Z",
+      "side": 1,
+      "message": "```suggestion\nTo check if your device allows you to unlock the bootloader, you can try enabling OEM unlocking:\n```",
+      "range": {
+        "startLine": 10,
+        "startChar": 38,
+        "endLine": 10,
+        "endChar": 55
+      },
+      "revId": "92ff34901bacf25a6cea573f724a62731b979b82",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "42692ec8_e2659ee3",
+        "filename": "pages/install/verizon.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-04-09T14:19:08Z",
+      "side": 1,
+      "message": "```suggestion\nThe last step may fail if there is no internet connection. In that case, you need to connect to a Wi-Fi network, remove the SIM card, and then try again. Once OEM unlocking is turned on, always remember to turn it back off if you don\u0027t need it.\n```\n\nTwo more things\n1. This page is from the installation guide for CalyxOS, where you will need OEM Unlocking - so that last sentence is good advice in general, but counter-intuitive for CalyOS install\n2. SIM Card removal may or may not be needed or help, not sure if that\u0027s still valid, but that\u0027s a separate thing.",
+      "range": {
+        "startLine": 17,
+        "startChar": 98,
+        "endLine": 17,
+        "endChar": 102
+      },
+      "revId": "92ff34901bacf25a6cea573f724a62731b979b82",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f67f5643_b92956a5",
+        "filename": "pages/install/verizon.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-04-09T14:19:08Z",
+      "side": 1,
+      "message": "Note: This may still be a carrier-locked device potentially - we should clarify that. It\u0027s two things named unlock which are somewhat related yet different, and thus potentially confusing.\n\n(I\u0027m not sure about carrier locking though, since from what I know, in some cases you can\u0027t unlock carrier locked devices either, but as long as it\u0027s not Verizon, you can unlock them once that carrier lock is removed)",
+      "revId": "92ff34901bacf25a6cea573f724a62731b979b82",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
