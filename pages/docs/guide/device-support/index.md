@@ -75,7 +75,7 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
    CalyxOS targets the latest Android version, currently 15.0. It takes a lot of work to port a newer Android version to a device, and so devices running the latest Android version are preferred.
 2. Ability to unlock the bootloader:
    <br>
-   You can't install any custom OS if you can't unlock the bootloader in the first place. Some devices don't support it all, whereas on others some variants may not support unlocking the bootloader. Note that this is very different from carrier locking, which simply means that you can only use a particular SIM card with your device.
+   You cannot install any custom OS if you are not able to unlock the device's bootloader in the first place. Some phone makers or mobile carriers do not allow all or part of their devices to unlock the bootloader. On these devices, you cannot enable '[OEM unlocking](https://source.android.com/docs/core/architecture/bootloader/locking_unlocking#unlocking-bootloader)' to install custom OSes. Unlocking bootloader is different from carrier unlocking. The latter means you can unlock a carrier-locked phone to use SIM cards provided by other carriers on the device. 
 3. Ability to relock the bootloader with a custom OS installed:
    <br>
    CalyxOS is meant to be run with a locked bootloader after installation, which makes sure that the OS cannot be tampered without your knowledge.
