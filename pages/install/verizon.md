@@ -3,15 +3,17 @@ title: Verizon Pixels
 description: How to tell if you have a Pixel locked by Verizon
 ---
 
-In the USA there are two variants of the Google Pixel phones: The normal unlocked version, and the Verizon one.
+In the United States, Google Pixel phones come in carrier-locked versions or factory-unlocked versions. Whichever version you get, Google and most of the carriers allow you to enable OEM unlocking so that you can [unlock the device's bootloader](https://source.android.com/docs/core/architecture/bootloader/locking_unlocking) to install a custom Android operating systems. However, this is not the case with Verizon.
 
-The Verizon one is unfortunately locked in such a way (boot loader locked) that you cannot install another operating system on it. The only way to tell which device you have is to attempt to unlock the bootloader of the phone:
+The Verizon Pixels prohibit their users from unlocking bootloader, thus, you cannot install any custom Android OS on it. 
+
+To check if your device allows you to unlock the bootloader, you can try enabling OEM unlocking:
 
 * **Step 1. Enable Developer Options**<br>
 **Settings** &rarr; **About Phone** &rarr; tap **Build number** 7 times
 * **Step 2. Enable OEM Unlocking**<br>
 **Settings** &rarr; **System** &rarr; **Advanced** &rarr; **Developer Options** &rarr; **OEM unlocking**
 
-The last step might fail if there is no internet connection. In that case, connect to a WiFi network and remove SIM card, then try again.
+The last step may fail if there is no internet connection. In that case, you need to connect to a Wi-Fi network, remove the SIM card, and then try again. Once OEM unlocking is turned on, always remember to turn it back off if you don't need it.
 
-If you can enable "OEM unlocking" then it's an unlocked version and you can install CalyxOS. If "OEM unlocking" is greyed out and not toggle-able then you have the Verizon version.
+**Please note:** If you can enable “OEM unlocking” on your device, it means this phone allows bootloader unlocking and you can install CalyxOS. If “OEM unlocking” is greyed out, you may have the Verizon version. Please keep in mind that unlocking bootloader is different from unlocking a carrier-locked phone.
