@@ -70,6 +70,78 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4cd0ec13_dd524a79",
+        "filename": "pages/install/verizon.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2025-04-09T14:34:38Z",
+      "side": 1,
+      "message": "This is in response to the previous sentence, the previous sentence basically means you can get a phone either factory unlocked or carrier locked (that you can unlock later). In either situation, the factory (Google) or carrier (e.g. AT\u0026T) allow you to enable OEM unlocking, except for Verizon. \n\nThis was further explained in my edits to https://review.calyxos.org/c/CalyxOS/calyxos.org/+/38121",
+      "parentUuid": "6d2c6673_5431369f",
+      "range": {
+        "startLine": 6,
+        "startChar": 142,
+        "endLine": 6,
+        "endChar": 173
+      },
+      "revId": "92ff34901bacf25a6cea573f724a62731b979b82",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd4fceb4_280a05e0",
+        "filename": "pages/install/verizon.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2025-04-09T14:34:38Z",
+      "side": 1,
+      "message": "Just checked and deleted Canada.",
+      "parentUuid": "fb130ae4_6c2bb57b",
+      "range": {
+        "startLine": 6,
+        "startChar": 25,
+        "endLine": 6,
+        "endChar": 31
+      },
+      "revId": "92ff34901bacf25a6cea573f724a62731b979b82",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c36523dc_e1ed80d3",
+        "filename": "pages/install/verizon.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2025-04-09T14:34:38Z",
+      "side": 1,
+      "message": "It\u0027s a common term used to describe unlocked phones sold by Google in this context (or unlocked phones sold by Samsung in other context). Since most people have two main channels to get phones: from a retailer (be it Google, Amazon, Bestbuy, etc.) or carrier (be it AT\u0026T, Verizon, T-mobile, etc.), these two types of phones are what they can get: factory unlocked phones and carrier locked phones (which can be unlocked once it\u0027s paid off). https://xdaforums.com/t/factory-unlocked-vs-carrier-unlocked.4527997/",
+      "parentUuid": "fcb876d4_d2aa7332",
+      "range": {
+        "startLine": 6,
+        "startChar": 88,
+        "endLine": 6,
+        "endChar": 104
+      },
+      "revId": "92ff34901bacf25a6cea573f724a62731b979b82",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6197036e_773bce39",
@@ -83,6 +155,30 @@
       "writtenOn": "2025-04-09T14:19:08Z",
       "side": 1,
       "message": "```suggestion\nTo check if your device allows you to unlock the bootloader, you can try enabling OEM unlocking:\n```",
+      "range": {
+        "startLine": 10,
+        "startChar": 38,
+        "endLine": 10,
+        "endChar": 55
+      },
+      "revId": "92ff34901bacf25a6cea573f724a62731b979b82",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "12d1422d_4279fcb4",
+        "filename": "pages/install/verizon.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2025-04-09T14:34:38Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "6197036e_773bce39",
       "range": {
         "startLine": 10,
         "startChar": 38,
