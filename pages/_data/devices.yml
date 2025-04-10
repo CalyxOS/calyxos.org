@@ -5,6 +5,7 @@ android_versions:
   - 13
   - 11
 upcoming_codenames:
+  - fogo
   - bangkk
   - fogos
   - otter
@@ -78,6 +79,15 @@ FP4:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "yes"
+  android: 15
+  web_install: false
+fogo:
+  brand: motorola
+  model: Moto g 5G - 2024
+  manufacturer_support_ends: 2027-03
+  calyxos_support_ends: tbd
+  sim: "dual"
+  esim: "no"
   android: 15
   web_install: false
 bangkk:
