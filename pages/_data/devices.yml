@@ -5,16 +5,15 @@ android_versions:
   - 13
   - 11
 upcoming_codenames:
-  - fogo
-  - bangkk
-  - fogos
   - otter
 upcoming_brands:
-  - motorola
   - shift
 modern_codenames:
   - FP5
   - FP4
+  - fogo
+  - bangkk
+  - fogos
   - rhode
   - hawao
   - devon
