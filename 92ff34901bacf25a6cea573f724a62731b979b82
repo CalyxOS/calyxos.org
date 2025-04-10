@@ -142,6 +142,54 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "37c07b20_1b095bfa",
+        "filename": "pages/install/verizon.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-04-10T19:01:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dd4fceb4_280a05e0",
+      "range": {
+        "startLine": 6,
+        "startChar": 25,
+        "endLine": 6,
+        "endChar": 31
+      },
+      "revId": "92ff34901bacf25a6cea573f724a62731b979b82",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5d138604_1068e0bf",
+        "filename": "pages/install/verizon.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-04-10T19:01:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c36523dc_e1ed80d3",
+      "range": {
+        "startLine": 6,
+        "startChar": 88,
+        "endLine": 6,
+        "endChar": 104
+      },
+      "revId": "92ff34901bacf25a6cea573f724a62731b979b82",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6197036e_773bce39",
@@ -267,6 +315,24 @@
       "side": 1,
       "message": "I updated the text.",
       "parentUuid": "f67f5643_b92956a5",
+      "revId": "92ff34901bacf25a6cea573f724a62731b979b82",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ac0acfb_16868db0",
+        "filename": "pages/install/verizon.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-04-10T19:01:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b19c3fb5_adf2dfb4",
       "revId": "92ff34901bacf25a6cea573f724a62731b979b82",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
