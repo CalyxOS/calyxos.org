@@ -83,7 +83,7 @@ FP4:
   web_install: false
 fogo:
   brand: motorola
-  model: Moto g 5G - 2024
+  model: moto g 5G - 2024
   manufacturer_support_ends: 2027-03
   calyxos_support_ends: tbd
   sim: "dual"
@@ -92,7 +92,7 @@ fogo:
   web_install: false
 bangkk:
   brand: motorola
-  model: Moto G84
+  model: moto g84 5G
   manufacturer_support_ends: 2026-09
   calyxos_support_ends: tbd
   sim: "dual"
@@ -101,7 +101,7 @@ bangkk:
   web_install: false
 fogos:
   brand: motorola
-  model: Moto G34
+  model: moto g34 5G
   manufacturer_support_ends: 2027-01
   calyxos_support_ends: tbd
   sim: "dual"
@@ -110,7 +110,7 @@ fogos:
   web_install: false
 rhode:
   brand: motorola
-  model: Moto G52
+  model: moto g52
   manufacturer_support_ends: 2025-04
   calyxos_support_ends: tbd
   sim: "dual"
@@ -119,7 +119,7 @@ rhode:
   web_install: false
 hawao:
   brand: motorola
-  model: Moto G42
+  model: moto g42
   manufacturer_support_ends: 2025-06
   calyxos_support_ends: tbd
   sim: "dual"
@@ -128,7 +128,7 @@ hawao:
   web_install: false
 devon:
   brand: motorola
-  model: Moto G32
+  model: moto g32
   manufacturer_support_ends: 2025-08
   calyxos_support_ends: tbd
   sim: "dual"
