@@ -64,6 +64,9 @@ These apps are required for basic functionality and thus always present on the d
 | ------ | ------ |
 | FP5 | any eSIM + physical SIM, dual SIM |
 | FP4 | any eSIM + physical SIM, dual SIM |
+| moto g 5G - 2024 | any eSIM + physical SIM, dual SIM |
+| moto g84 5G | any eSIM + physical SIM, dual SIM |
+| moto g34 5G | any eSIM + physical SIM, dual SIM |
 | moto g52 | physical SIM, dual SIM |
 | moto g42 | physical SIM, dual SIM |
 | moto g32 | physical SIM, dual SIM |
