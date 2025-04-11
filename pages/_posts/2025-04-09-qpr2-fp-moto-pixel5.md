@@ -1,6 +1,6 @@
 ---
 title: Android 15, March 2025 Quarterly Platform Release for Fairphone, Motorola, Pixel 5 series
-date: 2025-04-29
+date: 2025-04-09
 ---
 
 * CalyxOS 6.5.21 - Android 15 is now available for the FP5, FP4, Moto G52, G42, G32, Pixel 5a, 4a (5G), 5
