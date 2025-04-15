@@ -1333,48 +1333,6 @@ factory:
   incremental_sha256:
   incremental_old_build:
   date: '2025-04-08'
-- name: moto g 5G - 2024
-  brand: motorola
-  codename: fogo
-  version: 6.5.22
-  android: '15'
-  web_install: false
-  factory_link: https://release.calyxinstitute.org/fogo-factory-25605220.zip
-  factory_sha256:
-  ota_link: https://release.calyxinstitute.org/fogo-ota_update-25605220.zip
-  ota_sha256:
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
-  date: '2025-04-10'
-- name: moto g84 5G
-  brand: motorola
-  codename: bangkk
-  version: 6.5.22
-  android: '15'
-  web_install: false
-  factory_link: https://release.calyxinstitute.org/bangkk-factory-25605220.zip
-  factory_sha256:
-  ota_link: https://release.calyxinstitute.org/bangkk-ota_update-25605220.zip
-  ota_sha256:
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
-  date: '2025-04-11'
-- name: moto g34 5G
-  brand: motorola
-  codename: fogos
-  version: 6.5.22
-  android: '15'
-  web_install: false
-  factory_link: https://release.calyxinstitute.org/fogos-factory-25605220.zip
-  factory_sha256:
-  ota_link: https://release.calyxinstitute.org/fogos-ota_update-25605220.zip
-  ota_sha256:
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
-  date: '2025-04-11'
 - name: moto g52
   brand: motorola
   codename: rhode
@@ -1623,20 +1581,6 @@ factory:
   factory_sha256: 605e27388d705a0f9f6118e0e47627d1fa2fb2c23dcd48a972e8179458aa6497
   ota_link: https://release.calyxinstitute.org/oriole-ota_update-25606200.zip
   ota_sha256: 2187b73a62c2080a6c8b81cc793678f8e154084dff48f9a7ccd43206edc7a363
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
-  date: '2025-04-11'
-- name: SHIFTphone 8
-  brand: shift
-  codename: otter
-  version: 6.5.22
-  android: '15'
-  web_install: false
-  factory_link: https://release.calyxinstitute.org/otter-factory-25605220.zip
-  factory_sha256: a7f97b49572d658a77f76f986cc9eb8dace24ef455d93343a550e2a6b7e93a37
-  ota_link: https://release.calyxinstitute.org/otter-ota_update-25605220.zip
-  ota_sha256:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
