@@ -11,7 +11,7 @@ date: 2025-04-09
 | ---------------- | ------ | ------ |
 | Security express | 9 April, Wednesday |  |
 | Beta | 9 April, Wednesday |  |
-| Stable | 14 April, Monday | |
+| Stable | 15 April, Tuesday | |
 
 ### Changelog
 * CalyxOS 6.5.21
