@@ -1,8 +1,8 @@
 ---
-title: Install on Moto G52
+title: Install on moto g52
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/rhode/">Moto G52</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/rhode/">moto g52</a></strong>
 
 
 <div class="gallery" markdown=0>

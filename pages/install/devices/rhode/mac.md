@@ -1,10 +1,10 @@
 ---
-title: Install on Moto G52
+title: Install on moto g52
 description: From a MacOS computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/rhode/">Moto G52</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/rhode/">moto g52</a></strong>
 
 
 
@@ -54,7 +54,7 @@ This step might fail if there is no internet connection. In that case, connect t
 <a class="btn" href="https://release.calyxinstitute.org/rhode-factory-25605210.zip">Download CalyxOS Image</a>
 
 
-Save this image in the same directory as device-flasher. This image will **only** work for **Moto G52 (rhode)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
+Save this image in the same directory as device-flasher. This image will **only** work for **moto g52 (rhode)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
 Do not extract or rename the zip, simply copy it as-is.
 

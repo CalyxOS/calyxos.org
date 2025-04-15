@@ -1,8 +1,8 @@
 ---
-title: Install on Moto G32
+title: Install on moto g32
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/devon/">Moto G32</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/devon/">moto g32</a></strong>
 
 
 <div class="gallery" markdown=0>

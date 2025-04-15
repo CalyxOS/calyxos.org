@@ -1,10 +1,10 @@
 ---
-title: Install on Moto G42
+title: Install on moto g42
 description: From a Linux computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/hawao/">Moto G42</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/hawao/">moto g42</a></strong>
 
 
 
@@ -54,7 +54,7 @@ This step might fail if there is no internet connection. In that case, connect t
 <a class="btn" href="https://release.calyxinstitute.org/hawao-factory-25605210.zip">Download CalyxOS Image</a>
 
 
-Save this image in the same directory as device-flasher. This image will **only** work for **Moto G42 (hawao)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
+Save this image in the same directory as device-flasher. This image will **only** work for **moto g42 (hawao)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
 Do not extract or rename the zip, simply copy it as-is.
 
