@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "54b7bb27_20c0ba15",
+        "filename": "pages/_data/device-flasher.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-04-16T21:19:54Z",
+      "side": 1,
+      "message": "```\ndocker run -it --entrypoint /bin/bash golang:1.24.2\ngit clone https://gitlab.com/CalyxOS/device-flasher -b 1.1.0\ncd device-flasher\nmake\nsha256sum device-flasher.*\n```\n\nThe above hashes are not reproducible, but running the above for next build should be.",
+      "revId": "ec3b02f7f81739e5679b3fe8f282fd2239ce0193",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
