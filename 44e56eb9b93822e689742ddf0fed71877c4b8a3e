@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb0ab432_02fa07a9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-04-18T14:09:32Z",
+      "side": 1,
+      "message": "`fogo` doesn\u0027t work but the rest should still be fine.",
+      "revId": "44e56eb9b93822e689742ddf0fed71877c4b8a3e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
