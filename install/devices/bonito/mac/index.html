@@ -78,7 +78,6 @@
 <ul>
 <li class="toc-entry toc-h4"><a href="#remove-sim-card">Remove SIM card</a></li>
 <li class="toc-entry toc-h4"><a href="#enable-developer-options">Enable Developer Options</a></li>
-<li class="toc-entry toc-h4"><a href="#enable-usb-debugging">Enable USB debugging</a></li>
 <li class="toc-entry toc-h4"><a href="#enable-oem-unlocking">Enable OEM Unlocking</a></li>
 <li class="toc-entry toc-h4"><a href="#start-from-stock">Start from Stock</a></li>
 </ul>
@@ -142,10 +141,6 @@
 
 <p><strong>Settings</strong> → <strong>About Phone</strong> → tap <strong>Build number</strong> 7 times</p>
 
-<h4 id="enable-usb-debugging">Enable USB debugging</h4>
-
-<p><strong>Settings</strong> → <strong>System</strong> → <strong>Developer Options</strong> → <strong>USB Debugging</strong></p>
-
 <h4 id="enable-oem-unlocking">Enable OEM Unlocking</h4>
 
 <p><strong>Settings</strong> → <strong>System</strong> → <strong>Developer Options</strong> → <strong>OEM unlocking</strong></p>
@@ -177,7 +172,7 @@ Installation from the M1 Macs is currently not supported due to an incompatibili
 
 <h3 id="download-device-flasher">Download device-flasher</h3>
 
-<p><a class="btn" href="https://release.calyxinstitute.org/device-flasher/1.0.10/device-flasher.darwin">Download device-flasher.darwin</a></p>
+<p><a class="btn" href="https://release.calyxinstitute.org/device-flasher/1.1.1/device-flasher.darwin">Download device-flasher.darwin</a></p>
 
 <p>Save this executable to a new directory, where you will also later save the CalyxOS image.</p>
 
@@ -188,11 +183,11 @@ Installation from the M1 Macs is currently not supported due to an incompatibili
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>shasum -a 256 device-flasher.darwin
 </code></pre></div></div>
 
-<p>And ensure the result says <code class="language-plaintext highlighter-rouge">4b367c1f8163cc5dab77eca882699cafeaca7e7bf711caa8a5af467e5ca31c22</code>. This is the unique digest of the device-flasher. If it doesn’t match, then you have a corrupted or incorrect file.</p>
+<p>And ensure the result says <code class="language-plaintext highlighter-rouge">10c7e8c6431a635e3ce9daccf2ab959c44000ab0513e11315f92124069a8212f</code>. This is the unique digest of the device-flasher. If it doesn’t match, then you have a corrupted or incorrect file.</p>
 
 <h4 id="verify-signature">Verify Signature</h4>
 
-<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/device-flasher/1.0.10/device-flasher.darwin.minisig">download the signature file</a> and then <a href="/install/verify/">verify it</a>.</p>
+<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/device-flasher/1.1.1/device-flasher.darwin.minisig">download the signature file</a> and then <a href="/install/verify/">verify it</a>.</p>
 
 <h3 id="download-factory-image">Download factory image</h3>
 
@@ -223,9 +218,7 @@ Installation from the M1 Macs is currently not supported due to an incompatibili
 
 <p>Now you are ready to install. Ensure that both the CalyxOS image and device-flasher are in the same directory.</p>
 
-<p>Step 1. Connect the USB cable between the computer and the Android device.</p>
-
-<p>Step 2. Run device-flasher</p>
+<p>Run device-flasher per the below instructions and then follow the steps shown on the computer screen.</p>
 
 <p>Open a terminal, change to the directory with the firmware image, and run:</p>
 

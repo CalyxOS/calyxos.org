@@ -78,7 +78,6 @@
 <ul>
 <li class="toc-entry toc-h4"><a href="#remove-sim-card">Remove SIM card</a></li>
 <li class="toc-entry toc-h4"><a href="#enable-developer-options">Enable Developer Options</a></li>
-<li class="toc-entry toc-h4"><a href="#enable-usb-debugging">Enable USB debugging</a></li>
 <li class="toc-entry toc-h4"><a href="#enable-oem-unlocking">Enable OEM Unlocking</a></li>
 <li class="toc-entry toc-h4"><a href="#start-from-stock">Start from Stock</a></li>
 </ul>
@@ -141,10 +140,6 @@
 <h4 id="enable-developer-options">Enable Developer Options</h4>
 
 <p><strong>Settings</strong> → <strong>About Phone</strong> → tap <strong>Build number</strong> 7 times</p>
-
-<h4 id="enable-usb-debugging">Enable USB debugging</h4>
-
-<p><strong>Settings</strong> → <strong>System</strong> → <strong>Developer Options</strong> → <strong>USB Debugging</strong></p>
 
 <h4 id="enable-oem-unlocking">Enable OEM Unlocking</h4>
 
@@ -214,7 +209,7 @@ sudo apt install android-sdk-platform-tools-common
 
 <h3 id="download-device-flasher">Download device-flasher</h3>
 
-<p><a class="btn" href="https://release.calyxinstitute.org/device-flasher/1.0.10/device-flasher.linux">Download device-flasher.linux</a></p>
+<p><a class="btn" href="https://release.calyxinstitute.org/device-flasher/1.1.1/device-flasher.linux">Download device-flasher.linux</a></p>
 
 <p>Save this executable to a new directory, where you will also later save the CalyxOS image.</p>
 
@@ -225,11 +220,11 @@ sudo apt install android-sdk-platform-tools-common
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sha256sum device-flasher.linux
 </code></pre></div></div>
 
-<p>And ensure the result says <code class="language-plaintext highlighter-rouge">90c306006c8f6ff74a6fc264b85349f9dce4f0e790f673d7c3c8b8a9e083284b</code>. This is the unique digest of the device-flasher. If it doesn’t match, then you have a corrupted or incorrect file.</p>
+<p>And ensure the result says <code class="language-plaintext highlighter-rouge">9c460276906eb6aa5e4c1c65f7fefae9606d37cabe96a923a5642ed1d2b3910e</code>. This is the unique digest of the device-flasher. If it doesn’t match, then you have a corrupted or incorrect file.</p>
 
 <h4 id="verify-signature">Verify Signature</h4>
 
-<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/device-flasher/1.0.10/device-flasher.linux.minisig">download the signature file</a> and then <a href="/install/verify/">verify it</a>.</p>
+<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/device-flasher/1.1.1/device-flasher.linux.minisig">download the signature file</a> and then <a href="/install/verify/">verify it</a>.</p>
 
 <h3 id="download-factory-image">Download factory image</h3>
 
@@ -260,9 +255,7 @@ sudo apt install android-sdk-platform-tools-common
 
 <p>Now you are ready to install. Ensure that both the CalyxOS image and device-flasher are in the same directory.</p>
 
-<p>Step 1. Connect the USB cable between the computer and the Android device.</p>
-
-<p>Step 2. Run device-flasher</p>
+<p>Run device-flasher per the below instructions and then follow the steps shown on the computer screen.</p>
 
 <p>Open a terminal, change to the directory with the firmware image, and run:</p>
 
