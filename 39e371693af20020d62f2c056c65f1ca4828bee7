@@ -22,6 +22,30 @@
       },
       "revId": "39e371693af20020d62f2c056c65f1ca4828bee7",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "30b80383_796d75bc",
+        "filename": "pages/docs/guide/device-support/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2025-04-21T20:25:29Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "dfdfbac7_e6dc2a4b",
+      "range": {
+        "startLine": 78,
+        "startChar": 167,
+        "endLine": 78,
+        "endChar": 171
+      },
+      "revId": "39e371693af20020d62f2c056c65f1ca4828bee7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
