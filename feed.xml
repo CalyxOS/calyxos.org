@@ -1,15 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-26T05:50:20+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">April 2025 Feature update</title><link href="/news/2025/04/25/april-feature-update/" rel="alternate" type="text/html" title="April 2025 Feature update" /><published>2025-04-25T00:00:00+05:30</published><updated>2025-04-25T00:00:00+05:30</updated><id>/news/2025/04/25/april-feature-update</id><content type="html" xml:base="/news/2025/04/25/april-feature-update/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-26T05:55:40+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">April 2025 Feature update</title><link href="/news/2025/04/25/april-feature-update/" rel="alternate" type="text/html" title="April 2025 Feature update" /><published>2025-04-25T00:00:00+05:30</published><updated>2025-04-25T00:00:00+05:30</updated><id>/news/2025/04/25/april-feature-update</id><content type="html" xml:base="/news/2025/04/25/april-feature-update/"><![CDATA[<ul>
   <li>CalyxOS 6.6.22 - April 2025 Feature update for FP5, FP4, Moto g32, g42, g52, Pixel 4a (5G) - 9</li>
   <li>One of our biggest yet with a lot of features and long-pending bug fixes</li>
   <li>Upcoming devices are work in progress</li>
 </ul>
 
 <h3 id="rollout">Rollout</h3>
-<p>| Release channel  | Date   | Notes |
-| —————- | —— | —— |
-| Beta | 25 April, Friday |  |
-| Security express | 25 April, Friday |  |
-| Stable | 29 April, Tuesday |  |</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Release channel</th>
+      <th>Date</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Beta</td>
+      <td>25 April, Friday</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Security express</td>
+      <td>25 April, Friday</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Stable</td>
+      <td>29 April, Tuesday</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
 
 <h3 id="changelog">Changelog</h3>
 <ul>
