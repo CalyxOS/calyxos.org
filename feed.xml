@@ -1,4 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-18T20:00:10+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">April 2025 Security update - take two</title><link href="/news/2025/04/17/april-security-update2/" rel="alternate" type="text/html" title="April 2025 Security update - take two" /><published>2025-04-17T00:00:00+05:30</published><updated>2025-04-17T00:00:00+05:30</updated><id>/news/2025/04/17/april-security-update2</id><content type="html" xml:base="/news/2025/04/17/april-security-update2/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-26T05:50:20+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">April 2025 Feature update</title><link href="/news/2025/04/25/april-feature-update/" rel="alternate" type="text/html" title="April 2025 Feature update" /><published>2025-04-25T00:00:00+05:30</published><updated>2025-04-25T00:00:00+05:30</updated><id>/news/2025/04/25/april-feature-update</id><content type="html" xml:base="/news/2025/04/25/april-feature-update/"><![CDATA[<ul>
+  <li>CalyxOS 6.6.22 - April 2025 Feature update for FP5, FP4, Moto g32, g42, g52, Pixel 4a (5G) - 9</li>
+  <li>One of our biggest yet with a lot of features and long-pending bug fixes</li>
+  <li>Upcoming devices are work in progress</li>
+</ul>
+
+<h3 id="rollout">Rollout</h3>
+<p>| Release channel  | Date   | Notes |
+| —————- | —— | —— |
+| Beta | 25 April, Friday |  |
+| Security express | 25 April, Friday |  |
+| Stable | 29 April, Tuesday |  |</p>
+
+<h3 id="changelog">Changelog</h3>
+<ul>
+  <li>CalyxOS 6.6.22</li>
+  <li>April 2025 Feature update</li>
+  <li>Phasing out the Cleartext Restriction feature <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2987">#2987</a></li>
+  <li>Allow configuring timeout for microphone and camera access, from Settings -&gt; Security and privacy -&gt; Privacy controls <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/1597">#1597</a></li>
+  <li>Chromium: 135.0.7049.111</li>
+  <li>Chromium: Don’t save payment methods or addresses by default <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/3060">#3060</a></li>
+  <li>Chromium: Increase wait before declaring HTTPS unavailable <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2974">#2974</a></li>
+  <li>Chromium: Ask before opening apps <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2655">#2655</a></li>
+  <li>microG: Display data being set to Google in app <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/713">#713</a></li>
+  <li>microG: Include latest changes from upstream</li>
+  <li>microG: Work Profile: You can now sign into various work accounts that setup a work profile when using microG. <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/1799">#1799</a></li>
+  <li>microG: Play Feature Delivery: Apps can request installation of additional languages or features from split packages. You can activate this from microG Settings &gt; Play Store</li>
+  <li>microG: Face detection: This release ships with initial support for Google’s Face Detection API. This functionality is still very incomplete, but works for some apps using it.</li>
+  <li>microG: Improve Barcode Scanning APIs</li>
+  <li>microG: Various fixes for quick login and third-party Google sign-in</li>
+  <li>microG: DroidGuard: Disable access to hardware attestation.</li>
+  <li>microG: Various fixes to improve support for Google Apps</li>
+  <li>Seedvault Backup: 15-5.5</li>
+  <li>Seedvault: Unify scheduling of app and file backup, now they always run one after the other</li>
+  <li>Seedvault: Fix bug where we didn’t find any backups, if user had only file backups</li>
+  <li>Seedvault: Launch foreground service when finalizing backup to prevent system from freezing us</li>
+  <li>Seedvault: Auto-retry more WebDAV connection errors</li>
+  <li>Settings: Protect sensitive data in mobile network settings</li>
+  <li>Settings: Fix unrestricted data toggle switches <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2547">#2547</a></li>
+  <li>Keyboard: Various fixes <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/3077">#3077</a> <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2916">#2916</a> <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/1901">#1901</a> <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/1890">#1890</a></li>
+  <li>Camera: Fix wrong orientation of pictures <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/1450">#1450</a></li>
+  <li>PDF Viewer: Fix opening of saved files <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/3071">#3071</a></li>
+  <li>Messaging: Fix MMS download <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/3121">#3121</a></li>
+  <li>Remove eSpeak launcher icon <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/3040">#3040</a></li>
+  <li>Add Strong auth timeout feature, in Settings -&gt; Security</li>
+  <li>Fix Android Auto showing up in private space and secondary users <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/3032">#3032</a></li>
+  <li>Add Aurora Store &amp; F-Droid to private space by default, if installed <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2933">#2933</a></li>
+  <li>Fix various settings which didn’t work correctly across multiple users</li>
+  <li>Support Private space on secondary users</li>
+  <li>Fix auto brightness toggle in status bar <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/3069">#3069</a></li>
+  <li>Switch to Thunderbird for new installs</li>
+  <li>Add test property to restart apps that were stopped by backup <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2887">#2887</a> <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2816">#2816</a></li>
+  <li>Update all included apps</li>
+  <li>Update translations</li>
+</ul>
+
+<h4 id="fp4">FP4</h4>
+<ul>
+  <li>Fix some media playback issues <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/3189">#3189</a></li>
+</ul>
+
+<h4 id="moto-g32-g42-g52">Moto G32, G42, G52</h4>
+<ul>
+  <li>Always show and allow editing enhanced 4G calling setting <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2895">#2895</a></li>
+</ul>
+
+<h4 id="pixel-6---9">Pixel 6 - 9</h4>
+<ul>
+  <li>Charging control: Allow setting a percentage limit <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2453">#2453</a></li>
+  <li>Always show and allow editing enhanced 4G calling setting <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2895">#2895</a></li>
+</ul>
+
+<h2 id="note">Note</h2>
+
+<div class="alert alert-info" style="margin-top: 3rem">
+<ul>
+  <li>
+    <strong>Over-the-air Updates:</strong>
+    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
+  </li>
+  <li>
+    <strong>Security Updates:</strong>
+    The <strong>Pixel 9 Pro Fold, 9 Pro XL, 9 Pro, 9, 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
+  </li>
+  <li>
+    <strong>Security Updates:</strong>
+    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
+  </li>
+  <li>
+    <strong>End-of-life:</strong>
+    The <strong>Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+  </li>
+</ul>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.6.22 - April 2025 Feature update for FP5, FP4, Moto g32, g42, g52, Pixel 4a (5G) - 9 One of our biggest yet with a lot of features and long-pending bug fixes Upcoming devices are work in progress]]></summary></entry><entry><title type="html">April 2025 Security update - take two</title><link href="/news/2025/04/17/april-security-update2/" rel="alternate" type="text/html" title="April 2025 Security update - take two" /><published>2025-04-17T00:00:00+05:30</published><updated>2025-04-17T00:00:00+05:30</updated><id>/news/2025/04/17/april-security-update2</id><content type="html" xml:base="/news/2025/04/17/april-security-update2/"><![CDATA[<ul>
   <li>CalyxOS 6.6.21 - Android 15 is now available for the FP5, FP4, Moto G32, G42, G52, Pixel 5a, 5, 4a (5G)</li>
   <li>April security update (2025-04-05)</li>
 </ul>
@@ -661,67 +754,4 @@
     The <strong>Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.4.1 - Android 15 upgrade is now available for these devices]]></summary></entry><entry><title type="html">Android 15, February 2025 Security update</title><link href="/news/2025/02/11/15-february-security-update/" rel="alternate" type="text/html" title="Android 15, February 2025 Security update" /><published>2025-02-11T00:00:00+05:30</published><updated>2025-02-11T00:00:00+05:30</updated><id>/news/2025/02/11/15-february-security-update</id><content type="html" xml:base="/news/2025/02/11/15-february-security-update/"><![CDATA[<ul>
-  <li>CalyxOS 6.4.0 - Android 15 is now available for the Pixel 6 - 9</li>
-  <li>All other devices, work in progress</li>
-</ul>
-
-<h3 id="rollout">Rollout</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>Release channel</th>
-      <th>Date</th>
-      <th>Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Security express</td>
-      <td>5 February, Wednesday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Beta</td>
-      <td>7 February, Saturday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Stable</td>
-      <td>11 February, Tuesday</td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="changelog">Changelog</h3>
-<ul>
-  <li>CalyxOS 6.4.0</li>
-  <li>Android 15, February 2025 Security update</li>
-  <li>Chromium: 132.0.6834.163</li>
-  <li>Update all included apps</li>
-</ul>
-
-<h2 id="note">Note</h2>
-
-<div class="alert alert-info" style="margin-top: 3rem">
-<ul>
-  <li>
-    <strong>Over-the-air Updates:</strong>
-    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Pixel 9 Pro Fold, 9 Pro XL, 9 Pro, 9, 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
-    <strong>End-of-life:</strong>
-    The <strong>Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
-  </li>
-</ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.4.0 - Android 15 is now available for the Pixel 6 - 9 All other devices, work in progress]]></summary></entry></feed>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.4.1 - Android 15 upgrade is now available for these devices]]></summary></entry></feed>
