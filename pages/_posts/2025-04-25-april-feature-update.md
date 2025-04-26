@@ -8,6 +8,7 @@ date: 2025-04-25
 * Upcoming devices are work in progress
 
 ### Rollout
+
 | Release channel  | Date   | Notes |
 | ---------------- | ------ | ------ |
 | Beta | 25 April, Friday |  |
