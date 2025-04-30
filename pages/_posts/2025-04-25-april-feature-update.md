@@ -11,13 +11,17 @@ date: 2025-04-25
 
 | Release channel  | Date   | Notes |
 | ---------------- | ------ | ------ |
-| Beta | 25 April, Friday |  |
-| Security express | 25 April, Friday |  |
-| Stable | 29 April, Tuesday |  |
+| Beta | 25 April, Friday | 6.6.22 |
+| Security express | 25 April, Friday | 6.6.22 |
+| Beta | 30 April, Wednesday | 6.6.23, with fixes |
+| Security express | 30 April, Wednesday | 6.6.23, with fixes |
+| Stable | 1 May, Thursday | 6.6.23 |
+
 
 ### Changelog
-* CalyxOS 6.6.22
+* CalyxOS 6.6.23
 * April 2025 Feature update
+* Temporarily remove charging control suppport
 * Phasing out the Cleartext Restriction feature [#2987](https://gitlab.com/CalyxOS/calyxos/-/issues/2987)
 * Allow configuring timeout for microphone and camera access, from Settings -> Security and privacy -> Privacy controls [#1597](https://gitlab.com/CalyxOS/calyxos/-/issues/1597)
 * Chromium: 135.0.7049.111
@@ -25,7 +29,7 @@ date: 2025-04-25
 * Chromium: Increase wait before declaring HTTPS unavailable [#2974](https://gitlab.com/CalyxOS/calyxos/-/issues/2974)
 * Chromium: Ask before opening apps [#2655](https://gitlab.com/CalyxOS/calyxos/-/issues/2655)
 * microG: Display data being set to Google in app [#713](https://gitlab.com/CalyxOS/calyxos/-/issues/713)
-* microG: Include latest changes from upstream
+* microG: v0.3.7
 * microG: Work Profile: You can now sign into various work accounts that setup a work profile when using microG. [#1799](https://gitlab.com/CalyxOS/calyxos/-/issues/1799)
 * microG: Play Feature Delivery: Apps can request installation of additional languages or features from split packages. You can activate this from microG Settings > Play Store
 * microG: Face detection: This release ships with initial support for Google's Face Detection API. This functionality is still very incomplete, but works for some apps using it.
@@ -45,7 +49,6 @@ date: 2025-04-25
 * PDF Viewer: Fix opening of saved files [#3071](https://gitlab.com/CalyxOS/calyxos/-/issues/3071)
 * Messaging: Fix MMS download [#3121](https://gitlab.com/CalyxOS/calyxos/-/issues/3121)
 * Remove eSpeak launcher icon [#3040](https://gitlab.com/CalyxOS/calyxos/-/issues/3040)
-* Add Strong auth timeout feature, in Settings -> Security
 * Fix Android Auto showing up in private space and secondary users [#3032](https://gitlab.com/CalyxOS/calyxos/-/issues/3032)
 * Add Aurora Store & F-Droid to private space by default, if installed [#2933](https://gitlab.com/CalyxOS/calyxos/-/issues/2933)
 * Fix various settings which didn't work correctly across multiple users
