@@ -66,7 +66,6 @@ date: 2025-04-25
 * Always show and allow editing enhanced 4G calling setting [#2895](https://gitlab.com/CalyxOS/calyxos/-/issues/2895)
 
 #### Pixel 6 - 9
-* Charging control: Allow setting a percentage limit [#2453](https://gitlab.com/CalyxOS/calyxos/-/issues/2453)
 * Always show and allow editing enhanced 4G calling setting [#2895](https://gitlab.com/CalyxOS/calyxos/-/issues/2895)
 
 ## Note
