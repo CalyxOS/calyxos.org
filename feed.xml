@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-26T05:55:40+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">April 2025 Feature update</title><link href="/news/2025/04/25/april-feature-update/" rel="alternate" type="text/html" title="April 2025 Feature update" /><published>2025-04-25T00:00:00+05:30</published><updated>2025-04-25T00:00:00+05:30</updated><id>/news/2025/04/25/april-feature-update</id><content type="html" xml:base="/news/2025/04/25/april-feature-update/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-05-01T05:37:08+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">April 2025 Feature update</title><link href="/news/2025/04/25/april-feature-update/" rel="alternate" type="text/html" title="April 2025 Feature update" /><published>2025-04-25T00:00:00+05:30</published><updated>2025-04-25T00:00:00+05:30</updated><id>/news/2025/04/25/april-feature-update</id><content type="html" xml:base="/news/2025/04/25/april-feature-update/"><![CDATA[<ul>
   <li>CalyxOS 6.6.22 - April 2025 Feature update for FP5, FP4, Moto g32, g42, g52, Pixel 4a (5G) - 9</li>
   <li>One of our biggest yet with a lot of features and long-pending bug fixes</li>
   <li>Upcoming devices are work in progress</li>
@@ -18,25 +18,36 @@
     <tr>
       <td>Beta</td>
       <td>25 April, Friday</td>
-      <td> </td>
+      <td>6.6.22</td>
     </tr>
     <tr>
       <td>Security express</td>
       <td>25 April, Friday</td>
-      <td> </td>
+      <td>6.6.22</td>
+    </tr>
+    <tr>
+      <td>Beta</td>
+      <td>30 April, Wednesday</td>
+      <td>6.6.23, with fixes</td>
+    </tr>
+    <tr>
+      <td>Security express</td>
+      <td>30 April, Wednesday</td>
+      <td>6.6.23, with fixes</td>
     </tr>
     <tr>
       <td>Stable</td>
-      <td>29 April, Tuesday</td>
-      <td> </td>
+      <td>1 May, Thursday</td>
+      <td>6.6.23</td>
     </tr>
   </tbody>
 </table>
 
 <h3 id="changelog">Changelog</h3>
 <ul>
-  <li>CalyxOS 6.6.22</li>
+  <li>CalyxOS 6.6.23</li>
   <li>April 2025 Feature update</li>
+  <li>Temporarily remove charging control suppport</li>
   <li>Phasing out the Cleartext Restriction feature <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2987">#2987</a></li>
   <li>Allow configuring timeout for microphone and camera access, from Settings -&gt; Security and privacy -&gt; Privacy controls <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/1597">#1597</a></li>
   <li>Chromium: 135.0.7049.111</li>
@@ -44,7 +55,7 @@
   <li>Chromium: Increase wait before declaring HTTPS unavailable <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2974">#2974</a></li>
   <li>Chromium: Ask before opening apps <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2655">#2655</a></li>
   <li>microG: Display data being set to Google in app <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/713">#713</a></li>
-  <li>microG: Include latest changes from upstream</li>
+  <li>microG: v0.3.7</li>
   <li>microG: Work Profile: You can now sign into various work accounts that setup a work profile when using microG. <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/1799">#1799</a></li>
   <li>microG: Play Feature Delivery: Apps can request installation of additional languages or features from split packages. You can activate this from microG Settings &gt; Play Store</li>
   <li>microG: Face detection: This release ships with initial support for Google’s Face Detection API. This functionality is still very incomplete, but works for some apps using it.</li>
@@ -64,7 +75,6 @@
   <li>PDF Viewer: Fix opening of saved files <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/3071">#3071</a></li>
   <li>Messaging: Fix MMS download <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/3121">#3121</a></li>
   <li>Remove eSpeak launcher icon <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/3040">#3040</a></li>
-  <li>Add Strong auth timeout feature, in Settings -&gt; Security</li>
   <li>Fix Android Auto showing up in private space and secondary users <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/3032">#3032</a></li>
   <li>Add Aurora Store &amp; F-Droid to private space by default, if installed <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2933">#2933</a></li>
   <li>Fix various settings which didn’t work correctly across multiple users</li>
@@ -88,7 +98,6 @@
 
 <h4 id="pixel-6---9">Pixel 6 - 9</h4>
 <ul>
-  <li>Charging control: Allow setting a percentage limit <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2453">#2453</a></li>
   <li>Always show and allow editing enhanced 4G calling setting <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2895">#2895</a></li>
 </ul>
 
