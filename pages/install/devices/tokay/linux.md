@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxinstitute.org/tokay-factory-25606200.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/tokay-factory-25606230.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 9 (tokay)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,14 +60,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/tokay-factory-25606200.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/tokay-factory-25606230.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `c665429cec3d4578a2ff01ba9b64f12febb1007843c129abe90d45df5e1e7d0a`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `c9ae860eb49f6ede266a4708d2f8a03556a367123ce6e0e684ac36dd22462e61`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/tokay-factory-25606200.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/tokay-factory-25606230.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 
