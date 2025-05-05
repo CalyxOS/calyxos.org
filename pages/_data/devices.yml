@@ -100,7 +100,7 @@ bangkk:
   web_install: false
 fogos:
   brand: motorola
-  model: moto g34 5G
+  model: moto g34 5G and g45 5G
   manufacturer_support_ends: 2027-01
   calyxos_support_ends: tbd
   sim: "dual"

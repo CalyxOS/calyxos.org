@@ -56,7 +56,7 @@ stable:
   incremental_sha256:
   incremental_old_build:
   date: '2025-05-20'
-- name: moto g34 5G
+- name: moto g34 5G and g45 5G
   brand: motorola
   codename: fogos
   version: 6.7.22
@@ -435,7 +435,7 @@ beta:
   incremental_sha256:
   incremental_old_build:
   date: '2025-05-20'
-- name: moto g34 5G
+- name: moto g34 5G and g45 5G
   brand: motorola
   codename: fogos
   version: 6.7.22
@@ -814,7 +814,7 @@ security-express:
   incremental_sha256:
   incremental_old_build:
   date: '2025-05-20'
-- name: moto g34 5G
+- name: moto g34 5G and g45 5G
   brand: motorola
   codename: fogos
   version: 6.7.22
@@ -1193,7 +1193,7 @@ factory:
   incremental_sha256:
   incremental_old_build:
   date: '2025-05-20'
-- name: moto g34 5G
+- name: moto g34 5G and g45 5G
   brand: motorola
   codename: fogos
   version: 6.7.22

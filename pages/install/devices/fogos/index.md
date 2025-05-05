@@ -1,8 +1,8 @@
 ---
-title: Install on moto g34 5G
+title: Install on moto g34 5G and g45 5G
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/fogos/">moto g34 5G</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/fogos/">moto g34 5G and g45 5G</a></strong>
 
 
 <div class="gallery" markdown=0>
