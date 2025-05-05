@@ -30,7 +30,7 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 <tr><td> Fairphone 4 </td><td> August 2024* </td><td> December 2026* </td></tr>
 <tr><td> Motorola moto g 5G - 2024 </td><td> August 2026* </td><td> March 2027* </td></tr>
 <tr><td> Motorola moto g84 5G </td><td> August 2026* </td><td> September 2026* </td></tr>
-<tr><td> Motorola moto g34 5G </td><td> August 2026* </td><td> January 2027* </td></tr>
+<tr><td> Motorola moto g34 5G / g45 5G </td><td> August 2026* </td><td> January 2027* </td></tr>
 <tr><td> Motorola moto g52 </td><td> August 2024* </td><td> August 2025* </td></tr>
 <tr><td> Motorola moto g42 </td><td> August 2024* </td><td> August 2025* </td></tr>
 <tr><td> Motorola moto g32 </td><td> August 2024* </td><td> August 2025* </td></tr>
