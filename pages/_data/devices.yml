@@ -5,9 +5,17 @@ android_versions:
   - 13
   - 11
 upcoming_codenames:
+<<<<<<< PATCH SET (fcf7bb List Pixel 9a as an upcoming device)
+  - fogo
+  - bangkk
+  - fogos
+  - tegu
+=======
+>>>>>>> BASE      (d8d38a New motos!)
   - otter
 upcoming_brands:
   - motorola
+  - pixel
   - shift
 modern_codenames:
   - FP5
@@ -133,6 +141,15 @@ devon:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "no"
+  android: 15
+  web_install: false
+tegu:
+  brand: pixel
+  model: Pixel 9a
+  manufacturer_support_ends: 2032-04
+  calyxos_support_ends: 2032-04
+  sim: "dual"
+  esim: "dual"
   android: 15
   web_install: false
 comet:
