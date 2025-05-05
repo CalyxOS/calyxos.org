@@ -23,7 +23,12 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 <tr><td> SHIFTphone 8 </td><td> August 2026* </td><td> August 2026* </td></tr>
 <tr><td> Motorola moto g 5G - 2024 </td><td> August 2026* </td><td> March 2027* </td></tr>
 <tr><td> Motorola moto g84 5G </td><td> August 2026* </td><td> September 2026* </td></tr>
+<<<<<<< PATCH SET (fcf7bb List Pixel 9a as an upcoming device)
+<tr><td> Motorola moto g34 5G / g45 5G </td><td> August 2026* </td><td> January 2027* </td></tr>
+<tr><td> Pixel 9a </td><td> April 2032 </td><td> April 2032 </td></tr>
+=======
 <tr><td> Motorola moto g34 5G </td><td> August 2026* </td><td> January 2027* </td></tr>
+>>>>>>> BASE      (d8d38a New motos!)
 </table>
 
 #### Modern devices
