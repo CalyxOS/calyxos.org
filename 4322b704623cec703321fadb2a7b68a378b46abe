@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "17bf8ff5_c72cc497",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-05-05T21:54:55Z",
+      "side": 1,
+      "message": "Build was failing locally. Build output is fine after update.",
+      "revId": "4322b704623cec703321fadb2a7b68a378b46abe",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
