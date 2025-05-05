@@ -20,7 +20,12 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 #### Upcoming devices
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>
+<<<<<<< PATCH SET (efd568 List Pixel 9a as an upcoming device)
+<tr><td> Pixel 9a </td><td> April 2032 </td><td> April 2032 </td></tr>
+<tr><td> SHIFTphone 8 </td><td> August 2026* </td><td> August 2026* </td></tr>
+=======
 <tr><td> SHIFTphone 8 </td><td> Android 15* </td><td> August 2026* </td></tr>
+>>>>>>> BASE      (470c3f device-support: Change to mentioning Android versions for no)
 </table>
 
 #### Modern devices
