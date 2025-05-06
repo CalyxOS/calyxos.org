@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-05-06T03:23:20+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">April 2025 Feature update</title><link href="/news/2025/04/25/april-feature-update/" rel="alternate" type="text/html" title="April 2025 Feature update" /><published>2025-04-25T00:00:00+05:30</published><updated>2025-04-25T00:00:00+05:30</updated><id>/news/2025/04/25/april-feature-update</id><content type="html" xml:base="/news/2025/04/25/april-feature-update/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-05-07T03:11:11+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Why we are phasing out the Cleartext Restriction feature</title><link href="/news/2025/05/06/cleartext-restriction/" rel="alternate" type="text/html" title="Why we are phasing out the Cleartext Restriction feature" /><published>2025-05-06T00:00:00+05:30</published><updated>2025-05-06T00:00:00+05:30</updated><id>/news/2025/05/06/cleartext-restriction</id><content type="html" xml:base="/news/2025/05/06/cleartext-restriction/"><![CDATA[<ul>
+  <li>An in-depth explanation of our decision to retire the “Restrict cleartext network traffic” feature</li>
+  <li>Next steps for users who are using this feature</li>
+</ul>
+
+<h3 id="overview">Overview</h3>
+
+<p>The “Restrict cleartext network traffic” setting was introduced in CalyxOS as <a href="/news/2021/04/08/big-april-update/" target="_blank">an additional layer of protection</a>,
+aimed to block cleartext transmission. Cleartext transmission allows data to travel in network or communication channels without encrpytion or other protection layers.
+It can occur in various types of communications, such as visiting a website, sending an email, or sharing a file.
+Cleartext transmission sends data in plain, human-readable format, making it easier for unauthorized parties to read sensitive information, such as password, personal data, or private messages.
+Therefore, we bulit this feature on AOSP’s existing functionality in 2021 to improve overall device data security.
+However, upon review, we have discovered that this feature bears significant limitations and usability concerns.</p>
+
+<h3 id="what-we-learned--why-we-made-this-decision">What we learned // Why we made this decision</h3>
+
+<p>After investigating issues <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/1948" target="_blank">#1948</a> and <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2521" target="_blank">#2521</a>,
+ our finding shows that AOSP’s cleartext restriction is not a comprehensive security mechanism.
+It only inspects initial packets of a connection; once Transport Layer Security (TLS) is detected, the connection will beis marked secure, and there will be no further inspection.
+An app could begin sending cleartext after the initial handshake without detection.
+AOSP explicitly states that this feature is meant to prevent accidental cleartext traffic, not deliberate bypasses.</p>
+
+<p>In addition to AOSP’s functional limitations, this feature created usability problems by conflicting with other features and services, such as:</p>
+<ul>
+  <li><strong>Blocking DNS-over-HTTPS (DoH) protocol</strong>: Private DNS setups using Cloudflare or Google failed silently.</li>
+  <li><strong>Breaking QUIC traffic</strong>: Many modern apps rely on QUIC protocol to transmit data. Despite the fact that QUIC traffic was encrypted by default, it was blocked.</li>
+  <li><strong>Interfering with VPNs</strong>: Some VPN traffic got misclassified as cleartext and blocked, affecting connectivity.</li>
+</ul>
+
+<p>Given these problems, continuing to maintain a “best-effort” solution, one that users might mistakenly assume is fully secure,
+ risks giving a false sense of protection while breaking access to other secure services and connection protocols.</p>
+
+<h3 id="whats-next">What’s next</h3>
+
+<p>We have already started transitioning users away from this feature:</p>
+<ul>
+  <li>In the February CalyxOS Feature update, users who had this feature enabled received a one-time notification on their device alerting them that the feature would be removed in a future update.</li>
+  <li>In the April CalyxOS Feature update, users who still have this feature enabled will again receive a notification (linking here) informing them that it has been removed.</li>
+</ul>
+
+<p>Instead of relying on this inadequate feature, you can use a VPN to protect your device’s connection and data transmission.</p>
+
+<p>Additionally, we will continue to improve our communications about CalyxOS’ security and privacy features to ensure our users can make informed decisions and are aware of the best options for keeping their device secure and private.</p>
+
+<h3 id="related-gitlab-issues">Related GitLab issues</h3>
+<ul>
+  <li><a href="https://gitlab.com/CalyxOS/calyxos/-/issues/1948" target="_blank">#1948</a></li>
+  <li><a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2521" target="_blank">#2521</a></li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[An in-depth explanation of our decision to retire the “Restrict cleartext network traffic” feature Next steps for users who are using this feature]]></summary></entry><entry><title type="html">April 2025 Feature update</title><link href="/news/2025/04/25/april-feature-update/" rel="alternate" type="text/html" title="April 2025 Feature update" /><published>2025-04-25T00:00:00+05:30</published><updated>2025-04-25T00:00:00+05:30</updated><id>/news/2025/04/25/april-feature-update</id><content type="html" xml:base="/news/2025/04/25/april-feature-update/"><![CDATA[<ul>
   <li>CalyxOS 6.6.22 - April 2025 Feature update for FP5, FP4, Moto g32, g42, g52, Pixel 4a (5G) - 9</li>
   <li>One of our biggest yet with a lot of features and long-pending bug fixes</li>
   <li>Upcoming devices are work in progress</li>
@@ -607,8 +655,7 @@
 <h3 id="restrict-cleartext-traffic-feature-deprecation">Restrict cleartext traffic feature deprecation</h3>
 <ul>
   <li>We’ve decided to remove the “Restrict cleartext traffic” feature in the next feature update in March.</li>
-  <li>Will provide more details soon.</li>
-  <li>Feel free to contact us at [[community]] for any questions or concerns.</li>
+  <li>For more details, see: <a href="/global-no-cleartext/" target="_blank">Why we are phasing out the Cleartext Restriction feature</a>,</li>
 </ul>
 
 <h3 id="changelog">Changelog</h3>
@@ -715,74 +762,4 @@
 <p><a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2970">https://gitlab.com/CalyxOS/calyxos/-/issues/2970</a></p>
 
 <h3 id="next-steps">Next steps</h3>
-<p>Users should update to the latest version of CalyxOS (6.4.1 or newer) to ensure USB restrictions are properly enforced.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Security Disclosure from the CalyxOS team USB restriction issue on Fairphone 5 fixed in CalyxOS 6.4.1 or newer. Update now!]]></summary></entry><entry><title type="html">Android 15 for FP5, FP4, Moto G52, G42, G32, Pixel 5a, 5, 4a (5G)</title><link href="/news/2025/02/19/15-for-fp-moto-pixel5/" rel="alternate" type="text/html" title="Android 15 for FP5, FP4, Moto G52, G42, G32, Pixel 5a, 5, 4a (5G)" /><published>2025-02-19T00:00:00+05:30</published><updated>2025-02-19T00:00:00+05:30</updated><id>/news/2025/02/19/15-for-fp-moto-pixel5</id><content type="html" xml:base="/news/2025/02/19/15-for-fp-moto-pixel5/"><![CDATA[<ul>
-  <li>CalyxOS 6.4.1 - Android 15 upgrade is now available for these devices</li>
-</ul>
-
-<h3 id="note">Note</h3>
-
-<ul>
-  <li>You will get two updates to the device.</li>
-  <li>The first update doesn’t have any major changes, but it’s meant as a preparation for the next.</li>
-  <li>This is done to ensure we have a well-known, tested update path for this major version upgrade.</li>
-</ul>
-
-<h3 id="rollout">Rollout</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>Release channel</th>
-      <th>Date</th>
-      <th>Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Beta</td>
-      <td>12 February, Wednesday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Security express</td>
-      <td>12 February, Wednesday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Stable</td>
-      <td>19 February, Wednesday</td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="changelog">Changelog</h3>
-<ul>
-  <li>CalyxOS 6.4.1</li>
-  <li>Android 15, February 2025 Security update</li>
-  <li>Chromium: 132.0.6834.163</li>
-  <li>Update all included apps</li>
-</ul>
-
-<h2 id="note-1">Note</h2>
-
-<div class="alert alert-info" style="margin-top: 3rem">
-<ul>
-  <li>
-    <strong>Over-the-air Updates:</strong>
-    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Pixel 9 Pro Fold, 9 Pro XL, 9 Pro, 9, 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
-    <strong>End-of-life:</strong>
-    The <strong>Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
-  </li>
-</ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.4.1 - Android 15 upgrade is now available for these devices]]></summary></entry></feed>
+<p>Users should update to the latest version of CalyxOS (6.4.1 or newer) to ensure USB restrictions are properly enforced.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Security Disclosure from the CalyxOS team USB restriction issue on Fairphone 5 fixed in CalyxOS 6.4.1 or newer. Update now!]]></summary></entry></feed>
