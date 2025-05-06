@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "74777c81_2d64b2ba",
+        "filename": "pages/_posts/2025-05-06-cleartext.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2025-05-06T16:01:13Z",
+      "side": 1,
+      "message": "* An in-depth explanation of our decision to retire the \"Restrict cleartext network traffic\" feature\n* Next steps for users who are using this feature",
+      "parentUuid": "34fc6bee_cc1d8c13",
+      "revId": "5fb734dcbecadd706b3b55baed6a9e005b15a0d8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "163768cb_0e5ed1c3",
         "filename": "pages/_posts/2025-05-06-cleartext.md",
         "patchSetId": 3
