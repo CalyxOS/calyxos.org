@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "34fc6bee_cc1d8c13",
+        "filename": "pages/_posts/2025-05-06-cleartext.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-05-06T08:39:56Z",
+      "side": 1,
+      "message": "^ TODO",
+      "revId": "5fb734dcbecadd706b3b55baed6a9e005b15a0d8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "163768cb_0e5ed1c3",
+        "filename": "pages/_posts/2025-05-06-cleartext.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-05-06T08:39:56Z",
+      "side": 1,
+      "message": "February",
+      "revId": "5fb734dcbecadd706b3b55baed6a9e005b15a0d8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "da01223f_8ef612b9",
+        "filename": "pages/_posts/2025-05-06-cleartext.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-05-06T08:39:56Z",
+      "side": 1,
+      "message": "No longer upcoming.",
+      "revId": "5fb734dcbecadd706b3b55baed6a9e005b15a0d8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
