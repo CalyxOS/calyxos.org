@@ -1,7 +1,6 @@
 ---
 title: Android 15, February Feature update
 date: 2025-02-22
-redirect_from: /global-no-cleartext/
 ---
 
 * CalyxOS 6.4.2 - Android 15 is now available for FP5, FP4, Moto G52, G42, G32, Pixel 5 - 9
@@ -17,8 +16,7 @@ redirect_from: /global-no-cleartext/
 
 ### Restrict cleartext traffic feature deprecation
 * We've decided to remove the "Restrict cleartext traffic" feature in the next feature update in March.
-* Will provide more details soon.
-* Feel free to contact us at [[community]] for any questions or concerns.
+* For more details, see: [Why we are phasing out the Cleartext Restriction feature](/global-no-cleartext/){:target="_blank"},
 
 ### Changelog
 * CalyxOS 6.4.2 - February Feature update
