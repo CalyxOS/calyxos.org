@@ -1,7 +1,6 @@
 ---
 title: Android 15, February Feature update
 date: 2025-02-22
-redirect_from: /global-no-cleartext/
 ---
 
 * CalyxOS 6.4.2 - Android 15 is now available for FP5, FP4, Moto G52, G42, G32, Pixel 5 - 9
