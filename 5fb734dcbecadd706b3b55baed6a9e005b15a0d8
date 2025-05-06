@@ -36,6 +36,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "962f7d66_d67155bc",
+        "filename": "pages/_posts/2025-05-06-cleartext.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-05-06T21:40:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "74777c81_2d64b2ba",
+      "revId": "5fb734dcbecadd706b3b55baed6a9e005b15a0d8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "163768cb_0e5ed1c3",
