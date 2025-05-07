@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-05-07T03:11:11+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Why we are phasing out the Cleartext Restriction feature</title><link href="/news/2025/05/06/cleartext-restriction/" rel="alternate" type="text/html" title="Why we are phasing out the Cleartext Restriction feature" /><published>2025-05-06T00:00:00+05:30</published><updated>2025-05-06T00:00:00+05:30</updated><id>/news/2025/05/06/cleartext-restriction</id><content type="html" xml:base="/news/2025/05/06/cleartext-restriction/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-05-08T04:50:40+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">May 2025 Security update - Pixel 6 - 9</title><link href="/news/2025/05/07/may-security-update/" rel="alternate" type="text/html" title="May 2025 Security update - Pixel 6 - 9" /><published>2025-05-07T00:00:00+05:30</published><updated>2025-05-07T00:00:00+05:30</updated><id>/news/2025/05/07/may-security-update</id><content type="html" xml:base="/news/2025/05/07/may-security-update/"><![CDATA[<ul>
+  <li>CalyxOS 6.7.20 - Android 15 is now available for Pixel 6 - 9 devices</li>
+  <li>May security update (2025-05-05)</li>
+  <li>IMPORTANT: Certain Pixel devices won’t be able to downgrade after this update</li>
+</ul>
+
+<h3 id="key-google-pixel-updates">KEY Google Pixel updates</h3>
+<ul>
+  <li>Google’s May 2025 Pixel update for Pixel 6 (6, 6 Pro, 6a) and Pixel 8 (8, 8 Pro, 8a) devices incremented the anti-roll back version for the bootloader.</li>
+  <li>This prevents the above devices from rolling back to previous vulnerable versions of the bootloader.</li>
+  <li>Once you flash the May 2025 update on these devices, you won’t be able to flash and boot older Android 15 builds.</li>
+  <li>That update affects CalyxOS, Stock Android OS, and all other Android distributions.</li>
+  <li>Trying to downgrade after this update may fail and make your phone unbootable.</li>
+</ul>
+
+<h3 id="rollout">Rollout</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Release channel</th>
+      <th>Date</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Security express</td>
+      <td>7 May, Wednesday</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Beta</td>
+      <td>8 May, Thursday</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Stable</td>
+      <td>12 May, Monday</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="changelog">Changelog</h3>
+<ul>
+  <li>CalyxOS 6.7.20</li>
+  <li>May 2025 Security update (2025-05-05)</li>
+  <li>Chromium: 136.0.7103.60</li>
+  <li>Update all included apps</li>
+</ul>
+
+<h2 id="note">Note</h2>
+
+<div class="alert alert-info" style="margin-top: 3rem">
+<ul>
+  <li>
+    <strong>Over-the-air Updates:</strong>
+    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
+  </li>
+  <li>
+    <strong>Security Updates:</strong>
+    The <strong>Pixel 9 Pro Fold, 9 Pro XL, 9 Pro, 9, 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
+  </li>
+  <li>
+    <strong>Security Updates:</strong>
+    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
+  </li>
+  <li>
+    <strong>End-of-life:</strong>
+    The <strong>Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+  </li>
+</ul>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.7.20 - Android 15 is now available for Pixel 6 - 9 devices May security update (2025-05-05) IMPORTANT: Certain Pixel devices won’t be able to downgrade after this update]]></summary></entry><entry><title type="html">Why we are phasing out the Cleartext Restriction feature</title><link href="/news/2025/05/06/cleartext-restriction/" rel="alternate" type="text/html" title="Why we are phasing out the Cleartext Restriction feature" /><published>2025-05-06T00:00:00+05:30</published><updated>2025-05-06T00:00:00+05:30</updated><id>/news/2025/05/06/cleartext-restriction</id><content type="html" xml:base="/news/2025/05/06/cleartext-restriction/"><![CDATA[<ul>
   <li>An in-depth explanation of our decision to retire the “Restrict cleartext network traffic” feature</li>
   <li>Next steps for users who are using this feature</li>
 </ul>
@@ -713,53 +786,4 @@ AOSP explicitly states that this feature is meant to prevent accidental cleartex
 <ul>
   <li>Fix thumbnails of videos</li>
   <li>Kernel updates</li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.4.2 - Android 15 is now available for FP5, FP4, Moto G52, G42, G32, Pixel 5 - 9 Android Auto support, better accessibility, bugfixes, and more!]]></summary></entry><entry><title type="html">Important Notice Regarding CalyxOS USB Restriction on Fairphone 5 Devices</title><link href="/news/2025/02/20/usb-restriction-fp5-security/" rel="alternate" type="text/html" title="Important Notice Regarding CalyxOS USB Restriction on Fairphone 5 Devices" /><published>2025-02-20T00:00:00+05:30</published><updated>2025-02-20T00:00:00+05:30</updated><id>/news/2025/02/20/usb-restriction-fp5-security</id><content type="html" xml:base="/news/2025/02/20/usb-restriction-fp5-security/"><![CDATA[<ul>
-  <li>Security Disclosure from the CalyxOS team</li>
-  <li>USB restriction issue on Fairphone 5 fixed in CalyxOS 6.4.1 or newer.</li>
-  <li>Update now!</li>
-</ul>
-
-<h3 id="issue-summary">Issue summary</h3>
-<h4 id="problem">Problem</h4>
-<p>The USB restriction feature on Fairphone 5 (FP5) devices running CalyxOS was not functioning as expected. Regardless of the selected restriction setting, USB connections (including USB debugging, data transfer, and other USB features) remained fully functional.</p>
-<h4 id="impact">Impact</h4>
-<p>All Fairphone 5 devices running CalyxOS were affected by this issue, potentially allowing unauthorized USB connections.</p>
-<h4 id="affected-devices">Affected devices</h4>
-<p>Fairphone 5 devices running CalyxOS 5.14.2 or older</p>
-
-<h3 id="current-status">Current Status</h3>
-<p>The issue has been remedied as of CalyxOS updates 6.4.1 or newer. USB restrictions are now functioning as intended.</p>
-
-<h3 id="recommendation-for-affected-users">Recommendation for affected users</h3>
-<p>We recommend that all affected users update to CalyxOS versions 6.4.1 or newer to resolve this issue. Users running older CalyxOS versions on Fairphone 5 devices are advised to only plug their devices into trusted receptacles and devices until a fix is implemented.</p>
-
-<h3 id="timetable-for-641">Timetable for 6.4.1</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>Release channel</th>
-      <th>Date</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Beta</td>
-      <td>12 February, Wednesday</td>
-    </tr>
-    <tr>
-      <td>Security express</td>
-      <td>12 February, Wednesday</td>
-    </tr>
-    <tr>
-      <td>Stable</td>
-      <td>19 February, Wednesday</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="gitlab-issue-link">GitLab Issue link</h3>
-<p><a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2970">https://gitlab.com/CalyxOS/calyxos/-/issues/2970</a></p>
-
-<h3 id="next-steps">Next steps</h3>
-<p>Users should update to the latest version of CalyxOS (6.4.1 or newer) to ensure USB restrictions are properly enforced.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Security Disclosure from the CalyxOS team USB restriction issue on Fairphone 5 fixed in CalyxOS 6.4.1 or newer. Update now!]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.4.2 - Android 15 is now available for FP5, FP4, Moto G52, G42, G32, Pixel 5 - 9 Android Auto support, better accessibility, bugfixes, and more!]]></summary></entry></feed>
