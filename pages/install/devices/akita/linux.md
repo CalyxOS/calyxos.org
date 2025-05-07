@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxinstitute.org/akita-factory-25606230.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/akita-factory-25607200.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 8a (akita)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,14 +60,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/akita-factory-25606230.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/akita-factory-25607200.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `2694e3cc5638b1f188b41850f3011993642913a8a340d52c1fe73cd0a8951585`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `b8c0db082aa3cc427f93e98172ad18c192ada474599482a546a1bab201a567de`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/akita-factory-25606230.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/akita-factory-25607200.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 
