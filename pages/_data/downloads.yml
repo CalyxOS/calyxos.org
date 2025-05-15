@@ -1039,6 +1039,48 @@ factory:
   incremental_sha256:
   incremental_old_build:
   date: '2025-05-08'
+- name: moto g 5G - 2024
+  brand: motorola
+  codename: fogo
+  version: 6.7.22
+  android: '15'
+  web_install: false
+  factory_link: https://release.calyxinstitute.org/fogo-factory-25607220.zip
+  factory_sha256: 22c91a6917b2500ad3d89df79333eedce9c78595dec2b60d1dbe70aa0d6935b4
+  ota_link: https://release.calyxinstitute.org/fogo-ota_update-25607220.zip
+  ota_sha256: c86d99ff407405bfd59d27eb1c50a412c085bb836bb470628569f6f571ce6579
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2025-05-14'
+- name: moto g84 5G
+  brand: motorola
+  codename: bangkk
+  version: 6.7.22
+  android: '15'
+  web_install: false
+  factory_link: https://release.calyxinstitute.org/bangkk-factory-25607220.zip
+  factory_sha256: 6ab7098189ec5f21488d075149c6b44559f2be9b264418f804313057296c22a2
+  ota_link: https://release.calyxinstitute.org/bangkk-ota_update-25607220.zip
+  ota_sha256: 4f983ba6f65ef0492c6699294a0e1b330ef50bf117a84c8ca7cfcbbe2ce0e85c
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2025-05-14'
+- name: moto g34 5G
+  brand: motorola
+  codename: fogos
+  version: 6.7.22
+  android: '15'
+  web_install: false
+  factory_link: https://release.calyxinstitute.org/fogos-factory-25607220.zip
+  factory_sha256: 6941a1a4865590f032666bb66add457a7bd6ee086fc36b86feb8ec49df53f1d1
+  ota_link: https://release.calyxinstitute.org/fogos-ota_update-25607220.zip
+  ota_sha256: ab5624c6c9c532c7f9bfd1c05ba00e5228a37c873908c395ae4feed28517bd57
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2025-05-14'
 - name: moto g52
   brand: motorola
   codename: rhode
