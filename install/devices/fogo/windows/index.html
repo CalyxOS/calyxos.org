@@ -73,6 +73,7 @@
         <div class="toc">
   <h2>Contents</h2>
   <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h2"><a href="#downloads-temporarily-removed">Downloads temporarily removed</a></li>
 <li class="toc-entry toc-h2"><a href="#terminology">Terminology</a></li>
 <li class="toc-entry toc-h2"><a href="#prepare-your-android-device">Prepare your Android device</a>
 <ul>
@@ -119,6 +120,8 @@
 </div>
 
         <p><strong><a href="/install/">Install</a></strong> / <strong><a href="/install/devices/fogo/">moto g 5G - 2024</a></strong></p>
+
+<h2 id="downloads-temporarily-removed">Downloads temporarily removed</h2>
 
 <h2 id="terminology">Terminology</h2>
 
@@ -202,7 +205,7 @@
 
 <h3 id="download-factory-image">Download factory image</h3>
 
-<p><a class="btn" href="https://release.calyxinstitute.org/fogo-factory-25607220.zip">Download CalyxOS Image</a></p>
+<p><a class="btn">Downloads temporarily removed</a></p>
 
 <p>Save this image in the same directory as device-flasher. This image will <strong>only</strong> work for <strong>moto g 5G - 2024 (fogo)</strong>. Any attempt to install this image on a different device model may brick (destroy) the Android device.</p>
 
@@ -214,14 +217,14 @@
 
 <p>To verify the image, open a terminal window on the host computer where you saved the image and run the command:</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CertUtil <span class="nt">-hashfile</span> fogo-factory-25607220.zip SHA256
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CertUtil <span class="nt">-hashfile</span> fogo-factory-0.zip SHA256
 </code></pre></div></div>
 
-<p>And ensure the result says <code class="language-plaintext highlighter-rouge">22c91a6917b2500ad3d89df79333eedce9c78595dec2b60d1dbe70aa0d6935b4</code>. This is the unique digest of the image file. If it doesn’t match, then you have a corrupted or incorrect file.</p>
+<p>And ensure the result says ``. This is the unique digest of the image file. If it doesn’t match, then you have a corrupted or incorrect file.</p>
 
 <h4 id="verify-signature-1">Verify Signature</h4>
 
-<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/fogo-factory-25607220.zip.minisig">download the signature file</a> and then <a href="/install/verify/">verify image signature</a>.</p>
+<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/fogo-factory-0.zip.minisig">download the signature file</a> and then <a href="/install/verify/">verify image signature</a>.</p>
 
 <h2 id="install-calyxos">Install CalyxOS</h2>
 
