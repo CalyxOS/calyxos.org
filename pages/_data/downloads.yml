@@ -364,20 +364,6 @@ stable:
   incremental_sha256: d8ff865158c231f91087d1fa5bed822cd218296e753ee6c1fc43cc2e07d9d06c
   incremental_old_build: '25606230'
   date: '2025-05-09'
-- name: SHIFT6mq
-  brand: shift
-  codename: axolotl
-  version: 5.17.1
-  android: '14'
-  web_install: false
-  factory_link: https://release.calyxinstitute.org/axolotl-factory-25517010.zip
-  factory_sha256: ccea8a105419157077575fe0a0be3504e3ebba6bcb683660c786569b3c6be4de
-  ota_link: https://release.calyxinstitute.org/axolotl-ota_update-25517010.zip
-  ota_sha256: 443c788b7f945f420b7fb693f1ea6b920eaf16bbae8a387127c1481848f7075c
-  incremental_link: https://release.calyxinstitute.org/axolotl-incremental-25514020-25517010.zip
-  incremental_sha256: 84c58161417d2a7cbdfbf756fafe1082384fbd50dcefa5d5e030c6f65150dc3e
-  incremental_old_build: '25514020'
-  date: '2025-03-29'
 beta:
 - name: Fairphone 5
   brand: fairphone
@@ -743,20 +729,6 @@ beta:
   incremental_sha256:
   incremental_old_build:
   date: '2025-05-09'
-- name: SHIFT6mq
-  brand: shift
-  codename: axolotl
-  version: 5.17.1
-  android: '14'
-  web_install: false
-  factory_link: https://release.calyxinstitute.org/axolotl-factory-25517010.zip
-  factory_sha256: ccea8a105419157077575fe0a0be3504e3ebba6bcb683660c786569b3c6be4de
-  ota_link: https://release.calyxinstitute.org/axolotl-ota_update-25517010.zip
-  ota_sha256: 443c788b7f945f420b7fb693f1ea6b920eaf16bbae8a387127c1481848f7075c
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
-  date: '2025-03-29'
 security-express:
 - name: Fairphone 5
   brand: fairphone
@@ -1122,20 +1094,6 @@ security-express:
   incremental_sha256:
   incremental_old_build:
   date: '2025-05-09'
-- name: SHIFT6mq
-  brand: shift
-  codename: axolotl
-  version: 5.17.1
-  android: '14'
-  web_install: false
-  factory_link: https://release.calyxinstitute.org/axolotl-factory-25517010.zip
-  factory_sha256: ccea8a105419157077575fe0a0be3504e3ebba6bcb683660c786569b3c6be4de
-  ota_link: https://release.calyxinstitute.org/axolotl-ota_update-25517010.zip
-  ota_sha256: 443c788b7f945f420b7fb693f1ea6b920eaf16bbae8a387127c1481848f7075c
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
-  date: '2025-03-29'
 factory:
 - name: Fairphone 5
   brand: fairphone
@@ -1501,20 +1459,6 @@ factory:
   incremental_sha256:
   incremental_old_build:
   date: '2025-05-09'
-- name: SHIFT6mq
-  brand: shift
-  codename: axolotl
-  version: 5.17.1
-  android: '14'
-  web_install: false
-  factory_link: https://release.calyxinstitute.org/axolotl-factory-25517010.zip
-  factory_sha256: ccea8a105419157077575fe0a0be3504e3ebba6bcb683660c786569b3c6be4de
-  ota_link: https://release.calyxinstitute.org/axolotl-ota_update-25517010.zip
-  ota_sha256: 443c788b7f945f420b7fb693f1ea6b920eaf16bbae8a387127c1481848f7075c
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
-  date: '2025-03-29'
 fifteen: []
 releases:
 - stable
