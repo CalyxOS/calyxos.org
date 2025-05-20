@@ -38,9 +38,9 @@ stable:
   factory_sha256: 6f82dce008289a0a1030b5b11f2389cdc70f33c01499869c9005e0b619ed1b78
   ota_link: https://release.calyxinstitute.org/fogo-ota_update-25607222.zip
   ota_sha256: ec3e383efcc45aaa2001426d894ed7d8156ac79c7bf90ff94f4dcc5018f9f176
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
+  incremental_link: https://release.calyxinstitute.org/fogo-incremental-25607220-25607222.zip
+  incremental_sha256: cadecb3f24e885f89353b2569e0136a01ee3babcc268a393e493fb7d9b06ccb5
+  incremental_old_build: '25607220'
   date: '2025-05-20'
 - name: moto g84 5G
   brand: motorola
@@ -52,9 +52,9 @@ stable:
   factory_sha256: 585c0e8f297bfae1d867a0e23b1810670a3d416864977586a1f8fefaa6698b35
   ota_link: https://release.calyxinstitute.org/bangkk-ota_update-25607222.zip
   ota_sha256: 4c2d9b385ebff1d61d8d2bf9f37847a56bb93fc431adb9d0b4735760d336da3f
-  incremental_link:
-  incremental_sha256:
-  incremental_old_build:
+  incremental_link: https://release.calyxinstitute.org/bangkk-incremental-25607220-25607222.zip
+  incremental_sha256: b4d9d30cd7ea8f10eba6bf6f6e40679bc0b1831f0556051907fb934d1475a1b5
+  incremental_old_build: '25607220'
   date: '2025-05-20'
 - name: moto g34 5G and g45 5G
   brand: motorola
