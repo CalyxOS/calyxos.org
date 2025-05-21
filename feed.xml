@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-05-21T02:38:08+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">May 2025 Security update - take two</title><link href="/news/2025/05/09/may-security-update2/" rel="alternate" type="text/html" title="May 2025 Security update - take two" /><published>2025-05-09T00:00:00+05:30</published><updated>2025-05-09T00:00:00+05:30</updated><id>/news/2025/05/09/may-security-update2</id><content type="html" xml:base="/news/2025/05/09/may-security-update2/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-05-21T19:11:16+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Important notice regarding external storage bypass vulnerability</title><link href="/news/2025/05/21/external-storage-bypass/" rel="alternate" type="text/html" title="Important notice regarding external storage bypass vulnerability" /><published>2025-05-21T00:00:00+05:30</published><updated>2025-05-21T00:00:00+05:30</updated><id>/news/2025/05/21/external-storage-bypass</id><content type="html" xml:base="/news/2025/05/21/external-storage-bypass/"><![CDATA[<ul>
+  <li>An AOSP security vulnerability allows third-party apps to bypass external storage restrictions and access sensitive folders without permissions.</li>
+  <li>Google has received at least two reports of this issue, however, they have not released any public disclosure about status of the issue to this date.</li>
+  <li>CalyxOS has released a fix to this issue with CalyxOS 6.6.22 and 6.6.23 in April 2025.</li>
+</ul>
+
+<h4 id="problem">Problem</h4>
+<p>An Android Open Source Project (AOSP) security vulnerability was discovered that allowed third-party apps to bypass restrictions on the /sdcard/Android/data and /sdcard/Android/obb directories. By including “ignorable” Unicode characters (such as ‘\u200b’, a zero-width space) in the path, unauthorized apps could gain access to other apps’ external storage folders, which could lead to the exposure of sensitive information.</p>
+
+<h4 id="impact">Impact</h4>
+<p>The vulnerability allowed unauthorized discovery of installed apps and access to sensitive application data, which — depending on the apps’ design — could include location information, synchronization logs, and other files not intended for cross-app access. An app could use this vulnerability to explore these folders even without having any storage permissions.</p>
+
+<h4 id="affected-devices">Affected devices</h4>
+<p>This issue impacts AOSP-based devices with kernel versions 4.19 or greater, which includes all <a href="https://calyxos.org/docs/guide/device-support/">supported CalyxOS devices</a>.</p>
+
+<h4 id="current-status">Current Status</h4>
+<p>The vulnerability has been fixed in CalyxOS <a href="https://calyxos.org/news/2025/04/25/april-feature-update/">6.6.22 and 6.6.23</a>, released in April 2025. This update restores expected external storage restrictions and prevents unauthorized access via this bypass technique.
+Earlier this year, the CalyxOS team was alerted to this issue by our community and learned that Google has been made aware of the vulnerability. While it remains unresolved in AOSP releases (and stock Google Android) as of the publishing of this news post, CalyxOS has released its own fix to ensure users are protected. The CalyxOS team is monitoring if this issue will be disclosed and resolved in AOSP in the near future.</p>
+
+<h4 id="recommendation-for-affected-users">Recommendation for affected users</h4>
+<p>We strongly recommend all users update to the latest CalyxOS release (6.6.22, 6.6.23 or newer) to ensure this vulnerability is mitigated. Devices running older versions remain vulnerable since potential exploitations do not need any storage access permission. 
+As always, we recommend adhering to best practices for digital hygiene in general; restrict unnecessary app permissions, minimize sharing your senstive personal data with apps, and remove apps you don’t use. You can do this by exercising care when downloading apps to ensure they come from trusted sources, review individual app permissions periodically, stay cautious when you share personal data with apps, such as locations (with CalyxOS you can use <a href="https://calyxos.org/docs/guide/security/location/#strict-location-redaction">Strict Location Redaction</a> to minimize location data sharing across apps), accounts, and payment information, and remove apps you no longer need or use.</p>
+
+<h4 id="next-steps">Next steps</h4>
+<p>Individual users should update to the latest CalyxOS release (6.6.22, 6.6.23 or newer) to protect themselves against this vulnerability. The CalyxOS team will continue monitor the issue on AOSP as it remains undisclosed and unresolved by the Google team.</p>
+
+<h4 id="gitlab-issue-link">GitLab Issue link</h4>
+<p><a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2848">https://gitlab.com/CalyxOS/calyxos/-/issues/2848</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[An AOSP security vulnerability allows third-party apps to bypass external storage restrictions and access sensitive folders without permissions. Google has received at least two reports of this issue, however, they have not released any public disclosure about status of the issue to this date. CalyxOS has released a fix to this issue with CalyxOS 6.6.22 and 6.6.23 in April 2025.]]></summary></entry><entry><title type="html">May 2025 Security update - take two</title><link href="/news/2025/05/09/may-security-update2/" rel="alternate" type="text/html" title="May 2025 Security update - take two" /><published>2025-05-09T00:00:00+05:30</published><updated>2025-05-09T00:00:00+05:30</updated><id>/news/2025/05/09/may-security-update2</id><content type="html" xml:base="/news/2025/05/09/may-security-update2/"><![CDATA[<ul>
   <li>CalyxOS 6.7.21-2 - Android 15 is now available for the FP5, FP4, Moto G32, G42, G52, Pixel 5a, 5, 4a (5G)</li>
   <li>May security update (2025-05-05)</li>
 </ul>
@@ -679,79 +706,4 @@ AOSP explicitly states that this feature is meant to prevent accidental cleartex
     The <strong>Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.5.20 - Android 15 is now available for the Pixel 6 - 9 Full security update (2025-03-05)]]></summary></entry><entry><title type="html">Android 15, March 2025 Security update</title><link href="/news/2025/03/13/march-security-update/" rel="alternate" type="text/html" title="Android 15, March 2025 Security update" /><published>2025-03-13T00:00:00+05:30</published><updated>2025-03-13T00:00:00+05:30</updated><id>/news/2025/03/13/march-security-update</id><content type="html" xml:base="/news/2025/03/13/march-security-update/"><![CDATA[<ul>
-  <li>CalyxOS 6.5.10 - Android 15 is now available for the Pixel 5 - 9, FP5, FP4, Moto G32, G42, G52</li>
-  <li>Partial security update (2025-03-01)</li>
-  <li>Full security update work in progress, coming soon (2025-03-05) for Pixel 6 - 9</li>
-</ul>
-
-<h3 id="rollout">Rollout</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>Release channel</th>
-      <th>Date</th>
-      <th>Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Security express</td>
-      <td>9 March, Sunday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Beta</td>
-      <td>10 March, Monday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Stable</td>
-      <td>13 March, Thursday</td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="changelog">Changelog</h3>
-<ul>
-  <li>CalyxOS 6.5.10</li>
-  <li>Android 15, March 2025 Security update (2025-03-01), based on 15QPR1</li>
-  <li>Chromium: 134.0.6998.39</li>
-  <li>Update all included apps</li>
-</ul>
-
-<h4 id="pixel-6---9">Pixel 6 - 9</h4>
-<ul>
-  <li>Full security update (2025-03-05) based on 15 QPR2 work in progress</li>
-</ul>
-
-<h4 id="rest">Rest</h4>
-<ul>
-  <li>Update kernels to contain the latest security fixes</li>
-  <li>15 QPR2 work in progress, making sure all functions work</li>
-</ul>
-
-<h2 id="note">Note</h2>
-
-<div class="alert alert-info" style="margin-top: 3rem">
-<ul>
-  <li>
-    <strong>Over-the-air Updates:</strong>
-    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Pixel 9 Pro Fold, 9 Pro XL, 9 Pro, 9, 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
-    <strong>End-of-life:</strong>
-    The <strong>Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
-  </li>
-</ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.5.10 - Android 15 is now available for the Pixel 5 - 9, FP5, FP4, Moto G32, G42, G52 Partial security update (2025-03-01) Full security update work in progress, coming soon (2025-03-05) for Pixel 6 - 9]]></summary></entry></feed>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.5.20 - Android 15 is now available for the Pixel 6 - 9 Full security update (2025-03-05)]]></summary></entry></feed>
