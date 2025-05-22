@@ -20,20 +20,20 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 #### Upcoming devices
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>
-<tr><td> SHIFTphone 8 </td><td> August 2026* </td><td> August 2026* </td></tr>
+<tr><td> SHIFTphone 8 </td><td> Android 15* </td><td> August 2026* </td></tr>
 </table>
 
 #### Modern devices
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>
-<tr><td> Fairphone 5 </td><td> August 2026* </td><td> September 2031* </td></tr>
-<tr><td> Fairphone 4 </td><td> August 2024* </td><td> December 2026* </td></tr>
-<tr><td> Motorola moto g 5G - 2024 </td><td> August 2026* </td><td> March 2027* </td></tr>
-<tr><td> Motorola moto g84 5G </td><td> August 2026* </td><td> September 2026* </td></tr>
-<tr><td> Motorola moto g34 5G, g45 5G </td><td> August 2026* </td><td> January 2027* </td></tr>
-<tr><td> Motorola moto g52 </td><td> August 2024* </td><td> August 2025* </td></tr>
-<tr><td> Motorola moto g42 </td><td> August 2024* </td><td> August 2025* </td></tr>
-<tr><td> Motorola moto g32 </td><td> August 2024* </td><td> August 2025* </td></tr>
+<tr><td> Fairphone 5 </td><td> Android 15* </td><td> September 2031* </td></tr>
+<tr><td> Fairphone 4 </td><td> Android 15* </td><td> December 2026* </td></tr>
+<tr><td> Motorola moto g 5G - 2024 </td><td> Android 15* </td><td> March 2027* </td></tr>
+<tr><td> Motorola moto g84 5G </td><td> Android 15* </td><td> September 2026* </td></tr>
+<tr><td> Motorola moto g34 5G, g45 5G </td><td> Android 15* </td><td> January 2027* </td></tr>
+<tr><td> Motorola moto g52 </td><td> Android 15* </td><td> August 2025* </td></tr>
+<tr><td> Motorola moto g42 </td><td> Android 15* </td><td> August 2025* </td></tr>
+<tr><td> Motorola moto g32 </td><td> Android 15* </td><td> August 2025* </td></tr>
 <tr><td> Pixel 9, 9 Pro, 9 Pro XL, 9 Pro Fold </td><td> August 2031 </td><td> August 2031 </td></tr>
 <tr><td> Pixel 8a </td><td> May 2031 </td><td> May 2031 </td></tr>
 <tr><td> Pixel 8, 8 Pro </td><td> October 2030 </td><td> October 2030 </td></tr>
@@ -48,22 +48,22 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 #### Extended support
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>
-<tr><td> Pixel 5a (5G) </td><td> August 2024* </td><td> August 2025* </td></tr>
-<tr><td> Pixel 4a (5G) </td><td> August 2024* </td><td> August 2025* </td></tr>
-<tr><td> Pixel 5 </td><td> August 2024* </td><td> August 2025* </td></tr>
+<tr><td> Pixel 5a (5G) </td><td> Android 15* </td><td> August 2025* </td></tr>
+<tr><td> Pixel 4a (5G) </td><td> Android 15* </td><td> August 2025* </td></tr>
+<tr><td> Pixel 5 </td><td> Android 15* </td><td> August 2025* </td></tr>
 </table>
 
 #### No longer supported
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>
-<tr><td> OnePlus 8T, 9, 9 Pro Beta </td><td> May 2022 </td><td> May 2022 </td></tr>
-<tr><td> Pixel 4a </td><td> August 2024 </td><td> March 2025 </td></tr>
-<tr><td> Pixel 4, 4 XL </td><td> August 2024 </td><td> March 2025 </td></tr>
-<tr><td> Pixel 3a, 3a XL </td><td> August 2024 </td><td> March 2025 </td></tr>
-<tr><td> Pixel 3, 3 XL </td><td> August 2024 </td><td> March 2025 </td></tr>
-<tr><td> Pixel 2, 2 XL </td><td> February 2022 </td><td> February 2022 </td></tr>
-<tr><td> SHIFT SHIFT6mq </td><td> August 2024 </td><td> March 2025 </td></tr>
-<tr><td> Xiaomi Mi A2 </td><td> February 2022 </td><td> February 2022 </td></tr>
+<tr><td> OnePlus 8T, 9, 9 Pro Beta </td><td> Android 12 </td><td> May 2022 </td></tr>
+<tr><td> Pixel 4a </td><td> Android 14 </td><td> March 2025 </td></tr>
+<tr><td> Pixel 4, 4 XL </td><td> Android 14 </td><td> March 2025 </td></tr>
+<tr><td> Pixel 3a, 3a XL </td><td> Android 14 </td><td> March 2025 </td></tr>
+<tr><td> Pixel 3, 3 XL </td><td> Android 14 </td><td> March 2025 </td></tr>
+<tr><td> Pixel 2, 2 XL </td><td> Android 11 </td><td> February 2022 </td></tr>
+<tr><td> SHIFT SHIFT6mq </td><td> Android 14 </td><td> March 2025 </td></tr>
+<tr><td> Xiaomi Mi A2 </td><td> Android 11 </td><td> February 2022 </td></tr>
 </table>
 
 ### Update timeframe
