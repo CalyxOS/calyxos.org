@@ -28,7 +28,7 @@ stable:
   incremental_sha256: dce1bd0f13f4cf2e0b9ce8a6a9d6c6934c769df4cb1335da9ba4038e71ff6d17
   incremental_old_build: '25607212'
   date: '2025-05-23'
-- name: moto g 5G - 2024
+- name: moto g 5G (2024)
   brand: motorola
   codename: fogo
   version: 6.7.23
@@ -407,7 +407,7 @@ beta:
   incremental_sha256:
   incremental_old_build:
   date: '2025-05-23'
-- name: moto g 5G - 2024
+- name: moto g 5G (2024)
   brand: motorola
   codename: fogo
   version: 6.7.23
@@ -786,7 +786,7 @@ security-express:
   incremental_sha256:
   incremental_old_build:
   date: '2025-05-23'
-- name: moto g 5G - 2024
+- name: moto g 5G (2024)
   brand: motorola
   codename: fogo
   version: 6.7.23
@@ -1165,7 +1165,7 @@ factory:
   incremental_sha256:
   incremental_old_build:
   date: '2025-05-23'
-- name: moto g 5G - 2024
+- name: moto g 5G (2024)
   brand: motorola
   codename: fogo
   version: 6.7.23

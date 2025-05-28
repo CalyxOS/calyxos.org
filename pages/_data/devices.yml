@@ -84,7 +84,7 @@ FP4:
   web_install: false
 fogo:
   brand: motorola
-  model: moto g 5G - 2024
+  model: moto g 5G (2024)
   manufacturer_support_ends: 2027-03
   calyxos_support_ends: tbd
   sim: "dual"

@@ -1,10 +1,10 @@
 ---
-title: Install on moto g 5G - 2024
+title: Install on moto g 5G (2024)
 description: From a MacOS computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/fogo/">moto g 5G - 2024</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/fogo/">moto g 5G (2024)</a></strong>
 
 
 
@@ -50,7 +50,7 @@ This step might fail if there is no internet connection. In that case, connect t
 <a class="btn" href="https://release.calyxinstitute.org/fogo-factory-25607230.zip">Download CalyxOS Image</a>
 
 
-Save this image in the same directory as device-flasher. This image will **only** work for **moto g 5G - 2024 (fogo)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
+Save this image in the same directory as device-flasher. This image will **only** work for **moto g 5G (2024) (fogo)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
 Do not extract or rename the zip, simply copy it as-is.
 

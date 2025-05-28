@@ -1,8 +1,8 @@
 ---
-title: Install on moto g 5G - 2024
+title: Install on moto g 5G (2024)
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/fogo/">moto g 5G - 2024</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/fogo/">moto g 5G (2024)</a></strong>
 
 
 <div class="gallery" markdown=0>
