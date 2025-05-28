@@ -22,6 +22,30 @@
       },
       "revId": "17557fcf95865ce3f21b0fdf0b4458580f1ff714",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "88a72039_96329eda",
+        "filename": "pages/_includes/install/security_notes.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-05-28T21:08:29Z",
+      "side": 1,
+      "message": "Fixed in 39487: security_notes: Re-order devices per standard format | https://review.calyxos.org/c/CalyxOS/calyxos.org/+/39487",
+      "parentUuid": "fcad46a2_21e02a07",
+      "range": {
+        "startLine": 13,
+        "startChar": 41,
+        "endLine": 13,
+        "endChar": 57
+      },
+      "revId": "17557fcf95865ce3f21b0fdf0b4458580f1ff714",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
