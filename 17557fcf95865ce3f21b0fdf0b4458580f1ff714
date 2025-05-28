@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fcad46a2_21e02a07",
+        "filename": "pages/_includes/install/security_notes.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-05-28T21:04:19Z",
+      "side": 1,
+      "message": "It\u0027s `moto g 5G (2024)` everywhere\n```suggestion\n    The \u003cstrong\u003eFairphone 4, 5, Motorola moto g 5G (2024), moto g34 5G, moto g45 5G, moto g84 5G, moto g32, moto g42, moto g52\u003c/strong\u003e stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.\n```",
+      "range": {
+        "startLine": 13,
+        "startChar": 41,
+        "endLine": 13,
+        "endChar": 57
+      },
+      "revId": "17557fcf95865ce3f21b0fdf0b4458580f1ff714",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
