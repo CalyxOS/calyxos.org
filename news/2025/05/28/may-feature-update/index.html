@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Android 14 update</title>
+  <title>May 2025 Feature update</title>
   
-  <meta name="description" content="Android 14 update" />
+  <meta name="description" content="May 2025 Feature update" />
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="alternate" type="application/rss+xml" title="CalyxOS" href="/feed.xml">
   <script src="/assets/js/main.js" defer></script>
@@ -65,155 +65,70 @@
     <main>
       <section class="secondaryIntro">
         <div class="wrapper">
-          <h1><span class="highlighter">Android 14 update</span></h1>
+          <h1><span class="highlighter">May 2025 Feature update</span></h1>
           
         </div>
       </section>
       <section class="content primaryContent wrapper">
         
-        <p>CalyxOS 5.0.2 - Android 14 is now available for the Pixels 5 and newer.</p>
+        <ul>
+  <li>CalyxOS 6.7.23 - May 2025 Feature update for all supported devices</li>
+  <li>Smaller update as we prepare for Android 16 with upstream release due next week</li>
+</ul>
+
+<h3 id="rollout">Rollout</h3>
 
 <table>
   <thead>
     <tr>
       <th>Release channel</th>
       <th>Date</th>
+      <th>Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Security express</td>
-      <td>26 October, Thursday</td>
+      <td>Beta</td>
+      <td>23 May, Friday</td>
+      <td> </td>
     </tr>
     <tr>
-      <td>Beta</td>
-      <td>26 October, Thursday</td>
+      <td>Security express</td>
+      <td>27 May, Tuesday</td>
+      <td> </td>
     </tr>
     <tr>
       <td>Stable</td>
-      <td>30 October, Monday</td>
+      <td>28 May, Wednesday</td>
+      <td> </td>
     </tr>
   </tbody>
 </table>
 
-<p>We’re also working on supporting the Pixel 8, and porting Android 14 to the Pixel 4, 4a, and FP4.</p>
-
 <h3 id="changelog">Changelog</h3>
 <ul>
-  <li>CalyxOS 5.0.2</li>
-  <li>October 2023 Security update (2023-10-06)</li>
-  <li>Android 14</li>
-  <li>Chromium 118.0.5993.111 (latest stable)</li>
-  <li>Chromium 119 is work in progress</li>
+  <li>CalyxOS 6.7.23</li>
+  <li>May 2025 Feature update</li>
+  <li>Seedvault:
+    <ul>
+      <li>Restart backed-up apps by default</li>
+      <li>Reduced storage backup retention policy
+        <ul>
+          <li>7 daily, 4 weekly, 3 monthly, and 2 yearly storage backups are retained now</li>
+        </ul>
+      </li>
+      <li>Removed file backup snapshots that can’t be decrypted</li>
+      <li>Caught more exceptions to handle errors better</li>
+    </ul>
+  </li>
+  <li>Fixed Microphone showing as “In use” indefinitely after prompted to unblock</li>
+  <li>Fixed various settings for secondary users</li>
+  <li>Chromium: 136.0.7103.125</li>
+  <li>Updated all included apps</li>
+  <li>Updated translations</li>
 </ul>
 
-<h3 id="fixes">Fixes</h3>
-<ul>
-  <li>Certain banking apps / website crashes have been fixed.</li>
-  <li>Lockscreen shortcuts have been re-added.</li>
-  <li>Certain widgets could not be added to the home screen, fixed now.</li>
-</ul>
-
-<h3 id="known-issues">Known issues</h3>
-<ul>
-  <li>Google has changed how Work profile “Pausing” works. It’s more like “Pause apps” now, where only notifications aren’t shown, apps keep running. Will be changed to previous behavior.</li>
-  <li>F-Droid will ask for unknown sources to install/update certain apps. Fixed with F-Droid 1.18.0, kindly update.</li>
-  <li>Custom status bar icons are missing</li>
-  <li>Custom font selection is missing</li>
-  <li>There might be certain other minor issues, but for the most part it should be solid.</li>
-</ul>
-
-<h3 id="steps">Steps</h3>
-<h4 id="ota-updates-for-existing-calyxos-users">OTA updates for existing CalyxOS users</h4>
-<ol>
-  <li>Make sure your phone is running the latest CalyxOS version 4.14.1</li>
-  <li>Backup your data - you can use SeedVault, the included Backup app.</li>
-  <li>Settings -&gt; System -&gt; System update settings -&gt; Release channel -&gt; (Beta or Security express)</li>
-  <li>Then, tap “Check for updates”</li>
-</ol>
-
-<h4 id="fresh-installs-factory-images">Fresh installs, factory images</h4>
-<ol>
-  <li>Download the factory images from the links below.</li>
-  <li>Please follow the installation instructions at <a href="/install/">Install CalyxOS</a>, but use the latest factory image you just downloaded instead of the one linked on that page.</li>
-</ol>
-
-<table class="table table-striped download">
-  <tr><th>Device</th><th>Link</th><th><a href="/get/verify">Signature</a></th><th>SHA256</th></tr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</table>
-
-<h3 id="pixel-6a-test-build-mixup">Pixel 6a test build mixup</h3>
-<ul>
-  <li>We released an Android 14 test build for the Pixel 6a last week, CalyxOS 5.0.0</li>
-  <li>We also released a final Android 13 upgrade just after that, CalyxOS 4.14.1</li>
-  <li>Unfortunately, that final Android 13 upgrade was also accidendally rolled out to Android 14 users, which wouldn’t work given it’s a downgrade. Our apologies for this.</li>
-</ul>
-
-<h4 id="the-fix">The fix</h4>
-<ul>
-  <li>If you’re running 4.14.1 already with your data intact, you can ignore this</li>
-  <li>If you’re on 5.0.1 or newer already, you can ignore this</li>
-  <li>If you’re on 5.0.0 and haven’t rebooted yet, you can reboot and then:</li>
-  <li>If you’re shown a screen with two options “Try again” or “Factory data reset”</li>
-  <li>If you keep choosing “Try again” eventually it’ll boot back to 5.0.0, at which point it should</li>
-</ul>
-
-<h3 id="note">Note</h3>
+<h2 id="note">Note</h2>
 
 <div class="alert alert-info" style="margin-top: 3rem">
 <ul>
@@ -280,7 +195,7 @@
     <div class="row">
       <a href="https://calyxinstitute.org" target="_blank" rel="noreferrer nooopener">&copy; 2021-2024 Calyx Institute</a>
       <span class="spacer" aria-hidden="true">&bull;</span>
-      <a target="_blank" href="https://review.calyxos.org/admin/repos/edit/repo/CalyxOS/calyxos.org/branch/refs/heads/main/file/pages/_posts/2023-10-26-android-14-update.md">Edit page</a>
+      <a target="_blank" href="https://review.calyxos.org/admin/repos/edit/repo/CalyxOS/calyxos.org/branch/refs/heads/main/file/pages/_posts/2025-05-28-may-feature-update.md">Edit page</a>
     </div>
     <div class="row">
       <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer nofollow" title="License: Attribution-ShareAlike 4.0 International"><img class="filter-grey" style="height: 24px" src="/assets/images/icons/cc-by-sa.svg" /></a>

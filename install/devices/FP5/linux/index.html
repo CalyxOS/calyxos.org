@@ -223,7 +223,7 @@ sudo apt install android-sdk-platform-tools-common
 
 <h3 id="download-factory-image">Download factory image</h3>
 
-<p><a class="btn" href="https://release.calyxinstitute.org/FP5-factory-25607220.zip">Download CalyxOS Image</a></p>
+<p><a class="btn" href="https://release.calyxinstitute.org/FP5-factory-25607230.zip">Download CalyxOS Image</a></p>
 
 <p>Save this image in the same directory as device-flasher. This image will <strong>only</strong> work for <strong>Fairphone 5 (FP5)</strong>. Any attempt to install this image on a different device model may brick (destroy) the Android device.</p>
 
@@ -235,14 +235,14 @@ sudo apt install android-sdk-platform-tools-common
 
 <p>To verify the image, open a terminal window on the host computer where you saved the image and run the command:</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sha256sum </span>FP5-factory-25607220.zip
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sha256sum </span>FP5-factory-25607230.zip
 </code></pre></div></div>
 
-<p>And ensure the result says <code class="language-plaintext highlighter-rouge">54bc7630a1902c96cbe4390ccec2a13d96fd87a47b7c3fe1adff731c71473eeb</code>. This is the unique digest of the image file. If it doesn’t match, then you have a corrupted or incorrect file.</p>
+<p>And ensure the result says <code class="language-plaintext highlighter-rouge">00363d28bb45aac7ad6e1a7c95899c2cce9ef8961c38f397ac51c9163121753f</code>. This is the unique digest of the image file. If it doesn’t match, then you have a corrupted or incorrect file.</p>
 
 <h4 id="verify-signature-1">Verify Signature</h4>
 
-<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/FP5-factory-25607220.zip.minisig">download the signature file</a> and then <a href="/install/verify/">verify image signature</a>.</p>
+<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/FP5-factory-25607230.zip.minisig">download the signature file</a> and then <a href="/install/verify/">verify image signature</a>.</p>
 
 <h2 id="install-calyxos">Install CalyxOS</h2>
 

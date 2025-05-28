@@ -228,7 +228,7 @@ sudo apt install android-sdk-platform-tools-common
 
 <h3 id="download-factory-image">Download factory image</h3>
 
-<p><a class="btn" href="https://release.calyxinstitute.org/comet-factory-25607200.zip">Download CalyxOS Image</a></p>
+<p><a class="btn" href="https://release.calyxinstitute.org/comet-factory-25607230.zip">Download CalyxOS Image</a></p>
 
 <p>Save this image in the same directory as device-flasher. This image will <strong>only</strong> work for <strong>Pixel 9 Pro Fold (comet)</strong>. Any attempt to install this image on a different device model may brick (destroy) the Android device.</p>
 
@@ -240,14 +240,14 @@ sudo apt install android-sdk-platform-tools-common
 
 <p>To verify the image, open a terminal window on the host computer where you saved the image and run the command:</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sha256sum </span>comet-factory-25607200.zip
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sha256sum </span>comet-factory-25607230.zip
 </code></pre></div></div>
 
-<p>And ensure the result says <code class="language-plaintext highlighter-rouge">8fd5163a46143504ebaa5e465b7a386e73e84f18cac7f5a666d11a40764343ad</code>. This is the unique digest of the image file. If it doesn’t match, then you have a corrupted or incorrect file.</p>
+<p>And ensure the result says <code class="language-plaintext highlighter-rouge">0e141b4a726ceed19dbe08e4d34123c2d7597587aa3e6774f90ccc43818b2958</code>. This is the unique digest of the image file. If it doesn’t match, then you have a corrupted or incorrect file.</p>
 
 <h4 id="verify-signature-1">Verify Signature</h4>
 
-<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/comet-factory-25607200.zip.minisig">download the signature file</a> and then <a href="/install/verify/">verify image signature</a>.</p>
+<p>For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/comet-factory-25607230.zip.minisig">download the signature file</a> and then <a href="/install/verify/">verify image signature</a>.</p>
 
 <h2 id="install-calyxos">Install CalyxOS</h2>
 
