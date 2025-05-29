@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-05-28T23:47:15+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">May 2025 Feature update</title><link href="/news/2025/05/28/may-feature-update/" rel="alternate" type="text/html" title="May 2025 Feature update" /><published>2025-05-28T00:00:00+05:30</published><updated>2025-05-28T00:00:00+05:30</updated><id>/news/2025/05/28/may-feature-update</id><content type="html" xml:base="/news/2025/05/28/may-feature-update/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-05-30T00:10:18+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">May 2025 Feature update</title><link href="/news/2025/05/28/may-feature-update/" rel="alternate" type="text/html" title="May 2025 Feature update" /><published>2025-05-28T00:00:00+05:30</published><updated>2025-05-28T00:00:00+05:30</updated><id>/news/2025/05/28/may-feature-update</id><content type="html" xml:base="/news/2025/05/28/may-feature-update/"><![CDATA[<ul>
   <li>CalyxOS 6.7.23 - May 2025 Feature update for all supported devices</li>
   <li>Smaller update as we prepare for Android 16 with upstream release due next week</li>
 </ul>
@@ -69,14 +69,85 @@
   </li>
   <li>
     <strong>Security Updates:</strong>
-    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
+    The <strong>Fairphone 5, 4, Motorola moto g 5G - 2024, moto g84 5G, moto g34 and g45 5G, moto g52, moto g42, moto g32</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
   </li>
   <li>
     <strong>End-of-life:</strong>
     The <strong>Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.7.23 - May 2025 Feature update for all supported devices Smaller update as we prepare for Android 16 with upstream release due next week]]></summary></entry><entry><title type="html">Important notice regarding external storage bypass vulnerability</title><link href="/news/2025/05/21/external-storage-bypass/" rel="alternate" type="text/html" title="Important notice regarding external storage bypass vulnerability" /><published>2025-05-21T00:00:00+05:30</published><updated>2025-05-21T00:00:00+05:30</updated><id>/news/2025/05/21/external-storage-bypass</id><content type="html" xml:base="/news/2025/05/21/external-storage-bypass/"><![CDATA[<ul>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.7.23 - May 2025 Feature update for all supported devices Smaller update as we prepare for Android 16 with upstream release due next week]]></summary></entry><entry><title type="html">Four new Motorola devices added to CalyxOS support list</title><link href="/news/2025/05/28/new-motorola-device-support/" rel="alternate" type="text/html" title="Four new Motorola devices added to CalyxOS support list" /><published>2025-05-28T00:00:00+05:30</published><updated>2025-05-28T00:00:00+05:30</updated><id>/news/2025/05/28/new-motorola-device-support</id><content type="html" xml:base="/news/2025/05/28/new-motorola-device-support/"><![CDATA[<ul>
+  <li>Four new devices, moto g 5G - 2024, g34 5G, g45 5G, g84 5G, are now on CalyxOS support list for Motorola phones</li>
+  <li>We welcome feedback at [[community]]</li>
+</ul>
+
+<h4 id="why-these-devices">Why these devices</h4>
+
+<p>Making CalyxOS accessible on diverse devices is always a priority at Calyx. Within our security standards, we keep trying to support as many devices as possible for as long as we can.</p>
+
+<p>CalyxOS requires mobile devices to unlock and relock the bootloader securely during the flashing process to prevent unauthorized root access that can compromise these devices. Among manufacturers who allow secure bootloader unlock and relock, these four Motorola phones are relatively economical compared to other mobile devices, such as Pixel phones. They also have much wider global availability. You can find these models in countries across North America, Latin America, Europe, and Asia Pacific. Regional reach and affordability are both important to us.</p>
+
+<p>Additionally, there was already some custom ROM development for these models, and we contributed to their official LineageOS port. That work helps provide the device and hardware specific code CalyxOS relies on.</p>
+
+<h4 id="pre-install-notes">Pre-install notes</h4>
+
+<h4 id="obtaining-an-unlock-code">Obtaining an unlock code</h4>
+
+<p>Motorola requires you to request for a code to unlock the bootloader of these phones. For brand new devices, sometimes it may take up to 3 days before the phone will let you actually enable OEM unlocking. It can be instant or sooner than 3 days as well in many cases.</p>
+
+<p>Do note that unlocking your Motorola voids it’s warranty.</p>
+
+<p>The CalyxOS <code class="language-plaintext highlighter-rouge">device-flasher</code> currently does not handle this process, and thus you’ll have to manually unlock the device after obtaining the code.</p>
+
+<p>In the future, we’ll try to automate as much of it as possible.</p>
+
+<h4 id="unlock-code-link">Unlock code link</h4>
+
+<p><a href="https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-a">https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-a</a></p>
+
+<h4 id="moto-g-5g---2024">moto g 5G - 2024</h4>
+
+<ul>
+  <li>Please note, among moto g 5G phones, only the <a href="https://www.motorola.com/us/en/p/phones/moto-g/g-5g-gen-3/pmipmgl36mr">2024 model</a> is supported.</li>
+  <li>Carrier-specific variants (e.g. Verizon, Tracfone, AT&amp;T, Cricket) may not allow bootloader unlocking and might be unsupported.</li>
+</ul>
+
+<p>Model-specific CalyxOS installation instructions available at [[fogo]].</p>
+
+<h4 id="moto-g34-5g-and-moto-g45-5g">moto g34 5G and moto g45 5G</h4>
+
+<ul>
+  <li>These two devices share the same software.</li>
+</ul>
+
+<p>Model-specific CalyxOS installation instructions available at [[fogos]].</p>
+
+<h4 id="moto-g84-5g">moto g84 5G</h4>
+
+<p>Model-specific CalyxOS installation instructions available at [[bangkk]].</p>
+
+<h3 id="note">Note</h3>
+
+<div class="alert alert-info" style="margin-top: 3rem">
+<ul>
+  <li>
+    <strong>Over-the-air Updates:</strong>
+    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
+  </li>
+  <li>
+    <strong>Security Updates:</strong>
+    The <strong>Pixel 9 Pro Fold, 9 Pro XL, 9 Pro, 9, 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
+  </li>
+  <li>
+    <strong>Security Updates:</strong>
+    The <strong>Fairphone 5, 4, Motorola moto g 5G - 2024, moto g84 5G, moto g34 and g45 5G, moto g52, moto g42, moto g32</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
+  </li>
+  <li>
+    <strong>End-of-life:</strong>
+    The <strong>Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
+  </li>
+</ul>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[Four new devices, moto g 5G - 2024, g34 5G, g45 5G, g84 5G, are now on CalyxOS support list for Motorola phones We welcome feedback at [[community]]]]></summary></entry><entry><title type="html">Important notice regarding external storage bypass vulnerability</title><link href="/news/2025/05/21/external-storage-bypass/" rel="alternate" type="text/html" title="Important notice regarding external storage bypass vulnerability" /><published>2025-05-21T00:00:00+05:30</published><updated>2025-05-21T00:00:00+05:30</updated><id>/news/2025/05/21/external-storage-bypass</id><content type="html" xml:base="/news/2025/05/21/external-storage-bypass/"><![CDATA[<ul>
   <li>An AOSP security vulnerability allows third-party apps to bypass external storage restrictions and access sensitive folders without permissions.</li>
   <li>Google has received at least two reports of this issue, however, they have not released any public disclosure about status of the issue to this date.</li>
   <li>CalyxOS has released a fix to this issue with CalyxOS 6.6.22 and 6.6.23 in April 2025.</li>
@@ -159,7 +230,7 @@ As always, we recommend adhering to best practices for digital hygiene in genera
   </li>
   <li>
     <strong>Security Updates:</strong>
-    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
+    The <strong>Fairphone 5, 4, Motorola moto g 5G - 2024, moto g84 5G, moto g34 and g45 5G, moto g52, moto g42, moto g32</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
   </li>
   <li>
     <strong>End-of-life:</strong>
@@ -232,7 +303,7 @@ As always, we recommend adhering to best practices for digital hygiene in genera
   </li>
   <li>
     <strong>Security Updates:</strong>
-    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
+    The <strong>Fairphone 5, 4, Motorola moto g 5G - 2024, moto g84 5G, moto g34 and g45 5G, moto g52, moto g42, moto g32</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
   </li>
   <li>
     <strong>End-of-life:</strong>
@@ -404,7 +475,7 @@ AOSP explicitly states that this feature is meant to prevent accidental cleartex
   </li>
   <li>
     <strong>Security Updates:</strong>
-    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
+    The <strong>Fairphone 5, 4, Motorola moto g 5G - 2024, moto g84 5G, moto g34 and g45 5G, moto g52, moto g42, moto g32</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
   </li>
   <li>
     <strong>End-of-life:</strong>
@@ -470,7 +541,7 @@ AOSP explicitly states that this feature is meant to prevent accidental cleartex
   </li>
   <li>
     <strong>Security Updates:</strong>
-    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
+    The <strong>Fairphone 5, 4, Motorola moto g 5G - 2024, moto g84 5G, moto g34 and g45 5G, moto g52, moto g42, moto g32</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
   </li>
   <li>
     <strong>End-of-life:</strong>
@@ -536,7 +607,7 @@ AOSP explicitly states that this feature is meant to prevent accidental cleartex
   </li>
   <li>
     <strong>Security Updates:</strong>
-    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
+    The <strong>Fairphone 5, 4, Motorola moto g 5G - 2024, moto g84 5G, moto g34 and g45 5G, moto g52, moto g42, moto g32</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
   </li>
   <li>
     <strong>End-of-life:</strong>
@@ -613,112 +684,11 @@ AOSP explicitly states that this feature is meant to prevent accidental cleartex
   </li>
   <li>
     <strong>Security Updates:</strong>
-    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
+    The <strong>Fairphone 5, 4, Motorola moto g 5G - 2024, moto g84 5G, moto g34 and g45 5G, moto g52, moto g42, moto g32</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
   </li>
   <li>
     <strong>End-of-life:</strong>
     The <strong>Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.5.21 - Android 15 is now available for the FP5, FP4, Moto G52, G42, G32, Pixel 5a, 4a (5G), 5]]></summary></entry><entry><title type="html">Android 14, Final CalyxOS update for Pixel 3 - 4a and SHIFT6MQ</title><link href="/news/2025/03/31/pixel-3-4a-shift6mq-eol/" rel="alternate" type="text/html" title="Android 14, Final CalyxOS update for Pixel 3 - 4a and SHIFT6MQ" /><published>2025-03-31T00:00:00+05:30</published><updated>2025-03-31T00:00:00+05:30</updated><id>/news/2025/03/31/pixel-3-4a-shift6mq-eol</id><content type="html" xml:base="/news/2025/03/31/pixel-3-4a-shift6mq-eol/"><![CDATA[<ul>
-  <li>CalyxOS 5.17.1 - Android 14, March 2025 Security update (2025-05-01)</li>
-  <li>End of CalyxOS support for Pixel 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, and SHIFT6MQ</li>
-  <li>Pixel 4a (5G), 5 and 5a, and other newer Pixels are still supported.</li>
-</ul>
-
-<h3 id="rollout">Rollout:</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>Release channel</th>
-      <th>Date</th>
-      <th>Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Security express</td>
-      <td>31 March, Monday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Beta</td>
-      <td>31 March, Monday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Stable</td>
-      <td>2 April, Wednesday</td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="important-update-end-of-calyxos-support-for-pixel-3-3-xl-3a-3a-xl-4-4-xl-4a-and-shift6mq"><strong>Important update: end of CalyxOS support for Pixel 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, and SHIFT6MQ</strong></h3>
-
-<p>With this release (5.17.1), CalyxOS has stopped providing official software updates for the Pixel 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, and SHIFT6MQ. This means these devices will no longer receive security patches, new features, and bug fixes. As of the time of this update, March 2025, the Pixel 4a (5G), 5 and 5a, and other newer Pixels are still supported.</p>
-
-<p>We strive to extend our support as long as possible after a device reaches manufacturer’s end of support. However, our team can only provide fixes to the open source components, such as the OS code and the Linux kernel. As the manufacturer terminates updates for these devices, proprietary components such as the bootloader, modem firmware, and camera firmware will get no more updates.</p>
-
-<p>As devices age, the amount of work to keep devices up to date against latest vulnerabilities grows at an exponential rate while trying to provide timely support for new devices. At this moment, we cannot guarantee the same level of protection for the following phone models despite our best effort to extend the life of devices that our users have trusted for years.</p>
-
-<ul>
-  <li>Pixel 4a sunfish</li>
-  <li>Pixel 4 XL coral</li>
-  <li>Pixel 4 flame</li>
-  <li>Pixel 3a XL bonito</li>
-  <li>Pixel 3a sargo</li>
-  <li>Pixel 3 XL crosshatch</li>
-  <li>Pixel 3 blueline</li>
-  <li>SHIFT6MQ axolotl</li>
-</ul>
-
-<p>To ensure transparency, we are sending a reminder to these devices. If you have one of these devices, you will see an end-of-CalyxOS-support notification at each boot. You can disable this notification by going to Settings &gt; Apps. Click “Show system” on the top right corner of the page. Then from the list of apps, select CalyxOS Update Client &gt; Notifications and toggle “End of CalyxOS Support” off.</p>
-
-<p>It is important to mantain your digital security and privacy. To ensure you can continue receiving updates, please consider shifting to [[a device that is still supported by us =&gt; device-support]] or the manufacturer.</p>
-
-<p>Thanks for trusting CalyxOS to keep your device secure.</p>
-
-<h3 id="changelog">Changelog</h3>
-<ul>
-  <li>CalyxOS 5.17.1 - Final update</li>
-  <li>March 2025 Security update (2025-03-01)</li>
-  <li>Also includes security updates from previous months</li>
-  <li>Implement charging control - allow setting a limit for charging, under Settings -&gt; Battery</li>
-  <li>Seedvault: Update to 14-5.3</li>
-  <li>Seedvault: Added support for user CA certificates</li>
-  <li>Seedvault: Fixed issue where many Go server implementations of WebDAV did not work with the WebDAV client in Seedvault</li>
-  <li>Seedvault: Bumped the app data quota from 1GB to 3GB</li>
-  <li>Seedvault: Nextcloud app is no longer allowed for backup (Use built-in WebDAV Cloud support!)</li>
-  <li>Seedvault: Improved handling of metered networks, if disallowed, the backup process will be aborted</li>
-  <li>Seedvault: Fixed backup errors with USB when file and app backup are both on</li>
-  <li>Seedvault: Fixed overdue backups not automatically starting when USB drives are plugged in</li>
-  <li>Chromium: 134.0.6998.135</li>
-  <li>Update kernel</li>
-  <li>Update all included apps</li>
-  <li>Update translations</li>
-</ul>
-
-<h3 id="note">Note</h3>
-
-<div class="alert alert-info" style="margin-top: 3rem">
-<ul>
-  <li>
-    <strong>Over-the-air Updates:</strong>
-    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Pixel 9 Pro Fold, 9 Pro XL, 9 Pro, 9, 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Fairphone 4, 5, Motorola moto g32, moto g42, moto g52</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
-    <strong>End-of-life:</strong>
-    The <strong>Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
-  </li>
-</ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 5.17.1 - Android 14, March 2025 Security update (2025-05-01) End of CalyxOS support for Pixel 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, and SHIFT6MQ Pixel 4a (5G), 5 and 5a, and other newer Pixels are still supported.]]></summary></entry></feed>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.5.21 - Android 15 is now available for the FP5, FP4, Moto G52, G42, G32, Pixel 5a, 4a (5G), 5]]></summary></entry></feed>
