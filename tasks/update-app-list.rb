@@ -32,9 +32,13 @@ module Apps
       src_url = ICON_URL + id + "/en-US/icon.png"
       dest_file = ICON_DIR + id + ".png"
       unless File.exist?(dest_file)
-        tempfile = Down.download(src_url)
-        tempfile.close
-        FileUtils.move(tempfile.path, dest_file)
+        begin
+          tempfile = Down.download(src_url)
+          tempfile.close
+          FileUtils.move(tempfile.path, dest_file)
+        rescue
+          puts "Skipping icon for app: " + id
+        end
       end
     end
 
