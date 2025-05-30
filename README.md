@@ -94,7 +94,7 @@ Data from these places are pulled in to help generate this site:
 
 * https://gitlab.com/CalyxOS/release.git
 * https://gitlab.com/CalyxOS/releases.git
-* https://gitlab.com/CalyxOS/lfs_prebuilts_calyx_fdroid/-/raw/android15-qpr2/repo/index-v1.json
+* https://gitlab.com/CalyxOS/lfs_prebuilts_calyx_fdroid/-/raw/main/repo/index-v1.json
 
 The images on this site are sourced from:
 

@@ -27,7 +27,7 @@ Steps:
    * `gclient sync -D; gclient runhooks`
 2. Fetch our patches and build configuration
    * `cd ~/chromium`
-   * `git clone https://gitlab.com/CalyxOS/platform_external_calyx_chromium -b android15-qpr2`
+   * `git clone https://gitlab.com/CalyxOS/platform_external_calyx_chromium -b main`
 3. Apply patches (you version has to match the version in args.gn)
    * `cd ~/chromium/src`
    * `for i in $(cat ../platform_external_calyx_chromium/build/*_patches_list.txt); do git am ../platform_external_calyx_chromium/build/patches/$i; done`
