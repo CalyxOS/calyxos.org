@@ -26,7 +26,7 @@ Features of microG:
 
 * Reduces battery, memory, and CPU usage.
 * Allows you to opt-in to specific Google Services if you want.
-* Location: typically, an Android device will using WiFi and cell-towers data from Google to help determine precise location. microG does this without using Google, and without reporting your location to Google.
+* Location: typically, an Android device will use WiFi and cell-tower data from Google to help determine precise location. microG does this without using Google, and without reporting your location to Google.
 * Notification: most chat apps depend on Play Services to be alerted when a new message should be delivered to the user. microG allows your device to use this service from Google without the full Play Services installation.
 
 You can check the microG wiki to see the current status of which [[ parts of Play Services have been implemented in microG => https://github.com/microg/android_packages_apps_GmsCore/wiki/Implementation-Status ]].
