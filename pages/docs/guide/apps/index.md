@@ -17,7 +17,7 @@ toc: true
 * Install free software Android apps.
 * In addition to the standard F-Droid source for apps (aka "repository"), CalyxOS includes a source for CalyxOS apps, which allows us push out out-of-band updates for various apps when needed.
 
-In earlier versions, CalyxOS gave the client app (F-Droid) special privileges to streamline app updates, installs, and uninstalls. However, since [CalyxOS 5.1.2](https://calyxos.org/news/2023/11/30/november-feature-update/), these privileges have been dropped for new installs in favor of a newer client app (F-Droid Basic).
+In earlier versions, CalyxOS gave the store app (F-Droid) special privileges to streamline app updates, installs, and uninstalls. However, since [CalyxOS 5.1.2](https://calyxos.org/news/2023/11/30/november-feature-update/), these privileges have been dropped for new installs in favor of a newer store app (F-Droid Basic).
 
 </div>
 </div>
@@ -29,7 +29,7 @@ In earlier versions, CalyxOS gave the client app (F-Droid) special privileges to
 <div>
 [[Aurora Store]] is an **alternative client** to the standard **Google Play Store**. It uses the same standard catalog of apps and installs apps directly from the Google servers.
 * By default, Aurora Store accesses the Google app catalog anonymously.
-* If you want to install paid apps, or if anonymous mode is not working, you can additionally enter your Google account credentials in the Aurora Store settings (paid apps don't always work).
+* If you want to install paid apps, or if anonymous mode is not working, you can enter your Google account credentials in the Aurora Store settings. There is no guarantee that paid apps will perform properly or work.
 * CalyxOS gives Aurora Store special privileges so that app updates can be automatically installed. New app installs and uninstalls still must be confirmed as normal.
 </div>
 </div>
