@@ -14,8 +14,8 @@ toc: true
 
 [[F-Droid Basic]] is the **preferred app store** for CalyxOS. All the apps available in F-Droid are free and **open source** software, and contain no trackers or advertising.
 
-* Install free software Android apps.
-* In addition to the standard F-Droid source for apps (aka "repository"), CalyxOS includes a source for CalyxOS apps, which allows us push out out-of-band updates for various apps when needed.
+* F-Droid only installs free software Android apps.
+* In addition to the standard F-Droid source for apps, CalyxOS includes an F-Droid source for CalyxOS apps, which allows the store to push updates for pre-installed apps when needed.
 
 In earlier versions, CalyxOS gave the client app (F-Droid) special privileges to streamline app updates, installs, and uninstalls. However, since [CalyxOS 5.1.2](https://calyxos.org/news/2023/11/30/november-feature-update/), these privileges have been dropped for new installs in favor of a newer client app (F-Droid Basic).
 
