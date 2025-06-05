@@ -16,9 +16,6 @@ modern_codenames:
   - fogo
   - bangkk
   - fogos
-  - rhode
-  - hawao
-  - devon
   - comet
   - komodo
   - caiman
@@ -39,10 +36,14 @@ modern_brands:
   - motorola
   - pixel
 extended_codenames:
+  - rhode
+  - hawao
+  - devon
   - barbet
   - bramble
   - redfin
 extended_brands:
+  - motorola
   - pixel
 previous_codenames:
   - lemonadep
