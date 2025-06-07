@@ -70,6 +70,7 @@ These apps are required for basic functionality and thus always present on the d
 | moto g52 | physical SIM, dual SIM |
 | moto g42 | physical SIM, dual SIM |
 | moto g32 | physical SIM, dual SIM |
+| Pixel 9a | any eSIM + physical SIM, dual SIM/eSIM |
 | Pixel 9 Pro Fold | any eSIM + physical SIM, dual SIM/eSIM |
 | Pixel 9 Pro XL | any eSIM + physical SIM, dual SIM/eSIM |
 | Pixel 9 Pro | any eSIM + physical SIM, dual SIM/eSIM |

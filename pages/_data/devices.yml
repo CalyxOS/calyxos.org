@@ -5,10 +5,8 @@ android_versions:
   - 13
   - 11
 upcoming_codenames:
-  - tegu
   - otter
 upcoming_brands:
-  - pixel
   - shift
 modern_codenames:
   - FP5
@@ -16,6 +14,7 @@ modern_codenames:
   - fogo
   - bangkk
   - fogos
+  - tegu
   - comet
   - komodo
   - caiman
