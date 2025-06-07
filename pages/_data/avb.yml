@@ -1,4 +1,7 @@
 ---
+- name: Pixel 9a
+  codename: tegu
+  avb_fingerprint: ""
 - name: Pixel 9 Pro Fold
   codename: comet
   avb_fingerprint: ""
