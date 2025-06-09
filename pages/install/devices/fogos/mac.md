@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxinstitute.org/fogos-factory-25607230.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/fogos-factory-25608210.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **moto g34 5G and g45 5G (fogos)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,14 +60,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/fogos-factory-25607230.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/fogos-factory-25608210.zip" | split: "/" | last %}
 {% include install/mac_image_digest.md filename=image %}
 
-And ensure the result says `2d04d64ce560e2777c52beab96d68fb368752611b372e88345da9d978da25bf8`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `8340f5436e7614d0bdf2256cdb6712f52797ad60cd1012689f3b9f687b060e8c`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/fogos-factory-25607230.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/fogos-factory-25608210.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 

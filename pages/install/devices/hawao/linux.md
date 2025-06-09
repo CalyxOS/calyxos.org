@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxinstitute.org/hawao-factory-25607230.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/hawao-factory-25608210.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **moto g42 (hawao)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,14 +60,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/hawao-factory-25607230.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/hawao-factory-25608210.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `8d2f8705285c7769ea9b5a5a3bb5bccf8ce8ee7687d632df62b3f34d8aea7333`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `d985cbacde79be63110f94747454187bfd834ff64bca5f74222f9bfa503c6a82`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/hawao-factory-25607230.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/hawao-factory-25608210.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 

@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxinstitute.org/bangkk-factory-25607230.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxinstitute.org/bangkk-factory-25608210.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **moto g84 5G (bangkk)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,14 +60,14 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/bangkk-factory-25607230.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxinstitute.org/bangkk-factory-25608210.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `d92141c4fc3d4e6fc6d0a1eb3344f1f87e295ca6fb952711d316ade1c26da499`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `db9ab330a1b5d5ebf131f378dca8b5f6400337f438a97aef2a09a1ba88f3935c`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 #### Verify Signature
 
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/bangkk-factory-25607230.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/bangkk-factory-25608210.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
 
 ## Install CalyxOS
 
