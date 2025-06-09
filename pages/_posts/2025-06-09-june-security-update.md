@@ -1,6 +1,6 @@
 ---
 title: June 2025 Security update
-date: 2025-05-07
+date: 2025-06-09
 ---
 
 * CalyxOS 6.8.20 and 6.8.21 - Android 15 is now available for all supported devices
