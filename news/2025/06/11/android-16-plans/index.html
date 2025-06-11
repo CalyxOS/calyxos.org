@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>January 2024 Feature update - CalyxOS 5.3.2</title>
+  <title>Android 16 and Pixel Support</title>
   
-  <meta name="description" content="January 2024 Feature update - CalyxOS 5.3.2" />
+  <meta name="description" content="Android 16 and Pixel Support" />
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="alternate" type="application/rss+xml" title="CalyxOS" href="/feed.xml">
   <script src="/assets/js/main.js" defer></script>
@@ -65,120 +65,68 @@
     <main>
       <section class="secondaryIntro">
         <div class="wrapper">
-          <h1><span class="highlighter">January 2024 Feature update - CalyxOS 5.3.2</span></h1>
+          <h1><span class="highlighter">Android 16 and Pixel Support</span></h1>
           
         </div>
       </section>
       <section class="content primaryContent wrapper">
         
         <ul>
-  <li>CalyxOS will have a stand at <a href="https://fosdem.org">FOSDEM</a>, Brussels, 3 &amp; 4 February, 2024.</li>
-  <li>SeedVault Backup can now backup even more apps, even when they don’t allow backup.</li>
+  <li>On June 10th, Google released Android 16 to AOSP - but without Pixel device-specific source code.</li>
+  <li>This unexpected change impacts all custom Android ROM development, including CalyxOS.</li>
+  <li>We’re adapting our plans and will share updates as development progresses.</li>
 </ul>
 
-<h2 id="matrix-channel">Matrix channel</h2>
+<p>Google has released Android 16 to AOSP, but this year’s release is different in a significant way: none of the usual source code for Pixel phones has been made available. This impacts not only CalyxOS, but the entire custom Android ecosystem.</p>
+
+<p>Here’s what we know so far.</p>
+
+<h3 id="androids-release-model-today">Android’s release model today</h3>
 
 <ul>
-  <li>If you’re having trouble trying to post messages to the <a href="https://matrix.to/#/#CalyxOS:matrix.org">#CalyxOS</a> matrix channel, try to leave the channel if possible, and then try writing <code class="language-plaintext highlighter-rouge">/join #CalyxOS:matrix.org</code> in any chat in Matrix. That should re-connect you to the channel.</li>
+  <li>Google continues to build on the <strong>trunk-stable / quarterly platform release (QPR)</strong> model, which has evolved since Android 12.</li>
+  <li>Instead of one big annual release, Android now rolls out larger and larger updates every quarter (QPRs), with features, UI changes, and improvements landing throughout the year.</li>
+  <li>This model improves consistency but increases complexity—especially for downstream projects like CalyxOS. We’ve already started porting our changes to AOSP 16, but this cycle presents new challenges.</li>
 </ul>
 
-<h2 id="pixel-4a-and-newer-moto-g32-g42-g52-fp4">Pixel 4a and newer, Moto G32, G42, G52, FP4</h2>
+<h3 id="why-android-16-is-different">Why Android 16 is different</h3>
 
-<table>
-  <thead>
-    <tr>
-      <th>Release channel</th>
-      <th>Date</th>
-      <th>Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Beta</td>
-      <td>27 January, Saturday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Security express</td>
-      <td>29 January, Monday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Stable</td>
-      <td>30 January, Tuesday</td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
+<p>Android 16 was released to <a href="https://android.googlesource.com/platform/manifest/+/android-16.0.0_r1">AOSP</a> yesterday but with a one big difference than typical releases:</p>
+<ul>
+  <li>**Google did not publish any device-specific source code for supported, modern Pixel devices.</li>
+  <li>In previous years, Google released full device trees alongside new Android versions. This allowed developers to build and boot AOSP on Pixel hardware relatively easily.</li>
+  <li>With Android 16, only the platform/framework code has been released. The device trees are missing, at least for now.</li>
+</ul>
 
-<h3 id="changelog">Changelog</h3>
+<p>This means AOSP 16 cannot currently be built or run on any recent Pixel device easily just using official source. It’s unclear whether this is a delay or a policy change. Either way, it seriously disrupts custom ROM development and our porting efforts.</p>
+
+<h3 id="calyxos-device-support-status">CalyxOS Device Support Status</h3>
+<h4 id="pixel-6---9a">Pixel 6 - 9a</h4>
 
 <ul>
-  <li>CalyxOS 5.3.2</li>
-  <li>January 2024 Feature update</li>
-  <li>Chromium: 121.0.6167.101 (latest stable)</li>
-  <li>SeedVault Backup: Add experimental support for forcing “D2D” transfer backups</li>
-  <li>SeedVault Backup: Pretend to be a device-to-device transfer to allow backing up many apps which prevent backup</li>
-  <li>SeedVault Backup: Stop backing up excluded app APKs</li>
-  <li>SeedVault Backup: Show size of app backups in Backup Status screen</li>
-  <li>Some fixes for USB restriction functionality</li>
-  <li>Work Profile: Fix “App &amp; Content access” screen, more fixes will be done in the next build</li>
-  <li>Panic: Fix occasional crash</li>
-  <li>Suggest the app Onionshare for new installs</li>
+  <li>Without official source code, these devices are currently unsupported for AOSP 16 builds.</li>
+  <li>Pixel devices were widely supported in the custom ROM space due to their open-source friendliness (until now).</li>
+  <li>We’ll need to approach them like other non-AOSP supported devices: with the GPL Linux kernel sources and updates to Android 15 device trees, which takes time and ongoing effort.</li>
 </ul>
 
-<h3 id="moto-g32-g42-g52">Moto G32, G42, G52</h3>
-<ul>
-  <li>USB fixes</li>
-</ul>
-
-<h2 id="pixel-4-4-xl-shift6mq">Pixel 4, 4 XL, SHIFT6mq</h2>
+<h4 id="fairphones-motorolas">Fairphones, Motorolas</h4>
 
 <ul>
-  <li>We have decided to release Android 14 for these devices in February</li>
-  <li>For the Pixel 4 and 4 XL, Face unlock will be missing.</li>
-  <li>For the SHIFT6mq, fingerprint may be missing, although we’re trying to figure out a workaround.</li>
-  <li>We feel that having the latest version of Android available will be good, even with this one limitation.</li>
-  <li>Also, given most of our devices are on Android 14, it’ll be far easier for us to manage one version of Android.</li>
+  <li>We’ll look into the status of Android 16 on these devices after we’re done with porting CalyxOS changes in general to AOSP 16</li>
+  <li>We’ll post an update per device once we know more.</li>
 </ul>
 
-<h2 id="pixel-3-3-xl-3a-3a-xl">Pixel 3, 3 XL, 3a, 3a XL</h2>
+<h4 id="pixel-5-series">Pixel 5 series</h4>
 
 <ul>
-  <li>We ran into an issue with the Android 14 port for these devices, where it doesn’t boot</li>
-  <li>Still looking into the root cause, we’re trying to figure out a fix and release a new version as soon as possible.</li>
+  <li>We’ll look into the status of Android 16 at the end, and see what we can do, wrt extending support.</li>
 </ul>
 
-<h2 id="fp5">FP5</h2>
-
+<h3 id="references">References</h3>
 <ul>
-  <li>Android 14 Work in progress, mostly done</li>
-  <li>All hardware seems to be functional</li>
+  <li><a href="https://source.android.com/docs/setup/start">Building AOSP for Pixel Devices (Android 15 Guide)</a></li>
+  <li><a href="https://android.googlesource.com/">AOSP Source code</a></li>
 </ul>
-
-<h2 id="note">Note</h2>
-
-<div class="alert alert-info" style="margin-top: 3rem">
-<ul>
-  <li>
-    <strong>Over-the-air Updates:</strong>
-    <a href="/docs/guide/updates/">CalyxOS updates</a> are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see <a href="/get/ota/">OTA</a>.
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Pixel 9a, 9 Pro Fold, 9 Pro XL, 9 Pro, 9, 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Fairphone 5, 4, Motorola moto g 5G - 2024, moto g84 5G, moto g34 and g45 5G</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
-    <strong>End-of-life:</strong>
-    The <strong>Motorola moto g52, moto g42, moto g32, Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
-  </li>
-</ul>
-</div>
-
 
 
       </section>
@@ -223,7 +171,7 @@
     <div class="row">
       <a href="https://calyxinstitute.org" target="_blank" rel="noreferrer nooopener">&copy; 2021-2024 Calyx Institute</a>
       <span class="spacer" aria-hidden="true">&bull;</span>
-      <a target="_blank" href="https://review.calyxos.org/admin/repos/edit/repo/CalyxOS/calyxos.org/branch/refs/heads/main/file/pages/_posts/2024-01-27-january-feature-update.md">Edit page</a>
+      <a target="_blank" href="https://review.calyxos.org/admin/repos/edit/repo/CalyxOS/calyxos.org/branch/refs/heads/main/file/pages/_posts/2025-06-11-android-16-plans.md">Edit page</a>
     </div>
     <div class="row">
       <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer nofollow" title="License: Attribution-ShareAlike 4.0 International"><img class="filter-grey" style="height: 24px" src="/assets/images/icons/cc-by-sa.svg" /></a>
