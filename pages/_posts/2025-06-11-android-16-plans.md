@@ -20,7 +20,7 @@ Here’s what we know so far.
 ### Why Android 16 is different
 
 Android 16 was released to [AOSP](https://android.googlesource.com/platform/manifest/+/android-16.0.0_r1) yesterday but with a one big difference than typical releases:
-* **Google did not publish any device-specific source code for supported, modern Pixel devices.
+* **Google did not publish any device-specific source code for supported, modern Pixel devices.**
 * In previous years, Google released full device trees alongside new Android versions. This allowed developers to build and boot AOSP on Pixel hardware relatively easily.
 * With Android 16, only the platform/framework code has been released. The device trees are missing, at least for now.
 
