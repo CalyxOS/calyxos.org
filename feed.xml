@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-06-12T00:53:37+05:30</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Android 16 and Pixel Support</title><link href="/news/2025/06/11/android-16-plans/" rel="alternate" type="text/html" title="Android 16 and Pixel Support" /><published>2025-06-11T00:00:00+05:30</published><updated>2025-06-11T00:00:00+05:30</updated><id>/news/2025/06/11/android-16-plans</id><content type="html" xml:base="/news/2025/06/11/android-16-plans/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-06-26T21:25:20+00:00</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Community update - our progress on CalyxOS after the release of Android 16</title><link href="/news/2025/06/26/community-update-android-16/" rel="alternate" type="text/html" title="Community update - our progress on CalyxOS after the release of Android 16" /><published>2025-06-26T00:00:00+00:00</published><updated>2025-06-26T00:00:00+00:00</updated><id>/news/2025/06/26/community-update-android-16</id><content type="html" xml:base="/news/2025/06/26/community-update-android-16/"><![CDATA[<ul>
+  <li>We have analyzed the potential impact on CalyxOS that the release of Android 16 will have, and the future trends it may be imply.</li>
+  <li>Given the upstream changes and internal needs, the CalyxOS team is revising our development methodologies and processes for secure and streamlined future updates.</li>
+  <li>In the last two weeks, we have made significant progress in building and running Android 16 on Pixel 6 and newer Pixels.</li>
+  <li>We are working to bring up the rest of modern Pixels before shifting focus to Motorola and Fairphone devices.</li>
+</ul>
+
+<p>As we shared in our <a href="https://calyxos.org/news/2025/06/11/android-16-plans/">previous announcement</a>, the biggest change Google made with the release of Android 16 to AOSP was to not release the Pixel device configuration sources (device trees) and its driver binaries. Because Google has been leading the development of AOSP, this move not only means that Google’s internal development progress will further impact the timelines of custom Android distributions (ROMs), but also indicates that what has previously been open to the entire free and open-source software (FOSS) community is slowly and gradually being closed.</p>
+
+<h3 id="what-it-means-to-calyxos-future-plans">What it means to CalyxOS future plans</h3>
+
+<p>For developing CalyxOS (and other peer custom Android ROMs) on a variety of devices, there are three key elements to ensure coherent and consistent maintenance: device kernels, device trees, and the proprietary binaries used for different components of the system. In the past, releases of Android versions usually included Pixel device trees in AOSP or otherwise made them available for download. This allowed custom Android ROM developers to easily identify the configurations Google made in new Android versions and customize them accordingly. Starting with the Android 16 release, FOSS custom ROM developers will need to build and maintain their own device trees for Pixels, which takes a lot of guesswork and reverse engineering. Comparing code changes and finding ways around proprietary codes will be a major burden in all future updates.</p>
+
+<p>However, this impact is somewhat limited on CalyxOS. A key factor in our resilience is that CalyxOS has been supporting devices from a diverse range of phone makers besides the Google Pixels — such as Motorolas, Fairphones, and SHIFTphones — which helps us adapt to device-specific development processes and code availabilities. Furthermore, our testing has been focusing on replicating real world experience seamlessly in our development process and we will continue this effort.</p>
+
+<p>With this trend, we are also anticipating more changes in Android 16 QPR1 or QPR2 that could potentially impact kernels — there could be features that existing device kernels are not compatible with and will require significant work to continue to support past each of these AOSP updates.</p>
+
+<p>The trend of Google’s gradual privatization of Android OS development, albeit challenging to all custom ROM developers, has drawn attention to the importance and efficiency of tools, methodologies and processes in each stage of the development, signing and release, especially when it is happening across 20+ devices on a regular cadence, and respects the significance of quick security updates. This most recent change has prompted a close look into our current workflow. Concurrently, we are conducting a series of serious internal reprioritizations, including development (cleaning device trees, automating the extracting and matching stock properties and policies), release (preparing to make it easier for future updates), and key signing (reinforcing and ensuring key integrity, resilience, audibility, and a secure chain of trust). As a result, our users will see a hiatus in our usual schedule with respect to security and general updates. We sincerely apologize for the impact this hiatus has on users of CalyxOS, but we believe this overhaul is vital to ensuring we can put our best efforts into protecting the privacy and digital security of people who trust us by using and contributing to CalyxOS.</p>
+
+<h3 id="what-people-should-know-with-devices-we-currently-support">What people should know with devices we currently support</h3>
+
+<h4 id="pixels">Pixels</h4>
+
+<h5 id="modern-pixels">Modern Pixels</h5>
+<p>We have made significant progress bringing up Android 16 on all currently supported modern Pixels with GS201/GS101 chips (Pixel 6 and later models). We are cleaning up the Pixel device trees to make them easier to mantain and update in the future. Support is planned to continue despite the changes introduced by Google in Android 16. Update dates in the near future will be delayed as we adjust and improve our processes to build a sustainable and secure pipeline.</p>
+
+<h5 id="extended-support-pixels">Extended support Pixels</h5>
+<p>Pixel devices in our <a href="https://calyxos.org/docs/guide/device-support/" target="_blank">extended support category</a> will be evaluated after mainline Android 16 work is done. We will share more details once we complete the assessment of the possible kernel backport work required in the near future and feature compatibility.</p>
+
+<h4 id="motorola-fairphone">Motorola, Fairphone</h4>
+<p>We are currently focused on completing our Android 16 port to Pixel devices. Support timeline will be reviewed afterwards with updates to follow per model.</p>
+
+<h3 id="looking-ahead">Looking ahead</h3>
+
+<p>Our next step is to consolidate the schedule for ensuing updates and share it publicly, as is expected from our community. This will include adjusting timelines for Android 16 and security updates in the near future, between now and QPR1. If you are using CalyxOS with a device mentioned above, please stay tuned on our website for the update schedule. If you are looking to start using CalyxOS today, we recommend that you kindly wait for our next update. You can reach us in our <a href="https://calyxos.org/community/" target="_blank">community channels</a> for any specific questions about CalyxOS, Android 16 and our plan. We will strive to release timely updates on our progress and plan as we have them, to our website.</p>
+
+<p>As part of our broader mission, the Calyx Institute and CalyxOS team is committed to providing privacy-respecting tools and resources, centering on CalyxOS, that are accessible and usable by people, even as the Android landscape continues to change.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[We have analyzed the potential impact on CalyxOS that the release of Android 16 will have, and the future trends it may be imply. Given the upstream changes and internal needs, the CalyxOS team is revising our development methodologies and processes for secure and streamlined future updates. In the last two weeks, we have made significant progress in building and running Android 16 on Pixel 6 and newer Pixels. We are working to bring up the rest of modern Pixels before shifting focus to Motorola and Fairphone devices.]]></summary></entry><entry><title type="html">Android 16 and Pixel Support</title><link href="/news/2025/06/11/android-16-plans/" rel="alternate" type="text/html" title="Android 16 and Pixel Support" /><published>2025-06-11T00:00:00+00:00</published><updated>2025-06-11T00:00:00+00:00</updated><id>/news/2025/06/11/android-16-plans</id><content type="html" xml:base="/news/2025/06/11/android-16-plans/"><![CDATA[<ul>
   <li>On June 10th, Google released Android 16 to AOSP - but without Pixel device-specific source code.</li>
   <li>This unexpected change impacts all custom Android ROM development, including CalyxOS.</li>
   <li>We’re adapting our plans and will share updates as development progresses.</li>
@@ -53,7 +89,7 @@
 <ul>
   <li><a href="https://source.android.com/docs/setup/start">Building AOSP for Pixel Devices (Android 15 Guide)</a></li>
   <li><a href="https://android.googlesource.com/">AOSP Source code</a></li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[On June 10th, Google released Android 16 to AOSP - but without Pixel device-specific source code. This unexpected change impacts all custom Android ROM development, including CalyxOS. We’re adapting our plans and will share updates as development progresses.]]></summary></entry><entry><title type="html">June 2025 Security update</title><link href="/news/2025/06/09/june-security-update/" rel="alternate" type="text/html" title="June 2025 Security update" /><published>2025-06-09T00:00:00+05:30</published><updated>2025-06-09T00:00:00+05:30</updated><id>/news/2025/06/09/june-security-update</id><content type="html" xml:base="/news/2025/06/09/june-security-update/"><![CDATA[<ul>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[On June 10th, Google released Android 16 to AOSP - but without Pixel device-specific source code. This unexpected change impacts all custom Android ROM development, including CalyxOS. We’re adapting our plans and will share updates as development progresses.]]></summary></entry><entry><title type="html">June 2025 Security update</title><link href="/news/2025/06/09/june-security-update/" rel="alternate" type="text/html" title="June 2025 Security update" /><published>2025-06-09T00:00:00+00:00</published><updated>2025-06-09T00:00:00+00:00</updated><id>/news/2025/06/09/june-security-update</id><content type="html" xml:base="/news/2025/06/09/june-security-update/"><![CDATA[<ul>
   <li>CalyxOS 6.8.20 and 6.8.21 - Android 15 is now available for all supported devices</li>
   <li>June security update (2025-06-01)</li>
 </ul>
@@ -121,7 +157,7 @@
     The <strong>Motorola moto g52, moto g42, moto g32, Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.8.20 and 6.8.21 - Android 15 is now available for all supported devices June security update (2025-06-01)]]></summary></entry><entry><title type="html">Pixel 9a</title><link href="/news/2025/06/09/pixel-9a/" rel="alternate" type="text/html" title="Pixel 9a" /><published>2025-06-09T00:00:00+05:30</published><updated>2025-06-09T00:00:00+05:30</updated><id>/news/2025/06/09/pixel-9a</id><content type="html" xml:base="/news/2025/06/09/pixel-9a/"><![CDATA[<ul>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.8.20 and 6.8.21 - Android 15 is now available for all supported devices June security update (2025-06-01)]]></summary></entry><entry><title type="html">Pixel 9a</title><link href="/news/2025/06/09/pixel-9a/" rel="alternate" type="text/html" title="Pixel 9a" /><published>2025-06-09T00:00:00+00:00</published><updated>2025-06-09T00:00:00+00:00</updated><id>/news/2025/06/09/pixel-9a</id><content type="html" xml:base="/news/2025/06/09/pixel-9a/"><![CDATA[<ul>
   <li>Google Pixel 9a is now officially supported by CalyxOS</li>
   <li>CalyxOS 6.8.10 - Android 15, QPR1, June 2025 Security update (2025-06-01)</li>
   <li>We welcome feedback at [[community]]</li>
@@ -160,7 +196,7 @@ our other supported devices, and is therefore missing some of the most recent ch
     The <strong>Motorola moto g52, moto g42, moto g32, Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[Google Pixel 9a is now officially supported by CalyxOS CalyxOS 6.8.10 - Android 15, QPR1, June 2025 Security update (2025-06-01) We welcome feedback at [[community]]]]></summary></entry><entry><title type="html">May 2025 Feature update</title><link href="/news/2025/05/28/may-feature-update/" rel="alternate" type="text/html" title="May 2025 Feature update" /><published>2025-05-28T00:00:00+05:30</published><updated>2025-05-28T00:00:00+05:30</updated><id>/news/2025/05/28/may-feature-update</id><content type="html" xml:base="/news/2025/05/28/may-feature-update/"><![CDATA[<ul>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[Google Pixel 9a is now officially supported by CalyxOS CalyxOS 6.8.10 - Android 15, QPR1, June 2025 Security update (2025-06-01) We welcome feedback at [[community]]]]></summary></entry><entry><title type="html">May 2025 Feature update</title><link href="/news/2025/05/28/may-feature-update/" rel="alternate" type="text/html" title="May 2025 Feature update" /><published>2025-05-28T00:00:00+00:00</published><updated>2025-05-28T00:00:00+00:00</updated><id>/news/2025/05/28/may-feature-update</id><content type="html" xml:base="/news/2025/05/28/may-feature-update/"><![CDATA[<ul>
   <li>CalyxOS 6.7.23 - May 2025 Feature update for all supported devices</li>
   <li>Smaller update as we prepare for Android 16 with upstream release due next week</li>
 </ul>
@@ -238,7 +274,7 @@ our other supported devices, and is therefore missing some of the most recent ch
     The <strong>Motorola moto g52, moto g42, moto g32, Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.7.23 - May 2025 Feature update for all supported devices Smaller update as we prepare for Android 16 with upstream release due next week]]></summary></entry><entry><title type="html">Four new Motorola devices added to CalyxOS support list</title><link href="/news/2025/05/28/new-motorola-device-support/" rel="alternate" type="text/html" title="Four new Motorola devices added to CalyxOS support list" /><published>2025-05-28T00:00:00+05:30</published><updated>2025-05-28T00:00:00+05:30</updated><id>/news/2025/05/28/new-motorola-device-support</id><content type="html" xml:base="/news/2025/05/28/new-motorola-device-support/"><![CDATA[<ul>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.7.23 - May 2025 Feature update for all supported devices Smaller update as we prepare for Android 16 with upstream release due next week]]></summary></entry><entry><title type="html">Four new Motorola devices added to CalyxOS support list</title><link href="/news/2025/05/28/new-motorola-device-support/" rel="alternate" type="text/html" title="Four new Motorola devices added to CalyxOS support list" /><published>2025-05-28T00:00:00+00:00</published><updated>2025-05-28T00:00:00+00:00</updated><id>/news/2025/05/28/new-motorola-device-support</id><content type="html" xml:base="/news/2025/05/28/new-motorola-device-support/"><![CDATA[<ul>
   <li>Four new devices, moto g 5G - 2024, g34 5G, g45 5G, g84 5G, are now on CalyxOS support list for Motorola phones</li>
   <li>We welcome feedback at [[community]]</li>
 </ul>
@@ -309,7 +345,7 @@ our other supported devices, and is therefore missing some of the most recent ch
     The <strong>Motorola moto g52, moto g42, moto g32, Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[Four new devices, moto g 5G - 2024, g34 5G, g45 5G, g84 5G, are now on CalyxOS support list for Motorola phones We welcome feedback at [[community]]]]></summary></entry><entry><title type="html">Important notice regarding external storage bypass vulnerability</title><link href="/news/2025/05/21/external-storage-bypass/" rel="alternate" type="text/html" title="Important notice regarding external storage bypass vulnerability" /><published>2025-05-21T00:00:00+05:30</published><updated>2025-05-21T00:00:00+05:30</updated><id>/news/2025/05/21/external-storage-bypass</id><content type="html" xml:base="/news/2025/05/21/external-storage-bypass/"><![CDATA[<ul>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[Four new devices, moto g 5G - 2024, g34 5G, g45 5G, g84 5G, are now on CalyxOS support list for Motorola phones We welcome feedback at [[community]]]]></summary></entry><entry><title type="html">Important notice regarding external storage bypass vulnerability</title><link href="/news/2025/05/21/external-storage-bypass/" rel="alternate" type="text/html" title="Important notice regarding external storage bypass vulnerability" /><published>2025-05-21T00:00:00+00:00</published><updated>2025-05-21T00:00:00+00:00</updated><id>/news/2025/05/21/external-storage-bypass</id><content type="html" xml:base="/news/2025/05/21/external-storage-bypass/"><![CDATA[<ul>
   <li>An AOSP security vulnerability allows third-party apps to bypass external storage restrictions and access sensitive folders without permissions.</li>
   <li>Google has received at least two reports of this issue, however, they have not released any public disclosure about status of the issue to this date.</li>
   <li>CalyxOS has released a fix to this issue with CalyxOS 6.6.22 and 6.6.23 in April 2025.</li>
@@ -336,7 +372,7 @@ As always, we recommend adhering to best practices for digital hygiene in genera
 <p>Individual users should update to the latest CalyxOS release (6.6.22, 6.6.23 or newer) to protect themselves against this vulnerability. The CalyxOS team will continue monitor the issue on AOSP as it remains undisclosed and unresolved by the Google team.</p>
 
 <h4 id="gitlab-issue-link">GitLab Issue link</h4>
-<p><a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2848">https://gitlab.com/CalyxOS/calyxos/-/issues/2848</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[An AOSP security vulnerability allows third-party apps to bypass external storage restrictions and access sensitive folders without permissions. Google has received at least two reports of this issue, however, they have not released any public disclosure about status of the issue to this date. CalyxOS has released a fix to this issue with CalyxOS 6.6.22 and 6.6.23 in April 2025.]]></summary></entry><entry><title type="html">May 2025 Security update - take two</title><link href="/news/2025/05/09/may-security-update2/" rel="alternate" type="text/html" title="May 2025 Security update - take two" /><published>2025-05-09T00:00:00+05:30</published><updated>2025-05-09T00:00:00+05:30</updated><id>/news/2025/05/09/may-security-update2</id><content type="html" xml:base="/news/2025/05/09/may-security-update2/"><![CDATA[<ul>
+<p><a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2848">https://gitlab.com/CalyxOS/calyxos/-/issues/2848</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[An AOSP security vulnerability allows third-party apps to bypass external storage restrictions and access sensitive folders without permissions. Google has received at least two reports of this issue, however, they have not released any public disclosure about status of the issue to this date. CalyxOS has released a fix to this issue with CalyxOS 6.6.22 and 6.6.23 in April 2025.]]></summary></entry><entry><title type="html">May 2025 Security update - take two</title><link href="/news/2025/05/09/may-security-update2/" rel="alternate" type="text/html" title="May 2025 Security update - take two" /><published>2025-05-09T00:00:00+00:00</published><updated>2025-05-09T00:00:00+00:00</updated><id>/news/2025/05/09/may-security-update2</id><content type="html" xml:base="/news/2025/05/09/may-security-update2/"><![CDATA[<ul>
   <li>CalyxOS 6.7.21-2 - Android 15 is now available for the FP5, FP4, Moto G32, G42, G52, Pixel 5a, 5, 4a (5G)</li>
   <li>May security update (2025-05-05)</li>
 </ul>
@@ -399,7 +435,7 @@ As always, we recommend adhering to best practices for digital hygiene in genera
     The <strong>Motorola moto g52, moto g42, moto g32, Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.7.21-2 - Android 15 is now available for the FP5, FP4, Moto G32, G42, G52, Pixel 5a, 5, 4a (5G) May security update (2025-05-05)]]></summary></entry><entry><title type="html">May 2025 Security update - Pixel 6 - 9</title><link href="/news/2025/05/07/may-security-update/" rel="alternate" type="text/html" title="May 2025 Security update - Pixel 6 - 9" /><published>2025-05-07T00:00:00+05:30</published><updated>2025-05-07T00:00:00+05:30</updated><id>/news/2025/05/07/may-security-update</id><content type="html" xml:base="/news/2025/05/07/may-security-update/"><![CDATA[<ul>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.7.21-2 - Android 15 is now available for the FP5, FP4, Moto G32, G42, G52, Pixel 5a, 5, 4a (5G) May security update (2025-05-05)]]></summary></entry><entry><title type="html">May 2025 Security update - Pixel 6 - 9</title><link href="/news/2025/05/07/may-security-update/" rel="alternate" type="text/html" title="May 2025 Security update - Pixel 6 - 9" /><published>2025-05-07T00:00:00+00:00</published><updated>2025-05-07T00:00:00+00:00</updated><id>/news/2025/05/07/may-security-update</id><content type="html" xml:base="/news/2025/05/07/may-security-update/"><![CDATA[<ul>
   <li>CalyxOS 6.7.20 - Android 15 is now available for Pixel 6 - 9 devices</li>
   <li>May security update (2025-05-05)</li>
   <li>IMPORTANT: Certain Pixel devices won’t be able to downgrade after this update</li>
@@ -472,7 +508,7 @@ As always, we recommend adhering to best practices for digital hygiene in genera
     The <strong>Motorola moto g52, moto g42, moto g32, Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.7.20 - Android 15 is now available for Pixel 6 - 9 devices May security update (2025-05-05) IMPORTANT: Certain Pixel devices won’t be able to downgrade after this update]]></summary></entry><entry><title type="html">Why we are phasing out the Cleartext Restriction feature</title><link href="/news/2025/05/06/cleartext-restriction/" rel="alternate" type="text/html" title="Why we are phasing out the Cleartext Restriction feature" /><published>2025-05-06T00:00:00+05:30</published><updated>2025-05-06T00:00:00+05:30</updated><id>/news/2025/05/06/cleartext-restriction</id><content type="html" xml:base="/news/2025/05/06/cleartext-restriction/"><![CDATA[<ul>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.7.20 - Android 15 is now available for Pixel 6 - 9 devices May security update (2025-05-05) IMPORTANT: Certain Pixel devices won’t be able to downgrade after this update]]></summary></entry><entry><title type="html">Why we are phasing out the Cleartext Restriction feature</title><link href="/news/2025/05/06/cleartext-restriction/" rel="alternate" type="text/html" title="Why we are phasing out the Cleartext Restriction feature" /><published>2025-05-06T00:00:00+00:00</published><updated>2025-05-06T00:00:00+00:00</updated><id>/news/2025/05/06/cleartext-restriction</id><content type="html" xml:base="/news/2025/05/06/cleartext-restriction/"><![CDATA[<ul>
   <li>An in-depth explanation of our decision to retire the “Restrict cleartext network traffic” feature</li>
   <li>Next steps for users who are using this feature</li>
 </ul>
@@ -520,128 +556,4 @@ AOSP explicitly states that this feature is meant to prevent accidental cleartex
 <ul>
   <li><a href="https://gitlab.com/CalyxOS/calyxos/-/issues/1948" target="_blank">#1948</a></li>
   <li><a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2521" target="_blank">#2521</a></li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[An in-depth explanation of our decision to retire the “Restrict cleartext network traffic” feature Next steps for users who are using this feature]]></summary></entry><entry><title type="html">April 2025 Feature update</title><link href="/news/2025/04/25/april-feature-update/" rel="alternate" type="text/html" title="April 2025 Feature update" /><published>2025-04-25T00:00:00+05:30</published><updated>2025-04-25T00:00:00+05:30</updated><id>/news/2025/04/25/april-feature-update</id><content type="html" xml:base="/news/2025/04/25/april-feature-update/"><![CDATA[<ul>
-  <li>CalyxOS 6.6.22 - April 2025 Feature update for FP5, FP4, Moto g32, g42, g52, Pixel 4a (5G) - 9</li>
-  <li>One of our biggest yet with a lot of features and long-pending bug fixes</li>
-  <li>Upcoming devices are work in progress</li>
-</ul>
-
-<h3 id="rollout">Rollout</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>Release channel</th>
-      <th>Date</th>
-      <th>Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Beta</td>
-      <td>25 April, Friday</td>
-      <td>6.6.22</td>
-    </tr>
-    <tr>
-      <td>Security express</td>
-      <td>25 April, Friday</td>
-      <td>6.6.22</td>
-    </tr>
-    <tr>
-      <td>Beta</td>
-      <td>30 April, Wednesday</td>
-      <td>6.6.23, with fixes</td>
-    </tr>
-    <tr>
-      <td>Security express</td>
-      <td>30 April, Wednesday</td>
-      <td>6.6.23, with fixes</td>
-    </tr>
-    <tr>
-      <td>Stable</td>
-      <td>1 May, Thursday</td>
-      <td>6.6.23</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="changelog">Changelog</h3>
-<ul>
-  <li>CalyxOS 6.6.23</li>
-  <li>April 2025 Feature update</li>
-  <li>Temporarily remove charging control suppport</li>
-  <li>Phasing out the Cleartext Restriction feature <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2987">#2987</a></li>
-  <li>Allow configuring timeout for microphone and camera access, from Settings -&gt; Security and privacy -&gt; Privacy controls <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/1597">#1597</a></li>
-  <li>Chromium: 135.0.7049.111</li>
-  <li>Chromium: Don’t save payment methods or addresses by default <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/3060">#3060</a></li>
-  <li>Chromium: Increase wait before declaring HTTPS unavailable <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2974">#2974</a></li>
-  <li>Chromium: Ask before opening apps <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2655">#2655</a></li>
-  <li>microG: Display data being set to Google in app <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/713">#713</a></li>
-  <li>microG: v0.3.7</li>
-  <li>microG: Work Profile: You can now sign into various work accounts that setup a work profile when using microG. <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/1799">#1799</a></li>
-  <li>microG: Play Feature Delivery: Apps can request installation of additional languages or features from split packages. You can activate this from microG Settings &gt; Play Store</li>
-  <li>microG: Face detection: This release ships with initial support for Google’s Face Detection API. This functionality is still very incomplete, but works for some apps using it.</li>
-  <li>microG: Improve Barcode Scanning APIs</li>
-  <li>microG: Various fixes for quick login and third-party Google sign-in</li>
-  <li>microG: DroidGuard: Disable access to hardware attestation.</li>
-  <li>microG: Various fixes to improve support for Google Apps</li>
-  <li>Seedvault Backup: 15-5.5</li>
-  <li>Seedvault: Unify scheduling of app and file backup, now they always run one after the other</li>
-  <li>Seedvault: Fix bug where we didn’t find any backups, if user had only file backups</li>
-  <li>Seedvault: Launch foreground service when finalizing backup to prevent system from freezing us</li>
-  <li>Seedvault: Auto-retry more WebDAV connection errors</li>
-  <li>Settings: Protect sensitive data in mobile network settings</li>
-  <li>Settings: Fix unrestricted data toggle switches <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2547">#2547</a></li>
-  <li>Keyboard: Various fixes <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/3077">#3077</a> <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2916">#2916</a> <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/1901">#1901</a> <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/1890">#1890</a></li>
-  <li>Camera: Fix wrong orientation of pictures <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/1450">#1450</a></li>
-  <li>PDF Viewer: Fix opening of saved files <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/3071">#3071</a></li>
-  <li>Messaging: Fix MMS download <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/3121">#3121</a></li>
-  <li>Remove eSpeak launcher icon <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/3040">#3040</a></li>
-  <li>Fix Android Auto showing up in private space and secondary users <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/3032">#3032</a></li>
-  <li>Add Aurora Store &amp; F-Droid to private space by default, if installed <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2933">#2933</a></li>
-  <li>Fix various settings which didn’t work correctly across multiple users</li>
-  <li>Support Private space on secondary users</li>
-  <li>Fix auto brightness toggle in status bar <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/3069">#3069</a></li>
-  <li>Switch to Thunderbird for new installs</li>
-  <li>Add test property to restart apps that were stopped by backup <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2887">#2887</a> <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2816">#2816</a></li>
-  <li>Update all included apps</li>
-  <li>Update translations</li>
-</ul>
-
-<h4 id="fp4">FP4</h4>
-<ul>
-  <li>Fix some media playback issues <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/3189">#3189</a></li>
-</ul>
-
-<h4 id="moto-g32-g42-g52">Moto G32, G42, G52</h4>
-<ul>
-  <li>Always show and allow editing enhanced 4G calling setting <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2895">#2895</a></li>
-</ul>
-
-<h4 id="pixel-6---9">Pixel 6 - 9</h4>
-<ul>
-  <li>Always show and allow editing enhanced 4G calling setting <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2895">#2895</a></li>
-</ul>
-
-<h2 id="note">Note</h2>
-
-<div class="alert alert-info" style="margin-top: 3rem">
-<ul>
-  <li>
-    <strong>Over-the-air Updates:</strong>
-    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Pixel 9a, 9 Pro Fold, 9 Pro XL, 9 Pro, 9, 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Fairphone 5, 4, Motorola moto g 5G - 2024, moto g84 5G, moto g34 and g45 5G</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
-    <strong>End-of-life:</strong>
-    The <strong>Motorola moto g52, moto g42, moto g32, Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
-  </li>
-</ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.6.22 - April 2025 Feature update for FP5, FP4, Moto g32, g42, g52, Pixel 4a (5G) - 9 One of our biggest yet with a lot of features and long-pending bug fixes Upcoming devices are work in progress]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[An in-depth explanation of our decision to retire the “Restrict cleartext network traffic” feature Next steps for users who are using this feature]]></summary></entry></feed>
