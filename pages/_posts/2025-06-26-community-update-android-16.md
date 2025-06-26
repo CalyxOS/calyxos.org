@@ -1,5 +1,5 @@
 ---
-title: Community update: our progress on CalyxOS after the release of Android 16
+title: Community update - our progress on CalyxOS after the release of Android 16
 date: 2025-06-26
 ---
 
