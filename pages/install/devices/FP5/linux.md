@@ -7,6 +7,9 @@ toc: true
 <strong>[[Install => install]]</strong> / <strong><a href="/install/devices/FP5/">Fairphone 5</a></strong>
 
 
+## Downloads temporarily removed
+Downloads for this device have been temporarily removed <a href="/install/antirollback-update-pending">pending an antirollback update</a>.
+
 
 ## Terminology
 
@@ -47,27 +50,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxinstitute.org/FP5-factory-25608210.zip">Download CalyxOS Image</a>
-
-
-Save this image in the same directory as device-flasher. This image will **only** work for **Fairphone 5 (FP5)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
-
-Do not extract or rename the zip, simply copy it as-is.
-
-Once downloaded, the next step is to verify the image. This step is optional, but verification helps ensure that you downloaded the image correctly, and that you got the correct image.
-
-#### Verify Digest
-
-To verify the image, open a terminal window on the host computer where you saved the image and run the command:
-
-{% assign image = "https://release.calyxinstitute.org/FP5-factory-25608210.zip" | split: "/" | last %}
-{% include install/linux_image_digest.md filename=image %}
-
-And ensure the result says `cc4c5b174e91b9df7f58945ac868cc6871d92dcf9569b5cc311e61a9a6e0849e`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
-
-#### Verify Signature
-
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/FP5-factory-25608210.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+<a class="btn" href="/install/antirollback-update-pending">Downloads temporarily removed</a>
 
 ## Install CalyxOS
 
