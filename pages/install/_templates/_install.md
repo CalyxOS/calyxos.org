@@ -6,8 +6,9 @@ toc: true
 
 <strong>[[Install => install]]</strong> / <strong><a href="/install/devices/{{codename}}/">{{name}}</a></strong>
 
-{% if version == "0.0.0" %}
+{% if antirollback_update_pending %}
 ## Downloads temporarily removed
+Downloads for this device have been temporarily removed <a href="{{antirollback_update_pending_link}}">pending an antirollback update</a>.
 {% endif %}
 
 ## Terminology
@@ -48,11 +49,11 @@ This step might fail if there is no internet connection. In that case, connect t
 
 ### Download factory image
 
-{% if version == "0.0.0" %}
+{% if antirollback_update_pending %}
 <a class="btn">Downloads temporarily removed</a>
 {% else %}
 <a class="btn" href="{{factory_link}}">Download CalyxOS Image</a>
-{% endif %}
+
 
 Save this image in the same directory as device-flasher. This image will **only** work for **{{name}} ({{codename}})**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
@@ -72,7 +73,7 @@ And ensure the result says `{{factory_sha256}}`. This is the unique digest of th
 #### Verify Signature
 
 For the highest level of confidence, you can optionally <a href="{{factory_link | append: '.minisig' }}">download the signature file</a> and then [[verify image signature => verify]].
-
+{% endif %}
 ## Install CalyxOS
 
 ### Run device-flasher

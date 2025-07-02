@@ -27,10 +27,16 @@
 {%   for device in site.data.devices.modern_codenames %}
 {%     if site.data.devices[device].brand == brand %}
 {%       if site.data.devices[device].link != nil %}
-<a style="white-space: nowrap; margin-right: 1em" href="{{site.data.devices[device].link }}">{{site.data.devices[device].model}}</a>
+{%         assign link = site.data.devices[device].link %}
 {%       else %}
-<a style="white-space: nowrap; margin-right: 1em" href="install/devices/{{device}}">{{site.data.devices[device].model}}</a>
+{%         assign release = site.data.downloads["factory"] | where: "codename", device | first %}
+{%         if release.antirollback_update_pending %}
+{%           assign link = site.data.downloads["antirollback_update_pending_link"] %}
+{%         else %}
+{%           capture link %}install/devices/{{device}}{% endcapture %}
+{%         endif %}
 {%       endif %}
+<a style="white-space: nowrap; margin-right: 1em" href="{{link}}">{{site.data.devices[device].model}}</a>
 {%     endif %}
 {%   endfor %}
 </td>
@@ -44,10 +50,16 @@
 {%   for device in site.data.devices.extended_codenames %}
 {%     if site.data.devices[device].brand == brand %}
 {%       if site.data.devices[device].link != nil %}
-<a style="white-space: nowrap; margin-right: 1em" href="{{site.data.devices[device].link }}">{{site.data.devices[device].model}}</a>
+{%         assign link = site.data.devices[device].link %}
 {%       else %}
-<a style="white-space: nowrap; margin-right: 1em" href="install/devices/{{device}}">{{site.data.devices[device].model}}</a>
+{%         assign release = site.data.downloads["factory"] | where: "codename", device | first %}
+{%         if release.antirollback_update_pending %}
+{%           assign link = site.data.downloads["antirollback_update_pending_link"] %}
+{%         else %}
+{%           capture link %}install/devices/{{device}}{% endcapture %}
+{%         endif %}
 {%       endif %}
+<a style="white-space: nowrap; margin-right: 1em" href="{{link}}">{{site.data.devices[device].model}}</a>
 {%     endif %}
 {%   endfor %}
 </td>
@@ -61,10 +73,11 @@
 {%   for device in site.data.devices.previous_codenames %}
 {%     if site.data.devices[device].brand == brand %}
 {%       if site.data.devices[device].link != nil %}
-<a style="white-space: nowrap; margin-right: 1em" href="{{site.data.devices[device].link }}">{{site.data.devices[device].model}}</a>
+{%         assign link = site.data.devices[device].link %}
 {%       else %}
-<a style="white-space: nowrap; margin-right: 1em" href="docs/guide/device-support">{{site.data.devices[device].model}}</a>
+{%         capture link %}docs/guide/device-support{% endcapture %}
 {%       endif %}
+<a style="white-space: nowrap; margin-right: 1em" href="{{link}}">{{site.data.devices[device].model}}</a>
 {%     endif %}
 {%   endfor %}
 </td>

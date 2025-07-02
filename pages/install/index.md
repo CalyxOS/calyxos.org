@@ -30,14 +30,20 @@ Which device do you want to install CalyxOS on? If you don’t see your device h
 <tr>
 {% if site.data.devices[device.codename].link != nil %}
 {%   assign link = site.data.devices[device.codename].link %}
+{%   assign arb_link = site.data.devices[device.codename].link %}
 {% else %}
-{%   capture link %}./devices/{{device.codename}}{% endcapture %}
+{%   assign arb_link = site.data.downloads["antirollback_update_pending_link"] %}
+{%   if device.antirollback_update_pending %}
+{%     assign link = arb_link %}
+{%   else %}
+{%     capture link %}./devices/{{device.codename}}{% endcapture %}
+{%   endif %}
 {% endif %}
 <td><a href="{{link}}">{{device.name}}</a></td>
 <td><a href="{{link}}">{{device.codename}}</a></td>
-{% if device.arb_update_pending %}
-<td>Temporarily removed</td>
-<td></td>
+{% if device.antirollback_update_pending %}
+<td>unavailable</td>
+<td>TBD</td>
 {% else %}
 <td><a href="{{link}}">{{device.version}}</a></td>
 <td><a href="{{link}}">{{device.date}}</a></td>

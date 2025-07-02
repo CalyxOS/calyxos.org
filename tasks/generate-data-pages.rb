@@ -84,8 +84,11 @@ module GenerateDataPages
         device_dir = File.join(DEVICES_DIR, release["codename"])
         dirs << device_dir
         FileUtils.mkdir_p(device_dir)
-        generate_main_page(release, template: index_template)
-        generate_os_pages(release, template: install_template)
+        release_context = release.merge(
+          "antirollback_update_pending_link" => releases["antirollback_update_pending_link"]
+        )
+        generate_main_page(release_context, template: index_template)
+        generate_os_pages(release_context, template: install_template)
       end
       cleanup_dirs(dirs)
     end
