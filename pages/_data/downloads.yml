@@ -1562,3 +1562,4 @@ releases:
 - beta
 - security-express
 - factory
+antirollback_update_pending_link: /install/antirollback-update-pending
