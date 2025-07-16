@@ -1222,6 +1222,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-05'
 - name: moto g84 5G
   brand: motorola
@@ -1279,6 +1280,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-06'
 - name: moto g32
   brand: motorola
