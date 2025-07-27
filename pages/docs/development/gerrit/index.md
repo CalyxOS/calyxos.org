@@ -30,7 +30,7 @@ On the system from which you'll be upload changes, you should:
 * Install [git-review](https://docs.openstack.org/infra/git-review/):
   * `pip install git-review`
 
-### Workflow:
+### Workflow
 
 * The repositories are still to be cloned via GitLab just like before - use `git clone https://gitlab.com/CalyxOS/$projectname`
 * Gerrit replaces the "Merge Request / Pull Request" workflow.
@@ -40,12 +40,12 @@ There are two options to upload changes:
 1. If you're just working on a specific app or this website ([calyxos.org](https://gitlab.com/CalyxOS/calyxos.org)) or just one git repository you can use the `git-review` to quickly upload changes. See [git-review](#git-review), OR
 2. If you're syncing and building CalyxOS, you can use the `repo` tool to upload changes. See [repo](#repo)
 
-#### git-review:
+#### git-review
 * Start a new branch to make your change, `git checkout -b newbranch origin/main`
 * Make your changes, and commit them.
 * You can now run `git review` to upload them to gerrit.
 
-#### repo:
+#### repo
 * `repo` is used to sync CalyxOS, this steps are for all the OS repositories.
 * Start a new branch to make your change, `repo start newbranch path/to/directory`
 * Make your changes, and commit them.
@@ -72,5 +72,5 @@ There are two options to upload changes:
 * Change-Ids are unique per-project per-branch, so you can share the Change-Id across projects (for one patch affecting multiple repos), or across branches (porting a previous feature) to keep things easier to track
 * Change-Ids are also how it knows whether to update an existing change, or create a new change
 
-### Useful Links:
+### Useful Links
 * <https://review.calyxos.org/Documentation/intro-gerrit-walkthrough-github.html>

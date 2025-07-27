@@ -13,7 +13,7 @@ This page is a work in progress!
 Permanent Device Identifiers
 ----------------------------------------
 
-The device identifiers cannot be changed, and thus pose the greatest potential privacy impact. Fortunately, these identifiers are only available to a certain apps:
+The device identifiers cannot be changed, and thus pose the greatest potential privacy impact. Fortunately, these identifiers are only available to certain apps:
 
 * Operating System
 * Dialer
@@ -43,7 +43,7 @@ To view Serial Number:
 
 Scope: per-device
 
-THe IMEI (GSM networks) or the MEID (CDMA networks) is a number that is globally unique for the device. It identifies the **hardware** of the device, unlike the SIM card which can be swapped out. It is used to connect to the carrier network, and carriers will block IMEIs that have been reported stolen.
+The IMEI (GSM networks) or the MEID (CDMA networks) is a number that is globally unique for the device. It identifies the **hardware** of the device, unlike the SIM card which can be swapped out. It is used to connect to the carrier network, and carriers will block IMEIs that have been reported stolen.
 
 Your device will have one IMEI for each usable SIM card (physical or eSIM).
 
@@ -105,7 +105,7 @@ In CalyxOS:
 
 Scope: per-publisher
 
-An [Android ID (or SSAID)](https://developer.android.com/reference/android/provider/Settings.Secure#ANDROID_ID), is an identifier that is unique for a give device, user (or profile), and app publisher (whomever signed the app). This means that all the apps from the same publisher on the same device will have the same SSAID.
+An [Android ID (or SSAID)](https://developer.android.com/reference/android/provider/Settings.Secure#ANDROID_ID), is an identifier that is unique for a given device, user (or profile), and app publisher (whomever signed the app). This means that all the apps from the same publisher on the same device will have the same SSAID.
 
 There is no way to change the SSAID. Uninstalling an app or clearing the data will keep the same SSAID the next time the app is installed and run. However, if you create a separate user or work profile, the SSAID will be different for that profile or user.
 
@@ -122,7 +122,7 @@ val id = Secure.getString(
 
 Scope: per-app
 
-The FID is an unique ID per app that is used by an app to access certain Google Play Services. Is reset when the app data or cache is cleared, or after [270 days of inactivity](https://firebase.google.com/docs/projects/manage-installations#monitor-id-lifecycle). Google advises app developers against using FID as a unique identifier, because the app cache can be often cleared.
+The FID is an unique ID per app that is used by an app to access certain Google Play Services. It is reset when the app data or cache is cleared, or after [270 days of inactivity](https://firebase.google.com/docs/projects/manage-installations#monitor-id-lifecycle). Google advises app developers against using FID as a unique identifier, because the app cache can be often cleared.
 
 TODO: how does microG handle this.
 

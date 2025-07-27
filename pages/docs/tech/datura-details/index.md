@@ -25,7 +25,7 @@ At its core, the firewall makes use of standard Linux networking utilities to pr
 * Code: <https://review.calyxos.org/q/topic:data-restriction>
 
 On devices with Linux kernel versions 4.9 and below, this setting uses iptables to add an app to the INPUT and OUTPUT chains and limits its traffic based on the specified incoming and outgoing networking interface.
-On devices with Linux kernel versions higher than 4.9, the bandwidth restrictions make use of eBPF instead of iptables (see https://source.android.com/devices/tech/datausage/ebpf-traffic-monitor)
+On devices with Linux kernel versions higher than 4.9, the bandwidth restrictions make use of eBPF instead of iptables (see <https://source.android.com/devices/tech/datausage/ebpf-traffic-monitor>)
 
 ### Per-app network isolation
 * Code: <https://review.calyxos.org/q/topic:network-isolation>
