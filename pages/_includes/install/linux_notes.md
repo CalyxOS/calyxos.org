@@ -33,7 +33,7 @@ sudo zypper install android-udev-rules
 
 Add the following to `/etc/nixos/configuration.nix` and `sudo nixos-rebuild switch`:
 
-```
+```nix
 services.udev.packages = [
   pkgs.android-udev-rules
 ];
@@ -41,7 +41,7 @@ services.udev.packages = [
 
 Create a `shell.nix` for temporary FHS-compatible shell:
 
-```
+```nix
 { pkgs ? import <nixpkgs> {} }:
 
 (pkgs.buildFHSUserEnv {
