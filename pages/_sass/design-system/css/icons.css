@@ -1,5 +1,5 @@
 @media (prefers-color-scheme: light) {
-  .close {
+  .close, .close-no-hide {
     background-image: url('../assets/nav/lm-icon-close.svg');
   }
 
@@ -13,7 +13,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .close {
+  .close, .close-no-hide {
     background-image: url('../assets/nav/dm-icon-close.svg');
   }
 
@@ -26,9 +26,13 @@
   }
 }
 
-.close, .menu {
+.close, .close-no-hide, .menu {
   width: 40px;
   height: 40px;
+}
+
+.close-no-hide {
+  filter: contrast(100%) !important;
 }
 
 .description li .icon {

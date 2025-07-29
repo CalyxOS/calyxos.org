@@ -1,4 +1,5 @@
-<header>
+<header>{% if show_banner %}
+  <div class="multirow-header">{% endif %}
   <div class="wrapper">
     <div class="logoMark emptyLogo"></div>
     <h1 class="logo"><a class="navbar-brand" href="{{ '/' | relative_url }}">CalyxOS</a></h1>
@@ -23,5 +24,36 @@
       </ul>
       <label class="clickable toggle navbar-toggle" for="navbar-visible" role="button" aria-label="navigation"></label>
     </nav>
+  </div>{% if show_banner %}
+
+  {% comment %}<!-- Banner styling in pages/_sass/_elements.scss -->{% endcomment %}
+  <div class="multirow-header-break"></div>
+
+  {% if show_banner_close_button != false %}
+  <input type="checkbox" class="toggle" id="banner-checkbox" autocomplete="off"></input>
+  {% endif %}
+  ⁨<div id="banner" class="banner">
+    <div class="banner-outer">
+      <div class="banner-inner">
+        <a href="{{ banner_url }}" style="text-decoration: none;">
+          <div class="banner-text">
+            {{ banner_text }}
+          </div>
+        </a>
+      </div>
+      {% if show_banner_close_button != false %}
+      <div class="banner-close-button">
+        <label class="clickable toggle" for="banner-checkbox" title="close" tabindex="0" role="button"><i class="big icon close-no-hide"></i></label>
+      </div>
+      {% endif %}
+    </div>
   </div>
+  </div>
+{% if banner_margin != "0" %}
+  <style>
+    main {
+      margin-top: {{ banner_margin | default: "150px" }};
+    }
+  </style>
+{% endif %}{% endif %}
 </header>
