@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
-  <body>
+  <body>{% if page.url == "/docs/guide/device-support/" %}{% include banner.html %}{% endif %}
     {% include header.html %}
     <main>
       <section class="secondaryIntro">
