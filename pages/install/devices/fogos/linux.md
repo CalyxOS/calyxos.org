@@ -8,7 +8,7 @@ toc: true
 
 
 ## Downloads temporarily removed
-Downloads for this device have been temporarily removed <a href="/install/antirollback-update-pending">pending an antirollback update</a>.
+Downloads for this device have been temporarily removed <a href="/news/2025/07/30/community-update-july/">pending an antirollback update</a>.
 
 
 ## Terminology

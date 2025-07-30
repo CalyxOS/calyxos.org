@@ -7,6 +7,9 @@ toc: true
 <strong>[[Install => install]]</strong> / <strong><a href="/install/devices/rhode/">moto g52</a></strong>
 
 
+## Downloads temporarily removed
+Downloads for this device have been temporarily removed <a href="/news/2025/07/30/community-update-july/">pending an antirollback update</a>.
+
 
 ## Terminology
 
@@ -47,27 +50,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxinstitute.org/rhode-factory-25608210.zip">Download CalyxOS Image</a>
-
-
-Save this image in the same directory as device-flasher. This image will **only** work for **moto g52 (rhode)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
-
-Do not extract or rename the zip, simply copy it as-is.
-
-Once downloaded, the next step is to verify the image. This step is optional, but verification helps ensure that you downloaded the image correctly, and that you got the correct image.
-
-#### Verify Digest
-
-To verify the image, open a terminal window on the host computer where you saved the image and run the command:
-
-{% assign image = "https://release.calyxinstitute.org/rhode-factory-25608210.zip" | split: "/" | last %}
-{% include install/windows_image_digest.md filename=image %}
-
-And ensure the result says `4995f82e5a375faa4edfdbd200c5dd1a56e26292d3c7f4cbf961c2b325d95e43`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
-
-#### Verify Signature
-
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/rhode-factory-25608210.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+<a class="btn">Downloads temporarily removed</a>
 
 ## Install CalyxOS
 

@@ -7,6 +7,9 @@ toc: true
 <strong>[[Install => install]]</strong> / <strong><a href="/install/devices/comet/">Pixel 9 Pro Fold</a></strong>
 
 
+## Downloads temporarily removed
+Downloads for this device have been temporarily removed <a href="/news/2025/07/30/community-update-july/">pending an antirollback update</a>.
+
 
 ## Terminology
 
@@ -47,27 +50,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxinstitute.org/comet-factory-25608200.zip">Download CalyxOS Image</a>
-
-
-Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 9 Pro Fold (comet)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
-
-Do not extract or rename the zip, simply copy it as-is.
-
-Once downloaded, the next step is to verify the image. This step is optional, but verification helps ensure that you downloaded the image correctly, and that you got the correct image.
-
-#### Verify Digest
-
-To verify the image, open a terminal window on the host computer where you saved the image and run the command:
-
-{% assign image = "https://release.calyxinstitute.org/comet-factory-25608200.zip" | split: "/" | last %}
-{% include install/linux_image_digest.md filename=image %}
-
-And ensure the result says `d31e3448f38c80175e7a5f3322092e1de831c5d6f89a31f97b5c13db896a7d5d`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
-
-#### Verify Signature
-
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/comet-factory-25608200.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+<a class="btn">Downloads temporarily removed</a>
 
 ## Install CalyxOS
 

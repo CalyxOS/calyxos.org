@@ -1267,6 +1267,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-06'
 - name: moto g42
   brand: motorola
@@ -1311,6 +1312,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-07'
 - name: Pixel 9 Pro Fold
   brand: pixel
@@ -1325,6 +1327,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-05'
 - name: Pixel 9 Pro XL
   brand: pixel
@@ -1339,6 +1342,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-05'
 - name: Pixel 9 Pro
   brand: pixel
@@ -1353,6 +1357,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-05'
 - name: Pixel 9
   brand: pixel
@@ -1367,6 +1372,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-05'
 - name: Pixel 8a
   brand: pixel
@@ -1381,6 +1387,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-05'
 - name: Pixel 8 Pro
   brand: pixel
@@ -1395,6 +1402,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-05'
 - name: Pixel 8
   brand: pixel
@@ -1409,6 +1417,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-05'
 - name: Pixel Fold
   brand: pixel
@@ -1423,6 +1432,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-05'
 - name: Pixel Tablet
   brand: pixel
@@ -1437,6 +1447,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-05'
 - name: Pixel 7a
   brand: pixel
@@ -1451,6 +1462,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-05'
 - name: Pixel 7 Pro
   brand: pixel
@@ -1465,6 +1477,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-05'
 - name: Pixel 7
   brand: pixel
@@ -1479,6 +1492,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-05'
 - name: Pixel 6a
   brand: pixel
@@ -1493,6 +1507,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-05'
 - name: Pixel 6 Pro
   brand: pixel
@@ -1507,6 +1522,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-05'
 - name: Pixel 6
   brand: pixel
@@ -1521,6 +1537,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-05'
 - name: Pixel 5a (5G)
   brand: pixel
@@ -1535,6 +1552,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-06'
 - name: Pixel 4a (5G)
   brand: pixel
@@ -1549,6 +1567,7 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-06'
 - name: Pixel 5
   brand: pixel
@@ -1563,10 +1582,11 @@ factory:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
+  antirollback_update_pending: true
   date: '2025-06-06'
 releases:
 - stable
 - beta
 - security-express
 - factory
-antirollback_update_pending_link: /install/antirollback-update-pending
+antirollback_update_pending_link: /news/2025/08/01/a-letter-to-our-community/
