@@ -88,13 +88,13 @@ module GenerateDataPages
           "antirollback_update_pending_link" => releases["antirollback_update_pending_link"]
         )
         generate_main_page(release_context, template: index_template)
-        generate_os_pages(release_context, template: install_template)
+        #generate_os_pages(release_context, template: install_template)
       end
       cleanup_dirs(dirs)
     end
 
     def generate
-      generate_device_pages
+      #generate_device_pages
       puts "DONE"
     end
   end
