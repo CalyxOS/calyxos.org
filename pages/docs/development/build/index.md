@@ -103,4 +103,4 @@ To build and run CalyxOS Emulator images, see [Emulator](emulator)
 
 ## Releases
 
-The official [[production builds => get]] process is described under [production](production)
+The official [production builds](/install) process is described under [production](production)
