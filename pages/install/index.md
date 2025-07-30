@@ -40,13 +40,12 @@ Which device do you want to install CalyxOS on? If you don’t see your device h
 {%   endif %}
 {% endif %}
 <td><a href="{{link}}">{{device.name}}</a></td>
-<td><a href="{{link}}">{{device.codename}}</a></td>
+<td>{{device.codename}}</td>
+<td>{{device.version}}</td>
 {% if device.antirollback_update_pending %}
-<td>unavailable</td>
 <td>TBD</td>
 {% else %}
-<td><a href="{{link}}">{{device.version}}</a></td>
-<td><a href="{{link}}">{{device.date}}</a></td>
+<td>{{device.date}}</td>
 {% endif %}
 </tr>
 {% endfor %}
