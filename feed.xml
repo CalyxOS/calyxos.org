@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-07-28T18:13:27+00:00</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Community update - our progress on CalyxOS after the release of Android 16</title><link href="/news/2025/06/26/community-update-android-16/" rel="alternate" type="text/html" title="Community update - our progress on CalyxOS after the release of Android 16" /><published>2025-06-26T00:00:00+00:00</published><updated>2025-06-26T00:00:00+00:00</updated><id>/news/2025/06/26/community-update-android-16</id><content type="html" xml:base="/news/2025/06/26/community-update-android-16/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-08-01T19:10:59+00:00</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">A letter to the CalyxOS community</title><link href="/news/2025/08/01/a-letter-to-our-community/" rel="alternate" type="text/html" title="A letter to the CalyxOS community" /><published>2025-08-01T00:00:00+00:00</published><updated>2025-08-01T00:00:00+00:00</updated><id>/news/2025/08/01/a-letter-to-our-community</id><content type="html" xml:base="/news/2025/08/01/a-letter-to-our-community/"><![CDATA[<p> 
+ 
+ </p>
+
+<p>Dear CalyxOS community members,</p>
+
+<p>The last few months have been especially challenging for us as we have experienced some changes within our teams and in the Android free and open-source (FOSS) development community.</p>
+
+<p>Nicholas Merrill, president and founder of Calyx Institute, has left the organization to pursue other projects.</p>
+
+<p>Nick has championed privacy and data security over the last 25 years, and we thank Nick for his decades-long leadership, guidance, and contributions.</p>
+
+<p>Chirayu Desai, the CalyxOS Tech Lead, has addressed his departure from the CalyxOS project and the organization in <a href="https://www.reddit.com/r/CalyxOS/comments/1lxgnp8/a_personal_note/">a personal note to the public</a>.</p>
+
+<p>We also want to express gratitude to Chirayu for his enthusiasm and incredibly hard work on CalyxOS.</p>
+
+<p>Nick and Chirayu have been a part of the CalyxOS project and its global community for many years. Without a doubt, there is a gap to fill following their departure. 
+Following their departure, there will be a period of transition as we move forward. During that time, Calyx Institute’s Interim Executive Director, Ellen McDermott, will continue to lead the organization’s important work while the CalyxOS team will focus on bridging the gap and recentering our efforts.</p>
+
+<p>Our commitment to <a href="https://calyxinstitute.org/about">our mission</a> has not changed: defending digital privacy, advancing connectivity, and striving for a future where everyone has access to the resources and tools they need to remain securely connected. CalyxOS is an integral part of our work and stands at the center of the FOSS digital ecosystem we aspire to create. It is our responsibility to protect the privacy of current and future users of our technologies.</p>
+
+<p>To ensure operational consistency during this transition and adhere to security best practices, our team is working to improve transparency and security through better design, communications, and infrastructure. Our ongoing priorities include:</p>
+<ul>
+  <li>Upgrading the tech infrastructure supporting CalyxOS development</li>
+  <li>Stabilizing update release cycles for our 25+ supported devices</li>
+  <li>Revising and updating our usage and development documentation, wiki, and user guides</li>
+</ul>
+
+<p> </p>
+
+<p>To fulfill our <a href="https://calyxos.org/community/pledge/">community pledge</a> and foster collaboration, information sharing, and inclusivity, we are engaging with our peers, partners, and security experts to ensure the delivery and integrity of all changes made during this process. After conducting a thorough inspection of the work required for successful completion of the above priorities, we have determined that it may take up to four to six months for us to provide the level of security maintenance we aim to deliver.</p>
+
+<p>We will be switching to new signing keys along with the overhaul of the signing and verification process. As a result, current CalyxOS users will not be able to receive further security software updates until this process is in place.</p>
+
+<p>Given the potential risk posed by the pause of maintenance and development, it’s logical that we stop providing options to install CalyxOS for now. This was an incredibly hard decision to make, and we understand that this decision may cause significant difficulties for our users.
+For those wishing to remain on CalyxOS until our next release, note that you will not have the latest security patches on your device as released from the Android Open Source Project and from any proprietary sources provided by device manufacturers. We sincerely apologize for the hassle brought to you by this change, and we understand if you need to uninstall CalyxOS and migrate to another privacy-protecting Android distribution in the meantime. If you wish to continue using CalyxOS in the future, please follow our updates to reinstall CalyxOS when it becomes available again.</p>
+
+<p>We are committed to supporting you through this process. To assist any migration, we will publish, by August 6, instructions to back up and restore your phone to a stock or custom Android distribution with Seedvault.</p>
+
+<p>Starting with this announcement, we will be reporting our progress regularly through our <a href="https://calyxos.org/community/">community channels</a>, and we welcome your insights if you would like to contribute to this effort.</p>
+
+<p>We thank you for your continued trust and look forward to further collaborations with people who have, are, and will be using and contributing to CalyxOS and various FOSS projects.</p>
+
+<p>Yours sincerely,<br />
+The Calyx team</p>]]></content><author><name></name></author><summary type="html"><![CDATA[     ]]></summary></entry><entry><title type="html">Community update - our progress on CalyxOS after the release of Android 16</title><link href="/news/2025/06/26/community-update-android-16/" rel="alternate" type="text/html" title="Community update - our progress on CalyxOS after the release of Android 16" /><published>2025-06-26T00:00:00+00:00</published><updated>2025-06-26T00:00:00+00:00</updated><id>/news/2025/06/26/community-update-android-16</id><content type="html" xml:base="/news/2025/06/26/community-update-android-16/"><![CDATA[<ul>
   <li>We have analyzed the potential impact on CalyxOS that the release of Android 16 will have, and the future trends it may be imply.</li>
   <li>Given the upstream changes and internal needs, the CalyxOS team is revising our development methodologies and processes for secure and streamlined future updates.</li>
   <li>In the last two weeks, we have made significant progress in building and running Android 16 on Pixel 6 and newer Pixels.</li>
@@ -508,52 +552,4 @@ As always, we recommend adhering to best practices for digital hygiene in genera
     The <strong>Motorola moto g52, moto g42, moto g32, Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.7.20 - Android 15 is now available for Pixel 6 - 9 devices May security update (2025-05-05) IMPORTANT: Certain Pixel devices won’t be able to downgrade after this update]]></summary></entry><entry><title type="html">Why we are phasing out the Cleartext Restriction feature</title><link href="/news/2025/05/06/cleartext-restriction/" rel="alternate" type="text/html" title="Why we are phasing out the Cleartext Restriction feature" /><published>2025-05-06T00:00:00+00:00</published><updated>2025-05-06T00:00:00+00:00</updated><id>/news/2025/05/06/cleartext-restriction</id><content type="html" xml:base="/news/2025/05/06/cleartext-restriction/"><![CDATA[<ul>
-  <li>An in-depth explanation of our decision to retire the “Restrict cleartext network traffic” feature</li>
-  <li>Next steps for users who are using this feature</li>
-</ul>
-
-<h3 id="overview">Overview</h3>
-
-<p>The “Restrict cleartext network traffic” setting was introduced in CalyxOS as <a href="/news/2021/04/08/big-april-update/" target="_blank">an additional layer of protection</a>,
-aimed to block cleartext transmission. Cleartext transmission allows data to travel in network or communication channels without encrpytion or other protection layers.
-It can occur in various types of communications, such as visiting a website, sending an email, or sharing a file.
-Cleartext transmission sends data in plain, human-readable format, making it easier for unauthorized parties to read sensitive information, such as password, personal data, or private messages.
-Therefore, we bulit this feature on AOSP’s existing functionality in 2021 to improve overall device data security.
-However, upon review, we have discovered that this feature bears significant limitations and usability concerns.</p>
-
-<h3 id="what-we-learned--why-we-made-this-decision">What we learned // Why we made this decision</h3>
-
-<p>After investigating issues <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/1948" target="_blank">#1948</a> and <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2521" target="_blank">#2521</a>,
- our finding shows that AOSP’s cleartext restriction is not a comprehensive security mechanism.
-It only inspects initial packets of a connection; once Transport Layer Security (TLS) is detected, the connection will beis marked secure, and there will be no further inspection.
-An app could begin sending cleartext after the initial handshake without detection.
-AOSP explicitly states that this feature is meant to prevent accidental cleartext traffic, not deliberate bypasses.</p>
-
-<p>In addition to AOSP’s functional limitations, this feature created usability problems by conflicting with other features and services, such as:</p>
-<ul>
-  <li><strong>Blocking DNS-over-HTTPS (DoH) protocol</strong>: Private DNS setups using Cloudflare or Google failed silently.</li>
-  <li><strong>Breaking QUIC traffic</strong>: Many modern apps rely on QUIC protocol to transmit data. Despite the fact that QUIC traffic was encrypted by default, it was blocked.</li>
-  <li><strong>Interfering with VPNs</strong>: Some VPN traffic got misclassified as cleartext and blocked, affecting connectivity.</li>
-</ul>
-
-<p>Given these problems, continuing to maintain a “best-effort” solution, one that users might mistakenly assume is fully secure,
- risks giving a false sense of protection while breaking access to other secure services and connection protocols.</p>
-
-<h3 id="whats-next">What’s next</h3>
-
-<p>We have already started transitioning users away from this feature:</p>
-<ul>
-  <li>In the February CalyxOS Feature update, users who had this feature enabled received a one-time notification on their device alerting them that the feature would be removed in a future update.</li>
-  <li>In the April CalyxOS Feature update, users who still have this feature enabled will again receive a notification (linking here) informing them that it has been removed.</li>
-</ul>
-
-<p>Instead of relying on this inadequate feature, you can use a VPN to protect your device’s connection and data transmission.</p>
-
-<p>Additionally, we will continue to improve our communications about CalyxOS’ security and privacy features to ensure our users can make informed decisions and are aware of the best options for keeping their device secure and private.</p>
-
-<h3 id="related-gitlab-issues">Related GitLab issues</h3>
-<ul>
-  <li><a href="https://gitlab.com/CalyxOS/calyxos/-/issues/1948" target="_blank">#1948</a></li>
-  <li><a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2521" target="_blank">#2521</a></li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[An in-depth explanation of our decision to retire the “Restrict cleartext network traffic” feature Next steps for users who are using this feature]]></summary></entry></feed>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.7.20 - Android 15 is now available for Pixel 6 - 9 devices May security update (2025-05-05) IMPORTANT: Certain Pixel devices won’t be able to downgrade after this update]]></summary></entry></feed>

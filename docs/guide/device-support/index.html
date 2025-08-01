@@ -32,6 +32,7 @@
 
   <body>
     <header>
+  <div class="multirow-header">
   <div class="wrapper">
     <div class="logoMark emptyLogo"></div>
     <h1 class="logo"><a class="navbar-brand" href="/">CalyxOS</a></h1>
@@ -55,11 +56,42 @@
 <li class="nav-level-0 nav-item"><a class="nav-level-0 nav-link " href="/community/">Community</a></li>
 <li class="nav-level-0 nav-item"><a class="nav-level-0 nav-link active" href="/docs/">Documentation</a></li>
 <li class="nav-level-0 nav-item"><a class="nav-level-0 nav-link " href="/news/">News</a></li>
-        <li><a role="button" class="btn primaryBtn" href="/get">Get CalyxOS</a></li>
+        <li><a role="button" class="btn primaryBtn" href="/install">Get CalyxOS</a></li>
       </ul>
       <label class="clickable toggle navbar-toggle" for="navbar-visible" role="button" aria-label="navigation"></label>
     </nav>
   </div>
+
+  
+  <div class="multirow-header-break"></div>
+
+  
+  <input type="checkbox" class="toggle" id="banner-checkbox" autocomplete="off"></input>
+  
+  ⁨<div id="banner" class="banner">
+    <div class="banner-outer">
+      <div class="banner-inner">
+        <a href="/news/2025/08/01/a-letter-to-our-community/" style="text-decoration: none;">
+          <div class="banner-text">
+            CalyxOS releases are paused. Find out more in our letter to the community.
+          </div>
+        </a>
+      </div>
+      
+      <div class="banner-close-button">
+        <label class="clickable toggle" for="banner-checkbox" title="close" tabindex="0" role="button"><i class="big icon close-no-hide"></i></label>
+      </div>
+      
+    </div>
+  </div>
+  </div>
+
+  <style>
+    main {
+      margin-top: 100px;
+    }
+  </style>
+
 </header>
 
     <main>
@@ -148,12 +180,12 @@
 <h4 id="extended-support">Extended support</h4>
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>
-<tr><td> Motorola moto g52 </td><td> Android 15* </td><td> August 2025* </td></tr>
-<tr><td> Motorola moto g42 </td><td> Android 15* </td><td> August 2025* </td></tr>
-<tr><td> Motorola moto g32 </td><td> Android 15* </td><td> August 2025* </td></tr>
-<tr><td> Pixel 5a (5G) </td><td> Android 15* </td><td> August 2025* </td></tr>
-<tr><td> Pixel 4a (5G) </td><td> Android 15* </td><td> August 2025* </td></tr>
-<tr><td> Pixel 5 </td><td> Android 15* </td><td> August 2025* </td></tr>
+<tr><td> Motorola moto g52 </td><td> Android 15* </td><td> TBD </td></tr>
+<tr><td> Motorola moto g42 </td><td> Android 15* </td><td> TBD </td></tr>
+<tr><td> Motorola moto g32 </td><td> Android 15* </td><td> TBD </td></tr>
+<tr><td> Pixel 5a (5G) </td><td> Android 15* </td><td> TBD </td></tr>
+<tr><td> Pixel 4a (5G) </td><td> Android 15* </td><td> TBD </td></tr>
+<tr><td> Pixel 5 </td><td> Android 15* </td><td> TBD </td></tr>
 </table>
 
 <h4 id="no-longer-supported">No longer supported</h4>
@@ -210,7 +242,7 @@ In our experience, working on a custom OS for a device using a Qualcomm SoC is u
     <div class="row">
       <ul>
         <li><a href="https://calyxinstitute.org/about">About Calyx</a></li>
-        <li><a href="https://members.calyxinstitute.org/enroll/membership/phone">Join Calyx</a></li>
+        <li><a href="https://calyxinstitute.org/membership">Join Calyx</a></li>
         <li><a href="https://calyxinstitute.org/about/contact-us">Contact Us</a></li>
         <li><a href="https://calyxinstitute.org/legal/privacy-policy">Privacy Policy</a></li>
         <li><a href="https://calyxinstitute.org/legal/terms-of-service">Terms of Service</a></li>
@@ -224,10 +256,10 @@ In our experience, working on a custom OS for a device using a Qualcomm SoC is u
       <a href="https://gitlab.com/CalyxOS" title="CalyxOS source code">
         <img class="filter-grey" src="/assets/images/icons/git.svg" />
       </a>
-      <a href="https://twitter.com/CalyxOS" title="CalyxOS on Twitter">
+      <a href="https://twitter.com/calyxinstitute" title="Calyx Institute on Twitter">
         <img class="filter-grey" src="/assets/images/icons/twitter.svg" />
       </a>
-      <a rel="me" href="https://fosstodon.org/@calyxos" title="CalyxOS on Mastodon">
+      <a rel="me" href="https://mastodon.social/@calyxinstitute" title="Calyx Institute on Mastodon">
         <img class="filter-grey" src="/assets/images/icons/mastodon.svg" />
       </a>
       <a href="https://reddit.com/r/CalyxOS" title="CalyxOS on Reddit">
@@ -241,7 +273,7 @@ In our experience, working on a custom OS for a device using a Qualcomm SoC is u
       </a>
     </div>
     <div class="row">
-      <a href="https://calyxinstitute.org" target="_blank" rel="noreferrer nooopener">&copy; 2021-2024 Calyx Institute</a>
+      <a href="https://calyxinstitute.org" target="_blank" rel="noreferrer nooopener">&copy; 2021-2025 Calyx Institute</a>
       <span class="spacer" aria-hidden="true">&bull;</span>
       <a target="_blank" href="https://review.calyxos.org/admin/repos/edit/repo/CalyxOS/calyxos.org/branch/refs/heads/main/file/pages/docs/guide/device-support/index.md">Edit page</a>
     </div>

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --icon-search-url: url(/assets/images/icons/search.svg);
   --icon-close-url: url(/assets/images/icons/close.svg);
@@ -330,7 +331,7 @@ table {
   }
 }
 @media (prefers-color-scheme: light) {
-  .close {
+  .close, .close-no-hide {
     background-image: url("../assets/nav/lm-icon-close.svg");
   }
   .menu {
@@ -341,7 +342,7 @@ table {
   }
 }
 @media (prefers-color-scheme: dark) {
-  .close {
+  .close, .close-no-hide {
     background-image: url("../assets/nav/dm-icon-close.svg");
   }
   .menu {
@@ -351,9 +352,13 @@ table {
     background-image: url("../assets/images/squiggle/squiggle-dm.svg");
   }
 }
-.close, .menu {
+.close, .close-no-hide, .menu {
   width: 40px;
   height: 40px;
+}
+
+.close-no-hide {
+  filter: contrast(100%) !important;
 }
 
 .description li .icon {
@@ -4315,7 +4320,7 @@ i.icon.color {
 i.icon.search {
   background-image: var(--icon-search-url);
 }
-i.icon.close {
+i.icon.close, i.icon.close-no-hide {
   background-image: var(--icon-close-url);
 }
 i.icon.ddg {
@@ -4426,6 +4431,67 @@ input.toggle:checked ~ #search {
 
 ul#searchresults {
   list-style: none;
+}
+
+#multirow-header-break:has(+ input.toggle:checked) {
+  display: none !important;
+}
+
+input.toggle:checked ~ #banner {
+  display: none !important;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  background: #EE4266;
+  ⁨display: flex;
+  padding: 24px 40px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 415px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.banner-outer, .banner-inner {
+  flex: 1 1 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.banner-inner {
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.banner-close-button {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.banner-text {
+  text-box-trim: trim-both;
+  text-box-edge: cap alphabetic;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 32px;
+  word-wrap: break-word;
+  color: black;
+}
+
+.multirow-header {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.multirow-header-break {
+  flex-basis: 100%;
+  height: 0;
 }
 
 .filter-grey {
