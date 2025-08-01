@@ -289,6 +289,7 @@ otter:
   esim: "yes"
   android: 15
   web_install: false
+  link: news/2025/08/01/a-letter-to-our-community/
 barbet:
   brand: pixel
   model: Pixel 5a (5G)
