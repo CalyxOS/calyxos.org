@@ -28,13 +28,11 @@ All below channels are on Matrix. They are public and unencrypted. You can click
 
 ### Mastodon
 
-* [@calyxos@fosstodon.org](https://fosstodon.org/@calyxos)
 * [@calyxinstitute@mastodon.social](https://mastodon.social/@calyxinstitute)
 
 ### Twitter
 
-* [@CalyxOS](https://twitter.com/CalyxOS)
-* [@calyxinsitute](https://twitter.com/calyxinstitute)
+* [@calyxinstitute](https://twitter.com/calyxinstitute)
 
 ### Reddit
 
