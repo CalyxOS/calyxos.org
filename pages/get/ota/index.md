@@ -1,9 +1,6 @@
 ---
 title: CalyxOS OTA updates
 ---
-{% if true %}
-OTA updates are currently unavailable.
-{% else %}
 These are the OTA updates that are usually delivered directly to your device.
 
 <div class="alert alert-info" markdown="0">
@@ -58,4 +55,3 @@ Next, see the [[OTA installation instructions => ota-install]].
 Next, see the [[OTA installation instructions => ota-install]].
 
 {% include install/security_notes.html %}
-{% endif %}
