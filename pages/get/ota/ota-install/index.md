@@ -2,6 +2,8 @@
 title: Install OTA
 ---
 
+{% include images_warning.html %}
+
 These are instructions to install the OTA updates that are usually delivered directly to your device.
 
 <div class="alert alert-info" markdown="0">
