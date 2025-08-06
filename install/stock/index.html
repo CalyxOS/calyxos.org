@@ -71,21 +71,60 @@
       </section>
       <section class="content primaryContent wrapper">
         
-        <p>If you would like to re-install stock Android, you can follow the below steps.</p>
+        <h2 id="back-to-stock">Back to Stock</h2>
 
-<h2 id="web-installer-recommended-works-for-all-pixels"><a href="https://flash.android.com/back-to-public">Web Installer (Recommended, works for all Pixels)</a></h2>
+<p>If you decide to stop using CalyxOS, you can return your device to its factory (stock) operating system. Instructions vary depending on your device manufactuer.</p>
 
-<p>Google provides a web installer for the Pixels, which means that you can directly install the stock OS from a web browser (even from another phone!) without having to install anything.</p>
+<p><strong>Note:</strong> CalyxOS cannot provide support for third-party tools or external guides. Please proceed with caution and make sure you understand the steps before beginning.</p>
 
-<p>Going to <a href="https://flash.android.com/back-to-public">https://flash.android.com/back-to-public</a> will automatically select the latest version available from Google for your device and guide you through installation.</p>
+<h3 id="pixels">Pixels</h3>
 
-<h2 id="factory-images-manual-installation-required">Factory images (Manual installation required)</h2>
+<h4 id="web-installer-recommended">Web Installer (Recommended)</h4>
 
-<p>These are the latest stock factory images for your device. You can download and install them manually.</p>
+<p>Google provides a web-based installer for returning to the stock OS, which runs directly from your browser, even from another phone. No need to install anything manually.</p>
 
-<p>Visit <a href="https://developers.google.com/android/images">https://developers.google.com/android/images</a> to get links to all versions. It also has installation instructions.</p>
+<ul>
+  <li><a href="https://flash.android.com/back-to-public">Google Web Installer</a></li>
+</ul>
 
-<!-- For A2: https://xiaomifirmwareupdater.com/archive/miui/jasmine/ -->
+<p>Visiting this link will automatically detect your device and install the latest software from Google, guiding you through each step.</p>
+
+<h4 id="manual-flashing">Manual Flashing</h4>
+
+<p>Alternatively, you can flash factory images manually using fastboot. These are official images and instrcutsions provided by Google.</p>
+
+<ul>
+  <li><a href="https://developers.google.com/android/images">Google’s Factory Images</a></li>
+  <li><a href="https://developers.google.com/android/images#instructions">Google’s Flashing Instructions</a></li>
+</ul>
+
+<h3 id="fairphone">Fairphone</h3>
+
+<p>Fairphone provides its own guides for reinstalling the default Fairphone OS.</p>
+
+<ul>
+  <li><a href="https://support.fairphone.com/hc/en-us/articles/18896094650513-How-to-manually-install-Android-on-your-Fairphone">Official Fairphone Reinstallation Guide</a></li>
+</ul>
+
+<h3 id="motorola">Motorola</h3>
+
+<p>Restoring Motorola devices to stock can be complex and varies by modle, there is no official guide from Motorola. Please use at your own discretion as we have not done extensive testing. We’ve done our best to compile some possible options:</p>
+
+<h4 id="option-1-windows">Option 1: Windows</h4>
+
+<p>Motorola’s official Software Fix (previously, Rescue and Smart Assistant) tool can help restore your device. Many users have reported success with this method, assuming the bootloader is unlocked. Only available for Windows.</p>
+
+<ul>
+  <li><a href="https://en-us.support.motorola.com/app/softwarefix">Motorola Software Fix</a></li>
+</ul>
+
+<h4 id="option-2-linux">Option 2: Linux</h4>
+
+<p>A written guide by a CalyxOS community member/moderator for flashing Motorola firmware via fastboot on Linux.</p>
+
+<ul>
+  <li><a href="https://gist.github.com/lucasmz-dev/cca7afb146f2908f92eb681b5a4c1e38">Linux Fastboot Restore Guide</a></li>
+</ul>
 
 
       </section>

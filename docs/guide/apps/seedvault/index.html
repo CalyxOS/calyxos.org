@@ -99,7 +99,550 @@
 
         <section class="content primaryContent">
           
-          <p>Work in progress</p>
+          <h2 id="seedvault-overview">Seedvault overview</h2>
+
+<p><a href="https://github.com/seedvault-app/seedvault?tab=readme-ov-file#seedvault">Seedvault</a> is a backup application included in many custom Android-based operating systems like CalyxOS. You can use it to restore your apps and data to another device that runs a compatible operating system, or to the same device.</p>
+
+<p>You can learn more about Seedvault by checking out its <a href="https://github.com/seedvault-app/seedvault/wiki/FAQ">Frequently Asked Questions (FAQ)</a>.</p>
+
+<h2 id="compatibility">Compatibility</h2>
+
+<p>At least Seedvault version 15-5.0 or 14-5.0 are needed to restore a backup made on latest CalyxOS. This means that version 15-5.1, 15-5.2, etc. also will work.</p>
+
+<h2 id="common-starting-questions">Common starting questions</h2>
+
+<p><strong>Q: Is my data being backed up by default?</strong></p>
+
+<p>A: Seedvault does not back up your data by default. You need to configure it to do so in the <strong>Setup Wizard</strong> or later in the settings. To find out, open Seedvault and check its settings.</p>
+
+<p><strong>Q: Where can I find Seedvault? How do I get it?</strong></p>
+
+<p>A: In most operating systems, Seedvault can be found under <strong>Settings &gt; System &gt; Backup</strong>. In CalyxOS, it can also be found as an app named <strong>Backup</strong> in your apps list.</p>
+
+<p><strong>Q: Where does my data go?</strong></p>
+
+<p>A: You are in control of where your backups are stored. You can store your backups on a USB device like a flash drive, a networked service like Nextcloud that supports <a href="https://en.wikipedia.org/wiki/WebDAV">WebDAV</a>, a third-party storage provider app like Round Sync, or on-device storage that you synchronize using a means of your choice. Neither Seedvault nor Calyx provide backup storage for you, but there are other providers who do.</p>
+
+<p><strong>Q: Can anyone see my data?</strong></p>
+
+<p>A: Your data is encrypted. Even if someone can see your backup files, they need your recovery code to be able to access your data. This means you can store your backups on a flash drive or on a cloud server without having to worry that anyone can read the contents, because your original unencrypted data cannot be seen.<br />
+For more information, check out the <a href="https://github.com/seedvault-app/seedvault">Seedvault project page</a>. </p>
+
+<p><strong>Q: This is a lot to read…</strong></p>
+
+<p>A: Yes. We aim to have a more visual guide in the future, in addition to a simpler backup and restore process. Other unofficial guides do exist, although they may not include everything you need to know, particularly when it comes to what gets backed up and what doesn’t, and how to change that. Still, if you prefer visuals, they could be a useful place to start.</p>
+
+<h2 id="what-is-included-in-a-backup">What is included in a backup</h2>
+
+<p>A Seedvault backup may include apps and their data, along with files (a beta feature). Here is an overview of what’s included in a Seedvault backup.</p>
+
+<h3 id="apps-and-data">Apps and data</h3>
+
+<p>Seedvault backs up apps along with the actual content and preferences stored by an app in its own private storage. For example, the notes you write in a note-taking app are typically part of its app data.</p>
+
+<p>Backup of app data can be turned on after setting up Seedvault, and it is referred to as “<strong>Backup my apps</strong>” on the main settings screen.</p>
+
+<p>You can exclude particular apps from being backed up by clicking “<strong>Backup status</strong>” on the main settings screen. When you land on this page, tap the <strong>three-dot menu, then click “Exclude apps</strong>.” Uncheck the box next to any app you would like to exclude. After you are done, you may view Backup status again by tapping the three-dot menu and unchecking “<strong>Exclude apps</strong>.”</p>
+
+<p>Please review the <a href="#what-is-not-included">What’s not included?</a> section for more information.</p>
+
+<h3 id="files-beta">Files (beta)</h3>
+
+<p>These are the files you can see in the <strong>Files</strong> app, such as downloads and photos. Seedvault allows you to choose which categories of files you would like to include in backups. You can also include specific folders. Please note, backing up files is a beta feature at the moment. It may not work as expected. It is therefore recommended to make a copy of your files via another means, such as by <a href="https://support.google.com/android/answer/9064445?hl=en#zippy=%2Cwindows-computer">connecting to a PC</a>.</p>
+
+<p>Backup of files can be turned on after setting up Seedvault, and it is referred to as “<strong>Backup my files</strong>” on the main settings screen. </p>
+
+<p>You can choose the categories and folders you want to back up by tapping on “<strong>Included files and folders</strong>”, switching the toggles on for particular categories. You can add folders by pressing the “<strong>+</strong>” button. </p>
+
+<h3 id="system-data">System data</h3>
+
+<ul>
+  <li>Most system settings (e.g. Screen timeout)</li>
+  <li>Local contacts (non-cloud)
+    <ul>
+      <li>Emergency contacts</li>
+    </ul>
+  </li>
+  <li>Emergency information, such as Medications
+    <ul>
+      <li><em>Except:</em> Owner name</li>
+    </ul>
+  </li>
+  <li>Saved Wi-Fi networks</li>
+  <li>Custom wallpaper</li>
+  <li>Home screen layout
+    <ul>
+      <li><em>Except:</em> Some widgets may not function properly after restore.</li>
+      <li><em>Except:</em> Work Profile shortcuts and widgets, which are not restored.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="what-is-not-included"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="Anchor" title="Anchor" />What is not included</h2>
+
+<h3 id="certain-app-data">Certain app data</h3>
+
+<p>Android allows an app to decide what data it wants to include or leave out of a backup. It depends on the specific apps if they will provide usable backup data for Seedvault to be able to perform backups for them.  </p>
+
+<p>What’s more, some apps, such as Signal, <a href="#apps-whose-data-isnt-backed-up-out-of-the-box">implement their own handling for backups</a>.</p>
+
+<h3 id="app-permissions-and-notifications">App permissions and notifications</h3>
+
+<p>The ability for permissions to be backed up and automatically restored by Seedvault is a planned feature in our development roadmap. See <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2928">this CalyxOS issue</a> and the <a href="https://github.com/seedvault-app/seedvault/issues/773">upstream Seedvault issue</a>.</p>
+
+<p>Until then, you will need to manually customize app permission and notficiation settings, or consider reviewing and updating your app permission and notification settings.</p>
+
+<h3 id="certain-system-data">Certain system data</h3>
+
+<p>An operating system’s Setup Wizard may show some settings pages <em>after</em> the restore is complete. For cases like this, the settings selected in the Setup Wizard will overrule whatever was contained in the backup. As an example, in LineageOS, the <strong>Location settings</strong> page appears after the restore process. Both of the location options presented are checked by default, regardless of any location settings from your backup. If you had such location options turned off before, and you would like for it to stay that way, be sure to manually toggle them off again.</p>
+
+<p>Some system data is either not intended to leave the device or is otherwise not included in a backup. A partial list of such data is as follows:</p>
+
+<ul>
+  <li>
+    <p>Starred contacts (the state of being starred or favorited)</p>
+  </li>
+  <li>Offline calendars</li>
+  <li>
+    <p>Emergency information’s Owner name</p>
+  </li>
+  <li>
+    <p>Priority conversations</p>
+  </li>
+  <li>
+    <p>Screen lock PIN/password</p>
+  </li>
+  <li>
+    <p>Biometric data (e.g. Fingerprint unlock)</p>
+  </li>
+  <li>
+    <p>Some OS-specific settings (e.g. Restrict USB, Bluetooth timeout, Panic settings)</p>
+  </li>
+  <li>
+    <p>Certain home screen items </p>
+  </li>
+  <li>Anything overridden by the Setup Wizard, as described at the top of this section</li>
+</ul>
+
+<h3 id="seedvault-settings">Seedvault settings</h3>
+
+<p>Seedvault does not currently backup/restore all of its own settings, so after a restore, you will need to customize its settings again. It is highly recommended to either remember, take screenshots, or otherwise notate your settings:</p>
+
+<ul>
+  <li>Main settings page</li>
+  <li><strong>Backup scheduling</strong> page</li>
+  <li><strong>Backup status</strong> &gt; <strong>three-dot menu</strong> &gt; <strong>Exclude apps</strong> page</li>
+  <li><strong>Included files and folders</strong> page (under <strong>File backup</strong>)</li>
+</ul>
+
+<h2 id="what-about-a-work-profile-private-space-or-secondary-user">What about a Work Profile, Private Space, or secondary user?</h2>
+
+<p>Seedvault must be set up individually for any user or profile that you would like to back up. It is up to you whether you want or need to back up anything other than your primary user (typically Owner). For Work Profile, Private Space, or any secondary user, Seedvault must be set up separately.</p>
+
+<p>Please note that, unfortunately, not all operating systems provide access to Seedvault in a Work Profile or Private Space. This may make it difficult or impossible to restore your data into such a profile. In such cases, you can use Seedvault to back up data from your Work Profile or Private Space, create a secondary user for your new operating system, and restore data into that user profile.</p>
+
+<p>To restore data into a new user profile, you must finish initial device setup first. Restoring a user or profile requires creating it first. You can either use the <strong>Restore</strong> page as part of the Setup Wizard or launch Seedvault within that user or profile and follow the prompts.</p>
+
+<p>It is possible to back up all users or profiles to the same storage location. Seedvault will compartmentalize your data into different folders for each one. Please note, however, that each profile will have a different recovery code. Wherever you store these codes, be sure to notate which code corresponds with which profile (Owner, Work Profile, Private Space, etc.), to reduce the risk restoring the wrong data to the wrong profile. However, when restoring with Seedvault, backups have titles like “Google Pixel 4a (5G) - Work Profile” to provide you with a decent clue.</p>
+
+<h2 id="setting-up-backups">Setting up backups</h2>
+
+<p>For Seedvault to actually perform backups, it needs to be set up first. This section explains how.</p>
+
+<h3 id="what-you-need">What you need</h3>
+
+<p>Before you get started, you’ll need the following:</p>
+
+<ul>
+  <li>A secure place to keep your recovery code, a series of 12 common English words. Recommendations:
+    <ul>
+      <li>Password manager (preferred).</li>
+      <li>Something to write on, and a safe place to store the written code.</li>
+    </ul>
+  </li>
+  <li>A storage location, which is any one of:
+    <ul>
+      <li>
+        <p>USB drive and relevant USB adapters.</p>
+      </li>
+      <li>WebDAV-compatible storage location such as Nextcloud; you will need the web address, username, and password.</li>
+      <li>Alternative compatible third-party app such as <a href="https://roundsync.com/">Round Sync</a>. This app must be installed before it can be used by Seedvault, i.e. before starting the first-time setup process.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Privacy to prevent your recovery code from being seen by others.</p>
+  </li>
+  <li>An understanding of what is backed up and what is not. </li>
+</ul>
+
+<p>Accessibility note: Unfortunately, the recovery code page are not yet optimized for screen readers and may take extra time or effort to complete. We hope to address this soon.</p>
+
+<h3 id="first-time-setup">First-time setup</h3>
+
+<ol>
+  <li>
+    <p>Open the Seedvault app.</p>
+  </li>
+  <li>
+    <p>Choose “<strong>Start new</strong>” when asked if you want to restore your device.</p>
+  </li>
+  <li>
+    <p>Store or write your recovery code, and prepare to enter it later to confirm.</p>
+  </li>
+  <li>
+    <p>Enter your recovery code in the series of 12 boxes. As you type, an autocompletion dropdown will appear for each word, as the set of possible words is limited.</p>
+  </li>
+  <li>Choose your storage location. If you are backing up to a USB drive, plug it in for it to show up in the list. If you are using WebDAV, have your credentials ready.
+    <ul>
+      <li>If you are using Nextcloud with WebDAV, you may want or need to create an <a href="https://docs.nextcloud.com/server/latest/user_manual/en/session_management.html#device-specific-passwords-and-password-changes">app password</a> for use here. Other Nextcloud-related setup is beyond the scope of this guide.</li>
+    </ul>
+  </li>
+  <li>To include apps in your backups, turn on “Backup my apps”.
+    <ul>
+      <li>If disk space or server space is a concern, after turning on app backups, you can turn off the backup of app installation files via the <strong>three-dot menu</strong> &gt; <strong>Expert settings</strong> &gt; <strong>APK backups</strong> toggle.</li>
+    </ul>
+  </li>
+  <li>To include files in your backups:
+    <ol>
+      <li>
+        <p>Turn on “<strong>Backup my files</strong>”. You may see a notice that this is a Beta feature. Please read the notice. If you would like to continue, tap “<strong>Enable anyway</strong>”.</p>
+      </li>
+      <li>
+        <p>Tap “<strong>Included files and folders</strong>” and turn on categories you like.</p>
+      </li>
+      <li>
+        <p>To ensure a specific folder and all of its contents are backed up, tap the ”<strong>+</strong>” button, enter the folder, and tap “<strong>Use this folder</strong>”, followed by “<strong>Allow</strong>”.</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Note: many apps <em>do not</em> have in-app data ready for Seedvault to back up, such as Signal. Some of them provide their own backup mechanisms. Make sure you follow instructions from these apps. For more details, visit the “<a href="#apps-whose-data-is-not-backed-up-out-of-the-box">Apps whose data isn’t backed up out of the box</a>”.</p>
+  </li>
+  <li>Keep track of items from the “<a href="#what-is-not-included">What is not included</a>” section so you will not lose them when you need to restore your device. </li>
+</ol>
+
+<h2 id="performing-a-backup">Performing a backup</h2>
+
+<p>To perform your first backup, open Seedvault, tap the <strong>three-dot menu</strong>, and tap “<strong>Backup now</strong>”. Note that when you choose a flash drive in your first-time setup, the first backup will start automatically without this step from your side.</p>
+
+<p>Seedvault will keep you informed of its backup progress via notifications. These notifications are silent, but you can view them in your notification tray. </p>
+
+<p>When a backup is running, the “<strong>Backup running</strong>” notification appears. You can expand the notification to see which app or component is presently being backed up.</p>
+
+<p>When the backup has completed, the “<strong>Backup finished</strong>” notification appears. This is your indicator of success, and it lets you know how many apps were backed up. You can tap on it to open Seedvault, and from there, tap on “<strong>Backup status</strong>” to learn more. </p>
+
+<h2 id="verifying-your-backup">Verifying your backup</h2>
+
+<p>Check the result of the backup via the “<strong>Backup status</strong>” page accessible from the main Seedvault settings screen. Scroll through to make sure that all of your expected apps were included in the backup.</p>
+
+<p>Some apps may have been excluded <a href="https://github.com/seedvault-app/seedvault/wiki/FAQ#why-do-apps-not-get-backed-up-when-not-recently-used">if they were not launched recently</a>. To include such apps in the next backup, simply launch them once and try running the backup again. You can use the <strong>Launch</strong> button on the <strong>Backup status</strong> page as a shortcut.</p>
+
+<h3 id="trial-restore">Trial restore</h3>
+
+<p>Unless you will be restoring to a separate device, it is recommended to perform a trial restoration on the same device in a secondary user.</p>
+
+<p>Android supports <a href="https://support.google.com/android/answer/2865483?hl=en">multiple users</a>. To use this feature, visit <strong>Settings</strong> &gt; <strong>System</strong> &gt; <strong>Users</strong>. From there, turn on “<strong>Allow user switch</strong>”, and you can add a new user, and proceed to restore your backup as if you were working with a new device. See the “<a href="#restoring">Restoring</a>” section for more information.</p>
+
+<p>This is a good time to verify that all app data was restored as expected and to find apps that may provide an internal backup mechanism or otherwise require manual backup.</p>
+
+<h2 id="before-moving-forward">Before moving forward…</h2>
+
+<p>Reinstalling or switching operating systems can be a complex task. Although this guide attempts to prepare you for known pitfalls, unforeseen issues can always arise. Here are some steps you can take to mitigate some of the risk.</p>
+
+<ol>
+  <li>
+    <p><strong>Have another device available, if possible.</strong> For many people, a phone is a critical communication device. If possible, rather than changing operating systems on your current device right away, consider restoring your data to a different device. This way, if something goes wrong, your device will remain in the same known-working state. Alternatively, if available, prepare some other device as much as you can for meeting your needs, at least temporarily, in the event that something goes wrong with your current device. This can be whatever works for you. Depending on your usage and requirements, this could be another phone running another operating system with a manual replica or sync of your crucial apps and data, or it could even be a computer with the desktop version of Signal and with your photos or other relevant data copied/exported/synchronized to it.</p>
+  </li>
+  <li>
+    <p><strong>Consider your communication needs.</strong> Consider arranging an alternate contact method with your friends and family members or other contacts, if you do not already have one. This should be a contact method you can use either without a device or with some other device. If this is not possible, it may at least be worth informing some of your contacts that you might be unreachable for a certain period of time.</p>
+  </li>
+  <li>
+    <p><strong>Consider your privacy, security, and usability needs.</strong> Not all operating systems are a perfect match for all people. Out of the box, most stock operating systems share some of your data with Google or other third parties. Some operating systems target more advanced users and may take extra reading and research to install or use effectively. Some may not have a Google Play services compatibility layer available, limiting the apps that can be used.</p>
+  </li>
+  <li>
+    <p><strong>Get help if needed.</strong> If you do not feel comfortable making such a large change yourself, there may be others in your circle who can help. You may also be able to find assistance via the <a href="https://calyxos.org/community/">CalyxOS community</a>.</p>
+  </li>
+  <li>
+    <p><strong>It’s okay to change your mind.</strong> You might try an operating system and discover it doesn’t meet your needs. Look into alternatives, even if that means returning to stock for a while.</p>
+  </li>
+</ol>
+
+<h2 id="restoring"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="Anchor" title="Anchor" />Restoring</h2>
+
+<h3 id="what-you-need-1">What you need</h3>
+
+<p>Before you get started, you’ll need the following:</p>
+
+<ul>
+  <li>
+    <p>Privacy to prevent your recovery code from being seen by others, or your device from being accessed during the restore process.</p>
+  </li>
+  <li>Your recovery code itself.</li>
+  <li>Access to your backup storage location.
+    <ul>
+      <li>Note: If you use a third-party app for your storage location as opposed to a USB drive or WebDAV, the restoration needs to happen after you finish the Setup Wizard and with the required third-party app installed.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="notes-on-restoring-during-the-setup-wizard">Notes on restoring during the Setup Wizard</h3>
+
+<p>Depending on the target operating system, you may not be prompted to create a screen lock PIN until <em>after</em> the restoration process. This leaves your device and data vulnerable to being accessed without any unlock required, until such a point that you <em>can</em> create a screen lock.</p>
+
+<p>As a result, you may prefer to complete Setup Wizard and open Seedvault afterwards. However, be aware that this option is not as well-tested, so it is recommended to perform a restore within the Setup Wizard if possible. </p>
+
+<h3 id="performing-a-restore">Performing a restore</h3>
+
+<ol>
+  <li>Proceed to the Restore step of the Setup Wizard, or if you have completed the Setup Wizard, open Seedvault and choose “<strong>Restore backup</strong>”.</li>
+  <li>
+    <p>Select your storage location. If you are backing up to a USB drive, plug it in, and it should show up in the list to select. If you are using WebDAV, select that option, and enter your credentials, and proceed.</p>
+  </li>
+  <li>Enter your recovery code.</li>
+  <li>Restore apps:
+    <ol>
+      <li>Choose an app data backup to restore, if any, and make sure its title and date match what you expect. For example, the title should include “Work Profile” or similar if you are restoring a work profile, as opposed to “Owner” or some other name that should be shown if you are not.</li>
+      <li>
+        <p>Select the items you’d like to restore, and proceed.</p>
+      </li>
+      <li>
+        <p>The “Restoring backup” phase may result in some failed restorations. See the “Apps that fail to restore” section if this happens to you.</p>
+      </li>
+      <li>
+        <p>Once apps are installed, proceed to continue with restoring their data.</p>
+      </li>
+      <li>
+        <p>Similarly, it is possible for there to be errors during restore. Note these for further inspection, if they are not addressed in the “<a href="#apps-that-fail-to-restore">Apps that fail to restore</a>” section.</p>
+      </li>
+      <li>Once data is restored, proceed.</li>
+    </ol>
+  </li>
+  <li>Restore files:
+    <ol>
+      <li>Choose a file backup to restore, if any.
+        <ul>
+          <li>Because you already selected an app backup snapshot earlier, this may seem like a redundant step; however, Seedvault stores and tracks file backups separately from app backups, so you will need to separately select your files backup. This will likely show roughly the same date as the app backup snapshot you chose earlier.</li>
+        </ul>
+      </li>
+      <li>You’ll be asked to review the files you wish to restore. Adjust this as you’d like. Once everything looks good to you, proceed by tapping the “<strong>Restore selected files</strong>” button.</li>
+      <li>Restoration of files will happen in the background as you proceed.</li>
+    </ol>
+  </li>
+</ol>
+
+<h3 id="reusing-a-backup">Reusing a backup</h3>
+
+<p>As part of the app data restore process, Seedvault will ask you if you’d like to reuse your backup.</p>
+
+<p>If you are doing a trial restore, always choose “<strong>Create new</strong>”; you won’t be performing a backup with this option, anyway.</p>
+
+<p>Otherwise, this option is up to you. Generally speaking, if you are restoring to a device that will become your primary device, it makes sense to choose “<strong>Reuse backup</strong>”. However, if your source device is one that you will continue to back up, and you consider that device to be your primary device, you may wish to choose “<strong>Create new backup</strong>” instead. Regardless, this choice should only affect the amount of data used and time taken for the next backup, rather than more serious consequences.</p>
+
+<p>Be aware that regardless of which option you choose, Seedvault backup will not be turned on until you follow the steps in “<a href="#turn-backup-on-again">Turn backup on again</a>”.</p>
+
+<h3 id="apps-that-fail-to-restore"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="Anchor" title="Anchor" />Apps that fail to restore</h3>
+
+<p>Some apps may fail to restore, especially to a different operating system. Here are some CalyxOS apps whose failure to restore on a different OS is to be expected and can be ignored:</p>
+
+<ul>
+  <li>Android Auto toggle</li>
+  <li>Calendar</li>
+  <li>CalyxOS App Installer</li>
+  <li>CalyxOS Update Client</li>
+  <li>Camera</li>
+  <li>eSpeak</li>
+  <li>microG Services</li>
+</ul>
+
+<p>For other apps whose restoration fails, a closer look at the situation may be required. It could be that the app is too old to be installed anew on a modern version of Android, or there could be some other complication involved. After the restoration process has completed, try installing the app another way.</p>
+
+<h3 id="manual-review-and-adjustments">Manual review and adjustments</h3>
+
+<h4 id="microg--compatibility-with-google-play-services">microG / Compatibility with Google Play services</h4>
+
+<p>If your operating system does not include microG or Google Play services, you may want to install it if possible. Details of doing so depend on the operating system.</p>
+
+<p>For LineageOS, you can <a href="https://github.com/microg/GmsCore/releases">obtain microG from its GitHub releases page</a> and install it. You’ll likely want to download and install the .apk files beginning with com.google.android.gms / com.android.vending, and not ending with -hw.</p>
+
+<p>Once installed, you’ll want to launch the microG Settings app and turn on the pieces you need. With CalyxOS, by default, these are Google device registration, Cloud Messaging, and most toggles under Location, with the exception of “<strong>Request from Hotspot</strong>”.</p>
+
+<p>Additionally, if microG is not available as a system app, its data may not have been restored, and it may not be properly restorable. You can try restoring it manually by opening <strong>Seedvault</strong> &gt; <strong>three-dot menu</strong> &gt; <strong>Restore backup</strong>, selecting a backup, and deselecting everything except microG services, but it may not successfully restore your microG configuration; you can open microG Settings to verify yourself. </p>
+
+<p>The next step is to test apps that use push notifications. Some apps that use push notifications via microG / Google Play services may have trouble working properly after being restored. Test your apps, and if you have problems, consider wiping the app’s data, reinstalling the app, or looking for support options for that app.</p>
+
+<h4 id="critical-functionality"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="Anchor" title="Anchor" />Critical functionality</h4>
+
+<p>It is highly recommended to run through trials of some of your most important activities to be sure everything works as expected. Here are some common things to verify are working the way you expect:</p>
+
+<ul>
+  <li>
+    <p>Placing a call</p>
+  </li>
+  <li>
+    <p>Receiving / being notified of a call (especially with the screen locked); ask a friend</p>
+  </li>
+  <li>
+    <p>Sending a message</p>
+  </li>
+  <li>
+    <p>Receiving / being notified of a message (especially with the screen locked); ask a friend</p>
+  </li>
+  <li>
+    <p>Alarms</p>
+  </li>
+  <li>
+    <p>Emergency contacts</p>
+  </li>
+  <li>
+    <p>Security settings, such as Restrict USB</p>
+  </li>
+  <li>
+    <p>Anything else you can think of that you depend on, whether regularly or rarely</p>
+  </li>
+</ul>
+
+<h3 id="turn-backup-on-again"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="Anchor" title="Anchor" />Turn backup on again</h3>
+
+<p>Seedvault backup is off by default, even after a restore. Unless you are doing a trial restore, be sure to re-enable the options you had before. Use the “Additional recommended steps &gt; Notate or screenshot your backup settings” as a reference for the settings you may want to review.</p>
+
+<h3 id="restoring-a-work-profile">Restoring a Work Profile</h3>
+
+<p>If you are restoring to an operating system other than CalyxOS, the Work Profile app that it provides is not available. To restore data that was kept in such a work profile, you can attempt to do so using an app like Insular or Shelter. This is currently out of the scope of this guide. However, it <em>might</em> be possible to do so via <strong>Settings</strong> &gt; <strong>System</strong> &gt; <strong>Backup</strong>, depending on the operating system.</p>
+
+<p>To restore work profile data in CalyxOS or similarly compatible operating systems, simply open the Work Profile app to create a new work profile, and restore its data as part of the Work Profile Setup Wizard. Alternatively, use the Backup app in the apps list, or visit <strong>Settings</strong> &gt; <strong>System</strong> &gt; <strong>Backup</strong> and choose the newly-created work profile.</p>
+
+<h3 id="restoring-a-private-space">Restoring a Private Space</h3>
+
+<p>Unfortunately, it is not easily possible to restore a Seedvault backup in a Private Space in most operating systems. In CalyxOS, however, Seedvault appears as the Backup app in the apps list.</p>
+
+<h2 id="apps-whose-data-isnt-backed-up-out-of-the-box"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="Anchor" title="Anchor" />Apps whose data isn’t backed up out of the box</h2>
+
+<p>Here are some common apps whose data is not backed up out of the box with Seedvault, but which offer other mechanisms for backup. In some cases, as with Signal, their backup data can be added to Seedvault’s <strong>File backup</strong> manually, which means their backup files are available for manual restore after a Seedvault restore. This is not an exhaustive list.</p>
+
+<h3 id="calyxos-chromium">CalyxOS Chromium</h3>
+
+<p>CalyxOS Chromium (the ‘<strong>Chromium</strong>’ app that comes with CalyxOS) data and settings are not automatically backed up. Some but not all of this data can be exported manually, and passwords may only be exported in plaintext; they may not be imported back into Chromium.</p>
+
+<h4 id="bookmarks">Bookmarks</h4>
+
+<p><strong>Three-dot menu</strong> &gt; <strong>Bookmarks</strong> &gt; <strong>Export</strong>. These bookmarks can be imported into any browser that supports importing HTML bookmarks, such as Cromite.</p>
+
+<h4 id="passwords">Passwords</h4>
+
+<p>Although passwords can be exported from Chromium, they cannot be imported. If you have any passwords only saved in Chromium, this may be a good opportunity to update these passwords and store them in a standalone password manager instead. You can either do this manually, or export them in CSV files and import them into a solution that has CSV file import options, such as <a href="https://keepass.info/">KeePass</a>.</p>
+
+<p>Finding a password manager is outside the topics this guide covers. Research is needed to ensure the security of the chosen password manager solution before you migrate passwords.</p>
+
+<p>Given that the passwords are in plaintext, they should be exported to a safe location on your device that other apps cannot readily access, and deleted immediately after they are imported elsewhere. You may wish to use an app like <a href="https://f-droid.org/en/packages/exe.bbllw8.anemo/">Anemo</a> to be provided with such a storage area.</p>
+
+<p>To export your passwords, use the <strong>three-dot menu</strong> &gt; <strong>Settings</strong> &gt; <strong>Password Manager</strong> &gt; <strong>three-dot menu again</strong> &gt; <strong>Export passwords</strong>, and choose a safe place to export them.</p>
+
+<h3 id="signal">Signal</h3>
+
+<h4 id="backup">Backup</h4>
+
+<p>To back up Signal, you first need to turn on chat backups. Doing so will involve a dedicated backup passphrase, which the Signal app will provide to you. Prepare to store this phrase in a password manager or to write it down and store it securely.</p>
+
+<p>Signal’s website includes <a href="https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages#h_01HFAC67F3A1EXM2PRBTZ9HHW1">instructions for enabling chat backups</a>. These instructions are replicated below, with additional notes included as “Guide notes” where needed:</p>
+
+<ol>
+  <li>
+    <p>Tap on the profile icon to access <strong><a href="https://support.signal.org/hc/articles/360009091591">Signal Settings</a></strong> &gt; <strong>Chats</strong> &gt; <strong>Chat backups</strong> &gt; <strong>Turn on</strong>.</p>
+  </li>
+  <li>For Android OS version 9 or earlier, go to step 3.<br />
+For Android OS version 10 or later, select <strong>Choose folder</strong> and choose where to save the backup file.
+    <ul>
+      <li><em>Guide notes:</em> This guide assumes you will create a new folder named Signal at the top of your device storage.
+        <ul>
+          <li>
+            <p>The folder screen should show something like “Files on Fairphone 5 5G” with a notice that says “Can’t use this folder”, along with a “Create new folder” button.</p>
+          </li>
+          <li>Tap the button to create a new folder, and name it Signal or anything you can identify later.</li>
+          <li>Then, tap “Use this folder”.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Copy the 30-digit passphrase from left to right, top to bottom. You will need this passphrase in order to restore a backup. Keep it in a safe place. </p>
+  </li>
+  <li>
+    <p>Confirm that you have written down the passphrase.</p>
+  </li>
+  <li>
+    <p>Select <strong>Enable backups</strong>.</p>
+  </li>
+  <li>Tap <strong>Create backup</strong>. You can verify whether or not a backup has completed successfully by checking the time of the last backup.</li>
+  <li>Signal displays where you can find the backup under the title <strong>Backup folder</strong>. Go to that folder.</li>
+  <li>Move or save a copy of the backup on a device that is not your phone.
+    <ul>
+      <li>A common method is to use a cable to plug your phone into your computer. Some phone’s require you to use a cable that was provided with your phone in order to transfer data.</li>
+    </ul>
+  </li>
+</ol>
+
+<h4 id="including-in-seedvault">Including in Seedvault</h4>
+
+<ol>
+  <li>Open the Seedvault main settings page, and tap ”Included files and folders”.</li>
+  <li>Tap the “<strong>+</strong>” button.</li>
+  <li>Select the Signal folder, and tap “<strong>Use this folder</strong>”.</li>
+  <li>Tap <strong>Allow</strong>.</li>
+  <li>Signal will now be included in your next backup.</li>
+</ol>
+
+<h4 id="restore">Restore</h4>
+
+<p>After you have completed overall Seedvault restoration and left the Setup Wizard, when Seedvault is done restoring files, it is time to restore your Signal chats. You must do this before you start using Signal again on this device! Make sure you have your backup passphrase available, and follow these steps to restore your Signal chats.</p>
+
+<ol>
+  <li>
+    <p>Open Signal.</p>
+  </li>
+  <li>Tap the “<strong>Transfer or restore account</strong>” button.</li>
+  <li>
+    <p>Select “<strong>Restore local backup</strong>” and tap <strong>Next</strong>.</p>
+  </li>
+  <li>Tap the “<strong>Choose backup</strong>” button.</li>
+  <li>
+    <p>Tap the menu button at the top left, and select your device name at the bottom of the “<strong>Open from</strong>” list (for example, Fairphone 5 5G).</p>
+  </li>
+  <li>You should see a list of device folders, often starting with “Alarms” and “Android”, and including the “Signal” folder you included in backup previously. Tap the Signal folder.
+    <ul>
+      <li>On some variants of Android, you may not see any folders initially. If so, try pulling down on the list to refresh. If you continue not to see any folders, use the back button to the folder selector and start again from the “Choose backup” step.</li>
+    </ul>
+  </li>
+  <li>In the Signal folder, you may see multiple files. When sorted by name (the default), the most recent backup should be the last file in the list. Tap the most recent backup to restore it.</li>
+  <li>
+    <p>Tap the “<strong>Restore backup</strong>” button.</p>
+  </li>
+  <li>
+    <p>Enter your backup passphrase, and tap <strong>Restore</strong>.</p>
+  </li>
+  <li>
+    <p>Continue with the process. As prompted, enter your phone number, Signal PIN, and information it may need to complete requested verifications. (If you do not have a PIN, or do not know it, you can <strong>Skip</strong> when prompted.)</p>
+  </li>
+  <li>If you are using an operating system that does not include Google Play services or microG, you may receive multiple dialogs warning you of this during this process. Feel free to dismiss them, but after the setup process, be sure to follow through with the recommended “Optimize for missing Play Services” action and allow Signal to run in the background so that you receive message notifications.</li>
+  <li>Proceed with “<strong>Re-establishing chat backups</strong>” to ensure your chats remain backed up.</li>
+</ol>
+
+<h4 id="re-establishing-chat-backups">Re-establishing chat backups</h4>
+
+<p>Chat backups are turned off after a restore and need to be set up again to continue backing up your messages going forward. This process generates a new backup passphrase as well. Prepare to store a new, different chat backup code in a secure location, and proceed with these instructions.</p>
+
+<ol>
+  <li>On Signal’s main screen, if you see a “Can’t back up chats” notice on the main screen, tap “Back up chats” and follow its instructions, which includes granting Signal the “Allow setting alarms and reminders” permission. You may find that it is already granted and unchangeable, in which case you may leave the permissions page. When done, go Back a couple times to return to Signal’s main screen.</li>
+  <li>Tap the <strong>three-dot menu</strong> in Signal &gt; <strong>Settings</strong> &gt; <strong>Chats</strong> &gt; <strong>Chat backups</strong>.</li>
+  <li>
+    <p>Tap “<strong>Turn on</strong>”, and tap “<strong>Choose folder</strong>”.</p>
+  </li>
+  <li>
+    <p>The Signal folder from which you restored your Signal backup should already be selected. If not, navigate to it. Then, tap “<strong>Use this folder</strong>”, and tap “<strong>Allow</strong>”.</p>
+  </li>
+  <li>Proceed with the rest of the chat backup establishment process, storing the new backup passphrase securely.</li>
+  <li>Tap “<strong>Verify backup passphrase</strong>” and enter the passphrase you stored to be sure it is correct. If it is not correct, turn off chat backups and re-start this process.</li>
+</ol>
+
 
 
         </section>
