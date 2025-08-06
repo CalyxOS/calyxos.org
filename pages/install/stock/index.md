@@ -37,7 +37,7 @@ Fairphone provides its own guides for reinstalling the default Fairphone OS.
 
 ### Motorola
 
-Restoring Motorola devices to stock can be complex and varies by modle, there is no official guide from Motorola. Please use at your own discretion as we have not done extensive testing. We've done our best to compile some possible options:
+Restoring Motorola devices to stock can be complex and varies by model; there is no official guide from Motorola. Please use at your own discretion as we have not done extensive testing. We've done our best to compile some possible options:
 
 #### Option 1: Windows
 
