@@ -41,3 +41,7 @@ We developed a privacy focused backup and restore application called SeedVault w
 ### Why can't I use call recording?
 
 CalyxOS uses the call recording feature from LineageOS. For legal reasons, countries where call recording would be illegal have this feature blocked. However in countries like the United States, there are states where it is legal, others where it is not. Unfortunately, there is a limitation in its implementation and we are not able to block specific states and leave out others.
+
+### Why is my USB device not working?
+
+CalyxOS restricts USB devices by default, they will only be able to communicate with the phone if the phone is unlocked at the time of the connection. It's likely you plugged it in while locked, therefore it will not work. You can always allow new devices, if you'd like, by going into Settings -> Security and privacy -> Restrict USB -> Allow new USB gadgets always, be aware however, that this is a security feature.
