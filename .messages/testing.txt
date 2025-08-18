@@ -1,4 +1,3 @@
-Title
-Text
-URL
-Big text
+Attention: CalyxOS maintenance issue
+Your version of CalyxOS is no longer maintained. Reinstall is required in six months when our next update is available. Click this message to read why.
+https://calyxos.org/news/2025/08/01/a-letter-to-our-community/
