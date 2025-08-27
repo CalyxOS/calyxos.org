@@ -1,6 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-08-06T01:11:58+00:00</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">A letter to the CalyxOS community</title><link href="/news/2025/08/01/a-letter-to-our-community/" rel="alternate" type="text/html" title="A letter to the CalyxOS community" /><published>2025-08-01T00:00:00+00:00</published><updated>2025-08-01T00:00:00+00:00</updated><id>/news/2025/08/01/a-letter-to-our-community</id><content type="html" xml:base="/news/2025/08/01/a-letter-to-our-community/"><![CDATA[<p> 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-08-27T20:35:03+00:00</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Last OTA update before new CalyxOS release</title><link href="/news/2025/08/27/last-ota-update-before-new-calyxos-release/" rel="alternate" type="text/html" title="Last OTA update before new CalyxOS release" /><published>2025-08-27T00:00:00+00:00</published><updated>2025-08-27T00:00:00+00:00</updated><id>/news/2025/08/27/last-ota-update-before-new-calyxos-release</id><content type="html" xml:base="/news/2025/08/27/last-ota-update-before-new-calyxos-release/"><![CDATA[<ul>
+  <li>This is the last over-the-air (OTA) update to all current and supported CalyxOS devices, before CalyxOS resumes development from its current hiatus.</li>
+  <li>The OTA update warns people of the risk of running the current, unmaintained version of CalyxOS.</li>
+  <li>It also includes a patch to enable Moto and Fairphone users to install CalyxOS while the project is on pause in response to emerging public requests.</li>
+</ul>
+
+<h3 id="whats-included">What’s included</h3>
+
+<p>As mentioned in our letter to the <a href="/news/2025/08/01/a-letter-to-our-community/">CalyxOS community</a>, this project has been on a hiatus for the last two months. However, we are concerned with the many existing CalyxOS users who may have not been made aware of this important change. To reach as many active CalyxOS users as we can, our team decided collectively to push one last OTA update to inform all people currently running CalyxOS about the hiatus and its impact.</p>
+
+<p>Therefore, rather than a typical monthly update, this OTA update alerts people through a system notification that their current version of CalyxOS will no longer receive updates from our team and a link to our community letter. Once the project comes out of the hiatus, you will be alerted with an additional notification, and reinstalling CalyxOS will be required to receive updates going forward.</p>
+
+<p>In addition, Moto and Fairphone devices will receive a patch to fix <a href="/install/antirollback-update-pending/">the issue related to the anti-rollback protection (ARB) feature</a> we discovered earlier. We hope this can provide a temporary solution to people who are seeking to run CalyxOS on these devices before they can establish a long-term plan. Note that since there will be no more updates to the existing version of CalyxOS installed on your device, future releases from the manufacturer to increment the ARB index are likely to cause the same issue mentioned above.</p>
+
+<p>We understand that some people will continue running CalyxOS until our next release, so alongside this notification, we have included the latest open source security updates for Android 15 (although this is not a full CalyxOS security update).  This OTA update, however, is not related to our Android 16 port or the AOSP QPR1 update. We are closely monitoring the AOSP QPR1 release and working hard on bringing up Android 16 with all feature updates and security patches along with our current need to overhaul the project.</p>
+
+<h3 id="rollout">Rollout</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Release channel</th>
+      <th>Date</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Security express</td>
+      <td>2 September, Tuesday</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Beta</td>
+      <td>2 September, Tuesday</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Stable</td>
+      <td>3 September, Wednesday</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="changelog">Changelog</h3>
+<ul>
+  <li>CalyxOS 6.10.10 / 6.10.20</li>
+  <li>Android 15</li>
+  <li>August 2025 Security update (2025-08-01) with platform patches only.</li>
+  <li>Critical notice that maintenance of all current installations have been paused.</li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[This is the last over-the-air (OTA) update to all current and supported CalyxOS devices, before CalyxOS resumes development from its current hiatus. The OTA update warns people of the risk of running the current, unmaintained version of CalyxOS. It also includes a patch to enable Moto and Fairphone users to install CalyxOS while the project is on pause in response to emerging public requests.]]></summary></entry><entry><title type="html">A letter to the CalyxOS community</title><link href="/news/2025/08/01/a-letter-to-our-community/" rel="alternate" type="text/html" title="A letter to the CalyxOS community" /><published>2025-08-01T00:00:00+00:00</published><updated>2025-08-01T00:00:00+00:00</updated><id>/news/2025/08/01/a-letter-to-our-community</id><content type="html" xml:base="/news/2025/08/01/a-letter-to-our-community/"><![CDATA[<p> 
  
  </p>
+
+<p><strong>Update: August 27 2025</strong></p>
+
+<p>We’re concerned that some users may have not seen the important message in this letter about CalyxOS’ hiatus. Therefore, we are rolling out one last OTA update to devices currently running CalyxOS to reach as many active users as we can. You can read <a href="/news/2025/08/27/last-ota-update-before-new-calyxos-release/">our post</a> for more details about this update.</p>
 
 <p><strong>Update: August 5 2025</strong></p>
 
@@ -507,77 +562,4 @@ As always, we recommend adhering to best practices for digital hygiene in genera
     The <strong>Motorola moto g52, moto g42, moto g32, Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.7.21-2 - Android 15 is now available for the FP5, FP4, Moto G32, G42, G52, Pixel 5a, 5, 4a (5G) May security update (2025-05-05)]]></summary></entry><entry><title type="html">May 2025 Security update - Pixel 6 - 9</title><link href="/news/2025/05/07/may-security-update/" rel="alternate" type="text/html" title="May 2025 Security update - Pixel 6 - 9" /><published>2025-05-07T00:00:00+00:00</published><updated>2025-05-07T00:00:00+00:00</updated><id>/news/2025/05/07/may-security-update</id><content type="html" xml:base="/news/2025/05/07/may-security-update/"><![CDATA[<ul>
-  <li>CalyxOS 6.7.20 - Android 15 is now available for Pixel 6 - 9 devices</li>
-  <li>May security update (2025-05-05)</li>
-  <li>IMPORTANT: Certain Pixel devices won’t be able to downgrade after this update</li>
-</ul>
-
-<h3 id="key-google-pixel-updates">KEY Google Pixel updates</h3>
-<ul>
-  <li>Google’s May 2025 Pixel update for Pixel 6 (6, 6 Pro, 6a) and Pixel 8 (8, 8 Pro, 8a) devices incremented the anti-roll back version for the bootloader.</li>
-  <li>This prevents the above devices from rolling back to previous vulnerable versions of the bootloader.</li>
-  <li>Once you flash the May 2025 update on these devices, you won’t be able to flash and boot older Android 15 builds.</li>
-  <li>That update affects CalyxOS, Stock Android OS, and all other Android distributions.</li>
-  <li>Trying to downgrade after this update may fail and make your phone unbootable.</li>
-</ul>
-
-<h3 id="rollout">Rollout</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>Release channel</th>
-      <th>Date</th>
-      <th>Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Security express</td>
-      <td>7 May, Wednesday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Beta</td>
-      <td>8 May, Thursday</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Stable</td>
-      <td>12 May, Monday</td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="changelog">Changelog</h3>
-<ul>
-  <li>CalyxOS 6.7.20</li>
-  <li>May 2025 Security update (2025-05-05)</li>
-  <li>Chromium: 136.0.7103.60</li>
-  <li>Update all included apps</li>
-</ul>
-
-<h2 id="note">Note</h2>
-
-<div class="alert alert-info" style="margin-top: 3rem">
-<ul>
-  <li>
-    <strong>Over-the-air Updates:</strong>
-    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Pixel 9a, 9 Pro Fold, 9 Pro XL, 9 Pro, 9, 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Fairphone 5, 4, Motorola moto g 5G - 2024, moto g84 5G, moto g34 and g45 5G</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
-    <strong>End-of-life:</strong>
-    The <strong>Motorola moto g52, moto g42, moto g32, Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
-  </li>
-</ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.7.20 - Android 15 is now available for Pixel 6 - 9 devices May security update (2025-05-05) IMPORTANT: Certain Pixel devices won’t be able to downgrade after this update]]></summary></entry></feed>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.7.21-2 - Android 15 is now available for the FP5, FP4, Moto G32, G42, G52, Pixel 5a, 5, 4a (5G) May security update (2025-05-05)]]></summary></entry></feed>
