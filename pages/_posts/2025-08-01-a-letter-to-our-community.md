@@ -9,7 +9,13 @@ date: 2025-08-01
 
 **Update: August 27 2025**
 
-We're concerned that some users may have not seen the important message in this letter about CalyxOS' hiatus. Therefore, we are rolling out one last OTA update to devices currently running CalyxOS to reach as many active users as we can. You can read [our post](/news/2025/08/27/last-ota-update-before-new-calyxos-release/) for more details about this update.
+We are concerned that some users may have not seen the important message in this letter about CalyxOS' current hiatus. Therefore, we are rolling out one last OTA update to devices currently running CalyxOS to reach as many active users as we can. You can read [our post](/news/2025/08/27/last-ota-update-before-new-calyxos-release/) for more details about this update.
+
+&nbsp;
+
+---
+
+&nbsp;
 
 **Update: August 5 2025**
 
