@@ -1,5 +1,5 @@
 ---
-title: Last OTA update before new CalyxOS release
+title: Last OTA update before the new CalyxOS release
 date: 2025-08-27
 ---
 
