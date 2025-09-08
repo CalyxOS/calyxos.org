@@ -38,7 +38,7 @@ Other distributions may have the same or similar names for packages.
 You may need to run the below command to prevent some warnings when building
 
 ```shell
-sudo sysctl -w kernel.unprivileged_userns_clone 1
+sudo sysctl -w kernel.unprivileged_userns_clone=1
 ```
 
 ### Downloading the source code
