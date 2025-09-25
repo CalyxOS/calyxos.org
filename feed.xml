@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-08-27T21:51:52+00:00</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Last OTA update before the new CalyxOS release</title><link href="/news/2025/08/27/last-ota-update-before-new-calyxos-release/" rel="alternate" type="text/html" title="Last OTA update before the new CalyxOS release" /><published>2025-08-27T00:00:00+00:00</published><updated>2025-08-27T00:00:00+00:00</updated><id>/news/2025/08/27/last-ota-update-before-new-calyxos-release</id><content type="html" xml:base="/news/2025/08/27/last-ota-update-before-new-calyxos-release/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-09-25T13:22:35+00:00</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">Auld Lang Syne</title><link href="/news/2025/12/31/auld-lang-syne/" rel="alternate" type="text/html" title="Auld Lang Syne" /><published>2025-12-31T00:00:00+00:00</published><updated>2025-12-31T00:00:00+00:00</updated><id>/news/2025/12/31/auld-lang-syne</id><content type="html" xml:base="/news/2025/12/31/auld-lang-syne/"><![CDATA[<p>Should old acquaintance be forgot,
+and never brought to mind
+…</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Should old acquaintance be forgot, and never brought to mind …]]></summary></entry><entry><title type="html">Last OTA update before the new CalyxOS release</title><link href="/news/2025/08/27/last-ota-update-before-new-calyxos-release/" rel="alternate" type="text/html" title="Last OTA update before the new CalyxOS release" /><published>2025-08-27T00:00:00+00:00</published><updated>2025-08-27T00:00:00+00:00</updated><id>/news/2025/08/27/last-ota-update-before-new-calyxos-release</id><content type="html" xml:base="/news/2025/08/27/last-ota-update-before-new-calyxos-release/"><![CDATA[<ul>
   <li>This is the last over-the-air (OTA) update to all current and supported CalyxOS devices, before CalyxOS resumes development from its current hiatus.</li>
   <li>The OTA update warns people of the risk of running the current, unmaintained version of CalyxOS.</li>
   <li>It also includes a patch to enable Moto and Fairphone users to install CalyxOS while the project is on pause in response to emerging public requests.</li>
@@ -505,67 +507,4 @@ As always, we recommend adhering to best practices for digital hygiene in genera
 <p>Individual users should update to the latest CalyxOS release (6.6.22, 6.6.23 or newer) to protect themselves against this vulnerability. The CalyxOS team will continue monitor the issue on AOSP as it remains undisclosed and unresolved by the Google team.</p>
 
 <h4 id="gitlab-issue-link">GitLab Issue link</h4>
-<p><a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2848">https://gitlab.com/CalyxOS/calyxos/-/issues/2848</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[An AOSP security vulnerability allows third-party apps to bypass external storage restrictions and access sensitive folders without permissions. Google has received at least two reports of this issue, however, they have not released any public disclosure about status of the issue to this date. CalyxOS has released a fix to this issue with CalyxOS 6.6.22 and 6.6.23 in April 2025.]]></summary></entry><entry><title type="html">May 2025 Security update - take two</title><link href="/news/2025/05/09/may-security-update2/" rel="alternate" type="text/html" title="May 2025 Security update - take two" /><published>2025-05-09T00:00:00+00:00</published><updated>2025-05-09T00:00:00+00:00</updated><id>/news/2025/05/09/may-security-update2</id><content type="html" xml:base="/news/2025/05/09/may-security-update2/"><![CDATA[<ul>
-  <li>CalyxOS 6.7.21-2 - Android 15 is now available for the FP5, FP4, Moto G32, G42, G52, Pixel 5a, 5, 4a (5G)</li>
-  <li>May security update (2025-05-05)</li>
-</ul>
-
-<h3 id="rollout">Rollout</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>Release channel</th>
-      <th>Date</th>
-      <th>Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Security express</td>
-      <td>Friday, 9 May</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Beta</td>
-      <td>Saturday, 10 May</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Stable</td>
-      <td>Monday, 12 May</td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="changelog">Changelog</h3>
-<ul>
-  <li>CalyxOS 6.7.21-2</li>
-  <li>May 2025 Security update (2025-05-05)</li>
-  <li>Chromium: 136.0.7103.60</li>
-  <li>Update all included apps</li>
-</ul>
-
-<h2 id="note">Note</h2>
-
-<div class="alert alert-info" style="margin-top: 3rem">
-<ul>
-  <li>
-    <strong>Over-the-air Updates:</strong>
-    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Pixel 9a, 9 Pro Fold, 9 Pro XL, 9 Pro, 9, 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Fairphone 5, 4, Motorola moto g 5G - 2024, moto g84 5G, moto g34 and g45 5G</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
-    <strong>End-of-life:</strong>
-    The <strong>Motorola moto g52, moto g42, moto g32, Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
-  </li>
-</ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.7.21-2 - Android 15 is now available for the FP5, FP4, Moto G32, G42, G52, Pixel 5a, 5, 4a (5G) May security update (2025-05-05)]]></summary></entry></feed>
+<p><a href="https://gitlab.com/CalyxOS/calyxos/-/issues/2848">https://gitlab.com/CalyxOS/calyxos/-/issues/2848</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[An AOSP security vulnerability allows third-party apps to bypass external storage restrictions and access sensitive folders without permissions. Google has received at least two reports of this issue, however, they have not released any public disclosure about status of the issue to this date. CalyxOS has released a fix to this issue with CalyxOS 6.6.22 and 6.6.23 in April 2025.]]></summary></entry></feed>
