@@ -6,7 +6,7 @@ toc_title: List of Features
 ---
 
 ### Apps
-We include a selection of recommended FOSS applications.
+We include a selection of recommended Free and Open Source (FOSS) applications.
 #### Optional apps
 CalyxOS comes with a list of suggested free software applications to facilitate private online access but the user always has the choice whether to install or not. They'll always be available when needed, even when offline since they're included with the OS.
 <ul>
