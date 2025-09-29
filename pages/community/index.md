@@ -4,7 +4,9 @@ description: 🧑🏿‍🤝‍🧑🏻 Get support, give support, join the conv
 toc: true
 ---
 
-Welcome to the CalyxOS community. Please see our [[code-of-conduct]], [[pledge]] and dive right in.
+Welcome to the CalyxOS community. The CalyxOS community is a full community-led, volunteer-run space. The CalyxOS team is committed to provide as much support as we can. With the limited capacity of the CalyxOS team, we have a refined channel-specific strategy to provide support. Below is a full rundown of how to seek help and support from the CalyxOS team on each of our community channels. 
+
+This community is governed by our [[code-of-conduct]] and [[pledge]]. There is also a brief community engagement guideline in the following paragraphs. Please review all of them before diving right in!
 
 ## Chat
 
