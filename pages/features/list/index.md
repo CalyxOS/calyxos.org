@@ -119,7 +119,7 @@ These apps are required for basic functionality and thus always present on the d
   * High touch sensitivity
 * Security
   * Show Panic option
-  * Panic Settings
+  * Panic option settings
   * Auto reboot
   * Restrict USB
   * Screen lock Settings
