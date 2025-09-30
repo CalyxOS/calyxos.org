@@ -12,19 +12,19 @@ This community is governed by our [[code-of-conduct]] and [[pledge]]. There is a
 
 All below channels are on Matrix. They are public and **unencrypted**. Click the room links below to directly connect to the channel, or use one of Matrix's [clients](https://matrix.org/clients/).
 
-### Main channel
+### Main channels
 
 * CalyxOS: **[#CalyxOS:matrix.org](https://app.element.io/#/room/#CalyxOS:matrix.org)**
 * Calyx Institute channel: **[#calyx:matrix.org](https://app.element.io/#/room/#calyx:matrix.org)**
 
-### Additional Channels
+### Additional channels
 
-* For testing CalyxOS builds early and providing feedback **[#calyxos-testers:matrix.org](https://app.element.io/#/room/#calyxos-testers:matrix.org)**
 * For all off-topic conversations: **[#calyxos-offtopic:matrix.org](https://app.element.io/#/room/#calyxos-offtopic:matrix.org)**
 * For documentation, translation related discussion: **[#calyxos-docs:matrix.org](https://app.element.io/#/room/#calyxos-docs:matrix.org)**
 * For development related discussion: **[#calyxos-dev:matrix.org](https://app.element.io/#/room/#calyxos-dev:matrix.org)**
 * For infrastructure related discussion: **[#calyxos-infra:matrix.org](https://app.element.io/#/room/#calyxos-infra:matrix.org)**
 * Live feed of code commits, gitlab activity, reddit posts: **[#calyxos-feeds:matrix.org](https://app.element.io/#/room/#calyxos-feeds:matrix.org)**
+* For testing CalyxOS builds early and providing feedback **[#calyxos-testers:matrix.org](https://app.element.io/#/room/#calyxos-testers:matrix.org)**
 
 ## Stay Up To Date
 
