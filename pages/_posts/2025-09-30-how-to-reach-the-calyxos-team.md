@@ -4,7 +4,7 @@ date: 2025-09-30
 ---
 
 * An update on how CalyxOS will provide support on each community channel
-* Team support will withdraw from the [Telegram channel](https://matrix.org/docs/projects/bridge/mautrix-telegram) 
+* Team support will withdraw from the Telegram channel
 
 Dear CalyxOS community members, 
 
@@ -16,6 +16,6 @@ As we are transitioning the project, we also aim to refine our community support
 * To follow the latest CalyxOS updates, you can check the [CalyxOS X](https://x.com/CalyxOS) and [Mastodon](https://fosstodon.org/@calyxos) accounts.
 * We will also continue to sync all CalyxOS updates to the [CalyxOS subreddit](https://www.reddit.com/r/CalyxOS/) and answer questions when we have the time.
 
-Going forward, we will withdraw our support on the [Telegram channel](https://matrix.org/docs/projects/bridge/mautrix-telegram) to make sure our main channel is fully supported. However, the Telegram channel will continue to run as a entirely community-led space, however, our team is unable to moderate nor delegate moderator priviledges in those groups at this time. We thank all the admins and superusers on Telegram who have been voluntarily facilitating a democratic space for CalyxOS with our deepest gratitude.
+Going forward, we will withdraw our support from the Telegram channel to make sure our main channel is fully supported. However, the Telegram channel will continue to run as a entirely community-led space, however, our team is unable to moderate nor delegate moderator priviledges in those groups at this time. We thank all the admins and superusers on Telegram who have been voluntarily facilitating a democratic space for CalyxOS with our deepest gratitude.
 
 Pleas stay tuned for our next community periodical progress report which will be coming next week! 
