@@ -64,7 +64,7 @@ As of September 2023, Matrix is the primary medium of communication. We will re-
 
 | Name | Purpose | Matrix (Primary) |
 | ---- | ------- | ------ | -------- |
-| CalyxOS | Main channel | [#CalyxOS:matrix.org](https://app.element.io/#/room/#CalyxOS:matrix.org) | [CalyxOSpublic](https://t.me/CalyxOSpublic) |
+| CalyxOS | Main channel | [#CalyxOS:matrix.org](https://app.element.io/#/room/#CalyxOS:matrix.org) |
 | Calyx | Calyx Institute channel | [#calyx:matrix.org](https://app.element.io/#/room/#calyx:matrix.org) |
 | CalyxOS Off-topic | For all off-topic conversations | [#calyxos-offtopic:matrix.org](https://app.element.io/#/room/#calyxos-offtopic:matrix.org) |
 | CalyxOS Feeds | Live feed of code commits / gitlab activity / reddit posts | [#calyxos-feeds:matrix.org](https://app.element.io/#/room/#calyxos-feeds:matrix.org) |
