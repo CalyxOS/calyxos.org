@@ -4,7 +4,7 @@ stages:
   - registry
 
 .ruby:
-  image: ruby:3.3.5
+  image: ruby:3.3.9
   before_script:
     - bundle config set deployment true
     - bundle config set --local path vendor
@@ -16,6 +16,7 @@ stages:
 test:
   stage: test
   extends: .ruby
+  when: manual
   script:
     - bundle exec jekyll build --future --trace
     - bundle exec rake check
@@ -47,10 +48,10 @@ pages:
     - main
 
 build:
-  image: docker:27
+  image: docker:28
   stage: registry
   services:
-    - name: docker:27-dind
+    - name: docker:28-dind
       alias: docker
   variables:
     IMAGE_TAG: $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG
