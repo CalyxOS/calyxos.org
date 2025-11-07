@@ -46,12 +46,12 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 #### Extended support
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>
-<tr><td> Motorola moto g52 </td><td> Android 15* </td><td> TBD </td></tr>
-<tr><td> Motorola moto g42 </td><td> Android 15* </td><td> TBD </td></tr>
-<tr><td> Motorola moto g32 </td><td> Android 15* </td><td> TBD </td></tr>
-<tr><td> Pixel 5a (5G) </td><td> Android 15* </td><td> TBD </td></tr>
-<tr><td> Pixel 4a (5G) </td><td> Android 15* </td><td> TBD </td></tr>
-<tr><td> Pixel 5 </td><td> Android 15* </td><td> TBD </td></tr>
+<tr><td> Motorola moto g52 </td><td> Android 15* </td><td> January 2026 </td></tr>
+<tr><td> Motorola moto g42 </td><td> Android 15* </td><td> January 2026 </td></tr>
+<tr><td> Motorola moto g32 </td><td> Android 15* </td><td> January 2026 </td></tr>
+<tr><td> Pixel 5a (5G) </td><td> Android 15* </td><td> January 2026 </td></tr>
+<tr><td> Pixel 4a (5G) </td><td> Android 15* </td><td> January 2026 </td></tr>
+<tr><td> Pixel 5 </td><td> Android 15* </td><td> January 2026 </td></tr>
 </table>
 
 #### No longer supported
