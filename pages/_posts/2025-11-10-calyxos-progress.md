@@ -1,5 +1,5 @@
 ---
-title: CalyxOS progress report: signing, team capacity, and more
+title: CalyxOS progress report — signing, team capacity, and more
 date: 2025-11-10
 ---
 
