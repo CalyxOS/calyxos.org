@@ -33,9 +33,17 @@
   // get variables from jekyll
   // 
   // 
+<<<<<<< PATCH SET (331fdd Build commit 0c04b941b284dd245ff347c3b6e922dc8d0448ca)
+  const SITE_CONTENTS_FILE = "sitecontents-1764180734.json";
+=======
   const SITE_CONTENTS_FILE = "sitecontents-1766024440.json";
+>>>>>>> BASE      (7defb8 Build commit bbda0bcfeaf466e2013d11ea26ebca8458e4bdda)
   const SITE_CONTENTS_URL =
+<<<<<<< PATCH SET (331fdd Build commit 0c04b941b284dd245ff347c3b6e922dc8d0448ca)
+    "/assets/sitecontents-1764180734.json";
+=======
     "/assets/sitecontents-1766024440.json";
+>>>>>>> BASE      (7defb8 Build commit bbda0bcfeaf466e2013d11ea26ebca8458e4bdda)
 
   async function fetchDocuments() {
     if (window.localStorage) {
