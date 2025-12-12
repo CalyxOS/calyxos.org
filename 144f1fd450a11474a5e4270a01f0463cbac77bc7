@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6ae457ec_aadc5229",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000204
+      },
+      "writtenOn": "2025-12-12T22:22:35Z",
+      "side": 1,
+      "message": "This commit seems empty, isn\u0027t it?",
+      "revId": "144f1fd450a11474a5e4270a01f0463cbac77bc7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
