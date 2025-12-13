@@ -6,7 +6,7 @@ redirect_from: /start/
 
 # CalyxOS User Guide
 
-Welcome to CalyxOS! You have joined a community of privacy enthusiasts, activists,journalists and everyday users interested in having greater agency over how their data is shared online.
+Welcome to CalyxOS! You have joined a community of privacy enthusiasts, activists, journalists and everyday users interested in having greater agency over how their data is shared online.
 
 This introductory guide will help you navigate the features, changes, differences, and setbacks that come with using a custom OS like CalyxOS.
 
