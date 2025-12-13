@@ -13,7 +13,10 @@ redirect_from:
 For questions about device support, both for existing and new devices, as well as support timeframe, see [[device-support]].
 
 ### What are the goals of CalyxOS?
-We aspire to accomplish 3 major goals  1) encrypt the content of communications as much as possible  2) take countermeasures against metadata collection  3) take countermeasures against geolocation tracking
+We aspire to accomplish 3 major goals:
+- 1) Encrypt the content of communications as much as possible
+- 2) Take countermeasures against metadata collection  
+- 3) Take countermeasures against geolocation tracking
 
 ### How do you accomplish encrypting the content of communications?
 We bundle network encryption applications such as Signal for voice and text messaging, Tor Browser for web browsing, Orbot for using Tor as a VPN, two VPN applications, and Briar.
