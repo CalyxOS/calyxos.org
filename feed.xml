@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-11-25T15:59:41+00:00</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">CalyxOS progress report — signing, team capacity, and more</title><link href="/news/2025/11/10/calyxos-progress/" rel="alternate" type="text/html" title="CalyxOS progress report — signing, team capacity, and more" /><published>2025-11-10T00:00:00+00:00</published><updated>2025-11-10T00:00:00+00:00</updated><id>/news/2025/11/10/calyxos-progress</id><content type="html" xml:base="/news/2025/11/10/calyxos-progress/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-12-18T02:20:40+00:00</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">CalyxOS progress report - signing review, Android 16 QPR2 merge, and FOSDEM</title><link href="/news/2025/12/17/calyxos-progress-update/" rel="alternate" type="text/html" title="CalyxOS progress report - signing review, Android 16 QPR2 merge, and FOSDEM" /><published>2025-12-17T00:00:00+00:00</published><updated>2025-12-17T00:00:00+00:00</updated><id>/news/2025/12/17/calyxos-progress-update</id><content type="html" xml:base="/news/2025/12/17/calyxos-progress-update/"><![CDATA[<ul>
+  <li>Our final open HSM-based key provisioning plan is undergoing auditing before the key ceremony</li>
+  <li>CalyxOS devices, including extended support, are being ported to Android 16 QPR1 while QPR2 support plan is being developed</li>
+  <li>We are improving community support with the new Community Coordinator</li>
+  <li>Catch up with us at FOSDEM in Brussels on January 31 2026!</li>
+</ul>
+
+<p>Following <a href="https://calyxos.org/news/2025/11/10/calyxos-progress/">last month’s update</a>, the CalyxOS team is entering the final stage for the new signing plan and policy. In addition, we are working on bringing CalyxOS supported devices up to Android 16 QPR2 and building the team capacity with new hires. Here is a detailed rundown of our work:</p>
+
+<h3 id="signing-finalization-and-audit">Signing finalization and audit</h3>
+
+<p>Our team has reached a final draft for the new HSM-based signing process. This includes a detailed plan for the initial key ceremony, provisioning scripts, and the verification methodology of each element in the process. Based on the <a href="https://calyxos.org/news/2025/11/10/calyxos-progress/">criteria we laid out before</a> and our requirements for signing CalyxOS builds and apps at the frequency of every one to three months, our goal for this new signing design is ensure that all key material will have a secure backup so that no single person can hold access to our signing keys. The main key we will be generating during a provisioning ceremony will be split into shards using Shamir’s Secret Sharing. Each shard is only ever stored encrypted and kept safe by a designated team member. Together with security auditors we selected a <a href="https://github.com/hashicorp/vault/tree/main/shamir">library</a> for this job and wrote our own simple Go executable with it, which could create reproducible builds and was already audited.</p>
+
+<p>All the provisioning tools, key ceremony operational plan, and auditing mechanism are being packaged for a final security audit.</p>
+
+<p>Once this package for key signing provisioning passes the audit from our security consultant, we will perform the key ceremony and deploy the new signing mechanism for CalyxOS. We anticipate this to happen in the next few weeks and will keep you updated on audit progress.</p>
+
+<h3 id="android-16-qpr1-and-qpr2">Android 16 QPR1 and QPR2</h3>
+
+<p>We are pleased to share that we have booted Android 16 QPR1 on all modern devices on <a href="https://calyxos.org/docs/guide/device-support/">our supported device list</a> and are testing full CalyxOS functionality while also porting it to the rest of the our supported devices. What’s more, we have started analysis of the <a href="https://android-developers.googleblog.com/2025/12/android-16-qpr2-is-released.html">newly published QPR2</a> and are building out our QPR2 sync plan and timeline for all supported devices.</p>
+
+<p>In the meantime, we are setting out to migrate our CalyxOS Gerrit Code Review instance to a new and faster server as part of the Calyx Institute’s data infrastructure overhaul. The success of the Gerrit migration will stabilize and facilitate our QPR2 bringup.</p>
+
+<h3 id="building-capacity-for-the-calyxos-team-continued">Building capacity for the CalyxOS team, continued</h3>
+
+<p>Last month, Lucas, a long-time CalyxOS contributor, joined the team as the Community Coordinator. You might have been familiar with Lucas on our various community channels, including Matrix room and CalyxOS subreddit. We will keep improving our community communications with the tremendous help from Lucas. To start, we will try to make sure we respond to all questions and concerns. If you have any comments or suggestions, please do not hesitate to ping us on our channels.</p>
+
+<p>The position of CalyxOS Android Board Support Packages (BSP) Engineer has been closed and we have entered the interview stage. We will soon have a few more openings on our <a href="https://job-boards.greenhouse.io/calyxinstitute">job board</a>. Stay tuned!</p>
+
+<h3 id="meet-the-calyxos-team-at-fosdem-2026">Meet the CalyxOS team at FOSDEM 2026</h3>
+
+<p>If you plan to attend <a href="https://fosdem.org/2026/">FOSDEM 2026</a> and are interested in knowing more about our effort in HSM signing upgrade, we will present our methodologies and lessons at the <a href="https://fosdem.org/2026/schedule/track/foss-on-mobile/">FOSS on Mobile devroom</a>. Looking forward to seeing you there!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Our final open HSM-based key provisioning plan is undergoing auditing before the key ceremony CalyxOS devices, including extended support, are being ported to Android 16 QPR1 while QPR2 support plan is being developed We are improving community support with the new Community Coordinator Catch up with us at FOSDEM in Brussels on January 31 2026!]]></summary></entry><entry><title type="html">CalyxOS progress report — signing, team capacity, and more</title><link href="/news/2025/11/10/calyxos-progress/" rel="alternate" type="text/html" title="CalyxOS progress report — signing, team capacity, and more" /><published>2025-11-10T00:00:00+00:00</published><updated>2025-11-10T00:00:00+00:00</updated><id>/news/2025/11/10/calyxos-progress</id><content type="html" xml:base="/news/2025/11/10/calyxos-progress/"><![CDATA[<ul>
   <li>CalyxOS is working seamlessly with our security consultants to finalize the HSM signing solution.</li>
   <li>The Calyx engineering is fixing our data infrastructure.</li>
   <li>Three new roles are open for CalyxOS.</li>
@@ -458,75 +489,4 @@ our other supported devices, and is therefore missing some of the most recent ch
     The <strong>Motorola moto g52, moto g42, moto g32, Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
   </li>
 </ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.7.23 - May 2025 Feature update for all supported devices Smaller update as we prepare for Android 16 with upstream release due next week]]></summary></entry><entry><title type="html">Four new Motorola devices added to CalyxOS support list</title><link href="/news/2025/05/28/new-motorola-device-support/" rel="alternate" type="text/html" title="Four new Motorola devices added to CalyxOS support list" /><published>2025-05-28T00:00:00+00:00</published><updated>2025-05-28T00:00:00+00:00</updated><id>/news/2025/05/28/new-motorola-device-support</id><content type="html" xml:base="/news/2025/05/28/new-motorola-device-support/"><![CDATA[<ul>
-  <li>Four new devices, moto g 5G - 2024, g34 5G, g45 5G, g84 5G, are now on CalyxOS support list for Motorola phones</li>
-  <li>We welcome feedback at [[community]]</li>
-</ul>
-
-<h4 id="why-these-devices">Why these devices</h4>
-
-<p>Making CalyxOS accessible on diverse devices is always a priority at Calyx. Within our security standards, we keep trying to support as many devices as possible for as long as we can.</p>
-
-<p>CalyxOS requires mobile devices to unlock and relock the bootloader securely during the flashing process to prevent unauthorized root access that can compromise these devices. Among manufacturers who allow secure bootloader unlock and relock, these four Motorola phones are relatively economical compared to other mobile devices, such as Pixel phones. They also have much wider global availability. You can find these models in countries across North America, Latin America, Europe, and Asia Pacific. Regional reach and affordability are both important to us.</p>
-
-<p>Additionally, there was already some custom ROM development for these models, and we contributed to their official LineageOS port. That work helps provide the device and hardware specific code CalyxOS relies on.</p>
-
-<h4 id="pre-install-notes">Pre-install notes</h4>
-
-<h4 id="obtaining-an-unlock-code">Obtaining an unlock code</h4>
-
-<p>Motorola requires you to request for a code to unlock the bootloader of these phones. For brand new devices, sometimes it may take up to 3 days before the phone will let you actually enable OEM unlocking. It can be instant or sooner than 3 days as well in many cases.</p>
-
-<p>Do note that unlocking your Motorola voids it’s warranty.</p>
-
-<p>The CalyxOS <code class="language-plaintext highlighter-rouge">device-flasher</code> currently does not handle this process, and thus you’ll have to manually unlock the device after obtaining the code.</p>
-
-<p>In the future, we’ll try to automate as much of it as possible.</p>
-
-<h4 id="unlock-code-link">Unlock code link</h4>
-
-<p><a href="https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-a">https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-a</a></p>
-
-<h4 id="moto-g-5g---2024">moto g 5G - 2024</h4>
-
-<ul>
-  <li>Please note, among moto g 5G phones, only the <a href="https://www.motorola.com/us/en/p/phones/moto-g/g-5g-gen-3/pmipmgl36mr">2024 model</a> is supported.</li>
-  <li>Carrier-specific variants (e.g. Verizon, Tracfone, AT&amp;T, Cricket) may not allow bootloader unlocking and might be unsupported.</li>
-</ul>
-
-<p>Model-specific CalyxOS installation instructions available at [[fogo]].</p>
-
-<h4 id="moto-g34-5g-and-moto-g45-5g">moto g34 5G and moto g45 5G</h4>
-
-<ul>
-  <li>These two devices share the same software.</li>
-</ul>
-
-<p>Model-specific CalyxOS installation instructions available at [[fogos]].</p>
-
-<h4 id="moto-g84-5g">moto g84 5G</h4>
-
-<p>Model-specific CalyxOS installation instructions available at [[bangkk]].</p>
-
-<h3 id="note">Note</h3>
-
-<div class="alert alert-info" style="margin-top: 3rem">
-<ul>
-  <li>
-    <strong>Over-the-air Updates:</strong>
-    [[CalyxOS updates =&gt; updates]] are delivered over-the-air (OTA) automatically, without any manual intervention needed. However, if you'd like to manually update your CalyxOS install, see [[OTA =&gt; ota]].
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Pixel 9a, 9 Pro Fold, 9 Pro XL, 9 Pro, 9, 8a, 8 Pro, 8, Fold, Tablet, 7a, 7 Pro, 7, 6a, 6 Pro, 6</strong> contain the full security patch, as they are still being updated by Google.
-  </li>
-  <li>
-    <strong>Security Updates:</strong>
-    The <strong>Fairphone 5, 4, Motorola moto g 5G - 2024, moto g84 5G, moto g34 and g45 5G</strong> stock OS follows a different security update release schedule, which usually lags behind by a month or two compared to Pixels. The CalyxOS releases for it only contain the latest fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware get updates as soon as the stock OS update is available.
-  </li>
-  <li>
-    <strong>End-of-life:</strong>
-    The <strong>Motorola moto g52, moto g42, moto g32, Pixel 5a (5G), 4a (5G), 5</strong> are no longer being updated by the manufacturer, so the CalyxOS releases for these devices only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.
-  </li>
-</ul>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[Four new devices, moto g 5G - 2024, g34 5G, g45 5G, g84 5G, are now on CalyxOS support list for Motorola phones We welcome feedback at [[community]]]]></summary></entry></feed>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CalyxOS 6.7.23 - May 2025 Feature update for all supported devices Smaller update as we prepare for Android 16 with upstream release due next week]]></summary></entry></feed>
