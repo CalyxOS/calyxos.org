@@ -5,6 +5,35 @@ date: 2025-08-01
 
 &nbsp;
 &nbsp;
+
+**Update: December 17 2025**
+
+[CalyxOS progress report - ceremony preparation, QPR ports, and FOSDEM](/news/2025/12/17/calyxos-progress-update/)
+
+&nbsp;
+
+---
+
+&nbsp;
+
+**Update: November 10 2025**
+
+[CalyxOS progress report — signing, team capacity, and more](/news/2025/11/10/calyxos-progress/)
+
+&nbsp;
+
+---
+
+&nbsp;
+
+**Update: September 30 2025**
+
+[An update on how to reach the CalyxOS team](/news/2025/09/30/how-to-reach-the-calyxos-team/)
+
+&nbsp;
+
+---
+
 &nbsp;
 
 **Update: August 27 2025**
