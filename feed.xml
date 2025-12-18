@@ -1,7 +1,11 @@
+<<<<<<< PATCH SET (23c0de Build commit a5bc7906d64cad4aa9d98091719a1ba6471b27b9)
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-12-18T16:49:48+00:00</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">CalyxOS progress report - ceremony preparation, QPR ports, and FOSDEM</title><link href="/news/2025/12/17/calyxos-progress-update/" rel="alternate" type="text/html" title="CalyxOS progress report - ceremony preparation, QPR ports, and FOSDEM" /><published>2025-12-17T00:00:00+00:00</published><updated>2025-12-17T00:00:00+00:00</updated><id>/news/2025/12/17/calyxos-progress-update</id><content type="html" xml:base="/news/2025/12/17/calyxos-progress-update/"><![CDATA[<ul>
+=======
 <<<<<<< PATCH SET (331fdd Build commit 0c04b941b284dd245ff347c3b6e922dc8d0448ca)
 <?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-11-26T18:12:14+00:00</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">CalyxOS progress report — signing, team capacity, and more</title><link href="/news/2025/11/10/calyxos-progress/" rel="alternate" type="text/html" title="CalyxOS progress report — signing, team capacity, and more" /><published>2025-11-10T00:00:00+00:00</published><updated>2025-11-10T00:00:00+00:00</updated><id>/news/2025/11/10/calyxos-progress</id><content type="html" xml:base="/news/2025/11/10/calyxos-progress/"><![CDATA[<ul>
 =======
 <?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-12-18T02:20:40+00:00</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">CalyxOS progress report - signing review, Android 16 QPR2 merge, and FOSDEM</title><link href="/news/2025/12/17/calyxos-progress-update/" rel="alternate" type="text/html" title="CalyxOS progress report - signing review, Android 16 QPR2 merge, and FOSDEM" /><published>2025-12-17T00:00:00+00:00</published><updated>2025-12-17T00:00:00+00:00</updated><id>/news/2025/12/17/calyxos-progress-update</id><content type="html" xml:base="/news/2025/12/17/calyxos-progress-update/"><![CDATA[<ul>
+>>>>>>> BASE      (031005 Build commit 0c04b941b284dd245ff347c3b6e922dc8d0448ca)
   <li>Our final open HSM-based key provisioning plan is undergoing auditing before the key ceremony</li>
   <li>CalyxOS devices, including extended support, are being ported to Android 16 QPR1 while QPR2 support plan is being developed</li>
   <li>We are improving community support with the new Community Coordinator</li>
@@ -136,18 +140,31 @@
   <li>August 2025 Security update (2025-08-01) with platform patches only.</li>
   <li>Critical notice that maintenance of all current installations have been paused.</li>
 </ul>]]></content><author><name></name></author><summary type="html"><![CDATA[This is the last over-the-air (OTA) update to all current and supported CalyxOS devices, before CalyxOS resumes development from its current hiatus. The OTA update warns people of the risk of running the current, unmaintained version of CalyxOS. It also includes a patch to enable Moto and Fairphone users to install CalyxOS while the project is on pause in response to emerging public requests.]]></summary></entry><entry><title type="html">A letter to the CalyxOS community</title><link href="/news/2025/08/01/a-letter-to-our-community/" rel="alternate" type="text/html" title="A letter to the CalyxOS community" /><published>2025-08-01T00:00:00+00:00</published><updated>2025-08-01T00:00:00+00:00</updated><id>/news/2025/08/01/a-letter-to-our-community</id><content type="html" xml:base="/news/2025/08/01/a-letter-to-our-community/"><![CDATA[<p> 
- 
  </p>
+
+<p><strong>Update: December 17 2025</strong></p>
+
+<p><a href="news/2025/12/17/calyxos-progress-update/">CalyxOS progress report - ceremony preparation, QPR ports, and FOSDEM</a></p>
+
+<hr />
+
+<p><strong>Update: November 10 2025</strong></p>
+
+<p><a href="/news/2025/11/10/calyxos-progress/">CalyxOS progress report — signing, team capacity, and more</a></p>
+
+<hr />
+
+<p><strong>Update: September 30 2025</strong></p>
+
+<p><a href="/news/2025/09/30/how-to-reach-the-calyxos-team/">An update on how to reach the CalyxOS team</a></p>
+
+<hr />
 
 <p><strong>Update: August 27 2025</strong></p>
 
 <p>We are concerned that some users may have not seen the important message in this letter about CalyxOS’ current hiatus. Therefore, we are rolling out one last OTA update to devices currently running CalyxOS to reach as many active users as we can. You can read <a href="/news/2025/08/27/last-ota-update-before-new-calyxos-release/">our post</a> for more details about this update.</p>
 
-<p> </p>
-
 <hr />
-
-<p> </p>
 
 <p><strong>Update: August 5 2025</strong></p>
 
@@ -217,7 +234,7 @@ For those wishing to remain on CalyxOS until our next release, note that you wil
 <p>We thank you for your continued trust and look forward to further collaborations with people who have, are, and will be using and contributing to CalyxOS and various FOSS projects.</p>
 
 <p>Yours sincerely,<br />
-The Calyx team</p>]]></content><author><name></name></author><summary type="html"><![CDATA[     ]]></summary></entry><entry><title type="html">Community update - our progress on CalyxOS after the release of Android 16</title><link href="/news/2025/06/26/community-update-android-16/" rel="alternate" type="text/html" title="Community update - our progress on CalyxOS after the release of Android 16" /><published>2025-06-26T00:00:00+00:00</published><updated>2025-06-26T00:00:00+00:00</updated><id>/news/2025/06/26/community-update-android-16</id><content type="html" xml:base="/news/2025/06/26/community-update-android-16/"><![CDATA[<ul>
+The Calyx team</p>]]></content><author><name></name></author><summary type="html"><![CDATA[   ]]></summary></entry><entry><title type="html">Community update - our progress on CalyxOS after the release of Android 16</title><link href="/news/2025/06/26/community-update-android-16/" rel="alternate" type="text/html" title="Community update - our progress on CalyxOS after the release of Android 16" /><published>2025-06-26T00:00:00+00:00</published><updated>2025-06-26T00:00:00+00:00</updated><id>/news/2025/06/26/community-update-android-16</id><content type="html" xml:base="/news/2025/06/26/community-update-android-16/"><![CDATA[<ul>
   <li>We have analyzed the potential impact on CalyxOS that the release of Android 16 will have, and the future trends it may be imply.</li>
   <li>Given the upstream changes and internal needs, the CalyxOS team is revising our development methodologies and processes for secure and streamlined future updates.</li>
   <li>In the last two weeks, we have made significant progress in building and running Android 16 on Pixel 6 and newer Pixels.</li>
