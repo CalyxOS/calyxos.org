@@ -22,7 +22,7 @@ Visiting this link will automatically detect your device and install the latest 
 
 #### Manual Flashing
 
-Alternatively, you can flash factory images manually using fastboot. These are official images and instrcutsions provided by Google.
+Alternatively, you can flash factory images manually using fastboot. These are official images and instructions provided by Google.
 
 * [Google’s Factory Images](https://developers.google.com/android/images)
 * [Google’s Flashing Instructions](https://developers.google.com/android/images#instructions)
