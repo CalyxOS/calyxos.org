@@ -48,7 +48,7 @@ This means that this can be used to directly install the CalyxOS images and use 
 For more details see: <https://gitlab.com/fdroid/ci-images-client>
 
 References:
-* https://review.calyxos.org/q/topic:emulator
-* https://source.android.com/setup/create/avd#sharing_avd_system_images_for_others_to_use_with_android_studio
-* https://developer.android.com/studio/intro/update#adding-sites
-* https://developer.android.com/studio/run/managing-avds#createavd
+* <https://review.calyxos.org/q/topic:emulator>
+* <https://source.android.com/setup/create/avd#sharing_avd_system_images_for_others_to_use_with_android_studio>
+* <https://developer.android.com/studio/intro/update#adding-sites>
+* <https://developer.android.com/studio/run/managing-avds#createavd>
