@@ -232,7 +232,13 @@ Before third-party apps can access this data in CalyxOS, they must be granted pe
 
 <h3 id="wi-fi-hotspot">Wi-Fi hotspot</h3>
 
-<p>To be written.</p>
+<p>Wi-Fi hotspots in Android usually advertise non-stable randomized BSSIDs (MAC addresses). However, their SSIDs (their name) use a <em>stable</em> randomized name, therefore, someone who knows your hotspot name may be able to identify your location long-term.</p>
+
+<p>This name will usually be <code class="language-plaintext highlighter-rouge">AndroidAP_</code> followed by 4 random numbers. You may want to change it every once in a while. It is recommended to not add personally identifiable info to your hotspot name, as well as use a secure password and protocol.</p>
+
+<p>Location services may or not collect/store your hotspot’s network, these networks move, and as such are not actually useful to the purpose of location services, and they can be detected via SSID, as “AndroidAP”, “iPhone”, “Galaxy” are easy to exclude. Appending <code class="language-plaintext highlighter-rouge">_nomap</code> to the SSID may help explicitly exclude them, if the location service/collecting devices respect that, but would also make your network stand out.</p>
+
+<p>Note: changing your device name in Settings &gt; About this device may overwrite the hotspot name to it, potentially leaking personally identifiable info.</p>
 
 
         </section>
