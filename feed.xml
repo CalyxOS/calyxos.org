@@ -1,11 +1,4 @@
-<<<<<<< PATCH SET (23c0de Build commit a5bc7906d64cad4aa9d98091719a1ba6471b27b9)
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-12-18T16:49:48+00:00</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">CalyxOS progress report - ceremony preparation, QPR ports, and FOSDEM</title><link href="/news/2025/12/17/calyxos-progress-update/" rel="alternate" type="text/html" title="CalyxOS progress report - ceremony preparation, QPR ports, and FOSDEM" /><published>2025-12-17T00:00:00+00:00</published><updated>2025-12-17T00:00:00+00:00</updated><id>/news/2025/12/17/calyxos-progress-update</id><content type="html" xml:base="/news/2025/12/17/calyxos-progress-update/"><![CDATA[<ul>
-=======
-<<<<<<< PATCH SET (331fdd Build commit 0c04b941b284dd245ff347c3b6e922dc8d0448ca)
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-11-26T18:12:14+00:00</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">CalyxOS progress report — signing, team capacity, and more</title><link href="/news/2025/11/10/calyxos-progress/" rel="alternate" type="text/html" title="CalyxOS progress report — signing, team capacity, and more" /><published>2025-11-10T00:00:00+00:00</published><updated>2025-11-10T00:00:00+00:00</updated><id>/news/2025/11/10/calyxos-progress</id><content type="html" xml:base="/news/2025/11/10/calyxos-progress/"><![CDATA[<ul>
-=======
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-12-18T02:20:40+00:00</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">CalyxOS progress report - signing review, Android 16 QPR2 merge, and FOSDEM</title><link href="/news/2025/12/17/calyxos-progress-update/" rel="alternate" type="text/html" title="CalyxOS progress report - signing review, Android 16 QPR2 merge, and FOSDEM" /><published>2025-12-17T00:00:00+00:00</published><updated>2025-12-17T00:00:00+00:00</updated><id>/news/2025/12/17/calyxos-progress-update</id><content type="html" xml:base="/news/2025/12/17/calyxos-progress-update/"><![CDATA[<ul>
->>>>>>> BASE      (031005 Build commit 0c04b941b284dd245ff347c3b6e922dc8d0448ca)
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-12-20T14:31:19+00:00</updated><id>/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">CalyxOS progress report - ceremony preparation, QPR ports, and FOSDEM</title><link href="/news/2025/12/17/calyxos-progress-update/" rel="alternate" type="text/html" title="CalyxOS progress report - ceremony preparation, QPR ports, and FOSDEM" /><published>2025-12-17T00:00:00+00:00</published><updated>2025-12-17T00:00:00+00:00</updated><id>/news/2025/12/17/calyxos-progress-update</id><content type="html" xml:base="/news/2025/12/17/calyxos-progress-update/"><![CDATA[<ul>
   <li>Our final open HSM-based key provisioning plan is undergoing auditing before the key ceremony</li>
   <li>CalyxOS devices, including extended support, are being ported to Android 16 QPR1 while QPR2 support plan is being developed</li>
   <li>We are improving community support with the new Community Coordinator</li>
@@ -37,7 +30,6 @@
 <h3 id="meet-the-calyxos-team-at-fosdem-2026">Meet the CalyxOS team at FOSDEM 2026</h3>
 
 <p>If you plan to attend <a href="https://fosdem.org/2026/">FOSDEM 2026</a> and are interested in knowing more about our effort in HSM signing upgrade, we will present our methodologies and lessons at the <a href="https://fosdem.org/2026/schedule/track/foss-on-mobile/">FOSS on Mobile devroom</a>. Looking forward to seeing you there!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Our final open HSM-based key provisioning plan is undergoing auditing before the key ceremony CalyxOS devices, including extended support, are being ported to Android 16 QPR1 while QPR2 support plan is being developed We are improving community support with the new Community Coordinator Catch up with us at FOSDEM in Brussels on January 31 2026!]]></summary></entry><entry><title type="html">CalyxOS progress report — signing, team capacity, and more</title><link href="/news/2025/11/10/calyxos-progress/" rel="alternate" type="text/html" title="CalyxOS progress report — signing, team capacity, and more" /><published>2025-11-10T00:00:00+00:00</published><updated>2025-11-10T00:00:00+00:00</updated><id>/news/2025/11/10/calyxos-progress</id><content type="html" xml:base="/news/2025/11/10/calyxos-progress/"><![CDATA[<ul>
->>>>>>> BASE      (7defb8 Build commit bbda0bcfeaf466e2013d11ea26ebca8458e4bdda)
   <li>CalyxOS is working seamlessly with our security consultants to finalize the HSM signing solution.</li>
   <li>The Calyx engineering is fixing our data infrastructure.</li>
   <li>Three new roles are open for CalyxOS.</li>
@@ -144,27 +136,43 @@
 
 <p><strong>Update: December 17 2025</strong></p>
 
-<p><a href="news/2025/12/17/calyxos-progress-update/">CalyxOS progress report - ceremony preparation, QPR ports, and FOSDEM</a></p>
+<p><a href="/news/2025/12/17/calyxos-progress-update/">CalyxOS progress report - ceremony preparation, QPR ports, and FOSDEM</a></p>
+
+<p> </p>
 
 <hr />
+
+<p> </p>
 
 <p><strong>Update: November 10 2025</strong></p>
 
 <p><a href="/news/2025/11/10/calyxos-progress/">CalyxOS progress report — signing, team capacity, and more</a></p>
 
+<p> </p>
+
 <hr />
+
+<p> </p>
 
 <p><strong>Update: September 30 2025</strong></p>
 
 <p><a href="/news/2025/09/30/how-to-reach-the-calyxos-team/">An update on how to reach the CalyxOS team</a></p>
 
+<p> </p>
+
 <hr />
+
+<p> </p>
 
 <p><strong>Update: August 27 2025</strong></p>
 
 <p>We are concerned that some users may have not seen the important message in this letter about CalyxOS’ current hiatus. Therefore, we are rolling out one last OTA update to devices currently running CalyxOS to reach as many active users as we can. You can read <a href="/news/2025/08/27/last-ota-update-before-new-calyxos-release/">our post</a> for more details about this update.</p>
 
+<p> </p>
+
 <hr />
+
+<p> </p>
 
 <p><strong>Update: August 5 2025</strong></p>
 
