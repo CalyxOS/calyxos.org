@@ -22,6 +22,30 @@
       },
       "revId": "450669dea1252dd2dbb80d1930afd31a29bcc97f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0c09a7b8_424d38c0",
+        "filename": "pages/docs/guide/faq/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-12-21T20:49:57Z",
+      "side": 1,
+      "message": "Thanks, I\u0027d like to apply this edit, can you just confirm to me that the feature is indeed typed out like that in Calyx? I don\u0027t remember exactly. I can confirm in a few hours if not, I just kind of expected myself to have checked this in the past but I\u0027m not so sure",
+      "parentUuid": "32b9d67f_1538771c",
+      "range": {
+        "startLine": 47,
+        "startChar": 338,
+        "endLine": 47,
+        "endChar": 366
+      },
+      "revId": "450669dea1252dd2dbb80d1930afd31a29bcc97f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
