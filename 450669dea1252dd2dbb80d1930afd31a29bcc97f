@@ -94,6 +94,30 @@
       },
       "revId": "450669dea1252dd2dbb80d1930afd31a29bcc97f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d374149f_77a6b0d0",
+        "filename": "pages/docs/guide/faq/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000204
+      },
+      "writtenOn": "2025-12-21T20:56:36Z",
+      "side": 1,
+      "message": "Okay, so you were right in how it\u0027s typed out. For me, it\u0027s still a weird translation though but I will revert my change.",
+      "parentUuid": "7b782399_1c37cba0",
+      "range": {
+        "startLine": 47,
+        "startChar": 338,
+        "endLine": 47,
+        "endChar": 366
+      },
+      "revId": "450669dea1252dd2dbb80d1930afd31a29bcc97f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
