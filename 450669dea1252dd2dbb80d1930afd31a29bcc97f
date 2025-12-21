@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "32b9d67f_1538771c",
+        "filename": "pages/docs/guide/faq/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000204
+      },
+      "writtenOn": "2025-12-21T20:32:33Z",
+      "side": 1,
+      "message": "```suggestion\nCalyxOS restricts USB devices by default, they will only be able to communicate with the phone if the latter is unlocked at the time of the connection. It\u0027s likely you plugged it in while locked, therefore it did not work. You can always allow new devices, if you\u0027d like, by going into **Settings -\u003e Security and privacy -\u003e Restrict USB -\u003e Always allow new USB gadgets**. Be aware, however, that this is a security feature.\n```",
+      "range": {
+        "startLine": 47,
+        "startChar": 338,
+        "endLine": 47,
+        "endChar": 366
+      },
+      "revId": "450669dea1252dd2dbb80d1930afd31a29bcc97f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
