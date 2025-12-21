@@ -142,6 +142,30 @@
       },
       "revId": "450669dea1252dd2dbb80d1930afd31a29bcc97f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9d260669_17de9ade",
+        "filename": "pages/docs/guide/faq/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2025-12-21T21:15:01Z",
+      "side": 1,
+      "message": "Don\u0027t worry about that, I can fix that in Git soon and include you as a Co author. I\u0027ll probably do it since I want to rebase it anyhow.",
+      "parentUuid": "ff0b84b4_b5199739",
+      "range": {
+        "startLine": 47,
+        "startChar": 338,
+        "endLine": 47,
+        "endChar": 366
+      },
+      "revId": "450669dea1252dd2dbb80d1930afd31a29bcc97f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
