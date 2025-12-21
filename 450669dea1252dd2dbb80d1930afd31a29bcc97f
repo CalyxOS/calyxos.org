@@ -46,6 +46,30 @@
       },
       "revId": "450669dea1252dd2dbb80d1930afd31a29bcc97f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7b782399_1c37cba0",
+        "filename": "pages/docs/guide/faq/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000204
+      },
+      "writtenOn": "2025-12-21T20:53:11Z",
+      "side": 1,
+      "message": "I don\u0027t have Calyx installed on my phone. I will try to see in things like weblate to see how it is typed out.",
+      "parentUuid": "0c09a7b8_424d38c0",
+      "range": {
+        "startLine": 47,
+        "startChar": 338,
+        "endLine": 47,
+        "endChar": 366
+      },
+      "revId": "450669dea1252dd2dbb80d1930afd31a29bcc97f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
