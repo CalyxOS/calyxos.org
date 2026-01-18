@@ -109,7 +109,6 @@ Compared to Google Chrome, a few of the things you'll immediately notice are:
 Here are some other things you can try to confirm that CalyxOS's Chromium is working as intended:
 
 * [Privacy Sandbox demos](https://developers.google.com/privacy-sandbox/resources/demos) by Google. Many of these demos (including Topics API and Attribution Reporting) represent new, invasive features that will not function out-of-the-box in Cromite or CalyxOS Chromium. They may be opt-out in Chrome, but they're not even available here.
-* [Adblock test](https://d3ward.github.io/toolz/adblock.html) by [Ursu Edward (d3ward)](https://d3ward.github.io/). While we don't achieve the coveted 99%+, having AdBlock turned on (as it is by default) gets a much better score than the \~1% when it is turned off.
 * [WebRTC Leak Test](https://browserleaks.com/webrtc) by [BrowserLeaks](https://browserleaks.com). With WebRTC turned off, as it is by default in Cromite and CalyxOS Chromium, this site returns "No Leak". With Chrome, or with WebRTC turned on (possible via the site settings, which has an address bar shortcut), more information is exposed.
 
 You can view the CalyxOS Chromium change history on [Gerrit](https://review.calyxos.org/q/project:CalyxOS/platform_external_calyx_chromium) or [GitLab](https://gitlab.com/CalyxOS/platform_external_calyx_chromium/-/commits/main/?ref_type=heads).
