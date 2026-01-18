@@ -77,21 +77,6 @@ apps:
   issueTracker: https://github.com/WangDaYeeeeee/GeometricWeather/issues
   iconUrl: "/assets/images/apps/wangdaye.com.geometricweather.png"
   slug: geometric-weather
-- packageName: us.spotco.malwarescanner
-  webSite: ''
-  description: ''
-  name: Hypatia
-  summary: A real-time malware scanner
-  icon: ''
-  license: GPL-3.0-or-later
-  categories:
-  - Security
-  - Default
-  sourceCode: https://gitlab.com/divested-mobile/hypatia
-  donate: https://divested.dev/donate
-  issueTracker: https://gitlab.com/divested-mobile/hypatia/issues
-  iconUrl: "/assets/images/apps/us.spotco.malwarescanner.png"
-  slug: hypatia
 - packageName: com.fsck.k9
   webSite: https://k9mail.app/
   description: |-
