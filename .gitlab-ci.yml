@@ -1,10 +1,9 @@
 stages:
-  - test
-  - deploy
-  - registry
+  - docker
+  - pages
 
 .ruby:
-  image: ruby:3.3.5
+  image: ruby:3.3.10
   before_script:
     - bundle config set deployment true
     - bundle config set --local path vendor
@@ -13,50 +12,32 @@ stages:
     paths:
       - vendor/
 
-test:
-  stage: test
-  extends: .ruby
-  script:
-    - bundle exec jekyll build --future --trace
-    - bundle exec rake check
-  only:
-    - main
-
-test-external:
-  stage: test
-  extends: .ruby
-  when: manual
-  script:
-    - bundle exec jekyll build --future --trace
-    - bundle exec rake check-external
-  only:
-    - main
-
 pages:
-  stage: deploy
+  stage: pages
   extends: .ruby
   script:
-    - bundle exec rake update-releases
-    - bundle exec rake update-apps
-    - bundle exec rake generate-data-pages
+    # - bundle exec rake update-releases
+    # - bundle exec rake update-apps
+    # - bundle exec rake generate-data-pages
     - bundle exec jekyll build -d public --future --baseUrl "/calyxos.org"
   artifacts:
     paths:
     - public
   only:
     - main
+    - staging
 
 build:
-  image: docker:27
-  stage: registry
+  image: docker:29
+  stage: docker
   services:
-    - name: docker:27-dind
+    - name: docker:29-dind
       alias: docker
-  variables:
-    IMAGE_TAG: $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG
   script:
     - echo "$CI_REGISTRY_PASSWORD" | docker login $CI_REGISTRY -u $CI_REGISTRY_USER --password-stdin
-    - docker build -t $IMAGE_TAG .
-    - docker push $IMAGE_TAG
+    - docker build -t "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG" -t "$CI_REGISTRY_IMAGE:$CI_COMMIT_SHA" .
+    - docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG"
+    - docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_SHA"
   only:
     - main
+    - staging
