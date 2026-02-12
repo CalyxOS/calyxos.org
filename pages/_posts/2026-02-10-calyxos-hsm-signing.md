@@ -92,7 +92,18 @@ Even with these logs, there were still room for improvement: the audit log on th
 
 This project came to fruition with the support of many open-source tools. We would like to thank the tool developers, our security auditors, and everyone who has contributed to this work along our journey. The talk was presented by [aysha](https://gitlab.com/aysha12) and [Torsten Grote](https://gitlab.com/grote) on the CalyxOS team with a special thanks to [t-m-w](https://gitlab.com/t-m-w).
 
-If you are curious about our work and want more details, you can check out our [PKCS#11 documentation](https://gitlab.com/CalyxOS/vendor_calyx/-/blob/225f0dda34109fc85fa69f647b7e72753adbe8d8/scripts/pkcs11/DOCUMENTATION.md) and [provisioning documentation](https://gitlab.com/CalyxOS/vendor_calyx/-/blob/6d4d024ae/scripts/hsm_provisioning/README.md) on this topic. All of our signing-related patches can be found [here](https://gitlab.com/CalyxOS/vendor_calyx/-/tree/4a07f419fb9f86417d24dadb0f5314e033983005/scripts). 
+If you are curious about our work and want more details, you can check out our [PKCS#11 documentation](https://gitlab.com/CalyxOS/vendor_calyx/-/blob/225f0dda34109fc85fa69f647b7e72753adbe8d8/scripts/pkcs11/DOCUMENTATION.md) and [provisioning documentation](https://gitlab.com/CalyxOS/vendor_calyx/-/blob/6d4d024ae/scripts/hsm_provisioning/README.md) on this topic. All of our signing-related scripts can be found [here](https://gitlab.com/CalyxOS/vendor_calyx/-/tree/4a07f419fb9f86417d24dadb0f5314e033983005/scripts). 
+
+Here's a list of patches we had to make to AOSP:
+* [Add PKCS#11 signing support](https://gitlab.com/CalyxOS/platform_build/-/commit/6962d7ab4cd91dd53265ab6deacc3f628fbb80e4)
+* [Add argument to keep temporary files](https://gitlab.com/CalyxOS/platform_build/-/commit/1c810cfcab496a1bf213f96f329f997bc4f7c3b4)
+* [Don't add quotes around signing_args](https://gitlab.com/CalyxOS/platform_build/-/commit/0cd789aeb7aa217014576221989d04968526283e)
+* [Use apksigner for most APK and APEX signing](https://gitlab.com/CalyxOS/platform_build/-/commit/af5a3b003a7ced41108100d3eaa1f2d552eba4fb)
+* [Add option to use a signing command interceptor](https://gitlab.com/CalyxOS/platform_build/-/commit/0d37c304584b103131f85c1d971a1d821fbfa2fa)
+* [Add support for a signing command interceptor](https://gitlab.com/CalyxOS/platform_system_apex/-/commit/afd136efc87e7d99ff4e0b7e42e18591ab0b94d9) 
+* [Add alignment override option like signapk](https://gitlab.com/CalyxOS/platform_tools_apksig/-/commit/5275610e05b5010c9f8bc07d0b65b99dbf130942) 
+* [Log out of SunPKCS11 on exit](https://gitlab.com/CalyxOS/platform_tools_apksig/-/commit/12a329fefe23b4abe5879a5078311e9fb00b48b9) 
+* [Add batch mode to reuse loaded keystore](https://gitlab.com/CalyxOS/platform_tools_apksig/-/commit/391b20b75c737afe7d2ed1400d95641468cfedbb)
 
 If you have more questions, feel free to [get in touch with us](https://calyxos.org/community/).
 
