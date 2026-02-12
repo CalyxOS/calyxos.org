@@ -7,6 +7,8 @@ date: 2026-02-10
 - It provides a deep dive into our HSM-based signing redesign.
 - Video recording of this talk is available [here](https://video.fosdem.org/2026/ub4132/AV8MA9-open-source-hsm-based-aosp-signing.av1.webm).
 
+<img src="/assets/images/fosdem2026-hsm.png" alt="Image by JeroenHeijmans drawn at FOSDEM" width="90%">
+
 ### Why are we using a HSM?
 
 Code signing is commonly used to cryptographically verify the origin of software. A typical Android build consists of many individually signed pieces, which requires a significant amount of signing keys. Among these keys, the most important is used for [verified boot](https://source.android.com/docs/security/features/verifiedboot), which establishes a full chain of trust for all parts of the operating system.
