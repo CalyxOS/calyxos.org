@@ -7,7 +7,7 @@ date: 2026-02-10
 - It provides a deep dive into our HSM-based signing redesign.
 - Video recording of this talk is available [here](https://video.fosdem.org/2026/ub4132/AV8MA9-open-source-hsm-based-aosp-signing.av1.webm).
 
-<img src="/assets/images/fosdem2026-hsm.png" alt="Image by JeroenHeijmans drawn at FOSDEM" width="90%">
+<img src="{{ '/assets/images/fosdem2026-hsm.png' | relative_url }}" alt="Image by JeroenHeijmans drawn at FOSDEM" width="90%">
 
 Image created by [Jeroen Heijmans](https://mastodon.social/@jeroenheijmans/115991012006835253)
 
