@@ -4,6 +4,11 @@ date: 2025-08-01
 ---
 
 &nbsp;
+
+**Update: February 24 2026** 
+
+[CalyxOS progress report - final steps to set CalyxOS back on track](/news/2026/02/24/calyxos-progress-update-2/)
+
 &nbsp;
 
 **Update: December 17 2025**
