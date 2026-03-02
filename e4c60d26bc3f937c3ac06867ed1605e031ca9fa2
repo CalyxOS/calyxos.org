@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3340b7e3_8d073093",
+        "filename": "pages/_posts/2025-08-01-a-letter-to-our-community.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-03-02T18:30:39Z",
+      "side": 1,
+      "message": "Should make the formatting match the sections below",
+      "revId": "e4c60d26bc3f937c3ac06867ed1605e031ca9fa2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
