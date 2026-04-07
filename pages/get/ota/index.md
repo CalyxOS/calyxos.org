@@ -2,8 +2,6 @@
 title: CalyxOS OTA updates
 ---
 
-{% include images_warning.html %}
-
 These are the OTA updates that are usually delivered directly to your device.
 
 <div class="alert alert-info" markdown="0">
