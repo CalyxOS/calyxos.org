@@ -1,52 +1,35 @@
 ---
 apps:
-- packageName: org.briarproject.briar.android
-  webSite: https://briarproject.org/
-  description: |-
-    Briar is a messaging app designed for activists, journalists, and anyone else
-    who needs a safe, easy and robust way to communicate. Unlike traditional
-    messaging tools such as email, Twitter or Telegram, Briar doesn't rely on a
-    central server - messages are synchronized directly between the users' devices.
-    If the Internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the
-    information flowing in a crisis. If the Internet's up, Briar can sync via the
-    Tor network, protecting users and their relationships from surveillance.
-  name: Briar
-  summary: Secure Messaging, Anywhere
+- packageName: org.breezyweather
+  webSite: ''
+  description: ''
+  name: Breezy Weather
+  summary: A powerful, open-source Material Design weather app.
   icon: ''
-  license: GPL-3.0-or-later
+  license: LGPL-3.0-only
   categories:
-  - Connectivity
   - Internet
-  - Security
   - Default
-  sourceCode: https://code.briarproject.org/briar/briar
+  sourceCode: https://github.com/breezy-weather/breezy-weather
   donate: ''
-  issueTracker: https://code.briarproject.org/briar/briar/issues
-  iconUrl: "/assets/images/apps/org.briarproject.briar.android.png"
-  slug: briar
-- packageName: org.calyxinstitute.vpn
-  webSite: https://calyx.net
-  description: |-
-    CalyxVPN is an application to provide easy and secure encrypted communication.
-    The app is a custom branded build of https://f-droid.org/packages/se.leap.bitmaskclient. This version is
-    preconfigured with one trusted provider—The Calyx Institute—and allows
-    anonymous VPN usage without any manual setup.
-
-    By encrypting and securely routing all your network traffic through Calyx's
-    servers, CalyxVPN is able to prevent many forms of censorship and surveillance.
-  name: Calyx VPN
-  summary: Free VPN Service offered by The Calyx Institute
+  issueTracker: https://github.com/breezy-weather/breezy-weather/issues
+  iconUrl: "/assets/images/apps/org.breezyweather.png"
+  slug: breezy-weather
+- packageName: app.comaps.fdroid
+  webSite: https://www.comaps.app/
+  description: ''
+  name: CoMaps
+  summary: Easy map navigation - Discover more of your journey - Powered by the community
   icon: ''
-  license: GPL-3.0-only
+  license: Apache-2.0
   categories:
-  - Internet
-  - Security
+  - Navigation
   - Default
-  sourceCode: https://gitlab.com/calyxos/bitmask_android
-  donate: https://calyxinstitute.org/
-  issueTracker: https://gitlab.com/calyxos/bitmask_android/issues
-  iconUrl: "/assets/images/apps/org.calyxinstitute.vpn.png"
-  slug: calyx-vpn
+  sourceCode: https://codeberg.org/comaps/comaps
+  donate: https://www.comaps.app/donate/
+  issueTracker: https://codeberg.org/comaps/comaps/issues
+  iconUrl: "/assets/images/apps/app.comaps.fdroid.png"
+  slug: comaps
 - packageName: at.bitfire.davdroid
   webSite: https://www.davx5.com/
   description: ''
@@ -62,101 +45,42 @@ apps:
   issueTracker: https://www.davx5.com/forums
   iconUrl: "/assets/images/apps/at.bitfire.davdroid.png"
   slug: davx-
-- packageName: wangdaye.com.geometricweather
-  webSite: ''
-  description: ''
-  name: Geometric Weather
-  summary: A lightweight, powerful, open-source Material Design weather app.
-  icon: ''
-  license: LGPL-3.0-only
-  categories:
-  - Internet
-  - Default
-  sourceCode: https://github.com/WangDaYeeeeee/GeometricWeather
-  donate: ''
-  issueTracker: https://github.com/WangDaYeeeeee/GeometricWeather/issues
-  iconUrl: "/assets/images/apps/wangdaye.com.geometricweather.png"
-  slug: geometric-weather
-- packageName: us.spotco.malwarescanner
-  webSite: ''
-  description: ''
-  name: Hypatia
-  summary: A real-time malware scanner
-  icon: ''
-  license: GPL-3.0-or-later
-  categories:
-  - Security
-  - Default
-  sourceCode: https://gitlab.com/divested-mobile/hypatia
-  donate: https://divested.dev/donate
-  issueTracker: https://gitlab.com/divested-mobile/hypatia/issues
-  iconUrl: "/assets/images/apps/us.spotco.malwarescanner.png"
-  slug: hypatia
-- packageName: com.fsck.k9
-  webSite: https://k9mail.app/
+- packageName: com.google.android.apps.photos
+  webSite: https://calyxos.org/news/2021/09/30/gcam-photos-preview/
   description: |-
-    E-mail client supporting multiple accounts, POP3, IMAP and Push IMAP. Can do
-    OpenPGP encryption if https://f-droid.org/packages/org.sufficientlysecure.keychain is installed. Settings
-    and account configurations can be exported so that they can be imported easily
-    if you are switching packages/signatures: a file manager will need to be already
-    installed to achieve this.
-  name: K-9 Mail
-  summary: Full-featured email client
+    If you have Google Photos installed, you can safely ignore this application.
+
+    GCam Photos Preview lets you preview photos taken in Google Camera without
+    needing to install the proprietary Google Photos application.
+
+    It pretends to be Google Photos to do that.
+  name: GCam Photos Preview
+  summary: Preview photos from Google Camera
   icon: ''
   license: Apache-2.0
   categories:
-  - Internet
-  - Default
-  sourceCode: https://github.com/k9mail/k-9
+  - System
+  sourceCode: https://gitlab.com/CalyxOS/platform_external_calyx_GCamPhotosPreview
   donate: ''
-  issueTracker: https://github.com/k9mail/k-9/issues
-  iconUrl: "/assets/images/apps/com.fsck.k9.png"
-  slug: k-9-mail
-- packageName: com.artifex.mupdf.viewer.app
-  webSite: https://mupdf.com
-  description: |-
-    MuPDF supports PDF 1.7 with transparency, encryption, hyperlinks, annotations,
-    searching, form editing and more. It also reads OpenXPS and CBZ (comic book)
-    documents.
-  name: MuPDF viewer
-  summary: Lightweight document viewer
+  issueTracker: ''
+  iconUrl: "/assets/images/apps/com.google.android.apps.photos.png"
+  slug: gcam-photos-preview
+- packageName: org.onionshare.android.fdroid
+  webSite: ''
+  description: ''
+  name: OnionShare
+  summary: Securely and anonymously share files using the Tor network
   icon: ''
-  license: AGPL-3.0-or-later
-  categories:
-  - Reading
-  - Default
-  sourceCode: https://git.ghostscript.com/?p=mupdf-android-viewer.git;a=summary
-  donate: ''
-  issueTracker: https://bugs.ghostscript.com
-  iconUrl: "/assets/images/apps/com.artifex.mupdf.viewer.app.png"
-  slug: mupdf-viewer
-- packageName: com.nextcloud.client
-  webSite: https://nextcloud.com
-  description: |-
-    A safe home for all your data. Access & share your files, calendars, contacts,
-    mail & more from any device, on your terms. This is the official Android app.
-
-    **Features:**
-
-
-    * Easy, modern interface
-    * Upload your files to your Nextcloud server
-    * Share your files with others
-    * Keep your favorite files and folders synced
-    * Instant Upload for photos and videos taken by your device
-    * Multi-account support
-  name: Nextcloud
-  summary: Synchronization client
-  icon: ''
-  license: GPL-2.0-only
+  license: GPL-3.0-only
   categories:
   - Internet
-  - Hidden
-  sourceCode: https://github.com/nextcloud/android
-  donate: https://nextcloud.com/include/
-  issueTracker: https://github.com/nextcloud/android/issues
-  iconUrl: "/assets/images/apps/com.nextcloud.client.png"
-  slug: nextcloud
+  - Security
+  - Default
+  sourceCode: https://github.com/onionshare/onionshare-android
+  donate: ''
+  issueTracker: https://github.com/onionshare/onionshare-android/issues
+  iconUrl: "/assets/images/apps/org.onionshare.android.fdroid.png"
+  slug: onionshare
 - packageName: org.openobservatory.ooniprobe
   webSite: https://ooni.torproject.org/
   description: |-
@@ -233,62 +157,6 @@ apps:
   issueTracker: https://github.com/ooni/probe-android/issues
   iconUrl: "/assets/images/apps/org.openobservatory.ooniprobe.png"
   slug: ooni-probe
-- packageName: org.torproject.android
-  webSite: https://www.torproject.org/docs/android.html
-  description: |
-    Tor is both software and an open network that helps you defend against network
-    surveillance that threatens personal freedom and privacy, confidential business
-    activities and relationships.
-
-    Orbot allows access to Tor by accessing a local SOCKS or HTTP proxy.
-    On a rooted device, the proxying can be completely transparent
-    i.e. the app that accesses the network need not be aware of the
-    proxy's existence; you can choose which apps go via the proxy in the
-    settings.
-
-    If you don't have root access, there are some apps that are designed to work
-    closely with tor or allow proxied connections:
-    https://f-droid.org/packages/info.guardianproject.otr.app.im, https://f-droid.org/packages/acr.browser.lightning and
-    https://f-droid.org/packages/org.mariotaku.twidere. There is also a proxy configurator addon for Firefox
-    called <a href="https://github.com/guardianproject/ProxyMob/downloads">ProxyMob</a> (not yet
-    available from the Mozilla addon site).
-  name: Orbot
-  summary: Enhance your privacy, break through firewalls and communicate more safely.
-  icon: ''
-  license: BSD-3-Clause
-  categories:
-  - Security
-  - Internet
-  - Default
-  sourceCode: https://gitweb.torproject.org/orbot.git
-  donate: https://www.torproject.org/donate/donate.html.en
-  issueTracker: https://dev.guardianproject.info/projects/orbot/issues
-  iconUrl: "/assets/images/apps/org.torproject.android.png"
-  slug: orbot
-- packageName: app.organicmaps
-  webSite: https://organicmaps.app/
-  description: |-
-    Organic Maps offers fast offline maps app for travelers, tourists, hikers and cyclists based on top of crowd-sourced OpenStreetMap data and curated with love by MAPS.ME founders.
-
-    * Detailed offline maps with places that don't exist on other maps
-    * Cycling routes, hiking trails and walking paths
-    * Contour lines, elevation profiles, peaks and slopes
-    * Turn-by-turn walking, cycling and car navigation with voice guidance
-    * Fast offline search on the map and bookmarks
-    * Dark mode to protect your eyes
-    * No ads, no trackers, no data collection, no crapware, no pesticides
-  name: Organic Maps
-  summary: Offline maps with turn-by-turn navigation
-  icon: ''
-  license: Apache-2.0
-  categories:
-  - Navigation
-  - Default
-  sourceCode: https://github.com/organicmaps/organicmaps/tree/HEAD
-  donate: ''
-  issueTracker: https://github.com/organicmaps/organicmaps/issues
-  iconUrl: "/assets/images/apps/app.organicmaps.png"
-  slug: organic-maps
 - packageName: se.leap.riseupvpn
   webSite: https://riseup.net/
   description: |-
@@ -357,6 +225,23 @@ apps:
   issueTracker: https://support.signal.org/
   iconUrl: "/assets/images/apps/org.thoughtcrime.securesms.png"
   slug: signal
+- packageName: net.thunderbird.android
+  webSite: https://thunderbird.net
+  description: ''
+  name: 'Thunderbird: Free Your Inbox'
+  summary: Thunderbird is a 100% open source, privacy focused email app.
+  icon: ''
+  license: Apache-2.0
+  categories:
+  - Connectivity
+  - Internet
+  - Writing
+  - Default
+  sourceCode: https://github.com/thunderbird/thunderbird-android
+  donate: https://mzla.link/supportTfA
+  issueTracker: https://github.com/thunderbird/thunderbird-android/issues
+  iconUrl: "/assets/images/apps/net.thunderbird.android.png"
+  slug: thunderbird-free-your-inbox
 - packageName: org.torproject.torbrowser
   webSite: ''
   description: |
@@ -400,3 +285,18 @@ apps:
   issueTracker: https://gitlab.torproject.org/tpo/applications/tor-browser/issues
   iconUrl: "/assets/images/apps/org.torproject.torbrowser.png"
   slug: tor-browser-for-android
+- packageName: org.torproject.vpn
+  webSite: https://www.torproject.org/
+  description: ''
+  name: Tor VPN
+  summary: Tor-powered with per-app routing, access unblocking & network-level privacy.
+  icon: ''
+  license: BSD-3-Clause-Clear
+  categories:
+  - VPN & Proxy
+  - Default
+  sourceCode: https://gitlab.torproject.org/tpo/applications/vpn/
+  donate: https://donate.torproject.org/
+  issueTracker: https://gitlab.torproject.org/tpo/applications/vpn/-/issues/
+  iconUrl: "/assets/images/apps/org.torproject.vpn.png"
+  slug: tor-vpn
