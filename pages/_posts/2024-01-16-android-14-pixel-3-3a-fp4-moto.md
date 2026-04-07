@@ -51,4 +51,3 @@ Android 14 is now available for most of our supported devices
 ## Note
 
 {% include install/security_notes.html %}
-

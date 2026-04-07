@@ -8,5 +8,3 @@ redirect_from: /tech/
 Welcome to the CalyxOS implementation notes. There is not much here yet, but we will be adding more soon! Stay tuned, and help [[contribute => contribute]].
 
 {% content_menu %}
-
-

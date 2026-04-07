@@ -109,4 +109,3 @@ Here's a list of patches we had to make to AOSP:
 * [Add batch mode to reuse loaded keystore](https://gitlab.com/CalyxOS/platform_tools_apksig/-/commit/391b20b75c737afe7d2ed1400d95641468cfedbb)
 
 If you have more questions, feel free to [get in touch with us](https://calyxos.org/community/).
-

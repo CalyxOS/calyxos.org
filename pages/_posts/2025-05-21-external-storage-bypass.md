@@ -29,4 +29,3 @@ Individual users should update to the latest CalyxOS release (6.6.22, 6.6.23 or 
 
 #### GitLab Issue link
 <https://gitlab.com/CalyxOS/calyxos/-/issues/2848>
-

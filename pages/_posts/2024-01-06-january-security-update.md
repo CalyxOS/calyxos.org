@@ -71,4 +71,3 @@ CalyxOS 5.3.0 - Android 14 is now available
 ## Note
 
 {% include install/security_notes.html %}
-
