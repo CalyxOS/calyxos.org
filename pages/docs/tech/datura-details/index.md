@@ -45,4 +45,3 @@ This setting adds an app to the penalty box iptables chain. On AOSP, this chain 
 
 Normally, each app can make and remove its own strict mode cleartext restriction chain. The global cleartext restriction setting disallows this and appends a cleartext restriction chain that applies to all UIDs. Since it is appended (lower priority), apps can be allowed cleartext traffic in a manual override.
 Cleartext DNS traffic is briefly allowed for the root user in order to establish a private DNS connection.
-
