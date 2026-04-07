@@ -14,6 +14,7 @@ module Releases
   HASHES_CACHE    = "#{HOME}/tmp/hashes"
   DEST_FILE       = "#{HOME}/pages/_data/downloads.yml"
   DEVICES_DATA    = "#{HOME}/pages/_data/devices.yml"
+  ANTIROLLBACK_LINK  = "/install/antirollback-update-pending"
 
   class << self
     def clone_release_repo
@@ -187,6 +188,7 @@ module Releases
       releases["releases"] = RELEASES
       File.open(DEST_FILE, 'w') do |f|
         f.write releases.to_yaml
+        f.write "antirollback_update_pending_link: #{ANTIROLLBACK_LINK}\n"
       end
       puts "DONE"
       exit
