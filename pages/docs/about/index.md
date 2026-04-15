@@ -23,7 +23,7 @@ CalyxOS is different. We believe the device in your pocket should always work fo
 * **Usability**: Privacy and security are not much use if they are only available to those who are already technologically savvy. We believe that it is possible to build technology that is both easy to use and has the highest standards for protecting your data.
 * **Free Software**: Our goal is to help foster a diverse ecosystem of free and open source software alternatives for mobile computing. CalyxOS is only possible because we draw from, and actively contribute to, other free software projects designed for the common good.
 
-CalyxOS is created by an international team of [[volunteers and staff=>team]] from the [Calyx Institute](https://calyxinstitute.org/), a non-profit organization in New York, USA.
+CalyxOS is created by an international team of [[volunteers and staff=>team]] from the [Calyx Institute](https://calyx.org/), a non-profit organization in New York, USA.
 
 ## The Technology Behind CalyxOS
 
