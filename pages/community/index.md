@@ -36,7 +36,7 @@ All below channels are on Matrix. They are public and **unencrypted**. Click the
 ### X
 
 * [@CalyxOS](https://x.com/CalyxOS)
-* [@calyxinstitute](https://twitter.com/calyxinstitute)
+* [@calyxinstitute](https://x.com/calyxinstitute)
 
 ### Reddit
 
