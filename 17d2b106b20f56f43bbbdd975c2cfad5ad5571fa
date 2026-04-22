@@ -16,6 +16,24 @@
       "message": "Reason why using the logo for dark background? pages/assets/images/lm-logo-calyx.png and pages/assets/images/lm-logo-calyx.svg",
       "revId": "17d2b106b20f56f43bbbdd975c2cfad5ad5571fa",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b4874ed_6bff2cd0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-04-22T17:50:20Z",
+      "side": 1,
+      "message": "The footer, which is the only place the logo is used, is dark",
+      "parentUuid": "ca6811d6_cc7ac792",
+      "revId": "17d2b106b20f56f43bbbdd975c2cfad5ad5571fa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
