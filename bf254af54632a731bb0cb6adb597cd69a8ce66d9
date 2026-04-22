@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f6e4497_12bf1595",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-04-22T18:20:46Z",
+      "side": 1,
+      "message": "Note that no changes can be made here, this is automatically generated from the fdroid repo app descriptions",
+      "revId": "bf254af54632a731bb0cb6adb597cd69a8ce66d9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
