@@ -8,7 +8,7 @@ module Releases
   RELEASES        = ["stable", "beta", "security-express", "factory"]
   RELEASE_SOURCE  = 'https://review.calyxos.org/CalyxOS/release'
   HASHES_SOURCE   = 'https://review.calyxos.org/CalyxOS/releases'
-  RELEASE_DL_BASE = 'https://release.calyxinstitute.org/'
+  RELEASE_DL_BASE = 'https://release.calyxos.org/'
   HOME            = File.expand_path('../..', __FILE__)
   RELEASE_CACHE   = "#{HOME}/tmp/release"
   HASHES_CACHE    = "#{HOME}/tmp/hashes"
@@ -55,7 +55,7 @@ module Releases
       filename += ".sha256sum"
       Dir.chdir(HASHES_CACHE) do
         if File.exist?(filename)
-          return File.read(filename).strip
+          return File.read(filename).split(' ').first
         else
           return nil
         end
@@ -67,22 +67,20 @@ module Releases
     end
 
     def get_version_from(build_number)
-      # https://gitlab.com/CalyxOS/vendor_calyx/-/blob/android15-qpr2/config/version.mk
+      # https://gitlab.com/CalyxOS/vendor_calyx/-/blob/android16-qpr2/config/version.mk
       major = ( build_number % 1000000 ) / 100000
-      minor = ( build_number % 100000 ) / 1000
-      patch = ( build_number % 1000 ) / 10
-      extra = ( build_number % 10 )
-      if extra == 0
-        return "#{major}.#{minor}.#{patch}"
-      else
-        return "#{major}.#{minor}.#{patch}-#{extra}"
-      end
+      qpr = ( build_number % 100000 ) / 10000
+      month = ( build_number % 1000 ) / 100
+      release = ( build_number % 100 )
+      return "#{major}.#{qpr}.#{month}.#{release}"
     end
 
     def get_android_from(build_number)
-      # https://gitlab.com/CalyxOS/vendor_calyx/-/blob/android15-qpr2/config/version.mk
+      # https://gitlab.com/CalyxOS/vendor_calyx/-/blob/android16-qpr2/config/version.mk
       major = ( build_number % 1000000 ) / 100000
       case major
+      when 7
+        return "16"
       when 6
         return "15"
       when 5
@@ -101,27 +99,8 @@ module Releases
       Dir.chdir(RELEASE_CACHE) do
         get_devices.each do |codename, device|
           incremental = true
-          release_filename = codename + "-" + release
-          old_release_filename = codename + "-old" + release
-          if File.exist?(release_filename + "7")
-            release_filename += "7"
-            old_release_filename += "7"
-          elsif File.exist?(release_filename + "6")
-            release_filename += "6"
-            old_release_filename += "6"
-          elsif File.exist?(release_filename + "5")
-            release_filename += "5"
-            old_release_filename += "5"
-          elsif File.exist?(release_filename + "4")
-            release_filename += "4"
-            old_release_filename += "4"
-          elsif File.exist?(release_filename + "3")
-            release_filename += "3"
-            old_release_filename += "3"
-          elsif File.exist?(release_filename + "2")
-            release_filename += "2"
-            old_release_filename += "2"
-          end
+          release_filename = "ota/#{codename}/#{codename}-#{release}"
+          old_release_filename = "ota/#{codename}/#{codename}-old#{release}"
           unless File.exist?(release_filename)
             puts "SKIPPED #{codename}"
             next
@@ -134,15 +113,17 @@ module Releases
           version = get_version_from(Integer(build_number))
           android = get_android_from(Integer(build_number))
           date = Time.at(timestamp.to_i).utc.strftime("%F")
-          factory_filename = codename + "-factory-#{build_number}.zip"
+          factory_dir = "factory/#{codename}/#{android}/"
+          factory_filename = factory_dir + "#{codename}-factory-#{build_number}.zip"
           factory_sha256 = get_hash_for(factory_filename)
-          ota_filename = codename + "-ota_update-#{build_number}.zip"
+          ota_dir = "ota/#{codename}/#{android}/"
+          ota_filename = ota_dir + "#{codename}-ota_update-#{build_number}.zip"
           ota_sha256 = get_hash_for(ota_filename)
           if incremental
             old_release_file = File.read(old_release_filename)
             old_build_number, old_timestamp, old_build_id = old_release_file.split(' ')
             old_date = Time.at(old_timestamp.to_i).utc.strftime("%F")
-            incremental_filename = codename + "-incremental-#{old_build_number}-#{build_number}.zip"
+            incremental_filename = ota_dir + "#{codename}-incremental-#{old_build_number}-#{build_number}.zip"
             incremental_sha256 = get_hash_for(incremental_filename)
             if incremental_sha256 == nil
               incremental_filename = nil
