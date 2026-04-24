@@ -1,7 +1,9 @@
 ---
 title: Back to Stock Android
 description: 🙏 Thank you for trying CalyxOS!
-redirect_from: /get/back-to-stock/
+redirect_from:
+  - /frp/
+  - /get/back-to-stock/
 ---
 
 ## Back to Stock
