@@ -12,25 +12,29 @@ CalyxOS includes [microG](https://github.com/microG) by default. However, since 
 #### Preparation
 
 ```shell
-cd ~/calyxos/android15-qpr2
+cd ~/calyxos/android16-qpr2
 cd external/microg/GmsCore
 git fetch --tags
 export JAVA_OPTS="-Xmx2048m"
-echo 'mapbox.key=apikey' > local.properties
 ```
 
-In our builds we fail if there is no Mapbox API key to avoid shipping a build without it, as that will break Maps inside apps.
+You will need a `local.properties` configuration file for Mapbox and Positon API keys.
 
-For development, you can simply put in a dummy value like the one above.
+You can copy the `local.properties.example` file to `local.properties` and modify it with your own keys.
+
+For development, you can simply put in dummy values like the ones in the example file, however that will break Maps inside apps and result in non functioning Positon location provider.
 
 #### Build
 
 ```shell
-./gradlew --no-daemon build
+./gradlew --no-daemon assembleMapboxDefaultRelease
+./gradlew --no-daemon assembleDefaultRelease
 ```
 
 #### Copy
 
-We use the variant with mapbox and with nearby.
-
-You can copy `play-services-core-withMapbox-withNearby-release-unsigned.apk` to `prebuilts/calyx/microg/GmsCore/GmsCore.apk` for it to be included in the OS build.
+```shell
+cd ~/calyxos/android16-qpr2
+cp external/microg/GmsCore/play-services-core/build/outputs/apk/mapboxDefault/release/play-services-core-mapbox-default-release.apk prebuilts/calyx/microg/
+cp external/microg/GmsCore/vending-app/build/outputs/apk/default/release/vending-app-default-release-unsigned.apk prebuilts/calyx/microg/
+```
