@@ -35,6 +35,6 @@ For development, you can simply put in dummy values like the ones in the example
 
 ```shell
 cd ~/calyxos/android16-qpr2
-cp external/microg/GmsCore/play-services-core/build/outputs/apk/mapboxDefault/release/play-services-core-mapbox-default-release.apk prebuilts/calyx/microg/
-cp external/microg/GmsCore/vending-app/build/outputs/apk/default/release/vending-app-default-release-unsigned.apk prebuilts/calyx/microg/
+cp external/microg/GmsCore/play-services-core/build/outputs/apk/mapboxDefault/release/play-services-core-mapbox-default-release.apk prebuilts/calyx/microg/GmsCore/
+cp external/microg/GmsCore/vending-app/build/outputs/apk/default/release/vending-app-default-release-unsigned.apk prebuilts/calyx/microg/GmsCore/
 ```
