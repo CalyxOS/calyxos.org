@@ -13,7 +13,7 @@ These test builds are specifically for people who want to give us early feedback
 
 ### About the CalyxOS test build (7.2.1.0)
 
-Signed with the new signing solution earlier discussed in [our talk at FOSDEM](https://calyxos.org/news/2026/02/10/calyxos-hsm-signing/), 7.2.1.0 is ported to Android 16 QPR2. On our GitLab repo you can find [our HSM audit logs](https://gitlab.com/CalyxOS/hsm-audit-logs) and [public certificates](https://gitlab.com/CalyxOS/signing-key-certificates). 
+Signed with the new signing solution earlier discussed in [our talk at FOSDEM](https://calyxos.org/news/2026/02/10/calyxos-hsm-signing/), 7.2.1.0 is ported to Android 16 QPR2. 
 
 We have created test builds for the following devices:
 * Pixels 
@@ -27,6 +27,8 @@ We have created test builds for the following devices:
 * Motorola
   * moto g 5g (2024), moto g84, moto g34/45
   * moto g52, moto g42, moto g32
+
+A note on kernel patches: Pixel 6 and newer devices are fully patched. All other devices are missing certain Qualcomm patches, which we are actively working to pick up alongside other upstream patches and the [May Android Security Bulletin (ASB)](https://source.android.com/docs/security/bulletin/2026/2026-05-01). We wanted to get this out as quickly as possible and official releases will include more complete patchsets as usual.
 
 ### Changes to our bundled apps 
 
