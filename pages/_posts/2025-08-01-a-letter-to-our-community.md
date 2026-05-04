@@ -5,6 +5,16 @@ date: 2025-08-01
 
 &nbsp;
 
+**Update: May 4 2026**
+
+[CalyxOS progress report - our test build with Android 16 is here](/news/2026/05/04/calyxos-progress-update-4/)
+
+&nbsp;
+
+---
+
+&nbsp;
+
 **Update: April 1 2026**
 
 [CalyxOS progress report - a detailed breakdown](/news/2026/04/01/calyxos-progress-update-3/)
