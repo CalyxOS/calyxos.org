@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d1d4f669_8893babc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-05-11T20:55:39Z",
+      "side": 1,
+      "message": "@mkbestas@gmail.com I want to unify image format to all be circle icons. Once I have the modified icon image for every app, should I add the image files directly under each image you\u0027ve uploaded here, or should I add images using cmdl and make another commit on Gerrit?",
+      "revId": "5e650971638d08106e4de38ccdd7a60869ef85a1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
