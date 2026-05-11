@@ -16,6 +16,24 @@
       "message": "@mkbestas@gmail.com I want to unify image format to all be circle icons. Once I have the modified icon image for every app, should I add the image files directly under each image you\u0027ve uploaded here, or should I add images using cmdl and make another commit on Gerrit?",
       "revId": "5e650971638d08106e4de38ccdd7a60869ef85a1",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "293c13f5_0f92d5c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-05-11T22:08:01Z",
+      "side": 1,
+      "message": "As I mentioned above, this entire change is automated through a script in this repository and icons/text come from the fdroid repo app descriptions. If we want to break that script, then we can change the content",
+      "parentUuid": "d1d4f669_8893babc",
+      "revId": "5e650971638d08106e4de38ccdd7a60869ef85a1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
