@@ -17,20 +17,14 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 * [Fairphone](https://support.fairphone.com/hc/en-us/articles/9979180437393-Fairphone-OS)
 * [Motorola](https://en-us.support.motorola.com/app/software-security-update)
 
-#### Upcoming devices
-<table class="table table-striped download">
-<tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>
-<tr><td> SHIFTphone 8 </td><td> Android 15* </td><td> August 2026* </td></tr>
-</table>
-
 #### Modern devices
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>
-<tr><td> Fairphone 5 </td><td> Android 15* </td><td> September 2031* </td></tr>
-<tr><td> Fairphone 4 </td><td> Android 15* </td><td> December 2026* </td></tr>
-<tr><td> Motorola moto g 5G - 2024 </td><td> Android 15* </td><td> March 2027* </td></tr>
-<tr><td> Motorola moto g84 5G </td><td> Android 15* </td><td> September 2026* </td></tr>
-<tr><td> Motorola moto g34 5G, g45 5G </td><td> Android 15* </td><td> January 2027* </td></tr>
+<tr><td> Fairphone 5 </td><td> Android 16* </td><td> September 2031* </td></tr>
+<tr><td> Fairphone 4 </td><td> Android 16* </td><td> December 2026* </td></tr>
+<tr><td> Motorola moto g 5G - 2024 </td><td> Android 16* </td><td> March 2027* </td></tr>
+<tr><td> Motorola moto g84 5G </td><td> Android 16* </td><td> September 2026* </td></tr>
+<tr><td> Motorola moto g34 5G, g45 5G </td><td> Android 16* </td><td> January 2027* </td></tr>
 <tr><td> Pixel 9a </td><td> April 2032 </td><td> April 2032 </td></tr>
 <tr><td> Pixel 9, 9 Pro, 9 Pro XL, 9 Pro Fold </td><td> August 2031 </td><td> August 2031 </td></tr>
 <tr><td> Pixel 8a </td><td> May 2031 </td><td> May 2031 </td></tr>
@@ -41,17 +35,18 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 <tr><td> Pixel 7, 7 Pro </td><td> October 2027 </td><td> October 2027 </td></tr>
 <tr><td> Pixel 6a </td><td> July 2027 </td><td> July 2027 </td></tr>
 <tr><td> Pixel 6, 6 Pro </td><td> October 2026 </td><td> October 2026 </td></tr>
+<tr><td> SHIFTphone 8 </td><td> Android 16* </td><td> August 2026* </td></tr>
 </table>
 
 #### Extended support
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>
-<tr><td> Motorola moto g52 </td><td> Android 15* </td><td> TBD </td></tr>
-<tr><td> Motorola moto g42 </td><td> Android 15* </td><td> TBD </td></tr>
-<tr><td> Motorola moto g32 </td><td> Android 15* </td><td> TBD </td></tr>
-<tr><td> Pixel 5a (5G) </td><td> Android 15* </td><td> TBD </td></tr>
-<tr><td> Pixel 4a (5G) </td><td> Android 15* </td><td> TBD </td></tr>
-<tr><td> Pixel 5 </td><td> Android 15* </td><td> TBD </td></tr>
+<tr><td> Motorola moto g52 </td><td> Android 16* </td><td> TBD </td></tr>
+<tr><td> Motorola moto g42 </td><td> Android 16* </td><td> TBD </td></tr>
+<tr><td> Motorola moto g32 </td><td> Android 16* </td><td> TBD </td></tr>
+<tr><td> Pixel 5a (5G) </td><td> Android 16* </td><td> TBD </td></tr>
+<tr><td> Pixel 4a (5G) </td><td> Android 16* </td><td> TBD </td></tr>
+<tr><td> Pixel 5 </td><td> Android 16* </td><td> TBD </td></tr>
 </table>
 
 #### No longer supported
@@ -69,12 +64,12 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 
 ### Update timeframe
 * We generally intend to get monthly security updates out as soon as possible after their release. The process takes some time since we don't get early access but generally the goal is to get them out to the stable channel in the same week as AOSP release.
-* Major version updates (such as the next Android 16 release) take longer because we have to port all of our changes to the new version, which can be a lot of work.
+* Major version updates (such as the next Android 17 release) take longer because we have to port all of our changes to the new version, which can be a lot of work.
 
 ### Preferences for supporting a new device
-1. Android 15.0, available now, or eventually:
+1. Android 16.0, available now, or eventually:
    <br>
-   CalyxOS targets the latest Android version, currently 15.0. It takes a lot of work to port a newer Android version to a device, and so devices running the latest Android version are preferred.
+   CalyxOS targets the latest Android version, currently 16.0. It takes a lot of work to port a newer Android version to a device, and so devices running the latest Android version are preferred.
 2. Ability to unlock the bootloader:
    <br>
    You cannot install any custom OS if you are not able to unlock the device's bootloader in the first place. Some phone makers or mobile carriers do not allow all or some of their devices to unlock the bootloader. On these devices, you cannot enable '[OEM unlocking](https://source.android.com/docs/core/architecture/bootloader/locking_unlocking#unlocking-bootloader)' to install custom OSes. Unlocking bootloader is different from carrier unlocking. The latter means you can unlock a carrier-locked phone to use SIM cards provided by other carriers on the device.
