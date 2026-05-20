@@ -90,7 +90,7 @@ fogo:
   sim: "dual"
   esim: "yes"
   android: 15
-  web_install: false
+  web_install: true
 bangkk:
   brand: motorola
   model: moto g84 5G
@@ -99,7 +99,7 @@ bangkk:
   sim: "dual"
   esim: "yes"
   android: 15
-  web_install: false
+  web_install: true
 fogos:
   brand: motorola
   model: moto g34 5G and g45 5G
@@ -108,7 +108,7 @@ fogos:
   sim: "dual"
   esim: "yes"
   android: 15
-  web_install: false
+  web_install: true
 rhode:
   brand: motorola
   model: moto g52
@@ -117,7 +117,7 @@ rhode:
   sim: "dual"
   esim: "no"
   android: 15
-  web_install: false
+  web_install: true
 hawao:
   brand: motorola
   model: moto g42
@@ -126,7 +126,7 @@ hawao:
   sim: "dual"
   esim: "no"
   android: 15
-  web_install: false
+  web_install: true
 devon:
   brand: motorola
   model: moto g32
@@ -135,7 +135,7 @@ devon:
   sim: "dual"
   esim: "no"
   android: 15
-  web_install: false
+  web_install: true
 tegu:
   brand: pixel
   model: Pixel 9a
