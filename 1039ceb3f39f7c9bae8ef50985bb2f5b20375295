@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36daf4b2_6c616ee7",
+        "filename": "pages/install/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-06-04T22:35:35Z",
+      "side": 1,
+      "message": "Web installer also supports the Pixel 5 series since a long time, which makes it all Pixel devices",
+      "range": {
+        "startLine": 13,
+        "startChar": 157,
+        "endLine": 13,
+        "endChar": 179
+      },
+      "revId": "1039ceb3f39f7c9bae8ef50985bb2f5b20375295",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
