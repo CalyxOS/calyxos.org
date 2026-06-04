@@ -22,6 +22,29 @@
       },
       "revId": "1039ceb3f39f7c9bae8ef50985bb2f5b20375295",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "88f75e08_c8699fd4",
+        "filename": "pages/install/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-06-04T22:36:11Z",
+      "side": 1,
+      "message": "Why \"certain\" when all supported motorola phones can be flashed?",
+      "range": {
+        "startLine": 13,
+        "startChar": 184,
+        "endLine": 13,
+        "endChar": 191
+      },
+      "revId": "1039ceb3f39f7c9bae8ef50985bb2f5b20375295",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
