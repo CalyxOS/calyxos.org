@@ -8,17 +8,17 @@ redirect_from:
   - /install/devices
 ---
 
-## Try the new Web Installer
+## Install with the Web Installer
 
-The new [CalyxOS Web Installer](https://install.calyxos.org) is here! This tool walks you through the entire installation process in simple clicks. If you are using Pixel 6 or later models of Pixels, we highly recommend that you use the Web Installer to ease your installation process.
+The [CalyxOS Web Installer](https://install.calyxos.org) guides you through the entire installation process in simple clicks. If you are using a Pixel or a Motorola device, we highly recommend that you use the Web Installer to ease your installation process. You can find your device in the following table. If the Web Installer is available for your device, you will have the option to use it directly.
 
-**Please note:** Web Installer is a browser installation tool and requires WebUSB access. To ensure successful installation, avoid browsers that do not allow WebUSB access, such as Firefox and Safari.
+**⚠️ Note:** Web Installer is a browser installation tool and requires WebUSB access. To ensure successful installation, avoid browsers that do not allow WebUSB access, such as Firefox and Safari.
 
 ## Choose your device model
 
 Which device do you want to install CalyxOS on? If you don’t see your device here, check out the [[device-support]] page for complete information.
 
-**Please note:** Pixel phones from mobile carrier Verizon in the United States are not able to install CalyxOS due to bootloader unlocking prohibitions. Read [[how to identify a Verizon phone => verizon]] to learn more.
+**⚠️ Note:** Pixel phones from mobile carrier Verizon in the United States are not able to install CalyxOS due to bootloader unlocking prohibitions. Read [[how to identify a Verizon phone => verizon]] to learn more.
 
 <table class="table table-striped download">
 <tr>
