@@ -45,6 +45,54 @@
       },
       "revId": "1039ceb3f39f7c9bae8ef50985bb2f5b20375295",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ca387570_a978b4f9",
+        "filename": "pages/install/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-06-05T15:57:56Z",
+      "side": 1,
+      "message": "Could you make direct edits?",
+      "parentUuid": "36daf4b2_6c616ee7",
+      "range": {
+        "startLine": 13,
+        "startChar": 157,
+        "endLine": 13,
+        "endChar": 179
+      },
+      "revId": "1039ceb3f39f7c9bae8ef50985bb2f5b20375295",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d40623b5_8cc169f6",
+        "filename": "pages/install/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-06-05T15:57:56Z",
+      "side": 1,
+      "message": "Does that mean moto g 5G 2024, g84 5G, g34/g45 5G? Does that also include extended support? (g52, g42, g32)? I don\u0027t think we tested all devices yet...",
+      "parentUuid": "88f75e08_c8699fd4",
+      "range": {
+        "startLine": 13,
+        "startChar": 184,
+        "endLine": 13,
+        "endChar": 191
+      },
+      "revId": "1039ceb3f39f7c9bae8ef50985bb2f5b20375295",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
