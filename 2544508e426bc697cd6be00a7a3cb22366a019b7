@@ -16,6 +16,24 @@
       "message": "Should this be 7.2.2.0? Or the images are still for test build?",
       "revId": "2544508e426bc697cd6be00a7a3cb22366a019b7",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c14a2db7_0617e854",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-06-05T16:06:41Z",
+      "side": 1,
+      "message": "They are for the test build for now for me to be able to actually regenerate the pages with the new folder structure and new versioning scheme. The release build will just be a commit on top with the new links",
+      "parentUuid": "ca66a998_f04720d7",
+      "revId": "2544508e426bc697cd6be00a7a3cb22366a019b7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
