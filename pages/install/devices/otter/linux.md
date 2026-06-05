@@ -1,10 +1,10 @@
 ---
-title: Install on Pixel 8 Pro
-description: From a MacOS computer
+title: Install on SHIFTphone 8
+description: From a Linux computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/husky/">Pixel 8 Pro</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/otter/">SHIFTphone 8</a></strong>
 
 
 
@@ -13,7 +13,7 @@ toc: true
 * **Factory Image**: This is a zip file that contains the entire CalyxOS operating system to be installed on your device.
 * **Flashing**: On Android devices, installing a new operating system is called "flashing," because it writes a new factory image to the device's flash memory.
 * **Android Device**: The device that you are installing CalyxOS on to.
-* **Host Computer**: The MacOS computer used to send commands to the Android Device. You will connect this computer to the Android device and run device-flasher to install CalyxOS.
+* **Host Computer**: The Linux computer used to send commands to the Android Device. You will connect this computer to the Android device and run device-flasher to install CalyxOS.
 * **Fastboot**: A mode of the Android device needed to install a custom Operating System. At various stages, you will be asked to put your Android device in [[fastboot]] mode.
 
 ## Prepare your Android device
@@ -34,23 +34,23 @@ On brand new devices, especially those obtained from a carrier, it's better to r
 
 This step might fail if there is no internet connection. In that case, connect to a WiFi network and then try again.
 
-{% if site.data.install.pixel.pre_unlock_notes %}
-{% include {{site.data.install.pixel.pre_unlock_notes}} %}
+{% if site.data.install.shift.pre_unlock_notes %}
+{% include {{site.data.install.shift.pre_unlock_notes}} %}
 {% endif %}
 
 ## Prepare your host computer
 
-{% include install/mac_notes.md %}
+{% include install/linux_notes.md %}
 
-{% include install/flasher.md os="mac" %}
+{% include install/flasher.md os="linux" %}
 
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/husky/16/husky-factory-260720100.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/otter/16/otter-factory-260720100.zip">Download CalyxOS Image</a>
 
 
-Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 8 Pro (husky)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
+Save this image in the same directory as device-flasher. This image will **only** work for **SHIFTphone 8 (otter)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
 Do not extract or rename the zip, simply copy it as-is.
 
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/husky/16/husky-factory-260720100.zip" | split: "/" | last %}
-{% include install/mac_image_digest.md filename=image %}
+{% assign image = "https://release.calyxos.org/factory/otter/16/otter-factory-260720100.zip" | split: "/" | last %}
+{% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `a8060dae3c6bfb46cc8004313d701c86521864942932cb5a280cd89e3751910e`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `39f2c186299f044b8ae706bbc058e93bc9de16ff69501a3b89f9c3321ae78ef5`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 
@@ -73,7 +73,7 @@ Now you are ready to install. Ensure that both the CalyxOS image and device-flas
 
 Run device-flasher per the below instructions and then follow the steps shown on the computer screen.
 
-{% include install/mac_run.md %}
+{% include install/linux_run.md %}
 
 ### Unlock the bootloader
 
@@ -87,8 +87,8 @@ The bootloader unlock menu looks like this:
 
 Press a **volume key** to select **UNLOCK THE BOOTLOADER** option. Then press the **power key** to activate that option.
 
-{% if site.data.install.husky.unlock_notes %}
-{% include {{site.data.install.husky.unlock_notes}} %}
+{% if site.data.install.otter.unlock_notes %}
+{% include {{site.data.install.otter.unlock_notes}} %}
 {% endif %}
 
 ### Success?
@@ -101,8 +101,8 @@ Once device-flasher is finished, you should now have a fully functional CalyxOS 
 
 If you get a mysterious error when running device-flasher, or if device-flasher hangs, it may be a USB problem. Try connecting to a different USB port on your computer (yes, not all USB ports are created equal) or a different USB cable.
 
-{% if site.data.install.pixel.troubleshooting %}
-{% include {{site.data.install.pixel.troubleshooting}} %}
+{% if site.data.install.shift.troubleshooting %}
+{% include {{site.data.install.shift.troubleshooting}} %}
 {% endif %}
 
 ## Back to Stock
