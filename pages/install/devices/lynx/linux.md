@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxinstitute.org/lynx-factory-25610200.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/lynx/16/lynx-factory-260720100.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 7a (lynx)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,14 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxinstitute.org/lynx-factory-25610200.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/lynx/16/lynx-factory-260720100.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `dccd904265d0835f82038518bc0895f3a17b78a658775c3a49b5f7d047229c9b`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
-
-#### Verify Signature
-
-For the highest level of confidence, you can optionally <a href="https://release.calyxinstitute.org/lynx-factory-25610200.zip.minisig">download the signature file</a> and then [[verify image signature => verify]].
+And ensure the result says `42281b0a16cb0cd0b61ce799df94a5221a00d4106b057285fa54d90fd84bf297`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 
