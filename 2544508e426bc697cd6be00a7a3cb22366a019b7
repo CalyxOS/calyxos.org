@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ca66a998_f04720d7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-06-05T15:55:44Z",
+      "side": 1,
+      "message": "Should this be 7.2.2.0? Or the images are still for test build?",
+      "revId": "2544508e426bc697cd6be00a7a3cb22366a019b7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
