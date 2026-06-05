@@ -69,10 +69,6 @@ To verify the image, open a terminal window on the host computer where you saved
 \{% include install/{{os_codename}}_image_digest.md filename=image \%}
 
 And ensure the result says `{{factory_sha256}}`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
-
-#### Verify Signature
-
-For the highest level of confidence, you can optionally <a href="{{factory_link | append: '.minisig' }}">download the signature file</a> and then [[verify image signature => verify]].
 {% endif %}
 ## Install CalyxOS
 
