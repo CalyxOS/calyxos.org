@@ -93,6 +93,54 @@
       },
       "revId": "1039ceb3f39f7c9bae8ef50985bb2f5b20375295",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5356c96c_07c9f2b3",
+        "filename": "pages/install/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-06-09T16:23:07Z",
+      "side": 1,
+      "message": "Yes, the plan was to ship this for all devices including extended support.",
+      "parentUuid": "d40623b5_8cc169f6",
+      "range": {
+        "startLine": 13,
+        "startChar": 184,
+        "endLine": 13,
+        "endChar": 191
+      },
+      "revId": "1039ceb3f39f7c9bae8ef50985bb2f5b20375295",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80b18ff0_0476de86",
+        "filename": "pages/install/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-06-09T16:23:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ca387570_a978b4f9",
+      "range": {
+        "startLine": 13,
+        "startChar": 157,
+        "endLine": 13,
+        "endChar": 179
+      },
+      "revId": "1039ceb3f39f7c9bae8ef50985bb2f5b20375295",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
