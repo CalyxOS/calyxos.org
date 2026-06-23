@@ -8,7 +8,8 @@ toc: true
 
 Signing is a cryptographic process where we take the factory image of CalyxOS and apply a digital signature that allows your device to attest that the image actually came from Calyx and no one else.
 
-CalyxOS factory images and OTA updates are signed off-line by one person with sole custody of the signing keys.
+CalyxOS factory images and OTA updates are signed offline using a hardware security module (HSM). Private signing keys never exist in plaintext outside the HSM, and custody is distributed across multiple keyholders using Shamir's Secret Sharing so that no single person holds sole control. All signing operations are logged to an append-only audit trail and provisioning + signing infrastructure was independently audited by Trail of Bits. For a full technical overview, see our [blog post on the HSM signing redesign](https://calyxos.org/news/2026/02/10/calyxos-hsm-signing/).
+
 
 ### Could a rogue developer compromise the over-the-air updates?
 
