@@ -24,6 +24,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd1a2657_cd35b501",
+        "filename": "pages/features/list/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-06-29T21:26:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "864b2ada_47fb9e6d",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 48
+      },
+      "revId": "30b7df06bc51e2ee840624c0442ac85341140ca4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bc4cc2ee_9f6ffb42",
@@ -141,6 +165,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "729552ff_10ebf8a3",
+        "filename": "pages/features/list/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-06-29T21:26:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e132e25c_62a2081a",
+      "range": {
+        "startLine": 33,
+        "startChar": 2,
+        "endLine": 33,
+        "endChar": 28
+      },
+      "revId": "30b7df06bc51e2ee840624c0442ac85341140ca4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ded1b398_8db5a6e9",
@@ -201,6 +249,30 @@
       "writtenOn": "2026-06-29T21:15:42Z",
       "side": 1,
       "message": "Aurora Store provides the option to download and install applications without your Google account",
+      "range": {
+        "startLine": 39,
+        "startChar": 2,
+        "endLine": 39,
+        "endChar": 71
+      },
+      "revId": "30b7df06bc51e2ee840624c0442ac85341140ca4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "afc5daae_d46e2be7",
+        "filename": "pages/features/list/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-06-29T21:26:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e5cf18cf_df51c359",
       "range": {
         "startLine": 39,
         "startChar": 2,
@@ -281,6 +353,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6aab4612_6d29163c",
+        "filename": "pages/features/list/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-06-29T21:26:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "58eb747c_52bb8e6e",
+      "range": {
+        "startLine": 62,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 75
+      },
+      "revId": "30b7df06bc51e2ee840624c0442ac85341140ca4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "30cd5503_bd82fef6",
@@ -341,6 +437,30 @@
       "writtenOn": "2026-06-29T21:15:42Z",
       "side": 1,
       "message": "```suggestion\n\n```",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 0
+      },
+      "revId": "30b7df06bc51e2ee840624c0442ac85341140ca4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d821e8a_c868cf46",
+        "filename": "pages/features/list/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-06-29T21:26:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1085cf66_5e918978",
       "range": {
         "startLine": 67,
         "startChar": 0,
