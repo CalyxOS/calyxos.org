@@ -6,61 +6,23 @@ redirect_from: /get/verify/
 
 There are two possible stages of verification:
 
-- Pre-install: verify the downloaded image before flashing to ensure you have the correct untampered file
-- Post-install: verify the installed build on the device after installing, possible at each boot
+- File verification: verify the downloaded image before flashing to ensure you have the correct untampered file
+- Boot verification: verify the installed build on the device after installing, possible at each boot
 
----
-
-
-## Boot verification
-
-After flashing CalyxOS, you can verify the installed build on the device using the **AVB boot fingerprint**, which is displayed on screen during each boot up. Confirm the fingerprint shown matches the expected value for your device and build in the table below.
-
-| Device | Codename | AVB Boot Fingerprint |
-|--------|----------|----------------------|
-| Fairphone 5 | FP5 | AC125959F746CEDCCDD0C9737E6D57503C5648191237A2E395DB3E3433F930B5 |
-| Fairphone 4 | FP4 | BE58B05164DC19F6C2BC860F0334153D2A989949B4EA42CDB66792D2F626AB9E |
-| moto g 5G - 2024 | fogo | 0x9AFEBA34 |
-| moto g84 5G | bangkk |  |
-| moto g34 5G and g45 5G | fogos | 0x4CB8BA16 |
-| moto g52 | rhode |  |
-| moto g42 | hawao | 0x79D64BB8 |
-| moto g32 | devon |  |
-| Pixel 9a | tegu | B23527253F7C37FC4F165A99F7B61BB54D917B11F50C3C7EBDF6A153DF84F30B |
-| Pixel 9 Pro Fold | comet | 541B24EF3725A0D77A5F717E23DED409794774DB989F16C2051C4BB69F04665C |
-| Pixel 9 Pro XL | komodo | A013DE964C04255353BC923F800EFD3FB1F1714C34FCE7DCFEC1D810C4C5B1A5 |
-| Pixel 9 Pro | caiman | C43BBECE2EB6DFA22E61ADD7AFFAF20B0BE0960F1C20B32EC011BEEF2CCB74CA |
-| Pixel 9 | tokay | 7A60257FE47A55BAEEB832CE91DC84C022918C93D5C175A1377B4B6A37062E11 |
-| Pixel 8a | akita |  |
-| Pixel 8 Pro | husky |  | 
-| Pixel 8 | shiba | 932C98FE4CD91CED2D6FC78FBF2D9A14E1CD72FB29E5FE251A2A8CD39F0AC8D1 |
-| Pixel Fold | felix | BDE8E292B89515EA5AF4C19C9CAD35E9C986031001482E6E8AA6174BC74B30D8 |
-| Pixel Tablet | tangorpro |  |
-| Pixel 7a | lynx | 2DD5B191462FD582DA828182B66AAFEBA4368FEF23A2D51D97DD99ECD2EC476C |
-| Pixel 7 Pro | cheetah | 167E73DD8B79544663F3A2B3E686B44A1BA6A8501C2C30978E3BAD062802E418 |
-| Pixel 7 | panther |  |
-| Pixel 6a | bluejay | 62ECCB5C72DF58D09ECD63CAF1EF6BBF39AD394EA2DF9BB6F7885FD3A5860416 |
-| Pixel 6 Pro | raven |  |
-| Pixel 6 | oriole |  |
-| Pixel 5a (5G) | barbet | D4E69324 |
-| Pixel 4a (5G) | bramble |  |
-| Pixel 5 | redfin | ED180E99 |
-| SHIFTphone 8.1 | otter |  |
 
 ---
 
 
 ## File verification
 
-### CalyxOS 7.0.0.0 and newer
 
 Currently, factory images from version 7.0.0.0 onwards are verified using SHA256 checksums only.
 
 #### SHA256 checksums
 
-SHA256 checksums are available for all factory images and over the air (OTA) full and incremental updates. You can append `.sha256sum` to any download URL to retrieve the checksum directly, e.g. <https://release.calyxos.org/factory/tegu/16/tegu-factory-260720100.zip.sha256sum>
+SHA256 checksums are available for all factory images and over-the-air (OTA) full and incremental updates. You can append `.sha256sum` to any download URL to retrieve the checksum directly, e.g. <https://release.calyxos.org/factory/tegu/16/tegu-factory-260720100.zip.sha256sum>
 
-Download the factory image from [[get]], then run the appropriate command below and confirm the hash matches what's shown on [[get]].
+Download the factory image from [Get CalyxOS](https://calyxos.org/install/), then run the appropriate command below and confirm the hash matches what's shown on the device's install page.
 
 ##### Linux
 
@@ -103,9 +65,48 @@ SHA256 hash of tegu-factory-260720100.zip:
 CertUtil: -hashfile command completed successfully.
 ```
 
+
 ---
 
-### CalyxOS 6.10.20 and older
+## Boot verification
+
+After flashing CalyxOS, you can verify the installed build on the device using the **Android Verified Boot (AVB) fingerprint**, which is displayed on screen during each power on. Confirm the fingerprint shown matches the expected value for your device in the table below.
+
+| Device | Codename | AVB Boot Fingerprint |
+|--------|----------|----------------------|
+| Fairphone 5 | FP5 | AC125959F746CEDCCDD0C9737E6D57503C5648191237A2E395DB3E3433F930B5 |
+| Fairphone 4 | FP4 | BE58B05164DC19F6C2BC860F0334153D2A989949B4EA42CDB66792D2F626AB9E |
+| moto g 5G - 2024 | fogo | 0x9AFEBA34 |
+| moto g84 5G | bangkk |  |
+| moto g34 5G and g45 5G | fogos | 0x4CB8BA16 |
+| moto g52 | rhode |  |
+| moto g42 | hawao | 0x79D64BB8 |
+| moto g32 | devon |  |
+| Pixel 9a | tegu | B23527253F7C37FC4F165A99F7B61BB54D917B11F50C3C7EBDF6A153DF84F30B |
+| Pixel 9 Pro Fold | comet | 541B24EF3725A0D77A5F717E23DED409794774DB989F16C2051C4BB69F04665C |
+| Pixel 9 Pro XL | komodo | A013DE964C04255353BC923F800EFD3FB1F1714C34FCE7DCFEC1D810C4C5B1A5 |
+| Pixel 9 Pro | caiman | C43BBECE2EB6DFA22E61ADD7AFFAF20B0BE0960F1C20B32EC011BEEF2CCB74CA |
+| Pixel 9 | tokay | 7A60257FE47A55BAEEB832CE91DC84C022918C93D5C175A1377B4B6A37062E11 |
+| Pixel 8a | akita |  |
+| Pixel 8 Pro | husky |  | 
+| Pixel 8 | shiba | 932C98FE4CD91CED2D6FC78FBF2D9A14E1CD72FB29E5FE251A2A8CD39F0AC8D1 |
+| Pixel Fold | felix | BDE8E292B89515EA5AF4C19C9CAD35E9C986031001482E6E8AA6174BC74B30D8 |
+| Pixel Tablet | tangorpro |  |
+| Pixel 7a | lynx | 2DD5B191462FD582DA828182B66AAFEBA4368FEF23A2D51D97DD99ECD2EC476C |
+| Pixel 7 Pro | cheetah | 167E73DD8B79544663F3A2B3E686B44A1BA6A8501C2C30978E3BAD062802E418 |
+| Pixel 7 | panther |  |
+| Pixel 6a | bluejay | 62ECCB5C72DF58D09ECD63CAF1EF6BBF39AD394EA2DF9BB6F7885FD3A5860416 |
+| Pixel 6 Pro | raven |  |
+| Pixel 6 | oriole |  |
+| Pixel 5a (5G) | barbet | D4E69324 |
+| Pixel 4a (5G) | bramble |  |
+| Pixel 5 | redfin | ED180E99 |
+| SHIFTphone 8.1 | otter |  |
+
+
+---
+
+## Verifying archive images
 
 Factory images before version 6.10.20 can be verified with minisign, GPG, and SHA256 checksums.
 
@@ -131,7 +132,7 @@ Factory images from July 2021 - July 2025 are signed using [minisign](https://je
 
 **Verify:**
 
-1. Download the factory image and signature files from [[get]]
+1. Download the factory image and signature files from our [image archive](https://calyxos.org/get/factory/)
 2. Download the public key: [minisign.pub](https://release.calyxinstitute.org/minisign.pub)
 3. Place all 3 files in the same folder and run:
 
@@ -186,7 +187,7 @@ SHA256 checksums are also available for all older builds. See the [instructions 
 
 ### Mirrors
 
-The minisign signatures and SHA256 checksums are also stored in a git repository mirrored to multiple places:
+The minisign signatures and SHA256 checksums are all also stored in a git repository mirrored to multiple places:
 
 1. <https://gitlab.com/CalyxOS/releases>
 2. <https://github.com/CalyxOS/releases>
