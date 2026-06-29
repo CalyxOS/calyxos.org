@@ -1,0 +1,234 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "864b2ada_47fb9e6d",
+        "filename": "pages/features/list/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-06-29T21:15:42Z",
+      "side": 1,
+      "message": "Operating system security updates delivered automatically over-the-air.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 48
+      },
+      "revId": "30b7df06bc51e2ee840624c0442ac85341140ca4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc4cc2ee_9f6ffb42",
+        "filename": "pages/features/list/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-06-29T21:15:42Z",
+      "side": 1,
+      "message": "```suggestion\n* Every single build is tested before release to avoid device malfunctions caused by bad updates.\n```",
+      "range": {
+        "startLine": 10,
+        "startChar": 38,
+        "endLine": 10,
+        "endChar": 41
+      },
+      "revId": "30b7df06bc51e2ee840624c0442ac85341140ca4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a27ed900_080ec5e7",
+        "filename": "pages/features/list/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-06-29T21:15:42Z",
+      "side": 1,
+      "message": "```suggestion\nCalyxOS comes with a list of suggested free and open-source software (FOSS) apps bundled directly out of box. You can choose whether to install them in the Setup Wizard. Since these apps are included in the OS, they are available as needed, whether you are connected to the internet or not.\n```",
+      "range": {
+        "startLine": 17,
+        "startChar": 76,
+        "endLine": 17,
+        "endChar": 112
+      },
+      "revId": "30b7df06bc51e2ee840624c0442ac85341140ca4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e132e25c_62a2081a",
+        "filename": "pages/features/list/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-06-29T21:15:42Z",
+      "side": 1,
+      "message": "CalyxOS\u0027 default app store, F-Droid installs during the Setup Wizard to enable seamless app downloads on your first day running CalyxOS",
+      "range": {
+        "startLine": 33,
+        "startChar": 2,
+        "endLine": 33,
+        "endChar": 28
+      },
+      "revId": "30b7df06bc51e2ee840624c0442ac85341140ca4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ded1b398_8db5a6e9",
+        "filename": "pages/features/list/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-06-29T21:15:42Z",
+      "side": 1,
+      "message": "```suggestion\n[Aurora Store](/docs/guide/apps/aurora-store/) is an alternative client to the Google Play Store. It uses the same standard catalog of apps and installs apps directly from the Google servers.\n```",
+      "range": {
+        "startLine": 37,
+        "startChar": 79,
+        "endLine": 37,
+        "endChar": 87
+      },
+      "revId": "30b7df06bc51e2ee840624c0442ac85341140ca4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e5cf18cf_df51c359",
+        "filename": "pages/features/list/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-06-29T21:15:42Z",
+      "side": 1,
+      "message": "Aurora Store provides the option to download and install applications without your Google account",
+      "range": {
+        "startLine": 39,
+        "startChar": 2,
+        "endLine": 39,
+        "endChar": 71
+      },
+      "revId": "30b7df06bc51e2ee840624c0442ac85341140ca4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8b77c95_b34d0e4c",
+        "filename": "pages/features/list/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-06-29T21:15:42Z",
+      "side": 1,
+      "message": "```suggestion\n* If you want to install paid apps, or if anonymous mode is not working, you can additionally your Google account credentials in the Aurora Store settings.\n```",
+      "range": {
+        "startLine": 40,
+        "startChar": 81,
+        "endLine": 40,
+        "endChar": 93
+      },
+      "revId": "30b7df06bc51e2ee840624c0442ac85341140ca4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "58eb747c_52bb8e6e",
+        "filename": "pages/features/list/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-06-29T21:15:42Z",
+      "side": 1,
+      "message": "Address search powered by [Nominatim](https://nominatim.org)",
+      "range": {
+        "startLine": 62,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 75
+      },
+      "revId": "30b7df06bc51e2ee840624c0442ac85341140ca4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "30cd5503_bd82fef6",
+        "filename": "pages/features/list/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-06-29T21:15:42Z",
+      "side": 1,
+      "message": "```suggestion\n* Google DNS is replaced as fallback with Cloudflare DNS, which is annually reviewed by a third party auditor\n* Cloudflare DNS is also available as a Private DNS provider option\n\n```",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 67,
+        "endChar": 0
+      },
+      "revId": "30b7df06bc51e2ee840624c0442ac85341140ca4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1085cf66_5e918978",
+        "filename": "pages/features/list/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-06-29T21:15:42Z",
+      "side": 1,
+      "message": "```suggestion\n\n```",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 0
+      },
+      "revId": "30b7df06bc51e2ee840624c0442ac85341140ca4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
