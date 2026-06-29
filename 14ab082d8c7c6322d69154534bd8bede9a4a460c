@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "446daa92_a34820b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-06-29T17:54:52Z",
+      "side": 1,
+      "message": "Tested this on a few devices with different cars using the listed Google apps, no stub testing. Two additional notes:\n\nAndroid Auto app update was required in each instance.\n\nNotification permissions must be granted to Android Auto. Those can be found in Settings \u003e Apps \u003e Android Auto.",
+      "revId": "14ab082d8c7c6322d69154534bd8bede9a4a460c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
