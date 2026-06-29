@@ -47,6 +47,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb3f2401_28e05146",
+        "filename": "pages/features/list/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-06-29T21:22:02Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "bc4cc2ee_9f6ffb42",
+      "range": {
+        "startLine": 10,
+        "startChar": 38,
+        "endLine": 10,
+        "endChar": 41
+      },
+      "revId": "30b7df06bc51e2ee840624c0442ac85341140ca4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a27ed900_080ec5e7",
@@ -60,6 +84,30 @@
       "writtenOn": "2026-06-29T21:15:42Z",
       "side": 1,
       "message": "```suggestion\nCalyxOS comes with a list of suggested free and open-source software (FOSS) apps bundled directly out of box. You can choose whether to install them in the Setup Wizard. Since these apps are included in the OS, they are available as needed, whether you are connected to the internet or not.\n```",
+      "range": {
+        "startLine": 17,
+        "startChar": 76,
+        "endLine": 17,
+        "endChar": 112
+      },
+      "revId": "30b7df06bc51e2ee840624c0442ac85341140ca4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1dc3462a_f54ffd34",
+        "filename": "pages/features/list/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-06-29T21:22:02Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "a27ed900_080ec5e7",
       "range": {
         "startLine": 17,
         "startChar": 76,
@@ -116,6 +164,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd84f521_5feab9fd",
+        "filename": "pages/features/list/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-06-29T21:22:02Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "ded1b398_8db5a6e9",
+      "range": {
+        "startLine": 37,
+        "startChar": 79,
+        "endLine": 37,
+        "endChar": 87
+      },
+      "revId": "30b7df06bc51e2ee840624c0442ac85341140ca4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e5cf18cf_df51c359",
@@ -162,6 +234,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "27ce91ca_ed102413",
+        "filename": "pages/features/list/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-06-29T21:22:02Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "f8b77c95_b34d0e4c",
+      "range": {
+        "startLine": 40,
+        "startChar": 81,
+        "endLine": 40,
+        "endChar": 93
+      },
+      "revId": "30b7df06bc51e2ee840624c0442ac85341140ca4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "58eb747c_52bb8e6e",
@@ -198,6 +294,30 @@
       "writtenOn": "2026-06-29T21:15:42Z",
       "side": 1,
       "message": "```suggestion\n* Google DNS is replaced as fallback with Cloudflare DNS, which is annually reviewed by a third party auditor\n* Cloudflare DNS is also available as a Private DNS provider option\n\n```",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 67,
+        "endChar": 0
+      },
+      "revId": "30b7df06bc51e2ee840624c0442ac85341140ca4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "68104c63_9d3ae180",
+        "filename": "pages/features/list/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-06-29T21:22:02Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "30cd5503_bd82fef6",
       "range": {
         "startLine": 65,
         "startChar": 0,
