@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "332e634a_7f1f7d99",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-06-29T20:38:23Z",
+      "side": 1,
+      "message": "Can you confirm that the dedicated name or should that be excluded? Otherwise, looks good to me.",
+      "revId": "95519c2947910e6d103cd35a4d42614c7d05fe57",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
