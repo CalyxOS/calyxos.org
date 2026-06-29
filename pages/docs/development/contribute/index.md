@@ -24,13 +24,17 @@ Help us translate CalyxOS on [Weblate!](https://hosted.weblate.org/projects/caly
 
 In common open-source fashion, we use and contribute back to many other components developed primarily by other people, these have separate translation processes. Here's some quick links on where you can translate some of the included apps and components inside CalyxOS if you choose to do so!
 
-* [LineageOS](https://wiki.lineageos.org/how-to/translate), *many translations come from here*
-* [microG](https://github.com/microg/GmsCore/blob/master/TRANSLATION.md)
+* [LineageOS](https://wiki.lineageos.org/how-to/translate) *many translations are recycled from here*
 * [F-Droid](https://hosted.weblate.org/projects/f-droid/)
+* [microG](https://github.com/microg/GmsCore/blob/master/TRANSLATION.md)
 * [Aurora Store](https://hosted.weblate.org/projects/aurora-store)
+* [Tor Browser](https://community.torproject.org/localization/becoming-tor-translator/)
+* [Tor VPN](https://hosted.weblate.org/projects/tor/tor-vpn/)
+* [DAVx⁵](https://hosted.weblate.org/projects/davx5/)
+* [Thunderbird](https://hosted.weblate.org/projects/thunderbird/thunderbird-android/-/pt_BR/)
+* [CoMaps](https://codeberg.org/comaps/comaps/src/branch/main/docs/TRANSLATIONS.md)
 * [Breezy Weather](https://hosted.weblate.org/projects/breezy-weather/breezy-weather-android/#information)
-* [Bitmask](https://explore.transifex.com/otf/bitmask/), *the upstream client for Calyx VPN!*
-* [Briar](https://explore.transifex.com/otf/briar/)
+* [OnionShare](https://hosted.weblate.org/projects/onionshare)
 
-You don't need to translate everything listed here! Translating just CalyxOS itself already helps us tremendously!
+You don't need to translate everything listed here! Translating just our own components, like Seedvault, already helps us tremendously!
 Thanks in advance for the help!
