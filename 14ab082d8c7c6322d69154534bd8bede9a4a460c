@@ -16,6 +16,24 @@
       "message": "Tested this on a few devices with different cars using the listed Google apps, no stub testing. Two additional notes:\n\nAndroid Auto app update was required in each instance.\n\nNotification permissions must be granted to Android Auto. Those can be found in Settings \u003e Apps \u003e Android Auto.",
       "revId": "14ab082d8c7c6322d69154534bd8bede9a4a460c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb7cc51b_e1b06c67",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-06-29T18:14:19Z",
+      "side": 1,
+      "message": "I\u0027ve been able to get Android Auto to work even with it firewalled. I\u0027ve had it installed since then since I got the stubs and it firewalled, but I didn\u0027t use it before. Maybe that\u0027s worth adding to the page? \"You may also block the internet access for Android Auto through the Firewall app.\"",
+      "parentUuid": "446daa92_a34820b6",
+      "revId": "14ab082d8c7c6322d69154534bd8bede9a4a460c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
