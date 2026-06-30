@@ -16,6 +16,24 @@
       "message": "This is pending us actually updating the rooms and changing the addresses (aliases)",
       "revId": "35c2802cd04b72b1c0e11c50810a240c316dda1e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "45b3c2b0_711c5379",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-06-30T14:27:54Z",
+      "side": 1,
+      "message": "Thanks Lucaz. Looks good in general but wondering you why you removed the Main / Additional channels grouping and re-ordered channels. \n\nGrouping and order I\u0027d do:\n\nGeneral channels:\nCalyxOS\nCalyx Institute\n\nTopic-specifica channels:\nCalyxOS Testers\nCalyxOS Development\nCalyxOS Off-topic\nSeedvault Backup\nCalyxOS Documentation\nCalyxOS Infrastructure\nCalyxOS Feeds\n\n\nAlso, what is \"calyxos-outreach\" for? It\u0027s not on our community page but it\u0027s a public room.",
+      "parentUuid": "e5844e7e_6abe7861",
+      "revId": "35c2802cd04b72b1c0e11c50810a240c316dda1e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
