@@ -22,6 +22,30 @@
       },
       "revId": "5d65417ae6dcf7407e4fda2ef84c3f8c4b50e211",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aa0c2abf_8a49611a",
+        "filename": "pages/install/verify/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-06-30T21:02:21Z",
+      "side": 0,
+      "message": "Fix applied.",
+      "parentUuid": "01633b60_084fc14b",
+      "range": {
+        "startLine": 103,
+        "startChar": 0,
+        "endLine": 104,
+        "endChar": 29
+      },
+      "revId": "5d65417ae6dcf7407e4fda2ef84c3f8c4b50e211",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
