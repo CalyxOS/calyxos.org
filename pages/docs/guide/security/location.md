@@ -105,4 +105,20 @@ You can control this feature using the toggle in Settings > Security & privacy >
 
 ### Wi-Fi hotspot
 
-To be written.
+Wi-Fi hotspots in Android usually advertise non-stable randomized BSSIDs (MAC addresses). However, their SSIDs (their name) use a *stable* randomized name, therefore, someone who knows your hotspot name may be able to identify your location in the long-term if they have means to locate that data.
+
+This name will be a device-specific prefix followed by an underscore and 4 random numbers. You may want to change those numbers every once in a while.
+
+Examples of these prefixes (non exaustive list):
+- AndroidAP
+- AndroidHotspot
+- Fairphone 5 5G
+- moto g** (5G)
+- Pixel
+- SHIFTphone 8
+
+It is recommended to not add personally identifiable info to your hotspot name, you should also use a secure password and protocol, ideally WPA3.
+
+Location services may or not collect/store your hotspot's network, these networks move, and as such are not actually useful to the purpose of location services, and they can be detected via SSID, as "AndroidAP", "iPhone", "Galaxy" [are easy to exclude](https://codeberg.org/beacondb/common-network-index). Appending `_nomap` to the SSID may help explicitly exclude them, if the location service/collecting devices respects that, but would *also* make your network **stand out**.
+
+Note: if you've changed your device name in **Settings -> About this device** may overwrite the hotspot name to it, potentially leaking personally identifiable info.
