@@ -70,6 +70,24 @@
       "parentUuid": "97ca9867_93d2b914",
       "revId": "9dd76d78f3e0959cc65c5f292e23f890760063ac",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "18c19cc4_f4318b95",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-06-30T12:47:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f0e844bf_b75ee92b",
+      "revId": "9dd76d78f3e0959cc65c5f292e23f890760063ac",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
