@@ -166,6 +166,30 @@
       },
       "revId": "450669dea1252dd2dbb80d1930afd31a29bcc97f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c4c94065_50164656",
+        "filename": "pages/docs/guide/faq/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-06-30T13:43:59Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "9d260669_17de9ade",
+      "range": {
+        "startLine": 47,
+        "startChar": 338,
+        "endLine": 47,
+        "endChar": 366
+      },
+      "revId": "450669dea1252dd2dbb80d1930afd31a29bcc97f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
