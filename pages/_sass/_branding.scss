@@ -30,6 +30,11 @@
     background-color: var(--calyx-light);
     color: var(--color-dark);
   }
+
+  .icon.calyx {
+    background-image: url('../images/lm-logo-calyx-dark.png');
+    width: 6rem
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -67,16 +72,16 @@
   nav a.active {
     border-bottom: 3px solid var(--calyx-base);
   }
+
+  .icon.calyx {
+    background-image: url('../images/lm-logo-calyx-light.png');
+    width: 6rem
+  }
 }
 
 ::selection {
   background-color: var(--calyx-light);
   color: var(--font-color-dark);
-}
-
-.icon.calyx {
-  background-image: url('../images/lm-logo-calyx.png');
-  width: 6rem
 }
 
 .icon.apple {
