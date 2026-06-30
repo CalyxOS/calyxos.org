@@ -77,33 +77,31 @@ After flashing CalyxOS, you can verify the installed build on the device using t
 | Fairphone 5 | FP5 | AC125959F746CEDCCDD0C9737E6D57503C5648191237A2E395DB3E3433F930B5 |
 | Fairphone 4 | FP4 | BE58B05164DC19F6C2BC860F0334153D2A989949B4EA42CDB66792D2F626AB9E |
 | moto g 5G - 2024 | fogo | 0x9AFEBA34 |
-| moto g84 5G | bangkk |  |
+| moto g84 5G | bangkk | 0x701182C7 |
 | moto g34 5G and g45 5G | fogos | 0x4CB8BA16 |
-| moto g52 | rhode |  |
+| moto g52 | rhode | 0x0ACBC290 |
 | moto g42 | hawao | 0x79D64BB8 |
-| moto g32 | devon |  |
-| Pixel 9a | tegu | B23527253F7C37FC4F165A99F7B61BB54D917B11F50C3C7EBDF6A153DF84F30B |
-| Pixel 9 Pro Fold | comet | 541B24EF3725A0D77A5F717E23DED409794774DB989F16C2051C4BB69F04665C |
-| Pixel 9 Pro XL | komodo | A013DE964C04255353BC923F800EFD3FB1F1714C34FCE7DCFEC1D810C4C5B1A5 |
-| Pixel 9 Pro | caiman | C43BBECE2EB6DFA22E61ADD7AFFAF20B0BE0960F1C20B32EC011BEEF2CCB74CA |
-| Pixel 9 | tokay | 7A60257FE47A55BAEEB832CE91DC84C022918C93D5C175A1377B4B6A37062E11 |
-| Pixel 8a | akita |  |
-| Pixel 8 Pro | husky |  | 
-| Pixel 8 | shiba | 932C98FE4CD91CED2D6FC78FBF2D9A14E1CD72FB29E5FE251A2A8CD39F0AC8D1 |
-| Pixel Fold | felix | BDE8E292B89515EA5AF4C19C9CAD35E9C986031001482E6E8AA6174BC74B30D8 |
-| Pixel Tablet | tangorpro |  |
-| Pixel 7a | lynx | 2DD5B191462FD582DA828182B66AAFEBA4368FEF23A2D51D97DD99ECD2EC476C |
-| Pixel 7 Pro | cheetah | 167E73DD8B79544663F3A2B3E686B44A1BA6A8501C2C30978E3BAD062802E418 |
-| Pixel 7 | panther |  |
-| Pixel 6a | bluejay | 62ECCB5C72DF58D09ECD63CAF1EF6BBF39AD394EA2DF9BB6F7885FD3A5860416 |
-| Pixel 6 Pro | raven |  |
-| Pixel 6 | oriole |  |
+| moto g32 | devon | 0xEC553410 |
+| Pixel 9a | tegu | b23527253f7c37fc4f165a99f7b61bb54d917b11f50c3c7ebdf6a153df84f30b |
+| Pixel 9 Pro Fold | comet | 541b24ef3725a0d77a5f717e23dfd409794774db989f16c2051c4bb69f04665c |
+| Pixel 9 Pro XL | komodo | a013de964c04255353bc923f800efd3fb1f1714c34fce7dcfec1d810c4c5b1a5 |
+| Pixel 9 Pro | caiman | c43bbece2eb6dfa22e61add7affaf20b0be0960f1c20b32ec011beef2ccb74ca |
+| Pixel 9 | tokay | 7a60257fe47a55baeeb832ce91dc84c022918c93d5c175a1377b4b6a37062e11 |
+| Pixel 8a | akita | 542c5b17d34154c0f1c835b975c6e7cacc6d3386afa13c058313f6759efca582 |
+| Pixel 8 Pro | husky | ee913ad5475b005e001477565a50133f9bd88c36f102856163e91b0013f88ff0 | 
+| Pixel 8 | shiba | 932c98fe4cd91ced2d6fc78fbf2d9a14e1cd72fb29e5fe521a2a8cd39f0ac8d1 |
+| Pixel Fold | felix | bde8e292b89515ea5af4c19c9cad35e9c986031001482e6e8aa6174bc74b30d8 |
+| Pixel Tablet | tangorpro | 331e91b2952e9bd424214da468f392777054ae6a10f8f93419c786c816af58a4 |
+| Pixel 7a | lynx | 2dd5b191462fd582da828182b66aafeba4368fef23a2d51d97dd99ecd2ec476c |
+| Pixel 7 Pro | cheetah | 167e73dd8b79544663f3a2b3e686b44a1ba6a8501c2c30978e3bad062802e418 |
+| Pixel 7 | panther | ecfd81c0c20a73bb9c3ff3dd3e1e3214ff3022bc33ab81422bc9977af053ec0b |
+| Pixel 6a | bluejay | 62eccb5c72df58d09ecd63caf1ef6bbf39ad394ea2df9bb6f7885fd3a5860416 |
+| Pixel 6 Pro | raven | b8acaea1e8b8b992de333f63c622e4541a0ff4d753b9513d9e6cdcf7e734e9b8 |
+| Pixel 6 | oriole | 1e855dfea9d3faf45275e9018800cef7efe48188999b046ca7b7c9d4dd1984bd |
 | Pixel 5a (5G) | barbet | D4E69324 |
-| Pixel 4a (5G) | bramble |  |
+| Pixel 4a (5G) | bramble | 3582DABB |
 | Pixel 5 | redfin | ED180E99 |
-| SHIFTphone 8.1 | otter |  |
-
-
+| SHIFTphone 8 | otter | No warning screen |
 ---
 
 ## Verifying archive images
