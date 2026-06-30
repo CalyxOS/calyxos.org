@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "15d215c3_5db4c28d",
+        "filename": "pages/_includes/home/spotlight_features.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-06-30T20:50:34Z",
+      "side": 1,
+      "message": "```suggestion\n    \u003cp\u003e🔑 Free and trusted VPNs from \u003ca href\u003d\"https://f-droid.org/en/packages/org.torproject.vpn/\" rel\u003d\"noopener noreferrer nofollow\" target\u003d\"_blank\"\u003eTor\u003c/a\u003e and \u003ca href\u003d\"https://f-droid.org/en/packages/se.leap.riseupvpn/\" rel\u003d\"noopener noreferrer nofollow\" target\u003d\"_blank\"\u003eRiseup\u003c/a\u003e included.\u003c/p\u003e\n```",
+      "range": {
+        "startLine": 16,
+        "startChar": 45,
+        "endLine": 16,
+        "endChar": 114
+      },
+      "revId": "44ac0dfc72a760115006e4692240acd8e6dec3c3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
