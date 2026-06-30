@@ -7,6 +7,7 @@ These are the OTA updates that are usually delivered directly to your device.
 <div class="alert alert-info" markdown="0">
 Note: If you're installing CalyxOS for the first time, you should follow the factory image [[installation instructions => install]].
 </div>
+
 If you're running the "Previous build" mentioned in the table below, you can choose the [incremental OTA](#incremental-ota-updates), it is a much smaller file containing only the difference between that previous build and the latest.
 
 Otherwise, you should choose the [full OTA update](#full-ota-updates), that can be used to update from any build.
