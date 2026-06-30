@@ -14,8 +14,8 @@ toc: true
 
 [[F-Droid Basic]] is the **preferred app store** for CalyxOS. All the apps available in F-Droid are free and **open source** software, and contain no trackers or advertising.
 
-* Install free software Android apps.
-* In addition to the standard F-Droid source for apps (aka "repository"), CalyxOS includes a source for CalyxOS apps, which allows us push out out-of-band updates for various apps when needed.
+* CalyxOS’ default app store, F-Droid installs during the Setup Wizard to enable seamless app downloads on your first day running CalyxOS.
+* In addition to the standard F-Droid source for apps (aka “repository”), CalyxOS includes a source for CalyxOS apps, which allows us push out out-of-band updates for various apps when needed.
 
 In earlier versions, CalyxOS gave the client app (F-Droid) special privileges to streamline app updates, installs, and uninstalls. However, since [CalyxOS 5.1.2](https://calyxos.org/news/2023/11/30/november-feature-update/), these privileges have been dropped for new installs in favor of a newer client app (F-Droid Basic).
 
@@ -28,17 +28,17 @@ In earlier versions, CalyxOS gave the client app (F-Droid) special privileges to
 <img src="{{'/assets/images/osapps/aurora-store.png' | relative_url}}" />
 <div>
 [[Aurora Store]] is an **alternative client** to the standard **Google Play Store**. It uses the same standard catalog of apps and installs apps directly from the Google servers.
-* By default, Aurora Store accesses the Google app catalog anonymously.
-* If you want to install paid apps, or if anonymous mode is not working, you can additionally enter your Google account credentials in the Aurora Store settings (paid apps don't always work).
+* Aurora Store provides the option to download and install applications without your Google account.
+* If you want to install paid apps, or if anonymous mode is not working, you can additionally enter your Google account credentials in the Aurora Store settings (some paid apps may not work).
 * CalyxOS gives Aurora Store special privileges so that app updates can be automatically installed. New app installs and uninstalls still must be confirmed as normal.
 </div>
 </div>
 
 ## App Compatibility
 
-Many existing apps expect Google Play Services to be installed for the app to function properly. This is a problem, because Play Services is proprietary and leaks a ton of data to Google when you use it.
+Many Android apps today rely on Google Play Services to function properly. However, the Play Services is proprietary and leaks a ton of data to Google when you use it.
 
-The approach that CalyxOS takes is to use something called [[microG]], which is a open source replacement for many of the services and libraries provided by Play Services.
+The approach that CalyxOS takes is to use [[microG]], an open-source service, to enable apps and programs that need Google Play Services to function so that you can use them with privacy and anonymity.
 
 * **microG disabled**: This is the 100% de-Googled mode with no attempt to make apps work that expect Google services. Some apps will consume more battery without push notifications from Google. The presence of microG, even when disabled, will allow some apps to work that would not otherwise.
 * **microG enabled, Push notifications disabled**: In this mode, [[microG]] is used to implement the needed libraries to make many apps function, but in a way that does not send any information to Google. In some cases (e.g. location), privacy-respecting services are used in place of Google services.
@@ -49,15 +49,15 @@ Check out the [Plexus App Compatibility Database](https://plexus.techlore.tech/)
 
 For more information, see [[microg]].
 
-## Included Apps
+## Bundled Apps
 
-CalyxOS comes with a list of suggested free software applications to facilitate private online access but the user always has the choice whether to install or not. They'll always be available when needed, even when offline since they're included with the OS.
+CalyxOS comes with a list of suggested free and open-source software (FOSS) to facilitate private online access. You can choose whether to install them in the Setup Wizard. Since these apps are included in the OS, they will always be available when needed, whether you are connected to the internet or not.
 
 {% include_relative _app_gallery.html %}
 
 ## CalyxOS Apps
 
-These applications were developed or adapted specifically for use with CalyxOS, although some people have also ported these to work with other distributions.
+These applications were developed or adapted specifically for the use with CalyxOS. They are also used in other FOSS Android distributions.
 
 ### SeedVault (Secure Backups)
 
@@ -67,8 +67,8 @@ These applications were developed or adapted specifically for use with CalyxOS, 
 **[[SeedVault]]** allows you to securely backup your phone. All backups are encrypted and decrypted on your device, so you are the only one who is able to read the contents. CalyxOS gives SeedVault special permissions to allow full backup and restore.
 
 * File backup: documents, photos, all of your files are also backed up.
-* Supports local backups using USB Storage. (recommended)
-* Supports remote backups using NextCloud. (experimental)
+* Local backup: support using USB Storage (recommended)
+* Remote backup: support using NextCloud (experimental)
 </div>
 </div>
 
@@ -77,25 +77,25 @@ These applications were developed or adapted specifically for use with CalyxOS, 
 <div class="feature small-img">
 <img src="{{'/assets/images/osapps/datura.png' | relative_url}}" />
 <div>
-**[[Datura]]** gives you fine-grained control over how each app can access the network.
+**[[Datura]]** gives you fine-grained control over how each app can access the network. You can:
 
 * Block network access for an app completely
 * Block background network access for an app
 * Block Wi-Fi for an app
 * Block Mobile data for an app
-* Block VPN for an app
+* Force an app to only connect to the internet via VPN
 </div>
 </div>
 
 
 ### CalyxOS Dialer
 
-* Phone Dialer has built in optional support for Signal and WhatsApp calling.
+* Phone Dialer has built-in support for Signal and WhatsApp calling options.
   * You're always shown the Signal option, and you can make a Signal call if the contact has Signal.
   * The WhatsApp option is only shown when you have WhatsApp installed, and you can make a WhatsApp call if the contact has WhatsApp.
   * If you don't want these options, they can be turned off from Menu (top right) -> Settings -> Display options -> Show call provider selection dialog.
-* Phone Dialer has support for ‘Sensitive Numbers’ feature, where calls to numbers for help lines such as domestic violence, child abuse, suicide hotlines are not recorded in the call log
-  * These numbers are also available from a menu entry, Helplines
+* Phone Dialer also comes with a ‘Sensitive Numbers’ feature, where calls to helplines numbers, such as domestic violence, child abuse, and suicide hotlines, are not recorded in the call log
+  * You can access these numbers from a menu entry called Helplines in the dialer
 
 ### CalyxOS Chromium
 
@@ -108,7 +108,7 @@ Compared to Google Chrome, a few of the things you'll immediately notice are:
 
 Here are some other things you can try to confirm that CalyxOS's Chromium is working as intended:
 
-* [Privacy Sandbox demos](https://developers.google.com/privacy-sandbox/resources/demos) by Google. Many of these demos (including Topics API and Attribution Reporting) represent new, invasive features that will not function out-of-the-box in Cromite or CalyxOS Chromium. They may be opt-out in Chrome, but they're not even available here.
+* [Privacy Sandbox demos](https://developers.google.com/privacy-sandbox/resources/demos) by Google. Many of these demos (including Topics API and Attribution Reporting) represent new, invasive features that will not function out-of-the-box in Cromite or CalyxOS Chromium. They may be opted out in Chrome, but they're not even available here.
 * [Adblock test](https://d3ward.github.io/toolz/adblock.html) by [Ursu Edward (d3ward)](https://d3ward.github.io/). While we don't achieve the coveted 99%+, having AdBlock turned on (as it is by default) gets a much better score than the \~1% when it is turned off.
 * [WebRTC Leak Test](https://browserleaks.com/webrtc) by [BrowserLeaks](https://browserleaks.com). With WebRTC turned off, as it is by default in Cromite and CalyxOS Chromium, this site returns "No Leak". With Chrome, or with WebRTC turned on (possible via the site settings, which has an address bar shortcut), more information is exposed.
 
