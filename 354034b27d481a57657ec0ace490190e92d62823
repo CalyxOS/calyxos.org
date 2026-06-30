@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7a652da6_80b384f0",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-06-30T16:33:42Z",
+      "side": 1,
+      "message": "Wi-Fi hotspots in Android usually use dynamic BSSIDs (MAC addresses) that is constantly randomized. However, their SSIDs (the name that will show up in available networks) are not randomized and stay the same without manual modification. Therefore, if someone can identify and detect your hotspot SSID, they may be able to locate you and track your location pattern.",
+      "range": {
+        "startLine": 108,
+        "startChar": 0,
+        "endLine": 108,
+        "endChar": 297
+      },
+      "revId": "354034b27d481a57657ec0ace490190e92d62823",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c43bacca_76c76782",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-06-30T16:33:42Z",
+      "side": 1,
+      "message": "Default hotspot SSIDs of modern mobile devices often follow a naming convention with device-specific prefix followed by an underscore and four random numbers. Here are some examples of the prefixes:",
+      "range": {
+        "startLine": 110,
+        "startChar": 0,
+        "endLine": 112,
+        "endChar": 48
+      },
+      "revId": "354034b27d481a57657ec0ace490190e92d62823",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ffe8b2f8_93a0fce8",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-06-30T16:33:42Z",
+      "side": 1,
+      "message": "Mobile devices today are commonly designed to be constantly broadcasting device information, such as SSIDs. Companies and projects that provide location and mapping services capture and collect this information to build their database. If you append `_nomap` at the end if you SSID, it may help exclude your SSID from their database. However, not all such databases respect the `_nomap` tag. It does not guarantee the exclusion of your SSID from databases. What\u0027s more, it *could* make your device **stand out** among available networks. \n\nIt is recommended that you change the hotspot SSID of your device every once in a while. Make sure to use generic names instead of personally identifiable ones. This can help make it difficult to identify and track your via your hotspot SSID. To prevent massive collection of your data, turn off the Wi-Fi hotspot on your device whenever possible. In CalyxOS, your Wi-Fi hotspot turns off automatically when no devices are connected. You can check this toggle in **Settings -\u003e Network and Internet -\u003e Hotspot and tethering -\u003e Wi-Fi hotspots.** \n\nFor better Wi-Fi hotspot security, you should also use a secure Wi-Fi protocol (ideally WPA3) and [strong password](https://www.mitnicksecurity.com/blog/password-security-best-practices).",
+      "range": {
+        "startLine": 120,
+        "startChar": 0,
+        "endLine": 122,
+        "endChar": 478
+      },
+      "revId": "354034b27d481a57657ec0ace490190e92d62823",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3155c055_90284d2e",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-06-30T16:33:42Z",
+      "side": 1,
+      "message": "Note: if you have changed your device name in **Settings -\u003e About this device**, it may overwrite the hotspot SSID, potentially leaking personally identifiable information.",
+      "range": {
+        "startLine": 123,
+        "startChar": 0,
+        "endLine": 124,
+        "endChar": 165
+      },
+      "revId": "354034b27d481a57657ec0ace490190e92d62823",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
