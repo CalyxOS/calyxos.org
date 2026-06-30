@@ -10,15 +10,7 @@ Fastboot is a special administrative mode of your Android device. Once in fastbo
 
 ### How to enter fastboot?
 
-**Method 1**
-
-1. Power off the Android device.
-2. Hold the **volume down** button.
-3. Connect a USB cable to the host computer.
-
-The device should automatically power on into fastboot mode.
-
-**Method 2**
+**Method 1 (Pixel, Motorola, Fairphone)**
 
 1. Power off the Android device.
 2. Hold the **volume down** button.
@@ -26,6 +18,15 @@ The device should automatically power on into fastboot mode.
 4. Wait for a slight vibration.
 5. Release the **power** button.
 6. When the fastboot screen appears, release the **volume down** button.
+
+**Method 2 (SHIFTphone 8)**
+
+1. Power off the Android device.
+2. Hold the **volume up** button.
+3. Hold the **power** button.
+4. Wait for a slight vibration.
+5. Release the **power** button.
+6. When the fastboot screen appears, release the **volume up** button.
 
 ### How to use fastboot
 
@@ -41,5 +42,4 @@ Your fastboot screen may be slightly different.
 
 <div class="gallery" markdown="0">
 <div class="cell full">Pixel screen:<img src="fastboot.jpg" /></div>
-<div class="cell full">Xiaomi screen:<img src="fastboot-mi.jpg" /></div>
 </div>

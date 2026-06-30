@@ -8,17 +8,18 @@ redirect_from:
   - /install/devices
 ---
 
-## Install with the Web Installer
+### Read before you install
 
-The [CalyxOS Web Installer](https://install.calyxos.org) guides you through the entire installation process in simple clicks. If you are using a Pixel or a Motorola device, we highly recommend that you use the Web Installer to ease your installation process. You can find your device in the following table. If the Web Installer is available for your device, you will have the option to use it directly.
+* If you want to use the CalyxOS Web Installer, please note it is a browser installation tool and requires WebUSB access. Supported browsers for the Web Installer include Microsoft Edge, Chrome, Brave, and other Chromium-based browsers.
+* CalyxOS is meant to be run with a locked bootloader after installation, which makes sure that the OS cannot be tampered without your knowledge. Please ensure you relock your bootloader after installation.
+* Pixel phones from mobile carrier Verizon in the United States are not able to install CalyxOS due to bootloader unlocking prohibitions, please ensure your device is not from Verizon if purchased secondhand. Read [[how to identify a Verizon phone => verizon]] to learn more.
+* Device flasher tool is not currently supported on MacOS - please use the Web Installer or another operating system to install CalyxOS on your device.
+* Google's Factory reset protection (FRP): FRP must be disabled before flashing, i.e. you must not be signed into a Google account on your old OS before flashing 7.2.1.0. If FRP is enabled when you flash and relock your bootloader, you will not be able to turn OEM unlocking back on.
 
-**⚠️ Note:** Web Installer is a browser installation tool and requires WebUSB access. To ensure successful installation, avoid browsers that do not allow WebUSB access, such as Firefox and Safari.
 
-## Choose your device model
+## Choose your device below
 
-Which device do you want to install CalyxOS on? If you don’t see your device here, check out the [[device-support]] page for complete information.
-
-**⚠️ Note:** Pixel phones from mobile carrier Verizon in the United States are not able to install CalyxOS due to bootloader unlocking prohibitions. Read [[how to identify a Verizon phone => verizon]] to learn more.
+If you don’t see your device here, check out the [[device-support]] page for more information.
 
 <table class="table table-striped download">
 <tr>
@@ -51,7 +52,3 @@ Which device do you want to install CalyxOS on? If you don’t see your device h
 </tr>
 {% endfor %}
 </table>
-
-## Security Notes
-
-{% include install/security_notes.html %}

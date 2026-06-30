@@ -2,7 +2,6 @@
 title: Android Security Bulletins
 nav_title: Security Bulletins
 description: How CalyxOS keeps up with Android Security Bulletins
-toc: true
 redirect_from: /security/bulletin/
 ---
 
@@ -21,3 +20,5 @@ Open source:
 Proprietary:
 * Vendor - the proprietary components needed to make a device work.
 * Firmware / bootloader - more of the above
+
+{% include install/security_notes.html %}
