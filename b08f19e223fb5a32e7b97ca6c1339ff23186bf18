@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d95cae23_fd52ee8c",
+        "filename": "pages/_includes/features.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-06-30T21:23:03Z",
+      "side": 1,
+      "message": "```suggestion\n    \u003cp\u003e🗺️ \u003ca href\u003d\"https://positon.xyz/\" target\u003d\"_blank\" rel\u003d\"noreferrer nooopener\"\u003ePositon\u003c/a\u003e or \u003ca href\u003d\"https://beacondb.net/\" target\u003d\"_blank\" rel\u003d\"noreferrer nooopener\"\u003eBeaconDB\u003c/a\u003e (and locally acquired AP data) available as privacy-friendly location services.\u003c/p\u003e\n```",
+      "revId": "b08f19e223fb5a32e7b97ca6c1339ff23186bf18",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
