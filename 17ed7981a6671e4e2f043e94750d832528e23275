@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "89cd790e_6d503db9",
+        "filename": "pages/install/verify/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-06-30T16:21:18Z",
+      "side": 1,
+      "message": "Pixel 6 to 9a AVB ID shows as lowercase in the yellow screen, shouldn\u0027t we match that?",
+      "range": {
+        "startLine": 85,
+        "startChar": 0,
+        "endLine": 100,
+        "endChar": 87
+      },
+      "revId": "17ed7981a6671e4e2f043e94750d832528e23275",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}

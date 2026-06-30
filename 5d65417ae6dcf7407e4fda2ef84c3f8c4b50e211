@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "01633b60_084fc14b",
+        "filename": "pages/install/verify/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-06-30T16:21:18Z",
+      "side": 0,
+      "message": "```suggestion\n| Pixel 5 | redfin | ED180E99 |\n| SHIFTphone 8 | otter | No warning screen |\n```",
+      "range": {
+        "startLine": 103,
+        "startChar": 0,
+        "endLine": 104,
+        "endChar": 29
+      },
+      "revId": "5d65417ae6dcf7407e4fda2ef84c3f8c4b50e211",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
