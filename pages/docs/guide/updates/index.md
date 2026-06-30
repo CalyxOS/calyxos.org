@@ -31,6 +31,6 @@ For more information about the security patch level, see [[bulletin]].
 
 Some of the apps included with CalyxOS are updated via F-Droid.
 
-You can check for updates by opening F-Droid and pulling down to refresh.
+You can check for updates by opening F-Droid and navigating to the "My apps" tab.
 
-This will show any available updates in the Updates tab.
+This will show any available updates for your installed apps.
