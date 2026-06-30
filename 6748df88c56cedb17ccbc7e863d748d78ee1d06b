@@ -16,6 +16,24 @@
       "message": "So we want to show dark logo on dark background?",
       "revId": "6748df88c56cedb17ccbc7e863d748d78ee1d06b",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "54785cff_55fd6843",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-06-30T23:16:11Z",
+      "side": 1,
+      "message": "Seems like this needs to be fixed so that it uses different icons for light and dark mode, instead",
+      "parentUuid": "f17e4f08_335c2ad8",
+      "revId": "6748df88c56cedb17ccbc7e863d748d78ee1d06b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
