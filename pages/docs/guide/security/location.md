@@ -105,4 +105,21 @@ You can control this feature using the toggle in Settings > Security & privacy >
 
 ### Wi-Fi hotspot
 
-To be written.
+Wi-Fi hotspots in Android usually use dynamic BSSIDs (MAC addresses) that are randomized when enabled. However, their SSIDs (the name that will show up in available networks) are not randomized and stay the same without manual modification. Therefore, if someone can identify and detect your hotspot SSID, they may be able to locate you and track your location pattern.
+
+Default hotspot SSIDs of modern mobile devices often follow a naming convention with device-specific prefix followed by an underscore and four random numbers. Here are some examples of the prefixes:
+
+- AndroidAP
+- AndroidHotspot
+- Fairphone 5 5G
+- moto g** (5G)
+- Pixel
+- SHIFTphone 8
+
+Mobile devices today are commonly designed to be constantly broadcasting device information, such as SSIDs. Companies and projects that provide location and mapping services capture and collect this information to build their database. If you append `_nomap` at the end if you SSID, it may help exclude your SSID from their database. However, not all such databases respect the `_nomap` tag. It does not guarantee the exclusion of your SSID from databases. What's more, it could make your device **stand out** among available networks.
+
+It is recommended that you change the hotspot SSID of your device every once in a while. Make sure to use generic names instead of personally identifiable ones. This can help make it difficult to identify and track your via your hotspot SSID. To prevent massive collection of your data, turn off the Wi-Fi hotspot on your device whenever possible. In CalyxOS, your Wi-Fi hotspot turns off automatically when no devices are connected. You can check this toggle in **Settings -> Network and Internet -> Hotspot and tethering -> Wi-Fi hotspot**.
+
+For better Wi-Fi security, you should also use a secure Wi-Fi protocol (ideally WPA3) and strong password.
+
+Note: if you have changed your device name in **Settings -> About this device**, it may overwrite the hotspot SSID, potentially leaking personally identifiable information.
