@@ -1,15 +1,17 @@
 ---
 android_versions:
+  - 17
   - 16
   - 15
   - 14
   - 13
   - 11
 upcoming_codenames:
+  - FP6
 upcoming_brands:
+  - fairphone
 modern_codenames:
   - FP5
-  - FP4
   - fogo
   - bangkk
   - fogos
@@ -36,6 +38,7 @@ modern_brands:
   - pixel
   - shift
 extended_codenames:
+  - FP4
   - rhode
   - hawao
   - devon
@@ -43,6 +46,7 @@ extended_codenames:
   - bramble
   - redfin
 extended_brands:
+  - fairphone
   - motorola
   - pixel
 previous_codenames:
@@ -65,10 +69,19 @@ previous_brands:
   - pixel
   - shift
   - xiaomi
+FP6:
+  brand: fairphone
+  model: Fairphone 6
+  manufacturer_support_ends: 2031-12
+  calyxos_support_ends: tbd
+  sim: "dual"
+  esim: "yes"
+  android: 16
+  web_install: false
 FP5:
   brand: fairphone
   model: Fairphone 5
-  manufacturer_support_ends: 2031-09
+  manufacturer_support_ends: 2026-12
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "yes"
