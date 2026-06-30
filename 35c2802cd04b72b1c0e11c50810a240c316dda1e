@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e5844e7e_6abe7861",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-06-30T13:23:10Z",
+      "side": 1,
+      "message": "This is pending us actually updating the rooms and changing the addresses (aliases)",
+      "revId": "35c2802cd04b72b1c0e11c50810a240c316dda1e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
