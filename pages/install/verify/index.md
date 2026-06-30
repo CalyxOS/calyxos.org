@@ -9,12 +9,9 @@ There are two possible stages of verification:
 - File verification: verify the downloaded image before flashing to ensure you have the correct untampered file
 - Boot verification: verify the installed build on the device after installing, possible at each boot
 
-
 ---
 
-
 ## File verification
-
 
 Currently, factory images from version 7.0.0.0 onwards are verified using SHA256 checksums only.
 
@@ -65,7 +62,6 @@ SHA256 hash of tegu-factory-260720100.zip:
 CertUtil: -hashfile command completed successfully.
 ```
 
-
 ---
 
 ## Boot verification
@@ -88,7 +84,7 @@ After flashing CalyxOS, you can verify the installed build on the device using t
 | Pixel 9 Pro | caiman | c43bbece2eb6dfa22e61add7affaf20b0be0960f1c20b32ec011beef2ccb74ca |
 | Pixel 9 | tokay | 7a60257fe47a55baeeb832ce91dc84c022918c93d5c175a1377b4b6a37062e11 |
 | Pixel 8a | akita | 542c5b17d34154c0f1c835b975c6e7cacc6d3386afa13c058313f6759efca582 |
-| Pixel 8 Pro | husky | ee913ad5475b005e001477565a50133f9bd88c36f102856163e91b0013f88ff0 | 
+| Pixel 8 Pro | husky | ee913ad5475b005e001477565a50133f9bd88c36f102856163e91b0013f88ff0 |
 | Pixel 8 | shiba | 932c98fe4cd91ced2d6fc78fbf2d9a14e1cd72fb29e5fe521a2a8cd39f0ac8d1 |
 | Pixel Fold | felix | bde8e292b89515ea5af4c19c9cad35e9c986031001482e6e8aa6174bc74b30d8 |
 | Pixel Tablet | tangorpro | 331e91b2952e9bd424214da468f392777054ae6a10f8f93419c786c816af58a4 |
@@ -102,6 +98,7 @@ After flashing CalyxOS, you can verify the installed build on the device using t
 | Pixel 4a (5G) | bramble | 3582DABB |
 | Pixel 5 | redfin | ED180E99 |
 | SHIFTphone 8 | otter | No warning screen |
+
 ---
 
 ## Verifying archive images
