@@ -24,6 +24,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "30bab9fe_ec4736cb",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-06-30T17:00:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a652da6_80b384f0",
+      "range": {
+        "startLine": 108,
+        "startChar": 0,
+        "endLine": 108,
+        "endChar": 297
+      },
+      "revId": "354034b27d481a57657ec0ace490190e92d62823",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c43bacca_76c76782",
@@ -37,6 +61,30 @@
       "writtenOn": "2026-06-30T16:33:42Z",
       "side": 1,
       "message": "Default hotspot SSIDs of modern mobile devices often follow a naming convention with device-specific prefix followed by an underscore and four random numbers. Here are some examples of the prefixes:",
+      "range": {
+        "startLine": 110,
+        "startChar": 0,
+        "endLine": 112,
+        "endChar": 48
+      },
+      "revId": "354034b27d481a57657ec0ace490190e92d62823",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d026267_12eee565",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-06-30T17:00:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c43bacca_76c76782",
       "range": {
         "startLine": 110,
         "startChar": 0,
@@ -70,6 +118,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e6c86176_743936d4",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-06-30T17:00:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ffe8b2f8_93a0fce8",
+      "range": {
+        "startLine": 120,
+        "startChar": 0,
+        "endLine": 122,
+        "endChar": 478
+      },
+      "revId": "354034b27d481a57657ec0ace490190e92d62823",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3155c055_90284d2e",
@@ -83,6 +155,30 @@
       "writtenOn": "2026-06-30T16:33:42Z",
       "side": 1,
       "message": "Note: if you have changed your device name in **Settings -\u003e About this device**, it may overwrite the hotspot SSID, potentially leaking personally identifiable information.",
+      "range": {
+        "startLine": 123,
+        "startChar": 0,
+        "endLine": 124,
+        "endChar": 165
+      },
+      "revId": "354034b27d481a57657ec0ace490190e92d62823",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c72e4d80_855fca94",
+        "filename": "pages/docs/guide/security/location.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-06-30T17:00:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3155c055_90284d2e",
       "range": {
         "startLine": 123,
         "startChar": 0,
