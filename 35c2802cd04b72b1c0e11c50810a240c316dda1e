@@ -52,6 +52,24 @@
       "parentUuid": "45b3c2b0_711c5379",
       "revId": "35c2802cd04b72b1c0e11c50810a240c316dda1e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "43ab3656_828c7a99",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-06-30T15:37:03Z",
+      "side": 1,
+      "message": "And as for why I removed the grouping it was because to me it made more sense to use the nice table in Markdown that was there that actually listed most things than to use the other one. Because there were two lists and the positions were weird.",
+      "parentUuid": "84474cca_5a5cc83f",
+      "revId": "35c2802cd04b72b1c0e11c50810a240c316dda1e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
