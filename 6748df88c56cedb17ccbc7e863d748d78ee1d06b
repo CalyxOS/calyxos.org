@@ -34,6 +34,24 @@
       "parentUuid": "f17e4f08_335c2ad8",
       "revId": "6748df88c56cedb17ccbc7e863d748d78ee1d06b",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6db5fc4d_32b120bd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-06-30T23:17:57Z",
+      "side": 1,
+      "message": "I realized the website is not optimized to be responsive to themes. I couldn\u0027t see the logo in light mode... I guess we can leave this open until post official release to find a solution.",
+      "parentUuid": "f17e4f08_335c2ad8",
+      "revId": "6748df88c56cedb17ccbc7e863d748d78ee1d06b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
