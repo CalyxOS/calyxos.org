@@ -120,9 +120,7 @@ Messaging - The default SMS application. Messages not encrypted.
 
 Signal - Encrypted messaging Application.
 
-K-9 Mail - Email Client, supports Gmail
-
-Briar - Encrypted Messaging Application
+Thunderbird Mail - free, open-source, privacy-focused email client.
 
 ### CalyxOS apps
 
@@ -140,9 +138,7 @@ Chromium - Ad/tracker-free, secure, browsing via select Cromite features in the 
 
 RiseupVPN - Free secure VPN powered by Bitmask
 
-Orbot - Orbot allows access to Tor by accessing a local SOCKS or HTTP proxy
-
-CalyxVPN - Free Calyx Institute VPN for Android powered by Bitmask
+Tor VPN - Beta VPN app by The Tor Project that routes individual app traffic through the decentralized Tor network.
 
 ### Utilities
 
@@ -152,11 +148,7 @@ OONI Probe - Open Observatory of Network Interference (OONI) application that pr
 
 DAVx5 - An adapter that allows access to external contacts and calendar services (such as with Nextcloud)
 
-MuPDF viewer - PDF viewer - transparent
-
-Nextcloud - Backup/synchronization client
-
-Organic Maps - Offline, crowd-sourced maps with no ads, no trackers, and no data collection
+CoMaps - Offline, crowd-sourced maps with no ads, no trackers, and no data collection
 
 ## Datura Firewall Guide
 
