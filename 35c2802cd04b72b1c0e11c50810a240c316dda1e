@@ -34,6 +34,24 @@
       "parentUuid": "e5844e7e_6abe7861",
       "revId": "35c2802cd04b72b1c0e11c50810a240c316dda1e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "84474cca_5a5cc83f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-06-30T15:32:57Z",
+      "side": 1,
+      "message": "I tried to order by interest, what people use more and what is more relevante, basically\n\nI think that we could talk about this more, but basically I think that some of these rooms we should deprecate (after migration). For example, infrastructure, calyx institute, and the outreach one.\n\nMy understanding? is that outreach was supposed to be like a place for other entities to get in touch with Calyx but it hasn\u0027t had any such activity since its creation and it is hardly used at all. I chose to left it out because of how abandoned it is.",
+      "parentUuid": "45b3c2b0_711c5379",
+      "revId": "35c2802cd04b72b1c0e11c50810a240c316dda1e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
