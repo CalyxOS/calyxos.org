@@ -11,7 +11,7 @@ Note: If you're installing CalyxOS for the first time, you should [[get the fact
 Installation process:
 1.  Download the build to a PC with `adb` available.
 2.  Power off the device.
-3.  On the Pixels, Motorolas, Fairphones: hold volume down + power to launch fastboot mode. On SHIFTphone: hold volume up + power to launch fastboot mode.
+3.  On Pixel, Motorola, Fairphone: hold volume down + power to launch fastboot mode. On SHIFTphone: hold volume up + power to launch fastboot mode.
 4.  Use the volume buttons to scroll the fastboot menu, and select "Recovery mode". Use the power button to confirm.
 5.  You will see an icon (like the one below) with the text "no command". This is completely **normal**.
 6.  Hold power, and while keeping power held, press the volume up button and release it.
