@@ -1,0 +1,3 @@
+New CalyxOS release ready for download
+Download and install CalyxOS 7.2.2.0. This release will have over-the-air (OTA) updates and full maintenance support. Before installation, check if you need to backup your phone. Tap for the installation guide.
+https://calyxos.org/install/
