@@ -41,5 +41,7 @@ If you don't see this screen, you are not in fastboot. Restart and try again.
 Your fastboot screen may be slightly different.
 
 <div class="gallery" markdown="0">
-<div class="cell full">Pixel screen:<img src="fastboot.jpg" /></div>
+<div class="cell full">Pixel screen:<img src="fastboot.jpg"/></div>
+<div class="cell full">Motorola screen:<img src="fastboot-moto.jpg"/></div>
+<div class="cell full">Fairphone/SHIFTphone screen:<img src="fastboot-qcom.jpg"/></div>
 </div>
