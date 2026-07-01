@@ -52,6 +52,9 @@ defaults:
     values:
       layout: null
 
+include:
+  - .messages
+
 exclude:
   - assets/images/original
   - vendor
