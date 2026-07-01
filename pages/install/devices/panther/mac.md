@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/panther/16/panther-factory-260720100.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/panther/16/panther-factory-260720200.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 7 (panther)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/panther/16/panther-factory-260720100.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/panther/16/panther-factory-260720200.zip" | split: "/" | last %}
 {% include install/mac_image_digest.md filename=image %}
 
-And ensure the result says `2077f8f24d69c1af5bd0ef9d0dd38756003182b345b11af532acda8085042693`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `9b76dedbf661f64659c145146eef58d1bec40d4bd860c021c742af779eb6a5d7`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 

@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/FP4/16/FP4-factory-260720100.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/FP4/16/FP4-factory-260720200.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Fairphone 4 (FP4)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/FP4/16/FP4-factory-260720100.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/FP4/16/FP4-factory-260720200.zip" | split: "/" | last %}
 {% include install/windows_image_digest.md filename=image %}
 
-And ensure the result says `c4cba1889f98840938043a2e5ec35f1a1d71235082771343e4ab7725d0cd1c58`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `7847ea97eb595ef897635a23ccc5da4629268b94694880ba94e0716e45237719`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 

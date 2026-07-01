@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/redfin/16/redfin-factory-260720100.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/redfin/16/redfin-factory-260720200.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 5 (redfin)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/redfin/16/redfin-factory-260720100.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/redfin/16/redfin-factory-260720200.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `bdb33316ec3d3a65b8d234553fafaf4c5dc4aabace2e9a982a383eebae11fc2d`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `95a8d195a3553b77fa4ca8ad29a5010aa1ad864426a1bdc7d936ce05d12ed70b`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 

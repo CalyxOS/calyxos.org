@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/FP5/16/FP5-factory-260720100.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/FP5/16/FP5-factory-260720200.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Fairphone 5 (FP5)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/FP5/16/FP5-factory-260720100.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/FP5/16/FP5-factory-260720200.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `19a4173873e84d0ab3077ca32742560e6088eb1872a005a06cc846bf4075bb03`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `ca2a36e190ae170cbab7eb3f583fb9e0665980e9e1c6da85485a902594808249`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 

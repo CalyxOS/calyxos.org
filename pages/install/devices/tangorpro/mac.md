@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/tangorpro/16/tangorpro-factory-260720100.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/tangorpro/16/tangorpro-factory-260720200.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel Tablet (tangorpro)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/tangorpro/16/tangorpro-factory-260720100.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/tangorpro/16/tangorpro-factory-260720200.zip" | split: "/" | last %}
 {% include install/mac_image_digest.md filename=image %}
 
-And ensure the result says `ac6f43025e7a50fc3a4e1c506f0f99023f90c5dc3fa573029404ddcbf154b6fc`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `0764f6684203710bb1cb9b0e12160a33588f234f7bb9c1b7713a6b5d3d32157f`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 
