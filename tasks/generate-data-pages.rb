@@ -8,7 +8,6 @@ module GenerateDataPages
   INSTALL_TEMPLATE = "#{INSTALL_TEMPLATE_DIR}/_install.md"
   OSES = [
     {'name' => 'Windows','codename' => 'windows'},
-    {'name' => 'MacOS', 'codename' => 'mac'},
     {'name' => 'Linux', 'codename' => 'linux'}
   ]
 
