@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a85ee295_e48ba35b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-07-02T19:04:24Z",
+      "side": 1,
+      "message": "Both light and dark modes look fine",
+      "revId": "61ad9a974e86a5c0c49e0a40fd234f37ff669a68",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
