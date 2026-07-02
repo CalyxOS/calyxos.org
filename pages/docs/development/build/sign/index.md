@@ -5,7 +5,9 @@ toc: true
 redirect_from: /development/build/sign/
 ---
 
-CalyxOS is built on a dedicated server and then signed separately. It can be signed on the same machine, but it has to be in a different directory.
+<div class="alert alert-info" markdown="0">
+⚠️ CalyxOS factory images and OTA updates after 7.2.2.0 are signed offline using a hardware security module (HSM). The signing instructions below is no longer relevant. We are in the process of updating our documentation. Please check back later.
+</div>
 
 ## Build
 
