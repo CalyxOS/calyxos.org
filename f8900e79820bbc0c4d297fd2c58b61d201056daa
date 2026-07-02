@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0aaf88f0_effaebdf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-07-02T18:22:30Z",
+      "side": 1,
+      "message": "Fastboot screens and text updates look good. Unable to test dark mode text color.",
+      "revId": "f8900e79820bbc0c4d297fd2c58b61d201056daa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
