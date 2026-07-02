@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe7db6ee_4eeeec1d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-07-02T17:57:40Z",
+      "side": 1,
+      "message": "Should this be linked in https://calyxos.org/news/2025/08/01/a-letter-to-our-community/ as well?",
+      "revId": "79ca69a63224a3560f48b50bebed71a9be9d83e9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
