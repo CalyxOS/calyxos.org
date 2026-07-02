@@ -5,6 +5,16 @@ date: 2025-08-01
 
 &nbsp;
 
+**Update: July 2 2026**
+
+[CalyxOS is back – download release 7.2.2.0 with full maintenance support](/news/2026/07/01/calyxos-official-release-is-back/)
+
+&nbsp;
+
+---
+
+&nbsp;
+
 **Update: May 4 2026**
 
 [CalyxOS progress report - our test build with Android 16 is here](/news/2026/05/04/calyxos-progress-update-4/)
