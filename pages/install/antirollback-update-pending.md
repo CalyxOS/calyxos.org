@@ -1,10 +1,9 @@
 ---
-title: CalyxOS temporarily unavailable for several devices after manufacturer updates
+title: CalyxOS temporarily unavailable after manufacturer updates
 description: CalyxOS factory images are currently unavailable for affected devices
 ---
 
 - **Issue identified:** Latest manufacturer updates related to the anti-rollback protection feature prevent relocking bootloaders after installing CalyxOS on certain devices for the first time.
-- **Currently impacted devices:** None.
 - **Next steps:** We are working to ship new CalyxOS builds for these devices. Please be advised to wait for updates before attempting to install.
 
 We have recently identified an issue with installing CalyxOS on certain devices after the latest manufacturer updates. This issue is related to Android's anti-rollback protection, which prevents downgrading to older versions of the operating system (OS). As a result, anyone attempting to install CalyxOS on the following devices may encounter problems:
