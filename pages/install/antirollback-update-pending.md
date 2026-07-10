@@ -8,6 +8,8 @@ description: CalyxOS factory images are currently unavailable for affected devic
 
 We have recently identified an issue with installing CalyxOS on certain devices after the latest manufacturer updates. This issue is related to Android's anti-rollback protection, which prevents downgrading to older versions of the operating system (OS). As a result, anyone attempting to install CalyxOS on the following devices may encounter problems:
 * Fairphone 5
+* moto g 5G - 2024
+* moto g84 5G
 
 For people using the above devices, if you are installing CalyxOS for the first time, CalyxOS won't start after relocking the bootloader.
 
