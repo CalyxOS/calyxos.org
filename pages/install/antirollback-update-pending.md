@@ -10,6 +10,7 @@ We have recently identified an issue with installing CalyxOS on certain devices 
 * Fairphone 5
 * moto g 5G - 2024
 * moto g84 5G
+* moto g34 5G and g45 5G
 
 For people using the above devices, if you are installing CalyxOS for the first time, CalyxOS won't start after relocking the bootloader.
 

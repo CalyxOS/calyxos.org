@@ -7,6 +7,9 @@ toc: true
 <strong>[[Install => install]]</strong> / <strong><a href="/install/devices/fogos/">moto g34 5G and g45 5G</a></strong>
 
 
+## Downloads temporarily removed
+Downloads for this device have been temporarily removed <a href="/install/antirollback-update-pending">pending an antirollback update</a>.
+
 
 ## Terminology
 
@@ -47,23 +50,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/fogos/16/fogos-factory-260720200.zip">Download CalyxOS Image</a>
-
-
-Save this image in the same directory as device-flasher. This image will **only** work for **moto g34 5G and g45 5G (fogos)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
-
-Do not extract or rename the zip, simply copy it as-is.
-
-Once downloaded, the next step is to verify the image. This step is optional, but verification helps ensure that you downloaded the image correctly, and that you got the correct image.
-
-#### Verify Digest
-
-To verify the image, open a terminal window on the host computer where you saved the image and run the command:
-
-{% assign image = "https://release.calyxos.org/factory/fogos/16/fogos-factory-260720200.zip" | split: "/" | last %}
-{% include install/windows_image_digest.md filename=image %}
-
-And ensure the result says `e0596c677999bf564430d9b65b65be1518c06513777952ae3c6e4b34cfcd461b`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+<a class="btn">Downloads temporarily removed</a>
 
 ## Install CalyxOS
 
