@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e2f631bb_54002a97",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-07-22T10:14:43Z",
+      "side": 1,
+      "message": "https://issuetracker.google.com/issues/387030988 is still open and has a recent comment, so not sure if this was resolved",
+      "revId": "e1e491eea942409c2416e0668e34413be282af3a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
