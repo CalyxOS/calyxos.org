@@ -1182,17 +1182,16 @@ factory:
 - name: Fairphone 5
   brand: fairphone
   codename: FP5
-  version: 7.2.2.0
+  version: 7.2.2.1
   android: '16'
   web_install: false
-  factory_link: https://release.calyxos.org/factory/FP5/16/FP5-factory-260720200.zip
-  factory_sha256: ca2a36e190ae170cbab7eb3f583fb9e0665980e9e1c6da85485a902594808249
-  ota_link: https://release.calyxos.org/ota/FP5/16/FP5-ota_update-260720200.zip
-  ota_sha256: c8a29e318ddaf4a638740148d7e295f6c6aee1f16bc6115db494367dbedf5bdd
+  factory_link: https://release.calyxos.org/factory/FP5/16/FP5-factory-260720201.zip
+  factory_sha256: 9aedd23e3b81431ebb5e1f9ed0db607f3131f6c1e5131c940629c47d7642bb9a
+  ota_link:
+  ota_sha256:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  antirollback_update_pending: true
   date: '2026-06-04'
 - name: Fairphone 4
   brand: fairphone
@@ -1211,47 +1210,44 @@ factory:
 - name: moto g 5G - 2024
   brand: motorola
   codename: fogo
-  version: 7.2.2.0
+  version: 7.2.2.1
   android: '16'
   web_install: true
-  factory_link: https://release.calyxos.org/factory/fogo/16/fogo-factory-260720200.zip
-  factory_sha256: 1a62468834a8ed21f6099a002649afaab5234e079071aaa487d289f9ab187926
-  ota_link: https://release.calyxos.org/ota/fogo/16/fogo-ota_update-260720200.zip
-  ota_sha256: 2ba2eb05e2227dcb8fb755abefd960e701488bda6a3545934fa57cd2472f7a63
+  factory_link: https://release.calyxos.org/factory/fogo/16/fogo-factory-260720201.zip
+  factory_sha256: 5758f57a5ce24b3b1cecb3a9dc55e71419e9d89c2c35237eb3c6c6c090286a69
+  ota_link:
+  ota_sha256:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  antirollback_update_pending: true
   date: '2026-06-04'
 - name: moto g84 5G
   brand: motorola
   codename: bangkk
-  version: 7.2.2.0
+  version: 7.2.2.1
   android: '16'
   web_install: true
-  factory_link: https://release.calyxos.org/factory/bangkk/16/bangkk-factory-260720200.zip
-  factory_sha256: c2ed6de99d6304c52c6d2db3214fd475164ebe3f687cae07a1f7cca78850fbcc
-  ota_link: https://release.calyxos.org/ota/bangkk/16/bangkk-ota_update-260720200.zip
-  ota_sha256: 6fd668e3b5fd433c88ac0307e4f7963b89e74b71014afb03bd8d4311d59115dc
+  factory_link: https://release.calyxos.org/factory/bangkk/16/bangkk-factory-260720201.zip
+  factory_sha256: f3e1d290b81778d00e7801786d75f71c4f95e7ac108c147d79b0bf3c103d1ad7
+  ota_link:
+  ota_sha256:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  antirollback_update_pending: true
   date: '2026-06-04'
 - name: moto g34 5G and g45 5G
   brand: motorola
   codename: fogos
-  version: 7.2.2.0
+  version: 7.2.2.1
   android: '16'
   web_install: true
-  factory_link: https://release.calyxos.org/factory/fogos/16/fogos-factory-260720200.zip
-  factory_sha256: e0596c677999bf564430d9b65b65be1518c06513777952ae3c6e4b34cfcd461b
-  ota_link: https://release.calyxos.org/ota/fogos/16/fogos-ota_update-260720200.zip
-  ota_sha256: c153034edf244c3ec75b1781420daec508665c2f19a98d37f21bf0a660cd8b64
+  factory_link: https://release.calyxos.org/factory/fogos/16/fogos-factory-260720201.zip
+  factory_sha256: ee6735ced89b24f1ccc1cb7df111cdafd5447e8a5dfce7fd65e79de763ddfca3
+  ota_link:
+  ota_sha256:
   incremental_link:
   incremental_sha256:
   incremental_old_build:
-  antirollback_update_pending: true
   date: '2026-06-04'
 - name: moto g52
   brand: motorola
