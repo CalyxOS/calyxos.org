@@ -16,6 +16,24 @@
       "message": "https://issuetracker.google.com/issues/387030988 is still open and has a recent comment, so not sure if this was resolved",
       "revId": "e1e491eea942409c2416e0668e34413be282af3a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7a5ec9b5_25ea2297",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-07-22T15:45:20Z",
+      "side": 1,
+      "message": "The reports of this happening in Jan 2026 are worrying",
+      "parentUuid": "e2f631bb_54002a97",
+      "revId": "e1e491eea942409c2416e0668e34413be282af3a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
