@@ -111,6 +111,11 @@ module Releases
           ota_dir = "ota/#{codename}/#{android}/"
           ota_filename = ota_dir + "#{codename}-ota_update-#{build_number}.zip"
           ota_sha256 = get_hash_for(ota_filename)
+          if ota_sha256 == nil
+            ota_link = nil
+          else
+            ota_link = RELEASE_DL_BASE + ota_filename
+          end
           if incremental
             old_release_file = File.read(old_release_filename)
             old_build_number, old_timestamp, old_build_id = old_release_file.split(' ')
@@ -135,7 +140,7 @@ module Releases
             "web_install" => release == "factory" ? device["web_install"] : false,
             "factory_link" => RELEASE_DL_BASE + factory_filename,
             "factory_sha256" => factory_sha256,
-            "ota_link" => RELEASE_DL_BASE + ota_filename,
+            "ota_link" => ota_link,
             "ota_sha256" => ota_sha256,
             "incremental_link" => incremental_filename != nil ? RELEASE_DL_BASE + incremental_filename : nil,
             "incremental_sha256" => incremental_sha256,
