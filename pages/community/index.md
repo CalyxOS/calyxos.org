@@ -20,6 +20,7 @@ All below channels are on Matrix. They are public and **unencrypted**. Upon open
 | Seedvault Backup | For discussion on Seedvault | [#seedvault-app:matrix.org](https://matrix.to/#/#seedvault-app:matrix.org) |
 | CalyxOS Development | For development related discussion | [#calyxos-dev:matrix.org](https://matrix.to/#/#calyxos-dev:matrix.org) |
 | CalyxOS Documentation | For documentation / translation related discussion | [#calyxos-docs:matrix.org](https://matrix.to/#/#calyxos-docs:matrix.org) |
+| CalyxOS RSS | Feeds for activity related to CalyxOS | [#calyxos-rss:matrix.org](https://matrix.to/#/#calyxos-rss:matrix.org) |
 | CalyxOS Infrastructure | For infrastructure related discussion | [#calyxos-infra:matrix.org](https://matrix.to/#/#calyxos-infra:matrix.org) |
 | Calyx Institute | Calyx Institute channel | [#calyx:matrix.org](https://matrix.to/#/#calyx:matrix.org) |
 
