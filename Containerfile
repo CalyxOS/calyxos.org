@@ -1,4 +1,4 @@
-FROM docker.io/library/ruby:3.3.10-bookworm AS builder
+FROM docker.io/library/ruby:3.4-trixie AS builder
 RUN bundle config --global frozen 1
 WORKDIR /usr/src/app
 COPY ["Gemfile", "Gemfile.lock", "./"]

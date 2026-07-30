@@ -3,7 +3,7 @@ stages:
   - pages
 
 .ruby:
-  image: ruby:3.3.10
+  image: ruby:3.4
   before_script:
     - bundle config set deployment true
     - bundle config set --local path vendor
