@@ -3,11 +3,13 @@
 ## Directory layout
 
 * pages: The source content for the site.
-* docs: Rendered static pages. These are not committed to this repo.
+* pages/_plugins: Jekyll Plugins.
+* static: Rendered static pages. These are not committed to this repo.
+* tasks: Rake tasks.
 
 ## Building the static pages
 
-Prerequisites:
+Prerequisites on debian:
 
     sudo apt install git ruby bundler build-essential libxml2 libxslt1.1 zlib1g-dev
 
@@ -15,18 +17,11 @@ Clone git repo:
 
     git clone https://gitlab.com/CalyxOS/calyxos.org.git -b main
 
-Install gems for development
+Install gems:
 
     cd calyxos.org
     gem install bundler
     bundle install --path=vendor
-
-Install gems for deployment
-
-    cd calyxos.org
-    gem install bundler
-    bundle config set deployment true
-    bundle
 
 Build the static pages:
 
@@ -44,25 +39,15 @@ Update the app list:
 
     rake update-app-list
 
-### Alternatie debian package install
+## Using docker
 
-Typically, ruby is distributed with a Gemfile, which uses the
-`bundle` and `gem` commands to install the particular versions of
-ruby libraries (gems) that are needed.
+Build docker image
 
-However, on Debian, many gems are also packages as Debian packages.
-Installing using Debian packages may be easier if you are not familar
-with ruby.
+    docker build -t calyxos.org:latest .
 
-First, make sure [_buster-backports_ is
-enabled](https://backports.debian.org/Instructions/). Then install
-the dependencies:
+View on localhost
 
-    sudo apt-get install -t buster-backports \
-      jekyll ruby-jekyll-feed ruby-jekyll-toc ruby-rouge
-    rm -f Gemfile Gemfile.lock
-    jekyll serve
-
+    docker run --rm -p 8080:80 calyxos.org:latest
 
 ## Adding pages
 
@@ -80,9 +65,7 @@ By adding links in this way, the links will still be valid even if you move the 
 
 ## Deployment
 
-The 'main' branch of this git repository is automatically deployed to <https://calyxos.org>
-
-It is automatically deployed to <https://calyxos.gitlab.io/calyxos.org/>
+The 'main' branch of this git repository is automatically deployed to <https://calyxos.org> and to <https://calyxos.gitlab.io/calyxos.org/>.
 
 ## Development
 
