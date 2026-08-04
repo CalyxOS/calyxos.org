@@ -18,7 +18,7 @@ You will need to register on our Gerrit server and configure some settings to be
 
 #### Account
 1. Visit <https://review.calyxos.org/> - and click Sign in. That will take you to GitHub, where you can approve the request to sign in.
-2. Go to <https://review.calyxos.org/settings/#Profile> - and set a Display Name, and note down your username (it will be the same as your GitHub username)
+2. Go to <https://review.calyxos.org/settings/#Profile> - and set a Full Name, and note down your username (it will be the same as your GitHub username)
 3. Scroll down to <https://review.calyxos.org/settings/#EmailAddresses> - and add the email address you usually use with git. You will need to verify it by clicking on a link sent to the particular email.
 4. Scroll down to <https://review.calyxos.org/settings/#SSHKeys> - and enter your SSH public key in the text box. This is what you will use to push code changes to Gerrit.
 
@@ -57,10 +57,12 @@ There are two options to upload changes:
 * You can leave comments on individual files and even the commit message, and hit Reply to Submit
 * Reply also has options to set a score.
 * Code-Review is used to review the code. +1/-1 are like thumbs up / down. +2 is needed to merge a change, and -2 prevents a change from being merged.
-    * Verified is used to indicate if the code builds. We'll have CI for this later, but for now you can mark stuff you compiled as +1, and -1 if it's WiP / doesn't compile yet.
-    * Setting Verified+1 and Code-Review+1 on your own changes that you want reviewed / merged is good practice.
-* Once a change has at least one Verified +1 and Code-Review +2, it can be submitted using the "Submit" button which then appears.
+    * Builds is used to indicate if the code builds. We'll have CI for this later, but for now you can mark stuff you compiled as +1, and -1 if it's WiP / doesn't compile yet.
+    * Works is used to indicate if the code works as expected on device. You can mark stuff you tested as +1, and -1 if it's not working properly. The Works vote overrides the Builds vote since that is implied, you don't have to specify both.
+    * Setting Works +1 and Code-Review +1 on your own changes that you want reviewed / merged is good practice.
+* Once a change has at least one Works +1 and Code-Review +2, it can be submitted using the "Submit" button which then appears.
 * A change can also be abandoned if it is no longer needed.
+* Bypass-Verification is used to override the Works vote in cases where we want to merge changes without having to verify that they are working, eg. simple text changes or typo fixes.
 
 ### Tips
 
