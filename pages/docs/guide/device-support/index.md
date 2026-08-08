@@ -22,25 +22,25 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 <tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>
 <tr><td> Fairphone 5 </td><td> Android 16* </td><td> September 2031* </td></tr>
 <tr><td> Motorola moto g 5G - 2024 </td><td> Android 16* </td><td> March 2027* </td></tr>
-<tr><td> Motorola moto g84 5G </td><td> Android 16* </td><td> December 2026* </td></tr>
+<tr><td> Motorola moto g84 5G </td><td> Android 16* </td><td> August 2027* </td></tr>
 <tr><td> Motorola moto g34 5G, g45 5G </td><td> Android 16* </td><td> January 2027* </td></tr>
 <tr><td> Pixel 9a </td><td> April 2032 </td><td> April 2032 </td></tr>
 <tr><td> Pixel 9, 9 Pro, 9 Pro XL, 9 Pro Fold </td><td> August 2031 </td><td> August 2031 </td></tr>
 <tr><td> Pixel 8a </td><td> May 2031 </td><td> May 2031 </td></tr>
 <tr><td> Pixel 8, 8 Pro </td><td> October 2030 </td><td> October 2030 </td></tr>
 <tr><td> Pixel Fold </td><td> June 2028 </td><td> June 2028 </td></tr>
-<tr><td> Pixel Tablet </td><td> December 2026 </td><td> June 2028 </td></tr>
+<tr><td> Pixel Tablet </td><td> June 2028 </td><td> June 2028 </td></tr>
 <tr><td> Pixel 7a </td><td> May 2028 </td><td> May 2028 </td></tr>
 <tr><td> Pixel 7, 7 Pro </td><td> October 2027 </td><td> October 2027 </td></tr>
 <tr><td> Pixel 6a </td><td> July 2027 </td><td> July 2027 </td></tr>
-<tr><td> Pixel 6, 6 Pro </td><td> December 2026 </td><td> December 2026 </td></tr>
+<tr><td> Pixel 6, 6 Pro </td><td> October 2026 </td><td> December 2026* </td></tr>
 <tr><td> SHIFTphone 8 </td><td> Android 16* </td><td> December 2026* </td></tr>
 </table>
 
 #### Extended support
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>
-<tr><td> Fairphone 4 </td><td> Android 16 </td><td> December 2026 </td></tr>
+<tr><td> Fairphone 4 </td><td> Android 16* </td><td> December 2026 </td></tr>
 <tr><td> Motorola moto g52 </td><td> Android 16* </td><td> December 2026 </td></tr>
 <tr><td> Motorola moto g42 </td><td> Android 16* </td><td> December 2026 </td></tr>
 <tr><td> Motorola moto g32 </td><td> Android 16* </td><td> December 2026 </td></tr>
