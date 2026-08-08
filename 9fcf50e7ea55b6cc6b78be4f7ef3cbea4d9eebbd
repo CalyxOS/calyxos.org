@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "97747e55_2557ea19",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-08-08T14:50:19Z",
+      "side": 1,
+      "message": "Depends on device-flasher update",
+      "revId": "9fcf50e7ea55b6cc6b78be4f7ef3cbea4d9eebbd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
