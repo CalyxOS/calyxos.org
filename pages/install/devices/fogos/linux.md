@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/fogos/16/fogos-factory-260720201.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/fogos/16/fogos-factory-260720420.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **moto g34 5G and g45 5G (fogos)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/fogos/16/fogos-factory-260720201.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/fogos/16/fogos-factory-260720420.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `ee6735ced89b24f1ccc1cb7df111cdafd5447e8a5dfce7fd65e79de763ddfca3`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `3084e4c5f84d6dcb9f32571b35e9de35ab6833bcdf60b0a1d6c0e8125d72da7b`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 
