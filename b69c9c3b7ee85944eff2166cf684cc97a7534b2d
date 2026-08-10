@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c409402_b14c9687",
+        "filename": "pages/docs/guide/device-support/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-08-10T15:04:34Z",
+      "side": 1,
+      "message": "This got officially extended upstream.",
+      "revId": "b69c9c3b7ee85944eff2166cf684cc97a7534b2d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c90903e5_f9559822",
+        "filename": "pages/docs/guide/device-support/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-08-10T15:04:34Z",
+      "side": 1,
+      "message": "This got officially extended upstream.",
+      "revId": "b69c9c3b7ee85944eff2166cf684cc97a7534b2d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c35d86b1_184ff722",
+        "filename": "pages/docs/guide/device-support/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-08-10T15:04:34Z",
+      "side": 1,
+      "message": "Pixel 6/6 Pro are not getting 17 QPR2 from google, so marking them as EoL for OS upgrades on October.",
+      "revId": "b69c9c3b7ee85944eff2166cf684cc97a7534b2d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
