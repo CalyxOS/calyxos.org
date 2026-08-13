@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "477f41a4_55c9bd07",
+        "filename": "pages/community/moderation/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-08-13T11:18:50Z",
+      "side": 1,
+      "message": "This needs update too I guess?",
+      "revId": "c9a57f7797da0c295fd3f7bab573a6ca1e84cb54",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
