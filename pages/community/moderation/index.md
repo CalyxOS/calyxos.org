@@ -19,22 +19,23 @@ Moderation of the CalyxOS rooms is handled using [Draupnir](https://github.com/G
 `!redact <message permalink>`
 
 * To redact a single message. The unique message ID (message permalink) is retrieved by right-clicking the timestamp of a message and copying the link target.
+* You can also specify a user instead of a specific message to redact everything from that user.
 
 ##### Kick
 `!kick @username:example.com #room:matrix.org`
 
-* Can leave out room to kick from all CalyxOS rooms
+* You can leave out the room if you'd like to kick them from all CalyxOS rooms.
 
 ##### Ban
-`!ban @username:example.com spam spam spam`
+`!ban @username:example.com calyx-bans spam`
 
-* Yes, that's an intentional repeat of `spam`
+* calyx-bans is our ban list, spam is the reason. spam automatically redacts messages.
 
 #### Detailed usage guide
 
 [Moderator's guide to Mjolnir (bot edition)](https://github.com/matrix-org/mjolnir/blob/main/docs/moderators.md)
 
-We currently only have one list configured, `spam`
+We currently use two community lists and our own, `calyx-bans`.
 
 
-[calyxos-matrix-room]: https://matrix.to/#/%23CalyxOS%3Amatrix.org?via=matrix.org
+[calyxos-matrix-room]: https://matrix.to/#/#calyxos-general:matrix.org
