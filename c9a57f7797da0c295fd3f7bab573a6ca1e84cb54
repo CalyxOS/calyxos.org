@@ -16,6 +16,24 @@
       "message": "This needs update too I guess?",
       "revId": "c9a57f7797da0c295fd3f7bab573a6ca1e84cb54",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "987f457a_d2060676",
+        "filename": "pages/community/moderation/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-08-13T12:49:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "477f41a4_55c9bd07",
+      "revId": "c9a57f7797da0c295fd3f7bab573a6ca1e84cb54",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
