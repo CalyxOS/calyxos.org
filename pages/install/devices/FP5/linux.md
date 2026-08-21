@@ -14,7 +14,7 @@ Downloads for this device have been temporarily removed <a href="/install/antiro
 ## Terminology
 
 * **Factory Image**: This is a zip file that contains the entire CalyxOS operating system to be installed on your device.
-* **Flashing**: On Android devices, installing a new operating system is called "flashing," because it writes a new factory image to the device's flash memory.
+* **Flashing**: On Android devices, installing a new operating system is called "flashing", because it writes a new factory image to the device's flash memory.
 * **Android Device**: The device that you are installing CalyxOS on to.
 * **Host Computer**: The Linux computer used to send commands to the Android Device. You will connect this computer to the Android device and run device-flasher to install CalyxOS.
 * **Fastboot**: A mode of the Android device needed to install a custom Operating System. At various stages, you will be asked to put your Android device in [[fastboot]] mode.
