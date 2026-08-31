@@ -16,6 +16,23 @@
       "message": "Depends on device-flasher update",
       "revId": "3e317cfd1ce720ffc32622cf33f13ea58d0b7964",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "535a0806_044fafdf",
+        "filename": "pages/docs/guide/fairphone-relock.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000235
+      },
+      "writtenOn": "2026-08-31T20:50:12Z",
+      "side": 1,
+      "message": "Should we include FP6?",
+      "revId": "3e317cfd1ce720ffc32622cf33f13ea58d0b7964",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
