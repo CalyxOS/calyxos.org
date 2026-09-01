@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3cb03f6_c424e521",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-09-01T14:55:56Z",
+      "side": 1,
+      "message": "https://review.calyxos.org/c/CalyxOS/calyxos.org/+/48679",
+      "parentUuid": "6bc8d75f_d615025b",
+      "revId": "eb175cc850e2cf55bbbb881858789f3d3980c403",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8f02af65_49bfa473",
@@ -31,6 +49,30 @@
       "writtenOn": "2026-09-01T14:47:35Z",
       "side": 1,
       "message": "```suggestion\nupcoming_codenames:\n  - stallion\n```",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 19
+      },
+      "revId": "eb175cc850e2cf55bbbb881858789f3d3980c403",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "38febf42_665bf9ba",
+        "filename": "pages/_data/devices.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-09-01T14:55:56Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "8f02af65_49bfa473",
       "range": {
         "startLine": 9,
         "startChar": 0,
@@ -64,6 +106,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "451d8cd7_e5864f52",
+        "filename": "pages/_data/devices.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-09-01T14:55:56Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "62b643fa_42ed66bb",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 16
+      },
+      "revId": "eb175cc850e2cf55bbbb881858789f3d3980c403",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ab6b62ec_80d8fb1a",
@@ -87,6 +153,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4eb4d478_c7a78aa5",
+        "filename": "pages/_data/devices.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-09-01T14:55:56Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "ab6b62ec_80d8fb1a",
+      "range": {
+        "startLine": 151,
+        "startChar": 0,
+        "endLine": 151,
+        "endChar": 19
+      },
+      "revId": "eb175cc850e2cf55bbbb881858789f3d3980c403",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f5f3c387_ec9a303f",
@@ -100,6 +190,30 @@
       "writtenOn": "2026-09-01T14:47:35Z",
       "side": 1,
       "message": "```suggestion\n#### Upcoming Devices\n\u003ctable class\u003d\"table table-striped download\"\u003e\n\u003ctr\u003e\u003cth\u003e Device(s) \u003c/th\u003e\u003cth\u003e OS upgrades \u003c/th\u003e\u003cth\u003e Security updates \u003c/th\u003e\u003c/tr\u003e\n\u003ctr\u003e\u003ctd\u003e Pixel 10a \u003c/td\u003e\u003ctd\u003e March 2033* \u003c/td\u003e\u003ctd\u003e March 2033* \u003c/td\u003e\u003c/tr\u003e\n\n#### Modern devices\n```",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 19
+      },
+      "revId": "eb175cc850e2cf55bbbb881858789f3d3980c403",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e066935f_752c85a5",
+        "filename": "pages/docs/guide/device-support/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-09-01T14:55:56Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "f5f3c387_ec9a303f",
       "range": {
         "startLine": 20,
         "startChar": 0,
