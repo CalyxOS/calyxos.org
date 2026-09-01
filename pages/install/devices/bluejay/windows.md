@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/bluejay/16/bluejay-factory-260720420.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/bluejay/16/bluejay-factory-260720450.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 6a (bluejay)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/bluejay/16/bluejay-factory-260720420.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/bluejay/16/bluejay-factory-260720450.zip" | split: "/" | last %}
 {% include install/windows_image_digest.md filename=image %}
 
-And ensure the result says `c4adf7d7d6e154b9f6608e883bbcde480b884510473babb8146b1c44c35dc8e1`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `b29e4ab2b54a12427014e8a4df051494de13ac53951c139242348cc6de68b65e`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 

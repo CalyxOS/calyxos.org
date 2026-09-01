@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/otter/16/otter-factory-260720420.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/otter/16/otter-factory-260720450.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **SHIFTphone 8 (otter)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/otter/16/otter-factory-260720420.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/otter/16/otter-factory-260720450.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `8b0f3fa4e89aa3918da08be96fb3bd0f22c759046e1761b22c6c3125e1021a09`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `72c3acdb1ae2fdd58d1899b2f872f8067e340b0cbe05eed6f38ee081d8009e19`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 

@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/shiba/16/shiba-factory-260720420.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/shiba/16/shiba-factory-260720450.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 8 (shiba)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/shiba/16/shiba-factory-260720420.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/shiba/16/shiba-factory-260720450.zip" | split: "/" | last %}
 {% include install/windows_image_digest.md filename=image %}
 
-And ensure the result says `02d628d768549305e2e1c4c4bd3de9f0876a2c7918f8bf596f9eb411a643d375`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `642cb31fd318e4087f706ce57accb2f50546bade6b50649cc6f51d06d092ac49`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 

@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/comet/16/comet-factory-260720420.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/comet/16/comet-factory-260720450.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 9 Pro Fold (comet)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/comet/16/comet-factory-260720420.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/comet/16/comet-factory-260720450.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `7334234f6286f3c38f2d065e89684e0f6d0b77ac9c21b56b1284845750754afc`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `829b66c46ac6146fdcf118d589747d8f5b1ce14b71af4b6713709f99b0314de5`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 
