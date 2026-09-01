@@ -1,6 +1,6 @@
 ---
 stable:
-- name: Fairphone 6
+- name: The Fairphone (Gen. 6) (beta)
   brand: fairphone
   codename: FP6
   version: 7.2.4.50
@@ -407,7 +407,7 @@ stable:
   incremental_old_build: '260720420'
   date: '2026-08-27'
 beta:
-- name: Fairphone 6
+- name: The Fairphone (Gen. 6) (beta)
   brand: fairphone
   codename: FP6
   version: 7.2.4.50
@@ -814,7 +814,7 @@ beta:
   incremental_old_build:
   date: '2026-08-27'
 security-express:
-- name: Fairphone 6
+- name: The Fairphone (Gen. 6) (beta)
   brand: fairphone
   codename: FP6
   version: 7.2.4.50
@@ -1221,7 +1221,7 @@ security-express:
   incremental_old_build:
   date: '2026-08-27'
 factory:
-- name: Fairphone 6
+- name: The Fairphone (Gen. 6) (beta)
   brand: fairphone
   codename: FP6
   version: 7.2.4.50

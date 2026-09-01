@@ -70,6 +70,7 @@ After flashing CalyxOS, you can verify the installed build on the device using t
 
 | Device | Codename | AVB Boot Fingerprint |
 |--------|----------|----------------------|
+| The Fairphone (Gen. 6) | FP6 | FFDBDA58783BA938D6E921A98F99414C851B0B9B299103F846204E9421742744 |
 | Fairphone 5 | FP5 | AC125959F746CEDCCDD0C9737E6D57503C5648191237A2E395DB3E3433F930B5 |
 | Fairphone 4 | FP4 | BE58B05164DC19F6C2BC860F0334153D2A989949B4EA42CDB66792D2F626AB9E |
 | moto g 5G - 2024 | fogo | 0x9AFEBA34 |
