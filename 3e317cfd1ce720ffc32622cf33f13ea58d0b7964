@@ -33,6 +33,24 @@
       "message": "Should we include FP6?",
       "revId": "3e317cfd1ce720ffc32622cf33f13ea58d0b7964",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "34b8c900_59e60565",
+        "filename": "pages/docs/guide/fairphone-relock.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-09-01T13:21:52Z",
+      "side": 1,
+      "message": "Don\u0027t need FP6 here, the only reason all the others exist is to redirect old URLs instead of 404ing",
+      "parentUuid": "535a0806_044fafdf",
+      "revId": "3e317cfd1ce720ffc32622cf33f13ea58d0b7964",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
