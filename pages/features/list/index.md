@@ -70,6 +70,7 @@ CalyxOS uses microG, an open-source service, to enable apps and programs that ne
 | Device | Status |
 | ------ | ------ |
 | SHIFTphone 8 | any eSIM + physical SIM, dual SIM |
+| The Fairphone (Gen. 6) | any eSIM + physical SIM, dual SIM |
 | Fairphone 5 | any eSIM + physical SIM, dual SIM |
 | Fairphone 4 | any eSIM + physical SIM, dual SIM |
 | moto g 5G - 2024 | any eSIM + physical SIM, dual SIM |

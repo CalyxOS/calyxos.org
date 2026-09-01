@@ -7,10 +7,9 @@ android_versions:
   - 13
   - 11
 upcoming_codenames:
-  - FP6
 upcoming_brands:
-  - fairphone
 modern_codenames:
+  - FP6
   - FP5
   - fogo
   - bangkk
@@ -71,7 +70,7 @@ previous_brands:
   - xiaomi
 FP6:
   brand: fairphone
-  model: Fairphone 6
+  model: The Fairphone (Gen. 6) (beta)
   manufacturer_support_ends: 2031-12
   calyxos_support_ends: tbd
   sim: "dual"

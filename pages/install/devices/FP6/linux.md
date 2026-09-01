@@ -1,10 +1,10 @@
 ---
-title: Install on Fairphone 6
+title: Install on The Fairphone (Gen. 6) (beta)
 description: From a Linux computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/FP6/">Fairphone 6</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/FP6/">The Fairphone (Gen. 6) (beta)</a></strong>
 
 
 
@@ -50,7 +50,7 @@ This step might fail if there is no internet connection. In that case, connect t
 <a class="btn" href="https://release.calyxos.org/factory/FP6/16/FP6-factory-260720450.zip">Download CalyxOS Image</a>
 
 
-Save this image in the same directory as device-flasher. This image will **only** work for **Fairphone 6 (FP6)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
+Save this image in the same directory as device-flasher. This image will **only** work for **The Fairphone (Gen. 6) (beta) (FP6)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
 Do not extract or rename the zip, simply copy it as-is.
 

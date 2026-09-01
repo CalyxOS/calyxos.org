@@ -20,6 +20,7 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 #### Modern devices
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>
+<tr><td> The Fairphone (Gen. 6) </td><td> Android 17* </td><td> June 2033* </td></tr>
 <tr><td> Fairphone 5 </td><td> Android 16* </td><td> September 2031* </td></tr>
 <tr><td> Motorola moto g 5G - 2024 </td><td> Android 16* </td><td> March 2027* </td></tr>
 <tr><td> Motorola moto g84 5G </td><td> Android 16* </td><td> December 2026* </td></tr>
