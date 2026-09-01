@@ -2,8 +2,8 @@
 linux:
   filename: device-flasher.linux
   digest_command: "sha256sum device-flasher.linux"
-  url: https://release.calyxinstitute.org/device-flasher/1.1.1/device-flasher.linux
-  sha256: 9c460276906eb6aa5e4c1c65f7fefae9606d37cabe96a923a5642ed1d2b3910e
+  url: https://release.calyxos.org/device-flasher/1.2/device-flasher.linux
+  sha256: 7b1c9991c69ad84a21be2413ad6d8701b0dea5fb04173834da499907818833f9
 mac:
   filename: device-flasher.darwin
   digest_command: "shasum -a 256 device-flasher.darwin"
@@ -12,5 +12,5 @@ mac:
 windows:
   filename: device-flasher.exe
   digest_command: "CertUtil -hashfile device-flasher.exe SHA256"
-  url: https://release.calyxinstitute.org/device-flasher/1.1.1/device-flasher.exe
-  sha256: bb101e204eb946fc76dd1d968606d52da50dbc0ca5464f2c339cdd0da7b705dc
+  url: https://release.calyxos.org/device-flasher/1.2/device-flasher.exe
+  sha256: 497157883e62fcde862b947e45f91af34f0c0fa919dd44b47eafc9a1a118bab0
