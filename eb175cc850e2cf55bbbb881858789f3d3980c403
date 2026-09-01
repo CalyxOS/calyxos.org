@@ -1,0 +1,113 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6bc8d75f_d615025b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-09-01T14:47:35Z",
+      "side": 1,
+      "message": "Added Pixel 10a to upcoming devices where relevant.",
+      "revId": "eb175cc850e2cf55bbbb881858789f3d3980c403",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8f02af65_49bfa473",
+        "filename": "pages/_data/devices.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-09-01T14:47:35Z",
+      "side": 1,
+      "message": "```suggestion\nupcoming_codenames:\n  - stallion\n```",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 19
+      },
+      "revId": "eb175cc850e2cf55bbbb881858789f3d3980c403",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "62b643fa_42ed66bb",
+        "filename": "pages/_data/devices.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-09-01T14:47:35Z",
+      "side": 1,
+      "message": "```suggestion\nupcoming_brands:\n  - pixel\n```",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 16
+      },
+      "revId": "eb175cc850e2cf55bbbb881858789f3d3980c403",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab6b62ec_80d8fb1a",
+        "filename": "pages/_data/devices.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-09-01T14:47:35Z",
+      "side": 1,
+      "message": "```suggestion\n  web_install: true\nstallion:\n  brand: pixel\n  model: Pixel 10a\n  manufacturer_support_ends: 2033-03\n  calyxos_support_ends: tbd\n  sim: \"dual\"\n  esim: \"yes\"\n  android: 17\n  web_install: false\n  \n```",
+      "range": {
+        "startLine": 151,
+        "startChar": 0,
+        "endLine": 151,
+        "endChar": 19
+      },
+      "revId": "eb175cc850e2cf55bbbb881858789f3d3980c403",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f5f3c387_ec9a303f",
+        "filename": "pages/docs/guide/device-support/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-09-01T14:47:35Z",
+      "side": 1,
+      "message": "```suggestion\n#### Upcoming Devices\n\u003ctable class\u003d\"table table-striped download\"\u003e\n\u003ctr\u003e\u003cth\u003e Device(s) \u003c/th\u003e\u003cth\u003e OS upgrades \u003c/th\u003e\u003cth\u003e Security updates \u003c/th\u003e\u003c/tr\u003e\n\u003ctr\u003e\u003ctd\u003e Pixel 10a \u003c/td\u003e\u003ctd\u003e March 2033* \u003c/td\u003e\u003ctd\u003e March 2033* \u003c/td\u003e\u003c/tr\u003e\n\n#### Modern devices\n```",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 19
+      },
+      "revId": "eb175cc850e2cf55bbbb881858789f3d3980c403",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
