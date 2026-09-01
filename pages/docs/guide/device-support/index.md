@@ -17,6 +17,12 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 * [Fairphone](https://support.fairphone.com/hc/en-us/articles/9979180437393-Fairphone-OS)
 * [Motorola](https://en-us.support.motorola.com/app/software-security-update)
 
+#### Upcoming devices
+<table class="table table-striped download">
+<tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>
+<tr><td> Pixel 10a </td><td> March 2033* </td><td> March 2033* </td></tr>
+</table>
+
 #### Modern devices
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>

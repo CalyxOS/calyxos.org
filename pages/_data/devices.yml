@@ -7,7 +7,9 @@ android_versions:
   - 13
   - 11
 upcoming_codenames:
+  - stallion
 upcoming_brands:
+  - pixel
 modern_codenames:
   - FP6
   - FP5
@@ -147,6 +149,15 @@ devon:
   calyxos_support_ends: tbd
   sim: "dual"
   esim: "no"
+  android: 16
+  web_install: true
+stallion:
+  brand: pixel
+  model: Pixel 10a
+  manufacturer_support_ends: 2033-03
+  calyxos_support_ends: tbd
+  sim: "dual"
+  esim: "dual"
   android: 16
   web_install: true
 tegu:
