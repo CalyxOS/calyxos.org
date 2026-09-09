@@ -34,6 +34,24 @@
       "parentUuid": "446daa92_a34820b6",
       "revId": "14ab082d8c7c6322d69154534bd8bede9a4a460c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "28a12d1b_b943ff54",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-09-09T18:57:00Z",
+      "side": 1,
+      "message": "Note: it doesn\u0027t work if you\u0027re going to use wireless Auto",
+      "parentUuid": "eb7cc51b_e1b06c67",
+      "revId": "14ab082d8c7c6322d69154534bd8bede9a4a460c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
