@@ -52,6 +52,29 @@
       "parentUuid": "eb7cc51b_e1b06c67",
       "revId": "14ab082d8c7c6322d69154534bd8bede9a4a460c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "14f5e73c_b8917067",
+        "filename": "pages/docs/guide/android-auto/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-09-09T18:58:28Z",
+      "side": 1,
+      "message": "We should probably build our own little stubs for this, maybe include them in the local repo, then we don\u0027t have to link to external APKs, which could be risky...",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 2
+      },
+      "revId": "14ab082d8c7c6322d69154534bd8bede9a4a460c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
