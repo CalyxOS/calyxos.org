@@ -16,6 +16,24 @@
       "message": "Currently missing changelog items and beta/stable date tbd.",
       "revId": "3453cbb55a40cb73b42bb1a43b054b3ffcec1212",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2cf88143_66cf755a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-09-10T11:26:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8c869317_177c0bdd",
+      "revId": "3453cbb55a40cb73b42bb1a43b054b3ffcec1212",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
