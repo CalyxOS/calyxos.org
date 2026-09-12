@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/FP6/16/FP6-factory-260720450.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/FP6/16/FP6-factory-260720520.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **The Fairphone (Gen. 6) (beta) (FP6)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/FP6/16/FP6-factory-260720450.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/FP6/16/FP6-factory-260720520.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `c5e7a423657e505f97d2546c1cf08c651776c1e980b99faaf4da3f569d9cc907`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `7d8c2b60704d9745e4581674f2912142d7a09b18f3c362c979c96459e64dede0`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 
