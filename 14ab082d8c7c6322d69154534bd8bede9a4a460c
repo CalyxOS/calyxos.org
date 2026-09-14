@@ -54,6 +54,23 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae5363ee_40aff5bb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-09-14T20:21:39Z",
+      "side": 1,
+      "message": "There is also another change https://review.calyxos.org/c/CalyxOS/calyxos.org/+/38690 if you want to take anything from there, it should be combined into this one",
+      "revId": "14ab082d8c7c6322d69154534bd8bede9a4a460c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "805cbdcd_95aeace5",
