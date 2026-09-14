@@ -94,6 +94,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d227b62_883fde4c",
+        "filename": "pages/docs/guide/android-auto/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-09-14T20:50:03Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "805cbdcd_95aeace5",
+      "range": {
+        "startLine": 7,
+        "startChar": 18,
+        "endLine": 7,
+        "endChar": 23
+      },
+      "revId": "14ab082d8c7c6322d69154534bd8bede9a4a460c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "14f5e73c_b8917067",
