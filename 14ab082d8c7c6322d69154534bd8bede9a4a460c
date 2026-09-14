@@ -56,6 +56,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "805cbdcd_95aeace5",
+        "filename": "pages/docs/guide/android-auto/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-09-14T16:21:59Z",
+      "side": 1,
+      "message": "```suggestion\nCalyxOS 6.4.2 and newer versions include Android Auto. It has to be enabled from `Settings -\u003e Connected devices -\u003e Connection preferences -\u003e Enable/disable Android Auto` first. \n```",
+      "range": {
+        "startLine": 7,
+        "startChar": 18,
+        "endLine": 7,
+        "endChar": 23
+      },
+      "revId": "14ab082d8c7c6322d69154534bd8bede9a4a460c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "14f5e73c_b8917067",
         "filename": "pages/docs/guide/android-auto/index.md",
         "patchSetId": 2
@@ -72,6 +95,76 @@
         "startChar": 0,
         "endLine": 15,
         "endChar": 2
+      },
+      "revId": "14ab082d8c7c6322d69154534bd8bede9a4a460c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bd2831c8_576cd2ec",
+        "filename": "pages/docs/guide/android-auto/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-09-14T16:21:59Z",
+      "side": 1,
+      "message": "```suggestion\nThey can be installed through Aurora Store. If you do not wish to install these apps, you can use app stubs instead: \n- [Google Maps](https://github.com/sn-00-x/aa4mg/blob/master/system/product/app/Maps/Maps.apk)\n- [Google](https://github.com/dylangerdaly/Gcam-Services-Provider/releases) \n- [Google Speech](https://github.com/sn-00-x/aa4mg/blob/master/system/product/app/GoogleTTS/GoogleTTS.apk) \n\nIt is also recommended to update the Android Auto app regularly.\n```",
+      "range": {
+        "startLine": 15,
+        "startChar": 91,
+        "endLine": 15,
+        "endChar": 100
+      },
+      "revId": "14ab082d8c7c6322d69154534bd8bede9a4a460c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c5508ca0_a46bbc19",
+        "filename": "pages/docs/guide/android-auto/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-09-14T16:21:59Z",
+      "side": 1,
+      "message": "Good point, but with the links of the app stubs you included here, it is still unclear how to use them instead.",
+      "parentUuid": "14f5e73c_b8917067",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 2
+      },
+      "revId": "14ab082d8c7c6322d69154534bd8bede9a4a460c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d0cea7ce_42d2afb0",
+        "filename": "pages/docs/guide/android-auto/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-09-14T16:21:59Z",
+      "side": 1,
+      "message": "```suggestion\nAfter that, you can connect it to your car, and follow the steps indicated on the screen. You can download the required apps from Aurora Store.\n```",
+      "range": {
+        "startLine": 17,
+        "startChar": 65,
+        "endLine": 17,
+        "endChar": 74
       },
       "revId": "14ab082d8c7c6322d69154534bd8bede9a4a460c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
