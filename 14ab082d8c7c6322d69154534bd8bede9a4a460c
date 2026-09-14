@@ -149,6 +149,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2236de20_8160a34b",
+        "filename": "pages/docs/guide/android-auto/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-09-14T20:20:53Z",
+      "side": 1,
+      "message": "\"It is also recommended to update Android Auto app.\"\nIt\u0027s not just recommended, it is required to be updated at least once through aurora to even be able to do anything.",
+      "parentUuid": "bd2831c8_576cd2ec",
+      "range": {
+        "startLine": 15,
+        "startChar": 91,
+        "endLine": 15,
+        "endChar": 100
+      },
+      "revId": "14ab082d8c7c6322d69154534bd8bede9a4a460c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d0cea7ce_42d2afb0",
         "filename": "pages/docs/guide/android-auto/index.md",
         "patchSetId": 2
