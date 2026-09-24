@@ -46,6 +46,30 @@
       },
       "revId": "2b12a2831c9dedcfec4cc89acdad3ca12f9db847",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49c790f4_a5540a5f",
+        "filename": "pages/docs/guide/motorola-relock.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-09-24T23:58:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6673cd3c_ff9bd1bf",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 71
+      },
+      "revId": "2b12a2831c9dedcfec4cc89acdad3ca12f9db847",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
