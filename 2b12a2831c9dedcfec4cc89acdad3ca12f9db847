@@ -22,6 +22,30 @@
       },
       "revId": "2b12a2831c9dedcfec4cc89acdad3ca12f9db847",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6673cd3c_ff9bd1bf",
+        "filename": "pages/docs/guide/motorola-relock.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-09-24T23:15:34Z",
+      "side": 1,
+      "message": "I have edited Aysha\u0027s draft and synced the language for the device-flasher error message. https://review.calyxos.org/c/CalyxOS/device-flasher/+/49380",
+      "parentUuid": "4796cde3_e584d48d",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 71
+      },
+      "revId": "2b12a2831c9dedcfec4cc89acdad3ca12f9db847",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
