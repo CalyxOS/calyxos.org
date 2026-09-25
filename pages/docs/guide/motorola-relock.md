@@ -17,7 +17,7 @@ We recommend that you download and flash a newer factory image to be able to rel
 Visit https://calyxos.org/motorola-relock for more information.
 ```
 
-This means that the operating system(OS) on your phone before this installation has a higher Anti-Rollback(ARB) index than the CalyxOS build you just installed. For example, the ARB index that comes with the previous OS build might have been 27 while it is 25 for this CalyxOS build. If your relock the device bootloader now, your device might not be able to start, which is commonly known as 'device bricking'.
+This means that the operating system (OS) on your phone before this installation has a higher Anti-Rollback (ARB) index than the CalyxOS build you just installed. For example, the ARB index that comes with the previous OS build might have been 27 while it is 25 for this CalyxOS build. If your relock the device bootloader now, your device might not be able to start, which is commonly known as 'device bricking'.
 
 When the device-flasher detects such ARB index issue with CalyxOS fully installed, it will leave the bootloader unlocked to avoid bricking the device. When this happens, please do not try to lock it manually. Doing so could prevent the phone from turning on and make recovery difficult or impossible.
 
