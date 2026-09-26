@@ -12,7 +12,7 @@ CalyxOS includes [microG](https://github.com/microG) by default. However, since 
 #### Preparation
 
 ```shell
-cd ~/calyxos/android16-qpr2
+cd ~/calyxos/android17
 cd external/microg/GmsCore
 git fetch --tags
 export JAVA_OPTS="-Xmx2048m"
@@ -34,7 +34,7 @@ For development, you can simply put in dummy values like the ones in the example
 #### Copy
 
 ```shell
-cd ~/calyxos/android16-qpr2
+cd ~/calyxos/android17
 cp external/microg/GmsCore/play-services-core/build/outputs/apk/mapboxDefault/release/play-services-core-mapbox-default-release.apk prebuilts/calyx/microg/GmsCore/
 cp external/microg/GmsCore/vending-app/build/outputs/apk/default/release/vending-app-default-release-unsigned.apk prebuilts/calyx/microg/GmsCore/
 ```
