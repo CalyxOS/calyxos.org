@@ -31,9 +31,9 @@ CalyxOS uses Google's Android Linux kernel with some additional modifications fo
 ### Download the source code
 
 ```shell
-mkdir -p ~/calyxos/kernel.android16-qpr2/google/gs-6.1
-cd ~/calyxos/kernel.android16-qpr2/google/gs-6.1
-repo init --git-lfs -u https://gitlab.com/CalyxOS/kernel_google_gs-6.1_manifest -b android16-qpr2
+mkdir -p ~/calyxos/kernel.android17/google/gs-6.1
+cd ~/calyxos/kernel.android17/google/gs-6.1
+repo init --git-lfs -u https://gitlab.com/CalyxOS/kernel_google_gs-6.1_manifest -b android17
 repo sync -j8 # You may use a higher number here if you have a fast computer and fast internet
 ```
 
@@ -48,5 +48,5 @@ This will build the kernel, and it also copies it to the corect directory direct
 Copy that to the OS source code for it to get included in the builds
 
 ```shell
-cp -a ~/calyxos/kernel.android16-qpr2/google/gs-6.1/device/google/akita-kernels ~/calyxos/android16-qpr2/device/google/
+cp -a ~/calyxos/kernel.android17/google/gs-6.1/device/google/akita-kernels ~/calyxos/android17/device/google/
 ```
