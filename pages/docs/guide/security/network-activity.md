@@ -18,7 +18,7 @@ These network connections are initiated by the operating system itself (or micro
   <th>Purpose</th>
 </tr>
 <tr>
-  <td>release.calyxinstitute.org</td>
+  <td>release.calyxos.org</td>
   <td>Used to check for [[Over-The-Air => OTA]] CalyxOS system updates.</td>
 </tr>
 <tr>
@@ -122,7 +122,7 @@ These connections are made by apps in the default CalyxOS configuration. You can
 
 ## Further details
 
-### How does Calyx Institute use the data collected by releases.calyxinstitute.org?
+### How does Calyx Institute use the data collected by release.calyxos.org?
 
 We retain per-request logs for a short period of time before these logs are aggregated and destroyed. The per-request logs may include IP address, country of origin, and device model. The aggregated long term data includes total counts of requests by country and by device model.
 
