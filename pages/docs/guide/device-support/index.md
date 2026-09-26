@@ -72,20 +72,20 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 \* We generally intend to get monthly security updates out as soon as possible after their release. The process takes some time since we don't get early access but generally the goal is to get them out to the stable channel in the same week as AOSP release. Major version updates (such as the current Android 17 release) take longer because we have to port all of our changes to the new version, which can be a lot of work.
 
 ### Preferences for supporting a new device
-1. Android 17.0, available now, or eventually:
+1. <strong>Android 17.0, available now, or eventually:</strong>
    <br>
    CalyxOS targets the latest Android version, currently 17.0. It takes a lot of work to port a newer Android version to a device, and so devices running the latest Android version are preferred.
-2. Ability to unlock the bootloader:
+2. <strong>Ability to unlock the bootloader:</strong>
    <br>
    You cannot install any custom OS if you are not able to unlock the device's bootloader in the first place. Some phone makers or mobile carriers do not allow all or some of their devices to unlock the bootloader. On these devices, you cannot enable '[OEM unlocking](https://source.android.com/docs/core/architecture/bootloader/locking_unlocking#unlocking-bootloader)' to install custom OSes. Unlocking bootloader is different from carrier unlocking. The latter means you can unlock a carrier-locked phone to use SIM cards provided by other carriers on the device.
-3. Ability to relock the bootloader with a custom OS installed:
+3. <strong>Ability to relock the bootloader with a custom OS installed:</strong>
    <br>
    CalyxOS is meant to be run with a locked bootloader after installation, which makes sure that the OS cannot be tampered without your knowledge.
    Additionally, this has to be implemented properly to not boot any other OS once a CalyxOS build signed with our own private keys is installed - whether it be another set of private keys, or the publicly available AOSP test keys.
-4. Timely security and version updates:
+4. <strong>Timely security and version updates:</strong>
    <br>
    CalyxOS pulls in Google's monthly security update as soon as they are available, however that is only the open source part. The proprietary bits need to be updated by the device vendor (Google for Pixels, Fairphone for the FP5, etc), to ensure that the device is fully up-to-date on the security patches. Timely monthly/bimonthly updates are thus essential, and so are Android version updates.
-5. Qualcomm SoC preferred (for non-Pixel devices)
+5. <strong>Qualcomm SoC preferred (for non-Pixel devices):</strong>
    <br>
    In our experience, working on a custom OS for a device using a Qualcomm SoC is usually much easier than the alternatives, given their wide usage, and release of open source device support code through CodeLinaro.
 
