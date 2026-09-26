@@ -13,9 +13,9 @@ It has it's own build system and is built separately.
 CalyxOS usually tracks the Chrome Android stable release, you can see the latest version at <https://chromiumdash.appspot.com/releases?platform=Android>.
 Look for the first version under 'Stable'
 
-Stable version at time of writing this: 120.0.6099.144
+Stable version at time of writing this: 154.0.8037.57
 
-`export V=120.0.6099.144 # Replace this with the correct version`
+`export V=154.0.8037.57 # Replace this with the correct version`
 
 ## Short version
 * This assumes you have a Chromium build environment already setup and have built it before
