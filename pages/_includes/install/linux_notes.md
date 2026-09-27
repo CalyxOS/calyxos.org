@@ -44,7 +44,7 @@ Create a `shell.nix` for temporary FHS-compatible shell:
 ```nix
 { pkgs ? import <nixpkgs> {} }:
 
-(pkgs.buildFHSUserEnv {
+(pkgs.buildFHSEnv {
       name = "calyxos-device-flashing";
 }).env
 ```
