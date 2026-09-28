@@ -6,10 +6,8 @@ toc: true
 
 <strong>[[Install => install]]</strong> / <strong><a href="/install/devices/fogo/">moto g 5G - 2024</a></strong>
 
-
 ## Downloads temporarily removed
 Downloads for this device have been temporarily removed <a href="/install/antirollback-update-pending">pending an antirollback update</a>.
-
 
 ## Terminology
 
@@ -48,7 +46,6 @@ This step might fail if there is no internet connection. In that case, connect t
 {% include install/flasher.md os="linux" %}
 
 ### Download factory image
-
 
 <a class="btn">Downloads temporarily removed</a>
 

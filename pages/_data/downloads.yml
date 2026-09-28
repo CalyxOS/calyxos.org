@@ -55,6 +55,7 @@ stable:
   incremental_link: https://release.calyxos.org/ota/fogo/16/fogo-incremental-260720450-260720520.zip
   incremental_sha256: 7163ba8e6bfb0ce188da3158e8fc223afc96653e0ae1677285d59a61396afd95
   incremental_old_build: '260720450'
+  antirollback_update_pending: true
   date: '2026-09-09'
 - name: moto g84 5G
   brand: motorola
@@ -83,6 +84,7 @@ stable:
   incremental_link: https://release.calyxos.org/ota/fogos/16/fogos-incremental-260720450-260720520.zip
   incremental_sha256: 3392e03f31d0912011027bc013e63b0e034a123abaca832cd77cf6e154c399d4
   incremental_old_build: '260720450'
+  antirollback_update_pending: true
   date: '2026-09-09'
 - name: moto g52
   brand: motorola
