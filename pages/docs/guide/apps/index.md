@@ -47,7 +47,7 @@ The approach that CalyxOS takes is to use [[microG]], an open-source service, to
 
 Check out the [Plexus App Compatibility Database](https://plexus.techlore.tech/). In this database, the label "de-Googled" more or less corresponds to CalyxOS with microG disabled, and the label "μ" corresponds to CalyxOS with microG enabled.
 
-For more information, see [[microg]].
+For more information, see [[app-compatibility]].
 
 ## Bundled Apps
 
