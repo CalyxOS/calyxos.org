@@ -22,10 +22,6 @@ These network connections are initiated by the operating system itself (or micro
   <td>Used to check for [[Over-The-Air => OTA]] CalyxOS system updates.</td>
 </tr>
 <tr>
-  <td>www.bromite.org</td>
-  <td>To update the anti-tracking filters built into the OS.</td>
-</tr>
-<tr>
   <td>api.positon.xyz</td>
   <td>Used by microG as an online location service. Only used if you selected it, you can disable or modify it in microG settings.</td>
 </tr>
