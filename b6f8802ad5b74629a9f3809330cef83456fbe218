@@ -16,6 +16,24 @@
       "message": "Minor copy editing and typo fixes.",
       "revId": "b6f8802ad5b74629a9f3809330cef83456fbe218",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ce19c0a_fd1dce1b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-09-30T21:12:55Z",
+      "side": 1,
+      "message": "Not minor, you got rid of the entire patchset 4 changes",
+      "parentUuid": "b53cc209_4722d72a",
+      "revId": "b6f8802ad5b74629a9f3809330cef83456fbe218",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
