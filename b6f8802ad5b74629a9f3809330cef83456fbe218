@@ -36,6 +36,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c042980_070eaa28",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-09-30T21:24:59Z",
+      "side": 1,
+      "message": "It seems both Sage and I submitted the new patchset at almost the same time. I\u0027ll resubmit and merge patchset 4 changes again.",
+      "parentUuid": "7ce19c0a_fd1dce1b",
+      "revId": "b6f8802ad5b74629a9f3809330cef83456fbe218",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a1e144df_0218b78e",
@@ -49,6 +67,24 @@
       "writtenOn": "2026-09-30T21:17:15Z",
       "side": 1,
       "message": "Do we need to mention the device-flasher updates 3 times in different language?",
+      "revId": "b6f8802ad5b74629a9f3809330cef83456fbe218",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "291a51f5_59b5ef64",
+        "filename": "pages/_posts/2026-09-30-android-17-is-here.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-09-30T21:24:59Z",
+      "side": 1,
+      "message": "The first is the summary, seen as a bullet point on the main news/ page. The second is the detailed and readable mention of the major changes.\n\nWe can omit the last, which was included as an extension of the changelog and is more technical.",
+      "parentUuid": "a1e144df_0218b78e",
       "revId": "b6f8802ad5b74629a9f3809330cef83456fbe218",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
