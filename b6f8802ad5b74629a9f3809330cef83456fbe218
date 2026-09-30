@@ -34,6 +34,40 @@
       "parentUuid": "b53cc209_4722d72a",
       "revId": "b6f8802ad5b74629a9f3809330cef83456fbe218",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a1e144df_0218b78e",
+        "filename": "pages/_posts/2026-09-30-android-17-is-here.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-09-30T21:17:15Z",
+      "side": 1,
+      "message": "Do we need to mention the device-flasher updates 3 times in different language?",
+      "revId": "b6f8802ad5b74629a9f3809330cef83456fbe218",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9265c9c5_d4d177c5",
+        "filename": "pages/_posts/2026-09-30-android-17-is-here.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-09-30T21:17:15Z",
+      "side": 1,
+      "message": "Same comment as above",
+      "revId": "b6f8802ad5b74629a9f3809330cef83456fbe218",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
