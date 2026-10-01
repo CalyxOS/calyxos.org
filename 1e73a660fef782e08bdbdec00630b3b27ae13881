@@ -16,6 +16,24 @@
       "message": "Just did one more run of light editing. The biggest request is on how we address FP 6 and 6+... This came up too many times in the past few weeks\u0027 community channel discussions. I checked how FP referred to them, they use Fairphone Gen 6 and Fairphone Gen 6+. I proposed we use Fairphone 6/6+. But open to better ideas.",
       "revId": "1e73a660fef782e08bdbdec00630b3b27ae13881",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c07bbcb4_ee314bbf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-10-01T18:11:36Z",
+      "side": 1,
+      "message": "Until our team has a 6+ in hand, we don\u0027t officially support it yet (despite some successful installs reported) and we won\u0027t update our device support or install pages with that until then. For that reason, I\u0027m going to remove \"/6+\" from the above patchset but all other edits look good to me!",
+      "parentUuid": "f6ca79b6_6f8a1b03",
+      "revId": "1e73a660fef782e08bdbdec00630b3b27ae13881",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
