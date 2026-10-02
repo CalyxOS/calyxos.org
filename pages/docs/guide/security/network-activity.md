@@ -99,9 +99,9 @@ These connections are made by apps in the default CalyxOS configuration. You can
   <td>If you have [[microG]] enabled, this service is used to receive push notifications (see below).</td>
 </tr>
 <tr>
-  <td class="nowrap">goolag.store</td>
+  <td class="nowrap">auroraoss.com</td>
   <td class="nowrap">[[Aurora Store]]</td>
-  <td>If you use Aurora Store with anonymous credentials, it uses this service to grab the credentials.</td>
+  <td>If you use Aurora Store with anonymous credentials, it connects to this domain to grab the credentials.</td>
 </tr>
 <tr>
   <td class="nowrap">gitlab.com</td>
