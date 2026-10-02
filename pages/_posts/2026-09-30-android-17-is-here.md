@@ -7,7 +7,7 @@ date: 2026-10-01
 * This release includes the first official build for Pixel 10a, made available once 8.0.0.0 is in Stable
 * Our device-flasher tool update has made installation from macOS available again and added safeguards against device bricking triggered by Anti-Rollback Protection issues
 
-Devices have been tested internally, although there may be minor bugs. If you run into any problems, please [report an issue](https://gitlab.com/CalyxOS/calyxos/-/work_items?sort=created_date&state=opened&first_page_size=20).
+Devices have been tested internally, although there still may be bugs. You can review the [known issues](https://gitlab.com/CalyxOS/calyxos/-/work_items?sort=created_date&state=opened&label_name%5B%5D=android%3A%3A17&custom-field%5B2002364%5D=2006402&first_page_size=20) for more information. If you encounter an issue that isn’t listed, we'd appreciate it if you can [create a new report](https://gitlab.com/CalyxOS/calyxos/-/issues/new).
 
 This release has been rolled out to both the Beta and Security express channels because it includes significant security patches for multiple devices and apps, most notably microG. Rollout dates are listed below. Please note: the Pixel 10a build will be available when this update rolls out to Stable. We are working on bringing Android 17 to the remaining Pixels and our supported Fairphone, SHIFTphone and Motorola devices. These devices require additional device-specific work and will be released separately.
 
