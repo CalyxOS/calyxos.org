@@ -13,19 +13,19 @@ This release has been rolled out to both the Beta and Security express channels 
 
 Users of CalyxOS devices that are not yet receiving the 8.0.0.0 update can install the latest microG update manually using our signed microG APKs and the instructions below. These instructions use CalyxOS Chromium as the example browser.
 
-1. Open CalyxOS Chromium and download both of the latest signed microG APKs:
-   * [microG GmsCore](https://release.calyxos.org/app/microg/v0.3.17.252432/GmsCore.apk)
-   * [microG GsfProxy](https://release.calyxos.org/app/microg/v0.3.17.252432/GsfProxy.apk)
-2. Check that both downloaded files end in `.apk`. If either file ends in `.apk.jar`, rename it so that it ends in `.apk` only. For example, rename `GmsCore.apk.jar` to `GmsCore.apk`.
-3. When the downloads finish, tap “Open” in the download notification for one of the APKs. You can also find the files by opening Chromium’s three-dot menu and selecting “Downloads”.
-4. Tap the downloaded APK. The first time you do this, Chromium will show a “Permission required” prompt. Tap “Settings”.
-5. On the “Install unknown apps” settings page for Chromium, enable “Allow from this source”.
-6. Return to the APK installer. When the “Update this app?” prompt appears, tap “Update”.
-7. After the first APK has finished installing, return to Chromium’s “Downloads” list and tap the second APK.
-8. When the “Update this app?” prompt appears, tap “Update” and wait for the installation to complete.
-7. Restart the device after both APKs have been installed.
+>  1. Open CalyxOS Chromium and download both of the latest signed microG APKs:
+    * [microG GmsCore](https://release.calyxos.org/app/microg/v0.3.17.252432/GmsCore.apk)
+     * [microG GsfProxy](https://release.calyxos.org/app/microg/v0.3.17.252432/GsfProxy.apk)
+  2. Check that both downloaded files end in `.apk`. If either file ends in `.apk.jar`, rename it so that it ends in `.apk` only. For example, rename `GmsCore.apk.jar` to `GmsCore.apk`.
+  3. When the downloads finish, tap “Open” in the download notification for one of the APKs. You can also find the files by opening Chromium’s three-dot menu and selecting “Downloads”.
+  4. Tap the downloaded APK. The first time you do this, Chromium will show a “Permission required” prompt. Tap “Settings”.
+  5. On the “Install unknown apps” settings page for Chromium, enable “Allow from this source”.
+  6. Return to the APK installer. When the “Update this app?” prompt appears, tap “Update”.
+  7. After the first APK has finished installing, return to Chromium’s “Downloads” list and tap the second APK.
+  8. When the “Update this app?” prompt appears, tap “Update” and wait for the installation to complete.
+  7. Restart the device after both APKs have been installed.
 
-In addition, we are also releasing an important update to our device-flasher install tool. Major changes include: 1) ability to install from macOS is back, and 2) a new guardrail to prevent accidental device bricking triggered by Anti-Rollback Protection issues.
+In addition, we are also releasing an big update to our device-flasher install tool. Major changes include: 1) ability to install from macOS is back, and 2) a new guardrail to prevent accidental device bricking triggered by Anti-Rollback Protection issues.
 
 ### Rollout
 
