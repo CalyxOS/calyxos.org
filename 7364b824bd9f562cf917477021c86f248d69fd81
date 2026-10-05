@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "737f13b9_03732e66",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-10-05T20:46:23Z",
+      "side": 1,
+      "message": "Made language tweaks to avoid confusions on release date around future builds.",
+      "revId": "7364b824bd9f562cf917477021c86f248d69fd81",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
