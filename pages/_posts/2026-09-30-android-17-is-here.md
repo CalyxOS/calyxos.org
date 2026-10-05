@@ -3,6 +3,38 @@ title: CalyxOS 8.0.0.0 - Android 17 rollout begins, with more devices to follow
 date: 2026-10-01
 ---
 
+* Update on 1 October 2026: new device-specific release schedule
+
+We have received a few reports of new issues with the Android 17 update. As a result, we have adjusted the schedule for stable releases as following.
+
+### Rollout
+
+#### All supported Pixel devices except Pixel 5a
+
+Including security patches from the [latest Android Security Bulletin](https://source.android.com/docs/security/bulletin/2026/2026-10-01) and fixes for fingerprint and widget issues.
+
+| Release channel  | Date |
+| ---------------- | ---- |
+| Beta | 6 October, Tuesday |
+| Security express | 6 October, Tuesday |
+| Stable | TBD |
+
+#### Pixel 5a and supported Fairphone, Motorola, and SHIFTphone devices
+
+Including platform OTA fixes and the above security patches and updates.
+
+| Release channel  | Date |
+| ---------------- | ---- |
+| Beta | 7 October, Wednesday |
+| Security express | 7 October, Wednesday |
+| Stable | TBD |
+
+&nbsp;
+
+---
+
+&nbsp;
+
 * CalyxOS 8.0.0.0 running Android 17 is now available for most supported Pixels
 * This release includes the first official build for Pixel 10a, made available once 8.0.0.0 is in Stable
 * Our device-flasher tool update has made installation from macOS available again and added safeguards against device bricking triggered by Anti-Rollback Protection issues
@@ -26,14 +58,6 @@ Users of CalyxOS devices that are not yet receiving the 8.0.0.0 update can insta
   7. Restart the device after both APKs have been installed.
 
 In addition, we are also releasing an big update to our device-flasher install tool. Major changes include: 1) ability to install from macOS is back, and 2) a new guardrail to prevent accidental device bricking triggered by Anti-Rollback Protection issues.
-
-### Rollout
-
-| Release channel  | Date |
-| ---------------- | ---- |
-| Beta | 1 October, Thursday |
-| Security express | 1 October, Thursday |
-| Stable | 5 October, Monday |
 
 ### Changelog
 * CalyxOS 8.0.0.0
