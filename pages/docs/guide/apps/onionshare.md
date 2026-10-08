@@ -10,4 +10,4 @@ autolink: true
 <a class="btn" href="https://github.com/onionshare/onionshare-android/issues">Report a Bug</a>
 </div>
 
-
+Ever wanted to share something without also sharing it with Google or Dropbox? Tax documents, medical information, or unpublished research? Share files directly and securely without the middlemen.
