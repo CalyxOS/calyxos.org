@@ -1,6 +1,6 @@
 ---
-title: {{ name }}
-description: {{ summary }}
+title: "{{ name }}"
+description: "{{ summary }}"
 icon: {{ iconUrl }}
 autolink: true
 ---
