@@ -9,7 +9,7 @@ We have received a few reports of new issues with the Android 17 update. As a re
 
 ### Rollout
 
-#### All supported Pixel devices except Pixel 5a
+#### 8.0.4.21: All supported Pixel devices except Pixel 5a
 
 Including security patches from the [latest Android Security Bulletin](https://source.android.com/docs/security/bulletin/2026/2026-10-01) and fixes for fingerprint and widget issues.
 
@@ -17,9 +17,9 @@ Including security patches from the [latest Android Security Bulletin](https://s
 | ---------------- | ---- |
 | Beta | 6 October, Tuesday |
 | Security express | 6 October, Tuesday |
-| Stable | TBD |
+| Stable | 13 October, Tuesday |
 
-#### Pixel 5a and supported Fairphone, Motorola, and SHIFTphone devices
+#### 8.0.4.22: Pixel 5a and supported Fairphone, Motorola, and SHIFTphone devices
 
 Including platform OTA fixes and the above security patches and updates.
 
@@ -27,7 +27,7 @@ Including platform OTA fixes and the above security patches and updates.
 | ---------------- | ---- |
 | Beta | 7 October, Wednesday |
 | Security express | 7 October, Wednesday |
-| Stable | TBD |
+| Stable | 13 October, Tuesday |
 
 &nbsp;
 
