@@ -30,7 +30,7 @@ date: 2024-09-25
 * Seedvault: It is now possible to select what to restore (e.g. apps, files...)
 * Firewall: Refresh app list on new install & uninstalls
 * Firewall: Fix handling of VPN-only apps after restore of backup [#2586](https://gitlab.com/CalyxOS/calyxos/-/issues/2586)
-* Firewall: Fix blocking of updated apps that newly have INTERNET permission [#2657](https://gitlab.com/CalyxOS/calyxos/-/issues/2657)
+* Firewall: Fix blocking of updated apps that newly have INTERNET permission
 * Camera: Fix front camera intent preview mirroring
 * Camera: Add support for mute button and mic mute gesture
 * Calendar: Updates from upstream Etar, version 1.0.47
