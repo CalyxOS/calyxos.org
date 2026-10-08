@@ -16,6 +16,24 @@
       "message": "Should also add this info in the web installer, should that block this, given it removes the general warning that \"everyone\" would see?",
       "revId": "d7560b6611db9ad1ddc5a82b06b78f850ee38d6f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "69dde891_c929fdf1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-10-08T02:37:55Z",
+      "side": 1,
+      "message": "https://review.calyxos.org/c/CalyxOS/calyxos-webinstall/+/49569",
+      "parentUuid": "e049810a_74bd75ec",
+      "revId": "d7560b6611db9ad1ddc5a82b06b78f850ee38d6f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
