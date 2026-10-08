@@ -14,7 +14,7 @@ redirect_from:
 * CalyxOS is meant to be run with a locked bootloader after installation, which makes sure that the OS cannot be tampered without your knowledge. Please ensure you relock your bootloader after installation.
 * Pixel phones from mobile carrier Verizon in the United States are not able to install CalyxOS due to bootloader unlocking prohibitions, please ensure your device is not from Verizon if purchased secondhand. Read [[how to identify a Verizon phone => verizon]] to learn more.
 * Google's Factory reset protection (FRP): FRP must be disabled before flashing, i.e. you must not be signed into a Google account on your old OS before flashing 7.2.1.0. If FRP is enabled when you flash and relock your bootloader, you will not be able to turn OEM unlocking back on.
-
+* To prevent troubles in receiving iMessages or RCS messages, check how to deactivate [Google Messages "RCS"](https://messages.google.com/disable-chat) and [iMessage](https://selfsolve.apple.com/deregister-imessage/).
 
 ## Choose your device below
 
