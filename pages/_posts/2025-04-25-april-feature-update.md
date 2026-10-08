@@ -44,7 +44,7 @@ date: 2025-04-25
 * Seedvault: Auto-retry more WebDAV connection errors
 * Settings: Protect sensitive data in mobile network settings
 * Settings: Fix unrestricted data toggle switches [#2547](https://gitlab.com/CalyxOS/calyxos/-/issues/2547)
-* Keyboard: Various fixes [#3077](https://gitlab.com/CalyxOS/calyxos/-/issues/3077) [#2916](https://gitlab.com/CalyxOS/calyxos/-/issues/2916) [#1901](https://gitlab.com/CalyxOS/calyxos/-/issues/1901) [#1890](https://gitlab.com/CalyxOS/calyxos/-/issues/1890)
+* Keyboard: Various fixes [#3077](https://gitlab.com/CalyxOS/calyxos/-/issues/3077) [#2916](https://gitlab.com/CalyxOS/calyxos/-/issues/2916) [#1890](https://gitlab.com/CalyxOS/calyxos/-/issues/1890)
 * Camera: Fix wrong orientation of pictures [#1450](https://gitlab.com/CalyxOS/calyxos/-/issues/1450)
 * PDF Viewer: Fix opening of saved files [#3071](https://gitlab.com/CalyxOS/calyxos/-/issues/3071)
 * Messaging: Fix MMS download [#3121](https://gitlab.com/CalyxOS/calyxos/-/issues/3121)
