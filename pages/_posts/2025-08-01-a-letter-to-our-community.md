@@ -101,7 +101,7 @@ Without security updates, we can only be honest that this does not guarantee the
 
 In case you wish to migrate to another custom ROM in the meantime, we've now published updated guides on how to back up and restore your device using [Seedvault](/docs/guide/apps/seedvault/) and how to [restore your device to stock](/install/stock/).
 
-We also understand that many community members have expressed interest in having an installation option/images for CalyxOS available again. Due to the overwhelming feedback from our community, we've decided to [make the images publicly available](/get/factory) once more. **Please be aware that this decision is not a recommendation to migrate to CalyxOS now.**
+We also understand that many community members have expressed interest in having an installation option/images for CalyxOS available again. Due to the overwhelming feedback from our community, we've decided to make the images publicly available once more. **Please be aware that this decision is not a recommendation to migrate to CalyxOS now.**
 
 Please note that, just as current users will not receive further software updates without reinstalling CalyxOS when future updates are released, any device installing CalyxOS in the near future will also need to reinstall it. We want to ensure that all users are well informed before deciding to install CalyxOS at this time.
 
