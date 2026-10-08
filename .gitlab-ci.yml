@@ -1,11 +1,6 @@
-include:
-  - project: 'CalyxOS/ci-templates'
-    file: '/.gerrit-ci-template.yml'
-
 stages:
   - docker
   - pages
-  - vote
 
 .ruby:
   image: ruby:3.4
@@ -34,7 +29,6 @@ pages:
 build:
   image: docker:29
   stage: docker
-  extends: .gerrit_checkout
   services:
     - name: docker:29-dind
       alias: docker
