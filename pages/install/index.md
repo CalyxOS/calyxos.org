@@ -10,6 +10,7 @@ redirect_from:
 
 ### Read before you install
 
+* You may need to manually deregister your phone number from [Google Messages "RCS"](https://messages.google.com/disable-chat) and [iMessage](https://selfsolve.apple.com/deregister-imessage/) to make sure you're not losing any messages from users of those services.
 * If you want to use the CalyxOS Web Installer, please note it is a browser installation tool and requires WebUSB access. Supported browsers for the Web Installer include Microsoft Edge, Chrome, Brave, and other Chromium-based browsers.
 * CalyxOS is meant to be run with a locked bootloader after installation, which makes sure that the OS cannot be tampered without your knowledge. Please ensure you relock your bootloader after installation.
 * Pixel phones from mobile carrier Verizon in the United States are not able to install CalyxOS due to bootloader unlocking prohibitions, please ensure your device is not from Verizon if purchased secondhand. Read [[how to identify a Verizon phone => verizon]] to learn more.
