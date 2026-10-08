@@ -88,7 +88,7 @@ OnePlus 8T, 9 and 9 Pro builds have been pulled - please see [OnePlus Android 12
 ## Preparing your device
 
 ### Fairphone 4 "FP4"
-* [Get code to enable unlocking from Fairphone, and follow their instructions](https://www.fairphone.com/en/bootloader-unlocking-code-for-fairphone-3/)
+* [Get code to enable unlocking from Fairphone, and follow their instructions](https://www.fairphone.com/bootloader-unlocking-code-for-fairphone)
 * Unlock the bootloader using
   1. `fastboot flashing unlock_critical`
   2. `fastboot flashing unlock`
