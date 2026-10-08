@@ -3,7 +3,6 @@ title: Install CalyxOS
 nav_title: Install
 description: 🥳 You're amazing! Follow the instructions below to install CalyxOS!
 redirect_from:
-  - /get
   - /get/install
   - /install/devices
 ---
