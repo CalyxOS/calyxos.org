@@ -39,7 +39,7 @@ This means that we will not be able to merge the Android 12 changes into our cod
 All of the possible ways have been listed below, while we evaulate them to decide on the future.
 
 #### Best case scenario
-* OnePlus re-adds this functionality, given that they've supported this on pretty much all of their [previous devices](https://hub.libranet.de/wiki/and-priv-sec/wiki/verified-boot#OnePlus)
+* OnePlus re-adds this functionality, given that they've supported this on pretty much all of their previous devices
 * This would mean we can simply make an update with the fix included and it would be entirely seamless.
 
 #### Future (Android 13)
