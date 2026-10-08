@@ -27,6 +27,12 @@ There are a few things you must do to prepare your device to accept a new operat
 
 On brand new devices, especially those obtained from a carrier, it's better to remove the SIM card from the device before starting it for the first time, to help with the "OEM Unlocking" step below.
 
+#### Remove all Google accounts (FRP)
+
+Google's FRP (Factory Reset Protection) is a mechanism to protect stolen devices from being used without the rightful owner. Unfortunately, FRP does not work with CalyxOS, and can cause troubles when it comes time to relock the bootloader or use the system.
+
+While we've restored some logic to automatically disable it in CalyxOS, your safest bet is to remove your accounts before installation, in **Settings** &rarr; **Accounts...** (menu varies by Android version)
+
 #### Enable Developer Options
 
 **Settings** &rarr; **About Phone** &rarr; tap **Build number** 7 times
