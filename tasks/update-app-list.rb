@@ -7,7 +7,7 @@ require 'json'
 
 module Apps
 
-  APPS_URL  = "https://gitlab.com/CalyxOS/lfs_prebuilts_calyx_fdroid/-/raw/main/repo/index-v1.json"
+  APPS_URL  = "https://gitlab.com/CalyxOS/lfs_prebuilts_calyx_fdroid/-/raw/main/repo/index-v2.json"
   ICON_URL  = "https://gitlab.com/CalyxOS/lfs_prebuilts_calyx_fdroid/-/raw/main/repo/"
   HOME      = File.expand_path('../..', __FILE__)
   DEST_FILE = "#{HOME}/pages/_data/apps.yml"
@@ -18,6 +18,8 @@ module Apps
   EXCLUDE = ['f-droid-basic', 'aurora-store'] # we have custom pages for these
 
   ELEMENTS  = %w(packageName webSite description name summary icon license categories sourceCode donate issueTracker)
+  LOCALIZED = %w(name summary description icon)
+  LOCALE    = "en-US"
 
   class << self
     def requirements_met?
@@ -29,7 +31,7 @@ module Apps
 
     def download_icon(app)
       id = app["packageName"]
-      src_url = ICON_URL + id + "/en-US/icon.png"
+      src_url = ICON_URL + (app["iconPath"] || "#{id}/en-US/icon.png").sub(%r{\A/}, "")
       dest_file = ICON_DIR + id + ".png"
       unless File.exist?(dest_file)
         begin
@@ -62,19 +64,23 @@ module Apps
       return hsh
     end
 
-    def copy_elements(app)
+    def localize(value)
+      return value unless value.is_a?(Hash)
+      value[LOCALE] || value.values.first
+    end
+
+    def copy_elements(package_name, metadata)
+      app = metadata.merge("packageName" => package_name)
       new_app = {}
       ELEMENTS.each do |el_name|
         value = app[el_name]
+        value = localize(value) if LOCALIZED.include?(el_name)
         value = value.nil? ? "" : value
         new_app[el_name] = value
       end
-      if new_app["name"] == ""
-        new_app["name"] = fetch(app, "localized.en-US.name")
-      end
-      if new_app["summary"] == ""
-        new_app["summary"] = fetch(app, "localized.en-US.summary")
-      end
+      icon = new_app["icon"]
+      new_app["iconPath"] = icon["name"] if icon.is_a?(Hash)
+      new_app["icon"] = icon.is_a?(Hash) ? File.basename(icon["name"]) : icon
       new_app["iconUrl"] = '/assets/images/apps/' + new_app["packageName"] + '.png'
       new_app["slug"] = new_app["name"].downcase.gsub(/[^a-z0-9]/i,'-').gsub(/\-\-/,'-')
       new_app["description"] = to_markdown(new_app["description"])
@@ -89,8 +95,8 @@ module Apps
       json = JSON.load(tempfile)
 
       yml = {"apps" => []}
-      json["apps"].each do |app|
-        app = copy_elements(app)
+      json["packages"].each do |package_name, package|
+        app = copy_elements(package_name, package["metadata"])
         unless EXCLUDE.include?(app['slug'])
           download_icon(app)
           render_app_page(app, template)
