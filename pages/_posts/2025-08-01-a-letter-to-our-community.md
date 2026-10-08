@@ -93,7 +93,7 @@ First, we want to assure you that we have no reason to believe the security of C
 
 As you know, we announced a recent leadership transition. When senior personnel have access to signing keys and leave a team, it is security best practice to update signing keys and conduct audits. So in accordance with that, we are using this transition period to update our security protocols, including updating the signing keys and taking other steps to further protect our users.
 
-In the past, security audits have been conducted for parts of CalyxOS, such as the [Seedvault project](https://seedvault.app/2021-security-quickscan-ros.pdf), but not for the entire project. As more and more people across the globe started using this tool, we intend to conduct a broader security audit and publish the reports for the public to review.
+In the past, security audits have been conducted for parts of CalyxOS, such as the [Seedvault project](https://seedvault-app.github.io/seedvault.app/2021-security-quickscan-ros.pdf), but not for the entire project. As more and more people across the globe started using this tool, we intend to conduct a broader security audit and publish the reports for the public to review.
 
 As mentioned in our community letter below, we estimate that this audit and the implementation of new security protocols and signing keys will take four to six months, but we will endeavor to complete this process as soon as possible. However, for the time being, current CalyxOS users will not be able to receive further security software updates until our new security protocols are in place. 
 
