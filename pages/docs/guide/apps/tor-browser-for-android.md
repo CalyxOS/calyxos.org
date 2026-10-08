@@ -1,6 +1,6 @@
 ---
-title: Tor Browser for Android
-description: Experience real private browsing without tracking, surveillance, or censorship.
+title: "Tor Browser for Android"
+description: "Experience real private browsing without tracking, surveillance, or censorship."
 icon: /assets/images/apps/org.torproject.torbrowser.png
 autolink: true
 ---

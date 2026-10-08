@@ -1,6 +1,6 @@
 ---
-title: Riseup VPN
-description: Secure VPN powered by Bitmask
+title: "Riseup VPN"
+description: "Secure VPN powered by Bitmask"
 icon: /assets/images/apps/se.leap.riseupvpn.png
 autolink: true
 ---

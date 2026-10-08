@@ -1,6 +1,6 @@
 ---
-title: GCam Photos Preview
-description: Preview photos from Google Camera
+title: "GCam Photos Preview"
+description: "Preview photos from Google Camera"
 icon: /assets/images/apps/com.google.android.apps.photos.png
 autolink: true
 ---

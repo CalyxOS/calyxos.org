@@ -1,6 +1,6 @@
 ---
-title: OONI Probe
-description: Open Observatory of Network Interference (OONI)
+title: "OONI Probe"
+description: "Open Observatory of Network Interference (OONI)"
 icon: /assets/images/apps/org.openobservatory.ooniprobe.png
 autolink: true
 ---
