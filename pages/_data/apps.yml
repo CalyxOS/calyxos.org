@@ -1,48 +1,74 @@
 ---
 apps:
-- packageName: org.breezyweather
-  webSite: ''
-  description: ''
-  name: Breezy Weather
-  summary: A powerful, open-source Material Design weather app.
-  icon: ''
-  license: LGPL-3.0-only
-  categories:
-  - Internet
-  - Default
-  sourceCode: https://github.com/breezy-weather/breezy-weather
-  donate: ''
-  issueTracker: https://github.com/breezy-weather/breezy-weather/issues
-  iconUrl: "/assets/images/apps/org.breezyweather.png"
-  slug: breezy-weather
 - packageName: app.comaps.fdroid
   webSite: https://www.comaps.app/
-  description: ''
+  description: |
+    A community-led free & open source maps app based on OpenStreetMap data and reinforced with commitment to transparency, privacy and being not-for-profit. CoMaps is a fork/spin-off of Organic Maps, which in turn is a fork of Maps.ME.
+
+    Read on about reasons for the project and its direction at <b><i>codeberg.org/comaps</i></b>.
+    Join the community there and help make the best maps app
+    • Use the app and spread the word about it
+    • Give feedback and report issues
+    • Update map data in the app or on the OpenStreetMap website
+
+    ‣ <b>Offline-focused</b>: Plan and navigate your trip abroad without the need for cellular service, search waypoints while on a distant hike, etc. All app functions are designed to work offline.
+    ‣ <b>Respecting Privacy</b>: The app is designed with privacy in mind - does not identify people, does not track, and does not collect personal information. Ads-free.
+    ‣ <b>Simple and Polished</b>: essential easy to use features that just work.
+    ‣ <b>Saves Your Battery and Space</b>: Doesn’t drain your battery like other navigation apps. Compact maps save precious space on your phone.
+    ‣ <b>Free and Built by the Community</b>: People like you helped build the app by adding places to OpenStreetMap, testing and giving feedback on features and contributing their development skills and money.
+    ‣ <b>Open and Transparent Decision-making and Financials, Not-for-profit and Fully Open Source.</b>
+
+    <b>Main Features</b>:
+    • Downloadable detailed maps with places which are not available with Google Maps
+    • Outdoor mode with highlighted hiking trails, campsites, water sources, peaks, contour lines, etc
+    • Walking paths and cycleways
+    • Points of interest like restaurants, gas stations, hotels, shops, sightseeings and many more
+    • Search by name or an address or by point of interest category
+    • Navigation with voice announcements for walking, cycling, or driving
+    • Bookmark your favorite places with a single tap
+    • Offline Wikipedia articles
+    • Subway transit layer and directions
+    • Track recording
+    • Export and import bookmarks and tracks in KML, KMZ, GPX formats
+    • A dark mode to use during the night
+    • Improve map data for everyone using a basic built-in editor
+
+    <b>Freedom Is Here</b>
+    Discover your journey, navigate the world with privacy and community at the forefront!
   name: CoMaps
   summary: Easy map navigation - Discover more of your journey - Powered by the community
-  icon: ''
+  icon: icon.png
   license: Apache-2.0
   categories:
   - Navigation
   - Default
   sourceCode: https://codeberg.org/comaps/comaps
-  donate: https://www.comaps.app/donate/
+  donate:
+  - https://www.comaps.app/donate/
   issueTracker: https://codeberg.org/comaps/comaps/issues
+  iconPath: "/app.comaps.fdroid/en-US/icon.png"
   iconUrl: "/assets/images/apps/app.comaps.fdroid.png"
   slug: comaps
 - packageName: at.bitfire.davdroid
   webSite: https://www.davx5.com/
-  description: ''
+  description: |
+    DAVx⁵ is a CalDAV/CardDAV management and synchronization app for Android which natively integrates with Android calendar/contact apps.
+
+    Use it with your own server or with a trusted hoster to keep your contacts, events and tasks under your control.
+
+    For more information and a list of tested servers/services, have a look at the Web site.
   name: DAVx⁵
   summary: CalDAV/CardDAV Synchronization and Client
-  icon: ''
+  icon: icon.png
   license: GPL-3.0-only
   categories:
   - Internet
   - Default
   sourceCode: https://www.davx5.com/source
-  donate: https://www.davx5.com/donate
+  donate:
+  - https://www.davx5.com/donate
   issueTracker: https://www.davx5.com/forums
+  iconPath: "/at.bitfire.davdroid/en-US/icon.png"
   iconUrl: "/assets/images/apps/at.bitfire.davdroid.png"
   slug: davx-
 - packageName: com.google.android.apps.photos
@@ -56,21 +82,210 @@ apps:
     It pretends to be Google Photos to do that.
   name: GCam Photos Preview
   summary: Preview photos from Google Camera
-  icon: ''
+  icon: icon.png
   license: Apache-2.0
   categories:
   - System
   sourceCode: https://gitlab.com/CalyxOS/platform_external_calyx_GCamPhotosPreview
   donate: ''
   issueTracker: ''
+  iconPath: "/com.google.android.apps.photos/en-US/icon.png"
   iconUrl: "/assets/images/apps/com.google.android.apps.photos.png"
   slug: gcam-photos-preview
+- packageName: com.jarsilio.android.scrambledeggsif
+  webSite: ''
+  description: |-
+    Scrambled Exif (pronounced <i>egg</i>sif) helps you remove the metadata in your pictures before you share them.
+
+    If you feel like it.
+
+    If you don't want the big Internet companies (or whomever) to know where your pictures were taken don't forget to remove the metadata from them before you share them.
+
+    To remove the metadata from a picture, simply share it like you'd normally do and choose <i>Scrambled Exif</i>. A moment later, the share 'dialog' will reappear. Now just share with the app you intended to share with in the first place.
+
+    Et voilà!
+
+    <b>Required Android Permissions:</b>
+
+    ★ READ_EXTERNAL_STORAGE to read the images other apps share with it.
+
+    <b>Source Code</b>
+
+    ★ This app is open source. You can take a look at the code (and contribute if you feel like it) here:
+
+    https://gitlab.com/juanitobananas/scrambled-exif
+
+    <b>Translations</b>
+
+    If you wish to help to translate this app to your own language, you can do so using transifex:
+
+    https://www.transifex.com/juanitobananas/scrambled-exif/
+
+    <b>Misc Stuff and Facts</b>
+
+    ★ Basically, Exif is used by jpeg, which is the format in which your Android camera saves pictures. If you want to know more about Exif, check the Wikipedia.
+
+    ★ Scrambled Exif also renames the files (this can be disabled).
+
+    ★ Please don't heavily rely on the data being deleted. Scrambled Exif does its job pretty well, but it could fail. Always double-check before you share.
+
+    ★ It doesn't really <i>scramble</i> the Exif data, it deletes it. So the name is probably stupid. But I like it. The icon doesn't depict scrambled eggs either. So the icon is probably stupid. But I like it. And I also happen to be a huge fan of eggs. So this app doesn't only have a stupid name and an equally stupid icon, it is also my (non-stupid) tribute to eggs. Especially <i>huevos fritos</i>. Because I love them.
+
+    ★ Have fun sharing your pics!
+  name: Scrambled Exif
+  summary: Remove the metadata from your pictures before sharing them
+  icon: icon.png
+  license: GPL-3.0-only
+  categories:
+  - System
+  - Default
+  sourceCode: https://gitlab.com/juanitobananas/scrambled-exif/tree/HEAD
+  donate: ''
+  issueTracker: https://gitlab.com/juanitobananas/scrambled-exif/issues
+  iconPath: "/com.jarsilio.android.scrambledeggsif/en-US/icon.png"
+  iconUrl: "/assets/images/apps/com.jarsilio.android.scrambledeggsif.png"
+  slug: scrambled-exif
+- packageName: net.thunderbird.android
+  webSite: https://thunderbird.net
+  description: |
+    Thunderbird is a powerful, privacy-focused email app. Effortlessly manage multiple email accounts from one app, with a Unified Inbox option for maximum productivity. Built on open-source technology and supported by a dedicated team of developers alongside a global community of volunteers, Thunderbird never treats your private data as a product. Supported solely by financial contributions from our users, so you never have to see ads mixed in with your emails again.
+
+    <b>What you can do</b>
+    <ul>
+      <li>Ditch multiple apps and webmail. Use one app, with an optional Unified Inbox, to power through your day.</li>
+      <li>Enjoy a privacy-friendly email client that never collects or sells your personal data. We directly connect you to your email provider. That’s it!</li>
+      <li>Take your privacy to the next level by using OpenPGP email encryption (PGP/MIME) with the “OpenKeychain” app, to encrypt and decrypt your messages.</li>
+      <li>Choose to sync your email instantly, at set intervals, or on-demand. However you want to check your email, it’s up to you!</li>
+      <li>Find your important messages using both local and server-side search.</li>
+    </ul>
+
+    <b>Compatibility</b>
+    <ul>
+      <li>Thunderbird works with IMAP and POP3 protocols, supporting a wide range of email providers, including Gmail, Outlook, Yahoo Mail, iCloud, and more.</li>
+    </ul>
+
+    <b>Why use Thunderbird</b>
+    <ul>
+      <li>The trusted name in email for over 20 years - now on Android.</li>
+      <li>Thunderbird is fully funded by voluntary contributions from our users. We don’t mine your personal data. You are never the product.</li>
+      <li>Made by a team that is as efficiency-minded as you are. We want you to spend minimal time using the app while getting maximum in return.</li>
+      <li>With contributors from all over the world, Thunderbird for Android has been translated into more than 20 languages.</li>
+      <li>Supported by MZLA Technologies Corporation, a wholly owned subsidiary of the Mozilla Foundation.</li>
+    </ul>
+
+    <b>Open Source and Community</b>
+    <ul>
+      <li>Thunderbird is free and open source, which means its code is available to see, modify, use and share freely. Its license also ensures that it will be free forever. You can think of Thunderbird as a gift from thousands of contributors to you.</li>
+      <li>We develop in the open with regular, transparent updates on our blog and mailing lists.</li>
+      <li>Our user support is powered by our global community. Find the answers you need, or step into the role of a contributor - whether it’s answering questions, translating the app, or telling your friends and family about Thunderbird.</li>
+    </ul>
+  name: 'Thunderbird: Free Your Inbox'
+  summary: Thunderbird is a 100% open source, privacy focused email app.
+  icon: icon.png
+  license: Apache-2.0
+  categories:
+  - Connectivity
+  - Internet
+  - Writing
+  - Default
+  sourceCode: https://github.com/thunderbird/thunderbird-android
+  donate:
+  - https://mzla.link/supportTfA
+  issueTracker: https://github.com/thunderbird/thunderbird-android/issues
+  iconPath: "/net.thunderbird.android/en-US/icon.png"
+  iconUrl: "/assets/images/apps/net.thunderbird.android.png"
+  slug: thunderbird-free-your-inbox
+- packageName: org.breezyweather
+  webSite: ''
+  description: |
+    Breezy Weather is a free and open-source Android weather app, forked from Geometric Weather, adding new features, sources, modernizing code, fixing bugs, updating dependencies for security reasons, etc., while keep having a smooth user and developer experience in mind.
+
+    In the app, you'll find:
+    - Real-time weather conditions (temperature, feels like, wind, UV index, humidity, dew point, atmospheric pressure, visibility, cloud cover, ceiling)
+    - Daily and hourly forecasts up to 16 days (temperature, air quality, wind, UV index, precipitation, sunshine, feels like)
+    - Detailed hourly forecasts (humidity / dew point, pressure, cloud cover, visibility)
+    - Precipitation in the next hour
+    - Air quality, allergen and ephemeris information
+    - Severe weather and precipitation alerts
+
+    The app has a strong focus on design, with a simple, clean UX, smooth animations, and Material Design all over, plus lots of customizability:
+    - Automatic dark mode
+    - Custom icon packs
+    - Large selection of home screen widgets for at-a-glance information
+    - Live wallpaper
+
+    <b>Sources</b>
+    Available worldwide weather sources:
+    - Open-Meteo
+    - AccuWeather¹
+    - MET Norway¹
+    - OpenWeatherMap¹²
+    - Pirate Weather¹³
+    - HERE¹³
+    - Météo France¹
+    - Danmarks Meteorologiske Institut (DMI)¹
+
+    Available only-national weather sources:
+    - Mixed China sources¹
+    - National Weather Service (NWS)¹
+    - Bright Sky (DWD)
+    - Environment and Climate Change Canada¹
+    - Israel Meteorological Service (IMS)¹
+    - SMHI¹
+    - MET Éireann¹
+
+    Available secondary weather sources:
+    - WMO Severe Weather Information Centre¹
+    - Recosanté
+    - ATMO AuRA¹
+
+    ¹ Not included in versions with suffix _fdroid
+    ² Often rate-limited
+    ³ Requires an API key
+
+    <b>Versions</b>
+    Depending on your F-Droid repositories, you may be able to download different flavors of Breezy Weather:
+    - Versions with no suffix: standard version, fully open source
+    - Versions with _gplay suffix: same as standard + includes proprietary Fused location for Google Play Services users
+    - Versions with _fdroid suffix: same as standard without all sources that are not libre/self-hostable
+
+    <b>Permissions</b>
+    Required:
+    - Network (ACCESS_NETWORK_STATE, ACCESS_WIFI_STATE, INTERNET): fetch weather data from sources over the Internet
+
+    Optional:
+    - Background services (RECEIVE_BOOT_COMPLETED, WAKE_LOCK, SET_ALARM, FOREGROUND_SERVICE, FOREGROUND_SERVICE_DATA_SYNC, FOREGROUND_SERVICE_SPECIAL_USE): weather updates in the background and scheduled forecast notifications
+    - Ignore battery optimizations (REQUEST_IGNORE_BATTERY_OPTIMIZATIONS): help preventing the app from being killed on some devices
+    - Send notifications (POST_NOTIFICATIONS): alerts, precipitation, today/tomorrow forecast, notification-widget, update progress of background updates, etc
+    - Location (ACCESS_COARSE_LOCATION, ACCESS_FINE_LOCATION, ACCESS_BACKGROUND_LOCATION): to show weather in your current location
+    - Storage (READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE): helps setting the live weather wallpaper and/or widgets on some devices
+    - Tile (EXPAND_STATUS_BAR): allow to launch the app from Quick Settings
+
+    <b>License</b>
+    - GNU Lesser General Public License v3.0
+    - This License does not grant any rights in the trademarks, service marks, or logos of any Contributor.
+    - Misrepresentation of the origin of that material is prohibited, and modified versions of such material must be marked in reasonable ways as different from the original version.
+  name: Breezy Weather
+  summary: A powerful, open-source Material Design weather app.
+  icon: icon.png
+  license: LGPL-3.0-only
+  categories:
+  - Internet
+  - Default
+  sourceCode: https://github.com/breezy-weather/breezy-weather
+  donate: ''
+  issueTracker: https://github.com/breezy-weather/breezy-weather/issues
+  iconPath: "/org.breezyweather/en-US/icon.png"
+  iconUrl: "/assets/images/apps/org.breezyweather.png"
+  slug: breezy-weather
 - packageName: org.onionshare.android.fdroid
   webSite: ''
-  description: ''
+  description: Ever wanted to share something without also sharing it with Google
+    or Dropbox? Tax documents, medical information, or unpublished research? Share
+    files directly and securely without the middlemen.
   name: OnionShare
   summary: Securely and anonymously share files using the Tor network
-  icon: ''
+  icon: icon.png
   license: GPL-3.0-only
   categories:
   - Internet
@@ -79,6 +294,7 @@ apps:
   sourceCode: https://github.com/onionshare/onionshare-android
   donate: ''
   issueTracker: https://github.com/onionshare/onionshare-android/issues
+  iconPath: "/org.onionshare.android.fdroid/en-US/icon.png"
   iconUrl: "/assets/images/apps/org.onionshare.android.fdroid.png"
   slug: onionshare
 - packageName: org.openobservatory.ooniprobe
@@ -146,7 +362,7 @@ apps:
     <a href="https://ooni.torproject.org/about/risks">here</a>
   name: OONI Probe
   summary: Open Observatory of Network Interference (OONI)
-  icon: ''
+  icon: icon.png
   license: BSD-2-Clause
   categories:
   - Internet
@@ -155,46 +371,9 @@ apps:
   sourceCode: https://github.com/ooni/probe-android
   donate: ''
   issueTracker: https://github.com/ooni/probe-android/issues
+  iconPath: "/org.openobservatory.ooniprobe/en-US/icon.png"
   iconUrl: "/assets/images/apps/org.openobservatory.ooniprobe.png"
   slug: ooni-probe
-- packageName: se.leap.riseupvpn
-  webSite: https://riseup.net/
-  description: |-
-    RiseupVPN is an application to provide easy and secure encrypted communication.
-    The app is a custom branded build of https://f-droid.org/packages/se.leap.bitmaskclient. This version is
-    preconfigured with one trusted provider—the Riseup collective—and allows
-    anonymous VPN usage without any manual setup.
-
-    By encrypting and securely routing all your network traffic through Riseup’s
-    servers, RiseupVPN is able to prevent many forms of censorship and surveillance.
-  name: Riseup VPN
-  summary: Secure VPN powered by Bitmask
-  icon: ''
-  license: GPL-3.0-only
-  categories:
-  - Internet
-  - Security
-  - Default
-  sourceCode: https://0xacab.org/leap/bitmask_android
-  donate: https://riseup.net/vpn/donate
-  issueTracker: https://0xacab.org/leap/bitmask_android/issues
-  iconUrl: "/assets/images/apps/se.leap.riseupvpn.png"
-  slug: riseup-vpn
-- packageName: com.jarsilio.android.scrambledeggsif
-  webSite: ''
-  description: ''
-  name: Scrambled Exif
-  summary: Remove the metadata from your pictures before sharing them
-  icon: ''
-  license: GPL-3.0-only
-  categories:
-  - System
-  - Default
-  sourceCode: https://gitlab.com/juanitobananas/scrambled-exif/tree/HEAD
-  donate: ''
-  issueTracker: https://gitlab.com/juanitobananas/scrambled-exif/issues
-  iconUrl: "/assets/images/apps/com.jarsilio.android.scrambledeggsif.png"
-  slug: scrambled-exif
 - packageName: org.thoughtcrime.securesms
   webSite: https://www.signal.org
   description: |-
@@ -215,7 +394,7 @@ apps:
     ★ Speak Freely - Make crystal-clear phone calls to people who live across town, or across the ocean, with no long-distance charges.
   name: Signal
   summary: Signal Private Messenger
-  icon: ''
+  icon: icon.png
   license: GPL-3.0-only
   categories:
   - Internet
@@ -223,25 +402,9 @@ apps:
   sourceCode: https://github.com/signalapp/Signal-Android
   donate: ''
   issueTracker: https://support.signal.org/
+  iconPath: "/org.thoughtcrime.securesms/en-US/icon.png"
   iconUrl: "/assets/images/apps/org.thoughtcrime.securesms.png"
   slug: signal
-- packageName: net.thunderbird.android
-  webSite: https://thunderbird.net
-  description: ''
-  name: 'Thunderbird: Free Your Inbox'
-  summary: Thunderbird is a 100% open source, privacy focused email app.
-  icon: ''
-  license: Apache-2.0
-  categories:
-  - Connectivity
-  - Internet
-  - Writing
-  - Default
-  sourceCode: https://github.com/thunderbird/thunderbird-android
-  donate: https://mzla.link/supportTfA
-  issueTracker: https://github.com/thunderbird/thunderbird-android/issues
-  iconUrl: "/assets/images/apps/net.thunderbird.android.png"
-  slug: thunderbird-free-your-inbox
 - packageName: org.torproject.torbrowser
   webSite: ''
   description: |
@@ -274,29 +437,72 @@ apps:
     The Tor Project, Inc., is a 501(c)(3) organization developing free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project’s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.
   name: Tor Browser for Android
   summary: Experience real private browsing without tracking, surveillance, or censorship.
-  icon: ''
+  icon: icon.png
   license: MPL-2.0
   categories:
   - Security
   - Internet
   - Default
   sourceCode: https://gitweb.torproject.org/tor-browser.git
-  donate: https://donate.torproject.org/
+  donate:
+  - https://donate.torproject.org/
   issueTracker: https://gitlab.torproject.org/tpo/applications/tor-browser/issues
+  iconPath: "/org.torproject.torbrowser/en-US/icon.png"
   iconUrl: "/assets/images/apps/org.torproject.torbrowser.png"
   slug: tor-browser-for-android
 - packageName: org.torproject.vpn
   webSite: https://www.torproject.org/
-  description: ''
+  description: |-
+    <b>Beta release: The VPN that fights back</b>
+    <p>Tor VPN Beta puts control back in your hands when others try to cut you off from the world. This early-access release is for users who want to help shape the future of mobile privacy and can do safely.</p>
+    <b>What can Tor VPN Beta do?</b>
+    <ul>
+      <li>Network-level privacy: Tor VPN hides your real IP address and location from the apps and services you use–and from anyone watching your connection.</li>
+      <li>Per-app routing: You choose which apps are routed through Tor. Each app gets its own Tor circuit and exit IP, preventing network observers from connecting all of your online activity.</li>
+      <li>App-level censorship resistance: When access is blocked, Tor VPN may help reconnect your essential apps to the internet. (Beta limitation: This early access version has limited anti-censorship capabilities and users may face connection issues)</li>
+      <li>Built on Arti: Tor VPN uses Tor's next-generation Rust implementation. That means safer memory handling, modern code architecture, and a stronger security foundation than legacy C-Tor tools.</li>
+    <b>Who is Tor VPN Beta for?</b>
+    <p>Tor VPN Beta is an early-access release and not suitable for high-risk users or sensitive use-cases during the beta period.</p>
+    <p>Tor VPN Beta is for early adopters who want to help shape mobile privacy and can do so safely. Users should expect bugs and report issues. If you're ready to test, bring the app to its limits, and share feedback, we'd love your help tipping the scales toward a freer internet.</p>
+    <b>Important limitations (PLEASE READ)</b>
+    <p>Tor VPN is not a silver bullet either: Some Android platform data can still identify your device; no VPN can fully prevent this. If you face extreme surveillance risks, we recommend against using Tor VPN Beta.</p>
+    <p>Not all of Tor's anti-censorship features are implemented yet. Users in heavily censored regions might not be able to use Tor VPN Beta to connect to Tor or the internet.</p>
   name: Tor VPN
   summary: Tor-powered with per-app routing, access unblocking & network-level privacy.
-  icon: ''
+  icon: icon.png
   license: BSD-3-Clause-Clear
   categories:
   - VPN & Proxy
   - Default
   sourceCode: https://gitlab.torproject.org/tpo/applications/vpn/
-  donate: https://donate.torproject.org/
+  donate:
+  - https://donate.torproject.org/
   issueTracker: https://gitlab.torproject.org/tpo/applications/vpn/-/issues/
+  iconPath: "/org.torproject.vpn/en-US/icon.png"
   iconUrl: "/assets/images/apps/org.torproject.vpn.png"
   slug: tor-vpn
+- packageName: se.leap.riseupvpn
+  webSite: https://riseup.net/
+  description: |-
+    RiseupVPN is an application to provide easy and secure encrypted communication.
+    The app is a custom branded build of https://f-droid.org/packages/se.leap.bitmaskclient. This version is
+    preconfigured with one trusted provider—the Riseup collective—and allows
+    anonymous VPN usage without any manual setup.
+
+    By encrypting and securely routing all your network traffic through Riseup’s
+    servers, RiseupVPN is able to prevent many forms of censorship and surveillance.
+  name: Riseup VPN
+  summary: Secure VPN powered by Bitmask
+  icon: icon.png
+  license: GPL-3.0-only
+  categories:
+  - Internet
+  - Security
+  - Default
+  sourceCode: https://0xacab.org/leap/bitmask_android
+  donate:
+  - https://riseup.net/vpn/donate
+  issueTracker: https://0xacab.org/leap/bitmask_android/issues
+  iconPath: "/se.leap.riseupvpn/en-US/icon.png"
+  iconUrl: "/assets/images/apps/se.leap.riseupvpn.png"
+  slug: riseup-vpn

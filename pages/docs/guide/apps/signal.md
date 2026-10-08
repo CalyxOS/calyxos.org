@@ -1,6 +1,6 @@
 ---
-title: Signal
-description: Signal Private Messenger
+title: "Signal"
+description: "Signal Private Messenger"
 icon: /assets/images/apps/org.thoughtcrime.securesms.png
 autolink: true
 ---
