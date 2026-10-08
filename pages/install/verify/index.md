@@ -128,7 +128,7 @@ Factory images from July 2021 - July 2025 are signed using [minisign](https://je
 
 **Verify:**
 
-1. Download the factory image and signature files from our [image archive](https://calyxos.org/get/factory/)
+1. Download the factory image and signature files
 2. Download the public key: [minisign.pub](https://release.calyxinstitute.org/minisign.pub)
 3. Place all 3 files in the same folder and run:
 
