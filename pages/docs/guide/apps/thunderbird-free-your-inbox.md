@@ -1,5 +1,5 @@
 ---
-title: Thunderbird: Free Your Inbox
+title: "Thunderbird: Free Your Inbox"
 description: Thunderbird is a 100% open source, privacy focused email app.
 icon: /assets/images/apps/net.thunderbird.android.png
 autolink: true
@@ -11,5 +11,3 @@ autolink: true
 <a class="btn" href="https://mzla.link/supportTfA">Donate</a>
 <a class="btn" href="https://github.com/thunderbird/thunderbird-android/issues">Report a Bug</a>
 </div>
-
-
