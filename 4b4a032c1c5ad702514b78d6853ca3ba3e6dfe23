@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5df08fe7_a860962b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-10-09T17:06:09Z",
+      "side": 1,
+      "message": "These changes fix the issue:\nhttps://review.calyxos.org/c/CalyxOS/calyxos.org/+/49570\nhttps://review.calyxos.org/c/CalyxOS/calyxos.org/+/49571\nhttps://review.calyxos.org/c/CalyxOS/calyxos.org/+/49572",
+      "revId": "4b4a032c1c5ad702514b78d6853ca3ba3e6dfe23",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
