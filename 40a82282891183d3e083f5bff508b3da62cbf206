@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "18d42fc8_d415791a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-10-09T17:05:07Z",
+      "side": 1,
+      "message": "This page is auto generated, this chain of changes fixes it: https://review.calyxos.org/c/CalyxOS/calyxos.org/+/49580/",
+      "revId": "40a82282891183d3e083f5bff508b3da62cbf206",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
