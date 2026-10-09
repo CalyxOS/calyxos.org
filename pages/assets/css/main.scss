@@ -4,19 +4,19 @@
 # All other SASS & CSS is in the `pages/_sass` directory
 ---
 
+@use "variables.scss";
+@use "design-system/css/style.scss";
+@use "design-system/components/header/css/header-no-js";
+@use "override.scss";
+@use "navigation.scss";
+@use "utility.scss";
+@use "branding.scss";
+@use "highlighter.scss";
+@use "elements.scss";
+@use "footer.scss";
+
 :root {
   --icon-search-url: url({{'/assets/images/icons/search.svg' | relative_url}});
   --icon-close-url: url({{'/assets/images/icons/close.svg' | relative_url}});
   --icon-ddg-url: url({{'/assets/images/logos/duckduckgo.svg' | relative_url}});
 }
-
-@import "variables.scss";
-@import "design-system/css/style.scss";
-@import "design-system/components/header/css/header-no-js";
-@import "override.scss";
-@import "navigation.scss";
-@import "utility.scss";
-@import "branding.scss";
-@import "highlighter.scss";
-@import "elements.scss";
-@import "footer.scss";

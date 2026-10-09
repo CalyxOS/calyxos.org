@@ -1,56 +1,55 @@
-@import "reset";
-@import "variables";
-@import "themes";
-@import "animation";
-@import "icons";
-@import "typography";
+@use "reset";
+@use "variables";
+@use "themes";
+@use "animation";
+@use "icons";
+@use "typography";
 
 /* INPUTS */
 
-@import "../components/inputs/css/inputs";
+@use "../components/inputs/css/inputs";
 
 /* ARTICLE */
 
-@import "../components/article/css/article";
+@use "../components/article/css/article";
 
 /* INTRO  */
 
-@import "../components/intro/css/intro";
-@import "../components/hint/css/hint";
+@use "../components/intro/css/intro";
+@use "../components/hint/css/hint";
 
 /* COMPONENTS  */
 
-@import "../components/tabs/css/tabs";
-@import "../components/filters/css/filters";
-@import "../components/about/css/about";
-@import "../components/buttons/css/links-buttons";
-@import "../components/badge/css/badge";
-@import "../components/notification/css/notification";
-@import "../components/header/css/header";
-@import "../components/footer/css/footer";
-@import "../components/article/css/article";
-@import "../components/statement/css/statement";
-@import "../components/pinned-list/css/pinned-list";
+@use "../components/tabs/css/tabs";
+@use "../components/filters/css/filters";
+@use "../components/about/css/about";
+@use "../components/buttons/css/links-buttons";
+@use "../components/badge/css/badge";
+@use "../components/notification/css/notification";
+@use "../components/header/css/header";
+@use "../components/footer/css/footer";
+@use "../components/statement/css/statement";
+@use "../components/pinned-list/css/pinned-list";
 
 /* LISTS */
 
-@import "../components/content/css/content";
-@import "../components/content/css/tertiary";
-@import "../components/content/css/primary";
+@use "../components/content/css/content";
+@use "../components/content/css/tertiary";
+@use "../components/content/css/primary";
 
 /* BASE */
 
-@import "base";
-@import "firefox";
+@use "base";
+@use "firefox";
 
 /* TABLE  */
 
-@import "../components/table/css/table";
+@use "../components/table/css/table";
 
 /* CHAT  */
 
-@import "../components/chat/css/chat";
+@use "../components/chat/css/chat";
 
 /* BUILDER  */
 
-@import "../builder/css/builder";
+@use "../builder/css/builder";

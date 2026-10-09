@@ -45,7 +45,7 @@ rm -rf /
 *********************************************************/
 
 // preview options at http://jwarby.github.io/jekyll-pygments-themes/
-@import "pygments/native";
+@use "pygments/native";
 
 // somewhere the color for <code> has been messed up and the pygments
 // color is not being applied correctly, so we just manually set it here.
