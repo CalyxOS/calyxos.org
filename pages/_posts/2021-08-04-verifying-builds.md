@@ -14,7 +14,7 @@ Why minisign? It's dead simple, easy to use, works well with large files, and ca
 
 Signatures:
 
-You can now see a new Signature column next to the download link at [[get]]
+You can now see a new Signature column next to the download link at [[install]]
 
 You need to download both the factory zip, and the signature file (.minisig)
 You'll also need the public key, [minisign.pub](https://release.calyxinstitute.org/minisign.pub)

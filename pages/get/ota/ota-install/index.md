@@ -5,7 +5,7 @@ title: Install OTA
 These are instructions to install the OTA updates that are usually delivered directly to your device.
 
 <div class="alert alert-info" markdown="0">
-Note: If you're installing CalyxOS for the first time, you should [[get the factory image instead => get]] and follow the factory image [[installation instructions => install]].
+Note: If you're installing CalyxOS for the first time, you should follow the factory image [[installation instructions => install]].
 </div>
 
 Installation process:

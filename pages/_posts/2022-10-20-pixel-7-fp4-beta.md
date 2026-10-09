@@ -5,7 +5,7 @@ date: 2022-10-20
 
 CalyxOS 4.2 - Android 13 is now available for Pixel 7, 7 Pro and also the Fairphone 4.
 
-Installation instructions and factory image links are available under [[get]].
+Installation instructions and factory image links are available under [[install]].
 
 ## Devices
 

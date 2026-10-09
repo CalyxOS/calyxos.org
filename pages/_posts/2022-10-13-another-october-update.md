@@ -5,7 +5,7 @@ date: 2022-10-13
 
 CalyxOS 4.2 - Android 13 is now available for the Google supported Pixels, i.e. Pixel 4 - 6a, and the Fairphone 4
 
-It's in the stable channel so all your devices should be getting the update. Factory image links are available under [[get]].
+It's in the stable channel so all your devices should be getting the update. Factory image links are available under [[install]].
 
 We will be supporting the Pixel 7 and 7 Pro. We have started receiving phones, and are waiting for the source code.
 
