@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/tokay/16/tokay-factory-260720520.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/tokay/17/tokay-factory-260800421.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 9 (tokay)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/tokay/16/tokay-factory-260720520.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/tokay/17/tokay-factory-260800421.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `eec93ecb6e3dfb7d0f98b6f6ef8f4d05bedbf2ce812fab57ad9cd3d29986d626`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `480c2953c6574097dab4030b403a476bc01358e054a1f779c9eaa2afeed6f05f`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 

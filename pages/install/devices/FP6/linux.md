@@ -1,10 +1,10 @@
 ---
-title: Install on The Fairphone (Gen. 6) (beta)
+title: Install on The Fairphone (Gen. 6)
 description: From a Linux computer
 toc: true
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/FP6/">The Fairphone (Gen. 6) (beta)</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/FP6/">The Fairphone (Gen. 6)</a></strong>
 
 
 
@@ -47,10 +47,10 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/FP6/16/FP6-factory-260720520.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/FP6/17/FP6-factory-260800422.zip">Download CalyxOS Image</a>
 
 
-Save this image in the same directory as device-flasher. This image will **only** work for **The Fairphone (Gen. 6) (beta) (FP6)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
+Save this image in the same directory as device-flasher. This image will **only** work for **The Fairphone (Gen. 6) (FP6)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
 
 Do not extract or rename the zip, simply copy it as-is.
 
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/FP6/16/FP6-factory-260720520.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/FP6/17/FP6-factory-260800422.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `7d8c2b60704d9745e4581674f2912142d7a09b18f3c362c979c96459e64dede0`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `6659f1325e02352e7f1e4bd3dbda285fa1cd919146d7293867b85231765da4da`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 

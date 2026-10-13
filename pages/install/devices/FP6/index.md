@@ -1,8 +1,8 @@
 ---
-title: Install on The Fairphone (Gen. 6) (beta)
+title: Install on The Fairphone (Gen. 6)
 ---
 
-<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/FP6/">The Fairphone (Gen. 6) (beta)</a></strong>
+<strong>[[Install => install]]</strong> / <strong><a href="/install/devices/FP6/">The Fairphone (Gen. 6)</a></strong>
 
 
 <div class="gallery" markdown=0>

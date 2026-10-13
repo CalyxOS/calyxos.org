@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/komodo/16/komodo-factory-260720520.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/komodo/17/komodo-factory-260800421.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 9 Pro XL (komodo)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/komodo/16/komodo-factory-260720520.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/komodo/17/komodo-factory-260800421.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `3ef2e8d21b6b1a39d705f2431434ab5fcc71e388ca91e78de5e3a5794b51c444`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `e4403b9294b9ffe473860501e4379d32e7d55c22968bd0367436ae2edbc2fba0`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 

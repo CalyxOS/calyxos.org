@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/caiman/16/caiman-factory-260720520.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/caiman/17/caiman-factory-260800421.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 9 Pro (caiman)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/caiman/16/caiman-factory-260720520.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/caiman/17/caiman-factory-260800421.zip" | split: "/" | last %}
 {% include install/windows_image_digest.md filename=image %}
 
-And ensure the result says `bf1aca04913ba391330efe7cda49f712319ecd52d663b90711e738f057703220`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `69e7cfdafd26e8a6d01484e52a04c9ef3b13cd0074ffeaac85d86915640ead4f`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 
