@@ -71,7 +71,7 @@ previous_brands:
   - xiaomi
 FP6:
   brand: fairphone
-  model: The Fairphone (Gen. 6) (beta)
+  model: The Fairphone (Gen. 6)
   manufacturer_support_ends: 2033-06
   calyxos_support_ends: tbd
   sim: "dual"
