@@ -126,6 +126,20 @@ stable:
   incremental_sha256: 750f099b7c32aa19c9b9bdf5c78f93e214444271f23755aa174049f4b13bfbe9
   incremental_old_build: '260720450'
   date: '2026-09-09'
+- name: Pixel 10a
+  brand: pixel
+  codename: stallion
+  version: 8.0.4.21
+  android: '17'
+  web_install: true
+  factory_link: https://release.calyxos.org/factory/stallion/17/stallion-factory-260800421.zip
+  factory_sha256: e5bf9759922cd57a1511680584c3953edd136da2a5c6eb34fd43c8ce023094ef
+  ota_link: 
+  ota_sha256: 
+  incremental_link:
+  incremental_sha256: 
+  incremental_old_build:
+  date: '2026-09-09'
 - name: Pixel 9a
   brand: pixel
   codename: tegu

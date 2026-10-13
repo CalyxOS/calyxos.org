@@ -7,15 +7,14 @@ android_versions:
   - 13
   - 11
 upcoming_codenames:
-  - stallion
 upcoming_brands:
-  - pixel
 modern_codenames:
   - FP6
   - FP5
   - fogo
   - bangkk
   - fogos
+  - stallion
   - tegu
   - comet
   - komodo
