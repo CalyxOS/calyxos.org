@@ -79,6 +79,7 @@ After flashing CalyxOS, you can verify the installed build on the device using t
 | moto g52 | rhode | 0x0ACBC290 |
 | moto g42 | hawao | 0x79D64BB8 |
 | moto g32 | devon | 0xEC553410 |
+| Pixel 10a | stallion | 9402c6e3f5fcc0003896f9cc323eb9710cfe6fd525c2c040f3b9eb5e0b51b266 |
 | Pixel 9a | tegu | b23527253f7c37fc4f165a99f7b61bb54d917b11f50c3c7ebdf6a153df84f30b |
 | Pixel 9 Pro Fold | comet | 541b24ef3725a0d77a5f717e23dfd409794774db989f16c2051c4bb69f04665c |
 | Pixel 9 Pro XL | komodo | a013de964c04255353bc923f800efd3fb1f1714c34fce7dcfec1d810c4c5b1a5 |

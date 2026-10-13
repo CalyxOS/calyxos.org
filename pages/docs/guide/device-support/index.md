@@ -17,12 +17,6 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 * [Fairphone](https://support.fairphone.com/hc/en-us/articles/9979180437393-Fairphone-OS)
 * [Motorola](https://en-us.support.motorola.com/app/software-security-update)
 
-#### Upcoming devices
-<table class="table table-striped download">
-<tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>
-<tr><td> Pixel 10a </td><td> March 2033* </td><td> March 2033* </td></tr>
-</table>
-
 #### Modern devices
 <table class="table table-striped download">
 <tr><th> Device(s) </th><th> OS upgrades </th><th> Security updates </th></tr>
@@ -31,6 +25,7 @@ CalyxOS utilizes [Verified Boot](https://source.android.com/security/verifiedboo
 <tr><td> Motorola moto g 5G - 2024 </td><td> Android 16* </td><td> March 2027* </td></tr>
 <tr><td> Motorola moto g84 5G </td><td> Android 16* </td><td> December 2026* </td></tr>
 <tr><td> Motorola moto g34 5G, g45 5G </td><td> Android 16* </td><td> January 2027* </td></tr>
+<tr><td> Pixel 10a </td><td> March 2033* </td><td> March 2033* </td></tr>
 <tr><td> Pixel 9a </td><td> April 2032 </td><td> April 2032 </td></tr>
 <tr><td> Pixel 9, 9 Pro, 9 Pro XL, 9 Pro Fold </td><td> August 2031 </td><td> August 2031 </td></tr>
 <tr><td> Pixel 8a </td><td> May 2031 </td><td> May 2031 </td></tr>

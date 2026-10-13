@@ -79,6 +79,7 @@ CalyxOS uses microG, an open-source service, to enable apps and programs that ne
 | moto g52 | physical SIM, dual SIM |
 | moto g42 | physical SIM, dual SIM |
 | moto g32 | physical SIM, dual SIM |
+| Pixel 10a | any eSIM + physical SIM, dual SIM/eSIM |
 | Pixel 9a | any eSIM + physical SIM, dual SIM/eSIM |
 | Pixel 9 Pro Fold | any eSIM + physical SIM, dual SIM/eSIM |
 | Pixel 9 Pro XL | any eSIM + physical SIM, dual SIM/eSIM |
