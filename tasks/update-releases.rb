@@ -67,7 +67,7 @@ module Releases
     end
 
     def get_version_from(build_number)
-      # https://gitlab.com/CalyxOS/vendor_calyx/-/blob/android16-qpr2/config/version.mk
+      # https://gitlab.com/CalyxOS/vendor_calyx/-/blob/android17/config/version.mk
       major = ( build_number % 1000000 ) / 100000
       qpr = ( build_number % 100000 ) / 10000
       month = ( build_number % 1000 ) / 100
@@ -76,9 +76,11 @@ module Releases
     end
 
     def get_android_from(build_number)
-      # https://gitlab.com/CalyxOS/vendor_calyx/-/blob/android16-qpr2/config/version.mk
+      # https://gitlab.com/CalyxOS/vendor_calyx/-/blob/android17/config/version.mk
       major = ( build_number % 1000000 ) / 100000
       case major
+      when 8
+        return "17"
       when 7
         return "16"
       else
