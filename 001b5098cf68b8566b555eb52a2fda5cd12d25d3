@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e3e02c4_529fb0b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-10-13T18:59:28Z",
+      "side": 1,
+      "message": "I\u0027d suggest replacing the 404 link with the archive link since it is available; https://web.archive.org/web/20220801114112/https://hub.libranet.de/wiki/and-priv-sec/wiki/verified-boot#OnePlus#OnePlus",
+      "revId": "001b5098cf68b8566b555eb52a2fda5cd12d25d3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
