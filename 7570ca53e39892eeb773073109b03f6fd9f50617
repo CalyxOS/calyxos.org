@@ -22,6 +22,30 @@
       },
       "revId": "7570ca53e39892eeb773073109b03f6fd9f50617",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd8699a1_54b5e564",
+        "filename": "pages/install/verify/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-10-13T21:07:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7020969f_f8cc2fa0",
+      "range": {
+        "startLine": 82,
+        "startChar": 23,
+        "endLine": 82,
+        "endChar": 26
+      },
+      "revId": "7570ca53e39892eeb773073109b03f6fd9f50617",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
