@@ -1,4 +1,4 @@
-### MacOS Settings
+### macOS Settings
 
 As a safety measure, your computer probably has Gategeeker enabled in order to prevent you from running unknown software like device-flasher.
 
