@@ -91,6 +91,14 @@ Press a **volume key** to select **UNLOCK THE BOOTLOADER** option. Then press th
 {% include {{site.data.install.panther.unlock_notes}} %}
 {% endif %}
 
+### Lock the bootloader
+
+CalyxOS is designed to run with a locked bootloader. We support Verified Boot with a custom key, on all of our supported devices. At the end of the process, device-flasher will prompt you to relock the bootloader, and the instructions are the same as unlocking.
+
+Modifying the system in any way before relocking can cause a brick to your device, for that reason, we do not support rooting or any other sort of system modification.
+
+NOTE: some devices like Fairphones may have the device-flasher stuck after relocking, this is normal, and is due to the fact they will restart after unlocking, and device-flasher won't be able to check if it is indeed relocked. You can close it without issues.
+
 ### Success?
 
 Once device-flasher is finished, you should now have a fully functional CalyxOS device. If not, please see our [[community]] page for where you can post your questions.
