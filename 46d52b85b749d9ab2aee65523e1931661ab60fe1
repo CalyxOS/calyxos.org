@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5416b90a_f9e991b8",
+        "filename": "pages/docs/guide/security/bootloader-lock.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-10-20T15:16:20Z",
+      "side": 1,
+      "message": "This message is originally meant to reference when someone sees the bootloader unlocked message in the setup wizard, not the installation\n\nThe flasher warnings point to the specific pages for the device instead",
+      "revId": "46d52b85b749d9ab2aee65523e1931661ab60fe1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "646b4129_001e6c60",
+        "filename": "pages/docs/guide/security/bootloader-lock.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-10-20T15:16:20Z",
+      "side": 1,
+      "message": "/seedvault/ doesn\u0027t go anywhere",
+      "revId": "46d52b85b749d9ab2aee65523e1931661ab60fe1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fddd7add_f96424f4",
+        "filename": "pages/docs/guide/security/bootloader-lock.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-10-20T15:16:20Z",
+      "side": 1,
+      "message": "\"Prompt instructions\" sounds a little weird to me? Why not \"relocking instructions\"?",
+      "revId": "46d52b85b749d9ab2aee65523e1931661ab60fe1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
