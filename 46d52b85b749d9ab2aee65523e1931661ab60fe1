@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b49e244_8b9ed99e",
+        "filename": "pages/docs/guide/security/bootloader-lock.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-10-20T19:12:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5416b90a_f9e991b8",
+      "revId": "46d52b85b749d9ab2aee65523e1931661ab60fe1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "646b4129_001e6c60",
@@ -35,6 +53,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe5e3a7a_4a998e32",
+        "filename": "pages/docs/guide/security/bootloader-lock.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-10-20T19:12:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "646b4129_001e6c60",
+      "revId": "46d52b85b749d9ab2aee65523e1931661ab60fe1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fddd7add_f96424f4",
@@ -48,6 +84,24 @@
       "writtenOn": "2026-10-20T15:16:20Z",
       "side": 1,
       "message": "\"Prompt instructions\" sounds a little weird to me? Why not \"relocking instructions\"?",
+      "revId": "46d52b85b749d9ab2aee65523e1931661ab60fe1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4829ab94_a98fded7",
+        "filename": "pages/docs/guide/security/bootloader-lock.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-10-20T19:12:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fddd7add_f96424f4",
       "revId": "46d52b85b749d9ab2aee65523e1931661ab60fe1",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
