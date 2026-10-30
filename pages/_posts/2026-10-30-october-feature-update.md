@@ -1,10 +1,10 @@
 ---
-title: CalyxOS 8.0.4.50 - October 2026 Feature update, with new CalyxOS App Updater
+title: October 2026 Feature update, with the new CalyxOS App Updater
 date: 2026-10-30
 ---
 
 * CalyxOS 8.0.4.50 available for all supported devices
-* This release introduces CalyxOS App Updater, which allows system apps such as Chromium and microG to be updated without waiting for a full system update
+* This release introduces the CalyxOS App Updater, which enables system apps such as Chromium and microG to be updated without waiting for a full system update
 * Compromised eMudhra certificate authorities (CAs) have been removed and added to the system blocklist
 
 ## Rollout
