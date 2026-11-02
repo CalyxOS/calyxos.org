@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/cheetah/17/cheetah-factory-260800421.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/cheetah/17/cheetah-factory-260800450.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 7 Pro (cheetah)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/cheetah/17/cheetah-factory-260800421.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/cheetah/17/cheetah-factory-260800450.zip" | split: "/" | last %}
 {% include install/mac_image_digest.md filename=image %}
 
-And ensure the result says `6364fb23e09697e57d7c2cedec0392adefebde1a1c07de4f2615b6c676550872`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `7d3dd31e828c70eed5f8a35d8e79f87684874b65dd4fdf3bf609dba1e53675ac`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 

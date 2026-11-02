@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/stallion/17/stallion-factory-260800421.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/stallion/17/stallion-factory-260800450.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 10a (stallion)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/stallion/17/stallion-factory-260800421.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/stallion/17/stallion-factory-260800450.zip" | split: "/" | last %}
 {% include install/mac_image_digest.md filename=image %}
 
-And ensure the result says `e5bf9759922cd57a1511680584c3953edd136da2a5c6eb34fd43c8ce023094ef`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `3f6d6548a422d8673bfd72e26b07a9ea6164cc2e08430b220fecfebf4064d440`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 
