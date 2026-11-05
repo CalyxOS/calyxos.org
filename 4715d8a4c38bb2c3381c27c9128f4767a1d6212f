@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5d64f390_eddc3675",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-11-05T23:43:05Z",
+      "side": 1,
+      "message": "Scheduled to be public on Monday, Nov 9.",
+      "revId": "4715d8a4c38bb2c3381c27c9128f4767a1d6212f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
