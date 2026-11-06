@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e5a5392_831ccd65",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-11-06T19:32:42Z",
+      "side": 1,
+      "message": "Might as well replace this with fdroid.calyxos.org which is used in lupin updater",
+      "revId": "f15e918f3c5e6d49a11e4a69ab240e90ce7cfd42",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
