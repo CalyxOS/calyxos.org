@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "711fb879_16ce6635",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-11-09T19:58:55Z",
+      "side": 1,
+      "message": "What does this comment have to do with this change?",
+      "parentUuid": "d946d324_3779fab3",
+      "revId": "b69c9c3b7ee85944eff2166cf684cc97a7534b2d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "5c409402_b14c9687",
