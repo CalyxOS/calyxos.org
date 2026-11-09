@@ -20,6 +20,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "59f46a09_e3af1787",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000235
+      },
+      "writtenOn": "2026-11-09T19:43:13Z",
+      "side": 1,
+      "message": "```suggestion\n* An official introduction to the our web installer, an easier way to get CalyxOS on your device\n```",
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "843047f5_916b2953",
         "filename": "pages/_posts/2026-11-09-community-update.md",
         "patchSetId": 2
@@ -37,6 +54,81 @@
         "endLine": 14,
         "endChar": 178
       },
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7b20597e_5ed96512",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000235
+      },
+      "writtenOn": "2026-11-09T19:43:13Z",
+      "side": 1,
+      "message": "Should also be \u0027web installer\u0027 not Web Installer",
+      "parentUuid": "843047f5_916b2953",
+      "range": {
+        "startLine": 14,
+        "startChar": 174,
+        "endLine": 14,
+        "endChar": 178
+      },
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "50a748af_1280e398",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000235
+      },
+      "writtenOn": "2026-11-09T19:43:13Z",
+      "side": 1,
+      "message": "```suggestion\nWe built the web installer so that you don\u0027t have to deal with command lines and verifying downloads yourself to get CalyxOS up and running; instead you can simply install CalyxOS directly from your browser. We are working to expand the use  to all CalyxOS supported devices, but for now only Motorola and Pixel are supported. Supported by any that support WebUSB like Microsoft Edge, Chrome, Brave, and other Chromium-based browsers.\n```",
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "39386c2b_34f62eb9",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000235
+      },
+      "writtenOn": "2026-11-09T19:43:13Z",
+      "side": 1,
+      "message": "```suggestion\nTo get started, [check if CalyxOS supports your device](/install/). When you find your device, click to see all installation methods. If the installer is available, its button will be listed at the top and reads \"Install from Browser (recommended).\" All you need is a good USB cable and \"OEM unlocking\" enabled on your device. The installer then guides you through each key step, from downloading the latest stable CalyxOS version, installing, and then relocking the bootloader. Why relock the bootloader? It prevents the operating system (OS) from being tampered with, without you knowing.\n```",
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "282ada29_c9e8c5a2",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000235
+      },
+      "writtenOn": "2026-11-09T19:43:13Z",
+      "side": 1,
+      "message": "```suggestion\nOne of the most popular questions we hear these days is \"What is your plan going forward?\" Here we will share what is in the works and what we have planned for the next few months:\n```",
       "revId": "c400484630be8389df99b4f385a5ea556930d249",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
