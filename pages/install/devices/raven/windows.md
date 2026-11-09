@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/raven/17/raven-factory-260800450.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/raven/17/raven-factory-260800520.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **Pixel 6 Pro (raven)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/raven/17/raven-factory-260800450.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/raven/17/raven-factory-260800520.zip" | split: "/" | last %}
 {% include install/windows_image_digest.md filename=image %}
 
-And ensure the result says `782338aa6e4242613b5fdd5b8e49af05599827235f241ec94ef9147c30a4f3e6`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `afe48ebf2b49141755cf79ac8fa9947e7ba65f88f8a0abfb87dba41a1a63baeb`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 

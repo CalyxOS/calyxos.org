@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/rhode/17/rhode-factory-260800450.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/rhode/17/rhode-factory-260800520.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **moto g52 (rhode)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/rhode/17/rhode-factory-260800450.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/rhode/17/rhode-factory-260800520.zip" | split: "/" | last %}
 {% include install/windows_image_digest.md filename=image %}
 
-And ensure the result says `0a78e9308a021b74cbb972bd347b1300b2d080c46263f1ad36c7f41b8974f2e1`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `53576662754290de82cd90c20ead0e722e0141d385fb596e4e9c72f4ea9008bd`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 

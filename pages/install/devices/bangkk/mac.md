@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/bangkk/17/bangkk-factory-260800450.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/bangkk/17/bangkk-factory-260800520.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **moto g84 5G (bangkk)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/bangkk/17/bangkk-factory-260800450.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/bangkk/17/bangkk-factory-260800520.zip" | split: "/" | last %}
 {% include install/mac_image_digest.md filename=image %}
 
-And ensure the result says `4624cde1605c2ae398ef3bba97e7e7238705c8330131bb503cdc4cbc83e1428b`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `03bd8731d2a6ca9ef418920f40f930d1721d2c798ad4c89661d07f4e4a3f098f`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 

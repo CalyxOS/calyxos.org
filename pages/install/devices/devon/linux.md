@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/devon/17/devon-factory-260800450.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/devon/17/devon-factory-260800520.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **moto g32 (devon)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/devon/17/devon-factory-260800450.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/devon/17/devon-factory-260800520.zip" | split: "/" | last %}
 {% include install/linux_image_digest.md filename=image %}
 
-And ensure the result says `7633317a1549e9cdba4f13ea6cf3b787bb50be3ae8bd3824c2add89a21025c13`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `236ceea9bb1ea15614e33f7a3ff93d3aa025cde301819b56da86540c6a90f6aa`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 
