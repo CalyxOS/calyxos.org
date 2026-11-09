@@ -1,0 +1,159 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "15b7d2da_45516dc1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-09T19:16:44Z",
+      "side": 1,
+      "message": "Removed some trailing spaces and added a few edits.",
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "843047f5_916b2953",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-09T19:16:44Z",
+      "side": 1,
+      "message": "```suggestion\nWe rolled out CalyxOS 8 to all supported devices in the beginning of October. You may have read the details in our regular release posts. If not, you can find the highlights [here](https://calyxos.org/news/2026/10/01/android-17-is-here/). Changes include substantial updates to our device-flasher and our Web Installer is now much easier to use and can accommodate an expanded set of devices.\n```",
+      "range": {
+        "startLine": 14,
+        "startChar": 174,
+        "endLine": 14,
+        "endChar": 178
+      },
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a7b7b150_303b2ee4",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-09T19:16:44Z",
+      "side": 1,
+      "message": "```suggestion\nNext up is the Pixel QPR1 update. We are currently testing the reverse-engineered ports for the Pixel 6, 7, 8, and 9 series. The platform codebase will remain on the initial Android 17 release as QPR1 is not officially on AOSP. However, this means we will be able to use the latest proprietary components on these devices rather than relying on older ones. Please keep an eye on our [CalyxOS Testers Matrix channel](https://matrix.to/#/#calyxos-testers:matrix.org) if you are interested in testing out these images!\n```",
+      "range": {
+        "startLine": 34,
+        "startChar": 63,
+        "endLine": 34,
+        "endChar": 68
+      },
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ce253bac_ec447f0b",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-09T19:16:44Z",
+      "side": 1,
+      "message": "```suggestion\n* **Panic button**: the old panic button shipped in CalyxOS 6 was built on [Ripple](https://guardianproject.info/apps/info.guardianproject.ripple/), an app that is longer actively maintained. In July, we decided to temporarily remove this feature while we explored our community\u0027s needs and use cases in emergency situations. Since then, we have run UX research workshops and are redesigning it as a quick, reliable trigger for when you need to urgently hide or remove sensitive data, apps, and files.\n```",
+      "range": {
+        "startLine": 38,
+        "startChar": 424,
+        "endLine": 38,
+        "endChar": 427
+      },
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f6972d8_dec3f09d",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-09T19:16:44Z",
+      "side": 1,
+      "message": "```suggestion\n* **CalyxOS App Updater**: this is our updater for key system apps such as CalyxOS Chromium (and its components such as Trichrome library and WebView) and microG. These apps are built and signed with our HSM-backed Calyx keys. The Lupin Updater allows us to ship updates straight to you without waiting for a full OS release so you can get faster and automatic security fixes for the apps you rely on the most.\n```",
+      "range": {
+        "startLine": 42,
+        "startChar": 329,
+        "endLine": 42,
+        "endChar": 332
+      },
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0f38e13c_b2f52c21",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-09T19:16:44Z",
+      "side": 1,
+      "message": "```suggestion\n* **CalyxOS Chromium**: in the coming months, we plan to roll out staged updates that bring back several critical security and privacy features to our browser that we temporarily removed due to team capacity. As mentioned above, the updates will be delivered through the App Updater.\n```",
+      "range": {
+        "startLine": 44,
+        "startChar": 144,
+        "endLine": 44,
+        "endChar": 160
+      },
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "00965c42_6c128037",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-09T19:16:44Z",
+      "side": 1,
+      "message": "```suggestion\n### CalyxOS Privacy Champion membership\n\nWe also have an exciting news: the Calyx team is working hard to bring back the CalyxOS Privacy Champion membership. By donating and becoming a CalyxOS Privacy Champion, you can support our work building accessible privacy and security tools. New people signing up for this membership will receive a Pixel 10a with CalyxOS pre-installed! Stay tuned for more updates from [calyx.org](https://calyx.org/)!\n```",
+      "range": {
+        "startLine": 64,
+        "startChar": 403,
+        "endLine": 64,
+        "endChar": 404
+      },
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
