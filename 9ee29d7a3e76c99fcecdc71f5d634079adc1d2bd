@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "383538aa_4b5d95f1",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-11-09T20:30:29Z",
+      "side": 1,
+      "message": "Any reason to mention the testers channel here now? Aren\u0027t we just shipping it as a regular beta security-express update now?",
+      "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
