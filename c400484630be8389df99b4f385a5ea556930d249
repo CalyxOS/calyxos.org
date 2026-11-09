@@ -106,6 +106,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "04fb5045_0c6dd92d",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-11-09T20:21:54Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "50fd7ba4_b70168b0",
+      "range": {
+        "startLine": 14,
+        "startChar": 174,
+        "endLine": 14,
+        "endChar": 178
+      },
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "50a748af_1280e398",
@@ -198,6 +222,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e08739c_68c768d9",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-11-09T20:21:54Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "a7b7b150_303b2ee4",
+      "range": {
+        "startLine": 34,
+        "startChar": 63,
+        "endLine": 34,
+        "endChar": 68
+      },
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ce253bac_ec447f0b",
@@ -211,6 +259,30 @@
       "writtenOn": "2026-11-09T19:16:44Z",
       "side": 1,
       "message": "```suggestion\n* **Panic button**: the old panic button shipped in CalyxOS 6 was built on [Ripple](https://guardianproject.info/apps/info.guardianproject.ripple/), an app that is longer actively maintained. In July, we decided to temporarily remove this feature while we explored our community\u0027s needs and use cases in emergency situations. Since then, we have run UX research workshops and are redesigning it as a quick, reliable trigger for when you need to urgently hide or remove sensitive data, apps, and files.\n```",
+      "range": {
+        "startLine": 38,
+        "startChar": 424,
+        "endLine": 38,
+        "endChar": 427
+      },
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b675f93_f489ebcc",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-11-09T20:21:54Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "ce253bac_ec447f0b",
       "range": {
         "startLine": 38,
         "startChar": 424,
@@ -244,6 +316,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4729d71b_34c00e98",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-11-09T20:21:54Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "1f6972d8_dec3f09d",
+      "range": {
+        "startLine": 42,
+        "startChar": 329,
+        "endLine": 42,
+        "endChar": 332
+      },
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0f38e13c_b2f52c21",
@@ -267,6 +363,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "76d00e6b_5a15d04f",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-11-09T20:21:54Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "0f38e13c_b2f52c21",
+      "range": {
+        "startLine": 44,
+        "startChar": 144,
+        "endLine": 44,
+        "endChar": 160
+      },
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "00965c42_6c128037",
@@ -280,6 +400,30 @@
       "writtenOn": "2026-11-09T19:16:44Z",
       "side": 1,
       "message": "```suggestion\n### CalyxOS Privacy Champion membership\n\nWe also have an exciting news: the Calyx team is working hard to bring back the CalyxOS Privacy Champion membership. By donating and becoming a CalyxOS Privacy Champion, you can support our work building accessible privacy and security tools. New people signing up for this membership will receive a Pixel 10a with CalyxOS pre-installed! Stay tuned for more updates from [calyx.org](https://calyx.org/)!\n```",
+      "range": {
+        "startLine": 64,
+        "startChar": 403,
+        "endLine": 64,
+        "endChar": 404
+      },
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e6ba793_a2b6414e",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-11-09T20:21:54Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "00965c42_6c128037",
       "range": {
         "startLine": 64,
         "startChar": 403,
