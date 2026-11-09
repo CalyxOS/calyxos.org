@@ -3,6 +3,23 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "d946d324_3779fab3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-09T16:22:48Z",
+      "side": 1,
+      "message": "I have incorporated the steps listed here and also included the wireless set up steps in another change: https://review.calyxos.org/c/CalyxOS/calyxos.org/+/38690\n\nNote that I did exclude the stub links as those are not uploaded nor maintained by our team, stopping at explaining what stubs are and how they work (or don\u0027t).",
+      "revId": "b69c9c3b7ee85944eff2166cf684cc97a7534b2d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "5c409402_b14c9687",
         "filename": "pages/docs/guide/device-support/index.md",
         "patchSetId": 1
