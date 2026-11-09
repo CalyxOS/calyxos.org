@@ -84,6 +84,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "50fd7ba4_b70168b0",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-11-09T20:19:31Z",
+      "side": 1,
+      "message": "We use \"CalyxOS Web Installer\" as the branded name for this tool. The short version is Web Installer. That\u0027s why it\u0027s capitalized.",
+      "parentUuid": "7b20597e_5ed96512",
+      "range": {
+        "startLine": 14,
+        "startChar": 174,
+        "endLine": 14,
+        "endChar": 178
+      },
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "50a748af_1280e398",
         "filename": "pages/_posts/2026-11-09-community-update.md",
         "patchSetId": 2
@@ -129,6 +153,24 @@
       "writtenOn": "2026-11-09T19:43:13Z",
       "side": 1,
       "message": "```suggestion\nOne of the most popular questions we hear these days is \"What is your plan going forward?\" Here we will share what is in the works and what we have planned for the next few months:\n```",
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b07c976_bdb1c2ab",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-11-09T20:19:31Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "282ada29_c9e8c5a2",
       "revId": "c400484630be8389df99b4f385a5ea556930d249",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
