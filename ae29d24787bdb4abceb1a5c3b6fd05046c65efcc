@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "744cd486_2a823e85",
+        "filename": "pages/_posts/2026-11-10-november-security-updates.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-11-10T17:17:40Z",
+      "side": 1,
+      "message": "```suggestion\n#### Pixel 6 series and above\n```",
+      "revId": "ae29d24787bdb4abceb1a5c3b6fd05046c65efcc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "af0d6a2d_49216216",
+        "filename": "pages/_posts/2026-11-10-november-security-updates.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-11-10T17:17:40Z",
+      "side": 1,
+      "message": "```suggestion\n#### Pixel 8 series and above\n```",
+      "revId": "ae29d24787bdb4abceb1a5c3b6fd05046c65efcc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
