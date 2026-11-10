@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c8799155_65a371dd",
+        "filename": "pages/_posts/2026-11-10-november-security-updates.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-11-10T18:18:45Z",
+      "side": 1,
+      "message": "\"Enabling\" doesn\u0027t necessarily mean the feature has been there but not utilized. But if you want to make it more accurate, can change it to \"Added the swip-down for numbers feature\" or something like that.",
+      "parentUuid": "f25ed02e_8b88f6f5",
+      "revId": "8cc4d8f5ad859243aed81d34a7fdf6e09b8b290d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b42f2ef3_edffa9d4",
         "filename": "pages/_posts/2026-11-10-november-security-updates.md",
         "patchSetId": 6
