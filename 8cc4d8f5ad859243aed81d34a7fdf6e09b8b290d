@@ -36,6 +36,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9034e413_e9127d92",
+        "filename": "pages/_posts/2026-11-10-november-security-updates.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-11-10T18:22:18Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "c8799155_65a371dd",
+      "revId": "8cc4d8f5ad859243aed81d34a7fdf6e09b8b290d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b42f2ef3_edffa9d4",
@@ -71,6 +89,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e02848a_ceb62110",
+        "filename": "pages/_posts/2026-11-10-november-security-updates.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-11-10T18:22:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8a2bd278_19ad6a14",
+      "revId": "8cc4d8f5ad859243aed81d34a7fdf6e09b8b290d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "49f259fb_ef1b6bfa",
@@ -84,6 +120,24 @@
       "writtenOn": "2026-11-10T18:04:12Z",
       "side": 1,
       "message": "Not an existing feature?",
+      "revId": "8cc4d8f5ad859243aed81d34a7fdf6e09b8b290d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83d0dc66_68368f07",
+        "filename": "pages/_posts/2026-11-10-november-security-updates.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-11-10T18:22:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "49f259fb_ef1b6bfa",
       "revId": "8cc4d8f5ad859243aed81d34a7fdf6e09b8b290d",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
