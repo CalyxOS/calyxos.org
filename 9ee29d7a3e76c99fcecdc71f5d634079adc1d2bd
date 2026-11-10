@@ -299,6 +299,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce257b20_9a1abbd2",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-11-10T15:14:33Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "8abfd391_fb31ff13",
+      "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e02c8674_4e01b62a",
