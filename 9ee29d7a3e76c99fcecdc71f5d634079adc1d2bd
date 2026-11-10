@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "74a594e1_deffe84f",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-10T14:57:00Z",
+      "side": 1,
+      "message": "It was mentioned due to when we expected to release this update and this community update but we no longer are planning to do a short user testing period. I updated that section appropriately. Good catch!",
+      "parentUuid": "383538aa_4b5d95f1",
+      "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4dee6751_b15178dc",
         "filename": "pages/_posts/2026-11-09-community-update.md",
         "patchSetId": 3
@@ -65,6 +83,78 @@
       "writtenOn": "2026-11-10T12:50:40Z",
       "side": 1,
       "message": "I don\u0027t remember us deciding about \"files\" at all. Do we have a plan for removing files?",
+      "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ade54d32_c8aa304b",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-10T14:57:00Z",
+      "side": 1,
+      "message": "Files added to Private Space (either with the +/Add button from themain profile) or downloaded directly within the space are deleted when the Private Space is deleted.",
+      "parentUuid": "f488a21f_f49abc92",
+      "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eb1309a1_cd0b52e7",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-10T14:57:00Z",
+      "side": 1,
+      "message": "Deleting Private Space deletes all files in it whether those were manually transferred into it from the main profile (with the Add + button) or that were downloaded directly within the space.",
+      "parentUuid": "f488a21f_f49abc92",
+      "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9fe6ade_c077ab30",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-10T14:57:00Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "0207ca71_6f748bdf",
+      "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2720f42c_2e7361e0",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-10T14:57:00Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "4dee6751_b15178dc",
       "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -122,6 +212,60 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0a9647d6_6764cbd3",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-10T14:57:00Z",
+      "side": 1,
+      "message": "Trichrome Library and Webview come up in the push notifications (along with Chromium) when those apps are updated; mentioning them here along with their relation to Chromium is intentional since their names are now user-facing.",
+      "parentUuid": "cfd26c3b_f49dcc69",
+      "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1165419b_6ff34b2e",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-10T14:57:00Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "d2297066_50202b4b",
+      "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64906611_2e6d9bdd",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-10T14:57:00Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "1fa7d2a7_7958dbe5",
+      "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d5c85c44_2c2c437b",
         "filename": "pages/_posts/2026-11-09-community-update.md",
         "patchSetId": 3
@@ -139,6 +283,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8abfd391_fb31ff13",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-10T14:57:00Z",
+      "side": 1,
+      "message": "That is the official device name for the US release Fairphone device which Nick has tested and confirmed works with very minimal work to the already supported FP6: https://www.fairphone.com/the-fairphone-gen-6-plus",
+      "parentUuid": "d5c85c44_2c2c437b",
+      "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e02c8674_4e01b62a",
         "filename": "pages/_posts/2026-11-09-community-update.md",
         "patchSetId": 3
@@ -150,6 +312,24 @@
       "writtenOn": "2026-11-10T12:50:40Z",
       "side": 1,
       "message": "Should we manage that Nick is a long-time LineageOS developer?",
+      "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76ec2bc5_a210c52c",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-10T14:57:00Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "e02c8674_4e01b62a",
       "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }

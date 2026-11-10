@@ -35,6 +35,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2d912fb7_ef505910",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-10T14:57:00Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "59f46a09_e3af1787",
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "843047f5_916b2953",
@@ -147,6 +165,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "29ad600b_3aaee90f",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-10T14:57:00Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "50a748af_1280e398",
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "39386c2b_34f62eb9",
@@ -160,6 +196,24 @@
       "writtenOn": "2026-11-09T19:43:13Z",
       "side": 1,
       "message": "```suggestion\nTo get started, [check if CalyxOS supports your device](/install/). When you find your device, click to see all installation methods. If the installer is available, its button will be listed at the top and reads \"Install from Browser (recommended).\" All you need is a good USB cable and \"OEM unlocking\" enabled on your device. The installer then guides you through each key step, from downloading the latest stable CalyxOS version, installing, and then relocking the bootloader. Why relock the bootloader? It prevents the operating system (OS) from being tampered with, without you knowing.\n```",
+      "revId": "c400484630be8389df99b4f385a5ea556930d249",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f2539f25_fb800f3a",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-11-10T14:57:00Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "39386c2b_34f62eb9",
       "revId": "c400484630be8389df99b4f385a5ea556930d249",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
