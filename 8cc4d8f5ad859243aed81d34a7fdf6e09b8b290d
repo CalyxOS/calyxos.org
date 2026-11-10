@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8a2bd278_19ad6a14",
+        "filename": "pages/_posts/2026-11-10-november-security-updates.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-11-10T18:08:50Z",
+      "side": 1,
+      "message": "The \u0027account login\u0027 here is specific to when you connect your google account with an app, not with logging in to microG, not sure how we could call that",
+      "parentUuid": "b42f2ef3_edffa9d4",
+      "revId": "8cc4d8f5ad859243aed81d34a7fdf6e09b8b290d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "49f259fb_ef1b6bfa",
         "filename": "pages/_posts/2026-11-10-november-security-updates.md",
         "patchSetId": 6
