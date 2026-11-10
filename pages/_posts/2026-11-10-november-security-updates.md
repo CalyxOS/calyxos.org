@@ -8,6 +8,7 @@ date: 2026-11-10
 * Fixed microG crashes in map apps and issues with account logins
 
 ## Rollout
+
 | Version | Release channel | Date |
 | ------- | --------------- | ---- |
 | 8.0.5.20 | Security express | 6 November, Friday |
