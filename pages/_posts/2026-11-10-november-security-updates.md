@@ -13,8 +13,10 @@ date: 2026-11-10
 | --------| --------------- | ---- |
 | 8.0.5.20 | Security express | 6 November, Friday |
 | 8.0.5.20 | Stable | 9 November, Monday |
-| 8.0.5.21 | Beta | 10 November, Tuesday |
+| 8.0.5.21 | Beta, Security express* | 10 November, Tuesday |
 | 8.0.5.21 | Stable | 12 November, Thursday |
+
+*8.0.5.21 has both security patches and feature updates. It will be released to both early release channels.
 
 ### CalyxOS 8.0.5.20
 #### Changelog
