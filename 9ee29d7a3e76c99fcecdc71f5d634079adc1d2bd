@@ -16,6 +16,142 @@
       "message": "Any reason to mention the testers channel here now? Aren\u0027t we just shipping it as a regular beta security-express update now?",
       "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4dee6751_b15178dc",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-11-10T12:50:40Z",
+      "side": 1,
+      "message": "The Guardian Project will argue that it doesn\u0027t need active maintenance, because it is a simple app that just works and doesn\u0027t need more changes. They won\u0027t like our statement.",
+      "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0207ca71_6f748bdf",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-11-10T12:50:40Z",
+      "side": 1,
+      "message": "\"remove\" is a strong word. maybe \"In July, we decided to not come back with this feature initially\"",
+      "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f488a21f_f49abc92",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-11-10T12:50:40Z",
+      "side": 1,
+      "message": "I don\u0027t remember us deciding about \"files\" at all. Do we have a plan for removing files?",
+      "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d2297066_50202b4b",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-11-10T12:50:40Z",
+      "side": 1,
+      "message": "Why introduce the \"Lupin\" codename now? Isn\u0027t that confusing? We started with \"CalyxOS App Updater\", what not keep using that?",
+      "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cfd26c3b_f49dcc69",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-11-10T12:50:40Z",
+      "side": 1,
+      "message": "Trichrome library is an implementation detail. Users don\u0027t know what it is nor should they. Also, we don\u0027t even ship Trichrome library anymore, so no need to mention it here.",
+      "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1fa7d2a7_7958dbe5",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-11-10T12:50:40Z",
+      "side": 1,
+      "message": "I\u0027d drop the \"you rely on the most\" suffix. That\u0027s marketing speak and for most users not accurate.",
+      "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d5c85c44_2c2c437b",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-11-10T12:50:40Z",
+      "side": 1,
+      "message": "\u003e  **Fairphone Gen. 6 and 6+**: after the beta phase, we are now officially supporting Fairphone Gen. 6\n\nGen. 6+ ?",
+      "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e02c8674_4e01b62a",
+        "filename": "pages/_posts/2026-11-09-community-update.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-11-10T12:50:40Z",
+      "side": 1,
+      "message": "Should we manage that Nick is a long-time LineageOS developer?",
+      "revId": "9ee29d7a3e76c99fcecdc71f5d634079adc1d2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
