@@ -24,6 +24,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cdd72b6f_55d60fbb",
+        "filename": "pages/docs/guide/app-compatibility/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-11-10T21:02:25Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "15782d3c_602de305",
+      "range": {
+        "startLine": 8,
+        "startChar": 156,
+        "endLine": 8,
+        "endChar": 160
+      },
+      "revId": "d38f5c7099b109be1981d6d9df3991953beeed20",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "01c248e8_ba91aa58",
@@ -37,6 +61,30 @@
       "writtenOn": "2026-11-09T20:07:08Z",
       "side": 1,
       "message": "```suggestion\nA common use of device attestation is fighting spam and bot activity, however it is also used by banking and government apps as a \"security measure\" on Android devices.\n```",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 174
+      },
+      "revId": "d38f5c7099b109be1981d6d9df3991953beeed20",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6840962b_bacf6551",
+        "filename": "pages/docs/guide/app-compatibility/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-11-10T21:02:25Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "01c248e8_ba91aa58",
       "range": {
         "startLine": 10,
         "startChar": 0,
@@ -93,6 +141,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e91f77c6_752ffb2d",
+        "filename": "pages/docs/guide/app-compatibility/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-11-10T21:02:25Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "a088ba01_85cda03f",
+      "range": {
+        "startLine": 15,
+        "startChar": 30,
+        "endLine": 15,
+        "endChar": 50
+      },
+      "revId": "d38f5c7099b109be1981d6d9df3991953beeed20",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e45ed431_81b24a0f",
@@ -129,6 +201,30 @@
       "writtenOn": "2026-11-09T20:07:08Z",
       "side": 1,
       "message": "```suggestion\nPlay Integrity has three attestation levels:\n- BASIC: The device passes basic checks for tampering. This level is the easiest to spoof and CalyxOS reaches BASIC.\n- DEVICE: This level requires Google approving the OS (i.e. certification). On newer Android versions, this also requires a locked bootloader with booting setup that Google recognizes. CalyxOS isn\u0027t certified by Google so it doesn\u0027t pass, even though it runs with a locked bootloader.\n- STRONG. Requires [hardware attestation](https://developer.android.com/privacy-and-security/security-key-attestation) which uses secure hardware on your device to create a proof of the OS running on your device, and cannot be easily spoofed.\n```",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 415
+      },
+      "revId": "d38f5c7099b109be1981d6d9df3991953beeed20",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b70c9288_8bc69548",
+        "filename": "pages/docs/guide/app-compatibility/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-11-10T21:02:25Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "bfbcec76_30aa86df",
       "range": {
         "startLine": 17,
         "startChar": 0,
@@ -185,6 +281,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d03b4147_fff68916",
+        "filename": "pages/docs/guide/app-compatibility/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-11-10T21:02:25Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "0cadcd7c_3712c8e6",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 261
+      },
+      "revId": "d38f5c7099b109be1981d6d9df3991953beeed20",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ed57fc92_1af49298",
@@ -231,6 +351,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f717a900_8e964dd8",
+        "filename": "pages/docs/guide/app-compatibility/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-11-10T21:02:25Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "96282521_cd213b21",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 0
+      },
+      "revId": "d38f5c7099b109be1981d6d9df3991953beeed20",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "334cce15_448490fd",
@@ -244,6 +388,30 @@
       "writtenOn": "2026-11-09T20:07:08Z",
       "side": 1,
       "message": "```suggestion\nA good app to check if Play Integrity is working is [Play Integrity API Checker](https://play.google.com/store/apps/details?id\u003dgr.nikolasspyr.integritycheck).On CalyxOS , the expected result is that BASIC passes, but DEVICE and STRONG don’t.\n```",
+      "range": {
+        "startLine": 33,
+        "startChar": 159,
+        "endLine": 33,
+        "endChar": 176
+      },
+      "revId": "d38f5c7099b109be1981d6d9df3991953beeed20",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7fec8b2e_13d563d3",
+        "filename": "pages/docs/guide/app-compatibility/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-11-10T21:02:25Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "334cce15_448490fd",
       "range": {
         "startLine": 33,
         "startChar": 159,
@@ -277,6 +445,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "df996eb0_d2d69360",
+        "filename": "pages/docs/guide/app-compatibility/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-11-10T21:02:25Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "ccb5e386_a0090f71",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 48
+      },
+      "revId": "d38f5c7099b109be1981d6d9df3991953beeed20",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "51b259a0_0ead6a60",
@@ -300,6 +492,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e75626f6_1693a7d9",
+        "filename": "pages/docs/guide/app-compatibility/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-11-10T21:02:25Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "51b259a0_0ead6a60",
+      "range": {
+        "startLine": 39,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 173
+      },
+      "revId": "d38f5c7099b109be1981d6d9df3991953beeed20",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "302701f7_8315918d",
@@ -313,6 +529,30 @@
       "writtenOn": "2026-11-09T20:07:08Z",
       "side": 1,
       "message": "```suggestion\nAn app may not always be clear as to what is failing: they may just log you out, give a vague error, crash when opened or behave oddly. When that is the case, the best thing to do go through the list above and check each item. Of course, some apps will always require DEVICE and STRONG integrity, and as such will not work on CalyxOS.\n\n#### Not all banks enforce it\nMany of our users have no issues using banking apps, as their banks do not enforce aggressive attestation like Play Integrity.\n\n## How do I know if an app I need/want to use will work?\nA very useful resource is [Plexus](https://plexus.techlore.tech/): a crowdsourced compatibility database for devices running microG, which spans across many alternative operating systems. Users share any needed steps to get apps working, and their experience with the app. It has an F-Droid app where you can see the reviews for the apps or help contribute to it when you\u0027re using CalyxOS!\n```",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 53,
+        "endChar": 409
+      },
+      "revId": "d38f5c7099b109be1981d6d9df3991953beeed20",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "81ab8696_99c2452d",
+        "filename": "pages/docs/guide/app-compatibility/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1000121
+      },
+      "writtenOn": "2026-11-10T21:02:25Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "302701f7_8315918d",
       "range": {
         "startLine": 46,
         "startChar": 0,
