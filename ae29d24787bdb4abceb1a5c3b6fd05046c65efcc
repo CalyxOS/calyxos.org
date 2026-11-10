@@ -90,6 +90,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c06b7ee7_72f5649c",
+        "filename": "pages/_posts/2026-11-10-november-security-updates.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-11-10T18:04:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3dea3343_f926c4c6",
+      "revId": "ae29d24787bdb4abceb1a5c3b6fd05046c65efcc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "af0d6a2d_49216216",

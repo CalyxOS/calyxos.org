@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f25ed02e_8b88f6f5",
+        "filename": "pages/_posts/2026-11-10-november-security-updates.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-11-10T18:04:12Z",
+      "side": 1,
+      "message": "Why change this to \u0027enable\u0027? I don\u0027t think \u0027swipe down for numbers\u0027 was a feature before, so it makes it sound like it was already a thing.",
+      "revId": "8cc4d8f5ad859243aed81d34a7fdf6e09b8b290d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b42f2ef3_edffa9d4",
+        "filename": "pages/_posts/2026-11-10-november-security-updates.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-11-10T18:04:12Z",
+      "side": 1,
+      "message": "```suggestion\n* Fixed microG crashes in map apps and issues with account login\n```",
+      "revId": "8cc4d8f5ad859243aed81d34a7fdf6e09b8b290d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49f259fb_ef1b6bfa",
+        "filename": "pages/_posts/2026-11-10-november-security-updates.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2026-11-10T18:04:12Z",
+      "side": 1,
+      "message": "Not an existing feature?",
+      "revId": "8cc4d8f5ad859243aed81d34a7fdf6e09b8b290d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
