@@ -51,6 +51,7 @@ date: 2026-11-10
 #### Device specific
 
 ##### Fairphone 4, 5, 6
+* Added fallback software bluetooth A2DP routes for LHDC playback
 * Updated the kernel with November security patches
 
 ##### moto g32, g42, g52
@@ -74,6 +75,7 @@ date: 2026-11-10
 * Updated the kernel to android14-6.1-2026-03_r24
 
 ##### SHIFTphone 8
+* Added fallback software bluetooth A2DP routes for LHDC playback
 * Updated the kernel with November security patches
 
 ### Note
