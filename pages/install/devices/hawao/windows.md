@@ -47,7 +47,7 @@ This step might fail if there is no internet connection. In that case, connect t
 ### Download factory image
 
 
-<a class="btn" href="https://release.calyxos.org/factory/hawao/17/hawao-factory-260800520.zip">Download CalyxOS Image</a>
+<a class="btn" href="https://release.calyxos.org/factory/hawao/17/hawao-factory-260800521.zip">Download CalyxOS Image</a>
 
 
 Save this image in the same directory as device-flasher. This image will **only** work for **moto g42 (hawao)**. Any attempt to install this image on a different device model may brick (destroy) the Android device.
@@ -60,10 +60,10 @@ Once downloaded, the next step is to verify the image. This step is optional, bu
 
 To verify the image, open a terminal window on the host computer where you saved the image and run the command:
 
-{% assign image = "https://release.calyxos.org/factory/hawao/17/hawao-factory-260800520.zip" | split: "/" | last %}
+{% assign image = "https://release.calyxos.org/factory/hawao/17/hawao-factory-260800521.zip" | split: "/" | last %}
 {% include install/windows_image_digest.md filename=image %}
 
-And ensure the result says `d7d77840a4c1772d942814204b6d0afc6c3112deec42f805ec68917b40057258`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
+And ensure the result says `284c0f2f4fd6c3248a5afd5fabfcea33a8c45691e9e4c86d5dcb40d0feb9166d`. This is the unique digest of the image file. If it doesn't match, then you have a corrupted or incorrect file.
 
 ## Install CalyxOS
 
